@@ -9,16 +9,16 @@ The final window of the LAUNCH flow is completely customizable and influenced by
 JavaScript is also supported.
 
 Example:
-
-<h1>Congrats - you're connected!</h1>
-
-<button onclick="closeWindow();">OK</button>
-```<script type="text/javascript"> 
- function closeWindow() {
- window.opener.postMessage(JSON.stringify(result), '\*');
- window.close(); 
- }
-</script>```
+```
+    <h1>Congrats - you're connected!</h1>
+    <button onclick="closeWindow();">OK</button>
+    <script type="text/javascript"> 
+        function closeWindow() {
+            window.opener.postMessage(JSON.stringify(result), '\*');
+            window.close(); 
+        }
+    </script>
+```
 
 In the example above, some simple HTML is displayed to the end user with a button that, when clicked, calls the _closeWindow()_ function, which:
 
@@ -27,35 +27,30 @@ In the example above, some simple HTML is displayed to the end user with a butto
 
 The result object has the following properties:
 
-Property
-
-Description
-
-Example
-
-cycleId
-
-The Id of the newly installed integration within your end user’s account
-
-user@example.com
-
-status
-
-A string indicating the status of the newly installation integration cycle.  
-  
-By design, will always be active, unless an issue arose during installation, in which case it will be paused.
-
-active
-
-webhooks\[""\]
-
-An array of URLs representing the endpoints of the webhooks included within the newly installed integration template.  
-  
-This is important where your application needs to send data to Cyclr to trigger the newly installed integration template.  
-  
-Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template.
-
-\["https://webhooks.cyclr.com/Jd78JHd9"\]
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Description</th>
+        <th>Example</th>
+    </tr>
+    <tr>
+        <td>cycleId</td>
+        <td>The Id of the newly installed integration within your end user’s account</td>
+        <td>user@example.com</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>A string indicating the status of the newly installation integration cycle.By design, will always be active, unless an issue arose during installation, in which case it will be paused.</td>
+        <td>active</td>
+    </tr>
+    <tr>
+        <td>webhooks</td>
+        <td>An array of URLs representing the endpoints of the webhooks included within the newly installed integration template.
+This is important where your application needs to send data to Cyclr to trigger the newly installed integration template.
+Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template.</td>
+        <td>["https://webhooks.cyclr.com/Jd78JHd9"]</td>
+    </tr>
+</table>
 
 ### Cross domain issue in IE10
 

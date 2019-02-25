@@ -18,51 +18,46 @@ To restyle the LAUNCH layout add CSS to “**Application Custom CSS**”
 
 Here are some of the available elements within LAUNCH you may want to customise.
 
-**Element**
-
-**CSS Class**
-
-**Explanation**
-
-Create/Active Button
-
-.btn-success
-
-This button is used by the user to select an integration template to setup and activate.
-
-LAUNCH Background
-
-body.launch
-
-Using this allows you to edit the background and colour settings of your instance of LAUNCH.
-
-Application Icons
-
-.icon-sm
-
-Allows you to alter how the application logos are displayed.
-
-Integration Template Description
-
-.template-description
-
-Update the font format for integration descriptions.
+<table>
+    <tr>
+        <th>Element</th>
+        <th>CSS Class</th>
+        <th>Explanation</th>
+    </tr>
+    <tr>
+        <td>Create/Active Button</td>
+        <td>.btn-success</td>
+        <td>This button is used by the user to select an integration template to setup and activate.</td>
+    </tr>
+    <tr>
+        <td>LAUNCH Background</td>
+        <td>body.launch</td>
+        <td>Using this allows you to edit the background and colour settings of your instance of LAUNCH.</td>
+    </tr>
+    <tr>
+        <td>Application Icons</td>
+        <td>.icon-sm</td>
+        <td>Allows you to alter how the application logos are displayed.</td>
+    </tr>
+    <tr>
+        <td>Integration Template Description</td>
+        <td>.template-description</td>
+        <td>Update the font format for integration descriptions.</td>
+    </tr>
+</table>
 
 **Example**
 
-{% raw %}
-.btn-success {
- background-color: #d27;
- border-color: #d27;
- color: #fff;
-}
+    .btn-success {
+        background-color: #d27;
+        border-color: #d27;
+        color: #fff;
+    }
 
-body.launch {
- padding: 20px 20px 20px 20px;
- background-color: #f6f27f;
-}
-
-{% endraw %}
+    body.launch {
+        background-color: #f6f27f;
+        padding: 20px 20px 20px 20px;
+    }
 
 Adding a Custom Header and Footer to LAUNCH
 -------------------------------------------
@@ -85,11 +80,9 @@ Use both of these sections to add any custom messages or images you need to disp
 
 By wrapping your message in a custom Div you can add stylings to the “**Application Custom CSS**” code block to further customise your message. In this case, this was added:
 
-{% raw %}
-.header {
-padding: 20px 0 20px 0;
-}
-{% endraw %}
+    .header {
+        padding: 20px 0 20px 0;
+    }
 
 LAUNCH Complete HTML
 --------------------

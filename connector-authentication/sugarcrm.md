@@ -11,36 +11,41 @@ When installing the SugarCRM connector in one of your customer accounts using Cy
 
 First provide a SugarCRM Domain:
 
-{% raw %}
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \\ 
-
- "Name": "Domain", \\ 
-
- "Value": "myaccount.sugarcrm.eu" \\ 
-
- }' 'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties'
- {% endraw %}
+```
+curl -X POST
+     -H 'Content-Type: application/json' 
+     -H 'Accept: application/json' 
+     -d '{
+            "Name": "Domain",
+            "Value": "myaccount.sugarcrm.eu"
+         }'
+'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties'
+```
 
 SugarCRM Domain should be in the format of “_myaccount.sugarcrm.eu_“. There’s no “https://” or final forward slash if your URL is “_https://myaccount.sugarcrm.eu/_“.
 
 Set up SugarCRM Username and Password as account connector properties:
 
-{% raw %}
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \\ 
+```
+curl -X POST
+     -H 'Content-Type: application/json'
+     -H 'Accept: application/json'
+     -d '{
+            "Name": "Username",
+            "Value": "myuser"
+         }'
+'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties'
+```
 
- "Name": "Username", \\ 
-
- "Value": "myuser" \\ 
-
- }' 'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties'
-
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \\ 
-
- "Name": "Password", \\ 
-
- "Value": "mypassword" \\ 
-
- }' 'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties' 
- {% endraw %}
+```
+curl -X POST 
+     -H 'Content-Type: application/json' 
+     -H 'Accept: application/json'
+     -d '{
+            "Name": "Password",
+            "Value": "mypassword"
+         }'
+'https://api.cyclr.com/v1.0/account/connectors/SUGAR\_ACCOUNT\_CONNECTOR\_ID/properties' 
+ ```
 
 Same as the OAuth Redirect flow, call _/UpdateAccountConnectorOAuth_ with a one-time token. If the Domain, Username and Password are all correctly set up, your end-user will simply be redirected back to your application.

@@ -7,7 +7,7 @@ Events
 
 Events are trigger at certain points allowing you to modify data. Script can be added at both the Connector & Method levels; Connector level event handlers will be called for all methods where as method level will only be called for that method. To add an event handler simply add a javascript function with the event name.
 
-    ````function eventName() { /* Handle event here */ }````
+    function eventName() { /* Handle event here */ }
 
 #### before_webhook
 
@@ -158,14 +158,14 @@ You can write a script to call external API endpoints. This is especially useful
 
 For example, a webhook returns the following object to Cyclr:
 
-````    {
+    {
        "event":"object.updated",
        "api_url":"http://httpbin.org/get"
-    } ````
+    }
 
 Use `http_request` to call `api_url` and replace the webhook response with the updated object:
 
-````    function after_webhook(){
+    function after_webhook() {
       var request = {
         'method': 'GET',
         'url': method_response.api_url,
@@ -177,7 +177,7 @@ Use `http_request` to call `api_url` and replace the webhook response with t
       var content = http_request(request).content;
       method_response = content;
       return true;
-    }````
+    }
     
 
 After calling `api_url`, Cyclr will then replace `method_response` with the content of the HTTP call.
@@ -196,16 +196,16 @@ When calling the `http_request` function, you can specify the request using:
 
 Making use of key value pair responses requires the use of scripting, consider an API that returns the below representation of a contact.
 
-````    {
+    {
        properties: [
          {  "key": "email",
             "value": "example@example.com" }
        ]
-    } ````
+    }
 
 To access the email field we would add a field in the method response with a connector location of **properties.email**. However this would not work as the cyclr is looking in the response for a properties object with a property named email to get the value from. To solve the issue we would add the below function into the method scripts, this function will transform the properties array into an object with properties for each key value pair.
 
-````    function after_action() {
+    function after_action() {
       var original = method_response.properties;
       method_response.properties = {};
     
@@ -222,21 +222,21 @@ To access the email field we would add a field in the method response with a con
       }
     
       return true;
-    }````
+    }
     
 
 Now when cyclr runs the method if will get the following result back and the **properties.email** field will work as expected.
 
- ````   {
+    {
        properties: {
          "email": "example@example.com"
        }
-    }````
+    }
     
 
 For a corresponding request method, e.g. adding a contact, we would need the below function in the method scripts to perform the data transformation in reverse.
 
-````    function before_action() {
+    function before_action() {
         var original = method_request.properties;
         method_request.properties = [];
     
@@ -247,14 +247,14 @@ For a corresponding request method, e.g. adding a contact, we would need the bel
                 });
         }
         return true;
-    }````
+    }
     
 
 #### Modify Parameters
 
 Besides the HTTP request body, you can also use scripting to modify HTTP headers (`method_request_headers`) and query string parameters (`method_request_parameters`).
 
-````    function before_action(){
+    function before_action(){
         var xmlData = '<Records><Record>';
     
         for (var p in method_request) {
@@ -264,7 +264,7 @@ Besides the HTTP request body, you can also use scripting to modify HTTP headers
         xmlData += '</Record></Records>';
         method_request_parameters.xmlData = xmlData;
         return true;
-    }````
+    }
     
 
 In this example, we transformed the method request body to a XML string and saved the string as a new parameter called `xmlData`.
@@ -282,24 +282,24 @@ The scripting engine can be used to catch and handle errors returned from third 
 
 Example: change an error to a warning
 
-````    function after_error() {
+    function after_error() {
       if(method_error.statusCode.toString() == 400 && method_error.reasonPhrase == 'Email Address not valid'){
         method_error.isError = false;
         method_error.isWarning = true;
       }
       return true;
-    }````
+    }
 
 Example: change an error to a success
 
-````    function after_error() {
+    function after_error() {
       if(method_error.statusCode.toString() == 400 && method_error.reasonPhrase == 'Email Address not valid'){
         method_error.isError = false;
         method_error.isSuccess = true;
         method_error.content = '{}';
       }
       return true;
-    }````
+    }
     
 
 #### Limitations

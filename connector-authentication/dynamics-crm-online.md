@@ -9,7 +9,7 @@ Dynamics CRM Online uses OAuth 2. Please sign up for an application on Microsoft
 
 Here is the official documentation for creating an Azure Active Directory application:
 
-[https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications)
+[https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications]()
 
 We will summarise it in a few points:
 
@@ -30,7 +30,7 @@ Below are the details you should provide:
 
 **Required Permissions**: Dynamics CRM Online and Windows Azure Active Directory
 
-3.  Go to Cyclr Console (https://my.cyclr.com/console) > Connectors > Connector Library > Dynamics CRM Online > Setup
+3.  Go to [Cyclr Console](https://my.cyclr.com/console) > Connectors > Connector Library > Dynamics CRM Online > Setup
 
 **Client ID**: This is the Application ID displayed in the portal
 
@@ -45,15 +45,16 @@ Dynamics CRM Online uses OAuth 2 Authorisation Code. The only thing to set up be
 
 To do this, create an account connector property named **Resource**:
 
-{% raw %}
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \\ 
-
- "Name": "Resource", \\ 
-
- "Value": "https://example.crm.dynamics.com" \\ 
-
- }' 'https://api.cyclr.com/v1.0/account/connectors/DYNAMICS\_ACCOUNT\_CONNECTOR\_ID/properties'
- {% endraw %}
+```
+curl -X POST 
+     -H 'Content-Type: application/json' 
+     -H 'Accept: application/json' 
+     -d '{
+            "Name": "Resource",
+            "Value": "https://example.crm.dynamics.com"
+         }'
+'https://api.cyclr.com/v1.0/account/connectors/DYNAMICS_ACCOUNT_CONNECTOR_ID/properties'
+```
 
 After successfully creating the account connector property, you can get a one-time sign-in token and call _/UpdateAccountConnectorOAuth_ to complete the user challenge.
 
