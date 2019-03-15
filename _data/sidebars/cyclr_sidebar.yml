@@ -290,6 +290,10 @@ entries:
             url: /google-connector
             output: web, pdf
 
+          - title: Intercom
+            url: /intercom-connector
+            output: web, pdf
+            
           - title: Salesforce
             url: /salesforce-connector
             output: web, pdf
