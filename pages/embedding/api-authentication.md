@@ -7,8 +7,7 @@ tags: [embedding]
 
 The Cyclr API authentication is provided using [OAuth2](https://oauth.net/2/). OAuth tokens are granted to either manage the partner or access and modify a partner account.
 
-Get access token
-----------------
+### Get access token
 
 You need to get an access token from Cyclr by calling the token endpoint with either your email address &  
 password that you use to login to Cyclr for access the partner API endpoints, or the username & password  
@@ -18,15 +17,19 @@ of an account user to access an account.
 
 **Partner access token**
 
-    POST https://api.cyclr.com/oauth/token
-    client_id={ClientID}&grant_type=password&username={username}&password={password}
-    
+```http
+POST https://api.cyclr.com/oauth/token
+Content-Type: application/x-www-form-urlencoded
+client_id={ClientID}&grant_type=password&username={username}&password={password}
+```
 
 **Account access token**
 
-    POST https://api.cyclr.com/oauth/token
-    client_id={ClientID}&client_secret={AccountID}&grant_type=password&username={username}&password={password}
-    
+```http
+POST https://api.cyclr.com/oauth/token
+Content-Type: application/x-www-form-urlencoded
+client_id={ClientID}&client_secret={AccountID}&grant_type=password&username={username}&password={password}
+```
 
 *   **client_id** – the client ID of the Partner. This can be found in the Cyclr Console.
 *   **client_secret** –  
@@ -37,36 +40,40 @@ of an account user to access an account.
 
 #### Response
 
-    {
-      "access_token":"************",
-      "token_type":"bearer",
-      "expires_in":1209599,
-      "refresh_token":"************",
-      "userName":"************",
-      "clientId":"************",
-      ".issued":"Thu, 24 Nov 2016 16:32:59 GMT",
-      ".expires":"Thu, 08 Dec 2016 16:32:59 GMT"
-    }
+```json
+{
+    "access_token": "************",
+    "token_type": "bearer",
+    "expires_in": 1209599,
+    "refresh_token": "************",
+    "userName": "************",
+    "clientId": "************",
+    ".issued": "Thu, 24 Nov 2016 16:32:59 GMT",
+    ".expires": "Thu, 08 Dec 2016 16:32:59 GMT"
+}
+```
 
 *   **access_token** – the token used when making requests to the API
 *   **expires_in** – the amount of time in seconds until access_token will expire
 *   **refresh_token** – the token that can be used to generate a new access token without the username and  
     password
 
-#### Refresh access token
+### Refresh access token
 
-To refresh an access token, before or after expiry, you need to call the oauth token endpoint with a  
-**grant_type** of  
-**refresh_token** and pass the refresh token that was included with the current access token. Once refreshed  
-the old token will be no longer work.
+To refresh an access token, before or after expiry, you need to call the oauth token endpoint with a **grant_type** of **refresh_token** and pass the refresh token that was included with the current access token. Once refreshed the old token will be no longer work.
 
-    POST https://api.cyclr.com/oauth/token
-    client_id={ClientID}&grant_type=refresh_token&refresh_token={RefreshToken}
+```http
+POST https://api.cyclr.com/oauth/token
+Content-Type: application/x-www-form-urlencoded
+client_id={ClientID}&grant_type=refresh_token&refresh_token={RefreshToken}
+```
 
-#### Calling an API method
+### Calling an API method
 
 To authenticate your requests you need to include the access token in the authorisation http header.
 
-    Authorization: Bearer {AccessToken}
+```http
+Authorization: Bearer {AccessToken}
+```
 
 [View Cyclr’s API Endpoints](./api-endpoints)

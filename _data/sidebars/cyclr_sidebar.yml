@@ -51,6 +51,10 @@ entries:
             url: /embedding-overview
             output: web, pdf
 
+          - title: API Authentication
+            url: /cyclr-api-authentication
+            output: web, pdf
+
           - title: Install a Connector
             url: /install-a-connector
             output: web, pdf
@@ -63,12 +67,12 @@ entries:
             url: /create-custom-connectors
             output: web, pdf
 
-          - title: Notifications
-            url: /notifications
+          - title: Call a Connector Method
+            url: /call-a-connector-method
             output: web, pdf
 
-          - title: API Authentication
-            url: /cyclr-api-authentication
+          - title: Notifications
+            url: /notifications
             output: web, pdf
 
           - title: API Endpoints
