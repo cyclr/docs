@@ -7,7 +7,7 @@ tags: [embedding]
 
 ### Introduction
 
-In this guide, you will use Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.
+In this guide, you will use the Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.
 
 Before you start, make sure you have created an end user account and authenticated a connector.
 
@@ -19,7 +19,7 @@ For more information on getting access tokens, please see [API Authentication](.
 
 ### Get Account Connectors
 
-Let's get a list of installed account connectors from your account, so Cyclr knows which account connector you want to make the request with.
+Let's get a list of installed account connectors from your account so Cyclr knows which account connector you want to make the request with.
 
 #### Request:
 
@@ -31,7 +31,8 @@ Authorization: Bearer **********************************************************
 #### Response:
 
 ```json
-[{
+[
+    {
         "Id": 123,
         "Name": "Salesforce Account 1",
         "Description": "",
@@ -63,7 +64,7 @@ Each method in Cyclr has a *unique external ID*. You can get a list of methods w
 #### Request
 
 ```http
-GET https://api.cyclr.uk/v1.0/account/connectors/{account connector ID}/methods/{method ID}
+GET https://api.cyclr.com/v1.0/account/connectors/{account connector ID}/methods/{method ID}
 Authorization: Bearer ****************************************************************
 ```
 
