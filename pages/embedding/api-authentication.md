@@ -70,7 +70,7 @@ client_id={ClientID}&grant_type=refresh_token&refresh_token={RefreshToken}
 
 ### Calling an API method
 
-To authenticate your requests you need to include the access token in the authorisation http header.
+To authenticate your requests you need to include the access token in the Authorization HTTP header.
 
 ```http
 Authorization: Bearer {AccessToken}
