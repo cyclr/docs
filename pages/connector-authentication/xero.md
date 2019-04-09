@@ -10,25 +10,27 @@ tags: [connector]
 Partner Setup
 -------------
 
-In order to authenticate the connector you must first create a private application.
+In order to authenticate the connector, you must first create a Private Application in Xero.
 
 The official Xero documentation for this process can be found here:
-* [Creating a Private Application](https://developer.xero.com/documentation/auth-and-limits/private-applications)
+[Creating a Xero Private Application](https://developer.xero.com/documentation/auth-and-limits/private-applications)
 
-Once you have successfully created a private application within Xero copy the consumer key as seen in the image below:
+Once you have successfully created a private application within Xero, copy the consumer key as seen in the image below:
 
 ![](./images/consumer_key.PNG)
 
-Paste this value into the Consumer Key field in the Connector Authentication screen:
+Paste this value into the Consumer Key field in the Cyclr Connector Authentication screen:
 
 ![](./images/consumer_key_connector.PNG)
 
-Next open the `privatekey.pem` file, that you generated in creating a private application, in a text editor and copy the whole thing:
+Next open the `privatekey.pem` file - that you generated when creating your private application - in a text editor and copy the contents:
 
 ![](./images/privatekey_text.PNG)
 
-Paste this value into the Private Key field in the Connector Authentication screen, making sure to remove any trailing whitespace:
+Paste this into the Private Key field in the Cyclr Connector Authentication screen, making sure to remove any trailing whitespace:
 
 ![](./images/privatekey_connector.PNG)
 
-Press `Next` and the connector should now be authenticated. At this point it would be a good idea to run test against one of the methods just to make sure that the authentication process has worked.
+Press `Next` and the connector should now be authenticated.
+
+At this point it would be a good idea to run a test against one of the methods, just to make sure the authentication process has been completed successfully.
