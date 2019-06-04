@@ -36,3 +36,5 @@ method_request_parameters.Cyclr_Webhook_Id
 This is the method that the end user will interact with, and act as the trigger step for a cycle.
 Under *Settings* in the method, select Webhook as the *Method Type*, and set both the *Create Webhook Method* and *Delete Webhook Method* fields, select the corresponding method. Once done it should look something like below:
 ![](./images/webhook_example_settings.PNG)
+
+When creating the field mappings for your webhook, the only ones to populate should be *Request Format*. In here you should generate mappings for the data that will be posted to the webhook.
