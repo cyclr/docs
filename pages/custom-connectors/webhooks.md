@@ -7,7 +7,7 @@ tags: [connector-creation, webhooks]
 ### Automatically Instantiated Webhooks Via API Call
 
 When an API supports setting up a webhook, this is often the best option to choose, as it allows the user to create webhooks without having to leave Cyclr.
-This method requires three methods to be created: one will create the webhook in the external site, the other will delete the webhook, and the final will be the webhook shell, in which both of the other methods are called.
+This method requires three methods to be created: one will create the webhook in the external site, the other will delete the webhook, and the final will be the webhook shell, which calls the other methods; the *create* method will be called when the webhook first runs, and the *delete* method will run when the webhook step is deleted from the connector. Both the *create* and *delete* methods should be hidden e.g. `'Your Method' -> Settings -> Hide -> true`.
 
 #### Creating The Webhook
 The method for creating the webhook will be the same as any method which creates a resource, only when you receive the ID in response it will be mapped to a special system field: `Cyclr_Webhook_Id`.
