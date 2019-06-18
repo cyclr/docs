@@ -1,11 +1,11 @@
 ---
-title: Zendesk
+title: Zendesk Authentication
 sidebar: cyclr_sidebar
 permalink: zendesk-connector
 tags: [connector]
 ---
 
-#Zendesk#
+# Zendesk #
 
 Zendesk OAuth 2 Setup:
 ---
