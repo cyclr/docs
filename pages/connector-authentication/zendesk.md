@@ -1,33 +1,17 @@
 ---
-title: Zendesk Webhooks
+title: Zendesk
 sidebar: cyclr_sidebar
 permalink: zendesk-connector
 tags: [connector]
 ---
 
-Webhook Implementation - Closed Tickets
----------------------------------------
+#Zendesk#
 
-  - set Trigger conditions to 'Status' is 'Closed' and/or 'Solved' 
-  - in 'Actions' set 'Notify Target' to required Target 
-  - fields below to be added to Trigger in 'JSON Body'  
+Zendesk OAuth 2 Setup:
+---
 
-{% raw %}
-```json
+In order to setup OAuth 2 in Zendesk log in to your account and go to `Admin -> API -> OAuth Clients` and click the `+` button to setup a new OAuth application.
 
-{ 
-  "TicketId":"{{ticket.id}}", 
-  "ExternalId":"{{ticket.external_id}}", 
-  "Title":"{{ticket.title}}", 
-  "Description":"{{ticket.description}}", 
-  "TicketVia":"{{ticket.via}}", 
-  "Status":"{{ticket.status}}", 
-  "Priority":"{{ticket.priority}}", 
-  "Type":"{{ticket.ticket_type}}" 
-}
-```
-{% endraw %}
+Once you have entered the required information and clicked `Save` you will be shown a Secret.
 
-For further information please check the official Zendesk documentation:
-
-<https://support.zendesk.com/hc/en-us/articles/204890268>
+You will need to copy both your Unique Identifier and Secret, that were created during this setup - into the Client ID and Client Secret fields - in the Zendesk Connector setup in Cyclr - respectively.
