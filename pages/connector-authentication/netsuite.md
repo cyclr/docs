@@ -7,34 +7,52 @@ tags: [connector]
 
 # NetSuite #
 
-Filtering Lists Received
-------------------------
+Filtering Lists of Objects
+---------------
 
-The "List" methods e.g. GET requests which can return multiple items when run, can be filtered to better suite your needs.
-Initially there are the `Field`, `Operater`, and `Value` query fields available if you only need to include one such query.
+The "List" methods, which return multiple items when run, can be filtered to match specified criteria using the following Fields:
 
 - `Field` \*required: is the field in the NetSuite object you wish to filter on for example "name".
-- `Operater` \*required: is the operation you wish to run against the object e.g. "is", "greaterthan" etc. For an extensive list of operations and field types against which they can be used please click [here](https://system.netsuite.com/app/help/helpcenter.nl?fid=section_4345782273.html);]
-- `Value` \*optional: is the value on against which the fields will be compared with using the operation.
+- `Operator` \*required: is the operation you wish to run against the field e.g. "is", "greaterthan", "contains". See the table below for an extensive list of operators and field types against which they can be used.
+- `Value` \*optional: is the value against which the fields will be compared using the Operator value.
 
-Sometimes you will need to refine your results down even further with more filters. In order to add more filters you will need to go to `Step Setup -> Advanced Settings` and add script in the following manner:
+#### Multiple Filter Conditions ####
+
+Sometimes you may need to use more than one filter condition.  To do this you'll need to use some Script to the NetSuite Step to add them in.  In the Builder, click the `Step Setup` button on the NetSuite Step, then choose `Advanced Settings` and enter Script similar to this:
 
 ```javascript
-    function before_action() {
-        method_request_parameters.filter_fields_1 = 'somefield';
-        method_request_parameters.filter_op_1 = 'someoperator';
-        method_request_parameters.filter_val_1 = 'somevalue';
+function before_action() {
+    // Adding a second filter:
+    method_request_parameters.filter_field_2 = 'fieldA';
+    method_request_parameters.filter_op_2 = 'equalto';
+    method_request_parameters.filter_val_2 = 'somevalue';
 
-        method_request_parameters.filter_fields_2 = 'somefield';
-        method_request_parameters.filter_op_2 = 'someoperator';
+    // Adding a third filter:
+    // (this one doesn't require a `Value` property as it uses the "isnotempty" Operator)
+    method_request_parameters.filter_field_3 = 'fieldB';
+    method_request_parameters.filter_op_3 = 'isnotempty';
 
-        return true;
-    }
+    return true;
+}
 ```
 
-You can add any number of filter parameters here in order to achieve your desired result, just increasing the number in an unbroken consecutive order.
+These are the Script properties to use for each filter:
 
-*NOTE:* If you have added filters as connector parameters and want to add more via script, or are wanting to filter in "Get New/Updated" methods then you will need to start the script parameters from 2 e.g. `method_request_parameters.filter_fields_2`, as the first set are already defined by the step itself.
+```javascript
+method_request_parameters.filter_field_X
+method_request_parameters.filter_op_X
+method_request_parameters.filter_val_X
+```
+
+
+You can add any number of filter conditions using Script as you require.  Just be sure that the numbers on the end of the properties are consecutive, without any breaks.  If you add properties for "..._2", "..._3", skip 4 and add them for "..._5", your fifth condition will be ignored.
+
+
+*NOTE:* If you have added filters as connector parameters and want to add more via script, or are wanting to filter in "Get New/Updated" methods then you will need to start the script parameters from "..._2" e.g. `method_request_parameters.filter_field_2`, as the first set are already defined by the step itself.
+
+
+
+#### Operators and Valid Field Types ####
 
 |Search Operator|List/Record|Currency, Decimal Number, Time of Day|Date|Check Box|Document, Image|Email Address, Free-Form Text, Long Text, Password, Percent, Phone Number, Rich Text, Text Area,|Multi Select|
 |--- |--- |--- |--- |--- |--- |--- |--- |
