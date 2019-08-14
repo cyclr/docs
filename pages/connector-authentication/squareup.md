@@ -8,7 +8,7 @@ tags: [connector]
 Authentication With Access Tokens
 ---------------------------------
 
-Access tokens can be used in the connector in order to authenticate both the snadbox and production versions of the Squareup environment. 
+Access tokens can be used in the connector in order to authenticate both the sandbox and production versions of the Squareup environment. 
 
 In order to the access tokens go to the applications page in Squareup found [here](https://developer.squareup.com/apps).
 
