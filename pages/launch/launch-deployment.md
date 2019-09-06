@@ -109,6 +109,16 @@ NJ88GGgv79V79VvYFBBTHUIGYBGY3434345545UYu</td>
         <td>(Optional) Set it to false if you are running LAUNCH in an iFrame and wants OAuth redirect pages to be opened in a popup.</td>
         <td>false</td>
     </tr>
+    <tr>
+        <td>AutoInstall</td>
+        <td>(Optional) Set to false if you don't want Cyclr to automatically install the template when it is only a one available.</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>SingleInstall</td>
+        <td>(Optional) Set to true for templates to only appear in Launch if they are not not already installed in the account.</td>
+        <td>true</td>
+    </tr>
 </table>
 
 ***Response:***
