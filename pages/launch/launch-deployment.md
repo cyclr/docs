@@ -96,7 +96,7 @@ NJ88GGgv79V79VvYFBBTHUIGYBGY3434345545UYu</td>
     </tr>
     <tr>
         <td>RunOnce</td>
-        <td>(Optional)  Defaults to false.  Set it to true if the cycle being installed should only run once, then pause.</td>
+        <td>(Optional) Defaults to false. Set it to true if the cycle being installed should only run once, then pause.</td>
         <td>true</td>
     </tr>
     <tr>
@@ -106,17 +106,17 @@ NJ88GGgv79V79VvYFBBTHUIGYBGY3434345545UYu</td>
     </tr>
     <tr>
         <td>InlineOAuth</td>
-        <td>(Optional)  Defaults to true.  Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
+        <td>(Optional) Defaults to true. Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
         <td>false</td>
     </tr>
     <tr>
         <td>AutoInstall</td>
-        <td>(Optional) Defaults to true so that Cyclr will automatically start installation of a template if only one is returned, avoiding the need for the user to select it.  Set this to false to prevent that, requiring the user to select it instead.</td>
+        <td>(Optional) Defaults to true so that Cyclr will automatically start installation of a template if only one is returned, avoiding the need for the user to select it. Set this to false to prevent that, requiring the user to select it instead.</td>
         <td>false</td>
     </tr>
     <tr>
         <td>SingleInstall</td>
-        <td>(Optional) Defaults to false so that templates are shown whether they have been installed or not.  Set to true to only show templates that aren't installed in the account.</td>
+        <td>(Optional) Defaults to false so that templates are shown whether they have been installed or not. Set to true to only show templates that aren't installed in the account.</td>
         <td>true</td>
     </tr>
 </table>
