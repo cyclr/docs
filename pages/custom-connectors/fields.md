@@ -22,4 +22,4 @@ A mergefields is placeholder will be substituted at runtime.
 
 *   LastSuccessfulRunDate – is the last time the cycle successfully ran the method. This is useful to find newly created or updated records in an app. A format string needs to be provided. For example, _{% raw %}{{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ}}{% endraw %}_.
 
-[View the Custom Connector References](./custom-connector-reference)
+[Add Dynamic Custom Fields](./dynamic-custom-fields)

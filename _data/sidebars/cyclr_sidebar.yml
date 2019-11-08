@@ -210,6 +210,10 @@ entries:
             url: /custom-connector-fields
             output: web, pdf
 
+          - title: Dynamic Custom Fields
+            url: /dynamic-custom-fields
+            output: web, pdf
+
           - title: Reference
             url: /custom-connector-reference
             output: web, pdf
