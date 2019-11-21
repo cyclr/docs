@@ -7,7 +7,7 @@ tags: [connector]
 
 # Dynamics CRM Custom Objects Connector Setup #
 
-This connector is designed so that you are able to work with multiple custom entity types at a time. To do so you will have to install this connector for each custom entity type you wish to work with.
+This connector is designed to work with a single custom entity. When working with more than one, you must install a separate Dynamics CRM connector for each custom entity type.
 
 ### Installation
 
@@ -17,9 +17,9 @@ When setting up the connector you will also have to enter the name of the custom
 
 ![](../images/dynamics_custom_setup.png)
 
-*Note: You will have to add an 's' to the end of the name in order to it to work e.g. `custom_entity` would become `custom_entitys`.*
+*Note: You will have to add an 's' to the end of the name in order for it to function correctly e.g. `custom_item` would become `custom_items`.*
 
-### Adding Request And Response Fields
+### Adding Request and Response Fields
 
 All methods come without request or response fields. Before using the connector you will have to add them where necessary. To add response fields to `GET` methods, go into the connector settings and expand the method you wish to add fields to.
 
