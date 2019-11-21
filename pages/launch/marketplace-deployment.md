@@ -50,7 +50,7 @@ You should use a Cyclr Partner OAuth token as the Bearer token in this request.
     </tr>
     <tr>
         <td>Username</td>
-        <td>The name of the Cyclr account (and Cycrl user) to install this integration in, or to create if such an account (and user) does not already exist.</td>
+        <td>The name of the Cyclr account (and Cyclr user) to install this integration in, or to create if such an account (and user) does not already exist.</td>
         <td>user@example.com</td>
     </tr>    
     <tr>
