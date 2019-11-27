@@ -42,11 +42,10 @@ When the **New Connected App** screen is shown, complete the form as follows:
 
 Tick the **Enable OAuth Settings** box to display further options.
 
-**Callback URL**: you must add 2 callback URLs to allow Salesforce to be used in your Cyclr Console templates as well as your Cyclr accounts.
+**Callback URL**: you must add a callback URL to allow Salesforce to be used in your Cyclr Console and it's accounts.
 
-These URLs are:
+The URLs is:
 
-*   {% raw %}https://{{Your Cyclr console domain e.g. my.cyclr.com or my.cyclr.uk}}/connector/callback{% endraw %}
 *   {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
 **Selected OAuth Scopes**: you must add the following 2 Scopes to enable Cyclr to use your App:

@@ -21,13 +21,13 @@ The official MYOB AccountRight Live documentation for creating an **App** can be
 
 ![MYOB Account Right App Setup](./images/myob-accountright-create-an-app.png)
 
-The **Redirect Uri** value should be set to contain both the URL of your Cyclr console *and* the URL hosting your enduser Accounts, separated by a comma:
+The **Redirect Uri** value should be set to contain the URL hosting your enduser Accounts:
 
-```https://my.cyclr.[com/uk]/connector/callback,https://[Console Service Domain]/connector/callback```
+```https://[Console Service Domain]/connector/callback```
 
 For example:
 
-```https://my.cyclr.com/connector/callback,https://app-h.cyclr.com/connector/callback```
+```https://app-h.cyclr.com/connector/callback```
 
 
 Once you've created your MYOB App, you'll be able to see its **Key** and **Secret** values which are used as the OAuth Client ID and Client Secret, respectively.

@@ -17,7 +17,7 @@ _NOTE: We have experienced issues when using the Safari web browser so would rec
 3. Select the API Tab
 4. Click "Create new token" button, this will display the API Key
 5. Click "Create new Client ID" button, this will display the Client ID
-6. Enter the callback URL using your Cyclr Partner's **Service Domain** into the "Callback URL" field, e.g. <br /> {% raw %}https://app-h.cyclr.com/connector/callback{% endraw %}. <br /> Your Service Domain can be found in your Cyclr Partner Console under Settings > Integration Settings > Service Domain.
+6. Enter the callback URL using your Cyclr Partner's **Service Domain** into the "Callback URL" field, e.g. <br /> {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}. <br /> Your Service Domain can be found in your Cyclr Partner Console under Settings > Integration Settings > Service Domain.
 
 
 Connector Setup

@@ -25,11 +25,10 @@ Here is the official documentation for creating a Capsule OAuth 2 app:
 
     **URL**: Your Cyclr service domain, e.g. https://app-h.cyclr.com/. This can be found in your Cyclr Console under Settings > Integration Settings > Service Domain.
 
-    **Redirect URL**: you must add 2 callback URLs to allow Capsule to be used in your Cyclr Console templates as well as your Cyclr accounts.
+    **Redirect URL**: you must add a callback URL to allow Capsule to be used in your Cyclr Console and it's accounts.
 
-    These URLs are:
+    The URL is:
 
-    *   {% raw %}https://{{Your Cyclr console domain e.g. my.cyclr.com or my.cyclr.uk}}/connector/callback{% endraw %}
     *   {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
     **Application Type**: Web Application

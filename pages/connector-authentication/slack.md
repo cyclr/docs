@@ -21,11 +21,10 @@ After you've created your App, set the **Redirect URLs** under the **Add feature
 ![Slack - Permissions](./images/slack-permissions.png)
 
 
-**Redirect URL**: you must add 2 callback URLs to allow Intercom to be used in your Cyclr Console templates as well as your Cyclr accounts.
+**Redirect URL**: you must add a callback URL to allow Intercom to be used in your Cyclr Console and it's accounts.
 
-These URLs are:
+The URL is:
 
-*   {% raw %}https://{{Your Cyclr console domain e.g. my.cyclr.com or my.cyclr.uk}}/connector/callback{% endraw %}
 *   {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
 Your Cyclr Partner **Service Domain** can be found in your Cyclr Console under Settings > Integration Settings.
