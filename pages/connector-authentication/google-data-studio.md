@@ -27,7 +27,7 @@ From the project you created, open Publish -> Deploy from manifest... and select
 
 ### Data Source Configuration
 
-To get data from the Cyclr connectors you installed, Cyclr needs to know which account you are in and which connector method to call.
+To get data from the Cyclr connectors you have installed, Cyclr needs to know which account they are in and which connector method to call.
 
 ![](../images/google-data-studio/data-sources.png)
 
