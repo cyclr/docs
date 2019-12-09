@@ -32,3 +32,13 @@ In the example above you can see our table ID is "testTable", which is inside of
 Now that you have all of the required data, you can head to your Cyclr console, then to connectors, and then onto connector library which will contain Google BigQuery. Click "Setup" and then enter your "Client ID", "Client Secret", "Project ID", "Table ID" and "Dataset ID".
 
 Your connector is now all setup and ready for your users.
+
+## Allowing Other Users Access To Your Dataset ##
+
+If you would like to allow other users access to operate on your dataset and the tables in said dataset, you can change the permissions of users from the BigQuery console.
+
+To do this, simply click the "Share dataset" button next to the "Create dataset" button when you have the dataset that you would like to share selected. These buttons can be seen below the "Query Editor" screen.
+
+Once you have selected share, you can enter in the email of the user that you would like to share the dataset with. To the right of the input box, you can choose which permissions you would like to give the user, such as "Editor" or "Viewer".
+
+Once you have decided on the users permissions, simply click "Add" and the changes will be made.
