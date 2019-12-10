@@ -28,7 +28,7 @@ First setup OAuth2 within Google Developer Console.
    __Redirect URL:__ Add a callback URL.
    
    The URL is:
-        https://{{Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+        https://app-h.cyclr.com/connector/callback
 
 Now save the Client ID and Client Secret, these settings will be needed later.
 
