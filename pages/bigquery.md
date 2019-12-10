@@ -7,6 +7,10 @@ tags: [connector]
 
 ## Google BigQuery ##
 
+This document will explain what is needed to setup access to Google Big Query and install the connector.
+
+You should install an new connector instance for each table that you wish to access.
+
 ### Setup Google OAuth2 Credentials ###
 
 First setup OAuth2 within Google Developer Console. 
@@ -53,12 +57,16 @@ In the example above, the project ID is "round-bounty-259512" and dataset ID is 
 In the example above table ID is "testTable".
 
 ### Connector Setup ###
+
+You should install an new connector instance for each table that you wish to access.
  
 Click "Setup" and then enter "Client ID", "Client Secret", "Project ID", "Table ID" and "Dataset ID".
 
 The connector is now setup.
 
-## Allowing Other Users Access To a Dataset ##
+### Allowing Other Users Access To a Dataset ###
+
+This section is for reference if another user is neeeded to access the dataset.
 
 To allow other users access to the dataset and the tables, add the user permissions in the BigQuery console.
 
