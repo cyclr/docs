@@ -27,7 +27,7 @@ Box uses OAuth 2.0 for authentication. The following are the steps needed to giv
 
  * Scroll down to find your **Client ID** and **Client Secret**. For Redirect URI enter: https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
 
-> Your Cyclr service domain, e.g. app-h.cyclr.com can be found in your Cyclr Console under Settings > Integration Settings > Service Domain.
+> Your Cyclr service domain, e.g. app-h.cyclr.com can be found in your Cyclmr Console under Settings > Integration Settings > Service Domain.
 
 ![connector setup](./images/box_setup_4.png)
 
