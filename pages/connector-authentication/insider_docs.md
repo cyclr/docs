@@ -31,7 +31,7 @@ In order to send data to Insider, you must initialize a Unifier Field:
 
 4. Make sure this has been selected as your **Unifier**
 
-![unifier field](./images/unifier.png)
+![unifier field](./images/insider_unifier.png)
 
 This will pertain to the **Identifier Email** request field in the Cyclr methods which is a required field.
 
@@ -51,8 +51,8 @@ Now from the **Edit Connector** page within the Cyclr console:
 
 2. Click the **+** sign to bring up the **Add Method Field** form
 
-   ![add custom field](./images/add_cf.png)
-   ![add custom field](./images/cf_form.png)
+   ![add custom field](./images/insider_add_cf.png)
+   ![add custom field](./images/insider_cf_form.png)
 
 3. For a custom **user attribute** the **Field Location** must be:
 
