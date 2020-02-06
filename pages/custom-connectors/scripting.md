@@ -101,6 +101,7 @@ Called before Cyclr makes a request to an external API.
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request_parameters**: Querystring parameters for the request
 *   **method_request_mergefields**: mergefields for the request
+*   **method_response_fields**: returns an array of the methods response connector fields, including custom fields
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
 
