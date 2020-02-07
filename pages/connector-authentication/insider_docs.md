@@ -23,7 +23,7 @@ The connector is now authenticated and ready to use.
 
 In order to send data to Insider, you must initialize a Unifier Field:
 
-1. Go to https://{{AccountName}}.inone.useinsider.com/crm-attributes
+1. Go to https://{AccountName}.inone.useinsider.com/crm-attributes
 
 2. Click **Create New CRM Attribute**
 
@@ -39,7 +39,7 @@ This will pertain to the **Identifier Email** request field in the Cyclr methods
 
 In order for Insider to accept your custom attribute fields they must first be initialized in the Insider console.
 
-1. Go to https://{{AccountName}}.inone.useinsider.com/crm-attributes
+1. Go to https://{AccountName}.inone.useinsider.com/crm-attributes
 
 2. Click **Create New CRM Attribute**
 
@@ -56,13 +56,13 @@ Now from the **Edit Connector** page within the Cyclr console:
 
 3. For a custom **user attribute** the **Field Location** must be:
 
-   - [users].attributes.custom.{{**AttributeName**}} (eg. [users].attributes.custom.hair_color)
+   - [users].attributes.custom.**AttributeName** (eg. [users].attributes.custom.hair_color)
 
    > Note: The **Attribute Name** must be exactly as defined in the Insider console. Eg. case sensitive etc.
 
 4. For a custom **event parameter** the **Field Location** must be:
 
-   - [users].[events].event_params.custom.{{**EventParameterName**}} (eg. [users].[events].event_params.custom.payment_type)
+   - [users].[events].event_params.custom.**EventParameterName** (eg. [users].[events].event_params.custom.payment_type)
 
    > Note: The **Event Parameter Name** does not need to be defined in the Insider console.
 
