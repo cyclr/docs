@@ -11,10 +11,9 @@ tags: [connector]
 
 This document will explain what is needed to setup access to Heartland and install the connector.
 
-### API Key Setup ###
+### Authentication Details Setup ###
 
-1. Go to [https://developer.heartlandpaymentsystems.com/Account/KeysandCredentials](https://developer.heartlandpaymentsystems.com/Account/KeysandCredentials) and sign in.
-2. Create "Production Keys". Copy the "Secret Key".
+1. Sign up to Heartland to get your Site ID, License ID and Device ID.
 
 ### Connector Setup ### 
-In the connector setup enter the "Secret Key" in the API Key area.
+In the connector setup enter the appropriate details, including your username and password, into the appropriate fields.
