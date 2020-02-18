@@ -13,7 +13,7 @@ topnav_dropdowns:
       - title: Resources
         folderitems:
           - title: API Reference
-            external_url: https://cyclr.com/developers/api-reference
+            url: /testing-cyclr-api
           - title: Connector Library
             external_url: https://cyclr.com/connectors
           - title: Changelog
