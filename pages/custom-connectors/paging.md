@@ -197,6 +197,37 @@ API 5 with multiple page tokens
     ]
 {% endraw %}
 
+API 6 with page token and page number
+
+{% raw %}
+    "Parameters": [
+    {
+    "TargetType": "ResponseField",
+    "TargetName": "payload.queryId"
+    "Values": ["CYCLR_PAGE_TOKEN"]
+    "Hide": true
+    },
+    {
+    "TargetType": "QueryString",
+    "TargetName": "queryId"
+    "Values": ["CYCLR_PAGE_TOKEN"]
+    "Hide": true
+    },
+    {
+    "TargetType": "QueryString",
+    "TargetName": "page"
+    "Values": ["CYCLR_PAGE_NUMBER"]
+    "Hide": true
+    },
+    {
+    "TargetType": "QueryString",
+    "TargetName": "pageSize"
+    "Values": ["CYCLR_PAGE_SIZE"]
+    "Hide": true
+    }
+    ]
+{% endraw %}
+
 #### Outbound Paging Variables
 
 Outbound paging only requires one variable to locate the array in the request body. Cyclr identifies when it has “too much” data to pass in one request by comparing it to the **PageSizeOutbound** property. If it has more, it chops the data into multiple requests automatically.
