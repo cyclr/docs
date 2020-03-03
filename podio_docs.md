@@ -48,6 +48,6 @@ The connector includes a method 'List Apps' which you can use to find the ID of 
 
 ### Rate-Limits
 
-For the actions included in this connector Podio imposes a rate limit of 250 calls per hour. As a result calls (including each page request) are staggered at 15 second intervals.
+For most of the actions included in this connector Podio imposes a rate limit of 250 calls per hour. As a result calls (including each page request) are staggered at 15 second intervals.
 
 The maximum page size supported by Podio is 500 objects. If the response to your request contains less than 500 objects you should not experience any delay.
