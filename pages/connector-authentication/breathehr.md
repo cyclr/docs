@@ -9,8 +9,9 @@ tags: [connector]
 
 This document will explain what is needed to setup access to Breathe HR and install the connector.
 
-### Authentication Details Setup ###
-1. Head to your company portal and navigate to the API Setup area (Configure > Settings > API Setup). Enable API access, and note your production API key.
+### Breathe HR Authentication Setup ###
+ * Within the Breathe company portal, navigate to the API Setup area (Configure > Settings > API Setup). 
+ * Enable API access, and note your production API key.
 
 ### Connector Setup ###
-In the connector setup enter the production API key and the connector will authenticate.
+ * In connector setup enter the production API key and the connector will authenticate.
