@@ -15,7 +15,7 @@ The Infusionsoft Connector is authenticated with a Client ID, Client Secret, Use
 
 The Client ID and Client Secret will both come from your Keap developer account. (Keap is the parent company of Infusionsoft)
 
-You will need a devloper account and a registered App. When authenticating the Connector we will link this App to the desired Infusionsoft account using these credentials.
+You will need a developer account and a registered App. When authenticating the Connector we will link this App to the desired Infusionsoft account using these credentials.
 
 1. If you have an account, [log in](https://keys.developer.keap.com/accounts/login). If not, [create an account](https://keys.developer.keap.com/accounts/create)
 
