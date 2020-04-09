@@ -99,8 +99,9 @@ Called before Cyclr makes a request to an external API.
 
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request_parameters**: Querystring parameters for the request
-*   **method_request**: object the will be posted to the third party API
-*   **method_request_mergefields**: mergefields for the request
+*   **method_request**: Object that will be posted to the third party API
+*   **method_request_mergefields**: Mergefields for the request
+*   **method_response_fields**: Array containing the methods response fields
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
 
