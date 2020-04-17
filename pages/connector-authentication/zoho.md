@@ -18,7 +18,7 @@ https://www.zoho.com/accounts/protocol/oauth-setup.html
 
 The redirect URI in your Zoho app should be set as follows:
 
-https://{{**Your Cyclr Service Domain e.g. app-h.cyclr.com**}}/connector/callback
+{% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
 You can find your **Service Domain** within your Cyclr Console from the **Settings** menu then **Integration Settings**.
 
