@@ -36,8 +36,8 @@ Cyclr uses release versioning to track connector history. Promote your draft rel
 
 ## Connector Testing ##
 
-* Go to Integrations and select Design New Integration.
-* When you are in the builder, find Add Connector from the sidebar.
+* Go to ``Templates -> Template Library`` and select ``Design New Template``.
+* When you are in the builder, find ``Add Application`` from the sidebar.
 * If you don’t see your connector in the list, check if you have promoted the draft release.
 * Once your connector is installed, you will be taken back to the builder. You can then drag and drop methods onto the builder and test them.
 
