@@ -60,11 +60,17 @@ You must use a [Cyclr *Partner* OAuth token](./obtain-partner-authorization-toke
 ### Full Request Parameter Reference
 
 <table>
-    <tr>
-        <th>Request Parameter</th>
-        <th>Description</th>
-        <th>Example Value</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Request Parameter</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <th colspan="3">Marketplace, User &amp; Account Details<br/>
+            <small>Parameters required to authorize the user &amp; identify the Marketplace to show and account to install into</small></th>
+        </tr>
+    </thead>
     <tr>
         <td>MarketplaceId</td>
         <td>The numeric ID of the Marketplace to view.<br />
@@ -94,9 +100,15 @@ You must use a [Cyclr *Partner* OAuth token](./obtain-partner-authorization-toke
             If you do not intend your end users to access the Cyclr application directly themselves, this password can be an obscure value known only to your app.</td>
         <td>c0mpl3x_P455w0rd</td>
     </tr>
+    <thead>
+        <tr>
+            <th colspan="3">Partner Connector<br/>
+            <small>Optional parameter to install a pre-authenticated partner connector into the account</small></th>
+        </tr>
+    </thead>
     <tr>
         <td>partnerConnector</td>
-        <td>(Optional) Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
+        <td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
         <td></td>
     </tr>
     <tr>
@@ -124,9 +136,15 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>An array of properties required by the partner connector for successful installation. This is not relevant to all connectors.</td>
         <td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
     </tr>
+    <thead>
+        <tr>
+            <th colspan="3">Marketplace Display Options<br/>
+            <small>Optional parameters to change the display behaviour of Marketplace</small></th>
+        </tr>
+    </thead>
     <tr>
         <td>InlineOAuth</td>
-        <td>(Optional) Defaults to true. Set it to false if you are running Marketplace in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
+        <td>Defaults to true. Set it to false if you are running Marketplace in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
         <td>false</td>
     </tr>
 </table>
