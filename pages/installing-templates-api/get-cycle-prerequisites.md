@@ -9,12 +9,17 @@ tags: [installing]
 
 The Cyclr API can provide information on the prerequisites for a Cycle to run.
 
+Request:
+
+````http
     GET /v1.0/cycles/{Cycle Id}/prerequisites
-    Authorization Bearer 2890edffcb964e8aab038cf4efc340ab62a4f604bd5a41369654086f5bd25519
+    Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 Response
 
-    200 OK
+````json
     [{
         "ReasonCode": 20,
         "Reason": "Unauthenticated connector",
@@ -33,6 +38,7 @@ Response
         "ObjectType": "Action",
         "ObjectId": "709b68ba-394e-4339-9550-abd0312e8dd5"
     }]
+````
 
 In this example, there are the following pre-requisites:
 

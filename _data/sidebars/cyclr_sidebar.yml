@@ -86,20 +86,12 @@ entries:
       - title: Installing Template Integrations
         output: web, pdf
         folderitems:
-          - title: Obtain Partner Authorization Token
-            url: /obtain-partner-authorization-token
+          - title: Obtain Authorization Token
+            url: /obtain-authorization-token
             output: web, pdf
 
           - title: Create an Account
             url: /create-account
-            output: web, pdf
-
-          - title: Create Account User
-            url: /create-account-user
-            output: web, pdf
-
-          - title: Obtain Account Authorization Token
-            url: /obtain-account-authorization-token
             output: web, pdf
 
           - title: Get List Available Templates

@@ -9,40 +9,35 @@ _**Your users will be required to provide authentication information before Cycl
 
 Cyclr supports three types of connector authentication:
 
-<table>
-    <tr>
-        <th>API Key</th>
-        <td>Your user will provide an API Key from the third party application that gives access to the third party API</td>
-    </tr>
-    <tr>
-        <th>HTTP Basic</th>
-        <td>Your user will provide a username and password to access the third Party API</td>
-    </tr>
-    <tr>
-        <th>OAuth</th>
-        <td>Your user will be taken through an OAuth flow which will generate a token that can be used to access the third party API</td>
-    </tr>
-</table>
+| **API Key** | Your user will provide an API Key from the third party application that gives access to the third party API |
+| **HTTP Basic** | Your user will provide a username and password to access the third Party API |
+| **OAuth** | Your user will be taken through an OAuth flow which will generate a token that can be used to access the third party API |
 
 For each connector requiring authentication, take your user through the appropriate flow.
 
 Check the authentication type that the installed Account Connector requires.
 
-    GET /v1.0/account/connectors/36328
-    Authorization Bearer 2890edffcb964e8aab038cf4efc340ab62a4f604bd5a41369654086f5bd25519
+Request:
+
+````http
+    GET /v1.0/account/connectors/0
+    Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 Response:
 
+````json
     {
-        "Id": 36328,
+        "Id": 0,
         "Name": "Pipedrive",
         "Description": null,
         "AuthValue": null,
         "Authenticated": false,
         "Connector": {
-            "Id": 2550,
+            "Id": 0,
             "Name": "Pipedrive",
-            "Description": "Sales CRM for small teams with big ambitions. This connector authenticates you via an API key.",
+            "Description": "Sales CRM for small teams with big ambitions.",
             "Status": "Approved",
             "Version": "1.0",
             "Icon": null,
@@ -55,6 +50,7 @@ Response:
         "Properties": [],
         "CustomFields": []
     }
+````
 
 In this example, the AuthType for this Account Connector is ApiKey.
 

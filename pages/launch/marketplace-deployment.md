@@ -53,8 +53,7 @@ curl -X POST
 
 In the examples above, replace *yourCyclrInstance* with *api.cyclr.com*, *api.cyclr.uk*, or your own domain if your Cyclr instance is self-hosted.
 
-You must use a [Cyclr *Partner* OAuth token](./obtain-partner-authorization-token) as the Bearer token in this Request.  
-
+You should use a non-account restricted OAuth token as the Authorization for this request.
 
 
 ### Full Request Parameter Reference

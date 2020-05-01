@@ -5,87 +5,113 @@ permalink: cyclr-api-authentication
 tags: [embedding]
 ---
 
-Cyclr API authentication is provided using [OAuth2](https://oauth.net/2/).
+Authentication with the Cyclr API is provided using the [OAuth 2.0](https://oauth.net/2/) Password Grant flow.
 
-OAuth access tokens are granted to either manage the partner level, or access and modify a partner account.
+### Get Access & Refresh Tokens
 
-### Get access token
+To get an access token you need to call the Cyclr API OAuth token endpoint
 
-To get an access token from Cyclr you call the "/token" endpoint with different details, depending on where you wish to work.
+https://\{you-instance-url\}/oauth/token
 
-**To receive a Partner access token**
-Provide the email address and password you use to access your Cyclr Partner Console.
+#### Required parameters
 
-**To receive an Account access token**
-Provide the username and password of an account user.
+| Parameter | Description | Example |
+| --- | --- | --- |
+| client_id | Identifies the Cyclr Partner the token is for | abcdefg |
+| grant_type | Identifies the OAuth flow being used. Must be password | password |
+| username | Username of the user generating the token | you%40example.com |
+| password | Password for the user generating the token | abc123 |
 
-#### Request
-
-**Partner access token**
-
-```http
-POST https://yourCyclrInstance/oauth/token
-Content-Type: application/x-www-form-urlencoded
-
-client_id={ClientID}&grant_type=password&username={username}&password={password}
-```
-
-**Account access token**
+#### Example Request
 
 ```http
 POST https://yourCyclrInstance/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
-client_id={ClientID}&client_secret={AccountID}&grant_type=password&username={username}&password={password}
-```
+client_id=abcdefg&grant_type=password&username=you%40example.com&password=abc123
+````
 
-- **yourCyclrInstance** – your Cyclr instance URL. This could be one of the following: *api.cyclr.com* if your Cyclr account is hosted on our US instance; *api.cyclr.uk* if it's on our UK instance; your own domain if your Cyclr instance is self-hosted.
-- **client_id** – the client ID of the Partner. This can be found in the Cyclr Console.
-- **client_secret** –  
-    _(Optional)_ the ID of the account this token is for
-- **grant_type** – the Cyclr Partner API only supports the **password** grant\_type
-- **username** – the username of the authenticating user
-- **password** – the password of the user
-
-#### Response
+#### Example Response
 
 ```json
 {
-    "access_token": "************",
     "token_type": "bearer",
-    "expires_in": 1209599,
+    "access_token": "************",
     "refresh_token": "************",
+    "expires_in": 1209599,
     "userName": "************",
-    "clientId": "************",
-    ".issued": "Thu, 24 Nov 2016 16:32:59 GMT",
-    ".expires": "Thu, 08 Dec 2016 16:32:59 GMT"
+    "clientId": "************"
 }
 ```
 
-- **access_token** – the token to use when making requests to the Cyclr API
-- **expires_in** – the amount of time in seconds until access_token will expire
-- **refresh_token** – the token that can be used to generate a new access token without needing to provide username and  
-    password details.    See *Refresh access token* below.
+| Parameter | Description |
+| --- | --- |
+| token_type | The type of token, this is always bearer |
+| access_token | Token to use when making requests to the Cyclr API |
+| refresh_token | Token that can be used to generate a new access token without needing to provide username and password |
+| expires_in | The amount of time in seconds until access_token will expire |
+| userName | Username provided when getting the token |
+| clientId | Client ID provided when getting the token |
 
-### Refresh access token
+### Using the Access Token
 
-To obtain a new access token - before or after it has expired - you call the OAuth "/token" endpoint with a **grant_type** of **refresh_token** and pass the refresh token that was included with the current access token. Once used, the old access and refresh tokens will no longer be valid.
+All calls to the Cyclr must provide the access token in the Authorize HTTP request header.
+
+```http
+Authorization: Bearer {access_token}
+````
+
+#### Accessing Account Methods
+
+For any calls to API methods that relate to an account the ID of the account must be provided as a HTTP header in the request.
+
+```http
+X-Cyclr-Account: {AccountID}
+````
+
+### Refreshing the Access Token
+
+The access_token will expire and stop authenticating, to continue using the token a refresh must be made. This can happen before or after the access_token has expired.
+To refresh the access_token we will call the /oauth/token endpoint again, but with different parameters. Once used the refresh_token and access_token are no longer valid, you should from then on use the new tokens returned from the refresh call.
+
+| Parameter | Description | Example |
+| --- | --- | --- |
+| client_id | Identifies the Cyclr Partner the token is for | abcdefg |
+| grant_type | Identifies the OAuth flow being used. Must be refresh_token | refresh_token |
+| refresh_token | The refresh_token that was provided with the access token | abcdegfhigjk123xyz |
+
+#### Example Request
 
 ```http
 POST https://yourCyclrInstance/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
-client_id={ClientID}&grant_type=refresh_token&refresh_token={RefreshToken}
+client_id=abcdefg&grant_type=refresh_token&refresh_token=abcdegfhigjk123xyz
 ```
 
-Refresh tokens from Cyclr's API don't expire so you can keep them until you need to obtain a new access token.
+#### Example Response
 
-### Calling an API method
-
-To authenticate your requests you need to include the access token in the Authorization HTTP header.
-
-```http
-Authorization: Bearer {AccessToken}
+```json
+{
+    "token_type": "bearer",
+    "access_token": "************",
+    "refresh_token": "************",
+    "expires_in": 1209599,
+    "userName": "************",
+    "clientId": "************"
+}
 ```
 
-[View Cyclr’s API Endpoints](./cyclr-api-endpoints)
+| Parameter | Description |
+| --- | --- |
+| token_type | The type of token, this is always bearer |
+| access_token | Token to use when making requests to the Cyclr API |
+| refresh_token | Token that can be used to generate a new access token without needing to provide username and password |
+| expires_in | The amount of time in seconds until access_token will expire |
+| userName | Username provided when getting the token |
+| clientId | Client ID provided when getting the token |
+
+
+### Account Restricted Tokens
+
+If required you can restrict access_tokens to only work for a specific account by including the account ID as client_secret parameter when getting and refreshing tokens.

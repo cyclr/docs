@@ -9,12 +9,17 @@ _**A Cycle is an instance of a Template installed within an Account.**_
 
 Install a new Cycle into an Account, based on one of the available Templates.
 
+Request:
+
+````http
     POST templates/{Template ID}/install
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 Response:
 
-    200 OK
+````json
     {
         "Id": "cf636e9c-13dd-47ea-b0e8-88a5bf7f7b00",
         "CreatedOnUtc": "2017-12-06T16:21:46.0499829Z",
@@ -47,6 +52,7 @@ Response:
     "LogStepDataRequests": true,
     "TemplateId": "7ad2265e-2ff0-477b-b913-cae1dfde2ea8"
 }
+````
 
 Installing the Template will also install all the Connectors required for the Cycle to run.
 

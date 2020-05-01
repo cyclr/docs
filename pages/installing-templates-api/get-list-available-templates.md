@@ -9,11 +9,19 @@ _**Templates are integrations built by you in the Console’s drag-and-drop buil
 
 Retrieve a list of templates available to the Account you wish to install one for.
 
+Request:
+
+````http
     GET /v1.0/templates
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
+
+**X-Cyclr-Account** is the ID of the account we are installing the template into
 
 Response:
 
+````json
     [
         {
             "Name": "Pipedrive > MailChimp",
@@ -37,5 +45,6 @@ Response:
             ]
         }
     ]
+````
 
 [How to Install a Template](./install-from-template)

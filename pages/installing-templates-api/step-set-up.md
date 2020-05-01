@@ -9,11 +9,17 @@ _**Templates in Cyclr may include steps that require mapping or parameter values
 
 If the Cycle prerequisites method returned Steps that required mapping, you need to loop through them to determine what is required.
 
+Request:
+
+````http
     GET /steps/{Step ID}/prerequisites
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 Response:
 
+````json
     [{
             "ReasonCode": 40,
             "Reason": "Missing parameter mapping",
@@ -51,5 +57,6 @@ Response:
             "ObjectId": 283796
         }
     ]
+````
 
 [How to Set Step Parameters](./set-step-parameters)

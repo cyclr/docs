@@ -5,13 +5,7 @@ permalink: install-a-connector
 tags: [embedding]
 ---
 
-This article will guide you through installing a connector into an account. You must already have an [Account Access Token](obtain-account-authorization-token).
-
-1.  [Getting the connector ID](#1)
-2.  [Installing the connector](#2)
-3.  [Authenticating OAuth connectors](#3)
-
-* * *
+This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).
 
 ### Getting the connector ID
 
@@ -19,16 +13,15 @@ You need the ID of a connector before you can install it. You can find a connect
 
 #### Request
 
+```http
     GET https://yourCyclrInstance/v1.0/connectors HTTP/1.1
-    User-Agent: Fiddler
-    Host: yourCyclrInstance
     Authorization: Bearer ****************************************************************
-    
-
-JavaScript
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 #### Response
 
+````json
     [
        {  
           "Id":1,
@@ -44,10 +37,7 @@ JavaScript
        },
        {...}
     ]
-
-JSON
-
-* * *
+````
 
 ### Installing the connector
 
@@ -55,38 +45,25 @@ Now that you have a connector ID, the connector can be installed by calling the 
 
 #### Body parameters
 
-<table>
-    <tr>
-        <th>Name</th>
-        <td>The name for the installed connector</td>
-    </tr>
-    <tr>
-        <th>Description</th>
-        <td>_(Optional)_ Any description for the installed connector</td>
-    </tr>
-    <tr>
-        <th>AuthValue</th>
-        <td>_(Optional)_ Authentication value for the third party API that will be used by the connector. Provide username  
-and password as base64 (username:password), provide API keys as plain text. OAuth can only be provided if you  
-have your own OAuth flow implementation. To use Cyclr’s implementation see the next step.</td>
-    </tr>
-</table>
-
-* * *
+| Parameter | Description |
+| --- | --- |
+| **Name** | The name for the installed connector |
+| **Description** | _(Optional)_ Any description for the installed connector |
+| **AuthValue** | _(Optional)_ Authentication value for the third party API that will be used by the connector. Provide username and password as base64 (username:password), provide API keys as plain text. OAuth can only be provided if you have your own OAuth flow implementation. To use Cyclr’s implementation see the next step. |
 
 #### Request
 
-    POST https://yourCyclrInstance/v1.0/connectors/1/install HTTP/1.1
-    User-Agent: Fiddler
+````http
+    POST https://yourCyclrInstance/v1.0/connectors/1/install
     Authorization: Bearer ****************************************************************
-    Host: yourCyclrInstance
-    Content-Length: 49
-    Content-Type: application/json
-    
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+
     {"Name":"Example", "AuthValue":"example-api-key"}
+````
 
 #### Response
 
+````json
     {  
        "Id": 1,
        "Name":"Example",
@@ -95,10 +72,9 @@ have your own OAuth flow implementation. To use Cyclr’s implementation see the
        "Connector":{ ... },
        ...
     }
+````
 
 The connector is now installed into the account, if the connector doesn’t use OAuth you’re all done; otherwise, read on to authenticate with OAuth.
-
-* * *
 
 ### Authenticating OAuth connectors
 
@@ -106,46 +82,30 @@ If the connector requires an OAuth authentication to work with the third party A
 
 #### Request
 
-    POST https://yourCyclrInstance/v1.0/accounts/tokens HTTP/1.1
-    User-Agent: Fiddler
+````http
+    POST https://yourCyclrInstance/v1.0/accounts/tokens
     Authorization: Bearer ****************************************************************
-    Host: yourCyclrInstance
-    Content-Length: 0
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 #### Response
 
+````json
     {
       "Token":"***************************************",
       "ExpiresAtUtc":"2017-11-29T16:22:36.7257196Z"
     }
+````
 
 Now you have a sign in token, you can "build" the URL to send the user to where they will begin the OAuth flow.
 
 #### URL & Querystring
 
-<table>
-    <tr>
-        <th>URL</th>
-        <td>https://[Partner Service Domain]/connectorauth/updateaccountconnectoroauth</td>
-    </tr>
-    <tr>
-        <th>id</th>
-        <td>This is the ID of the installed connector from the response when [installing the connector](#2).</td>
-    </tr>
-    <tr>
-        <th>token</th>
-        <td>The account sign in token.</td>
-    </tr>
-    <tr>
-        <th>targetOrigin</th>
-        <td>Specifies what the origin of the other window must be for the javascript callback event to be dispatched. If  
-the callback message is null we will redirect to the targetOrigin.</td>
-    </tr>
-    <tr>
-        <th>callbackMessage</th>
-        <td>(Optional) Callback message to be sent to the parent window.</td>
-    </tr>
-</table>
+| **URL** | https://[Partner Service Domain]/connectorauth/updateaccountconnectoroauth |
+| **id** | This is the ID of the installed connector from the response when [installing the connector](#installing-the-connector) |
+| **token** | The account sign in token |
+| **targetOrigin** | Specifies what the origin of the other window must be for the javascript callback event to be dispatched. If the callback message is null we will redirect to the targetOrigin |
+| **callbackMessage** | (Optional) Callback message to be sent to the parent window |
 
 #### Example built URL
 

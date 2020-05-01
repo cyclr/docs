@@ -9,23 +9,31 @@ _**For connectors that are authenticated using an API key provided by the 3rd pa
 
 Your user’s API Key will need to be collected in your application and sent to Cyclr like below, this can be done for both unauthenticated and authenticated connectors.
 
+Request:
+
+````http
     PUT /v1.0/account/connectors/{Account Connector ID}
+    Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+
     {
         "AuthValue": "0000000000000000000000000000000000000000"
     }
+````
 
 Response:
 
+````json
     {
-        "Id": 36328,
+        "Id": 0,
         "Name": "Pipedrive",
         "Description": null,
-        "AuthValue": "f3f1736d3c4c587469a7ba06558d744ec8f32ec3",
+        "AuthValue": "0000000000000000000000000000000000000000",
         "Authenticated": true,
         "Connector": {
-            "Id": 2550,
+            "Id": 0,
             "Name": "Pipedrive",
-            "Description": "Sales CRM for small teams with big ambitions. This connector authenticates you via an API key.",
+            "Description": "Sales CRM for small teams with big ambitions.",
             "Status": "Approved",
             "Version": "1.0",
             "Icon": null,
@@ -38,6 +46,7 @@ Response:
         "Properties": [],
         "CustomFields": []
     }
+````
 
 [HTTP Basic Authentication](./basic-authentication)  
 [OAuth Authentication](./oauth-authentication)  

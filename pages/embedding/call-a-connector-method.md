@@ -11,12 +11,6 @@ In this guide, you will use the Cyclr API to call a connector method. Cyclr will
 
 Before you start, make sure you have created an end user account and authenticated a connector.
 
-### Account Access Token
-
-You need to have a valid **Account** access token to make API calls on your user's behalf.
-
-For more information on getting access tokens, please see [API Authentication](./cyclr-api-authentication).
-
 ### Get Account Connectors
 
 Let's get a list of installed account connectors from your account so Cyclr knows which account connector you want to make the request with.
@@ -26,6 +20,7 @@ Let's get a list of installed account connectors from your account so Cyclr know
 ```http
 GET https://yourCyclrInstance/v1.0/account/connectors
 Authorization: Bearer ****************************************************************
+X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
 
 #### Response:
@@ -66,6 +61,7 @@ Each method in Cyclr has a *unique external ID*. You can get a list of methods w
 ```http
 GET https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
 Authorization: Bearer ****************************************************************
+X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
 
 #### Response
@@ -98,6 +94,7 @@ If the method you are calling requires any field or parameter to be passed to th
 POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
+X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
 {
     "Parameters": {

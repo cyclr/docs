@@ -13,18 +13,27 @@ This process is simpler than it sounds.
 
 First of all an Account Sign-In Token needs to be generated for the User see below.
 
-    POST /v1.0/accounts/tokens
-    Authorization: Bearer 0000000000000000000000000000000000000000000000000000000000000000
+Request:
+
+````http
+    POST /v1.0/accounts/tokens{Account Connector ID}
+    Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+
+
+````
 
 Response:
 
+````json
     {
         "Token": "ABCD12340000000000000=",
         "ExpiresAtUtc": "2017-12-08T11:02:48.7436471Z"
     }
+````
 
 The user should then be sent, in their browser, to: \
-_https://[Partner Service Domain]/connectorauth/updateaccountconnectoroauth?id={Account Connector ID}&token={Account Sign-In Token}_
+_https://{Partner Service Domain}/connectorauth/updateaccountconnectoroauth?id={Account Connector ID}&token={Account Sign-In Token}_
 
 e.g.: 
 
@@ -32,20 +41,11 @@ https://app-h.cyclr.com/connectorauth/updateaccountconnectoroauth?id=1234&token=
 
 The following query string parameters can also be included:
 
-<table>
-    <tr>
-        <th>token</th>
-        <td>The account sign-in token generated above. <br/>Example: ABCD12340000000000000=</td>
-    </tr>
-    <tr>
-        <th>targetOrigin</th>
-        <td>Either the origin of the other window for the JavaScript callback event to be dispatched or a URL to redirect the user to after the OAuth authentication is completed.<br/>Example: https://partner.cyclr.com/connectors</td>
-    </tr>
-    <tr>
-        <th>callbackMessage</th>
-        <td>Callback message to be sent by JavaScript postMessage to the parent window, don’t include if using redirect.<br/>Example: done</td>
-    </tr>
-</table>
+| Parameter | Description | Example |
+| --- | --- | --- |
+| **token** | The account sign-in token generated above | ABCD12340000000000000= |
+| **targetOrigin** | Either the origin of the other window for the JavaScript callback event to be dispatched or a URL to redirect the user to after the OAuth authentication is completed | https://partner.cyclr.com/connectors |
+| **callbackMessage** | Callback message to be sent by JavaScript postMessage to the parent window, don’t include if using redirect | done |
 
 Remember to URL encode all parameter values.
 

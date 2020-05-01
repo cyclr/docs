@@ -5,15 +5,21 @@ permalink: field-mapping-with-step-data
 tags: [installing]
 ---
 
-#### **_A Step Data mapping uses a value from a previous step response as the value for this steps request._**
+**_A Step Data mapping uses a value from a previous step response as the value for this steps request._**
 
 Cyclr provides an endpoint to discover valid field mapping options for a given step.
 
+Request:
+
+````http
     GET /v1.0/steps/{Step ID}/fieldsformapping
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
+    X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
+````
 
 Response:
 
+````json
     [{
             "Id": 283797,
             "Name": "Member ID",
@@ -169,6 +175,7 @@ Response:
             "Triggers": []
         }
     ]
+````
 
 [Value List Mapping](./value-list-mapping)  
 [Static Value Mapping](./static-value-mapping)  

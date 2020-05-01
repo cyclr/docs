@@ -15,12 +15,16 @@ You can quickly get all the published templates using the following request:
 
 #### Request
 
-    curl -X GET \
-    -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+````bash
+    curl -X GET
+    -H "Authorization: Bearer ${ACCESS_TOKEN}"
+    -H "X-Cyclr-Account: 00000000-0000-0000-0000-000000000000"
     "https://yourCyclrInstance/v1.0/templates"
+````
 
 #### Response
 
+````json
     [
       {
         "Name": "MailChimp New Subscriber",
@@ -44,17 +48,22 @@ You can quickly get all the published templates using the following request:
         ]
       }
     ]
+````
 
 To filter your templates by a specific connector, simply add some parameters to fire a more complex request:
 
 #### Request
 
-    curl -X GET \
-     -H "Authorization: Bearer ${ACCESS_TOKEN}" \
-     "https://yourCyclrInstance/v1.0/templates?pageSize=10&page=1&orderBy=Name&sortOrderAsc=true&connectorName=MailChimp&connectorVersion=3.0&includeIcons=true"
+````bash
+    curl -X GET
+    -H "Authorization: Bearer ${ACCESS_TOKEN}"
+    -H "X-Cyclr-Account: 00000000-0000-0000-0000-000000000000"
+    "https://yourCyclrInstance/v1.0/templates?pageSize=10&page=1&orderBy=Name&sortOrderAsc=true&connectorName=MailChimp&connectorVersion=3.0&includeIcons=true"
+````
 
 ### Displaying Templates
 
+````html
     <div class='container' data-bind="foreach: templates">
     <div class="card">
         <div class="card-body">
@@ -70,6 +79,7 @@ To filter your templates by a specific connector, simply add some parameters to 
             </div>
         </div>
     </div>
+````
 
 You can see here we just listed all the templates in rows with their connector icons.
 
@@ -83,16 +93,20 @@ Now that all the templates have been displayed, let’s start the installation. 
 
 #### Request
 
-    curl -X POST \
-    -H "Authorization: Bearer ${ACCESS_TOKEN}" \
-    -H "Content-Type: application/json" \
-    -H "Accept: application/json" -d '{ \
-        "Name": "My MailChimp Cycle" \ 
-    }' \
+````bash
+    curl -X POST
+    -H "Authorization: Bearer ${ACCESS_TOKEN}"
+    -H "X-Cyclr-Account: 00000000-0000-0000-0000-000000000000"
+    -H "Content-Type: application/json"
+    -H "Accept: application/json" -d '{
+        "Name": "My MailChimp Cycle"
+    }'
     "https://yourCyclrInstance/v1.0/templates/885662c2-de28-4760-bec4-2407120ac5f8/install?includeIcons=false"
+````
 
 #### Response
 
+````json
     {
         "Id": "aa08a1fe-9a42-4650-88b4-f6f8068cddeb",
         "CreatedOnUtc": "2017-11-30T12:15:03.878Z",
@@ -125,6 +139,6 @@ Now that all the templates have been displayed, let’s start the installation. 
         "LogStepDataRequests": true,
         "TemplateId": "885662c2-de28-4760-bec4-2407120ac5f8)"
     }
-    
+````
     
 Once a template is installed, you can save its cycle ID `aa08a1fe-9a42-4650-88b4-f6f8068cddeb` in your database for future reference.
