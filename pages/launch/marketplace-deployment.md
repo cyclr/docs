@@ -11,10 +11,10 @@ For example:
 
 ![Generic Host Application](./images/generic-host-app.png)
 
-When a user clicks the **Connect** button, your application server should make a request towards the Cyclr REST API's _/v1.0/users/marketplace_ endpoint:
+When a user clicks the **Connect** button, your application server should make a request towards the Cyclr REST API's _/v1.0/accounts/{AccountId}/marketplace_ endpoint:
 
-### Example Request to create a new Cyclr Account and obtain a Marketplace URL
-This would create a new Cyclr Account, a new Cyclr User within that Account, and install a platform's Cyclr Connector into it using the **partnerConnector** object.  You can use the **partnerConnector** object to provide authentication details and other properties, to avoid your user having to set it up themselves.
+### Request
+
 ```
 curl -X POST
 -H "Authorization: Bearer ${ACCESS_TOKEN}"
@@ -22,41 +22,18 @@ curl -X POST
 -H "Accept: application/json"
 
 -d '{
-    "MarketplaceId": 27
-    "Username": "user@example.com", 
-    "Password": "password",
-    "AccountName": "Customer X",
+    "MarketplaceId": 123,
     "partnerConnector": {
         "Name": "Connector Name",
         "Version": "1.0",
         "AuthValue": "00000000000000000000000000000000000000000",
         "Properties": [{"Name": "Url", "Value": "https://myapp.something.blah"}]
     }
-}' "https://yourCyclrInstance/v1.0/users/marketplace"
+}' "https://yourCyclrInstance/v1.0/accounts/0000000-0000-0000-0000-000000000000/marketplace"
 ```
-
-### Example Request to use an existing Cyclr Account and obtain a Marketplace URL
-This tells Cyclr the existing Account to work against and the Cyclr User to impersonate.
-```
-curl -X POST
--H "Authorization: Bearer ${ACCESS_TOKEN}"
--H "Content-Type: application/json"
--H "Accept: application/json"
-
--d '{
-    "MarketplaceId": 27
-    "Username": "user@example.com", 
-    "Password": "password",
-    "AccountId": "0000000-0000-0000-0000-000000000000"
-}' "https://yourCyclrInstance/v1.0/users/marketplace"
-```
-
 In the examples above, replace *yourCyclrInstance* with *api.cyclr.com*, *api.cyclr.uk*, or your own domain if your Cyclr instance is self-hosted.
 
 You should use a non-account restricted OAuth token as the Authorization for this request.
-
-
-### Full Request Parameter Reference
 
 <table>
     <thead>
@@ -66,38 +43,20 @@ You should use a non-account restricted OAuth token as the Authorization for thi
             <th>Example</th>
         </tr>
         <tr>
-            <th colspan="3">Marketplace, User &amp; Account Details<br/>
-            <small>Parameters required to authorize the user &amp; identify the Marketplace to show and account to install into</small></th>
+            <th colspan="3">Marketplace &amp; Account<br/>
+            <small>Parameters required to identify the Marketplace to show and account name</small></th>
         </tr>
     </thead>
     <tr>
         <td>MarketplaceId</td>
         <td>The numeric ID of the Marketplace to view.<br />
             You can find this through your Cyclr Console in your web browser's address bar after pressing **Edit** on your Marketplace, e.g.: https://my.cyclr.uk/console/2/marketplaces/category?categoryId=27</td>
-        <td>27</td>
-    </tr>
-    <tr>
-        <td>AccountId</td>
-        <td>If the Cyclr Account you wish to work with already exists, specify its Id here.
-            If it doesn't exist, provide a value in the AccountName property instead.</td>
-        <td>0000000-0000-0000-0000-000000000000</td>
+        <td>123</td>
     </tr>
     <tr>
         <td>AccountName</td>
-        <td>If the Cyclr Account you wish to work with already exists, ignore this property and specify its Id in AccountId.
-            If it doesn't exist, use this property to provide a name for a new Cyclr Account.</td>
-        <td>New Cyclr Account</td>
-    </tr>
-    <tr>
-        <td>Username</td>
-        <td>The email address of an existing User to impersonate, or a new User to create.</td>
-        <td>user@example.com</td>
-    </tr>
-    <tr>
-        <td>Password</td>
-        <td>The password of the existing User specified in the Username parameter, or the password to assign them if they don't exist.
-            If you do not intend your end users to access the Cyclr application directly themselves, this password can be an obscure value known only to your app.</td>
-        <td>c0mpl3x_P455w0rd</td>
+        <td>(Optional) If the account ID doesn't exist it will be created, you can include a name for the account otherwise the ID will be used as the name.</td>
+        <td>New Cyclr Account Name</td>
     </tr>
     <thead>
         <tr>
@@ -148,7 +107,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
     </tr>
 </table>
 
-### Example Response
+### Response
 
 ```json
 {
@@ -189,3 +148,6 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
     </tr>
 </table>
+
+> After deploying Marketplace you will see an API User in your Cyclr console.
+> The API User has access to the account however they cannot signin to the Cyclr interface.
