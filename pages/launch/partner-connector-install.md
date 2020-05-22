@@ -60,7 +60,7 @@ You can get the by calling the `/account/connectors` endpoint, which will return
 
 **Note:** `AuthValue` and `Properties` may be empty depending on the specific setup of the connector, if that is the case they can be ignored when creating the deploy request.
 
-Once you have fetched the Partner Connector properties you can include them in the body of your request to deploy Launch or Marketplace:
+Once you have fetched the Partner Connector properties you can include them in the body of your request to deploy LAUNCH or Marketplace:
 
     {
         "Username": "user@example.com", 
