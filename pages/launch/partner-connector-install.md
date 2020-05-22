@@ -7,7 +7,7 @@ tags: [launch, marketplace, guide, partner connector]
 
 What is a Partner Connector?
 ---
-Your Partner Connector is your applications connector. When installing Launch or Marketplace to a new account you can install your applications connector - the Partner Connector - into the account at the same time, so your users will not be expected to authenticate against your platform during the LAUNCH or Marketplace flow.
+Your Partner Connector is your application's connector. When installing Launch or Marketplace to a new account you can install your application's connector - the Partner Connector - into the account at the same time, so your users will not be expected to authenticate against your platform during the LAUNCH or Marketplace flow.
 
 Setting up a Partner Connector
 ---
