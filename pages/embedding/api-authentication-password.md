@@ -11,7 +11,7 @@ tags: [embedding]
     You should migrate to <a href='./cyclr-api-authentication'>Client Credentials</a> before then.</p>
 </div>
 
-Authentication with the Cyclr API is provided using the [OAuth 2.0](https://oauth.net/2/) Password Grant flow.
+Authentication with the Cyclr API can be provided using the [OAuth 2.0](https://oauth.net/2/) Password Grant flow.
 
 ### Get Access & Refresh Tokens
 
