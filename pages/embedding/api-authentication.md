@@ -5,9 +5,9 @@ permalink: cyclr-api-authentication
 tags: [embedding]
 ---
 
-Authentication with the Cyclr API is provided using the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow.
+Cyclr API can be authenticated using the Client Credentials and Password flows. The [Password flow](./cyclr-api-authentication-password) will cease to be supported and stop functioning after May 2021. You should migrate to Client Credentials before then.
 
-To see the old Password flow documentation [Click Here](./cyclr-api-authentication-password)
+This document is for authenticating with the Cyclr API using the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow.
 
 ### Get Client ID and Secret
 
