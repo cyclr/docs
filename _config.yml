@@ -84,6 +84,7 @@ description: "Documentation for Cyclr."
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 # plugin to add metadata tags for search engines and social networks to better index and display site's content
 
 # needed for sitemap.xml file only

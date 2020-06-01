@@ -2,8 +2,7 @@
 title: Connector Level Standards
 sidebar: cyclr_sidebar
 permalink: connector-level-standards
-tags: [connector-creation]
----
+
 Cyclr Connector Level Standards Guide
 ---------------------------
 

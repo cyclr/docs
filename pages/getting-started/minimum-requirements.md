@@ -2,10 +2,11 @@
 title: Minimum Requirements
 sidebar: cyclr_sidebar
 permalink: minimum-requirements
-tags: [getting-started]
+tags: [managing-cyclr]
+
 ---
 
-#### Supported browsers
+### Supported browsers
 
 Cyclr’s workflow builder is very powerful and as such we do suggest that you run the latest versions of our supported browsers:
 
@@ -14,12 +15,10 @@ Cyclr’s workflow builder is very powerful and as such we do suggest that you r
 *   Safari
 *   Edge
 
-#### Browser feature requirements
+### Browser feature requirements
 
 In addition, your browser should allow JavaScript and cookies in order to use Cyclr.
 
-#### Supported operating systems
+### Supported operating systems
 
 Cyclr is tested against all recent versions of Windows, Mac OSX, and Linux.
-
-[How to Install Connectors](./installing-connectors)

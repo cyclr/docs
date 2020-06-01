@@ -24,7 +24,17 @@ Within your Instructure Canvas web interface:
     ![](./images/canvas-api-key.png)
 4. Save the key. Change the "State" of the key to "On". Under "Details", save the number. Click "Show Key" and also save this number. This is your client ID and secret respectively.
 
+### Instructure Canvas Access Token ###
+
+**!! This should not be used in a production environment! Only use the access token in a sandbox environment to test your Canvas installation. !! **
+You will need to be an admin of the Instructure canvas installation to create an access token.
+
+1. Go to "Account" > "Settings".
+2. Click "New Access Token". Enter the appropriate details. We highly suggest setting an expiry date.
+3. Save the generated access token. You will not be able to see it again.
+
+
 ### Connector Setup ###
- In the connector setup enter the client ID and secret, as stated in the previous step.
+ In the connector setup enter the client ID and secret or your access token, as stated in the previous step.
  
  Set the Base URL as your Instructure Canvas installation URL. This is the URL that you used to login to the web interface, for example if you used "http://cyclr.instructure.com/login/canvas" to login you should enter "http://cyclr.instructure.com" into this textbox. 

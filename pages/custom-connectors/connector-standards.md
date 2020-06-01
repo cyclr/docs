@@ -2,8 +2,8 @@
 title: Connector Standards
 sidebar: cyclr_sidebar
 permalink: connector-standards
-tags: [connector-creation]
 ---
+
 Cyclr Connector Standards Guide
 ---------------------------
 

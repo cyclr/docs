@@ -5,16 +5,10 @@ entries:
     product: Cyclr Docs
     version: 1.0
     folders:
-      - title: Getting Started
+
+      - title: Integration Cycles
         output: web, pdf
         folderitems:
-          - title: Build a Cycle
-            url: /build-a-cycle
-            output: web, pdf
-
-          - title: Minimum Requirements
-            url: /minimum-requirements
-            output: web, pdf
 
           - title: Installing Connectors
             url: /installing-connectors
@@ -43,10 +37,19 @@ entries:
           - title: Integration Template Versioning
             url: /integration-template-versioning
             output: web, pdf
+               
+      - title: Managing Cyclr
+      output: web, pdf
+      folderitems:
+
+          - title: Minimum Requirements
+            url: /minimum-requirements
+            output: web, pdf
 
       - title: Embedding Cyclr
         output: web, pdf
-        folderitems:
+        folderitems: 
+        
           - title: Cyclr Concepts
             url: /cyclr-concepts
             output: web, pdf
@@ -59,16 +62,8 @@ entries:
             url: /cyclr-api-authentication
             output: web, pdf
 
-          - title: Install a Connector
-            url: /install-a-connector
-            output: web, pdf
-
           - title: Install a Template
             url: /install-a-template
-            output: web, pdf
-
-          - title: Create Custom Connectors
-            url: /create-custom-connectors
             output: web, pdf
 
           - title: Call a Connector Method
@@ -86,6 +81,7 @@ entries:
       - title: Installing Template Integrations
         output: web, pdf
         folderitems:
+        
           - title: Obtain Authorization Token
             url: /obtain-authorization-token
             output: web, pdf
@@ -152,8 +148,8 @@ entries:
 
       - title: Integration Builder Tools
         output: web, pdf
-
         folderitems:
+        
           - title: Decision Steps
             url: /decision-steps
             output: web, pdf
@@ -170,70 +166,66 @@ entries:
             url: /wait-all
             output: web, pdf
 
-      - title: Custom Connector Creation
+      - title: Connector Creation
         output: web, pdf
-
         folderitems:
-          - title: Connector Standards
-            url: /connector-standards
-            output: web, pdf
-
-          - title: Connector Level Standards
-            url: /connector-level-standards
-            output: web, pdf
-
-          - title: Method Level Standards
-            url: /method-level-standards
-            output: web, pdf
-
+        
           - title: Introduction
-            url: /custom-connector-introduction
+            url: /connector-introduction
+            output: web, pdf
+            
+          - title: Settings
+            url: /connector-settings
+            output: web, pdf
+            
+          - title: Authentication
+            url: /connector-authentication
+            output: web, pdf
+
+          - title: Rate Limits
+            url: /connector-rate-limits
             output: web, pdf
 
           - title: Methods
-            url: /custom-connector-methods
+            url: /connector-methods
             output: web, pdf
 
-          - title: Examples
-            url: /custom-connector-examples
+          - title: Parameters
+            url: /connector-parameters
             output: web, pdf
 
-          - title: Fields
-            url: /custom-connector-fields
-            output: web, pdf
-
-          - title: Dynamic Custom Fields
-            url: /dynamic-custom-fields
-            output: web, pdf
-
-          - title: Reference
-            url: /custom-connector-reference
-            output: web, pdf
-
-          - title: Properties
-            url: /custom-connector-properties
-            output: web, pdf
-
-          - title: Parameters and Triggers
-            url: /custom-connectors-parameters-triggers
-            output: web, pdf
-
-          - title: Paging
-            url: /custom-connectors-paging
+          - title: Triggers
+            url: /connector-triggers
             output: web, pdf
 
           - title: Scripting
-            url: /custom-connector-scripting
+            url: /connector-scripting
             output: web, pdf
 
-          - title: OpenAPI Importer
-            url: /openapi
+          - title: Paging
+            url: /connector-paging
+            output: web, pdf
+
+          - title: Auto Installing Webhooks
+            url: /auto-installing-webhooks
+            output: web, pdf
+
+          - title: Custom Fields
+            url: /dynamic-custom-fields
+            output: web, pdf
+
+      - title: Marketplaces
+        output: web, pdf
+        folderitems:
+        
+          - title: Deploying a Marketplace
+            url: /marketplace-deployment
             output: web, pdf
 
       - title: LAUNCH
         output: web, pdf
-
         folderitems:
+        
           - title: Overview
             url: /launch-overview
             output: web, pdf
@@ -250,10 +242,6 @@ entries:
             url: /launch-deployment
             output: web, pdf
 
-          - title: Deploying Marketplace
-            url: /marketplace-deployment
-            output: web, pdf
-
           - title: Handling Callback
             url: /handling-callback
             output: web, pdf
@@ -268,8 +256,8 @@ entries:
 
       - title: Plugins
         output: web, pdf
-
         folderitems:
+        
           - title: Contact Form 7 Plugin
             url: /contact-form-7-plugin
             output: web, pdf
@@ -285,11 +273,43 @@ entries:
           - title: Salesforce Plugin
             url: /salesforce-plugin
             output: web, pdf
-
+  
+      - title: Utility Connectors
+        output: web, pdf
+        folderitems:
+        
+          - title: Cross Updating Preventor
+            url: /cross-updating-preventor
+            output: web, pdf
+  
+          - title: Entity Cross Reference
+            url: /entity-cross-reference-connector
+            output: web, pdf
+            
+          - title: Global Data Storage
+            url: /global-data-storage
+            output: web, pdf
+  
+          - title: Cycle Data Storage
+            url: /cycle-data-storage
+            output: web, pdf
+            
+          - title: Generic Form
+            url: /generic-form
+            output: web, pdf
+            
+          - title: Generic Webhook
+            url: /generic-webhook
+            output: web, pdf
+  
+          - title: Cyclr Tools
+            url: /cyclr-tools
+            output: web, pdf
+            
       - title: Connector Guides
         output: web, pdf
-
         folderitems:
+        
           - title: Bronto
             url: /bronto-installation
             output: web, pdf
@@ -312,10 +332,6 @@ entries:
 
           - title: Cyclr IP Whitelisting
             url: /cyclr-ip-whitelisting
-            output: web, pdf
-
-          - title: Entity Cross Reference
-            url: /entity-cross-reference-connector
             output: web, pdf
 
           - title: Facebook Marketing Authentication

@@ -50,11 +50,41 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
 In the response, **123** is an account connector ID. **1** is the ID for the underlying connector.
 
+### Identify the Connector Method to Call
+
+Each Connector Method in Cyclr has a *MethodUniqueIdentifier* value. You can get a list of Methods with their unique identifiers using the 2 endpoints below.
+
+(use the first endpoint for Connectors that don't have a "Version" property)
+
+```GET https://yourCyclrInstance/v1.0/connectors/{name}/methods```
+
+```GET https://yourCyclrInstance/v1.0/connectors/{name}/{version}/methods```
+
+#### Response:
+
+```json
+[
+	{
+		"Id": 116,
+		"Name": "Update Ticket",
+		"Description": "Updates a ticket.",
+		"EndPoint": "https://api.example/updateTicket",
+		"MethodUniqueIdentifier": "8f8df8ef-3007-11e7-a033-06abe76375dd"
+	},
+	{
+		"Id": 117,
+		"Name": "Delete Ticket",
+		"Description": "Deletes a ticket.",
+		"EndPoint": "https://api.example/deleteTicket",
+		"MethodUniqueIdentifier": "56d8a7ef-3457-af37-a3fd-0645386a75bd"
+	}
+]
+```
+
+
 ### Call a Connector Method
 
 You can now call a connector method and get the raw response from the third-party application.
-
-Each method in Cyclr has a *unique external ID*. You can get a list of methods with their unique identifiers using ```https://yourCyclrInstance/v1.0/connectors/{Connector ID}/methods```. *Connector ID* here is not the ID for your account connector instance (*123* in the sample response above), but the ID for the underlying connector (*1* in the sample response above).
 
 #### Request
 

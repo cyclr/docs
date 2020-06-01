@@ -685,10 +685,9 @@ h3 {
 }
 
 h4 {
-    color: #808080;
+    color: #404040;
     font-weight: normal;
-    font-size: 120%;
-    font-style: italic;
+    font-size: 100%;
 }
 
 .alert,
