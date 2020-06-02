@@ -17,7 +17,9 @@ The Generic File Connector's **Create Delimited Text File** Method doesn't provi
 
 You must therefore [add custom Request Fields](./adding-custom-fields) for the values you want to bring in as the "columns" of your data using Field Locations in this format:
 
-```[].FieldName```
+```
+[].FieldName
+```
 
 ![Create Delimited Text File Method - Request Fields](./images/generic-file_create-delimited-text-file_request-fields.png)
 
