@@ -27,4 +27,4 @@ You must therefore [add custom Request Fields](./adding-custom-fields) for the v
 You'll then be able to map to these Fields in the Builder from a previous Step that retrieves a list of data you wish to convert into delimited text content.
 
 
-You should ensure that the Cycle Setting's **Collection Splitting** doesn't split the data you're mapping from, otherwise the Method will generate separate file content for each record you're passing in.
+You should ensure that the Cycle's **Collection Splitting** Setting doesn't split the data you're mapping from, otherwise the Method will generate separate file content for each record you're passing in.
