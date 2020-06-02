@@ -7,7 +7,7 @@ tags: [utility-connector]
 
 ## Purpose
 
-The **Generic File** Connector provides the **Create Delimited Text File** Method that creates delimited text content, for example Comma Separated Values (CSV) or Tab Separated Values text.  This content can then be sent to a remote FTP server as a new file.
+The **Generic File** Connector provides the **Create Delimited Text File** Method that creates delimited text content, for example Comma Separated Values (CSV) and Tab Separated Values text.  This content might then be sent to a remote FTP server as a new file using the **FTP Connector**.
 
 ## Create Delimited Text File Method
 
@@ -24,7 +24,7 @@ You must therefore [add custom Request Fields](./adding-custom-fields) for the v
 ![Create Delimited Text File Method - Request Fields](./images/generic-file_create-delimited-text-file_request-fields.png)
 
 
-You'll then be able to map to these Fields in the Builder from a previous Step that retrieves a list of data to convert into delimited text content.
+You'll then be able to map to these Fields in the Builder from a previous Step that retrieves a list of data you wish to convert into delimited text content.
 
 
-You should ensure that the Cycle Setting for **Collection Splitting** doesn't split the data you're mapping from, otherwise the Method will generate separate file content for each record you're passing in.
+You should ensure that the Cycle Setting's **Collection Splitting** doesn't split the data you're mapping from, otherwise the Method will generate separate file content for each record you're passing in.
