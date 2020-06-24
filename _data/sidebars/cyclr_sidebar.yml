@@ -219,6 +219,10 @@ entries:
             url: /marketplace-deployment
             output: web, pdf
 
+          - title: Handling Callback
+            url: /marketplace-handling-callback
+            output: web, pdf
+
       - title: LAUNCH
         output: web, pdf
         folderitems:

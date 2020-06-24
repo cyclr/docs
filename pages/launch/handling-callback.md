@@ -19,14 +19,6 @@ The most basic example is to simply display a completed message.
 <h1>Congrats - you're connected!</h1>
 ````
 
-#### Marketplace Integration Package Message
-
-If the LAUNCH was initiated via a Marketplace you can use the Integration Packages install complete message to display custom messages for each Integration Package by using the InstallCompleteMessage mergefield.
-
-````html
-<h1>{% raw %}{{InstallCompleteMessage}}{% endraw %}</h1>
-````
-
 #### JavaScript postMessage
 
 If LAUNCH was opened in a popup you can use javascript to send the result of the LAUNCH back to your application. This example displays a message to the user with a close button, when the user closes the button the result is sent using JavaScript postMessage and the popup window is closed.
@@ -49,9 +41,8 @@ A JavaScript **result** object is made avalible to the window on the final page 
 | Property | Description | Example |
 | --- | --- | --- |
 | cycleId | The Id of the newly installed integration within your end user’s account | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
-| status | A string indicating the status of the newly installation integration cycle.By design, will always be active, unless an issue arose during installation, in which case it will be paused. | active |
+| status | A string indicating the status of the newly installation integration cycle.By design, will always be Active, unless an issue arose during installation, in which case it will be stopped. | Active or Stopped |
 | webhooks | An array of URLs representing the endpoints of the webhooks included within the newly installed integration template. This is important where your application needs to send data to Cyclr to trigger the newly installed integration template. Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template. | ["https://webhooks.cyclr.com/Jd78JHd9"] |
-| installCompleteMessage | If cycle was installed from a Marketplace this will be the Integration Package install complete message | Cycle was installed |
 
 ### Cross domain issue in IE10
 
