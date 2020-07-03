@@ -18,7 +18,6 @@ Login to your existing Scoro account, or sign-up for a free 14 day trial.
 *   Click **Integrations** under the **Site Settings** category
 *   At the bottom, under "General", click **Scoro API**. Make sure it is activated.
 *   Make a note of the **"company_account_id"**.
-*   This is also where you can find your API key, if you are going to use the methods that require it. It can be found directly under the **API Key** header.
 
 ### Cyclr Setup
 
