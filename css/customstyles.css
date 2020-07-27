@@ -243,31 +243,17 @@ p.post-meta {
 }
 
 /* search area */
-#search-demo-container ul#results-container {
-    list-style: none;
-    font-size: 12px;
-    background-color: white;
-    position: absolute;
-    top: 40px;
-    /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    z-index: -1;
-    width: 223px;
-    border-left: 1px solid #dedede;
+
+.algolia-autocomplete .algolia-docsearch-footer--logo {
+    background-color: #ffffff;
 }
 
-
-ul#results-container a {
-    background-color: transparent;
+.algolia-autocomplete .algolia-docsearch-footer--logo:hover {
+    background-color: #ffffff;
 }
 
-ul#results-container a:hover {
-    color: black;
-}
-
-
-#search-demo-container a:hover {
-    color: black;
+.algolia-autocomplete .ds-dropdown-menu .ds-suggestions a:hover {
+    background-color: #ffffff;
 }
 
 #search-input {
