@@ -284,6 +284,36 @@ Supported algorithms are: `HMAC-SHA1`, `RSA-SHA1`, `RSA-SHA224`, `RSA-SHA256`, `
 
 ### Exceptions
 
+#### AuthRefreshException
+
+Exception to force the OAuth 2 authentication token to be refreshed.
+
+This is useful when the OAuth 2 endpoint doesn't return a definite token expiry time.
+
+Upon getting this exception, Cyclr will call the OAuth 2 *Access Token URL* to get a new access token.
+
+For example, an API returns 200 with an error code in the response when the token becomes invalid:
+
+```javascript
+function after_action() {
+    if (typeof method_response.error !== 'undefined' &&
+        method_response.error === 'invalid_grant') {
+        throw new AuthRefreshException();
+    }
+    return true;
+}
+```
+
+If an API returns a non-2xx HTTP status code when the auth token becomes invalid, you should throw *AuthRefreshException* in *after_error*:
+```javascript
+function after_error() {
+    if (method_error.statusCode.toString() == 403) {
+        throw new AuthRefreshException();
+    }
+    return true;
+}
+```
+
 #### AuthSessionException
 
 Exception to force the authentication session to be refreshed.
