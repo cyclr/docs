@@ -33,7 +33,7 @@ Select:
 
 * **User-level scopes:** It is best practice to use the minimum required for the methods you require.
 
-* **Allowed IP addresses:** Either leave blank, or if you wish to restrict, cyclrs IP addresses can be found [here] (https://docs.cyclr.com/cyclr-ip-whitelisting)
+* **Allowed IP addresses:** Either leave blank, or if you wish to restrict, cyclrs IP addresses can be found [here](https://docs.cyclr.com/cyclr-ip-whitelisting)
 
 After saving the form note down the Consumer Key (Client ID) and Secret (This will not be shown again) that are displayed
 
