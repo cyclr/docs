@@ -391,6 +391,10 @@ entries:
             url: /salesforce-upsert-setup
             output: web, pdf
 
+          - title: SFTP Private Key Authentication
+            url: /sftp-private-key
+            output: web, pdf
+
           - title: Slack Authentication
             url: /slack
             output: web, pdf
