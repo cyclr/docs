@@ -27,9 +27,9 @@ Enter the following values:
 
 **Client ID**: The client ID that we retrieved from the web interface.
 
-**Username**: The username you use to login to the web interface.
+**Username**: The username you use to login to the Retail Express account on the website.
 
-**Password**: The password you use to login to the web interface.
+**Password**: The password you use to login to the Retail Express account on the website.
 
 **Unique URL**: The unique URL you received from contact support.
 
