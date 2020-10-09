@@ -64,6 +64,10 @@ All other events (such as after_action):
 	Connector -> Method -> Builder Step
 
 
+### Global Objects
+
+*   **method_response_fields**: Array containing the methods response fields
+
 
 ### Events
 
@@ -104,7 +108,6 @@ If a Method uses Paging, this function is called before each page is retrieved.
 *   **method_request_parameters**: Querystring parameters for the request
 *   **method_request**: Object that will be posted to the third party API
 *   **method_request_mergefields**: Mergefields for the request
-*   **method_response_fields**: Array containing the methods response fields
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
