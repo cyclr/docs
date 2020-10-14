@@ -94,6 +94,9 @@ Called after the webook has been caught.
 *   **method_response**: object that was POSTed to the Cyclr webhook
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true for the webhook to continue normal execution, false to ignore the webhook request
 
 #### before_action
@@ -110,6 +113,9 @@ If a Method uses Paging, this function is called before each page is retrieved.
 *   **method_request_mergefields**: Mergefields for the request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
 
 #### after_action
@@ -127,6 +133,9 @@ If a Method uses Paging, this function is called after each page is retrieved.
 *   **method_response**: object that was received from the third party API.  If the Method uses paging, this contains only the current page's Response.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true
 
 #### after_action_paging
@@ -141,6 +150,9 @@ If this function is provided, it is called once after all pages of data have bee
 *   **method_response**: object that contains all of the Response data.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true
 
 #### after_error
@@ -152,6 +164,9 @@ Function is called when Cyclr received an error from an external API.
 *   **method_error**: Details of the error, see: **Handle Errors from Third Party APIs** further down for more information on handling errors
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true
 
 #### action_condition
@@ -163,6 +178,9 @@ Function is used to essentially combine a Method with a Decision Step, allowing 
 *   **method_response**: object that was received from the third party API.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **cycle_step_id**: ID of the step that is executing the script.
+*   **cycle_id**: The ID of the cycle the script is running in
+*   **cyclr_account_id**: The internal ID of the account the script is running in
+*   **external_account_id**: The external ID of the account the script is running in
 *   **return**: true for the Transaction to exit on the "True Route", false to exit on the "False Route"
 
 #### before_oauth2_authorise
