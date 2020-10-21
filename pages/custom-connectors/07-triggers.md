@@ -7,7 +7,24 @@ tags: [connector-creation]
 
 ## Triggers
 
-Triggers are used for dynamic lookups. For example, if you want to provide a lookup of 'Acount IDs' you must have already defined a method in the connector to 'list accounts'.  The trigger will then use the method once the connector is authenticated to allow a look up and select.
+Triggers are used for dynamic lookups. For example, if you want to provide a lookup of 'Account IDs' you must have already defined a method in the connector to 'list accounts'.  The trigger will then use the method once the connector is authenticated to allow a look up and select.
+
+The response (_in JSON format_) from the trigger method 'list accounts' looks like this:
+
+```json
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Account 1"
+    },
+    {
+      "id": 2,
+      "name": "Account 2"
+    }
+  ]
+}
+```
 
 The settings for an Accounts the Account Id lookup would look something like this:
 
