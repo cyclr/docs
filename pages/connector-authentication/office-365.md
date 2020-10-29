@@ -25,8 +25,8 @@ We will summarise it in a few points:
    * {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
    **Multi-tenanted**: Yes
-
-3. Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Application Connector Library > Microsoft Office 365 > Setup
+3. Set the correct permissions (more information below).
+4. Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Application Connector Library > Microsoft Office 365 > Setup
 
    **Client ID**: This is the Application ID displayed in the portal
 
@@ -38,3 +38,27 @@ The Microsoft Office 365 connector is now set up! You can test it by installing 
 
 When installing the Microsoft Office 365 Connector, the user will be asked to provide their **Directory/Tenant ID**. This appears as **Tenant ID** in the client's Azure Active Directory portal.
 
+### Permissions
+
+You will need to set different permissions in Azure Active Directory depending on which methods you would like to utilize.
+
+From the Application view (after the creation of the Application in step 3), navigate to "API Permissions" under "Manage" on the left side of the page. Add the following permissions:
+
+| Method Category                  | Type      | Permission Name            |
+|----------------------------------|-----------|----------------------------|
+| Users                            | Delegated | User.Read.All              |
+|                                  | Delegated | User.ReadWrite.All         |
+|                                  | Delegated | Directory.Read.All         |
+|                                  | Delegated | Directory.ReadWrite.All    |
+| Calendars/Calendar Groups/Events | Delegated | Calendars.Read             |
+|                                  | Delegated | Calendars.Read.Shared      |
+|                                  | Delegated | Calendars.ReadWrite        |
+|                                  | Delegated | Calendars.ReadWrite.Shared |
+| Emails                           | Delegated | Mail.Read                  |
+|                                  | Delegated | Mail.Read.Shared           |
+|                                  | Delegated | Mail.ReadWrite             |
+|                                  | Delegated | Mail.ReadWrite.Shared      |
+| OneDrive                         | Delegated | File.Read                  |
+|                                  | Delegated | File.Read.All              |
+|                                  | Delegated | File.ReadWrite             |
+|                                  | Delegated | File.ReadWrite.All         |
