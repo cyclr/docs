@@ -62,3 +62,5 @@ From the Application view (after the creation of the Application in step 3), nav
 |                                  | Delegated | File.Read.All              |
 |                                  | Delegated | File.ReadWrite             |
 |                                  | Delegated | File.ReadWrite.All         |
+
+More information: https://docs.microsoft.com/en-us/graph/permissions-reference
