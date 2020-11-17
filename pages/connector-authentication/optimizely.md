@@ -7,11 +7,9 @@ tags: [connector]
 
 ## Partner Setup
 
-First, login to your existing Optimizely Developer account or [sign up for one.](https://www.optimizely.com/rollouts/)
-
 #### Retrieving OAuth2 Details
 
-*   [Login](https://app.optimizely.com/v2/profile/api) to your Optimizely Developer Account.
+*   [Login](https://app.optimizely.com/v2/profile/api) to your Optimizely Developer Account, or [sign up for one.](https://www.optimizely.com/rollouts/).
 *   Click **Profile** in the bottom left area of the navigation tree.
 *   Navigate to the **API Access** tab.
 *   Click **Generate New Token**.
@@ -31,6 +29,5 @@ Setup your Optimizely App within Cyclr:
 Enter the following values:
 
 **Personal Token**:  The **token** that we retrieved from the previous step.
-
 
 Your Optimizely Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
