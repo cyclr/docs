@@ -9,7 +9,7 @@ tags: [connector]
 
 #### Retrieving OAuth2 Details
 
-*   [Login](https://app.optimizely.com/v2/profile/api) to your Optimizely Developer Account, or [sign up for one.](https://www.optimizely.com/rollouts/).
+*   [Login](https://app.optimizely.com/v2/profile/api) to an Optimizely developer account, or [sign up for an account.](https://www.optimizely.com/rollouts/)
 *   Click **Profile** in the bottom left area of the navigation tree.
 *   Navigate to the **API Access** tab.
 *   Click **Generate New Token**.
@@ -20,7 +20,7 @@ tags: [connector]
 
 Setup your Optimizely App within Cyclr:
 
-*   Go to your **Cyclr Console**
+*   Go to **Cyclr Console**
 *   Click the **Connectors** menu along the top
 *   Choose Connector Library
 *   Scroll down to **Optimizely**
