@@ -9,7 +9,7 @@ tags: [connector]
 
 ### Cyclr Setup
 
-Setup your SpotDraft App within Cyclr:
+Setup your SpotDraft Connector within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
@@ -19,9 +19,8 @@ Setup your SpotDraft App within Cyclr:
 
 Enter the following values:
 
-**Client ID**:  Please contact SpotDraft to get the client ID.
+**Client ID**:  Please contact SpotDraft to obtain the client ID.
 
-**Client Secret**:  Please contact SpotDraft to get the client secret.
-
+**Client Secret**:  Please contact SpotDraft to obtain the client secret.
 
 Your SpotDraft Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
