@@ -34,7 +34,7 @@ Enter the following values:
 
 **Domain**:  Your API domain, and the domain you use to access the front-end website. [Here](https://developer.connectwise.com/Best_Practices/Manage_Cloud_URL_Formatting?mt-learningpath=manage) is a list of common URLs.
 
-**API Version**:  The version of the API you would like to use. More details [here](https://developer.connectwise.com/Best_Practices/Manage_Versioning?mt-learningpath=manage).
+**API Version**:  The version of the API you would like to use. More details [here](https://developer.connectwise.com/Best_Practices/Manage_Versioning?mt-learningpath=manage). Note: if your API version is "v2020.3", you should enter "v2020_3".
 
 **Client ID**: Retrieve from the above steps.
 
