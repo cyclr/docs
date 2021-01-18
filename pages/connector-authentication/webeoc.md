@@ -33,9 +33,16 @@ Enter the following values:
 
 **Board Name**: The board to perform the requested operations on.
 
-**Board Input View**: The input view of the above board to perform the requested operations on.
+If you do not know the "Board Input View" and "Board Display" that you want to use:
 
-**Board Display**: The board display to perform the requested operations on.
+* Complete the setup.
+* Navigate to your installed connector and run the "List Display Views" method, copy the name of a display view you would like to use.
+* Also run the "List Input Views" method and copy the name of an input view you would like to use.
+* Click the **Setup** button again and enter the values:
+
+**Board Input View**: The input view that you gathered from the previous steps.
+
+**Board Display**: The board display that you gathered from the previous steps.
 
 
 Your WebEOC Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
