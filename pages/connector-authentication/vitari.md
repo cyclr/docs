@@ -7,32 +7,20 @@ tags: [connector]
 
 ## Partner Setup
 
-First, login to your existing Voucherify account or [sign up for one.](https://app.voucherify.io/#/signup)
+Vitari is a self hosted system (on premise) you will need to contact your system administrator for the required credentials. 
 
-#### Retrieving OAuth2 Details
-
-*   [Login](https://app.voucherify.io/#/login) to your Voucherify Account.
-*   Click your account name.
-![Select Account Name](./images/Voucherify-1.png)
-*   Scroll through the project settings until you find the Application Keys.
-![Select Account Name](./images/Voucherify-2.png)
-*   Note the **Application ID** and **secret**.
+They will need to:
+ * Make sure the system is open to the internet and provide the Domain to access.
+ * Provide GUID and Client ID
 
 ### Cyclr Setup
 
-Setup Voucherify within Cyclr:
-
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Voucherify**
-*   Click the **Setup** button
-
 Enter the following values:
 
-**Application ID**:  The client ID that we retrieved from the app that we made.
+**Domain**:  The domain provided by system admin.
 
-**Secret Key**:  The secret that we retrieved from the app that we made.
+**Client ID**:   The Client ID provided by system admin.
 
+**GUID**:  Provided by system Admin
 
-Your Voucherify Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+Your connector is now setup!
