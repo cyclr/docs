@@ -106,6 +106,10 @@ entries:
             url: /cyclr-api-endpoints
             output: web, pdf
 
+          - title: Release Notes
+            url: /release-notes
+            output: web, pdf
+
       - title: Installing Template Integrations
         output: web, pdf
         folderitems:

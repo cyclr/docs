@@ -21,7 +21,7 @@ First, navigate to your Invenias Swagger definition at "https://**{{SubDomain}}*
 {
   "Expiration": "FiveYears",
   "Name": "Integration",
-  "ReplyUrl": "https://{{service domain}}/connector/callback",
+  "ReplyUrl": "https://{service domain}/connector/callback",
   "FlowType": "ResourceOwner"
 }
 ```
