@@ -7,6 +7,9 @@ tags: [embedding]
 
 ## 2021
 
+### 26th April 2021
+- Script Engine: add `method_response_parameters_in_use` parameter for accessing response fields used in descendant cycle steps.
+
 ### 19th April 2021
 - Builder: new Run Once option in Consonle > Template > Publish Settings.
 - API: Account APIs allowed to have unset parameters.
