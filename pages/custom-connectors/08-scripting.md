@@ -67,7 +67,8 @@ All other events (such as after_action):
 
 ### Global Objects
 
-*   **method_response_fields**: Array containing a Method's Response Fields.
+*   **method_response_fields**: Array containing the connector field names of a methods response fields.
+*   **method_response_fields_in_use**: Array containing the connector field names of a methods response fields used in subsequent steps.
 
 
 ### Events
