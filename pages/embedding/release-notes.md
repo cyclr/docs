@@ -7,6 +7,10 @@ tags: [embedding]
 
 ## 2021
 
+### 7th June 2021
+- Console: New page to access and update Partner Account details and view price plan information
+- Marketplaces: Added auto-start option for integration packages
+
 ### 31st May 2021
 - Password Policy Update: Cyclr console administrator passwords must now be 10 characters long and contain a non-alphanumeric character
 - Builder: Improved performance in Cycle/Template builder
