@@ -7,6 +7,12 @@ tags: [embedding]
 
 ## 2021
 
+### 21st June 2021
+- Builder: Can view field locations in step setup
+- Corporate Partner: Integration Reports
+- Connectors: Support for XML 1.1
+- LAUNCH/Marketplaces: Templates that cannot be setup by users will not be displayed
+
 ### 14th June 2021
 - Security: Enforce MFA for console administrators
 
