@@ -7,6 +7,9 @@ tags: [embedding]
 
 ## 2021
 
+### 19th July 2021
+- Console Templates: Allow export and import of template releases as JSON objects
+
 ### 12th July 2021
 - Corporate Partner: Task usage warning emails as limit approached
 
