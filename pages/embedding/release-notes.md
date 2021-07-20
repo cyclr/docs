@@ -7,6 +7,9 @@ tags: [embedding]
 
 ## 2021
 
+### 12th July 2021
+- Corporate Partner: Task usage warning emails as limit approached
+
 ### 5th July 2021
 - Console Reports > New Account UI: Console report links use the new Console Account UI instead of behaving as a Sign In button
 
