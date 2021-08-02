@@ -7,6 +7,12 @@ tags: [embedding]
 
 ## 2021
 
+### 2nd August 2021
+- API: Get the sub accounts of an account
+- Connectors: Improved support for custom objects in third party APIs
+- Connectors: Improved links for non Cyclr users to authenticate connectors
+- Tagging: Tags are now case sensitive
+
 ### 27th July 2021
 - Builder: Display timezone with next run time
 - Builder: new system mergefields (i.e. Account ID, Account External ID, Cycle ID and Transaction ID)
