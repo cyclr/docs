@@ -17,7 +17,7 @@ We advise setting up a separate API user that Cyclr can use to access the API wi
 * Select **Standard** user type.
 * Enter basic user details (username and password) in the **Profile** area. Note that this will be used for API authentication.
 * Select which access points the user has. This restricts what data the API, and in turn Cyclr, can access.
-* Enable **Remote Data Acess**. Fill in the necessary details.
+* Enable **Remote Data Access**. Fill in the necessary details.
 * Confirm the creation of the user.
 ##### Enable SDATA
 * Navigate to **Tools** > **Internet Options** > **SData Settings**.
