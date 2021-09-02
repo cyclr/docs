@@ -10,6 +10,10 @@ tags: [embedding]
 ### 31st August 2021
 - Error Summarisation: Count errors for steps that continue on error
 
+### 23rd August 2021
+- File Download/Upload for (S)FTP
+- API: New endpoint to create/update multiple cycle variables at once
+
 ### 16th August 2021
 - Console: New Account Connector Method Report
 
