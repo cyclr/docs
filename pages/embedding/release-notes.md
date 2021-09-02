@@ -7,6 +7,9 @@ tags: [embedding]
 
 ## 2021
 
+### 31st August 2021
+- Error Summarisation: Count errors for steps that continue on error
+
 ### 16th August 2021
 - Console: New Account Connector Method Report
 
