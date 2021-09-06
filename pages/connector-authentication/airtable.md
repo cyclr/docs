@@ -10,6 +10,10 @@ tags: [connector]
 #### Retrieving API Key
 *   Visit your [account page](https://airtable.com/account) and copy the API key in the **API** area.
 
+#### Retrieving Base ID and Table Name
+*   Base ID can be accessed by visiting the [API area](https://airtable.com/api) and clicking on the table base you want to use. In the introduction area of the page you are redirected to, your base ID is shown e.g. "The ID of this base is app123ABC.".
+*   The table name is the name of the table in the base you want to operate on. Note: This is NOT the name of the base.
+
 ### Cyclr Setup
 
 Setup your Airtable App within Cyclr:
