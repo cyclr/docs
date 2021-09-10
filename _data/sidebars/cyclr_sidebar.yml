@@ -255,6 +255,10 @@ entries:
             url: /marketplace-handling-callback
             output: web, pdf
 
+          - title: Webhook Callback
+            url: /marketplace-webhook-callback
+            output: web, pdf
+
       - title: LAUNCH
         output: web, pdf
         folderitems:
