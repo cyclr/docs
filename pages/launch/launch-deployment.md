@@ -137,6 +137,11 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>Defaults to false so that Templates are shown whether they have been installed or not. Set to true to only show Templates that haven't already been installed in the Account.</td>
         <td>true</td>
     </tr>
+    <tr>
+        <td>CompleteParameter</td>
+        <td>A value to pass through to the final page of the LAUNCH flow.</td>
+        <td></td>
+    </tr>
 </table>
 
 ### Response
@@ -325,6 +330,11 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>SingleInstall</td>
         <td>Defaults to false so that templates are shown whether they have been installed or not. Set to true to only show templates that aren't installed in the account.</td>
         <td>true</td>
+    </tr>
+    <tr>
+        <td>CompleteParameter</td>
+        <td>A value to pass through to the final page of the LAUNCH flow.</td>
+        <td></td>
     </tr>
 </table>
 

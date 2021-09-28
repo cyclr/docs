@@ -47,6 +47,7 @@ A JavaScript **result** object is made avalible to the window on the final page 
 | userId | The ID of your end user | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 | webhooks | An array of URLs representing the endpoints of the webhooks included within the newly installed integration template. This is important where your application needs to send data to Cyclr to trigger the newly installed integration template. Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template. | ["https://webhooks.cyclr.com/Jd78JHd9"] |
 | errors | An array of error messages when Cyclr activates the newly installed integration template. | ["Please set up all the steps correctly before starting the cycle."] |
+| completeParameter | The value of the CompleteParameter provided in the LAUNCH API call. | |
 
 ### Cross domain issue in IE10
 
