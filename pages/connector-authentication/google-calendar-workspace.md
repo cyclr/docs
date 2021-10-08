@@ -30,6 +30,7 @@ This action must be completed by a super admin of the Google Workspace account.
 * In the **OAuth Scopes** field, enter the following permissions:
   * **https://www.googleapis.com/auth/calendar** - allows API access to the Calendars service.
   * **https://www.googleapis.com/auth/admin.directory.user.readonly** - allows API access to read users of the Workspace account.
+  * **https://www.googleapis.com/auth/admin.directory.group.readonly** - allows API access to read groups.
 * Click Authorize.
 
 ### Cyclr Setup

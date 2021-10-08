@@ -29,6 +29,8 @@ Make a note of the **Consumer Key** and **Consumer Secret**.
 
 ![Company information](./images/netsuite_suitetalk_1.png)
 
+**Note: if your Account ID contains an underscore, replace it with a dash when populating the field during connector setup.**
+
 ### Enable Features
 
 1. From the top navigation bar go to **Setup** > **Company** > **Enable Features**
