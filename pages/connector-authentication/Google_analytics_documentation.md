@@ -17,9 +17,16 @@ This method uses [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer
 
 There are four required fields:
 
-- Profile ID: Select Look Up and then select the desired Profile ID.
+![Set up request fields](./images/GA_List_Metrics_request_fields)
+
+- Profile ID: Select Look Up option.
+
+![Set up request fields](./images/GA_Profile_lookup)
+
+Then select the desired Profile ID.
+
+![Profile ID](./images\GA_ProfileID_select.png)
+
 - Start Date: Start date for fetching Analytics data.
 - End Date: End date for fetching Analytics data..
 - Metrics: A list of comma-separated metrics, ie. users,sessions. For a comprehensive list of Metrics option go to [UA Dimensions & Metrics Explorer](https://ga-dev-tools.web.app/dimensions-metrics-explorer/)
-
-![field level security](./images/GA_List_Metrics_request_fields)
