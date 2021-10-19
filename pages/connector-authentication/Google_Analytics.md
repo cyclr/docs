@@ -25,7 +25,7 @@ There are four required fields:
 
 Then select the desired Profile ID.
 
-![Profile ID](./images\GA_ProfileID_select.png)
+![Profile ID](./images/GA_ProfileID_select.png)
 
 - Start Date: Start date for fetching Analytics data.
 - End Date: End date for fetching Analytics data..
