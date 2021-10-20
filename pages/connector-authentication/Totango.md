@@ -23,15 +23,15 @@ Setup your Totango App within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Totango**
+*   Choose **Application Connector Library**
+*   Search for the **Totango** Connector entry
 *   Click the **Setup** button
 
 Enter the following values:
 
-**Service ID**:  The Service ID that we retrieved from our account.
+**Service ID**:  The Service ID that you retrieved from your account.
 
-**API Key**:  The API Key that we retrieved from our profiles integrations.
+**API Key**:  The API Key that you retrieved from your profiles integrations.
 
 
-Your Totango Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data
+Your Totango Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.

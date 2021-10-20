@@ -67,6 +67,41 @@ For Connectors that require the Client ID and Client Secret values to be provide
 * `ClientSecret`
 
 
+### Providing Complete Authentication for the Connector
+
+If your own Cyclr Partner Connector (a Connector that works against your own system's API) uses OAuth, you'll perhaps wish to provide all the authentication details yourself, rather than involve the user.  This can be done through a LAUNCH or Marketplace call using the `PartnerConnector` property, or by a separate Cyclr API call.
+
+To do this you must provide all the values the Connector requires to work with the API.
+
+That may simply be by providing `ClientId` and `ClientSecret` as [mentioned above](./oauth-authentication#providing-client-id-and-client-secret-values).  It may also require [Account Connector Properties](./authenticate-account-connector#account-connector-properties) and perhaps an **AuthValue** containing Access and Refresh Tokens and details.  See below for more details on the AuthValue.
+
+### AuthValue Property
+
+Depending on how an API authenticates, you can provide a JSON object containing the Access and Refresh Token details as follows:
+
+````json
+{
+	"AccessToken": "XXXXXXXXXX",
+	"RefreshToken": "XXXXXXXXXX",
+	"Expires": "2021-10-01T00:00:00Z",
+	"RefreshExpires": "2022-10-01T00:00:00Z"
+}
+````
+
+That JSON object should then be serialized - e.g. by using the standard Javascript ```JSON.stringify()``` function - then used as the **AuthValue** property of an Account Connector.
+
+That would look like this in an API call:
+
+````json
+"AuthValue": "{\"AccessToken\":\"XXXXXXXXXX\",\"RefreshToken\":\"XXXXXXXXXX\",\"Expires\":\"2021-10-01T00:00:00Z\",\"RefreshExpires\":\"2022-10-01T00:00:00Z\"}"
+````
+
+Or, if other details have been provided that will enable Cyclr to obtain those details itself, you can simply set it as an empty JSON object and the next time Cyclr attempts to call a Method on the Connector, it will automatically attempt to authenticate and retrieve this information:
+
+````json
+"AuthValue": "{}"
+````
+
 
 [Step Setup](./step-set-up)  
 [API Key Authentication](./api-key-authentication)  
