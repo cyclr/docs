@@ -19,7 +19,21 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
     "Status": "installed",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
-    "MarketplaceIntegrationPackageId": 1234
+    "MarketplaceIntegrationPackageId": 1234,
+    "MarketplaceInstallDetails": [
+        {
+            "CycleId": "00000000-0000-0000-0000-000000000000",
+            "CycleStatus": "Active",
+            "Webhooks": [
+                {
+                    "Url": "https://example.com/api/webhook/abcdefg",
+                    "StepName": "Example Webhook"
+                }
+            ],
+            "TemplateId": "00000000-0000-0000-0000-000000000000",
+            "TemplateReleaseId": "00000000-0000-0000-0000-000000000000"
+        }
+    ]
 }
 ````
 
