@@ -46,3 +46,11 @@ It is important to select the main account, rather than the developer account.  
 In the example below, this would be the "Cyclr" account.
 
 ![](./images/hubspot-choose-acct.png)
+
+## Connector Parameters 
+#### (Useful if accessing this Connector via the API.  Property Names given here in the same format as they should be passed to the API.)
+
+| Property Name   | Description    |
+| ----------- | -----------    |
+| Scopes      | The scopes of the connector. Default value is "contacts". |
+| OptionalScopes   | The optional scopes of the connector. Default value is "content reports e-commerce forms" |
