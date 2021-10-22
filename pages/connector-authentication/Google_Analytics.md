@@ -30,3 +30,18 @@ Then select the desired Profile ID.
 - Start Date: Start date for fetching Analytics data.
 - End Date: End date for fetching Analytics data..
 - Metrics: A list of comma-separated metrics, ie. users,sessions. For a comprehensive list of Metrics option go to [UA Dimensions & Metrics Explorer](https://ga-dev-tools.web.app/dimensions-metrics-explorer/)
+
+## Custom Method set up
+
+[UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) is a tool to produce custom reports, because of this, a method that would fit every single report would not be feasible to implement. Cyclr connector allows its user to add custom fileds to a method.
+Follow the instructions in our guide [Adding Custom Fields](https://docs.cyclr.com/adding-custom-fields) to have a better understanding of how this functionality works and could be applied to fullfill the user need.
+
+# Producing a [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) report
+
+The fields we are focusing on this section are "Metrics" and "Dimensions". For every "Metrics" and "Dimensions" field we use in our report, a custom field must be added to the method with this form [rows].fieldName, ie. [rows].users (add the field name without "ga:").
+
+As an example, we are going to retrieve a report using "Users" and "Sessions" metrics, and "UserType" and "SessionCount" dimensions.
+
+![Added Custom Fields](./images/GA_Added_Custom_Fields.png)
+
+Once the Custom Fields are added to the method, they can be used in a Cyclr cycle as current fields.
