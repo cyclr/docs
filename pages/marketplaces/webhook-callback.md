@@ -33,7 +33,9 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
             "TemplateId": "00000000-0000-0000-0000-000000000000",
             "TemplateReleaseId": "00000000-0000-0000-0000-000000000000"
         }
-    ]
+    ],
+    "Errors" : ["Failed to start cycle"],
+    "UserId": "00000000-0000-0000-0000-000000000000"
 }
 ````
 
