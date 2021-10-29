@@ -7,6 +7,12 @@ tags: [embedding]
 
 ## 2021
 
+### 25th October 2021
+- API: deauthenticate endpoint to de-authenticate an account connector
+- Marketplaces: Installing view can be enabled on Marketplaces
+- Reports: Connector report can drill down to show accounts using the connector
+- Script: cycle_variables avalible in after_action_paging event
+
 ### 4th October 2021
 - API: Parameters include IsSensitive flag
 - LAUNCH/Marketplace: Can change display text used for connectors
