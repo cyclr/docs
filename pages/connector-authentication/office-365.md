@@ -34,26 +34,30 @@ To Summarize the above documentation:
 
 You will need to set different permissions in Azure Active Directory depending on which methods you would like to utilize.
 
+You must also set the Type of each Permission differently depending on which Connector you're using:
+* **Microsoft Office 365** Connector: set Permissions as "Delegated"
+* **Microsoft Office 365 (Application Permissions)**: set Permissions as "Application"
+
 From the Application view (after the creation of the Application in step 3), navigate to "API Permissions" under "Manage" on the left side of the page. Add the following permissions:
 
 | Method Category                  | Type      | Permission Name            |
 |----------------------------------|-----------|----------------------------|
-| Users                            | Delegated | User.Read.All              |
-|                                  | Delegated | User.ReadWrite.All         |
-|                                  | Delegated | Directory.Read.All         |
-|                                  | Delegated | Directory.ReadWrite.All    |
-| Calendars/Calendar Groups/Events | Delegated | Calendars.Read             |
-|                                  | Delegated | Calendars.Read.Shared      |
-|                                  | Delegated | Calendars.ReadWrite        |
-|                                  | Delegated | Calendars.ReadWrite.Shared |
-| Emails                           | Delegated | Mail.Read                  |
-|                                  | Delegated | Mail.Read.Shared           |
-|                                  | Delegated | Mail.ReadWrite             |
-|                                  | Delegated | Mail.ReadWrite.Shared      |
-| OneDrive                         | Delegated | File.Read                  |
-|                                  | Delegated | File.Read.All              |
-|                                  | Delegated | File.ReadWrite             |
-|                                  | Delegated | File.ReadWrite.All         |
+| Users                            | Delegated/Application according to the Connector | User.Read.All              |
+|                                  |  | User.ReadWrite.All         |
+|                                  |  | Directory.Read.All         |
+|                                  |  | Directory.ReadWrite.All    |
+| Calendars/Calendar Groups/Events |  | Calendars.Read             |
+|                                  |  | Calendars.Read.Shared      |
+|                                  |  | Calendars.ReadWrite        |
+|                                  |  | Calendars.ReadWrite.Shared |
+| Emails                           |  | Mail.Read                  |
+|                                  |  | Mail.Read.Shared           |
+|                                  |  | Mail.ReadWrite             |
+|                                  |  | Mail.ReadWrite.Shared      |
+| OneDrive                         |  | File.Read                  |
+|                                  |  | File.Read.All              |
+|                                  |  | File.ReadWrite             |
+|                                  |  | File.ReadWrite.All         |
 
 More information: https://docs.microsoft.com/en-us/graph/permissions-reference
 

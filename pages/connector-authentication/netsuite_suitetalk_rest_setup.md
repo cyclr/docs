@@ -100,3 +100,19 @@ Make a note of the **Token ID** and **Token Secret**.
 4. Click **Next**
 
 The connector is now authenticated and ready to use.
+
+## Troubleshooting Authentication Errors
+
+The authentication error messages returned by NetSuite do not always give a full description of the error's details. To find more information you can view the "Login Audit Trail":
+
+1. Go to Setup > Users/Roles > User Management > View Login Audit Trail
+
+2. Check the Use Advanced Search box
+
+3. Click the Results subtab
+
+4. Add the following fields: Detail, Token-based Access Token Name, and Token-based Application Name
+
+5. Click Submit
+
+The Detail column displays error messages for any token-based authentication logins with a status of Failure.

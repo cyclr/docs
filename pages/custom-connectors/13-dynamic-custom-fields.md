@@ -17,29 +17,64 @@ There are two ways to do this:
 
 <a name="Enhanced">1. Enhanced Dynamic Custom Fields</a>
 ----------------------
-1\. Identify the method within the API that will return the metadata for your object.  You will then need to [create this method within the connector](./connector-methods).
-2\. The response for this method should be an array, and each item in the array must represent a single field in the object, for example:
+1\. Identify the method within the API that will return the metadata for your object.  You will then need to [create this method within the connector](./connector-methods).<br><br>
+
+Your goal now is to reshape the response of the method using connector script - to Cyclr's required format:
+
 ```json
 [
   {
     "cyclr_field_location": "CustName",
     "cyclr_display_name": "Customer Name",
-    "cyclr_is_readonly": false
   },
   {
     "cyclr_field_location": "CustomerId",
     "cyclr_display_name": "Customer ID",
-    "cyclr_is_readonly": true
   }
 ]
-
 ```
-3\. In the response of the method, set the System Fields to match [the table below](#systemfields), so that Cyclr can access the various parts of each field description.  In the above example, the mappings would look like this:
+
+2\.
+
+How you restructure the data into the above format will naturally depend on the shape of your source data, but your connector script will look something like this:
+
+```javascript
+function after_action_paging() {
+    if (method_response == null)
+        return true;
+    var original = method_response.data;
+    var tempResponse = [];
+    for (var i = 0; i < original.length; i++) {
+        tempResponse.push({
+            'cyclr_field_location': "[data]." + original[i].id,
+            'cyclr_display_name': original[i].text
+        });
+    }
+    method_response = tempResponse;
+    return true;
+}
+```
+
+3\. Having set the **Connector Fields** to match the example in step 2...
+* ```[].cyclr_field_location```
+* ```[].cyclr.display_name```
+* etc
+
+...you now need to set the **System Fields** appropriately.
+
+> Please note that if you have used the "Generate Fields" functionality to create the fields above, the system field names will be incorrect - so you will now need to update them.
+
+In the response of the method, set the **System Fields** to match [the table below](#systemfields), so that Cyclr can access the various parts of each field description.  In the above example, the mappings would look like this:
 
 ![](./images/basic-mappings.png)
 
-4\. If you are mapping **data types** from the object description, you will need to add some scripting to the method.  This will vary depending on the structure of your method response, but as an example:
-```json
+4\. The only **required** fields are ```[].cyclr_field_location``` and ```[].cyclr.display_name```.
+
+If you are mapping **data types** from the object description, you will need to add some scripting to the method.  
+
+This will vary depending on the structure of your method response, but as an example:
+
+```jsonc
 // Example method response
 
 [
@@ -99,14 +134,14 @@ function select_dt(item){
 
 System Field | Description
 --- | ---
-cyclr_field_location | Location of the custom field, e.g. [items].custom_field
-cyclr_data_type | The data type of the custom field:<br>0=Not Defined<br>1=Text<br>2=Integer<br>3=Float<br>4=Boolean<br>5=Date Time
-cyclr_data_type_format | Custom data type format for the custom field
-cyclr_default_value | The default value to use for the custom field
-cyclr_description | The description of the custom field
-cyclr_display_name | The name to display the custom field as
-cyclr_is_optional | Indicates if the custom field is optional when part of a request
-cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won't be added to any requests
+cyclr_field_location | Location of the custom field, e.g. [items].custom_field ***(required)***
+cyclr_display_name | The name to display the custom field as ***(required)***
+cyclr_data_type | The data type of the custom field: *(optional)*<br>0=Not Defined<br>1=Text<br>2=Integer<br>3=Float<br>4=Boolean<br>5=Date Time
+cyclr_data_type_format | Custom data type format for the custom field *(optional)*
+cyclr_default_value | The default value to use for the custom field *(optional)*
+cyclr_description | The description of the custom field *(optional)*
+cyclr_is_optional | Indicates if the custom field is optional when part of a request *(optional)*
+cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won't be added to any requests *(optional)*
 
 <a name="Basic">2. Basic Dynamic Custom Fields</a>
 ----------------------
@@ -114,7 +149,7 @@ cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won'
 
 2\. The response of this method should be in the same structure as your "Target" method (the method for which Cyclr will dynamically map custom fields).
 
-```json
+```jsonc
 // Example:
 // Source method "List All Orders" response
 {
@@ -140,6 +175,7 @@ cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won'
   ]
 }
 ```
+
 3\. Now all you need to do is go to the method where you want to pick up custom fields, and select this method from the **Custom Fields Lookup Method** dropdown menu.  You can do this for the Request, the Response, or both as required:
 
 ![](./images/dynamic_custom_fields_image_1.png)

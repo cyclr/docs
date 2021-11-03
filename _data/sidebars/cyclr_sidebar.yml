@@ -94,6 +94,10 @@ entries:
           - title: Custom Domains
             url: /custom-domains
             output: web, pdf
+            
+          - title: Sub Accounts
+            url: /sub-accounts
+            output: web, pdf
 
           - title: Performance Tips
             url: /performance-tips
@@ -234,6 +238,10 @@ entries:
 
           - title: Paging
             url: /connector-paging
+            output: web, pdf
+            
+          - title: Last Successful Run Date
+            url: /last-successful-run-date
             output: web, pdf
 
           - title: Auto Installing Webhooks

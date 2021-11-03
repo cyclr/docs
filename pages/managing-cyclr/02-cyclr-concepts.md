@@ -12,6 +12,10 @@ Each of a Cyclr Partner's Customers will have an account in Cyclr.
 
 Into these accounts integrations can be developed, either based on templates or fully customized.  This provides segmentation between integrations running for different customers.  Connectors in an account are specifically authenticated for that customer.
 
+#### Sub-accounts
+
+Each account may have a number of sub-accounts.  You may for example want one account for a store, separated into sub-accounts for each location.  These accounts have access to the connectors of their "parent" account. <br>[Setting up Sub Accounts](/sub-accounts).
+
 ### Connectors
 
 A Connector is a Cyclr implementation of an application's API. 

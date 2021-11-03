@@ -116,7 +116,9 @@ X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 }
 ```
 
-If the method you are calling requires any field or parameter to be passed to the third-party application, they should be included in your request body.
+### Call a Connector Method with Parameters
+
+If the method you are calling requires any values to be passed, they must be included in your request body.
 
 #### Request
 
