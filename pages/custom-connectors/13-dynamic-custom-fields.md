@@ -88,6 +88,25 @@ This will vary depending on the structure of your method response, but as an exa
 
 ```
 
+```jsonc
+// Example method response containing field values
+
+[
+  {
+    "cyclr_field_location": "Regions",
+    "cyclr_display_name": "Regions",
+    "cyclr_is_readonly": false,
+    "cyclr_data_type": "string",
+    "cyclr_field_values": [
+      {"value":"UK", "label":"United Kingdom"},
+      {"value":"US", "label":"United States"},
+      {"value":"AUS", "label":"Australia"}
+    ]    
+  }
+]
+
+```
+
 ```javascript
 // Example method-level script
 
@@ -142,6 +161,31 @@ cyclr_default_value | The default value to use for the custom field *(optional)*
 cyclr_description | The description of the custom field *(optional)*
 cyclr_is_optional | Indicates if the custom field is optional when part of a request *(optional)*
 cyclr_is_readonly | Indicates if the custom field is read-only, if it is it won't be added to any requests *(optional)*
+cyclr_field_values | A list of values and their labels for a field *(optional)*
+
+#### cyclr_field_values
+There are 2 formats supported for `cyclr_field_values`:
+
+A list of the value to be used by the connector, and its readable counterpart
+```jsonc
+
+    [
+      {"value":"UK", "label":"United Kingdom"},
+      {"value":"US", "label":"United States"},
+      {"value":"AUS", "label":"Australia"}
+    ]  
+
+```
+Or just a list of the values
+```jsonc
+
+    [
+      "UK",
+      "US",
+      "AUS"
+    ]  
+
+```
 
 <a name="Basic">2. Basic Dynamic Custom Fields</a>
 ----------------------
