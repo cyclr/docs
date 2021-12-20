@@ -13,7 +13,7 @@ tags: [connector]
 *   Click "Get New Certificate".
 *   Fill in your username and password, and then click "Get Security Code" and check your emails for said security code.
 *   Enter the security code, **enable "Exportable"**, and then click "Get Certificate".
-*   You have now created a new Xledger certificate. You can access it by navigating to "certmgr" by typing "Manager user certificates" into the Windows search bar.
+*   You have now created a new Xledger certificate. You can access it by navigating to "certmgr" by typing "Manage user certificates" into the Windows search bar.
 *   Under "Personal" > "Certificates", you should see a certificate issued by "XLEDGER.NET".
 *   Double click on it, go to the "Details" tab, and then click "Copy to File".
 *   Go through the stages until you hit "Export Private Key". Select "Yes, export the private key".
