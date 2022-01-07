@@ -85,12 +85,14 @@ This is used when the ID of the last resource returned is in a meta field (in th
 
 | Target Type | Target Name | Disp Name | Desc | Trigger | Optional | Hidden | Value |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ResponseField | meta.cursors.after | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN |
-| QueryString | after | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN |
-| ResponseField | meta.cursors.filter | NA | NA | NA | NA | true | CYCLR_PAGE_FILTER |
-| QueryString | after | NA | NA | NA | NA | true | CYCLR_PAGE_FILTER |
+| ResponseField | meta.cursors.after | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN_AFTER |
+| QueryString | after | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN_AFTER |
+| ResponseField | meta.cursors.filter | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN_FILTER |
+| QueryString | filter | NA | NA | NA | NA | true | CYCLR_PAGE_TOKEN_FILTER |
 
-### Example 5 - API using page token & page number
+If multiple response fields and query string parameters need to be matched, CYCLR_PAGE_TOKEN can be extended with a suffix that needs to start with an underscore, eg. CYCLR_PAGE_TOKEN_AFTER. When a matching pair is found the response field will populate the query string on subsequent calls.
+
+### Example 6 - API using page token & page number
 
 | Target Type | Target Name | Disp Name | Desc | Trigger | Optional | Hidden | Value |
 | --- | --- | --- | --- | --- | --- | --- | --- |
