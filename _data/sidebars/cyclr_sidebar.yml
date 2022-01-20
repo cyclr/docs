@@ -106,6 +106,10 @@ entries:
           - title: Performance Tips
             url: /performance-tips
             output: web, pdf
+            
+          - title: Legal Notices
+            url: /legal-notices
+            output: web, pdf            
 
       - title: Embedding Cyclr
         output: web, pdf
