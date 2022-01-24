@@ -8,8 +8,8 @@ tags: [connector]
 ## Partner Setup
 
 #### Retrieving application key and client key
-* You must [register](https://api.poweroffice.net/Web/docs/index.html#/Common/Registration.md) as a developer to obtain an application key.
-* You must email PowerOffice Go support to retrieve an application key after account registration.
+* [Register](https://api.poweroffice.net/Web/docs/index.html#/Common/Registration.md) as a developer to obtain an application key.
+* Email PowerOffice Go support to retrieve an application key after account registration.
 * You can also retrieve the client key once your application has been activated.
 
 ### Cyclr Setup
