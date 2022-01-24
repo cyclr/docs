@@ -18,7 +18,7 @@ When you are ready for production, create a new API Key and Secret to call our p
 
 ### Cyclr Setup
 
-Setup your Zendesk Sell App within Cyclr:
+Setup your Go Daddy connector within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
