@@ -13,7 +13,7 @@ tags: [connector]
 * Copy the API key by clicking on the clipboard icon
 ### Cyclr Setup
 
-Setup your Zendesk Sell App within Cyclr:
+Setup your High Level Connector within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
