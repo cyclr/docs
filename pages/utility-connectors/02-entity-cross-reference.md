@@ -21,6 +21,12 @@ If you have any extra entity property, it can be added as a custom field followi
 
 If you have additional shared information for both entities, it can be added as a custom field in this naming convention: `AdditionalInfo`. Shared fields cannot begin with `[].`, `Entity1.` or `Entity2.`.
 
+## Custom Category Object  
+
+Categories can be copied to help organise references. References will be only accessable within the copied category.
+
+In the builder, go to connector settings. Expand the table category and, at the top of the methods, click on the copy category button. A Copy Category modal will open up. You will then be able to name your copied category.
+
 ## Get Entity Cross Reference(s)
 
 There are three methods for getting Entity Cross Reference(s):
