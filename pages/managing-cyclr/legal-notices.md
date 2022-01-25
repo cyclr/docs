@@ -9,9 +9,8 @@ tags: [managing-cyclr]
 ### Terms and Conditions
 Cyclr's [Terms and Conditions](https://cyclr.com/terms-and-conditions)
 
-### Trademarks
-Wording TBC
-
+### The Cyclr Application Stack
+The Cyclr [Application Stack](https://cyclr.com/cyclr/application-stack)
 
 ### Third Party Notices
 The software provided by the Cyclr service may contain software available under open source or free software licenses ("Open Source Software") and/or commercial software licensed to Cyclr by parties ("Commercial Software").  The Cyclr Terms of Use do not alter any rights or obligations you may have under those Open Source Software licenses.  Additional information about Open Source and Commercial Software, including required acknowledgements, license terms and notices, can be found below.  
@@ -40,8 +39,8 @@ The software provided by the Cyclr service may contain software available under 
 | Castle.Core | [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html) |
 | Chart.js | [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT) |
 | CommandLineParser | [https://github.com/commandlineparser/commandline/blob/master/License.md](https://github.com/commandlineparser/commandline/blob/master/License.md) |
-| Common.Logging |
-| Common.Logging.Core |
+| Common.Logging | [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html) |
+| Common.Logging.Core | [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html) |
 | CsvHelper | [https://licenses.nuget.org/MS-PL%20OR%20Apache-2.0](https://licenses.nuget.org/MS-PL%20OR%20Apache-2.0) |
 | DiffPlex | [https://github.com/mmanela/diffplex/blob/master/License.txt](https://github.com/mmanela/diffplex/blob/master/License.txt) |
 | DnsClient | [https://licenses.nuget.org/Apache-2.0](https://licenses.nuget.org/Apache-2.0) |
@@ -59,9 +58,9 @@ The software provided by the Cyclr service may contain software available under 
 | jQuery.Cookie | [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php) |
 | jQuery.Steps | [https://github.com/rstaib/jquery-steps/blob/master/LICENSE.txt](https://github.com/rstaib/jquery-steps/blob/master/LICENSE.txt) |
 | jQuery.UI.Combined | [http://jquery.org/license](http://jquery.org/license) |
-| jQuery.Validation |
-| jQuery-UI.Touch-Punch |
-| JUnitTestLogger |
+| jQuery.Validation | [https://github.com/jquery-validation/jquery-validation/blob/master/LICENSE.md](https://github.com/jquery-validation/jquery-validation/blob/master/LICENSE.md) |
+| jQuery-UI.Touch-Punch | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |
+| JUnitTestLogger | [https://github.com/syncromatics/JUnitTestLogger/blob/master/LICENSE](https://github.com/syncromatics/JUnitTestLogger/blob/master/LICENSE) |
 | knockoutjs | [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php) |
 | ladda-bootstrap | [https://github.com/hakimel/Ladda/blob/master/LICENSE](https://github.com/hakimel/Ladda/blob/master/LICENSE) |
 | LibGit2Sharp | [https://github.com/libgit2/libgit2sharp/raw/9a87d4c3d8/LICENSE.md](https://github.com/libgit2/libgit2sharp/raw/9a87d4c3d8/LICENSE.md) |
@@ -161,10 +160,10 @@ The software provided by the Cyclr service may contain software available under 
 | Mono.Cecil | [http://opensource.org/licenses/mit-license.php](http://opensource.org/licenses/mit-license.php) |
 | Moq | [https://raw.githubusercontent.com/moq/moq4/master/License.txt](https://raw.githubusercontent.com/moq/moq4/master/License.txt) |
 | Mvc3Futures | [http://www.microsoft.com/web/webpi/eula/aspnetcomponent_enu.htm](http://www.microsoft.com/web/webpi/eula/aspnetcomponent_enu.htm) |
-| MvcSiteMapProvider.MVC5 |
-| MvcSiteMapProvider.MVC5.Core |
-| MvcSiteMapProvider.MVC5.DI.Autofac.Modules |
-| MvcSiteMapProvider.Web |
+| MvcSiteMapProvider.MVC5 | [https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md](https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md) |
+| MvcSiteMapProvider.MVC5.Core | [https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md](https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md) |
+| MvcSiteMapProvider.MVC5.DI.Autofac.Modules | [https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md](https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md) |
+| MvcSiteMapProvider.Web | [https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md](https://github.com/maartenba/MvcSiteMapProvider/blob/master/LICENSE.md) |
 | MySqlConnector | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |
 | NEST | [https://licenses.nuget.org/Apache-2.0](https://licenses.nuget.org/Apache-2.0) |
 | NETStandard.Library | [https://github.com/dotnet/standard/blob/master/LICENSE.TXT](https://github.com/dotnet/standard/blob/master/LICENSE.TXT) |
@@ -174,7 +173,7 @@ The software provided by the Cyclr service may contain software available under 
 | NLog | [https://github.com/NLog/NLog/blob/master/LICENSE.txt](https://github.com/NLog/NLog/blob/master/LICENSE.txt) |
 | NLog.Config | [https://github.com/NLog/NLog/blob/master/LICENSE.txt](https://github.com/NLog/NLog/blob/master/LICENSE.txt) |
 | NodaTime | [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) |
-| Npgsql |
+| Npgsql | [https://github.com/npgsql/npgsql/blob/main/LICENSE](https://github.com/npgsql/npgsql/blob/main/LICENSE) |
 | nunit | [https://aka.ms/deprecateLicenseUrl](https://aka.ms/deprecateLicenseUrl) |
 | NUnit | [https://aka.ms/deprecateLicenseUrl](https://aka.ms/deprecateLicenseUrl) |
 | NUnit3TestAdapter | [https://aka.ms/deprecateLicenseUrl](https://aka.ms/deprecateLicenseUrl) |
@@ -187,7 +186,7 @@ The software provided by the Cyclr service may contain software available under 
 | PagedList.Mvc | [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php) |
 | Pipelines.Sockets.Unofficial | [https://raw.githubusercontent.com/mgravell/Pipelines.Sockets.Unofficial/master/LICENSE](https://raw.githubusercontent.com/mgravell/Pipelines.Sockets.Unofficial/master/LICENSE) |
 | Pomelo.EntityFrameworkCore.MySql | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |
-| Pomelo.JsonObject |
+| Pomelo.JsonObject | [https://github.com/PomeloFoundation/Pomelo.JsonObject/blob/master/LICENSE](https://github.com/PomeloFoundation/Pomelo.JsonObject/blob/master/LICENSE) |
 | Portable.BouncyCastle | [https://www.bouncycastle.org/csharp/licence.html](https://www.bouncycastle.org/csharp/licence.html) |
 | Proc | [https://github.com/nullean/proc/blob/master/license.txt](https://github.com/nullean/proc/blob/master/license.txt) |
 | Quartz | [https://licenses.nuget.org/Apache-2.0](https://licenses.nuget.org/Apache-2.0) |
@@ -205,7 +204,7 @@ The software provided by the Cyclr service may contain software available under 
 | Sammy.js | [https://github.com/quirkey/sammy/blob/master/LICENSE](https://github.com/quirkey/sammy/blob/master/LICENSE) |
 | SauceControl.InheritDoc | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |
 | SharpCompress | [https://github.com/adamhathcock/sharpcompress/blob/master/LICENSE.txt](https://github.com/adamhathcock/sharpcompress/blob/master/LICENSE.txt) |
-| Spin.js |
+| Spin.js | [https://github.com/fgnass/spin.js/blob/master/LICENSE.md](https://github.com/fgnass/spin.js/blob/master/LICENSE.md) |
 | SSH.NET | [https://github.com/sshnet/SSH.NET/blob/master/LICENSE](https://github.com/sshnet/SSH.NET/blob/master/LICENSE) |
 | StackExchange.Redis | [https://raw.github.com/StackExchange/StackExchange.Redis/master/LICENSE](https://raw.github.com/StackExchange/StackExchange.Redis/master/LICENSE) |
 | SweetAlert.Base | [https://github.com/t4t5/sweetalert/blob/master/LICENSE](https://github.com/t4t5/sweetalert/blob/master/LICENSE) |
@@ -264,7 +263,7 @@ The software provided by the Cyclr service may contain software available under 
 | System.Threading.ThreadPool | [http://go.microsoft.com/fwlink/?LinkId=329770](http://go.microsoft.com/fwlink/?LinkId=329770) |
 | System.ValueTuple | [https://github.com/dotnet/corefx/blob/master/LICENSE.TXT](https://github.com/dotnet/corefx/blob/master/LICENSE.TXT) |
 | System.Xml.ReaderWriter | [http://go.microsoft.com/fwlink/?LinkId=329770](http://go.microsoft.com/fwlink/?LinkId=329770) |
-| TimeZoneConverter |
+| TimeZoneConverter | [https://github.com/mattjohnsonpint/TimeZoneConverter/blob/main/LICENSE.txt](https://github.com/mattjohnsonpint/TimeZoneConverter/blob/main/LICENSE.txt) |
 | toastr | [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php) |
 | Twitter.Bootstrap.Less | [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT) |
 | WebActivatorEx | [http://opensource.org/licenses/Apache-2.0](http://opensource.org/licenses/Apache-2.0) |
