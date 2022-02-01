@@ -26,7 +26,7 @@ Setup your Quora Ads within Cyclr:
 - Go to your **Cyclr Console**
 - Click the **Connectors** menu along the top
 - Choose Connector Library
-- Scroll down to **Quora Ads**
+- Select the  **Quora Ads** Connector
 - Click the **Setup** button
 
 Enter the following values:
