@@ -33,7 +33,7 @@ Setup your SAP SuccessFactors within Cyclr:
 - Go to your **Cyclr Console**
 - Click the **Connectors** menu along the top
 - Choose Connector Library
-- Scroll down to **SAP SuccessFactors**
+- Find the **SAP SuccessFactors** connector.
 - Click the **Setup** button
 
 Enter the required values, as found above in previous section.
