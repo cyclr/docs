@@ -5,6 +5,8 @@ permalink: sap_successfactors
 tags: [connector]
 ---
 
+The SAP SuccessFactors connector is currently a beta connector.
+
 ## Partner Setup
 
 To authenticate the SAP SuccessFactors connector you will need the following:
