@@ -1,7 +1,7 @@
 ---
 title: Follow Up Boss Authentication
 sidebar: cyclr_sidebar
-permalink: zendesk-sell-connector
+permalink: follow-up-boss-connector
 tags: [connector]
 ---
 
