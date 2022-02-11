@@ -5,7 +5,38 @@ permalink: release-notes
 tags: [embedding]
 ---
 
+## 2022
+
+### 7th February 2022
+- Webhooks: added support for refreshing external IDs for partner webhooks
+
+### 17th January 2022
+- LAUNCH/Marketplace: prevent single install packages being installed more than once
+
+### 10th January 2022
+- Console: Add new Search filter option to exclude errors and warnings in transactions view
+
+### 4th January 2022
+- Console: add Cyclr API Reference to Help menu
+- Webhooks: support multiple IDs for partner webhooks
+- API: include connector categories in API response
+
+
 ## 2021
+
+### 29th November 2021
+- Templates: added builder annotations
+- Script: added transaction_id script variable
+- Connectors: added support ftps TLS session reuse
+- Console: added messaging widget to dashboard
+
+### 15th November 2021
+- Webhooks: add webhook replay
+- LAUNCH/Marketplace: enforce mapping steps order
+
+### 8th November 2021
+- Marketplaces: Add installing view
+- Script: added cycle_variables to after_action_paging
 
 ### 25th October 2021
 - API: deauthenticate endpoint to de-authenticate an account connector
