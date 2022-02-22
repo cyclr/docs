@@ -5,7 +5,54 @@ permalink: pipedrive-connector.html
 tags: [connector]
 ---
 
-# Pipedrive Integration Workflow Building Examples #
+# Partner Setup
+-------------
+
+Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. Customers must register Cyclr within Pipedrive as its own App to receive a Client ID and Client Secret. These enables Cyclr to authenticate and connect with Pipedrive.
+
+The official Pipedrive documentation for creating an App can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app).
+
+## Pipedrive Setup
+
+To obtain Client ID and Client Secret values from within Pipedrive:
+
+### Enable a Developer Sandbox Account
+
+To create a Developer Sandbox Account, Pipedrive requires you to complete the following [form](https://developers.pipedrive.com/start-here). This allows you to access the Marketplace Manager. Without this, you will be unable to create the Pipedrive App required for authentication with Cyclr. The official Pipedrive documentation on this process can be found [here](https://pipedrive.readme.io/docs/developer-sandbox-account).
+
+### Create an app within the Marketplace Manager
+
+Create a new App and obtain the Client ID and Client Secret using the following steps:
+
+1. Go to the Marketplace Manager found [here](https://cyclrdevs.pipedrive.com/settings/marketplace_manager). This is only be accessible if you have a Developer Sandbox Account as explained above.
+2. Select **Create New App**.
+3. Select **No** to set the App to unlisted and internal/private, then select **Next**. Pipedrive's documentation on app types can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app#types-of-apps).
+4. Complete the App form as required by Pipedrive.
+5. Cyclr authentication is handled under the **OAuth & Access scopes** heading. Enter the callback URL in the **Callback URL** field. The callback URL has the following format:
+   https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+6. Enable the required **Access scopes** as either **Read only** or **Full access**. The official Pipedrive documentation on scopes can be found [here](https://pipedrive.readme.io/docs/marketplace-scopes-and-permissions-explanations).
+7. Press **Save** to create the App. This will take you back to the Marketplace Manager.
+8. Select the newly created App within the Marketplace Manager to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can select **Show** to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to setup the Pipedrive Connector.
+9. The newly created App needs to be installed to your Pipedrive account. Use the Marketplace Manager to do this. Select **Preview** for the newly created App, then **Install Now**. In the popup window select **Allow and Install** to install the App to your company account as an internal/private App.
+
+## Cyclr Setup
+
+To setup your Pipedrive Connector within Cyclr:
+
+*   Go to your **Cyclr Console**.
+*   Click the **Connectors** menu along the top.
+*   Choose **Connector Library**.
+*   Scroll down to **Pipedrive**.
+*   Click the **Setup** button.
+
+Enter the following values found in the previous section:
+
+**Client ID**: The _Client ID_ of your Pipedrive App.
+**Client Secret**: The _Client Secret_ of your Pipedrive App.
+
+Your Pipedrive Connector is now setup! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+# Pipedrive Integration Workflow Building Examples
 -------------
 <h2>Automating Pipedrive</h2> 
 <h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-left">Example uses:</p><ul><li>Sync new deals with another system</li><li>Trigger time-based actions for deals stuck at a certain stage</li><li>At key deal stages, add the associated contacts to a marketing system</li><li>Automate internal Pipedrive deals, e.g. when a deal hits a certain stage move it to a different pipeline</li></ul><h4 class="intercom-align-left">Deal stage lookups</h4><p class="intercom-align-left">One of the keys to using Pipedrive’s deals is working with the Stage ID in a Cyclr Decision step. In doing this, you can then trigger the next appropriate action – either in Pipedrive or in another app.</p><div class="intercom-container intercom-align-left"><img src="https://downloads.intercomcdn.com/i/o/29084048/e84a2753288301ecbc2bb070/pipedrive-deal-lookup.gif"></div><h3 id="forms" class="intercom-align-left">Forms</h3><p class="intercom-align-left">With Cyclr, you can integrate Pipedrive with a number of form building apps including:</p><ul><li>Contact Form 7</li><li>Gravity Forms</li><li>Typeform</li><li>SurveyMonkey</li></ul>
