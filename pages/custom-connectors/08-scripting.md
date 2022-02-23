@@ -293,24 +293,24 @@ The Response from an `http_request` call is returned as a JSON object with these
 
 Function to encode a string to Base64 using a specified destination character set.
 *Note: If no character set is provided the default will be `UTF-8`*
-Supported character sets are: `UTF-8`, `ASCII`, `ISO-8859-1`
+Supported character sets which can be supplied: `ASCII`, `ISO-8859-1`, `UTF-7`, `UTF-8`, `UTF-16`, `UTF-16LE`, `UTF-16BE`, `UTF-32`, `UTF-32LE`, `UTF-32BE`
 
 ```javascript
 var Utf8Base64Encoded = btoa("Hĕllō Wōrld"); // SMSVbGzFjSBXxY1ybGQ=
 var AsciiBase64Encoded = btoa("Hĕllō Wōrld","ascii"); // SD9sbD8gVz9ybGQ=
-var IsoBase64Encoded = btoa("Hĕllō Wōrld","iso"); // SGVsbG8gV29ybGQ=
+var IsoBase64Encoded = btoa("Hĕllō Wōrld","iso-8859-1"); // SGVsbG8gV29ybGQ=
 ```
 
 #### atob
 
-Function to decode a Base64 encoded string using a specified source character set back to its original value.
+Function to decode a Base64 encoded string, using a specified source character set, back to its original value.
 *Note: If no character set is provided the default will be `UTF-8`*
-Supported character sets are: `UTF-8`, `ASCII`, `ISO-8859-1`
+Supported character sets which can be supplied: `ASCII`, `ISO-8859-1`, `UTF-7`, `UTF-8`, `UTF-16`, `UTF-16LE`, `UTF-16BE`, `UTF-32`, `UTF-32LE`, `UTF-32BE`
 
 ```javascript
 var Utf8Base64Decoded = atob("SMSVbGzFjSBXxY1ybGQ="); // Hĕllō Wōrld
 var AsciiBase64Decoded = atob("SD9sbD8gVz9ybGQ=","ascii"); // H?ll? W?rld
-var IsoBase64Decoded = atob("SGVsbG8gV29ybGQ=","iso"); // Hĕllō Wōrld
+var IsoBase64Decoded = atob("SGVsbG8gV29ybGQ=","iso-8859-1"); // Hĕllō Wōrld
 ```
 
 #### cyclr_sign
