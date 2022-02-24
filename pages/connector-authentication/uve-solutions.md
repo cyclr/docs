@@ -17,7 +17,7 @@ Setup your UVE Solutions App within Cyclr:
 
 Enter the following values:
 
-**Endpoint**: Your custom URL endpoint. This should be in the format of "company.uvesolutions.com".
+**Domain**: Your custom URL endpoint. This should be in the format of "company.uvesolutions.com".
 
 **API Key**: You can generate an API key via the web interface.
 
