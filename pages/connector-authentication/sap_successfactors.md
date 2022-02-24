@@ -17,8 +17,6 @@ To authenticate the SAP SuccessFactors connector you will need the following:
 - Your User ID
 - Company ID - (Your SuccessFactors Instance)
 
-You do not need a Client Secret and should leave that field empty.
-
 ### Setting up an application in SAP SuccessFactors
 
 1. Navigate to the Admin Center page in your SAP SuccessFactors account.
