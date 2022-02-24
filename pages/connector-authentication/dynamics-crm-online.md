@@ -16,7 +16,10 @@ See here for the [official documentation for creating an Azure Active Directory 
 
 We will summarise it in a few points:
 
-1. Register a free Azure account or Dynamics Online trial account; log into your Azure or Dynamics Online account if you already have one.
+1. Register a free Azure account or Dynamics Online trial account; log into your Azure or Dynamics Online account if you already have one. 
+- 
+
+
 2. Go to Microsoft Azure portal -> Azure Active Directory -> App Registrations -> New application registration.
 
    Below are the details you should provide:
@@ -34,15 +37,18 @@ We will summarise it in a few points:
    **Multi-tenanted**: Yes
 
    **API Permissions**:
+   In the API Permissions tab, apply the following permissions:
    * **Microsoft Graph** - set by default
-   * **Dynamics CRM** -> Delegated Permission of "user_impersonation"
+   * **Dynamics CRM** -> Delegated Permission of "user_impersonation" 
    
 
 3. Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Connector Library > Dynamics CRM Online > Setup
 
+   **Resource**: The beginning of your Microsoft Dynamics CRM account url. E.g: "https://example.crm.dynamics.com" without the quotes.
+
    **Client ID**: This is the Application ID displayed in the portal
 
-   **Client Secret**: Create a Password under Microsoft Azure portal > Azure Active Directory > App Registrations > Your Application > API Access > Keys. Copy and paste the password as the client secret
+   **Client Secret**: Create a Password under Microsoft Azure portal > Azure Active Directory > App Registrations > Your Application > Certificates & secrets. Create a new secret and copy the 'value' property. This is your secret value.
 
 Dynamics CRM Online connector is now set up! You can test it by installing it in one of your customer accounts.
 
