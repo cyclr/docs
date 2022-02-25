@@ -23,7 +23,7 @@ Setup your Zendesk Sell App within Cyclr:
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
 *   Choose Connector Library
-*   Scroll down to **Zendesk Chat**
+*   Search for **Zendesk Chat**
 *   Click the **Setup** button
 
 Enter the following values:
