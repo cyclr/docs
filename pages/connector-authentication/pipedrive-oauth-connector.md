@@ -24,32 +24,29 @@ To create a Developer Sandbox Account, Pipedrive requires you to complete the fo
 Create a new App and obtain the Client ID and Client Secret using the steps below. The official Pipedrive documentation for creating an App can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app).
 
 1. Go to the **Marketplace Manager** found [here](https://cyclrdevs.pipedrive.com/settings/marketplace_manager). This is only accessible if you have a Developer Sandbox Account as explained above.
-2. Select `Create New App`.
-3. Select `No` to set the App to unlisted and internal/private, then select `Next`. Pipedrive's documentation on app types can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app#types-of-apps).
+2. Click `Create New App`.
+3. Select `No` to set the App to unlisted and internal/private, then click `Next`. Pipedrive's documentation on app types can be found [here](https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app#types-of-apps).
 4. Complete the App form as required by Pipedrive.
 5. Cyclr authentication is handled under the **OAuth & Access scopes** heading. Enter the callback URL in the **Callback URL** field. The callback URL has the following format:
    https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
 6. Enable the required **Access scopes** as either **Read only** or **Full access**. The official Pipedrive documentation on access scopes can be found [here](https://pipedrive.readme.io/docs/marketplace-scopes-and-permissions-explanations).
-7. Press `Save` to create the App. This will take you back to the Marketplace Manager.
-8. Select the newly created App within the **Marketplace Manager** to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can select `Show` to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to set up the Pipedrive Connector.
-9. The newly created App needs to be installed to your Pipedrive account. This process will vary depending on if the App is public, private or internal. Public and unlisted Apps need to be installed through the **Pipedrive Marketplace** once they have been through Pipedrive's review process. For internal Apps use the **Marketplace Manager** to do this. Select `Preview` for the newly created App, then `Install Now`. In the pop-up window select `Allow and Install` to install the App to your company account. You may be prompted to enter your account details at some point, do so as required.
+7. Click `Save` to create the App. This will take you back to the Marketplace Manager.
+8. Click the newly created App within the **Marketplace Manager** to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can click `Show` to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to set up the Pipedrive Connector.
 
 ## Cyclr Setup
 
-To setup your Pipedrive Connector within Cyclr:
+To set up the Pipedrive Connector within Cyclr:
 
-*   Go to your **Cyclr Console**.
-*   Click the `Connectors` menu along the top.
-*   Choose `Application Connector Library`.
-*   Find **Pipedrive** within the library.
-*   Click the **Setup Required** button.
+1. Go to the **Cyclr Console**.
+2. Click the `Connectors` dropdown menu at the top of the page.
+3. Click `Application Connector Library`.
+4. Use the search bar to find the **Pipedrive (OAuth2.0)** App.
+5. Click the **Setup Required** button.
+6. Enter the **Client ID** and **Client Secret** found in the previous section and click `Next`.
+7. Click `Sign In` to sign in to Pipedrive to allow Cyclr to connect to it.
+8. Click `Allow and Install` to authorize the Pipedrive App to use the listed permissions and install it to your account.
 
-Enter the following values found in the previous section:
-
-**Client ID**: The _Client ID_ of your Pipedrive App.
-**Client Secret**: The _Client Secret_ of your Pipedrive App.
-
-Your Pipedrive Connector is now setup! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+Your Pipedrive Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
 
 # Pipedrive Integration Workflow Building Examples
 -------------
