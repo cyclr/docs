@@ -7,6 +7,11 @@ tags: [embedding]
 
 ## 2022
 
+### 28th February 2022
+- Connectors: Added support for Kafka connector
+- Webhooks: Improved performance, reduces time to accept webhooks
+- Script: Add encoding support for atob &amp; btoa
+
 ### 7th February 2022
 - Webhooks: added support for refreshing external IDs for partner webhooks
 
