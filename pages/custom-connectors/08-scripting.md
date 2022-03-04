@@ -9,11 +9,13 @@ tags: [connector-creation]
 
 ## Scripting
 
-Cyclr supports Javascript as its scripting language, allowing you to manipulate data before it's sent as well as after it's been retrieved.  This can be useful when moving data between applications as what's valid in one, may not be valid in another.  Also, sometimes data just doesn't quite "fit".
+Cyclr supports Javascript as its scripting language, allowing you to manipulate data before it's sent as well as after it's been retrieved.  This can be useful when moving data between applications as what's valid in one, may not be valid in another.  
 
-Script can be used when building a Connector and on Steps in a Template or Cycle.
+Also, sometimes data just doesn't quite "fit".
 
-If you're working on a Cycle in the Builder and need to perform a change to some data, click the Step Setup button on a Step then either use Inline Script in a Mapping for something simple, or expand the Advanced Settings area and enter some Script to tie in to Cyclr's [Events](#events) as described below.
+### Inline Script
+
+Inline Script is used to make small changes to data, directly in a mapping field.
 
 For Inline Script, you must prefix the Javascript code with "=" (an equals sign), e.g.:
 ```javascript
@@ -28,6 +30,21 @@ It's best to use ` characters (backticks) around string values being merged in a
 
 *Note: [Mergefield] above represents fields inserted by Cyclr in **Step Setup** when choosing **Type a Value** and selecting from the dropdowns.*
 
+If you're finding your inline script is becoming complex, or it's being used on multiple fields, you may want to consider using Step Script instead.  Beyond just the added readability, there may also be a performance advantage.
+
+### Step Script
+
+Step Script is used when you want to want to make more complex changes to data.
+
+If you're working on a Cycle in the Builder and need to perform a change to some data, click the Step Setup button on a Step then expand the Advanced Settings area and enter some Script to tie in to Cyclr's [Events](#events) as described below.
+
+This is generally easier to read than multiple inline scripts and as mentioned above, there may be a performance advantage to using one set of Step Script instead of multiple inline scripts.
+
+### Connector Script
+
+If you're building a Custom Connector you also have the option to add script directly to the Connector's definition.
+
+This is done in the Script section of the Connector builder, either at the top level or within individual methods.
 
 ### Event Handlers
 
