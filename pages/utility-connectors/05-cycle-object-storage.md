@@ -5,6 +5,8 @@ permalink: cycle-object-storage
 tags: [utility-connector]
 ---
 
+> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
+
 ## Purpose
 
 To store some data in a Cycle in the form of one or more JSON objects and access that data later in the same Cycle, you can use the **Cycle Object Storage** Connector.
@@ -34,8 +36,6 @@ If you wish to add additional Fields after you've installed the Connector, you c
 This Connector builds upon the features of the **Cycle Data Storage** Connector and therefore supports most of the Methods documented here:
 
 [Data Storage Usage](./data-storage-usage)
-
-> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 ## Related Topics
 
