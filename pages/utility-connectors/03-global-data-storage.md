@@ -5,6 +5,8 @@ permalink: global-data-storage
 tags: [utility-connector]
 ---
 
+> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
+
 ## Purpose
 
 To hold data permanently in a Cyclr Account you can use the Global Data Storage Connector.  
@@ -16,8 +18,6 @@ This data can be accessed in subsequent runs of this Cycle, or indeed _any_ Cycl
 ## Usage
 
 [How To Use Global Data Storage](./data-storage-usage) 
-
-> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 ## Related Topics
 
