@@ -6,6 +6,8 @@ tags: [utility-connector, webhook, generic]
 keywords: utility-connector, webhook, generic
 ---
 
+> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
+
 ## Purpose
 
 The **Generic Webhook** Utility Connector provides the typical HTTP Methods - **DELETE** **GET** **PATCH** **POST** **PUT** - allowing you to make HTTP Requests towards remote systems.  We strongly recommend however that although these methods are available it is preferable to use a 'proper' fully featured Cyclr connector.
@@ -58,8 +60,6 @@ A Transaction will run through a Cycle as normal until it reaches a mid-Cycle We
 Mid-Cycle Webhooks have a **Webhook Mapping** section in Step Setup where you define what will trigger a Transaction to continue: you select the field in received Webhook Requests that will contain a value that matches another field found in the existing Transactions, e.g. a Job or Order ID.
 
 Each time the mid-Cycle Webhook receives a Request, it will look for the most recent Transaction that has a matching value for the Webhook Mapping defined, and run that Transaction from there.  This can be done multiple times, causing a Transaction to be run from the mid-Cycle Webhook more than once.  This can be useful when processing data such as Orders where a notification might be received each time its status changes (e.g. from Received, Picked, Packed to Despatched).  In this situation, if you only wanted to continue when the Order's status was "Despatched", you could use a Decision Step after the Webhook Step to check the current status.
-
-> **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 ## Related Topics
 
