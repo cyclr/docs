@@ -8,8 +8,6 @@ tags: [connector]
 Freshdesk Setup
 ---------------
 
-Please use your Freshdesk API key for the username and leave the password **blank**.
-
 To find your API key:
 
 1. Visit the Freshdesk dashboard.
