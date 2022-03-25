@@ -15,6 +15,9 @@ tags: [connector]
 *   Note down your **App ID** and **App Secret Key**.
 *   Navigate to the **Permissions** area on the menu on the left side of the page.
 *   Add the appropriate permissions needed for the integration. At the moment the only permission needed is **Wix Stores** > **Read Orders**. More information can be found here: https://devforum.wix.com/en/article/available-permissions
+*   Add at least one component by navigating to **Components** on the left panel.
+*   On the top right corner, click **Add Component** and choose **Dasboard Component**. 
+*   Set the desired **Page URL** and choose **Your platform or site** from the options below.
 
 ### Cyclr Setup
 
