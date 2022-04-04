@@ -20,7 +20,8 @@ For Cyclr to connect with the HubSpot API you will need to create an "App" withi
 
 ### Scopes
 
-As mentioned above - it's not necessary to set scopes at this point. The default scopes of `crm.objects.contacts.read`,`crm.objects.deals.read` and `crm.objects.companies.read` will be requested by the Cyclr Connector (along with any other scopes you choose to set within your Cyclr Console).
+As mentioned above - it's not necessary to set scopes at this point. The default scopes of `crm.objects.contacts.read` && `crm.objects.contacts.write` will be requested by the Cyclr Connector if you leave the input empty. 
+If you input your own scope-list, this will override the default values. 
 
 #### IMPORTANT NOTE (November 2021)
 The way that HubSpot handles contact scopes has recently changed:
