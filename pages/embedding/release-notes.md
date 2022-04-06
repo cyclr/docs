@@ -14,6 +14,15 @@ tags: [embedding]
 - Marketplaces: Enforce connector authentication order
 - Builder: Allow partners to control help links in white label consoles
 
+### 21st March 2020
+- Platform: Updated MongoDB native driver to 2.14.1
+- Connectors: Remove dynamic custom fields if no longer found at source
+- Launch/Marketplaces: Added data type mismatch warnings
+- Templates: Cycle variables now support value lists
+
+### 14th March 2020
+- Custom Connectors: Support custom objects
+
 ### 28th February 2022
 - Connectors: Added support for Kafka connector
 - Webhooks: Improved performance, reduces time to accept webhooks
