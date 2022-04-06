@@ -7,6 +7,13 @@ tags: [embedding]
 
 ## 2022
 
+### 4th April 2022
+- Connector Setup: Indicate optional fields
+
+### 28th March 2020
+- Marketplaces: Enforce connector authentication order
+- Builder: Allow partners to control help links in white label consoles
+
 ### 28th February 2022
 - Connectors: Added support for Kafka connector
 - Webhooks: Improved performance, reduces time to accept webhooks
