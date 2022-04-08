@@ -1,7 +1,7 @@
 ---
 title: BigChange JobWatch
 sidebar: cyclr_sidebar
-permalink: bigchange-jobwatch
+permalink: bigchange-jobwatch-connector
 tags: [connector]
 ---
 
