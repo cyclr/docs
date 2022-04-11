@@ -116,15 +116,19 @@ Now that all the templates have been displayed, let’s start the installation. 
         "Connectors": [
             {
                 "Id": 1,
+                "AccountConnectorId": 10,
                 "Name": "MailChimp",
                 "Version": "3.0",
+                "Authenticated": true,
                 "StepCount": 1,
                 "Icon": "Base64 image"
             },
             {
                 "Id": 2,
+                "AccountConnectorId": 11,
                 "Name": "Salesforce",
                 "Version": "v30.0",
+                "Authenticated": true,
                 "StepCount": 1,
                 "Icon": "Base64 image"
             }

@@ -29,15 +29,19 @@ Response:
         "Connectors": [
             {
                 "Id": 2550,
+                "AccountConnectorId": 51,
                 "Name": "Pipedrive",
                 "Version": "1.0",
+                "Authenticated": true,
                 "StepCount": 1,
                 "Icon": null
             },
             {
                 "Id": 2582,
+                "AccountConnectorId": 52,
                 "Name": "MailChimp",
                 "Version": "v3",
+                "Authenticated": true,
                 "StepCount": 1,
                 "Icon": null
             }
