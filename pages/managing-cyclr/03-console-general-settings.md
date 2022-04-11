@@ -26,5 +26,8 @@ tags: [managing-cyclr]
 | Enable User Login Page | Allows end users to log into to Cyclr by username and password. |
 | Enable Cycle Form View | Sets the default cycle setup to be a linear form. The drag and drop builder can be toggled by going to the Advanced view. |
 | Enable iframe Embedding | Allows Cyclr to be embedded in an iframe. This will remove the X-Frame-Options header and set "SameSite=None; Secure" to all cookies. Your hosting webpage must be served over HTTPS. **Note that this will reduce the visible options in the Settings menu presented within Accounts**. |
+| Help Link Type | Determines how to show Cyclr help links; show Cyclr help links, hide Cyclr help Links or use custom help links. Default to "Show Cyclr help links". |
+| Custom Help Link URL | URL to use for all help links when Help Link Type is set to "Use custom help links". |
+| Custom Help Email Address | Email address to use for all helpdesk mailto links when Help Link Type is set to "Use custom help links". |
 | Host Source Whitelist | A comma separated list of host sources that can embed your Cyclr application using iframe. This value will be present in the Content-Security-Policy (CSP) header. |
 | Account Concurrent Transaction Limit | Maximum concurrent transactions allowed for an end user account. |

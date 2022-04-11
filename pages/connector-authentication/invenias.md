@@ -39,7 +39,7 @@ Setup your Invenias App within Cyclr:
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
 *   Choose Connector Library
-*   Scroll down to **Inveias**
+*   Scroll down to **Invenias**
 *   Click the **Setup** button
 
 Enter the following values:

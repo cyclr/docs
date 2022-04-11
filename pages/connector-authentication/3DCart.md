@@ -22,6 +22,7 @@ Also login to your existing 3DCart Secure Store account or [sign up for a free t
     | UK (London) | my.cyclr.uk | 52.56.244.97 |
     | EU (Frankfurt) | eu.cyclr.com | 18.185.231.228 |
 *   Set the scopes for your Application (Permissions on the right of the dashboard), **Contacts** & **Orders** are required.
+*   In order to use **List Order Status** method, the scope **OrderStatus** must be selected.
 *   Click Save.
 *   Note the **Public Key**, **Client ID** and the **Secret Key** from this page.
 *   You can also test the application at this stage, to ensure that it works with your 3DCart Store.

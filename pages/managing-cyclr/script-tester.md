@@ -2,10 +2,10 @@
 title: Script Tester
 sidebar: cyclr_sidebar
 permalink: script-tester
-tags: [connector]
+tags: [connector, script testing]
 ---
 
-If you need to test some javascript outside of your cycle, you can do so with the **Script Tester**.
+If you need to test some javascript outside of your cycle, you can do so with the **Script Testing** Tool.
 
 This can be found in your **Console**, under the **Connectors** menu. 
 
@@ -15,7 +15,7 @@ You should start with an example object (XML/JSON etc) to run your tests on.
 
 This might be a request from a method you wish to call, or the response from said call.
 
-### Using the Script Tester
+### Using the Script Testing Tool
 
 1. Click `Global` and paste in the object, ensuring you assign the correct datatype, and give it a useful name.<br>
     ![Global Object Setup](./images/global-object-setup.png)
