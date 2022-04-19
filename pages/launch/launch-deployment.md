@@ -147,6 +147,10 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
         <td>true</td>
     </tr>
+    <tr>
+        <td>DisplayDescriptions</td>
+        <td>Defaults to false. Whether template descriptions should be displayed to the user on the cycle selection screen.</td>
+        <td>true</td>
 </table>
 
 ### Response
