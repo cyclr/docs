@@ -151,6 +151,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
         <td>DisplayDescriptions</td>
         <td>Defaults to false. Whether template descriptions should be displayed to the user on the cycle selection screen.</td>
         <td>true</td>
+    </tr>
 </table>
 
 ### Response
