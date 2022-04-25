@@ -59,3 +59,13 @@ Footer HTML allows HTML & JavaScript to be injected into the footer of the page.
 ## Launch Complete HTML
 
 Launch Complete HTML allows for the changing of HTML & JavaScript that is displayed at the end of the install process for LAUNCH and Marketplace for more information See [Handling Launch Callback](/handling-callback)
+
+## Connector Callback Error HTML
+
+Connector Callback Error HTML allows for the changing of the HTML that is displayed when an error occurs when trying to authenticate a connector.
+
+The error and error description, returned by the 3rd party, can be used within the HTML by including the {% raw %}{{error}} and {{error_description}}{% endraw %} merge fields. For example
+
+```` html
+<p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>
+````
