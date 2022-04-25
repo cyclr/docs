@@ -8,7 +8,7 @@ tags: [embedding]
 ## 2022
 
 ### 25th April 2022
-- Console: improve transactions view with split notification and filter view by parent transaction
+- Console: Improve transactions view with split notification and filter view by parent transaction
 - Console: Make templates/cycles directly navigable from transactions view
 - API: Enforce name field requirement for account creation calls
 - Launch: Add user visible template note
