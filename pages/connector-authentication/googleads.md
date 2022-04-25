@@ -12,7 +12,7 @@ You need to do the following to enable Google Ads access for the Google Ads conn
 1. Enable the Google Ads API for a project within your workspace.
 2. Obtain your **client ID** and **client secret** by setting up OAuth 2.0 credentials.
 3. Obtain your **developer token** for your Google Ads account.
-4. Obtain your **client customer ID** for your Google Ads client account.
+4. Obtain the **client customer ID** for the Google Ads client account you want to manage via the API.
 
 ### Enabling the Google Ads API
 
@@ -22,7 +22,7 @@ To access the Google Ads API endpoints, you need to enable the Google Ads API wi
 
 You need a **client ID** and **client secret** to set up the Google Ads connector in Cyclr. You can obtain these by creating OAuth 2.0 credentials for the Google project where you enabled the Google Ads API in the previous step. Google's documentation on how to do this can be found [here](https://support.google.com/cloud/answer/6158849?hl=en). You need to set up the fields below as follows:
 
--   **Authorised redirect URIs**: Your Cyclr callback URL e.g. https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback
+-   **Authorised redirect URIs**: Your Cyclr callback URL e.g. https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
 
 Once you have created OAuth 2.0 credentials, make note of the **client ID** and **client secret** as you need both needed to set up the Google Ads connector in Cyclr.
 
@@ -32,18 +32,25 @@ You need a Google Ads **developer token** to set up the Google Ads connector in 
 
 ### Obtaining your client customer ID
 
-You need your **client customer ID** to set up the Google Ads connector in Cyclr. Google's documentation on how to get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
+You need a **client customer ID** to set up the Google Ads connector in Cyclr. This should be a client customer ID from your client's Google Ads account. Google's documentation on how to get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
 
 # Cyclr set up
 
-### Client installation
+### Cyclr console
 
-When using a template containing the Google Ads connector, clients will be prompted for the following information from the previous sections:
+To set up the Google Ads connector within your Cyclr console:
 
--   **Client ID**: The **client ID** they obtained from setting up OAuth 2.0 authentication in their Google project.
--   **Client secret**: The **client secret** they obtained from setting up OAuth 2.0 authentication in their Google project.
--   **Developer token**: The **developer token** they obtained from their Google Ads account.
--   **Client customer ID**: The **client customer ID** of the account they want to manage the API.
+1. Go to the **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Google Ads connector.
+4. Select the **Setup Required** icon.
+5. Enter the following values from the previous sections:
+    - **Client ID**: Your **client ID** you obtained from setting up OAuth 2.0 authentication for your Google project.
+    - **Client secret**: Your **client secret** you obtained from setting up OAuth 2.0 authentication for your Google project.
+    - **Developer token**: Your **developer token** you obtained from your Google Ads account.
+6. Select **Save Changes**.
+
+Your Google Ads connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data. This method requires a **client customer ID** to be provided on connector installation.
 
 ### Partner templates
 
@@ -60,7 +67,10 @@ To set up the Google Ads connector within a template:
     - **Client ID**: Your **client ID** you obtained from setting up OAuth 2.0 authentication for your Google project.
     - **Client secret**: Your **client secret** you obtained from setting up OAuth 2.0 authentication for your Google project.
     - **Developer token**: Your **developer token** you obtained from your Google Ads account.
-    - **Client customer ID**: Your **client customer ID** of the account you want to manage the API.
+    - **Client customer ID**: The **client customer ID** of the client account you want to manage via the API.
 9. Click **Next**.
+10. Click **Sign In**.
+11. Click the corresponding Google Account to sign in with.
+12. Click **Allow**.
 
 Your Google Ads connector is now set up! You can test it by running a method within the template it’s installed in to confirm it returns data.
