@@ -7,6 +7,20 @@ tags: [embedding]
 
 ## 2022
 
+### 25th April 2022
+- Console: improve transactions view with split notification and filter view by parent transaction
+- Console: Make templates/cycles directly navigable from transactions view
+- API: Enforce name field requirement for account creation calls
+- Launch: Add user visible template note
+- Connector Management: Improve method category deletion experience
+
+### 19th April 2022
+- API: Support cycle import and export
+- Platform: Improve Time Filter Field errors
+- Console: Allow partner admins to set users with private instance admin role
+- Console: Allow private instance administrators access to scheduled jobs view
+- API: Include account connector IDs in template install call response
+
 ### 4th April 2022
 - Connector Setup: Indicate optional fields
 
