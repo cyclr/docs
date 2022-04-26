@@ -12,7 +12,7 @@ You need to do the following to enable Google Ads access for the Google Ads conn
 1. Enable the Google Ads API for a project within your workspace.
 2. Obtain your **client ID** and **client secret** by setting up OAuth 2.0 credentials.
 3. Obtain your **developer token** for your Google Ads account.
-4. Obtain the **client customer ID** for the Google Ads client account you want to manage via the API.
+4. Obtain the end user's **client customer ID** for the Google Ads client account they want to manage via the API.
 
 ### Enabling the Google Ads API
 
@@ -30,9 +30,9 @@ Once you have created OAuth 2.0 credentials, make note of the **client ID** and 
 
 You need a Google Ads **developer token** to set up the Google Ads connector in Cyclr. Google's documentation on how to get this can be found [here](https://developers.google.com/google-ads/api/docs/first-call/dev-token).
 
-### Obtaining your client customer ID
+### Obtaining the end user's client customer ID
 
-You need a **client customer ID** to set up the Google Ads connector in Cyclr. This should be a client customer ID from your client's Google Ads account. Google's documentation on how to get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
+You need the end user's **client customer ID** to set up the Google Ads connector in Cyclr. Google's documentation on how end users can get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
 
 # Cyclr set up
 
@@ -67,7 +67,7 @@ To set up the Google Ads connector within a template:
     - **Client ID**: Your **client ID** you obtained from setting up OAuth 2.0 authentication for your Google project.
     - **Client secret**: Your **client secret** you obtained from setting up OAuth 2.0 authentication for your Google project.
     - **Developer token**: Your **developer token** you obtained from your Google Ads account.
-    - **Client customer ID**: The **client customer ID** of the client account you want to manage via the API.
+    - **Client customer ID**: The end user's **client customer ID** of the client account they want to manage via the API.
 9. Click **Next**.
 10. Click **Sign In**.
 11. Click the corresponding Google Account to sign in with.
