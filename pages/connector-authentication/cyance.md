@@ -5,29 +5,29 @@ permalink: cyance-connector
 tags: [connector]
 ---
 
-## Partner Setup
+# Partner Setup
 
-First, get the credentials for your existing Cyance account or [sign up for one.](https://cyance.com/book-a-demo/)
+You need the following details to set up the Cyance connector within Cyclr:
 
-#### Retrieving Auth Details
+-   The company name of the account.
+-   The username for the account.
+-   The password for the account.
 
-*   Contact Cyance [here](customerservices@cyance.com) to request access to the API.
+You can request access to the Cyance API by contacting them [here](customerservices@cyance.com).
 
-### Cyclr Setup
+# Cyclr Setup
 
-Setup your Cyance app within Cyclr:
+To set up the Cyance connector within Cyclr:
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Cyance**
-*   Click the **Setup** button
+1. Go to your **Cyclr Console**.
+2. Select the **Connectors** dropdown menu at the top of the page.
+3. Select **Application Connector Library**.
+4. Use the search bar to find the Cyance connector.
+5. Select the **Setup Required** button.
+6. Enter the following values from the previous section:
+    - **Company Name**: The company name of the account.
+    - **Username**: The username for the account.
+    - **Password**: The password for the account.
+7. Select **Next**.
 
-Enter the following values:
-
-**Password**:  The password for your Cyance account.
-
-**Username**:  The username for your Cyance account.
-
-
-Your Cyance Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+The Cyance connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
