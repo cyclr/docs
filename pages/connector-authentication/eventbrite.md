@@ -69,7 +69,7 @@ When you set up a custom object it creates a new method category with the parame
 4. Enter the event ID into **Specify object name**.
 5. Select **Copy**.
 
-### Change custom object display name
+### Change the custom object display name
 
 To change the display name of a custom object method category:
 
