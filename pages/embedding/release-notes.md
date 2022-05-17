@@ -7,6 +7,21 @@ tags: [embedding]
 
 ## 2022
 
+### 17th May 2022
+- Console: Improve performance when deleting large amounts of transactions
+- Webhooks: Webhook cleanup after step upgraded
+
+### 10th May 2022
+- Connectors: When a connector is de-authenticated, 3rd party webhooks are automatically deregistered
+
+### 3rd May 2022
+- API: Include account connector info in Template Install endpoint response
+- Builder: Improve parent transaction identification in transactions view
+- Launch: Display template descriptions
+- API: Support enhanced objects
+- API: Support template import/export
+- Platform: Allow for authentication failure page customisation
+
 ### 25th April 2022
 - Console: Improve transactions view with split notification and filter view by parent transaction
 - Console: Make templates/cycles directly navigable from transactions view
