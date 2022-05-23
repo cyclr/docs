@@ -20,9 +20,7 @@ Create an API key and client secret on the [API keys page](https://www.eventbrit
 2. Enter a **First Name** and **Last Name** to associate with the keys.
 3. Enter an **Application URL**, this can be any URL but is required.
 4. Enter the **OAuth Redirect URI** of your Cyclr account. This has the following format:
-    ```html
-    https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
-    ```
+    `{% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}`
 5. Enter an **Application Name** and **Description**, these can be anything but are required.
 6. Confirm the **I have read the terms of use and agree to their terms** checkbox.
 7. Select **Create Key**.
