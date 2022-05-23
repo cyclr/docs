@@ -22,7 +22,7 @@ To access the Google Ads API endpoints, you need to enable the Google Ads API wi
 
 You need a **client ID** and **client secret** to set up the Google Ads connector in Cyclr. You can obtain these by creating OAuth 2.0 credentials for the Google project where you enabled the Google Ads API in the previous step. Google's documentation on how to do this can be found [here](https://support.google.com/cloud/answer/6158849?hl=en). You need to set up the fields below as follows:
 
--   **Authorised redirect URIs**: Your Cyclr callback URL e.g. https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback
+-   **Authorised redirect URIs**: Your Cyclr callback URL e.g. {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
 
 Once you have created OAuth 2.0 credentials, make note of the **client ID** and **client secret** as you need both needed to set up the Google Ads connector in Cyclr.
 
