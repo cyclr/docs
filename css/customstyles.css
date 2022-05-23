@@ -981,6 +981,11 @@ span.soft {
     }
 }
 
+#mysidebar {
+    height: 90%;
+    overflow-y: auto;
+}
+
 @media (max-width: 990px) {
     #mysidebar {
         position: relative;
