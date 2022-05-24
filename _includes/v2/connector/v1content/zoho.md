@@ -1,34 +1,63 @@
+<section class="authentication" markdown="1">
 
-## Partner Setup ##
+## Authentication
 
-This document explains how to setup access to Zoho and to install the Zoho CRM Connector.
+| **Type** | OAuth 2.0 |
+| **OAuth 2.0 type** | AuthorisationCode |
+| **Authorise URL** | {{Domain}}/oauth/v2/auth?scope={{Scopes}}&access_type=offline&prompt=consent |
+| **Access token URL** | {{Domain}}/oauth/v2/token |
+{: .table .vheader}
 
-### OAuth Setup ###
+</section>
 
-You'll need to register your Cyclr Partner with Zoho by creating a "Client" in your [Zoho API Console](https://accounts.zoho.com/developerconsole).
+<section class="zoho-crm-set-up" markdown="1">
 
-[Zoho's own documentation on this can be found here](https://www.zoho.com/accounts/protocol/oauth-setup.html)
+## Zoho CRM set up
 
+You need an OAuth 2.0 client ID and client secret to install the Zoho CRM connector in Cyclr. You need to create an application in your [Zoho CRM API console](https://accounts.zoho.com/developerconsole) to obtain these. Zoho CRM's documentation on creating an application in your Zoho API console can be found [here](https://www.zoho.com/accounts/protocol/oauth-setup.html).
 
-* When asked which **Client Type** you wish to create, choose "Server-based Application".
+<div class="create-a-client-in-your-zoho-crm-api-console" markdown="1">
 
-![](./images/Zoho_ClientType.png)
+### Create an application in your Zoho CRM API console
 
-<br/>
+Use the following settings when creating an application in your Zoho CRM API console, make note of the **Client ID** and **Client Secret**:
 
-* Enter an **Authorized Redirect URI** using this format:
+-   **Choose a Client Type**: Server-based Applications
+-   **Authorized Redirect URIs**: `https://{{Your Cyclr Service Domain}}/connector/callback`
 
-{% raw %}`https://{{Your Cyclr Service Domain}}/connector/callback`{% endraw %}
+**Note**: Your `Cyclr service domain` can be found in your Cyclr console under **Settings** > **General Settings** > **Service Domain**.
 
-e.g. ```https://app-h.cyclr.com/connector/callback```
+</div>
 
-You can find your **Service Domain** within your Cyclr Console from the **Settings** menu then **General Settings**.
+<section class="cyclr-set-up" markdown="1">
 
-### Connector Setup ###
+## Cyclr set up
 
-Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console then Connectors > Application Connector Library, search for **Zoho CRM**, click the Padlock button next to it and set them so they're used when installing the Connector.
+To set up the Zoho CRM connector in Cyclr, in your Cyclr console:
 
-## Scopes
-The scopes are defaulted to "ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL", however you can enter your own scopes if you wish to restrict the connectors access further.
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Zoho CRM connector.
+4. Select the **Setup Required** icon.
+5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
+    - **Client ID**: The client ID of your Zoho CRM application.
+    - **Client Secret**: The client secret of your Zoho CRM application.
+6. Select **Save Changes**.
 
-See Zoho's documentation [here](https://www.zoho.com/crm/developer/docs/api/v2/scopes.html) on available scopes.
+Your Zoho CRM connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>
+
+<div section="additional-information" markdown="1">
+
+## Additional Information
+
+<div class="scopes" markdown="1">
+
+### Scopes
+
+The default scopes on installation are: `ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL`. You can manually enter scopes to restrict the connectors access. Zoho's documentation on available scopes can be found [here](https://www.zoho.com/crm/developer/docs/api/v2/scopes.html).
+
+</div>
+
+</section>

@@ -1,30 +1,51 @@
+<section class="authentication" markdown="1">
 
-## Partner Setup
+## Authentication
 
-#### Retrieving public and private key
-* Login to your Zendesk Chat front-end. 
-* Click the **Settings** cog on the left side of the page, then **Account**.
-* On the top horizontal bar click **API & SDKs**.
-* Navigate to **API** section and click **Add API Client**
-* Fill up the fields with the required information, Client Name, Company and enter your Cyclr redirect URL (https://``Your Service Domain``/connector/callback).
-* Click **Create API Client**.
-* After creating the API client a pop up window will appear showing Client ID and Client Secret, this client secret will only be fully displayed once, please keep it safe.
+| **Type** | OAuth 2.0 |
+| **Description** | Go to Settings > > Account > API & SDKs on the Zendesk Portal to setup an oAuth application. |
+| **OAuth 2.0 type** | AuthorisationCode |
+| **Authorise URL** | https://www.zopim.com/oauth2/authorizations/new?scope=read%20write%20chat&subdomain={{SubDomain}} |
+| **Access token URL** | https://www.zopim.com/oauth2/token |
+{: .table .vheader}
 
-### Cyclr Setup
+</section>
 
-Setup your Zendesk Sell App within Cyclr:
+<section class="zendesk-chat-set-up" markdown="1">
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Search for **Zendesk Chat**
-*   Click the **Setup** button
+## Zendesk Chat set up
 
-Enter the following values:
+You need an OAuth 2.0 client ID and client secret to install the Zendesk Chat connector in Cyclr. You need to create an API client in Zendesk to obtain these. Zendesk's documentation on creating an API client can be found [here](https://support.zendesk.com/hc/en-us/articles/4408828740762-Chat-API-tutorial-Generating-an-OAuth-token-integrated-Chat-accounts).
 
-**Client ID**: Retrieved from the above steps.
-**Client Secret**: Retrieved from the above steps.
-**Sub Domain**: The first part of your account URL, ie. https://mycompanysubdomain.zendesk.com/, the subdomain would be "mycompanysubdomain".
+<div class="creating-an-api-client-in-zendesk" markdown="1">
 
+### Creating an API client in Zendesk
 
-Your Zendesk Chat Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+Use the following settings when creating an API client in Zendesk, make note of the **Client ID** and **Client secret**:
+
+-   **Redirect URLs**: `https://{{Your Cyclr Service Domain}}/connector/callback`
+
+**Note**: Your `Cyclr service domain` can be found in your Cyclr console under **Settings** > **General Settings** > **Service Domain**.
+
+</div>
+
+</section>
+
+<section class="cyclr-set-up" markdown="1">
+
+## Cyclr set up
+
+To set up the Zendesk Chat connector in Cyclr, in your Cyclr console:
+
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Zendesk Chat connector.
+4. Select the **Setup Required** icon.
+5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
+    - **Client ID**: The client ID of your Zoom OAuth app.
+    - **Client Secret**: The client secret of your Zoom OAuth app.
+6. Select **Save Changes**.
+
+Your Zendesk Chat connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

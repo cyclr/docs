@@ -1,28 +1,50 @@
+<section class="authentication" markdown="1">
 
-## Partner Setup
+## Authentication
 
-#### Retrieving public and private key
-* Login to your Zendesk Sell front-end. 
-* Click the settings cog on the left side of the page.
-* Navigate to **Integrations** > **OAuth** > **Developer Apps**.
-* Create a new app, enter your Cyclr redirect URL (https://``Your Service Domain``/connector/callback).
-* Click save, and then **Details** and note down the Client ID and Client Secret.
+| **Type** | OAuth 2.0 |
+| **OAuth 2.0 type** | AuthorisationCode |
+| **Authorise URL** | https://api.getbase.com/oauth2/authorize |
+| **Access token URL** | https://api.getbase.com/oauth2/token |
+{: .table .vheader}
 
-### Cyclr Setup
+</section>
 
-Setup your Zendesk Sell App within Cyclr:
+<section class="zendesk-sell-set-up" markdown="1">
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Zendesk Sell**
-*   Click the **Setup** button
+## Zendesk Sell set up
 
-Enter the following values:
+<div class="retrieving-client-id-and-client-secret" markdown="1">
 
-**Client ID**: Retrieved from the above steps.
+### Retrieving client ID and client secret
 
-**Client Secret**: Retrieved from the above steps.
+1. Login to your Zendesk Sell front-end.
+2. Select the settings cog on the left side of the page.
+3. Navigate to **Integrations** > **OAuth** > **Developer Apps**.
+4. Select a new app, enter your Cyclr redirect URL `https://{{Your Cyclr Service Domain}}/connector/callback`.
+5. Select **Save**, and then **Details** and note down the **Client ID** and **Client Secret**.
 
+**Note**: Your `Cyclr service domain` can be found in your Cyclr console under **Settings** > **General Settings** > **Service Domain**.
 
-Your Zendesk Sell Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+</div>
+
+</section>
+
+<section class="cyclr-set-up" markdown="1">
+
+## Cyclr set up
+
+To set up the Zendesk Sell connector in Cyclr, in your Cyclr console:
+
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Zendesk Sell connector.
+4. Select the **Setup Required** icon.
+5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
+    - **Client ID**: The client ID of your Zendesk Sell app.
+    - **Client Secret**: The client secret of your Zendesk Sell app.
+6. Select **Save Changes**.
+
+Your Zendesk Sell connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

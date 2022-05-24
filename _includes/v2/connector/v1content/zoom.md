@@ -1,32 +1,53 @@
+<section class="authentication" markdown="1">
 
-## Partner Setup
+## Authentication
 
-First, [login](https://zoom.us/signin) to your Zoom account.
+| **Type** | OAuth 2.0 |
+| **OAuth 2.0 type** | AuthorisationCode |
+| **Authorise URL** | https://zoom.us/oauth/authorize |
+| **Access token URL** | https://zoom.us/oauth/token |
+{: .table .vheader}
 
-#### Retrieving OAuth2 Details
+</section>
 
-*   Navigate to the [Zoom Marketplace](https://marketplace.zoom.us/develop/create).
-*   Click on "OAuth" as the new app type.
-*   Enter an appropriate name, and the app type is "Account-level app". Do not publish the app to the Marketplace. Click "Create".
-*   Note down the **Client ID** and **Client Secret**.
-*   Enter a redirect URL (https://[Your Cyclr Service Domain]/connector/callback) and whitelist URL (will be the same as the redirect URL) for your app.
-*   Fill out the rest of the information appropriately. Set the scopes according to your use case of the API. Scope details can be found [here](https://marketplace.zoom.us/docs/guides/auth/oauth/oauth-scopes).
+<section class="zoom-set-up" markdown="1">
 
-### Cyclr Setup
+## Zoom set up
 
-Setup your Zoom App within Cyclr:
+You need an OAuth 2.0 client ID and client secret to install the Zoom connector in Cyclr. You need to create a Zoom OAuth App to obtain these. Zoom's documentation on creating an OAuth app can be found [here](https://marketplace.zoom.us/docs/guides/build/oauth-app).
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Zoom**
-*   Click the **Setup** button
+<div class="section-creating-an-oauth-app-in-zoom" markdown="1">
 
-Enter the following values:
+### Create an OAuth app in Zoom
 
-**Client ID**: The client ID that we retrieved from the app that we made.
+Use the following settings when creating your Zoom OAuth app, make note of the **Client ID** and **Client secret**:
 
-**Client Secret**:  The secret that we retrieved from the app that we made.
+-   **Choose app type**: Account-level app
+-   **Would you like to publish this app on Zoom App Marketplace?**: False
+-   **Redirect URL for OAuth**: `https://{{Your Cyclr Service Domain}}/connector/callback`
+-   **Subdomain check**: True
+-   **Add allow lists**: `https://{{Your Cyclr Service Domain}}/connector/callback`
 
+**Note**: Your `Cyclr service domain` can be found in your Cyclr console under **Settings** > **General Settings** > **Service Domain**. Set scopes according to your use case of the API. Zoom's documentation on OAuth scopes can be found [here](https://marketplace.zoom.us/docs/guides/auth/oauth/oauth-scopes).
 
-Your Zoom Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+</div>
+</section>
+
+<section class="cyclr-set-up" markdown="1">
+
+## Cyclr set up
+
+To set up the Zoom connector in Cyclr, in your Cyclr console:
+
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Snowflake connector.
+4. Select the **Setup Required** icon.
+5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
+    - **Client ID**: The client ID of your Zoom OAuth app.
+    - **Client Secret**: The client secret of your Zoom OAuth app.
+6. Select **Save Changes**.
+
+Your Zoom connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>
