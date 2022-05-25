@@ -25,7 +25,7 @@ Request:
 
 | Parameter | Description |
 | --- | --- |
-| **Interval** | The frequency that the Cycle should run at, ignored if first step is webhook |
+| **Interval** | The frequency, in minutes, that the Cycle should run at - ignored if first step is webhook or RunOnce is true |
 | **StartTime** | Optional, the time for the Cycle to start (UTC) |
 | **RunOnce** | Optional, set to true for the Cycle to auto paused after the first run |
 
@@ -35,4 +35,4 @@ Response:
     200 OK
 ```
 
-The Cycle will then run at StartTime and run every Interval (seconds), unless RunOnce is true, in which case the Cycle will run one time at StartTime (or after StartTime if triggered by a webhook).
+The Cycle will then run at StartTime and run every Interval, unless RunOnce is true, in which case the Cycle will run one time at StartTime (or after StartTime if triggered by a webhook).
