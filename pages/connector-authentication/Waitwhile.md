@@ -25,6 +25,7 @@ Setup your Waitwhile App within Cyclr:
 
 Enter the following value:
 
+* **Base URL** Server domain where account is held, ie. (no quotes) "api.waitwhile.com".
 * **API key**
 
 Sign in to Waitwhile and allow Cyclr Connector to connect to it.
