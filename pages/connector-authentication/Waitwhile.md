@@ -15,19 +15,9 @@ Before setting up the **Waitwhile** Connector, you will need to get an **API key
 
 ### Cyclr Setup
 
-Setup your Waitwhile App within Cyclr:
-
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Waitwhile**
-*   Click the **Setup** button
-
-Enter the following value:
+When installing the connector on an account enter the following values:
 
 * **Base URL** Server domain where account is held, ie. (no quotes) "api.waitwhile.com".
 * **API key**
 
-Sign in to Waitwhile and allow Cyclr Connector to connect to it.
-
-Your Waitwhile Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+Your Waitwhile Connector is now setup! You can test it by executing one of the methods to confirm it returns some data.
