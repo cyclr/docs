@@ -7,6 +7,27 @@ tags: [embedding]
 
 ## 2022
 
+### 25th July 2022
+- Connectors: Support multiple authentication types
+- Cycles: Added 6 Hour interval
+
+### 18th July 2022
+- Custom Fields: Can delete custom fields in bulk
+- Custom Fields: Support for reordering custom fields
+
+### 11th July 2022
+- Builder: Can hide unmapped fields in step setup
+- Reports: Transactions can be ordered by column
+- Platform: Improved copy/install cycle performance
+
+### 4th July
+- Platform: Improved CSV performance and max file size
+- Platform: Cycle error retry can be configured for between 1 and 5 retry attempts
+
+### 27th June
+- Connectors: Can import OpenAPI 3 definitions
+- Reports: Reports and logs can be exported from the Console
+
 ### 17th May 2022
 - Console: Improve performance when deleting large amounts of transactions
 - Webhooks: Webhook cleanup after step upgraded
