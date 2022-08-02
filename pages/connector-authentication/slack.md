@@ -33,6 +33,18 @@ Once added, they should look similar to these:
 
 ![Slack - Redirect URLs](./images/slack-redirect-urls.png)
 
+**Requesting Scopes**:
+
+Scroll down to the Scopes section and click to **Add an OAuth Scope**. Scopes can be modified at a later stage by navigating to the **OAuth & Permissions** sidebar.
+
+For example, try adding the chat:write scope to your Bot Token. It'll allow your app to post messages! While you're at it, add the channels:read scope so your app can gain knowledge about public Slack channels.
+
+If you're confused about the difference between adding a Bot Token Scope or a User Token Scope, worry not:
+
+*Add scopes to your Bot Token, not your User Token*.
+
+One notable exception to that rule is if you need to act as a specific user (for example, posting messages on behalf of a user, or setting a user's status). In that situation, you'll need a User Token.
+
 
 Now you can retrieve your **Client ID** and **Client Secret** values by going to **Basic Information** on the left then scrolling down to **App Credentials**:
 
