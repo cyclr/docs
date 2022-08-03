@@ -17,15 +17,7 @@ _Each Five CRM username has a unique hash code._
 
 ### Cyclr Setup
 
-Setup your Five CRM App within Cyclr:
-
-- Go to your **Cyclr Console**
-- Click the **Connectors** menu along the top
-- Choose Connector Library
-- Scroll down to **Five CRM**
-- Click the **Setup** button
-
-Enter the following values:
+Setup your Five CRM App within Cyclr, enter the following values:
 
 **Account Number**: Your Five CRM account number.
 
