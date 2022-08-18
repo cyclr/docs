@@ -7,6 +7,12 @@ tags: [embedding]
 
 ## 2022
 
+### 15th August 2022
+- API: Custom connectors can be created, updated and deleted via the API
+- Connectors: Neo4j support has been added
+- Marketplace Notifications: Partner user agent is included in HTTP request
+- Marketplace Notifications: Include InstallDetails in all notifications
+
 ### 25th July 2022
 - Connectors: Support multiple authentication types
 - Cycles: Added 6 Hour interval
