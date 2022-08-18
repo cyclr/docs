@@ -1,27 +1,27 @@
 ---
-title: Five CRM
+title: FIVE CRM
 sidebar: cyclr_sidebar
 permalink: FIVECRM-connector
 tags: [connector]
 ---
 
-# Five CRM Setup
+# FiveCRM Setup
 
-You need the following details to setup the FiveCRM connector in Cyclr:
+You need the following details to setup the **FIVE CRM** connector in Cyclr:
 
-- A Five CRM Account
-- A Five CRM Account Number
-- A Five CRM 'Hash Code' that is associated with your username.
+- A FiveCRM Account
+- A FiveCRM Account Number
+- A FiveCRM 'Hash Code' that is associated with your username.
 
-_Each Five CRM username has a unique hash code._
+_Each FiveCRM username has a unique hash code._
 
 ### Cyclr Setup
 
-Setup your Five CRM App within Cyclr, enter the following values:
+When installing a **FIVE CRM** Connector within Cyclr, enter the following values:
 
-**Account Number**: Your Five CRM account number.
+**Account Number**: Your FiveCRM account number.
 
-**Hash Code**: Your Five CRM Hash Code generated from your username.
+**Hash Code**: Your FiveCRM Hash Code generated from your username.
 
 ### Connector Notes
 
