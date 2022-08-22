@@ -28,7 +28,7 @@ TikTok for Business's guide on how to create a developer app can be found [here]
 
 | Field                       | Value                                                                                                                                                                                                     |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Advertiser redirect URL** | The OAuth redirect URL of your Cyclr account. This has the format `https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback`.                                                        |
+| **Advertiser redirect URL** | The OAuth redirect URL of your Cyclr account. This has the format `https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback`.                                                        |
 | **Scope of permission**     | The following scopes need to be enabled for the connector to function correctly:<br/>`Ad Account Management` > `Ad Account Information` > `Read Ad Account Information`<br/>`Audience Management` > `All` |
 
 ### Get an app ID and secret
