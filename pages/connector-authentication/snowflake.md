@@ -67,10 +67,12 @@ To set up your Snowflake connector within your Cyclr console:
 3. Use the search box to find the **Snowflake** connector.
 4. Select the **Setup Required** icon.
 5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
+6. 
     | Value             | Description                                                  |
     | ----------------- | ------------------------------------------------------------ |
     | **Client ID**     | The [client ID](#getting-the-client-id-and-client-secret) of your Snowflake account. |
     | **Client Secret** | The [client secret](#getting-the-client-id-and-client-secret) of your Snowflake account. |
+    
 6. Select **Save Changes**.
 
 <a name="account-setup"></a>
