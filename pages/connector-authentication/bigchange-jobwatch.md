@@ -40,12 +40,14 @@ The BigChange JobWatch connector has custom field support for several methods. Y
 2. Under the **Methods & Fields** heading, locate the required method by expanding out the categories and method name.
 3. Select the pink **+** button to add a method field.
 4. Enter the following:
+5. 
    | Value              | Description                                                  |
    | ------------------ | ------------------------------------------------------------ |
    | **Field Location** | The custom field location, which must have the format `cust_<custom field name>`. The `<custom field name>` value has the exact same format as on the contact details page. |
    | **Display Name**   | The display name of the custom field within the Cyclr UI.    |
    | **Description**    | The description of the custom field within the Cyclr UI.     |
    | **Data Type**      | The data type of the custom field. This should be set to `Text`. |
+   
 5. Select **Create**.
 
 <a name="custom-field-compatiable-methods"></a>
