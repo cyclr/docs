@@ -7,6 +7,12 @@ tags: [embedding]
 
 ## 2022
 
+### 05th September 2022
+- API: Cycle variables included in Cycle prerequisites
+- Connectors: Auth fields can be hidden and labels customised
+- Connectors: A new method type of Script can be used for steps that don't require API calls
+- Platform: Deleted Cycles and Templates are now moved to a Recycle bin for 90 days before permanent deletion
+
 ### 15th August 2022
 - API: Custom connectors can be created, updated and deleted via the API
 - Connectors: Neo4j support has been added
