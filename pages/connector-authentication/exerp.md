@@ -18,7 +18,7 @@ You need the following information to setup the Exerp connector:
 You will be asked for the following values when installing the Exerp connector within an account:
 
 | Value        | Description                              |
-| ------------ | ---------------------------------------- |
+| :----------- | :--------------------------------------- |
 | **Username** | The username of your Exerp account.      |
 | **Password** | The client secret of your Exerp account. |
 
@@ -35,9 +35,10 @@ The methods `Centers > Get Center` and `People > Get Person` dynamically return 
 3. Expand the method you want to map custom fields for - either **Get Center** or **Get Person**.
 4. Select the pink **+** icon.
 5. Enter the following:
+
    | Value | Description |
    | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Field Location | The extended attribute field ID. This should be entered as `extendedAttributes.{{ExtendedAttributeId}}`. For example, if the `ExtendedAttributeId` is `EXAMPLE_ATTRIBUTE_ID` then enter `extendedAttributes.EXAMPLE_ATTRIBUTE_ID` as the field location. You can find the `ExtendedAttributeId` of an extended attribute field by running the corresponding method on the **Edit Connector** page. The response on the **Method Response** tab will contain an `extendedAttributes` object and each key this contains is an `ExtendedAttributeId`. |
+   | Field Location | The extended attribute field ID. This should be entered as `extendedAttributes.{ExtendedAttributeId}`. For example, if the `ExtendedAttributeId` is `EXAMPLE_ATTRIBUTE_ID` then enter `extendedAttributes.EXAMPLE_ATTRIBUTE_ID` as the field location. You can find the `ExtendedAttributeId` of an extended attribute field by running the corresponding method on the **Edit Connector** page. The response on the **Method Response** tab will contain an `extendedAttributes` object and each key this contains is an `ExtendedAttributeId`. |
    | Display Name | The display name to use within Cyclr. |
    | Description | The description to use within Cyclr. |
    | Data Type | The data type of the extended attribute. |
