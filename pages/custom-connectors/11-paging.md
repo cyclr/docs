@@ -19,7 +19,7 @@ To set a Connector as using Paging, you can use the following Connector-level pr
 | Inbound Page Size |Set to the number of records that the API will return with a single call eg 100, |
 | Outbound Page Size |Set to the number of records that the API will allow posted with a single call eg 100, | 
 
-Note that the default for ourbound paging of 'false' at the Connector level.
+Note that the default for outbound paging is 'false' at the Connector level.
  
 These patrameters can be overriden and adjusted at the method level.
 
