@@ -21,7 +21,7 @@ To set a Connector as using Paging, you can use the following Connector-level pr
 
 Note that the default for ourbound paging of 'false' at the Connector level.
  
-These patrameters can be overriden and adjusted at the method level.
+These parameters can be overriden and adjusted at the method level.
 
 | Method Property | Description |
 | --- | --- |
@@ -35,7 +35,7 @@ If values are not set at the method level they are inherited from those specifie
 
 ## Inbound Paging Control Variables
 
-It implement inbound paging Cyclr use the following variables.
+When implementing inbound paging in Cyclr, use the following variables.
 
 | Variable | Description |
 | --- | --- |
