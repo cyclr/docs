@@ -50,7 +50,7 @@ When implementing inbound paging in Cyclr, use the following variables.
 
 ### Example 1 - API using page number and page size
 
-In this example the API requires the query sting to include the parameters 'page' and 'limit'.  Other APIs might use different names for these concepts.
+In this example the API requires the query string to include the parameters 'page' and 'limit'.  Other APIs might use different names for these concepts.
 
 | Target Type | Target Name | Disp Name | Desc | Trigger | Optional | Hidden | Value |
 | --- | --- | --- | --- | --- | --- | --- | --- |
