@@ -62,7 +62,7 @@ You can specify Parameters specific to this method. Read more about [parameters]
 
 You can add script to the connector to handle special situations. All data flow should be handled in this section if Script is chosen as the Method Type. Read more about [scripting](./connector-scripting)
 
-#### Sciprt Method Type
+#### Script Method Type
 The script method type can be used for methods that do not make an external API call (e.g. static data), or where requests will need to be handled entirely by the script engine.
 
 ## Mergefields
