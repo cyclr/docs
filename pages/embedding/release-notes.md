@@ -7,6 +7,10 @@ tags: [embedding]
 
 ## 2022
 
+### 26th September 2022
+- Recycle Bin: Delete all option
+- Templates: Copying a template release, can pick a folder to copy into
+
 ### 05th September 2022
 - API: Cycle variables included in Cycle prerequisites
 - Connectors: Auth fields can be hidden and labels customised
