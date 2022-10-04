@@ -92,6 +92,72 @@ Enter the following values:
 
 Your Salesforce Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+## Webhook Setup
+### Add Webhook class to SalesForce account
+* Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
+* Navigate to the left panel, scroll down and click **Custom Code**, then click **Apex Classes**
+* Create a new **Apex Class** by clicking **New**
+* Name it **Webhook** and paste the following code snippet:
+
+```javascript
+  public class Webhook implements HttpCalloutMock {
+
+    public static HttpRequest request;
+    public static HttpResponse response;
+
+    public HTTPResponse respond(HTTPRequest req) {
+        request = req;
+        response = new HttpResponse();
+        response.setStatusCode(200);
+        return response;
+    }
+
+    public static String jsonContent(List<Object> triggerNew, List<Object> triggerOld) {
+        String newObjects = '[]';
+        if (triggerNew != null) {
+            newObjects = JSON.serialize(triggerNew);
+        }
+
+        String oldObjects = '[]';
+        if (triggerOld != null) {
+            oldObjects = JSON.serialize(triggerOld);
+        }
+
+        String userId = JSON.serialize(UserInfo.getUserId());
+
+        String content = '{"new": ' + newObjects + ', "old": ' + oldObjects + ', "userId": ' + userId + '}';
+        return content;
+    }
+
+    @future(callout=true)
+    public static void callout(String url, String content) {
+
+        if (Test.isRunningTest()) {
+            Test.setMock(HttpCalloutMock.class, new Webhook());
+        }
+
+        Http h = new Http();
+
+        HttpRequest req = new HttpRequest();
+        req.setEndpoint(url);
+        req.setMethod('POST');
+        req.setHeader('Content-Type', 'application/json');
+        req.setBody(content);
+
+        h.send(req);
+    }
+
+}
+```
+###  Add Service Domain
+* Go to your Cyclr console, click **Setings** and **General Settings**
+* Copy your **Service Domain**  
+* Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
+* Navigate to the left panel, scroll down and click **Security**, then click **Remote Site Settings**
+* Click **New Remote Site** and give it a name and add your **Service Domain** from the second step.
+
+Now your account is set and ready to use webhooks in your account.
+
 
 ## Enduser Salesforce Account Setup
 
