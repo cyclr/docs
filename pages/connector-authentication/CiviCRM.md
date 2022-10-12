@@ -9,11 +9,9 @@ tags: [connector]
 
 You need the following details to setup the **CiviCRM** connector in Cyclr:
 
-- A CiviCRM Account
-- A CiviCRM Base URL
-- A CiviCRM API Key.
+- Your CiviCRM Base URL (It will be provided by Civi CRM when opening your account).
+- Your CiviCRM API Key (It will be provided by Civi CRM when opening your account).
 
-_Each FiveCRM username has a unique hash code._
 
 ### Cyclr Setup
 
