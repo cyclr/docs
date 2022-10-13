@@ -7,16 +7,16 @@ tags: [connector]
 
 # CiviCRM Setup
 
-You need the following details to setup the **CiviCRM** connector in Cyclr:
+The following details are required from  Civi CRM to setup the **CiviCRM** connector in Cyclr:
 
-- Your CiviCRM Base URL (It will be provided by Civi CRM when opening your account).
-- Your CiviCRM API Key (It will be provided by Civi CRM when opening your account).
+- CiviCRM Base URL (It will be provided by Civi CRM when opening your account).
+- CiviCRM API Key (It will be provided by Civi CRM when opening your account).
 
 
 ### Cyclr Setup
 
 When installing a **CiviCRM** Connector within Cyclr, enter the following values:
 
-**Base Url**: Your CiviCRM account URL.
+**Base Url**: The CiviCRM account URL.
 
-**API Key**: Your CiviCRM API Key.
+**API Key**: The CiviCRM API Key.
