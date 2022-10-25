@@ -11,11 +11,13 @@ Google Data Studio is designed to turn your data into interactive dashboards and
 
 Using the Cyclr API, you can consume data from any Cyclr connectors you have installed and display them in Data Studio.
 
-Let's take a look at how to set up Cyclr in Data Studio. In this example, we will create a KPI report for a [Sentori](http://sentoriapp.com/) campaign.
+Let's take a look at how to set up Cyclr in Data Studio. In this example, we will create a KPI campaign report using an email marketing system called [Sentori](http://sentoriapp.com/).
 
 ### Apps Script Setup
 
-The first step is to set up Google Apps Script. Apps Script defines how your users authenticate the requests and pull data from connectors they installed in Cyclr. We have written an Apps Script project to help you bootstrap this. Contact our support to get the latest code.
+The first step is to set up Google Apps Script. Apps Script defines how your users authenticate the requests and pull data from connectors they installed in Cyclr.
+
+**_We have written an Apps Script project to help you bootstrap this. Contact our support to get the latest code._**
 
 Once you have the code, create a new project in [G Suite Developer Hub](https://script.google.com/home) and copy the code into the project.
 
