@@ -13,7 +13,7 @@ Before you start, you'll need to have created a Cyclr Account and have installed
 
 ### Get Account Connectors
 
-Let's get a list of installed account connectors from your account so Cyclr knows which account connector you want to make the request with.
+You can get a list of installed account connectors from your account so Cyclr knows which account connector you want to make the request with.
 
 #### Request:
 
