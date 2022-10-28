@@ -57,7 +57,7 @@ Hubspot webhooks utilise a single webhook URL, this requires some configuration 
 
 Navigate to Cyclr Console > Connectors > Application Connector Library > Hubspot > Setup
 
-Copy the Webhook URL to your clipboard. e.g. `https://<yourserivcedomain>/api/partnerwebhook/xxxxxx` (Note: Do not user the webhook URL from the builder, but this one under the partner console).
+Copy the Webhook URL to your clipboard. e.g. `https://<yourserivcedomain>/api/partnerwebhook/xxxxxx` (Note: Do not use the webhook URL from the builder, but this one under the partner console).
 
 You will now need to setup the Hubspot application to send webhooks. This has three steps:
 
