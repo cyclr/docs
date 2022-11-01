@@ -16,7 +16,7 @@ If you need help to get the API key, contact your Zedonk account manager.
 
 ### Account setup
 
-When Installing the Zedonk connector within an account, you will be asked for the following credentials:
+When you install the Zedonk connector within an account, you need to enter the following credentials:
 
 | Credentials | Description                             |
 | ----------- | --------------------------------------- |
