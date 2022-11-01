@@ -14,7 +14,13 @@ If you need help to get the API key, contact your Zedonk account manager.
 
 ## Cyclr setup
 
-To set up the connector, go to Cyclr Console > **Connectors** > **Application Connector Library** > **Zedonk** > **Setup**.
+To set up your Zedonk connector within your cyclr console:
+
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Zedonk connector.
+4. Select the **Setup Required** icon.
+5. Select **Save Changes**.
 
 ### Account setup
 
