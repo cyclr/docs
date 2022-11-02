@@ -164,7 +164,7 @@ entries:
               - title: Cycle installation from a template
                 url: /cycle-installation
                 output: web, pdf
-                subfoldersitems:
+                subfolderitems:
                   - title: Template installation in Cyclr
                     url: /template-install
                     output: web, pdf  
