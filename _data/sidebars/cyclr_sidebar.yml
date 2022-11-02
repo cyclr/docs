@@ -169,9 +169,9 @@ entries:
                     url: /template-install
                     output: web, pdf  
             
-                   - title: Install a template
-                     url: /install-from-template
-                     output: web, pdf
+                  - title: Install a template
+                    url: /install-from-template
+                    output: web, pdf
 
           - title: Get Cycle Prerequisites
             url: /get-cycle-prerequisites
