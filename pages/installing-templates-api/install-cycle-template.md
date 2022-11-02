@@ -1,13 +1,26 @@
 ---
-title: Install a Template
+title: Install a template
 sidebar: cyclr_sidebar
 permalink: install-from-template
 tags: [installing]
 ---
 
-_**A Cycle is an instance of a Template installed within an Account.**_
+A Cycle is an instance of a template you install within an account.
 
-Install a new Cycle into an Account, based on one of the available Templates.
+To add a new cycle into your account based on an available template, install the template. There are two ways to install a template from your template library directly into an account:
+
+* Use the console interface.
+* Make a request through the Cyclr API.
+
+## Install a template in the console
+
+To install a template through the Cyclr interface:
+
+1. Open your account.
+2. Select **Templates**.
+3. Search for the template you want to install and select **USE TEMPLATE**.
+
+## Install a template with the Cyclr API
 
 Request:
 
@@ -58,6 +71,9 @@ Response:
 }
 ````
 
-Installing the Template will also install all the Connectors required for the Cycle to run.
+> **Note**: If you install a template, Cyclr also installs all of the connectors the cycle needs to run.
+
+## Related pages
 
 [How to Get Template Prerequisites](./get-cycle-prerequisites)
+[Template Installation](./template-installation)
