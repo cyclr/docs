@@ -160,11 +160,11 @@ entries:
           - title: Get List Available Templates
             url: /list-available-templates
             output: web, pdf
-            
+         
           - title: Cycle installation from a template
             url: /cycle-installation
             output: web, pdf
-            folderitems:
+            subfolders:
               - title: Template installation in Cyclr
                 url: /template-install
                 output: web, pdf  
