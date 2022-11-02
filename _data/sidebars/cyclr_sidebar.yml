@@ -165,7 +165,7 @@ entries:
             url: /cycle-installation
             output: web, pdf
             items:
-             - title: Template installation in Cyclr
+              - title: Template installation in Cyclr
                 url: /template-install
                 output: web, pdf  
             
