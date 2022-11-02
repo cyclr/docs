@@ -160,18 +160,18 @@ entries:
           - title: Get List Available Templates
             url: /list-available-templates
             output: web, pdf
-         
-          - title: Cycle installation from a template
-            url: /cycle-installation
-            output: web, pdf
-            subfolders:
-              - title: Template installation in Cyclr
-                url: /template-install
-                output: web, pdf  
-            
-              - title: Install a template
-                url: /install-from-template
+            subfolders:         
+              - title: Cycle installation from a template
+                url: /cycle-installation
                 output: web, pdf
+                subfoldersitems:
+                  - title: Template installation in Cyclr
+                    url: /template-install
+                    output: web, pdf  
+            
+                   - title: Install a template
+                     url: /install-from-template
+                     output: web, pdf
 
           - title: Get Cycle Prerequisites
             url: /get-cycle-prerequisites
