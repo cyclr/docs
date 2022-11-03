@@ -75,5 +75,5 @@ Response:
 
 ## Related pages
 
-[How to Get Template Prerequisites](./get-cycle-prerequisites)
-[Template Installation](./template-installation)
+*  [How to Get Template Prerequisites](./get-cycle-prerequisites)
+*  [Template Installation](./template-installation)
