@@ -5,21 +5,21 @@ permalink: odoo-connector
 tags: [connector]
 ---
 
-# Odoo setup
+## Odoo setup
 
-You can find Odoo's documentation on how to configure your Odoo instance for API access [here](https://www.odoo.com/documentation/16.0/developer/api/external_api.html?highlight=pagination#configuration). Please contact your server administrator if you need help obtaining credentials.
+You can find Odoo's documentation on how to configure your Odoo instance for API access [here](https://www.odoo.com/documentation/16.0/developer/api/external_api.html?highlight=pagination#configuration). Please contact your server administrator if you need help to obtain credentials.
 
 <a name="get-database-names"></a>
 
-## Get database names
+### Get database names
 
-To get database names on your Odoo instance visit `{Server URL}/web/database/selector` in a web browser. Use the full database name as it appears in the list during account setup.
+To get database names on your Odoo instance visit `{Server URL}/web/database/selector` in a web browser. Use the full database name as it appears in the list when you setup the connector in Cyclr.
 
-# Cyclr setup
+## Cyclr setup
 
-## Account setup
+### Account setup
 
-You will be asked for the following values when installing the Odoo connector within an account:
+You will be asked for the below values when you install the Odoo connector within an account:
 
 | Value             | Description                                                  |
 | :---------------- | :----------------------------------------------------------- |
