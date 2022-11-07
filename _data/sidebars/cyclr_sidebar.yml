@@ -1052,6 +1052,10 @@ entries:
             url: /novadine-connector
             output: web, pdf
 
+          - title: Odoo
+            url: /odoo-connector
+            output: web, pdf
+
           - title: Okta
             url: /okta-connector
             output: web, pdf
