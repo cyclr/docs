@@ -384,51 +384,51 @@ entries:
       - title: Connector Guides
         output: web, pdf
         folderitems:
-          - title: 3DCart Authentication
+          - title: 3DCart
             url: /3DCart-connector
             output: web, pdf
 
-          - title: Access CRM Connector Guide
+          - title: Access CRM
             url: /access-crm-connector
             output: web, pdf
 
-          - title: AccuLynx Authentication
+          - title: AccuLynx
             url: /acculynx-connector
             output: web, pdf
 
-          - title: Act! Authentication
+          - title: Act!
             url: /act-connector
             output: web, pdf
 
-          - title: ActiveCampaign Authentication
+          - title: ActiveCampaign
             url: /activecampaign-connector
             output: web, pdf
 
-          - title: Administrate Authentication
+          - title: Administrate
             url: /administrate-connector
             output: web, pdf
 
-          - title: Adobe Campaign Authentication
+          - title: Adobe Campaign
             url: /adobe-campaign-connector
             output: web, pdf
 
-          - title: ADP Authentication
+          - title: ADP
             url: /adp-connector
             output: web, pdf
 
-          - title: Aircall Authentication
+          - title: Aircall
             url: /aircall-connector
             output: web, pdf
 
-          - title: Airtable Authentication
+          - title: Airtable
             url: /airtable-connector
             output: web, pdf
 
           - title: Alto
             url: /alto-connector
             output: web, pdf
-            
-          - title: Amadeus Authentication
+
+          - title: Amadeus
             url: /amadeus-connector
             output: web, pdf
 
@@ -436,7 +436,7 @@ entries:
             url: /appdirect-connector
             output: web, pdf
 
-          - title: Arrived Workforce Connections Authentication
+          - title: Arrived Workforce Connections
             url: /arrived-workforce
             output: web, pdf
 
@@ -444,27 +444,27 @@ entries:
             url: /asana
             output: web, pdf
 
-          - title: AWS Backup Authentication
+          - title: AWS Backup
             url: /aws-backup-connector
             output: web, pdf
 
-          - title: AWS EC2 Authentication
+          - title: AWS EC2
             url: /ec2-connector
             output: web, pdf
 
-          - title: AWS S3 Authentication
+          - title: AWS S3
             url: /s3-connector
             output: web, pdf
 
-          - title: B2B Wave Connector
+          - title: B2B Wave
             url: /b2bwave-connector
             output: web, pdf
 
-          - title: BambooHR Authentication
+          - title: BambooHR
             url: /bamboohr-connector
             output: web, pdf
 
-          - title: BatchDialer Connector Guide
+          - title: BatchDialer
             url: /batchdialer-connector
             output: web, pdf
 
@@ -472,7 +472,7 @@ entries:
             url: /bigchange-jobwatch-connector
             output: web, pdf
 
-          - title: BigCommerce Authentication
+          - title: BigCommerce
             url: /bigcommerce-connector
             output: web, pdf
 
@@ -480,55 +480,55 @@ entries:
             url: /blackcurve-connector
             output: web, pdf
 
-          - title: BlueDolphin Authentication
+          - title: BlueDolphin
             url: /bluedolphin-connector
             output: web, pdf
 
-          - title: BNTouch Connector Guide
+          - title: BNTouch
             url: /bntouch-connector
             output: web, pdf
 
-          - title: Bookeo Authentication
+          - title: Bookeo
             url: /bookeo-connector
             output: web, pdf
 
-          - title: Box Connector Guide
+          - title: Box
             url: /box-connector
             output: web, pdf
 
-          - title: Breathe HR Authentication
+          - title: Breathe HR
             url: /breathehr
             output: web, pdf
 
-          - title: Bridal Live Authentication
+          - title: Bridal Live
             url: /bridal-live-connector
             output: web, pdf
 
-          - title: Brightspace Authentication
+          - title: Brightspace
             url: /brightspace-connector
             output: web, pdf
 
-          - title: Briostack Connector
+          - title: Briostack
             url: /briostack-connector
             output: web, pdf
 
-          - title: Bronto Installation
+          - title: Bronto
             url: /bronto-installation
             output: web, pdf
 
-          - title: Bullhorn Authentication
+          - title: Bullhorn
             url: /bullhorn-connector
             output: web, pdf
 
-          - title: Calendly Connector Guide
+          - title: Calendly
             url: /calendly-connector
             output: web, pdf
 
-          - title: CallRail Authentication
+          - title: CallRail
             url: /callrail-connector
             output: web, pdf
 
-          - title: CampusIvy Authentication
+          - title: CampusIvy
             url: /CampusIvy-connector
             output: web, pdf
 
@@ -536,19 +536,19 @@ entries:
             url: /candidate-hub
             output: web, pdf
 
-          - title: Capsule Authentication
+          - title: Capsule
             url: /capsule-connector
             output: web, pdf
 
-          - title: Cardpointe Authentication
+          - title: Cardpointe
             url: /Cardpointe-connector
             output: web, pdf
 
-          - title: Casavi Authentication
+          - title: Casavi
             url: /casavi
             output: web, pdf
 
-          - title: Caspio Authentication
+          - title: Caspio
             url: /caspio
             output: web, pdf
 
@@ -556,7 +556,7 @@ entries:
             url: /Cavelo
             output: web, pdf
 
-          - title: Centtrip Authentication
+          - title: Centtrip
             url: /centtrip-connector
             output: web, pdf
 
@@ -580,11 +580,11 @@ entries:
             url: /clicksend-connector
             output: web, pdf
 
-          - title: Clover Authentication
+          - title: Clover
             url: /clover-connector
             output: web, pdf
 
-          - title: Club Ready Connector
+          - title: Club Ready
             url: /clubready-connector
             output: web, pdf
 
@@ -592,7 +592,7 @@ entries:
             url: /coingecko-connector
             output: web, pdf
 
-          - title: ConnectWise Manage Authentication
+          - title: ConnectWise Manage
             url: /connectwisemanage-connector
             output: web, pdf
 
@@ -600,7 +600,7 @@ entries:
             url: /constant-contact
             output: web, pdf
 
-          - title: Copper Authentication
+          - title: Copper
             url: /copper
             output: web, pdf
 
@@ -608,107 +608,107 @@ entries:
             url: /counterpoint
             output: web, pdf
 
-          - title: Cyance Authentication
+          - title: Cyance
             url: /cyance-connector
             output: web, pdf
 
-          - title: Deltek Workbook Connector Guide
+          - title: Deltek Workbook
             url: /deltek-workbook-connector
             output: web, pdf
 
-          - title: DevicePilot Authentication
+          - title: DevicePilot
             url: /devicepilot
             output: web, pdf
 
-          - title: DHL Authentication
+          - title: DHL
             url: /dhl-connector
             output: web, pdf
 
-          - title: DigitalHumani Authentication
+          - title: DigitalHumani
             url: /digital-humani
             output: web, pdf
 
-          - title: Digitickets Authentication
+          - title: Digitickets
             url: /digitickets-connector
             output: web, pdf
 
-          - title: Disciple Media Authentication
+          - title: Disciple Media
             url: /disciple-media-connector
             output: web, pdf
 
-          - title: Dixa Authentication
+          - title: Dixa
             url: /dixa-connector
             output: web, pdf
 
-          - title: Document360 Connector Guide
+          - title: Document360
             url: /document360-connector
             output: web, pdf
 
-          - title: Docusign Connector Guide
+          - title: Docusign
             url: /docusign-connector
             output: web, pdf
 
-          - title: DoorDash Authentication
+          - title: DoorDash
             url: /doordash-connector
             output: web, pdf
 
-          - title: Drift Authentication
+          - title: Drift
             url: /drift-connector
             output: web, pdf
 
-          - title: Drip Connector
+          - title: Drip
             url: /drip-connector
             output: web, pdf
 
-          - title: Dropbox Authentication
+          - title: Dropbox
             url: /dropbox-connector
             output: web, pdf
 
-          - title: eBay Authentication
+          - title: eBay
             url: /ebay-connector
             output: web, pdf
 
-          - title: Emarsys Authentication
+          - title: Emarsys
             url: /authenticate-emarsys
             output: web, pdf
 
-          - title: Engagement Multiplier Connector Guide
+          - title: Engagement Multiplier
             url: /engagement-multiplier-connector
             output: web, pdf
 
-          - title: Envision Authentication
+          - title: Envision
             url: /envision
             output: web, pdf
 
-          - title: Epic Authentication
+          - title: Epic
             url: /epic-connector
             output: web, pdf
 
-          - title: Eventbrite Authentication
+          - title: Eventbrite
             url: /eventbrite-connector
             output: web, pdf
 
-          - title: Exact Connector
+          - title: Exact
             url: /exact-connector
             output: web, pdf
 
-          - title: Exerp Authentication
+          - title: Exerp
             url: /exerp-connector
             output: web, pdf
 
-          - title: Facebook Marketing Authentication
+          - title: Facebook Marketing
             url: /facebook-connector
             output: web, pdf
 
-          - title: Facebook Messenger Authentication
+          - title: Facebook Messenger
             url: /facebook-messenger-connector
             output: web, pdf
 
-          - title: Facebook Offline Conversions Authentication
+          - title: Facebook Offline Conversions
             url: /facebook-offline-conversions-connector
             output: web, pdf
 
-          - title: Farmers AGP Authentication
+          - title: Farmers AGP
             url: /farmers-agp-connector
             output: web, pdf
 
@@ -716,19 +716,19 @@ entries:
             url: /FIVECRM-connector
             output: web, pdf
 
-          - title: Fluent Commerce Authentication
+          - title: Fluent Commerce
             url: /FluentCommerce-connector
             output: web, pdf
 
-          - title: FMX Authentication
+          - title: FMX
             url: /fmx-connector
             output: web, pdf
 
-          - title: Follow Up Boss Authentication
+          - title: Follow Up Boss
             url: /follow-up-boss-connector
             output: web, pdf
 
-          - title: FoodTec Solutions Connector Guide
+          - title: FoodTec Solutions
             url: /foodtec-solutions-connector
             output: web, pdf
 
@@ -736,59 +736,59 @@ entries:
             url: /franconnect
             output: web, pdf
 
-          - title: Freshbooks Classic Authentication
+          - title: Freshbooks Classic
             url: /freshbooks-classic
             output: web, pdf
 
-          - title: Freshdesk Connector
+          - title: Freshdesk
             url: /freshdesk-connector
             output: web, pdf
 
-          - title: Freshdesk Messaging Authentication
+          - title: Freshdesk Messaging
             url: /freshdesk-messaging-connector
             output: web, pdf
 
-          - title: FullContact Connector Guide
+          - title: FullContact
             url: /fullcontact-connector
             output: web, pdf
 
-          - title: Gingr Authentication
+          - title: Gingr
             url: /gingr-connector
             output: web, pdf
 
-          - title: GitHub Authentication
+          - title: GitHub
             url: /github-authentication
             output: web, pdf
 
-          - title: GoCardless Authentication
+          - title: GoCardless
             url: /gocardless-auth
             output: web, pdf
 
-          - title: GoDaddy Authentication
+          - title: GoDaddy
             url: /godaddy-connector
             output: web, pdf
 
-          - title: Google Ads Authentication
+          - title: Google Ads
             url: /google-ads-connector
             output: web, pdf
 
-          - title: Google Analytics Connector User Guide
+          - title: Google Analytics
             url: /google-analytics-connector-user-guide
             output: web, pdf
 
-          - title: Google Authentication
+          - title: Google
             url: /google-authentication
             output: web, pdf
 
-          - title: Google BigQuery Authentication
+          - title: Google BigQuery
             url: /bigquery
             output: web, pdf
 
-          - title: Google Calendar - Workspace Authentication
+          - title: Google Calendar - Workspace
             url: /google-calendar-workspace-connector
             output: web, pdf
 
-          - title: Google Classroom - Workspace Authentication
+          - title: Google Classroom - Workspace
             url: /google-classroom-workspace-connector
             output: web, pdf
 
@@ -796,15 +796,15 @@ entries:
             url: /google-data-studio-connector
             output: web, pdf
 
-          - title: Google Maps Connector Guide
+          - title: Google Maps
             url: /google-maps-connector
             output: web, pdf
 
-          - title: Guestline Authentication
+          - title: Guestline
             url: /guestline-connector
             output: web, pdf
 
-          - title: Gym Sales Authentication
+          - title: Gym Sales
             url: /gym-sales-connector
             output: web, pdf
 
@@ -812,51 +812,51 @@ entries:
             url: /heartland
             output: web, pdf
 
-          - title: High Level Authentication
+          - title: High Level
             url: /high-level-connector
             output: web, pdf
 
-          - title: Hubspot Api Key Connector Guide
+          - title: Hubspot
             url: /hubspot-api-key-connector
             output: web, pdf
 
-          - title: HubSpot Connector Guide
+          - title: HubSpot
             url: /hubspot-connector
             output: web, pdf
 
-          - title: Ibexa Authentication
+          - title: Ibexa
             url: /ibexa-connector
             output: web, pdf
 
-          - title: Idio Connector Guide
+          - title: Idio
             url: /idio-connector
             output: web, pdf
 
-          - title: Imonggo Authentication
+          - title: Imonggo
             url: /Imonggo-connector
             output: web, pdf
 
-          - title: Infusionsoft Connector Guide
+          - title: Infusionsoft
             url: /infusionsoft-connector
             output: web, pdf
 
-          - title: Ingenious Vendor Authentication
+          - title: Ingenious Vendor
             url: /ingenious-vendor-connector
             output: web, pdf
 
-          - title: Injixo Authentication
+          - title: Injixo
             url: /injixo
             output: web, pdf
 
-          - title: Insellerate Authentication
+          - title: Insellerate
             url: /authenticate-insellerate
             output: web, pdf
 
-          - title: Insider Connector Guide
+          - title: Insider
             url: /insider-connector
             output: web, pdf
 
-          - title: Instant.co Authentication
+          - title: Instant.co
             url: /instantco-connector
             output: web, pdf
 
@@ -864,67 +864,67 @@ entries:
             url: /canvas
             output: web, pdf
 
-          - title: Intelliflo Connector Guide
+          - title: Intelliflo
             url: /intelliflo-connector
             output: web, pdf
 
-          - title: Intercom Authentication
+          - title: Intercom
             url: /intercom-connector
             output: web, pdf
 
-          - title: Invenias Authentication
+          - title: Invenias
             url: /invenias-connector
             output: web, pdf
 
-          - title: JobAdder Authentication
+          - title: JobAdder
             url: /jobadder-connector
             output: web, pdf
 
-          - title: JobNimbus Authentication
+          - title: JobNimbus
             url: /jobnimbus-connector
             output: web, pdf
 
-          - title: JobNimbus Authentication
+          - title: JobNimbus
             url: /jobnimbus-connector
             output: web, pdf
 
-          - title: JobProgress Authentication
+          - title: JobProgress
             url: /jobprogress-connector
             output: web, pdf
 
-          - title: JotForm Connector Guide
+          - title: JotForm
             url: /jotform-connector
             output: web, pdf
 
-          - title: Kustomer Authentication
+          - title: Kustomer
             url: /Kustomer-connector
             output: web, pdf
 
-          - title: LawToolBox Authentication
+          - title: LawToolBox
             url: /lawtoolbox-connector
             output: web, pdf
 
-          - title: LeadMailbox Authentication
+          - title: LeadMailbox
             url: /authenticate-leadmailbox
             output: web, pdf
 
-          - title: Less Annoying CRM Connector Guide
+          - title: Less Annoying CRM
             url: /less-annoying-crm-connector
             output: web, pdf
 
-          - title: LianaCEM Authentication
+          - title: LianaCEM
             url: /lianacem-connector
             output: web, pdf
 
-          - title: LianaCMS Connector Guide
+          - title: LianaCMS
             url: /lianacms-connector
             output: web, pdf
 
-          - title: Listrak REST Authentication
+          - title: Listrak REST
             url: /listrak-rest-connector
             output: web, pdf
 
-          - title: LiveForce Authentication
+          - title: LiveForce
             url: /liveForce-connector
             output: web, pdf
 
@@ -932,59 +932,59 @@ entries:
             url: /lizzy-connector
             output: web, pdf
 
-          - title: M3ter Authentication
+          - title: M3ter
             url: /m3ter-connector
             output: web, pdf
 
-          - title: Magento 2 Connector
+          - title: Magento 2
             url: /magento-2-connector
             output: web, pdf
 
-          - title: Magento 2 Webhooks Connector
+          - title: Magento 2 Webhooks
             url: /magento-2-webhooks-connector
             output: web, pdf
 
-          - title: Mailchimp Authentication
+          - title: Mailchimp
             url: /mailchimp-connector
             output: web, pdf
 
-          - title: Mailkit Authentication
+          - title: Mailkit
             url: /Mailkit-connector
             output: web, pdf
 
-          - title: ManageBac Authentication
+          - title: ManageBac
             url: /managebac-connector
             output: web, pdf
 
-          - title: Marketo Connector Guide
+          - title: Marketo
             url: /marketo-connector
             output: web, pdf
 
-          - title: Marketron Authentication
+          - title: Marketron
             url: /marketron-connector
             output: web, pdf
 
-          - title: Marketron Legacy Authentication
+          - title: Marketron Legacy
             url: /marketronlegacy-connector
             output: web, pdf
 
-          - title: Matchcraft Authentication
+          - title: Matchcraft
             url: /matchcraft
             output: web, pdf
 
-          - title: MemoQ Authentication
+          - title: MemoQ
             url: /MemoQ-connector
             output: web, pdf
 
-          - title: MereCatch Authentication
+          - title: MereCatch
             url: /merecatch-connector
             output: web, pdf
 
-          - title: Microsoft Azure Active Directory Connector Guide
+          - title: Microsoft Azure Active Directory
             url: /azure-ad-connector
             output: web, pdf
 
-          - title: Microsoft Azure DevOps Connector Guide
+          - title: Microsoft Azure DevOps
             url: /azure-devops-connector
             output: web, pdf
 
@@ -1004,35 +1004,35 @@ entries:
             url: /office-365-connector
             output: web, pdf
 
-          - title: Microsoft Teams Authentication
+          - title: Microsoft Teams
             url: /microsoft-teams-connector
             output: web, pdf
 
-          - title: Mindbody Connector Guide
+          - title: Mindbody
             url: /mindbody-connector
             output: web, pdf
 
-          - title: monday.com Connector Guide
+          - title: monday.com
             url: /mondaydotcom-connector
             output: web, pdf
 
-          - title: MongoDB Connector Guide
+          - title: MongoDB
             url: /mongodb-connector
             output: web, pdf
 
-          - title: Moodle Authentication
+          - title: Moodle
             url: /moodle-connector
             output: web, pdf
 
-          - title: MRI Authentication
+          - title: MRI
             url: /mri-connector
             output: web, pdf
 
-          - title: MX Authentication
+          - title: MX
             url: /mx-connector
             output: web, pdf
 
-          - title: MyDocSafe Authentication
+          - title: MyDocSafe
             url: /mydocsafe-connector
             output: web, pdf
 
@@ -1040,67 +1040,67 @@ entries:
             url: /myob-accountright-connector
             output: web, pdf
 
-          - title: Neo4j Connector Guide
+          - title: Neo4j
             url: /neo4j-connector
             output: web, pdf
 
-          - title: Notion Authentication
+          - title: Notion
             url: /notion-connector
             output: web, pdf
 
-          - title: Novadine Authentication
+          - title: Novadine
             url: /novadine-connector
             output: web, pdf
 
-          - title: Okta Authentication
+          - title: Okta
             url: /okta-connector
             output: web, pdf
 
-          - title: OnceHub Authentication
+          - title: OnceHub
             url: /oncehub-connector
             output: web, pdf
 
-          - title: OpenApply Connector Guide
+          - title: OpenApply
             url: /openapply-connector
             output: web, pdf
 
-          - title: OpenBOM Connector Guide
+          - title: OpenBOM
             url: /open-bom-connector
             output: web, pdf
 
-          - title: OpenCRM Connector Guide
+          - title: OpenCRM
             url: /opencrm-connector
             output: web, pdf
 
-          - title: Optimail Connector Guide
+          - title: Optimail
             url: /optimail-connector
             output: web, pdf
 
-          - title: Optimizely Authentication
+          - title: Optimizely
             url: /optimizely-connector
             output: web, pdf
 
-          - title: Oracle Eloqua Connector Guide
+          - title: Oracle Eloqua
             url: /oracle-eloqua-connector
             output: web, pdf
 
-          - title: Oracle NetSuite - SuiteTalk REST Web Services Connector Guide
+          - title: Oracle NetSuite - SuiteTalk REST Web Services
             url: /netsuite-suitetalk-rest-connector
             output: web, pdf
 
-          - title: Oracle NetSuite Connector Guide
+          - title: Oracle NetSuite
             url: /netsuite-connector
             output: web, pdf
 
-          - title: Orderbot Authentication
+          - title: Orderbot
             url: /orderbot-connector
             output: web, pdf
 
-          - title: OSS Authentication
+          - title: OSS
             url: /oss-connector
             output: web, pdf
 
-          - title: PayJunction Authentication
+          - title: PayJunction
             url: /payjunction
             output: web, pdf
 
@@ -1108,59 +1108,59 @@ entries:
             url: /paypro-global-connector
             output: web, pdf
 
-          - title: PayTrace Authentication
+          - title: PayTrace
             url: /paytrace-connector
             output: web, pdf
 
-          - title: PeopleHR Authentication
+          - title: PeopleHR
             url: /peoplehr
             output: web, pdf
 
-          - title: PetExec Connector Guide
+          - title: PetExec
             url: /petexec-connector
             output: web, pdf
 
-          - title: PhoneBurner Authentication
+          - title: PhoneBurner
             url: /phoneburner-connector
             output: web, pdf
 
-          - title: PingOne Authentication
+          - title: PingOne
             url: /pingone-connector
             output: web, pdf
 
-          - title: Pipedrive (OAuth2.0) Connector Guide
+          - title: Pipedrive (OAuth2.0)
             url: /pipedrive-oauth-connector
             output: web, pdf
 
-          - title: Pipedrive Connector Guide
+          - title: Pipedrive
             url: /pipedrive-connector.html
             output: web, pdf
 
-          - title: Podio Connector Guide
+          - title: Podio
             url: /podio-connector
             output: web, pdf
 
-          - title: Pomelo Pay Authentication
+          - title: Pomelo Pay
             url: /pomelo-pay-connector
             output: web, pdf
 
-          - title: POSIFiQ Authentication
+          - title: POSIFiQ
             url: /posifiq-connector
             output: web, pdf
 
-          - title: PowerOffice Go Authentication
+          - title: PowerOffice Go
             url: /poweroffice-go-connector
             output: web, pdf
 
-          - title: ProfitWell Authentication
+          - title: ProfitWell
             url: /profitwell
             output: web, pdf
 
-          - title: Purple Authentication
+          - title: Purple
             url: /purple-connector
             output: web, pdf
 
-          - title: QuickBooks Connector
+          - title: QuickBooks
             url: /quickbooks-connector
             output: web, pdf
 
@@ -1172,11 +1172,11 @@ entries:
             url: /qwary
             output: web, pdf
 
-          - title: Retail Express Authentication
+          - title: Retail Express
             url: /retail-express-connector
             output: web, pdf
 
-          - title: RFMS Authentication
+          - title: RFMS
             url: /rfms-connector
             output: web, pdf
 
@@ -1184,35 +1184,35 @@ entries:
             url: /RingCentral
             output: web, pdf
 
-          - title: Rock Gym Pro Connector Guide
+          - title: Rock Gym Pro
             url: /rockgympro-connector
             output: web, pdf
 
-          - title: Rybbon Connector Guide
+          - title: Rybbon
             url: /rybbon-connector
             output: web, pdf
 
-          - title: SaaShr Authentication
+          - title: SaaShr
             url: /saashr-connector
             output: web, pdf
 
-          - title: Sage 50 Authentication
+          - title: Sage 50
             url: /sage50-connector
             output: web, pdf
 
-          - title: Sage 50cloud Connector
+          - title: Sage 50cloud
             url: /sage-50cloud-connector
             output: web, pdf
 
-          - title: Sage CRM Authentication
+          - title: Sage CRM
             url: /sagecrm-connector
             output: web, pdf
 
-          - title: Salesforce Authentication
+          - title: Salesforce
             url: /salesforce-connector
             output: web, pdf
 
-          - title: Salesforce Chatter Authentication
+          - title: Salesforce Chatter
             url: /salesforce-chatter-connector
             output: web, pdf
 
@@ -1224,7 +1224,7 @@ entries:
             url: /salesforce-marketing-cloud-connector
             output: web, pdf
 
-          - title: Salesforce Metadata Connector Guide
+          - title: Salesforce Metadata
             url: /salesforce-metadata-connector
             output: web, pdf
 
@@ -1236,19 +1236,19 @@ entries:
             url: /salesforce-pardot-oauth-connector
             output: web, pdf
 
-          - title: Salesforce SOAP Authentication
+          - title: Salesforce SOAP
             url: /salesforce-soap-connector
             output: web, pdf
 
-          - title: Salesforce Upsert Setup
+          - title: Salesforce Upsert
             url: /salesforce-upsert-setup
             output: web, pdf
 
-          - title: Salesloft Authentication
+          - title: Salesloft
             url: /Salesloft-connector
             output: web, pdf
 
-          - title: SalesNexus Connector Guide
+          - title: SalesNexus
             url: /salesnexus-connector
             output: web, pdf
 
@@ -1260,175 +1260,175 @@ entries:
             url: /sap_successfactors
             output: web, pdf
 
-          - title: Scoro Authentication
+          - title: Scoro
             url: /scoro-connector
             output: web, pdf
 
-          - title: Selligent Authentication
+          - title: Selligent
             url: /selligent
             output: web, pdf
 
-          - title: SendGrid Authentication
+          - title: SendGrid
             url: /sendgrid
             output: web, pdf
 
-          - title: Service Fusion Authentication
+          - title: Service Fusion
             url: /servicefusion-connector
             output: web, pdf
 
-          - title: serviceminder.io Authentication
+          - title: serviceminder.io
             url: /serviceminder-connector
             output: web, pdf
 
-          - title: ServiceMonster Authentication
+          - title: ServiceMonster
             url: /servicemonster-connector
             output: web, pdf
 
-          - title: ServiceNow Authentication
+          - title: ServiceNow
             url: /servicenow-connector
             output: web, pdf
 
-          - title: ServSuite Authentication
+          - title: ServSuite
             url: /servsuite
             output: web, pdf
 
-          - title: SFTP Private Key Authentication
+          - title: SFTP Private Key
             url: /sftp-private-key
             output: web, pdf
 
-          - title: Shibumi Authentication
+          - title: Shibumi
             url: /shibumi-connector
             output: web, pdf
 
-          - title: ShipStation Authentication
+          - title: ShipStation
             url: /shipstation-connector
             output: web, pdf
 
-          - title: Shireburn Connector Guide
+          - title: Shireburn
             url: /shireburn-connector
             output: web, pdf
 
-          - title: Shopify (oAuth) Authentication
+          - title: Shopify (oAuth)
             url: /shopify-oauth
             output: web, pdf
 
-          - title: Shopify Authentication
+          - title: Shopify
             url: /shopify
             output: web, pdf
 
-          - title: Simitive ABC-HE Authentication
+          - title: Simitive ABC-HE
             url: /simitive-abc-he-connector
             output: web, pdf
 
-          - title: Simitive WAMS Authentication
+          - title: Simitive WAMS
             url: /simitive-wams-connector
             output: web, pdf
 
-          - title: SimpleTexting Authentication
+          - title: SimpleTexting
             url: /simpletexting-connector
             output: web, pdf
 
-          - title: Slack Authentication
+          - title: Slack
             url: /slack
             output: web, pdf
 
-          - title: SMRT Connector Guide
+          - title: SMRT
             url: /smrt-connector
             output: web, pdf
 
-          - title: Snowflake Authentication
+          - title: Snowflake
             url: /snowflake-connector
             output: web, pdf
 
-          - title: Spark Membership Connector Guide
+          - title: Spark Membership
             url: /spark-membership-connector
             output: web, pdf
 
-          - title: SpotDraft Authentication
+          - title: SpotDraft
             url: /spotdraft-connector
             output: web, pdf
 
-          - title: SpotMe Connector Guide
+          - title: SpotMe
             url: /spotme-connector
             output: web, pdf
 
-          - title: Sprout Send Authentication
+          - title: Sprout Send
             url: /SproutSend-connector
             output: web, pdf
 
-          - title: SPS Commerce Authentication
+          - title: SPS Commerce
             url: /sps-commerce-connector
             output: web, pdf
 
-          - title: Squarespace Authentication
+          - title: Squarespace
             url: /squarespace-connector
             output: web, pdf
 
-          - title: Squareup Authentication
+          - title: Squareup
             url: /squareup-connector
             output: web, pdf
 
-          - title: Stripe (OAuth) Authentication
+          - title: Stripe (OAuth)
             url: /stripe-oauth-connector
             output: web, pdf
 
-          - title: SugarCRM Authentication
+          - title: SugarCRM
             url: /sugarcrm-connector
             output: web, pdf
 
-          - title: SuiteCRM Authentication
+          - title: SuiteCRM
             url: /suitecrm-connector
             output: web, pdf
 
-          - title: SuperPhone Connector Guide
+          - title: SuperPhone
             url: /superphone-connector
             output: web, pdf
 
-          - title: Surefire CRM Connector Guide
+          - title: Surefire CRM
             url: /surefirecrm
             output: web, pdf
 
-          - title: Sweap Authentication
+          - title: Sweap
             url: /sweap-connector
             output: web, pdf
 
-          - title: Synchtank Authentication
+          - title: Synchtank
             url: /synchtank-connector
             output: web, pdf
 
-          - title: Tazworks Connector Guide
+          - title: Tazworks
             url: /tazworks-connector
             output: web, pdf
 
-          - title: Tenstreet Authentication
+          - title: Tenstreet
             url: /Tenstreet-connector
             output: web, pdf
 
-          - title: TikTok for Business Authentication
+          - title: TikTok for Business
             url: /tiktok-for-business-connector
             output: web, pdf
 
-          - title: Total Expert Authentication
+          - title: Total Expert
             url: /total_expert
             output: web, pdf
 
-          - title: Totango Authentication
+          - title: Totango
             url: /Totango-connector
             output: web, pdf
 
-          - title: Trello Authentication
+          - title: Trello
             url: /trello-connector
             output: web, pdf
 
-          - title: Tripleseat Authentication
+          - title: Tripleseat
             url: /tripleseat
             output: web, pdf
 
-          - title: Trustpilot Connector Guide
+          - title: Trustpilot
             url: /trustpilot-connector
             output: web, pdf
 
-          - title: Twilio Connector Guide
+          - title: Twilio
             url: /twilio-connector.html
             output: web, pdf
 
@@ -1436,39 +1436,39 @@ entries:
             url: /twiliovoice
             output: web, pdf
 
-          - title: Twitter Connector Guide
+          - title: Twitter
             url: /twitter-connector
             output: web, pdf
 
-          - title: Unbounce Authentication
+          - title: Unbounce
             url: /unbounce
             output: web, pdf
 
-          - title: Upland Adestra Authentication
+          - title: Upland Adestra
             url: /authenticate-adestra
             output: web, pdf
 
-          - title: User.com Connector Guide
+          - title: User.com
             url: /userdotcom-connector
             output: web, pdf
 
-          - title: UVE Solutions Authentication
+          - title: UVE Solutions
             url: /uve-solutions-connector
             output: web, pdf
 
-          - title: Velocify Authentication
+          - title: Velocify
             url: /authenticate-velocify
             output: web, pdf
 
-          - title: Vend Connector Guide
+          - title: Vend
             url: /vend-connector
             output: web, pdf
 
-          - title: Vincere Connector Guide
+          - title: Vincere
             url: /vincere-connector
             output: web, pdf
 
-          - title: Vonage Connector Guide
+          - title: Vonage
             url: /vonage-connector
             output: web, pdf
 
@@ -1480,67 +1480,67 @@ entries:
             url: /voucherify-connector
             output: web, pdf
 
-          - title: Voyado Authentication
+          - title: Voyado
             url: /voyado-connector
             output: web, pdf
 
-          - title: Waitwhile Authentication
+          - title: Waitwhile
             url: /waitwhile-connector
             output: web, pdf
 
-          - title: WaiverForever Authentication
+          - title: WaiverForever
             url: /waiverforever-connector
             output: web, pdf
 
-          - title: Wealthbox Authentication
+          - title: Wealthbox
             url: /wealthbox-connector
             output: web, pdf
 
-          - title: WebEOC Authentication
+          - title: WebEOC
             url: /webeoc-connector
             output: web, pdf
 
-          - title: Wix Authentication
+          - title: Wix
             url: /wix-connector
             output: web, pdf
 
-          - title: WooCommerce Authentication
+          - title: WooCommerce
             url: /woocommerce-connector
             output: web, pdf
 
-          - title: Wordpress Authentication
+          - title: Wordpress
             url: /wordpress-connector.html
             output: web, pdf
 
-          - title: Wordpress.com Authentication
+          - title: Wordpress.com
             url: /wordpresscom-connector
             output: web, pdf
 
-          - title: Xero OAuth2.0 Authentication
+          - title: Xero OAuth2.0
             url: /xero-oauth2
             output: web, pdf
 
-          - title: Xero Private Instance Authentication
+          - title: Xero Private Instance
             url: /xero-private-connector
             output: web, pdf
 
-          - title: Xledger Authentication
+          - title: Xledger
             url: /xledger-connector
             output: web, pdf
 
-          - title: Zedonk Authentication
+          - title: Zedonk
             url: /zedonk-connector
             output: web, pdf
 
-          - title: Zendesk Authentication
+          - title: Zendesk
             url: /zendesk-connector
             output: web, pdf
 
-          - title: Zendesk Chat Authentication
+          - title: Zendesk Chat
             url: /zendesk-chat-connector
             output: web, pdf
 
-          - title: Zendesk Sell Authentication
+          - title: Zendesk Sell
             url: /zendesk-sell-connector
             output: web, pdf
 
@@ -1548,11 +1548,10 @@ entries:
             url: /zoho
             output: web, pdf
 
-          - title: Zoom Authentication
+          - title: Zoom
             url: /zoom-connector
             output: web, pdf
-
-
+            
       - title: Cyclr API Examples
         output: web, pdf
         folderitems:
