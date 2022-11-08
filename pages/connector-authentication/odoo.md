@@ -24,6 +24,6 @@ Cyclr asks you for the below values when you install the Odoo connector within a
 | Value             | Description                                                  |
 | :---------------- | :----------------------------------------------------------- |
 | **Server URL**    | The URL of the server that hosts the Odoo instance. Include the port if it's required. For example, `https://hosted-odoo-instance.net:8443`. |
-| **Database Name** | The [database name](#get-database-names) to access.          |
-| **Username**      | The username to login to the instance with.                  |
-| **Password**      | The password to login to the instance with.                  |
+| **Database Name** | The [database name](#get-database-names) for Cyclr to access.          |
+| **Username**      | The username for Cyclr to log in to the instance with.                  |
+| **Password**      | The password for Cyclr to log in to the instance with.                  |
