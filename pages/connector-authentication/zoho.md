@@ -6,62 +6,59 @@ tags: [connector]
 
 ---
 
-## Partner Setup ##
+## Partner setup
 
-This document explains how to setup access to Zoho and to install the Zoho CRM Connector.
+This page explains how to setup access to Zoho so you can use the Zoho connector in Cyclr.
 
-### OAuth Setup ###
+### OAuth Setup
 
-You'll need to register your Cyclr Partner with Zoho by creating a "Client" in your [Zoho API Console](https://accounts.zoho.com/developerconsole).
+You need to register your Cyclr Partner with Zoho by creating a **Client** in your [Zoho API Console](https://accounts.zoho.com/developerconsole).
 
-[Zoho's own documentation on this can be found here](https://www.zoho.com/accounts/protocol/oauth-setup.html)
+Zoho's documentation on this can be found [here](https://www.zoho.com/accounts/protocol/oauth-setup.html).
 
 
-* When asked which **Client Type** you wish to create, choose "Server-based Application".
+1.  When asked which **Client Type** you want to create, select **Server-based Application**.
 
-![](./images/Zoho_ClientType.png)
+![A screenshot of the Client Type options.](./images/Zoho_ClientType.png)
 
-<br/>
 
-* Enter an **Authorized Redirect URI** using this format:
+2.  Enter an **Authorized Redirect URL** with the following format:
 
 {% raw %}`https://{{Your Cyclr Service Domain}}/connector/callback`{% endraw %}
 
-e.g. ```https://app-h.cyclr.com/connector/callback```
+For example, ```https://app-h.cyclr.com/connector/callback```
 
-You can find your **Service Domain** within your Cyclr Console from the **Settings** menu then **General Settings**.
+> **Note**: You can find your **Service Domain** in your Cyclr console from the **Settings** menu then **General Settings**.
 
-### Connector Setup ###
+## Cyclr setup
 
-Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console then Connectors > Application Connector Library, search for **Zoho CRM**, click the Padlock button next to it and set them so they're used every time when installing the Connector.
+### Account setup
 
-## Scopes
+Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console > **Connectors** > **Application Connector Library** and search for **Zoho CRM**. Select the padlock icon next to it to use these values every time you install the connector.
+
+## Additional Information
+
+### Scopes
 
 The scopes are defaulted to "ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL", however you can enter your own scopes if you wish to restrict the connectors access further.
 
 See Zoho's documentation [here](https://www.zoho.com/crm/developer/docs/api/v2/scopes.html) on available scopes.
 
-
-
-## Domain property
+### Domain property
 
 When installing a **Zoho CRM** Connector, use the domain part of the URL shown in the web browser when signed into the Zoho CRM account.
 
 If working with a Zoho CRM Plus subscription, the Domain should be in the format ```https://crm.zoho.com``` as normal, and not ```https://crmplus.zoho.com```.
 
+### List New/Updated Contacts By Page (incrementally)
 
-
-## Additional Information
-
-## List New/Updated Contacts By Page (Incrementally)
-
-### In order to use this method follow these steps to setup your cycle: 
+To use this method, follow these steps to setup your cycle: 
 
 1. Edit your **Generic Webhook** connector and add a custom field named `page`.
 
-2. Design a new cycle named **Zoho Incremental method** , use a **Generic Webhook** connect it to the **List New/Updated Contacts By Page (Incrementally)** method. 
+2. Create a new cycle named **Zoho Incremental method**, and use a **Generic Webhook** to connect it to the **List New/Updated Contacts By Page (Incrementally)** method. 
 
-3. In the Step settings of your **Generic Webhook**, click **Advanced Settings**
+3. In the step settings of your **Generic Webhook**, select **Advanced Settings** and enter the following script.
 
    ```javascript
     function after_webhook() {   
@@ -70,17 +67,17 @@ If working with a Zoho CRM Plus subscription, the Domain should be in the format
    }
    ```
 
-3. In the Step settings of **List New/Updated Contacts By Page (Incrementally)** map the page to the webhook `page` field. 
+4. In the step settings of **List New/Updated Contacts By Page (Incrementally)**, map the page to the **Generic Webhook** `page` field. 
 
-4. Connect the true exit **List New/Updated Contacts By Page (Incrementally)** to a **Decision** step which checks whether the **More Records?** field equals a **true** value.
+5. Connect the true exit of **List New/Updated Contacts By Page (Incrementally)** to a **Decision** step that checks whether the **More Records?** field equals a **true** value.
 
-5. Connect the false exit **List New/Updated Contacts By Page (Incrementally)** to a **Set Last Successful Run Date**. 
+6. Connect the false exit of **List New/Updated Contacts By Page (Incrementally)** to a **Set Last Successful Run Date**. 
 
-6. Connect your **Decision** step true exit to a Delay step with the wait time set to **2 seconds**.
+7. Connect your **Decision** step true exit to a Delay step and set the wait time set to **2 seconds**.
 
-7. Connect a **Generic Webhook HTTP POST method** to the Delay step. Set the **URL** to the webhook **URL** and set the `page` field to ignore.
+8. Connect a **Generic Webhook HTTP POST method** to the Delay step. Set the **URL** to the **Generic Webhook URL** and set the `page` field to **ignore**.
 
-8. In the **Advanced Settings** of the **HTTP Post** Method add the following script:
+9. In the **Advanced Settings** of the **HTTP Post** method, add the following script:
 
    ```javascript
    function before_action() {
@@ -89,12 +86,13 @@ If working with a Zoho CRM Plus subscription, the Domain should be in the format
    }
    ```
 
+   ![The zoho incremental cycle.](./images/zoho_incremental_cycle.png)
 
-   ![zoho_incremental_cycle](https://github.com/cyclr/docs/tree/master/images/zoho_incremental_cycle.png)
+10. Connect the **Decision** step false exit to the **Set Last Successful Run Date** method from the **Utilities** category.
 
-8. Connect the **Decision** step false exit to the **Set Last Successful Run Date** method located in the **Utilities** category.
-9. Connect the **Decision** step true exit to a Delay
-10. Create a Second Cycle Named **Zoho Incremental Method Start**. 
-11. Connect **Generic Webhook HTTP Post method** to the **List Contacts** method located in the **Contacts** Category of the zoho connector.
-    ![zoho_start](https://github.com/cyclr/docs/tree/master/images/zoho_start.png)
-12. Run the  **Zoho Incremental Method** cycle, then Run the **Zoho Incremental Method Start**. 
+11. Create a Second Cycle and name it **Zoho Incremental Method Start**. 
+
+12. Connect the **Generic Webhook HTTP Post method** step to the **List Contacts** method from in the **Contacts** category of the zoho connector.
+    ![The zoho start cycle.](./images/zoho_start.png)
+
+13. Run the  **Zoho Incremental Method** cycle, then run the **Zoho Incremental Method Start**. 
