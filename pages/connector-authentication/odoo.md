@@ -19,7 +19,7 @@ To get database names on your Odoo instance, visit `{Server URL}/web/database/se
 
 ### Account setup
 
-You will be asked for the below values when you install the Odoo connector within an account:
+Cyclr asks you for the below values when you install the Odoo connector within an account:
 
 | Value             | Description                                                  |
 | :---------------- | :----------------------------------------------------------- |
