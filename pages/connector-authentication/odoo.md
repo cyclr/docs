@@ -13,7 +13,7 @@ You can find Odoo's documentation on how to configure your Odoo instance for API
 
 ### Get database names
 
-To get database names on your Odoo instance visit `{Server URL}/web/database/selector` in a web browser. Use the full database name as it appears in the list when you setup the connector in Cyclr.
+To get database names on your Odoo instance, visit `{Server URL}/web/database/selector` in a web browser. When you set up the connector in Cyclr, use the full database name as it appears in the list.
 
 ## Cyclr setup
 
