@@ -29,8 +29,7 @@ Cyclr requires a webhook ID to install the Bitrix24 connector. From the Bitrix24
 
 In the **Webhook to call REST API** field:
 
-1. Get the URL.
-2. Select just the random 16 character alphanumeric string. This is the webhook ID. For example, if the URL is `https://my.bitrix24instance.co.uk/rest/1/j2zdj8r9h0fdgsb3/` then the webhook ID is `j2zdj8r9h0fdgsb3`.
+1. Make a note of the webhook ID. This is the random 16 character alphanumeric string that makes up part of the URL. For example, if the URL is `https://my.bitrix24instance.co.uk/rest/1/j2zdj8r9h0fdgsb3/` then the webhook ID is `j2zdj8r9h0fdgsb3`.
 
 <a name="assign-permissions"></a>
 
