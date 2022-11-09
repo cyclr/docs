@@ -12,21 +12,21 @@ This page explains how to setup access to Zoho so you can use the Zoho connector
 
 ### OAuth Setup
 
-You need to register your Cyclr Partner with Zoho by creating a **Client** in your [Zoho API Console](https://accounts.zoho.com/developerconsole).
+To register your Cyclr Partner with Zoho, create a **Client** in your [Zoho API Console](https://accounts.zoho.com/developerconsole).
 
-Zoho's documentation on this can be found [here](https://www.zoho.com/accounts/protocol/oauth-setup.html).
+For more information, see [Zoho's documentation](https://www.zoho.com/accounts/protocol/oauth-setup.html).
 
 
-1.  When asked which **Client Type** you want to create, select **Server-based Application**.
+1.  When it asks which **Client Type** you want to create, select **Server-based Application**.
 
-![A screenshot of the Client Type options.](./images/Zoho_ClientType.png)
+    ![A screenshot of the Client Type options.](./images/Zoho_ClientType.png)
 
 
 2.  Enter an **Authorized Redirect URL** with the following format:
 
-{% raw %}`https://{{Your Cyclr Service Domain}}/connector/callback`{% endraw %}
+    {% raw %}`https://{{Your Cyclr Service Domain}}/connector/callback`{% endraw %}
 
-For example, ```https://app-h.cyclr.com/connector/callback```
+    For example, ```https://app-h.cyclr.com/connector/callback```
 
 > **Note**: You can find your **Service Domain** in your Cyclr console from the **Settings** menu then **General Settings**.
 
@@ -34,21 +34,22 @@ For example, ```https://app-h.cyclr.com/connector/callback```
 
 ### Account setup
 
-Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console > **Connectors** > **Application Connector Library** and search for **Zoho CRM**. Select the padlock icon next to it to use these values every time you install the connector.
-
-## Additional Information
-
-### Scopes
-
-The scopes are defaulted to "ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL", however you can enter your own scopes if you wish to restrict the connectors access further.
-
-See Zoho's documentation [here](https://www.zoho.com/crm/developer/docs/api/v2/scopes.html) on available scopes.
+Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console > **Connectors** > **Application Connector Library** and search for **Zoho CRM**. Select the padlock icon next on **Zoho CRM** to use these values every time you install the connector.
 
 ### Domain property
 
-When installing a **Zoho CRM** Connector, use the domain part of the URL shown in the web browser when signed into the Zoho CRM account.
+When you install the **Zoho CRM** connector, use the domain part of the URL that shows in the web browser when you are signed into the Zoho CRM account.
 
-If working with a Zoho CRM Plus subscription, the Domain should be in the format ```https://crm.zoho.com``` as normal, and not ```https://crmplus.zoho.com```.
+> **Note**: If you have a Zoho CRM Plus subscription, use the normal domain format `https://crm.zoho.com` instead of `https://crmplus.zoho.com`.
+
+
+## Additional information
+
+### Scopes
+
+The scopes default to `ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL`, but you can enter your own scopes if you want to restrict the connector's access further.
+
+For more information, see Zoho's documentation on [available scopes](https://www.zoho.com/crm/developer/docs/api/v2/scopes.html).
 
 ### List New/Updated Contacts By Page (incrementally)
 
