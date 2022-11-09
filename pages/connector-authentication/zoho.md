@@ -53,7 +53,7 @@ For more information, see Zoho's documentation on [available scopes](https://www
 
 ### List New/Updated Contacts By Page (incrementally)
 
-To use this method, follow these steps to setup your cycle: 
+To use this method, follow these steps to set up your cycle: 
 
 1. Edit your **Generic Webhook** connector and add a custom field named `page`.
 
