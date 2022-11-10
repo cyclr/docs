@@ -47,7 +47,7 @@ To find out which version your app is set to:
 
    ![intercom home](./images/intercom_docs_1.png)
    
-3. From the settings page, select **Developers** > **Developer Hub**.
+3. From the settings page, select **Apps and integrations** > **Developer Hub**.
 
    ![intercom settings](./images/intercom_docs_2.png)
    
