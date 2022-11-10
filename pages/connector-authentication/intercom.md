@@ -29,7 +29,7 @@ You need to add a callback URL to use Intercom in your Cyclr console and account
 
 ### Required Permissions
 
-Under **Assign permissions**, select **+ select** to search and add the following permissions:
+Cyclr requires the following permissions to create integrations with Intercom:
 
 * Read one user and one company
 * Write conversations
