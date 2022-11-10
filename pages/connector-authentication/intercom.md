@@ -77,7 +77,7 @@ Use the first three fields to send a basic search:
 You can use multiple filters for a search:
 
 1.  In the **Field** and **Value** fields, enter `Multiple`.
-2.  Enter the operator in the **Operator** field.
+2.  Enter either an `AND` or an `OR` operator in the **Operator** field.
 3.  Enter the multiple filter operator(s) in the **Multiple Filters Operator** field.
 4.  Enter the field(s) in the **Multiple Filters Field** field.
 5.  Enter the value(s) in the **Multiple Filters Value** field.
