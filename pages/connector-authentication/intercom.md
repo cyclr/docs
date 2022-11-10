@@ -44,24 +44,16 @@ To find out which version your app is set to:
 1. [Login](https://app.intercom.com/admins/sign_in?on_pageview_event=sign_in_nav) to your Intercom account.
 
 2. Hover over the icon in the bottom left corner and select 'Settings'.
-
-   ![intercom home](./images/intercom_docs_1.png)
    
 3. From the settings page, select **Apps and integrations** > **Developer Hub**.
 
-   ![intercom settings](./images/intercom_docs_2.png)
-   
 4. Once in the Developer Hub, select the relevant app.
 
 5. The **Basic Information** page displays information about the app, including the version.
-
-   ![intercom app information](./images/intercom_docs_3.png)
    
 6. To change the version, select **Change version** and then select the version you want from the dropdown.
-
-   ![intercom change version](./images/intercom_docs_4.png)
    
-> **Important: Please view the [changelog](https://developers.intercom.com/building-apps/docs/api-changelog) for a detailed description of the differences between each API Version.**
+> **Note: You can view the [changelog](https://developers.intercom.com/building-apps/docs/api-changelog) for a detailed description of the differences between each API Version.**
 
 ## Use the Search Contacts method
 
