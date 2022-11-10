@@ -43,7 +43,7 @@ To find out which version your app is set to:
 
 1. [Login](https://app.intercom.com/admins/sign_in?on_pageview_event=sign_in_nav) to your Intercom account.
 
-2. Hover over the icon in the bottom left corner and select 'Settings'.
+2. Hover over the icon in the bottom left corner and select **Settings**.
    
 3. From the settings page, select **Apps and integrations** > **Developer Hub**.
 
