@@ -10,7 +10,7 @@ tags: [connector]
 
 Korvue CRM provides you with credentials and a base URL when you sign up for your account.
 
-# Cyclr setup
+## Cyclr setup
 
 1. To set up the Korvue CRM connector within Cyclr:
 
