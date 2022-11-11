@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 
-# Korvue CRM setup
+## Korvue CRM setup
 
 Korvue CRM provides you with credentials and a base URL when you sign up for your account.
 
