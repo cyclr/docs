@@ -24,7 +24,7 @@ Cyclr asks you for the below values when you install the Intercom connector into
 | **Client ID**        | The Client ID from your Intercom account. |
 | **Client Secret**    | The Client Secret from your Intercom account. |
 
-You need to add a callback URL to use Intercom in your Cyclr console and accounts. The URL is `https://{{your Cyclr service domain}}/connector/callback`.
+You need to add a callback URL to use Intercom in your Cyclr console and accounts. The URL is {% raw %}`https://{{your Cyclr service domain}}/connector/callback`{% endraw %}.
 > **Note**: You can find your Cyclr service domain in your Cyclr Console under **Settings** > **General Settings**.
 
 ### Required Permissions
