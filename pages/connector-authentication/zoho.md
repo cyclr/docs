@@ -27,22 +27,25 @@ For more information, see [Zoho's documentation](https://www.zoho.com/accounts/p
 
    {% raw %}`https://{{Your Cyclr Service Domain}}/connector/callback`{% endraw %}
 
-   For example, ```https://app-h.cyclr.com/connector/callback```
+   For example, ```https://app-h.cyclr.com/connector/callback```.
 
 > **Note**: You can find your **Service Domain** in your Cyclr console from the **Settings** menu then **General Settings**.
 
 ## Cyclr setup
 
-### Account setup
+Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console:
 
+1.  Go to **Connectors** > **Application Connector Library** and search for **Zoho CRM**. 
+2.  Select the padlock icon next on **Zoho CRM**.
+3.  Enter the Client ID and Client Secret to use these values every time you install the connector. For Information on obtaining your **Client Id** and **Client Secret** please refer to [Zoho's documentation on registering a client](https://www.zoho.com/accounts/protocol/oauth-setup.html).
 
-Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console > **Connectors** > **Application Connector Library** and search for **Zoho CRM**. Select the padlock icon next on **Zoho CRM** to use these values every time you install the connector. For Information on obtaining your **Client Id** and **Client Secret** please refer to [Zoho's documentation on registering a client](https://www.zoho.com/accounts/protocol/oauth-setup.html)
+> **Note**: If you leave these fields blank, Cyclr asks you to enter them when you install the connector into an account.
 
 ### Domain property
 
 When you install the **Zoho CRM** connector, use the domain part of the URL that shows in the web browser when you are signed into the Zoho CRM account.
 
-> **Note**: If you have a Zoho CRM Plus subscription, use the normal domain format `https://crm.zoho.com` instead of `https://crmplus.zoho.com`.
+If you have a Zoho CRM Plus subscription, use the normal domain format `https://crm.zoho.com` instead of `https://crmplus.zoho.com`.
 
 
 ## Additional information
@@ -72,12 +75,12 @@ To use this method, follow these steps to set up your cycle:
 
 4. In the step settings of **List New/Updated Contacts By Page (Incrementally)**, map the page to the **Generic Webhook** `page` field. 
 
-5. Connect the true exit of **List New/Updated Contacts By Page (Incrementally)** to a **Decision** step that checks whether the **More Records?** field in  **List New/Updated Contacts By Page (Incrementally)** equals a **true** value. 
-   _(If you need to manipulate the data, Connect the true exit of the **List New/Updated Contacts By Page (Incrementally)** method to any other required methods before connecting to the **Decision** step.)_
+5. Connect the true exit of **List New/Updated Contacts By Page (Incrementally)** to a Decision step that checks whether the **More Records?** field in  **List New/Updated Contacts By Page (Incrementally)** equals a `true` value.  
+   > **Note**: If you need to manipulate the data, Connect the true exit of the **List New/Updated Contacts By Page (Incrementally)** method to any other required methods before connecting to the **Decision** step.)_
 
-6. Connect your **Decision** step true exit to a Delay step and set the wait time set to **2 seconds**.
+6. Connect your Decision step true exit to a Delay step and set the wait time to `2 seconds`.
 
-7. Connect a **Generic Webhook HTTP POST method** to the Delay step. Set the **URL** to the **Generic Webhook URL** and set the `page` field to **ignore**.
+7. Connect a **Generic Webhook HTTP POST method** to the Delay step. Set the URL to the **Generic Webhook URL** and set the `page` field to **ignore**.
 
 8. In the **Advanced Settings** of the **HTTP Post** method, add the following script:
 
@@ -92,14 +95,12 @@ To use this method, follow these steps to set up your cycle:
 
 9. Run the  **Zoho Incremental Method** cycle.
 
-10. Send a **POST** Request to your **Generic Webhook URL** using an API Testing software such as [Postman](https://www.postman.com/). The body of your request should as follows: 
+10. Send a **POST** request to your **Generic Webhook URL** with an API testing software, such as [Postman](https://www.postman.com/). The body of your request should as follows: 
 
     ```json
     {
     "page": 1
     }
     ```
-
-    
 
     > **Note**: To update the last successful run date of your cycle please drag the the **Update Last Successful Run Date** Method located in the **Utilities**  Category onto your cycle and run the step. 
