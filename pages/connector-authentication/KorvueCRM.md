@@ -32,3 +32,4 @@ Korvue CRM provides you with credentials and a base URL when you sign up for you
 
 7. Select **Save Changes**.
 
+> **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
