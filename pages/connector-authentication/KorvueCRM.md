@@ -12,7 +12,7 @@ Korvue CRM provides you with credentials and a base URL when you sign up for you
 
 ## Cyclr setup
 
-1. To set up the Korvue CRM connector within Cyclr:
+1. To set up the Korvue CRM connector in Cyclr:
 
 2. Go to your **Cyclr Console**.
 
