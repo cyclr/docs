@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 
-## Mindful Callback setup
+## Cyclr setup
 
 To set up the Mindful Callback connector in Cyclr:
 
