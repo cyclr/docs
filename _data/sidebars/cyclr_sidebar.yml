@@ -816,7 +816,7 @@ entries:
             url: /high-level-connector
             output: web, pdf
 
-          - title: Hubspot
+          - title: Hubspot (API key)
             url: /hubspot-api-key-connector
             output: web, pdf
 
