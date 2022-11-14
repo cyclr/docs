@@ -37,4 +37,4 @@ The **Create Callback** method allows you to send a `user_data` object with the 
 
 This makes the field available in steps that use the **Create Callback** method. The value you assign to the field is stored and sent in the `user_data` object against the specified key name. You can repeat this process for any key and value pair you want to add to the `user_data` object.
 
-> **Note**: Only keys that are whitelisted by the Widget’s User Data Set are submitted to Mindful Callback.
+> **Note**: Only keys that are allowlisted by the Widget’s User Data Set are submitted to Mindful Callback.
