@@ -18,7 +18,7 @@ To set up the Mindful Callback connector in Cyclr:
 
 3. Select the **Setup Required** icon.
 
-4. Enter the your **Organization ID**.             |
+4. Enter the your **Organization ID**.
 
 5. Select **Save Changes**.
 
