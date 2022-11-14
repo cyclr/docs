@@ -7,7 +7,7 @@ tags: [installing]
 
 A Cyclr account can contain account connectors and integrations, and typically has a one to one relationship with an account in your application.
 
-If an Account doesn't already exist, you can create one.
+If an account doesn't already exist, you can create one.
 
 ## Request
 
