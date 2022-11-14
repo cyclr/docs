@@ -8,8 +8,6 @@ tags: [connector]
 
 ## Mindful Callback setup
 
-## Cyclr setup
-
 To set up the Mindful Callback connector in Cyclr:
 
 1. From your **Cyclr console**, go to **Connectors** > **Application Connector Library** at the top of the page.
