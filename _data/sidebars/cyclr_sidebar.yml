@@ -1015,6 +1015,10 @@ entries:
           - title: Mindbody
             url: /mindbody-connector
             output: web, pdf
+            
+          - title: Mindful Callback
+            url: /mindful-callback-connector
+            output: web, pdf
 
           - title: monday.com
             url: /mondaydotcom-connector
