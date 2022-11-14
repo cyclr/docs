@@ -27,7 +27,7 @@ To set up the Mindful Callback connector in Cyclr:
 The **Create Callback** method allows you to send a `user_data` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:
 
 1. Go to the **Edit Connector** page for the Mindful Callback connector.
-2. Under the **Methods & Fields** heading, find the **Create Callback** method.
+2. Under the **Methods & Fields** heading, find and select the **Create Callback** method.
 3. Next to the **Request Fields** heading, select the red plus button.
 4. In the **Field Location** box, enter `user_data.`, followed by the required key name. For example, `user_data.key1`.
 5. Enter a suitable **Display Name** for this field.
