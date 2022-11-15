@@ -12,7 +12,7 @@ You need the following details to install the Mindful API connector into a Cyclr
 - The **client ID** of your Mindful account.
 - The **client secret** of your Mindful account.
 
-Contact the Mindful support team if you need help obtaining these.
+If you need help to obtain these values, contact the Mindful support team.
 
 ## Cyclr setup
 
