@@ -5,49 +5,46 @@ permalink: airtable-connector
 tags: [connector]
 ---
 
-# Partner Setup
+## Airtable setup
 
-## Retrieving API Key
-*   Visit your [account page](https://airtable.com/account) and copy the API key in the **API** area.
+You need an API key, Base ID and table name from Airtable to use the Airtable connector in Cyclr:
 
-## Retrieving Base ID and Table Name
-*   Base ID can be accessed by visiting the [API area](https://airtable.com/api) and clicking on the table base you want to use. In the introduction area of the page you are redirected to, your base ID is shown e.g. "The ID of this base is app123ABC.".
-*   The table name is the name of the table in the base you want to operate on. Note: This is NOT the name of the base.
+*  To get the API key, go to the Airtable [account page](https://airtable.com/account) and copy of the API key from the **API** section.
+*  To get the Base ID, go to the [API](https://airtable.com/api) section in Airtable and select the table base you want to use. Copy the BaseID from the **Introduction** section.
+*  The table name is the name of the table in the base (**not** the name of the base).
 
-# Cyclr Setup
+## Cyclr account setup
 
-Setup your Airtable App within Cyclr:
+Cyclr asks you for the below values when you install the <connector name> connector into an account:
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Airtable**
-*   Click the **Setup** button
+| Value              | Description                                   |
+| :----------------- | :------------------------------------------   |
+| **API key**        | Your Airtable API key.                        |
+| **BaseID**         | The BaseID of the base you want Cyclr to use. |
+| **Table name**     | The name of the table you want Cyclr to use.  |
 
-Enter the following values:
+You can test the connector in one of your Cyclr accounts if you call a method to confirm it can return some data.
 
-**API Key**: Retrieved from the previous steps.
+## Additional information
 
-
-Your Airtable Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
-
-# Airtable custom objects
+### Airtable custom objects
 
 The Airtable connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
 
--   [The Base ID](#find-the-base-id) of the Table that you want to work with.
--   [The Table Name](#find-the-table-name) of the Table you want to interact with.
-    Note: Base IDs and Table Names can be different for each client account.
+*   [The Base ID](#find-the-base-id) of the Table that you want to work with.
+*   [The Table Name](#find-the-table-name) of the Table you want to interact with.
 
-## Set up a custom object
+> **Note**: The BaseID and table name can be different for each client account.
 
-When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
+#### Set up a custom object
+
+If you set up a custom object, you create a new method category with the parameters you enter. To set up a custom object:
 
 1. Go to the Airtable connector **Settings** page:
-    - For template connectors: **Cyclr Console** > **Templates** > **Template Connectors** > **Airtable** > **Edit Connector**.
-    - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **Airtable** > **Settings**.
+    - For template connectors, go to **Templates** > **Template Connectors** > **Airtable** > **Edit Connector**.
+    - For connectors within a cycle, go to **Design New Template** > **Application Connectors** > **Airtable** > **Settings**.
 2. Under the **Methods and Fields** heading, expand the **Records (Custom Object)** category.
 3. Select the red **Copy this Category to create a Custom Object Category** icon.
-4. Enter the BaseID, followed by a dot, and then the Table Name into **Specify object name**. For example, `appTCumMdMOC1Zcqz.TestTable`.
+4. Enter `{BaseID}.{table name}` into the **Specify object name** field. For example, `appTCumMdMOC1Zcqz.TestTable`.
 5. Select **Copy**.
 
