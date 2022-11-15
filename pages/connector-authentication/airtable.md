@@ -42,7 +42,7 @@ If you set up a custom object, you create a new method category with the paramet
 
 1. Go to the Airtable connector **Settings** page:
     - For template connectors, go to **Templates** > **Template Connectors** > **Airtable** > **Edit Connector**.
-    - For connectors within a cycle, go to **Design New Template** > **Application Connectors** > **Airtable** > **Settings**.
+    - For connectors within a cycle, go to the **Template Builder** > **Application Connectors** > **Airtable** > **Settings**.
 2. Under the **Methods and Fields** heading, expand the **Records (Custom Object)** category.
 3. Select the red **Copy this Category to create a Custom Object Category** icon.
 4. Enter `{BaseID}.{table name}` into the **Specify object name** field. For example, `appTCumMdMOC1Zcqz.TestTable`.
