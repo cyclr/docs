@@ -1016,7 +1016,7 @@ entries:
             url: /mindbody-connector
             output: web, pdf
 
-         - title: Mindful Callback
+          - title: Mindful Callback
             url: /mindful-callback-connector
             output: web, pdf
             
