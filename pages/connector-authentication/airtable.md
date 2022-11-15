@@ -31,8 +31,8 @@ You can test the connector in one of your Cyclr accounts if you call a method to
 
 The Airtable connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
 
-*   [The Base ID](#find-the-base-id) of the Table that you want to work with.
-*   [The Table Name](#find-the-table-name) of the Table you want to interact with.
+*   The BaseID of the table that you want to work with.
+*   The table name of the table you want to interact with.
 
 > **Note**: The BaseID and table name can be different for each client account.
 
