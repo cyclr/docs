@@ -7,7 +7,7 @@ tags: [connector]
 
 ## Mindful API setup
 
-You need the following to install the Mindful API connector within a Cyclr account:
+You need the following details to install the Mindful API connector into a Cyclr account:
 
 - The **client ID** of your Mindful account.
 - The **client secret** of your Mindful account.
