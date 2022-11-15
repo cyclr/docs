@@ -33,11 +33,3 @@ To set up your Mindful API connector, go to your Cyclr console:
 6. Select **Save Changes**.
 
 > **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
-### Account setup
-
-You will be asked for the following values when installing the Mindful API connector within an account:
-
-| Value             | Description                                                  |
-| :---------------- | :----------------------------------------------------------- |
-| **Client ID**     | The client ID of your Mindful API account, if you did not enter this in step 5 above. |
-| **Client Secret** | The client secret of your Mindful API account, if you did not enter this in step 5 above. |
