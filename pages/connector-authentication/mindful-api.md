@@ -18,7 +18,7 @@ If you need help to obtain these values, contact the Mindful support team.
 
 ### Console setup
 
-To set up your Mindful API connector within your Cyclr console:
+To set up your Mindful API connector, go to your Cyclr console:
 
 1. Select **Connectors** > **Application Connector Library** at the top of the page.
 2. Use the search box to find the **Mindful API** connector.
