@@ -17,7 +17,7 @@ You can find Mindful's documentation on how to get an API token for your Mindful
 
 ## Cyclr account setup
 
-When installing the Mindful Messaging connector within an account you will be asked for the following:
+Cyclr asks you for the below value when you install the Mindful Messaging connector into an account:
 
 | Value         | Description                                              |
 | :------------ | :------------------------------------------------------- |
