@@ -6,6 +6,10 @@ tags: [connector]
 
 ---
 
+## Mindful Datastore setup
+
+To set up the Mindful Datastore connector to use in Cyclr, you need to get your API key. If you need more information, contact the Mindful support team.
+
 ## Cyclr setup
 
 To set up the Mindful Datastore connector in Cyclr:
