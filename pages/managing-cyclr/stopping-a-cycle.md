@@ -2,7 +2,7 @@
 title: Stopping a Cycle
 sidebar: cyclr_sidebar
 permalink: stopping-a-cycle
-keywords: [cycle,stop,stopping]
+tags: [managing-cyclr]
 ---
 
 _**This article refers to Cycles, but the same applies to Templates.**_

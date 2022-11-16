@@ -2,7 +2,7 @@
 title: Cyclr Glossary
 sidebar: cyclr_sidebar
 permalink: cyclr-glossary
-tags: [managing-cyclr concepts terms]
+tags: [managing-cyclr]
 
 ---
 

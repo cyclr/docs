@@ -1,5 +1,5 @@
 ---
-title: Embedding Cyclr in an iframe
+title: Embed Cyclr in an iframe
 sidebar: cyclr_sidebar
 permalink: iframe-embedding
 tags: [embedding]

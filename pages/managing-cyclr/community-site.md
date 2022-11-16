@@ -1,8 +1,8 @@
 ---
-title: Cyclr Community Site
+title: Cyclr Community site
 sidebar: cyclr_sidebar
 permalink: community-site
-tags: [community]
+tags: [community, managing-cyclr]
 ---
 
 ## Accessing the Community Site

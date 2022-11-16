@@ -8,6 +8,10 @@ entries:
       - title: Templates
         output: web, pdf
         folderitems:
+          - title: Template overview
+            url: /template-basics
+            output: web, pdf
+
           - title: Installing Connectors
             url: /installing-connectors
             output: web, pdf
@@ -51,6 +55,10 @@ entries:
             url: /cyclr-glossary
             output: web, pdf
 
+          - title: Cyclr Community site
+            url: /community-site
+            output: web, pdf
+
           - title: Console General Settings
             url: /console-general-settings
             output: web, pdf
@@ -77,6 +85,10 @@ entries:
 
           - title: Connector Authentication Link
             url: /connector-authentication-link
+            output: web, pdf
+        
+          - title: Pass data between two steps
+            url: /passing-data-between-two-steps
             output: web, pdf
 
           - title: Collection Splitting
@@ -122,8 +134,16 @@ entries:
             url: /embedding-overview
             output: web, pdf
 
+          - title: Embed Cyclr in an iframe
+            url: /iframe-embedding
+            output: web, pdf
+
           - title: API
             url: /cyclr-api-authentication
+            output: web, pdf
+
+          - title: Install a connector
+            url: /install-a-connector
             output: web, pdf
 
           - title: Install a Template
@@ -160,18 +180,14 @@ entries:
           - title: Get List Available Templates
             url: /list-available-templates
             output: web, pdf
-            subfolders:         
-              - title: Cycle installation from a template
-                url: /cycle-installation
-                output: web, pdf
-                subfolderitems:
-                  - title: Template installation in Cyclr
-                    url: /template-install
-                    output: web, pdf  
-            
-                  - title: Install a template
-                    url: /install-from-template
-                    output: web, pdf
+
+          - title: Template installation in Cyclr
+            url: /template-install
+            output: web, pdf  
+    
+          - title: Install a template
+            url: /install-from-template
+            output: web, pdf
 
           - title: Get Cycle Prerequisites
             url: /get-cycle-prerequisites
@@ -217,6 +233,10 @@ entries:
             url: /value-list-mapping
             output: web, pdf
 
+          - title: Cyclr APIs
+            url: /testing-cyclr-api
+            output: web, pdf
+
           - title: Cycle Activation
             url: /cycle-activation
             output: web, pdf
@@ -226,6 +246,10 @@ entries:
         folderitems:
           - title: Introduction
             url: /connector-introduction
+            output: web, pdf
+
+          - title: Connector standards
+            url: /connector-standards
             output: web, pdf
 
           - title: Settings
@@ -295,12 +319,15 @@ entries:
             url: /marketplace-webhook-callback
             output: web, pdf
 
-
       - title: LAUNCH
         output: web, pdf
         folderitems:
           - title: Overview
             url: /launch-overview
+            output: web, pdf
+
+          - title: Install a partner connector
+            url: /partner-connector
             output: web, pdf
 
           - title: Building Integration Templates
@@ -353,6 +380,10 @@ entries:
             url: /entity-cross-reference-connector
             output: web, pdf
 
+          - title: Data Storage Usage
+            url: /data-storage-usage
+            output: web, pdf
+
           - title: Cycle Data Storage
             url: /cycle-data-storage
             output: web, pdf
@@ -371,6 +402,10 @@ entries:
 
           - title: Generic Form
             url: /generic-form
+            output: web, pdf
+
+          - title: Generic File
+            url: /generic-file
             output: web, pdf
 
           - title: Generic Webhook

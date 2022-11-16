@@ -1,8 +1,8 @@
 ---
-title: Cyclr's APIs
+title: Cyclr APIs
 sidebar: cyclr_sidebar
 permalink: testing-cyclr-api
-tags: [api]
+tags: [installing]
 ---
 
 Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.

@@ -1,6 +1,8 @@
 ---
-title: Passing data between two steps
+title: Pass data between two steps
+sidebar: cyclr_sidebar
 permalink: passing-data-between-two-steps
+tags: [managing-cyclr]
 ---
 
 If you need to access information from a previous step in *script*, and you don't want to use Cyclr storage, one option is to pass the data via mapping.
