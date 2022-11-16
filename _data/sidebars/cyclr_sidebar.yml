@@ -1019,6 +1019,10 @@ entries:
           - title: Mindful Callback
             url: /mindful-callback-connector
             output: web, pdf
+
+          - title: Mindful Datastore
+            url: /mindful-datastore-connector
+            output: web, pdf 
             
           - title: Mindful (API)
             url: /mindful-api-connector
