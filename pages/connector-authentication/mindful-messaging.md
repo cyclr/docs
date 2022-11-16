@@ -13,7 +13,7 @@ To install the Mindful Messaging connector within a Cyclr account you need an **
 
 ### Get API token
 
-You can find Mindful's documentation on how to get an API token for your Mindful account [here](https://help.vhtcx.com/mindful-messaging-configuration-settings/messaging-api-token?from_search=102822894). If you need help to obtain this, contact the Mindful support team.
+You can find Mindful's documentation on how to get an API token for your Mindful account [here](https://help.vhtcx.com/mindful-messaging-configuration-settings/messaging-api-token?from_search=102822894). If you need help to obtain the token, contact the Mindful support team.
 
 ## Cyclr account setup
 
