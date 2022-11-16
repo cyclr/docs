@@ -1022,6 +1022,10 @@ entries:
 
           - title: Mindful Datastore
             url: /mindful-datastore-connector
+            output: web, pdf
+
+          - title: Mindful Messaging
+            url: /mindful-messaging-connector
             output: web, pdf 
             
           - title: Mindful (API)
