@@ -1603,6 +1603,14 @@ entries:
             url: /zendesk-sell-connector
             output: web, pdf
 
+          - title: Zenoti
+            url: /zenoti-connector
+            output: web, pdf
+            
+          - title: Zenoti (API Key)
+            url: /zendesk-apikey-connector
+            output: web, pdf
+            
           - title: Zoho
             url: /zoho
             output: web, pdf
