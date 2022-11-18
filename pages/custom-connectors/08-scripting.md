@@ -345,7 +345,7 @@ var valueToSign = 'This is the string to sign.';
 var signature = cyclr_sign(algorithm, signingKey, valueToSign);
 ```
 
-Supported algorithms are: `HMAC-SHA1`, `RSA-SHA1`, `RSA-SHA224`, `RSA-SHA256`, `RSA-SHA384`, `RSA-SHA512`.
+Supported algorithms are: `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA224`, `RSA-SHA256`, `RSA-SHA384`, `RSA-SHA512`.
 
 #### cyclr_csv_parse
 
