@@ -50,7 +50,7 @@ The **Get Data Set** method uses Cyclr custom objects to map possible dataset fi
 
 When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
 
-1. Go to the **Mindful Datastore** connector **Settings** page:
+1. Go to the **Mindful Datastore** connector **Settings** page.
 2. Under the **Methods and Fields** heading, expand the **Data Sets** category.
 3. Select the red **Copy this Category to create a Custom Object Category** icon.
 4. Enter the required customer contact number into **Specify object name**. 
