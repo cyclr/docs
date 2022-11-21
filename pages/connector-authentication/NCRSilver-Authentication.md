@@ -44,6 +44,7 @@ To set up the NCR Silver connector in Cyclr, go to your console:
 
 7. Select **Save**.
 
+> **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
 ## Additional information
 
 ### Documentation
