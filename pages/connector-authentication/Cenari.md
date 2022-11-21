@@ -4,30 +4,26 @@ sidebar: cyclr_sidebar
 permalink: cenari-connector
 tags: [connector]
 
-
 ---
 
-# **Cyclr setup**
+## Cenari setup
 
-In order to auth your Cenari Connector you will need the following information. 
+In order to authenticate your Cenari connector, you need to get the following information:
 
-<a href=#cenari-credentials>
+- The username of your Cenari account. 
+- The password of your Cenari account. 
+- The Organization ID of your Cenari application. 
 
+If you need more information, contact the Cenari support team.
+
+## Cyclr account setup
+
+Cyclr asks you for the below values when you install the Cenari connector into an account:
+  
 | Credentials | Description                                                  |
 | ----------- | ------------------------------------------------------------ |
-| Org ID      | The Organization ID of your infinite blue cenari application. |
-| Password    | The password of your infinite blue cenari account.           |
-| Email       | The API Key of your infinite blue cenari account.            |
+| Org ID      | The Organization ID of your infinite blue Cenari application. |
+| Email       | The API Key of your infinite blue Cenari account.            |
+| Password    | The password of your infinite blue Cenari account.           |
 
-
-
-
-
-## **Account setup**
-
-You will need to authenticate using your [credentials](#cenari-credentials) which includes the following: 
-
-- The username of your cenari account. 
-- The password of your cenari account. 
-- The Organization of your cenari application. 
 
