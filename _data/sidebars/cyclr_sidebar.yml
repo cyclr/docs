@@ -591,6 +591,10 @@ entries:
             url: /Cavelo
             output: web, pdf
 
+          - title: Cenari
+            url: /cenari-connector
+            output: web, pdf
+
           - title: Centtrip
             url: /centtrip-connector
             output: web, pdf
