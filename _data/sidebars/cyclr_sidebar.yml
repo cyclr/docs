@@ -1115,6 +1115,10 @@ entries:
             url: /okta-connector
             output: web, pdf
 
+          - title: OneLogin
+            url: /onelogin-connector
+            output: web, pdf
+
           - title: OnceHub
             url: /oncehub-connector
             output: web, pdf
