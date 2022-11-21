@@ -5,8 +5,14 @@ permalink: zenoti-apikey-connector
 tags: [connector]
 ---
 
-### Setting up the Zenoti (API Key) Connector
+## Zenoti setup
 
-This is completed by your customer using their own information.
+To authenticate the connector, your customer needs an API key. 
 
-All they will need is an API Key, which they can easily generate in Zenoti by going to Admin > Setup > Apps.
+To generate an API key, go to the Zenoti account and select **Admin** > **Setup** > **Apps**.
+
+## Cyclr account setup
+
+Cyclr asks you to enter the API key when you install the Zenoti connector into an account. 
+
+> **Note**: You can use different API keys for different accounts.
