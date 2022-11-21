@@ -27,6 +27,8 @@ To set up the Mindful Datastore connector in Cyclr:
 6. Select **Save Changes**.
 
 ## Additional information
+
+### Custom Fields
 The **Upsert Data Set** method allows you to send a `data_values` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:
 
 1. Go to the **Edit Connector** page for the Mindful Dataset connector.
@@ -39,3 +41,19 @@ The **Upsert Data Set** method allows you to send a `data_values` object with th
 8. Select **Create**.
 
 The makes the field available in steps that use the **Upsert Data Set** method. The value you assign to the field is stored and sent in the `data_values` object against the specified key name. You can repeat this process for any key and value pair you want to add to the `data_values` object.
+
+### Custom objects
+
+The **Get Data Set** method uses Cyclr custom objects to map possible dataset fields dynamically based on the specified customer contact number. 
+
+### Set up a custom object
+
+When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
+
+1. Go to the **Mindful Datastore** connector **Settings** page.
+2. Under the **Methods and Fields** heading, expand the **Data Sets** category.
+3. Select the red **Copy this Category to create a Custom Object Category** icon.
+4. Enter the required customer contact number into **Specify object name**. 
+5. Select **Copy**.
+
+A new custom object category will have been created with the specified contact number. **Get Data Set** can now be run from within this category with all dataset fields mapped automatically.
