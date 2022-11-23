@@ -1,8 +1,8 @@
 ---
-title: Types of Cyclr User
+title: Types of Cyclr user
 sidebar: cyclr_sidebar
 permalink: types-of-cyclr-user
-tags: [users]
+tags: [managing-cyclr]
 keywords: [users, console, admin, administrator, partner, account]
 ---
 

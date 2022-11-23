@@ -1,8 +1,8 @@
 ---
-title: Release Notes
+title: Release notes
 sidebar: cyclr_sidebar
 permalink: release-notes
-tags: [embedding]
+tags: [managing-cyclr]
 ---
 
 ## 2022

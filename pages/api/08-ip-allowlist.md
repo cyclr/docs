@@ -1,8 +1,8 @@
 ---
-title: Cyclr IP Allowlist
+title: Cyclr IP allowlist
 sidebar: cyclr_sidebar
 permalink: cyclr-ip-allowlist
-tags: [managing-cyclr]
+tags: [api]
 redirect_from: /cyclr-ip-whitelisting
 ---
 

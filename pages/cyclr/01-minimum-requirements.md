@@ -1,5 +1,5 @@
 ---
-title: Minimum Requirements
+title: Minimum requirements
 sidebar: cyclr_sidebar
 permalink: minimum-requirements
 tags: [managing-cyclr]

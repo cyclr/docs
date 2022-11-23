@@ -1,5 +1,5 @@
 ---
-title: Legal Notices
+title: Legal notices
 sidebar: cyclr_sidebar
 permalink: legal-notices
 tags: [managing-cyclr]

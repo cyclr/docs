@@ -1,8 +1,8 @@
 ---
-title: API Authentication
+title: API authentication
 sidebar: cyclr_sidebar
 permalink: cyclr-api-authentication
-tags: [embedding]
+tags: [api]
 ---
 
 Cyclr API can be authenticated using the Client Credentials and Password flows. The [Password flow](./cyclr-api-authentication-password) will cease to be supported and stop functioning after May 2021. You should migrate to Client Credentials before then.

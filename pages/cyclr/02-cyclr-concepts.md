@@ -1,5 +1,5 @@
 ---
-title: Cyclr Glossary
+title: Glossary
 sidebar: cyclr_sidebar
 permalink: cyclr-glossary
 tags: [managing-cyclr]

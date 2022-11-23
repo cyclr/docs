@@ -1,5 +1,5 @@
 ---
-title: Cyclr Community site
+title: Community site
 sidebar: cyclr_sidebar
 permalink: community-site
 tags: [community, managing-cyclr]

@@ -1,8 +1,8 @@
 ---
-title: Accessing the Cyclr API
+title: Access the Cyclr API
 sidebar: cyclr_sidebar
 permalink: console-api
-tags: [managing-cyclr]
+tags: [api]
 
 ---
 
