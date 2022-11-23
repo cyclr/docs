@@ -1,5 +1,5 @@
 ---
-title: Field Mapping
+title: Map fields
 sidebar: cyclr_sidebar
 permalink: field-mapping
 tags: [templates]

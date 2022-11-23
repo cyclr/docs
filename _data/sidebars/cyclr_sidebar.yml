@@ -80,9 +80,95 @@ entries:
 
           - title: Handle transaction errors
             url: /transaction-error-webhook
+            output: web, pdf 
+
+      - title: Accounts
+        output: web, pdf
+        subfolders: 
+          - title: Sub accounts
+            url: /sub-accounts
+            output: web, pdf
+
+          - title: Connector installation
+            output: web, pdf
+            subfolderitems:
+              - title: Install connectors into an account
+                url: /install-a-connector
+                output: web, pdf
+
+              - title: Connector authentication link
+                url: /connector-authentication-link
+                output: web, pdf
+
+          - title: Cyclr as a proxy server
+            output: web, pdf
+            subfolderitems:
+              - title: Call a connector method
+                url: /call-a-connector-method
+                output: web, pdf              
+
+      - title: Create cycle templates
+        output: web, pdf
+        subfolders: 
+          - title: Template introduction
+            url: /template-basics
+            output: web, pdf
+
+          - title: Install connectors
+            url: /installing-connectors
             output: web, pdf            
 
-      - title: Embedding Cyclr
+          - title: Template creation
+            output: web, pdf
+            subfolderitems: 
+              - title: Build templates
+                url: /building-a-template
+                output: web, pdf
+
+              - title: Logic tools
+                url: /logic-tools
+                output: web, pdf
+
+              - title: Map fields
+                url: /field-mapping
+                output: web, pdf
+
+               - title: Add custom fields
+                url: /adding-custom-fields
+                output: web, pdf
+
+              - title: Test scripts
+                url: /script-tester
+                output: web, pdf
+
+              - title: Collection splitting
+                url: /collection-splitting
+                output: web, pdf
+
+              - title: Pass data between two steps
+                url: /passing-data-between-two-steps
+                output: web, pdf
+
+          - title: Test templates
+            output: web, pdf
+            subfolderitems:
+              - title: Test a template
+                url: /testing-a-template
+                output: web, pdf
+
+              - title: Template versioning
+                url: /integration-template-versioning
+                output: web, pdf
+
+          - title: Stop a cycle
+            url: /stopping-a-cycle
+            output: web, pdf
+
+          - title: Import or export templates
+            url: /template-export-import
+            output: web, pdf                         
+
+     - title: Embedding Cyclr
         output: web, pdf
         folderitems:
           - title: Quick Overview
@@ -94,23 +180,14 @@ entries:
             output: web, pdf
 
 
-
-          - title: Install a connector
-            url: /install-a-connector
-            output: web, pdf
-
           - title: Install a Template
             url: /install-a-template
             output: web, pdf
 
-          - title: Call a Connector Method
-            url: /call-a-connector-method
-            output: web, pdf
 
           - title: API Endpoints
             url: /cyclr-api-endpoints
-            output: web, pdf
-
+            output: web, pdf            
 
 
       - title: Installing Template Integrations

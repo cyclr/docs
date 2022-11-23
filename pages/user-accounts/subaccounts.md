@@ -1,8 +1,8 @@
 ---
-title: Sub Accounts
+title: Sub accounts
 sidebar: cyclr_sidebar
 permalink: sub-accounts
-tags: [accounts sub-accounts subaccounts sub]
+tags: [accounts]
 
 ---
 

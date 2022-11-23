@@ -1,5 +1,5 @@
 ---
-title: Template Export Import
+title: Import or export templates
 sidebar: cyclr_sidebar
 permalink: template-export-import
 tags: [templates]

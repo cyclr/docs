@@ -1,8 +1,8 @@
 ---
-title: Call a Connector Method
+title: Call a connector method
 sidebar: cyclr_sidebar
 permalink: call-a-connector-method
-tags: [embedding]
+tags: [accounts]
 ---
 
 ### Introduction

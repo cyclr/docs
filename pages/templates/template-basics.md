@@ -1,5 +1,5 @@
 ---
-title: Template overview
+title: Template introduction
 sidebar: cyclr_sidebar
 permalink: template-basics
 tags: [templates]

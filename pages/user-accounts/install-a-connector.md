@@ -1,8 +1,8 @@
 ---
-title: Install a connector
+title: Install connectors into an account
 sidebar: cyclr_sidebar
 permalink: install-a-connector
-tags: [embedding]
+tags: [accounts]
 ---
 
 This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).

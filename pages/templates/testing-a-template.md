@@ -1,5 +1,5 @@
 ---
-title: Testing a Template
+title: Test a template
 sidebar: cyclr_sidebar
 permalink: testing-a-template
 tags: [templates]

@@ -1,5 +1,5 @@
 ---
-title: Adding Custom Fields
+title: Add custom fields
 sidebar: cyclr_sidebar
 permalink: adding-custom-fields
 tags: [templates]

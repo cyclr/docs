@@ -1,8 +1,8 @@
 ---
-title: Collection Splitting
+title: Collection splitting
 sidebar: cyclr_sidebar
 permalink: collection-splitting
-tags: [managing-cyclr]
+tags: [templates]
 
 ---
 

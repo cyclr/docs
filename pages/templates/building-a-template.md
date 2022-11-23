@@ -1,5 +1,5 @@
 ---
-title: Building a Template
+title: Build templates
 sidebar: cyclr_sidebar
 permalink: building-a-template
 tags: [templates]

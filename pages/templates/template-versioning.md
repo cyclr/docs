@@ -1,5 +1,5 @@
 ---
-title: Integration Template Versioning
+title: Template versioning
 sidebar: cyclr_sidebar
 permalink: integration-template-versioning
 tags: [templates]

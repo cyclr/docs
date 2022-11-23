@@ -1,8 +1,8 @@
 ---
-title: Stopping a Cycle
+title: Stop a cycle
 sidebar: cyclr_sidebar
 permalink: stopping-a-cycle
-tags: [managing-cyclr]
+tags: [templates]
 ---
 
 _**This article refers to Cycles, but the same applies to Templates.**_
