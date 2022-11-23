@@ -1,38 +1,43 @@
 ---
-title: Calendly Connector Guide
+title: Calendly Authentication
 sidebar: cyclr_sidebar
 permalink: calendly-connector
 tags: [connector]
 ---
 
-## Setup
+## Calendly setup
 
-To authenticate the Calendly connector you first need to register an OAuth app.
+Before you install the Calendly connector into a Cyclr account:
 
-1. Go to <https://calendly.com/integrations/api_webhooks>
+1. [Register a Calendly OAuth application](#register-a-calendly-oauth-application).
+2. [Get a **client ID** and **client secret**](#get-a-client-id-and-client-secret) for your Calendly OAuth application.
 
-2. Under OAuth click 'Register now'
+<a href="register-a-calendly-oauth-application">
 
-   ![calendly oauth setup](./images/calendly_1.png)
+### Register a Calendly OAuth application
 
-3. Follow the steps on screen. When prompted for a redirect URL enter https://{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}/connector/callback
+You can find Calendly's guide on how to register an OAuth application [here](https://help.klaviyo.com/hc/en-us/articles/7423954176283) under the **Register and authenticate your OAuth application** heading. On the **Register your public application** form, the **OAuth redirect URL** field is the callback URL of your Cyclr service domain. For example, `https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback`.
 
-4. Once you have completed your app registration you will receive your authentication credentials via LastPass. For this reason it is important that the email address you register for this app is the same as that of your LastPass account
+<a href="get-a-client-id-and-client-secret">
 
-### Connector Setup
+### Get a client ID and client secret
 
-Once you have your OAuth credentials:
+You will receive a client ID and client secret via email after [registering a Calendly OAuth application](#register-a-calendly-oauth-application). Contact Calendly support if you do not receive these.
 
-1. Locate the Calendly connector
+## Cyclr console setup
 
-   > Cyclr Console > Connectors > Connector Library > Calendly
+To set up your Calendly connector, go to your Cyclr console:
 
-2. From the Edit Connector interface click 'Setup'
+1. Select **Connectors** > **Application Connector Library** at the top of the page.
+2. Use the search box to find the **Calendly** connector.
+3. Select the **Setup Required** icon.
+4. Enter the below values, a value here will allow you to use a different value for each installation within an account:
 
-3. Enter your Client ID and Client Secret, click 'Next'
+    | Value             | Description                                 |
+    | ----------------- | ------------------------------------------- |
+    | **Client ID**     | The client ID of your Calendly account.     |
+    | **Client Secret** | The client secret of your Calendly account. |
 
-4. Click 'Sign In' which will redirect you to a Calendly login page where you should log in with your google account
+5. Select **Save Changes**.
 
-> Note: If you are already logged into Calendly you might not be prompted to log in at this point. This is due to the session cookie your browser stores
-
-You will be redirected to Cyclr where the connector is now authenticated and ready to use.
+> **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
