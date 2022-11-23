@@ -13,11 +13,11 @@ To set up the Klaviyo connector in Cyclr you need a [private API key](#get-a-pri
 
 ### Get a private API key
 
-You can find Klaviyo's guide on how to get a private API key [here](https://help.klaviyo.com/hc/en-us/articles/7423954176283). When you create a private API key, **Select Access Level** must be set to **Full Access Key** for the Klaviyo connector to function correctly within Cyclr.
+To see how to get a private API key, see [Klaviyo's guide](https://help.klaviyo.com/hc/en-us/articles/7423954176283). When you create a private API key, set **Select Access Level** to **Full Access Key** so the Klaviyo connector functions correctly within Cyclr.
 
 ## Cyclr account setup
 
-When you install the Klaviyo connector in an account you will be asked for:
+When you install the Klaviyo connector in an account, Cyclr asks you for authentication details:
 
 | Value               | Description                                                  |
 | :------------------ | :----------------------------------------------------------- |
@@ -27,7 +27,7 @@ When you install the Klaviyo connector in an account you will be asked for:
 
 ### Profile custom properties
 
-Each Klaviyo profile can have custom properties associated with it. Within Cyclr, you can add additional method fields to create, update, or map custom properties. If you update a custom property that does not exist it will be created.
+Each Klaviyo profile can have custom properties associated with it. Within Cyclr, you can add additional method fields to create, update, or map custom properties. If you update a custom property that doesn't exist, it creates that property.
 
 #### Add Create Profile custom properties
 
@@ -38,10 +38,10 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
 
     | Value              | Description                                                  |
     | :----------------- | :----------------------------------------------------------- |
-    | **Field Location** | The custom property name. This must have the format `data.attributes.properties.{PropertyName}`. |
-    | **Display Name**   | The display name of the custom property within the Cyclr UI. |
-    | **Description**    | The description of the custom property within the Cyclr UI. |
-    | **Data Type**      | The data type of the custom property. This should be set to `Text`. |
+    | **Field Location** | The custom property name. Use the format `data.attributes.properties.{PropertyName}`. |
+    | **Display Name**   | The display name of the custom property in the Cyclr UI. |
+    | **Description**    | The description of the custom property in the Cyclr UI. |
+    | **Data Type**      | The data type of the custom property. Set this to `Text`. |
 
 5. Select **Create**.
 
@@ -54,10 +54,10 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
 
     | Value              | Description                                                  |
     | :----------------- | :----------------------------------------------------------- |
-    | **Field Location** | The custom property name. This must have the format `{PropertyName}`. |
-    | **Display Name**   | The display name of the custom property within the Cyclr UI. |
-    | **Description**    | The description of the custom property within the Cyclr UI. |
-    | **Data Type**      | The data type of the custom property. This should be set to `Text`. |
+    | **Field Location** | The custom property name. Use the format `{PropertyName}`. |
+    | **Display Name**   | The display name of the custom property in the Cyclr UI. |
+    | **Description**    | The description of the custom property in the Cyclr UI. |
+    | **Data Type**      | The data type of the custom property. Set this to `Text`. |
 
 5. Select **Create**.
 
@@ -70,9 +70,9 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
 
     | Value              | Description                                                  |
     | :----------------- | :----------------------------------------------------------- |
-    | **Field Location** | The custom property name. This must have the format `{PropertyName}`. |
-    | **Display Name**   | The display name of the custom property within the Cyclr UI. |
-    | **Description**    | The description of the custom property within the Cyclr UI. |
-    | **Data Type**      | The data type of the custom property. This should be set to `Text`. |
+    | **Field Location** | The custom property name. Use the format `{PropertyName}`. |
+    | **Display Name**   | The display name of the custom property in the Cyclr UI. |
+    | **Description**    | The description of the custom property in the Cyclr UI. |
+    | **Data Type**      | The data type of the custom property. Set this to `Text`. |
 
 5. Select **Create**.
