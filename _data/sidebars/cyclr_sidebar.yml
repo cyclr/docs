@@ -5,126 +5,81 @@ entries:
     product: Cyclr Docs
     version: 1.0
     folders:
-      - title: Templates
+      - title: Cyclr
         output: web, pdf
         folderitems:
-          - title: Template overview
-            url: /template-basics
+          - title: Types of Cyclr user
+            url: /types-of-cyclr-user
             output: web, pdf
 
-          - title: Installing Connectors
-            url: /installing-connectors
-            output: web, pdf
-
-          - title: Building a Template
-            url: /building-a-template
-            output: web, pdf
-
-          - title: Field Mapping
-            url: /field-mapping
-            output: web, pdf
-
-          - title: Testing a Template
-            url: /testing-a-template
-            output: web, pdf
-
-          - title: Adding Custom Fields
-            url: /adding-custom-fields
-            output: web, pdf
-
-          - title: Logic Tools
-            url: /logic-tools
-            output: web, pdf
-
-          - title: Integration Template Versioning
-            url: /integration-template-versioning
-            output: web, pdf
-            
-          - title: Template Export Import
-            url: /template-export-import
-            output: web, pdf
-
-      - title: Managing Cyclr
-        output: web, pdf
-        folderitems:
-          - title: Minimum Requirements
+          - title: Minimum requirements
             url: /minimum-requirements
             output: web, pdf
 
-          - title: Cyclr Glossary
+          - title: Glossary
             url: /cyclr-glossary
             output: web, pdf
 
-          - title: Cyclr Community site
+          - title: Community site
             url: /community-site
             output: web, pdf
 
-          - title: Console General Settings
-            url: /console-general-settings
+          - title: Legal Notices
+            url: /legal-notices
+            output: web, pdf 
+
+          - title: Release Notes
+            url: /release-notes
             output: web, pdf
 
-          - title: Console Appearance Settings
-            url: /console-appearance-settings
-            output: web, pdf
-
-          - title: Console Data Retention Settings
-            url: /console-data-retention-settings
-            output: web, pdf
-
-          - title: Accessing the Cyclr API
+      - title: API
+        output: web, pdf
+        folderitems:
+          - title: Access the Cyclr API
             url: /console-api
             output: web, pdf
 
-          - title: Security Settings
-            url: /console-security
-            output: web, pdf
-
-          - title: Cyclr IP Allowlist
+          - title: Cyclr IP allowlist
             url: /cyclr-ip-allowlist
             output: web, pdf
 
-          - title: Connector Authentication Link
-            url: /connector-authentication-link
-            output: web, pdf
-        
-          - title: Pass data between two steps
-            url: /passing-data-between-two-steps
+          - title: API authentication
+            url: /cyclr-api-authentication
             output: web, pdf
 
-          - title: Collection Splitting
-            url: /collection-splitting
+          - title: Test Cyclr APIs
+            url: /testing-cyclr-api
             output: web, pdf
 
-          - title: Script Tester
-            url: /script-tester
-            output: web, pdf
-
-          - title: Transaction Error Handling
-            url: /transaction-error-webhook
-            output: web, pdf
-            
-          - title: Custom Domains
-            url: /custom-domains
-            output: web, pdf
-            
-          - title: Sub Accounts
-            url: /sub-accounts
-            output: web, pdf
-            
-          - title: Stopping a Cycle
-            url: /stopping-a-cycle
-            output: web, pdf
-            
-          - title: Types of Cyclr User
-            url: /types-of-cyclr-user
-            output: web, pdf
-            
-          - title: Performance Tips
+      - title: Cyclr console configuration
+        output: web, pdf
+        folderitems:
+          - title: Performance tips
             url: /performance-tips
             output: web, pdf
-            
-          - title: Legal Notices
-            url: /legal-notices
+
+          - title: General settings
+            url: /console-general-settings
+            output: web, pdf
+
+          - title: Appearance settings
+            url: /console-appearance-settings
+            output: web, pdf 
+
+          - title: Data retention settings
+            url: /console-data-retention-settings
+            output: web, pdf           
+           
+          - title: Security settings
+            url: /console-security
+            output: web, pdf
+
+          - title: Custom service domains
+            url: /custom-domains
+            output: web, pdf
+
+          - title: Handle transaction errors
+            url: /transaction-error-webhook
             output: web, pdf            
 
       - title: Embedding Cyclr
@@ -138,9 +93,7 @@ entries:
             url: /iframe-embedding
             output: web, pdf
 
-          - title: API
-            url: /cyclr-api-authentication
-            output: web, pdf
+
 
           - title: Install a connector
             url: /install-a-connector
@@ -158,9 +111,7 @@ entries:
             url: /cyclr-api-endpoints
             output: web, pdf
 
-          - title: Release Notes
-            url: /release-notes
-            output: web, pdf
+
 
       - title: Installing Template Integrations
         output: web, pdf
@@ -233,9 +184,7 @@ entries:
             url: /value-list-mapping
             output: web, pdf
 
-          - title: Cyclr APIs
-            url: /testing-cyclr-api
-            output: web, pdf
+
 
           - title: Cycle Activation
             url: /cycle-activation

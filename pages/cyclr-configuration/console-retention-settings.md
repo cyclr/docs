@@ -1,8 +1,8 @@
 ---
-title: Console Data Retention Settings
+title: Data retention settings
 sidebar: cyclr_sidebar
 permalink: console-data-retention-settings
-tags: [managing-cyclr]
+tags: [cyclr-config]
 
 ---
  

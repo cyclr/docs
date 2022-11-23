@@ -1,8 +1,8 @@
 ---
-title: Transaction Error Handling
+title: Handle transaction errors
 sidebar: cyclr_sidebar
 permalink: transaction-error-webhook
-tags: [embedding]
+tags: [cyclr-config]
 ---
 
 Cyclr can be configured to make an HTTP Request if an error occurs in a running Cycle as a way of alerting you or your support staff.

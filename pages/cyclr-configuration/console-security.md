@@ -1,8 +1,8 @@
 ---
-title: Console Security
+title: Security settings
 sidebar: cyclr_sidebar
 permalink: console-security
-tags: [managing-cyclr]
+tags: [cyclr-config]
 
 ---
 

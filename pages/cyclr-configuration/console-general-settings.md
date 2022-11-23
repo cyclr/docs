@@ -1,8 +1,8 @@
 ---
-title: Console General Settings
+title: General settings
 sidebar: cyclr_sidebar
 permalink: console-general-settings
-tags: [managing-cyclr]
+tags: [cyclr-config]
 
 ---
 

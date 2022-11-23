@@ -1,8 +1,8 @@
 ---
-title: Console Appearance Settings
+title: Appearance settings
 sidebar: cyclr_sidebar
 permalink: console-appearance-settings
-tags: [managing-cyclr]
+tags: [cyclr-config]
 
 ---
 

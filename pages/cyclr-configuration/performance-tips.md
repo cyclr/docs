@@ -1,8 +1,8 @@
 ---
-title: Performance Tips
+title: Performance tips
 sidebar: cyclr_sidebar
 permalink: performance-tips
-tags: [splitting,script,delay]
+tags: [cyclr-config]
 ---
 
 The following tips may improve the performance of your integrations:
