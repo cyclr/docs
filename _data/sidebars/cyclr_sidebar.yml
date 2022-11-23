@@ -934,6 +934,10 @@ entries:
           - title: JotForm
             url: /jotform-connector
             output: web, pdf
+
+          - title: Klaviyo
+            url: /klaviyo-connector
+            output: web, pdf
             
           - title: Korvue
             url: /korvue-connector
