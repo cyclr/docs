@@ -24,7 +24,7 @@ On the **Register your public application** form, the **OAuth redirect URL** fie
 
 ### Get a client ID and client secret
 
-You will receive a client ID and client secret via email after [registering a Calendly OAuth application](#register-a-calendly-oauth-application). Contact Calendly support if you do not receive these.
+You receive a client ID and client secret via email when you [register a Calendly OAuth application](#register-a-calendly-oauth-application). Contact Calendly support if you don't receive these.
 
 ## Cyclr console setup
 
