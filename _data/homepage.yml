@@ -1,56 +1,56 @@
 # Cyclr doc tiles
-title: Cyclr Documentation
+title: Create integration solutions effectively with Cyclr
 subtitle: For developers and teams
 herosearch: true
 navsearch: false
-text: Create integration solutions effectively with Cyclr.
+text: 
 sections:
   - title: Getting started with Cyclr
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     tiles: 
       - title: Managing Cyclr
-        icon: list-check
+        img: managing-cyclr.png
         url: /managing-cyclr
       - title: Community Site 
-        icon: bullhorn
+        img: community-site.png
         externalurl: https://community.cyclr.com/
       - title: Using Cyclr 
-        icon: cogs
+        img: using-cyclr.png
         url: /using-cyclr
-  - title: Connectors
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
-    tiles: 
-      - title: Application Connector Guides
-        icon: book
-        url: /application-connector-guides
-      - title: Utility Connectors 
-        icon: wrench
-        url: /utility-connectors
-      - title: Plugins 
-        icon: plug
-        url: /plugins
   - title: Embedding Cyclr
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     cta-text: Embedding Overview
     cta-url: /embedding-overview
     tiles: 
       - title: Custom UI
-        icon: sliders
+        img: custom-ui.png
         url: /custom-ui
       - title: Embedded Marketplace 
-        icon: bank
+        img: embedded-marketplace.png
         url: /embedded-marketplace
       - title: LAUNCH 
-        icon: rocket
+        img: launch.png
         url: /launch
+  - title: Connectors
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
+    tiles: 
+      - title: Application Connector Guides
+        img: application-connector-guides.png
+        url: /application-connector-guides
+      - title: Utility Connectors 
+        img: utility-connectors.png
+        url: /utility-connectors
+      - title: Plugins 
+        img: plugins.png
+        url: /plugins
   - title: The Cyclr APIs
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nullam turpis sodales id nibh condimentum. Elit tempus aliquam egestas proin quam in odio justo. Gravida elementum sit risus faucibus mollis pellentesque at ultrices fames.
     tiles: 
       - title: API Reference
-        icon: book
+        img: api-reference.png
         url: /api-reference
       - title: API Examples 
-        icon: search
+        img: api-examples.png
         url: /api-examples
       - title: TBC 
         icon: question

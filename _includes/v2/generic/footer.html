@@ -1,4 +1,4 @@
-{% assign footer = site.data.footer %}
+{% assign footer = site.data.v2.footer2 %}
 {% if page.layout == "homepage" %}
 {% assign containerclass='container '%}
 {% else %}
@@ -6,35 +6,58 @@
 {% endif %}
 <footer>
     <div class="{{containerclass}}footer-content d-flex justify-content-between align-items-center">
-        <div class="footer-links flex-grow-0 flex-shrink-0 flex-lg-grow-1">
-            <ul class="nav-footer list-unstyled m-0 p-0 d-flex flex-wrap justify-content-between align-items-center">
-            {% for item in footer.items %}
-                {% unless item.active == false %}
-                {% if item.external_url %}
-                {% assign itemclass = item.title | slugify | downcase %}
-                <li class="li-{{itemclass}}">
-                    <a class="px-0 py-3" href="{{item.external_url}}" target="_blank">{{item.title}}</a>
-                </li>
-                {% elsif page.url contains item.url %}
-                <li class="active li-{{itemclass}}">
-                    <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.title}}</a>
-                </li>
-                {% else %}
-                <li class="li-{{itemclass}}">
-                    <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.title}}</a>
-                </li>
+        {% for col in footer.columns %}
+        <div id="{{col.name}}" class="footer-links flex-grow-0 flex-shrink-0 flex-lg-grow-1">
+            {% if col.heading %}
+            <h4>{{col.heading}}</h4>
+            {% endif %}
+            <ul class="nav-footer list-unstyled m-0 p-0">
+            {% for item in col.items %}
+                {% if item.type == "heading" %}
+                    <li><h4>{{item.text}}</h4></li>
+                {% elsif item.type == "link" %}
+                    {% unless item.active == false %}
+                    {% if item.external_url %}
+                    {% assign itemclass = item.text | slugify | downcase %}
+                    <li class="li-{{itemclass}}">
+                        <a class="px-0 py-3" href="{{item.external_url}}" target="_blank">{{item.text}}</a>
+                    </li>
+                    {% elsif page.url contains item.url %}
+                    <li class="active li-{{itemclass}}">
+                        <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                    </li>
+                    {% else %}
+                    <li class="li-{{itemclass}}">
+                        <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                    </li>
+                    {% endif %}
+                    {% endunless %}
+                {% elsif item.type == "logo" %}
+                     <li>
+                        <a href="index" class="d-block text-right">
+                            <img class="img-responsive" src="images/{{item.img}}" alt="{{item.text}}">
+                        </a>
+                    </li>
+                {% elsif item.type == "text" %}
+                     <li>{{item.text}}</li>
+                {% elsif item.type == "tel" %}
+                     <li><a href="tel:{{item.text}}">{{item.text}}</a></li>
+                {% elsif item.type == "copyright" %}
+                    <li>
+                        <span class="copyright d-block">{{item.text}}</span>
+                    </li>
+                {% elsif item.type == "social" %}
+                    {% for social in item.items %}
+                        <a class="px-1 py-1" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
+                            <i class="fa fa-{{ social.icon }}"></i>
+                        </a>
+                    {% endfor %}
                 {% endif %}
-                {% endunless %}
             {% endfor %}
             </ul>
         </div>
-        <div class="footer-logo flex-grow-0 flex-shrink-0 flex-lg-shrink-1">
-             <a href="index" class="d-block text-right">
-                <img class="img-responsive" src="images/cyclr-logo.png" alt="{{icontext}}">
-            </a>
-            <span class="copyright d-block">
-                {{copyright}}
-            </span>
-        </div>
+        {% endfor %}
     </div>
 </footer>
+
+

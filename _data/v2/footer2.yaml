@@ -1,0 +1,109 @@
+## Footer content
+## Icon homepage link, other nav, search, copyright
+## For external_url, the build applies a different link base url.
+columns:
+  - name: col1
+    heading: Company
+    items:
+      - type: link
+        text: Company
+        url: /index
+        active: true
+      - type: link
+        text: About us
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Contact
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Security and Compliance
+        external_url: https://cyclr.com/privacy-policy
+        active: true
+      - type: link
+        text: Pricing
+        url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Blog
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Branding
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Embedded IPaas
+        external_url: https://cyclr.com/
+        active: true
+  - name: col2
+    heading: Legal
+    items:
+      - type: link
+        text: Website Terms
+        url: /index
+        active: true
+      - type: link
+        text: Privacy Policy
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Terms and Conditions
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Data Protection Agreement
+        external_url: https://cyclr.com/privacy-policy
+        active: true
+      - type: link
+        text: SLA
+        url: https://cyclr.com/
+        active: true
+      - type: link
+        text: GDPR
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Application Stack
+        external_url: https://cyclr.com/
+        active: true
+      - type: link
+        text: Marketing Stack
+        external_url: https://cyclr.com/
+        active: true
+  - name: col3
+    items:
+      - type: heading
+        text: UK Office
+      - type: tel
+        text: +44 (0) 3300 102 525
+        active: true
+      - type: heading
+        text: US Office
+      - type: tel
+        text: +1 (646) 585-2525
+        active: true
+  - name: col4
+    items:
+      - type: logo
+        text: cyclr.com
+        img:  cyclr-logo.png
+        show_icon: true
+        external_url: https://cyclr.com
+        active: true
+      - type: text
+        text: White labelled API integration framework for creating & managing in-app SaaS integrations.
+      - type: copyright
+        text: 2022 Cyclr. All rights reserved.
+      - type: social
+        items:
+          - icon: facebook
+            external_url: https://www.facebook.com/cyclrautomation
+            text: Facebook
+          - icon: twitter
+            external_url: https://twitter.com/cyclr
+            text: Twitter
+          - icon: youtube
+            external_url: https://www.youtube.com/@cyclr
+            text: YouTube
