@@ -647,6 +647,10 @@ entries:
             url: /counterpoint
             output: web, pdf
 
+          - title: Cvent
+            url: /cvent-connector
+            output: web, pdf            
+
           - title: Cyance
             url: /cyance-connector
             output: web, pdf
