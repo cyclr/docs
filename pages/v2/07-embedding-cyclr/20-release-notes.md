@@ -12,6 +12,43 @@ menus:
 
 ## 2022
 
+### 26th September 2022
+- Recycle Bin: Delete all option
+- Templates: Copying a template release, can pick a folder to copy into
+
+### 5th September 2022
+- API: Cycle variables included in Cycle prerequisites
+- Connectors: Auth fields can be hidden and labels customised
+- Connectors: A new method type of Script can be used for steps that don't require API calls
+- Platform: Deleted Cycles and Templates are now moved to a Recycle bin for 90 days before permanent deletion
+
+### 15th August 2022
+- API: Custom connectors can be created, updated and deleted via the API
+- Connectors: Neo4j support has been added
+- Marketplace Notifications: Partner user agent is included in HTTP request
+- Marketplace Notifications: Include InstallDetails in all notifications
+
+### 25th July 2022
+- Connectors: Support multiple authentication types
+- Cycles: Added 6 Hour interval
+
+### 18th July 2022
+- Custom Fields: Can delete custom fields in bulk
+- Custom Fields: Support for reordering custom fields
+
+### 11th July 2022
+- Builder: Can hide unmapped fields in step setup
+- Reports: Transactions can be ordered by column
+- Platform: Improved copy/install cycle performance
+
+### 4th July 2022
+- Platform: Improved CSV performance and max file size
+- Platform: Cycle error retry can be configured for between 1 and 5 retry attempts
+
+### 27th June 2022
+- Connectors: Can import OpenAPI 3 definitions
+- Reports: Reports and logs can be exported from the Console
+
 ### 17th May 2022
 - Console: Improve performance when deleting large amounts of transactions
 - Webhooks: Webhook cleanup after step upgraded
@@ -44,17 +81,17 @@ menus:
 ### 4th April 2022
 - Connector Setup: Indicate optional fields
 
-### 28th March 2020
+### 28th March 2022
 - Marketplaces: Enforce connector authentication order
 - Builder: Allow partners to control help links in white label consoles
 
-### 21st March 2020
+### 21st March 2022
 - Platform: Updated MongoDB native driver to 2.14.1
 - Connectors: Remove dynamic custom fields if no longer found at source
 - Launch/Marketplaces: Added data type mismatch warnings
 - Templates: Cycle variables now support value lists
 
-### 14th March 2020
+### 14th March 2022
 - Custom Connectors: Support custom objects
 
 ### 28th February 2022

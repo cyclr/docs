@@ -1,12 +1,12 @@
-1---
-title: Cyclr IP Whitelisting
+---
+title: Cyclr IP Allowlist
 sidebar: cyclr_sidebar
-permalink: cyclr-ip-whitelisting
+permalink: cyclr-ip-allowlist
 tags: [managing-cyclr]
 menus:
   managing-cyclr:
-    title: Cyclr IP Whitelisting
-    url: /cyclr-ip-whitelisting
+    title: Cyclr IP Allowlist
+    url: /cyclr-ip-allowlist
 ---
 
 If you are setting up a Connector that requires IP whitelisting, you can find the addresses that Cyclr *sends* API requests from below.

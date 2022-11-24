@@ -30,7 +30,7 @@ The response (_in JSON format_) from the trigger method 'list accounts' looks li
 }
 ```
 
-The settings for an Accounts the Account Id lookup would look something like this:
+The settings for the Account Id lookup would look something like this:
 
 | Property | Value | Usage |
 | --- | --- | --- |

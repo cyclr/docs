@@ -51,7 +51,7 @@ The following query string parameters can be included:
 | Parameter | Description | Example |
 | --- | --- | --- |
 | **token** | The account sign-in token generated above | ABCD12340000000000000= |
-| **targetOrigin** | Required.  Either the origin of another browser window for the JavaScript callback event to be dispatched to, or a URL to redirect the user to. Used after the OAuth authentication is complete. | <span>https://partner.cyclr.com/connectors</span> |
+| **targetOrigin** | Required.  Either the origin of another browser window for the JavaScript callback event to be dispatched to, or a URL to redirect the user to. Used after the OAuth authentication is complete. | <span>https://yourapplication.com/complete-page</span> |
 | **callbackMessage** | Callback message to be sent by JavaScript postMessage to the parent window. Don’t include if using a redirect for `targetOrigin`. | done |
 
 *You should URL encode all parameter values.*

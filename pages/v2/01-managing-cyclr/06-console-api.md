@@ -14,7 +14,7 @@ menus:
 ### Password Grant Client ID
 
 The Password Grant is no longer the recommended way to authenticate API requests. As such this will be deprecated in the future. However accounts which had Password Grant Client IDs set up will still be able to access and refresh them here.
-For more details on why this is no longer recommended please see https://oauth.net/2/grant-types/password/.
+For more details on why this is no longer recommended please see [OAuth 2.0 Password Grant](https://oauth.net/2/grant-types/password/).
  
 ### Client Credentials
 

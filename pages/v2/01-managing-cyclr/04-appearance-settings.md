@@ -11,13 +11,13 @@ menus:
 
 These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
 
-*Due to caching in Cyclr it will take a minute until the changes take effect.*
+*Due to caching within Cyclr, allow 1 minute before the changes take effect.*
 
 ## Application LESS Variables
 
-The simplist way to alter the appearance of Cyclr is to change the values of LESS variables.
+The simplest way to alter the appearance of Cyclr is to change the values of LESS variables.
 
-For example if the *body-background* is set to *#ccc* then the background of Cyclr will change to grey
+For example if the *body-background* is set to *#ccc* then the background of Cyclr will change to grey.
 
 ```` less
 @body-background: #ccc;
@@ -61,13 +61,13 @@ Footer HTML allows HTML & JavaScript to be injected into the footer of the page.
 
 ## Launch Complete HTML
 
-Launch Complete HTML allows for the changing of HTML & JavaScript that is displayed at the end of the install process for LAUNCH and Marketplace for more information See [Handling Launch Callback](/handling-callback)
+Launch Complete HTML allows for the changing of HTML & JavaScript that is displayed at the end of the install process for LAUNCH and Marketplace. For more information, see [Handling Launch Callback](/handling-callback).
 
 ## Connector Callback Error HTML
 
 Connector Callback Error HTML allows for the changing of the HTML that is displayed when an error occurs when trying to authenticate a connector.
 
-The error and error description, returned by the 3rd party, can be used within the HTML by including the {% raw %}{{error}} and {{error_description}}{% endraw %} merge fields. For example
+The error and error description, returned by the 3rd party, can be used within the HTML by including the {% raw %}{{error}} and {{error_description}}{% endraw %} merge fields. For example:
 
 ```` html
 <p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>

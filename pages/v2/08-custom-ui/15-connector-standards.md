@@ -2,14 +2,12 @@
 title: Connector Standards
 sidebar: cyclr_sidebar
 permalink: connector-standards
+tags: [connector-creation]
 menus:
   custom-ui:
     title: Connector Standards
     url: connector-standards
 ---
-
-Cyclr Connector Standards Guide
----------------------------
 
 ## Connector Details
 * Name should not include any version information

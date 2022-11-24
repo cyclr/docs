@@ -10,8 +10,6 @@ menus:
     weight: 4
 ---
 
-## Field Mapping
-
 When using an Action step, you will need to map its fields.  You can do this through the 'cog' icon on the step which gives access to the Step Setup functionality.
 
 ## Field mapping example
@@ -24,7 +22,7 @@ The **Source** for these fields, shown to the right, can be any preceding step o
 
 ## Field mapping sources
 
-Depending the app you’re connecting to and the field you are using, only some of these source types will be available.
+Depending on the app you're connecting to and the field you are using, only some of these source types will be available.
 
 | Source | Usage |
 | --- | --- |
@@ -54,5 +52,3 @@ These Mergefields can be used to map fields directly and as part of the content 
 ```
 The last run was {% raw %}{{LastSuccessfulRunDate}}{% endraw %}.
 ```
-
-[How to Test your Cycles](./testing-cycles)

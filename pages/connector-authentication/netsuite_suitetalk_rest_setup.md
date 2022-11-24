@@ -59,7 +59,7 @@ If you haven't done so already you will need to create a custom role which inclu
 
 5. From **Permissions** > **Reports** add **SuiteAnalytics Workbook**
 
-6. From **Permissions** > **Lists** add any/all of the following: **Accounts**, **Contacts**, **Currency**, **Customers**, **Employees**, **Projects**, **Subsidiaries**. Each with Level: **Full**
+6. From **Permissions** > **Lists** add any/all of the following: **Accounts**, **Contacts**, **Currency**, **Customers**, **Employees**, **Phonecalls**, **Projects**, **Subsidiaries**. Each with Level: **Full**
 
 7. From **Permissions** > **Setup** add **Access Token Management**, **User Access Tokens** and **REST Web Services**. Each with Level: **Full**
 

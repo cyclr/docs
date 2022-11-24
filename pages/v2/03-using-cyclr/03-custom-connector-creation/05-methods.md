@@ -22,7 +22,7 @@ These are descriptions of the API endpoints in a standard format.
 | Comments | | |
 | Category | Used to group methods in the Cyclr UI. | Try to keep to single, pluralized words, e.g. “Emails” or “Contacts”.|
 | Subcategory | | |
-| MethodType | This defines where the method will appear in the Cyclr UI: Action or Webhook. | |
+| MethodType | This defines where the method will appear in the Cyclr UI: Action, Webhook or Script. | |
 | HttpMethod | This is the action to be performed on the API method. Supported methods are GET, POST, PATCH, PUT, DELETE. | |
 | Endpoint | This is the URI to the API method. Not used if this Method Type is a webhook.| |
 | Hide | This will hide the method in the Cyclr UI if set to true. |
@@ -66,8 +66,10 @@ You can specify Parameters specific to this method. Read more about [parameters]
 
 You can add script to the connector to handle special situations. Read more about [scripting](./connector-scripting)
 
+#### Script Method Type
+The script method type can be used for methods that do not make an external API call (e.g. static data), or where requests will need to be handled entirely by the script engine.
+
 ## Mergefields
 
 Mergefields are placeholders that will be substituted at runtime.
   * LastSuccessfulRunDate – is the last time a Step successfully ran. This is useful to find newly created or updated records in an app. A format string needs to be provided. For example, _{% raw %}{{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ}}{% endraw %}_.
-

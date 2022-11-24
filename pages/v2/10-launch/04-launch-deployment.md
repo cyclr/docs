@@ -128,7 +128,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
     </tr>
     <tr>
         <td>InlineOAuth</td>
-        <td>Defaults to true. Set it to false if you are running LAUNCH in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
+        <td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
         <td>false</td>
     </tr>
     <tr>
@@ -332,7 +332,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
     </tr>
     <tr>
         <td>InlineOAuth</td>
-        <td>Defaults to true. Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
+        <td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
         <td>false</td>
     </tr>
     <tr>

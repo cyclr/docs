@@ -46,6 +46,7 @@ Valid Intervals:
 | 120 | 2 Hours |
 | 180 | 3 Hours |
 | 240 | 4 Hours |
+| 360 | 6 Hours |
 | 480 | 8 Hours |
 | 720 | 12 Hours |
 | 1440 | 1 Day |

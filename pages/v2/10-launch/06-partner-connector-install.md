@@ -1,20 +1,19 @@
 ---
-title: Install a Partner Connector with LAUNCH or Marketplace
+title: Install a Partner Connector
 sidebar: cyclr_sidebar
 permalink: partner-connector
-tags: [launch, marketplace, guide, partner connector]
+tags: [launch, marketplace, guide]
 menus:
   launch:
     title: Install a Partner Connector
     url: /partner-connector
 ---
 
-What is a Partner Connector?
----
+## What is a Partner Connector?
+
 Your Partner Connector is your application's connector. When installing Launch or Marketplace to a new account you can install your application's connector - the Partner Connector - into the account at the same time, so your users will not be expected to authenticate against your platform during the LAUNCH or Marketplace flow.
 
-Setting up a Partner Connector
----
+## Setting up a Partner Connector
 
 First you will need to make sure that you have a partner connector set up.
 To do this from your console go to `Templates -> Template Connectors`. 

@@ -9,7 +9,7 @@ tags: [connector]
 -------------
 Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. You must register Cyclr within Pipedrive as its own App to receive a Client ID and Client Secret. This enables Cyclr to authenticate and connect with Pipedrive.
 
-> Note: Due to how Pipedrive authentication works, customers themselves will need to follow the below Pipedrive setup process.
+> Note: Due to how Pipedrive authentication works, customers themselves will need to follow the below Pipedrive setup process.  You may wish to use the standard (non-OAuth) Pipedrive Connector if you don't want your customer to have this responsibility.  With the standard Connector only their personal API Key is required for installation. (https://support.pipedrive.com/en/article/how-can-i-find-my-personal-api-key)
 
 ## Pipedrive Setup
 
@@ -32,21 +32,6 @@ Create a new App and obtain the Client ID and Client Secret using the steps belo
 6. Enable the required **Access scopes** as either **Read only** or **Full access**. The official Pipedrive documentation on access scopes can be found [here](https://pipedrive.readme.io/docs/marketplace-scopes-and-permissions-explanations).
 7. Click `Save` to create the App. This will take you back to the Marketplace Manager.
 8. Click the newly created App within the **Marketplace Manager** to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can click `Show` to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to set up the Pipedrive Connector.
-
-## Cyclr Setup
-
-To set up the Pipedrive Connector within Cyclr:
-
-1. Go to the **Cyclr Console**.
-2. Click the `Connectors` dropdown menu at the top of the page.
-3. Click `Application Connector Library`.
-4. Use the search bar to find the **Pipedrive (OAuth2.0)** App.
-5. Click the **Setup Required** button.
-6. Enter the **Client ID** and **Client Secret** found in the previous section and click `Next`.
-7. Click `Sign In` to sign in to Pipedrive to allow Cyclr to connect to it.
-8. Click `Allow and Install` to authorize the Pipedrive App to use the listed permissions and install it to your account.
-
-Your Pipedrive Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
 
 # Pipedrive Integration Workflow Building Examples
 -------------

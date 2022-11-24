@@ -52,3 +52,4 @@ If you have transactions in progress/queued that you want to stop and not contin
 3. Delete the *original* Cycle which will also delete all of its existing transactions.
 
 Your new Cycle won't have any existing transactions.
+

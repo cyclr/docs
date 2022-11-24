@@ -1,7 +1,8 @@
 ---
 title: Data Storage Usage
+sidebar: cyclr_sidebar
 permalink: data-storage-usage
-tags: [utility-connector-details]
+tags: [utility-connector]
 menus:
   utility-connectors:
     title: Data Storage Usage

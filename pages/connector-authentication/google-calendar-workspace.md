@@ -7,21 +7,21 @@ tags: [connector]
 
 ## Account Level Setup
 
-#### Create Service Account with appropriate permissions
+### Create Service Account with appropriate permissions
 The actions in this guide require a Google Workspace account with an admin user.
 * Navigate to the [services account page](https://console.developers.google.com/iam-admin/serviceaccounts).
 * Click **Create Service Account** and enter an appropriate name and description. 
 * On the **Grant users access to this service** screen, create a key and select the **JSON** format.
-* Keep this file safe, if foreign users gain access to this file they are able to perform admin actions in your Google Workspace account. We will need it later. This will also be the only time that you can download the file.
+* Keep this file safe, as its contents can enable anyone to perform admin actions in your Google Workspace account. We will need it later. This will also be the only time that you can download the file.
  
-#### Enable domain-wide delegation
+### Enable domain-wide delegation
 Now we need to enable Google Workspace domain-wide delegation so that you are able to access your users Google Calendar data.
 * Click on the newly create service account, and under **Actions** click **Edit**.
 * Under **Show domain-wide delegation**, make sure **Enable Google Workspace Domain-wide Delegation** is ticked.
 * Click save.
 * A new column labeled **Domain-wide delegation** will be present, click **View Client ID** and note down the value.
 
-#### Grant access to the service account
+### Grant access to the service account
 This action must be completed by a super admin of the Google Workspace account.
 * Navigate to the [admin console](http://admin.google.com/).
 * Go to **Main Menu** > **Security** > **API Controls**.
@@ -33,7 +33,7 @@ This action must be completed by a super admin of the Google Workspace account.
   * **https://www.googleapis.com/auth/admin.directory.group.readonly** - allows API access to read groups.
 * Click Authorize.
 
-### Cyclr Setup
+## Cyclr Setup
 
 Setup your Google Calendar - Workspace App within Cyclr:
 

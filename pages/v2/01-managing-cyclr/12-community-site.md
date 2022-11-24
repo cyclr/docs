@@ -2,7 +2,7 @@
 title: Cyclr Community Site
 sidebar: cyclr_sidebar
 permalink: community-site
-tags: [community]
+tags: [community, managing-cyclr]
 menus:
   managing-cyclr:
     title: Cyclr Community Site
@@ -16,3 +16,4 @@ To access the Community Site, go to your console and click the Community Site bu
 ![Community Site Button](./images/community-site-button.png)
 
 If you have already registered, this will take you to the sign-in page - otherwise you will be invited to sign up.
+

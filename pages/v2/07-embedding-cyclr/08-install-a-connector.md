@@ -1,5 +1,5 @@
 ---
-title: Install a Connector
+title: Install a connector
 sidebar: cyclr_sidebar
 permalink: install-a-connector
 tags: [embedding]

@@ -5,6 +5,11 @@ permalink: pipedrive-connector.html
 tags: [connector]
 ---
 
+# Setting up the Connector
+To install the Pipedrive Connector, your **customer** will need to provide their API Key.
+
+There's information on how to find your API key here: https://support.pipedrive.com/en/article/how-can-i-find-my-personal-api-key
+
 # Pipedrive Integration Workflow Building Examples #
 -------------
 <h2>Automating Pipedrive</h2> 

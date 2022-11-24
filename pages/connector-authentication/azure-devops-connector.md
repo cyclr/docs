@@ -11,7 +11,7 @@ The **Microsoft Azure DevOps** Connector is authenticated using OAuth2.0.
 
 ## Preparation
 
-Either your or your end-users will need to [register an application with Microsoft](https://app.vsaex.visualstudio.com/app/register) and provide its details to Cyclr.
+Either you or your end-users will need to [register an application with Microsoft](https://app.vsaex.visualstudio.com/app/register) and provide its details to Cyclr.
 
 If you intend to have all your users accept the same Authorized Scopes when they authenticate a **Microsoft Azure DevOps** Connector, you can register a single application and set its details and Scopes in your Cyclr Console's *Connectors > Application Connector Library* entry.
 

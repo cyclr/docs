@@ -1,8 +1,8 @@
 ---
-title: Cyclr's APIs
+title: Cyclr APIs
 sidebar: cyclr_sidebar
 permalink: testing-cyclr-api
-tags: [api]
+tags: [api, installing]
 menus:
   installing-templates:
     title: Cyclr's APIs
@@ -37,7 +37,6 @@ Cyclr supports 2 of the OAuth 2.0 authentication flows:
 
 * [Client Credentials](./cyclr-api-authentication)
 * [Password flow](./cyclr-api-authentication-password) [support ends May 2021]
-
 
 
 The Cyclr API is divided into two parts, the Partner Level and the Account Level, you can use the same OAuth token for both but account level methods require that the **X-Cyclr-Account** header is included with the request.
