@@ -9,15 +9,11 @@ tags: [connector]
 
 ### Requirements
 
-To connect with Cyclr, you will need a **Client ID** and **Client Secret**.
-You will also need to know the **Host Name** of the instance you would like to access.
-The **Host Name** options can be found here: 
-https://developer-portal.cvent.com/documentation#section/Getting-Started/API-Endpoints
+To connect with Cyclr, you need a **Client ID** and **Client Secret**. For information on how to get these values, see the Cvent documentation on [Authentication](https://developer-portal.cvent.com/documentation#section/Getting-Started/Authentication).
+
+You also need to know the **Host Name** of the instance you want to access. You can find the **Host Name** options in the Cvent documenation on [API Endpoints](https://developer-portal.cvent.com/documentation#section/Getting-Started/API-Endpoints).
 
 ## Cyclr setup
-This section describes how to setup the connector in the console. No other setup is required.
-
-### Console setup
 
 To set up the Cvent connector in Cyclr, go to your console:
 
@@ -35,9 +31,3 @@ To set up the Cvent connector in Cyclr, go to your console:
    | **Client Secret** | The key used by OAuth to authenticate the application.                                                           |
 
 7. Select **Save**.
-
-## Additional information
-### Documentation
-
-The API REST documentation can be found here:
-https://developer-portal.cvent.com/documentation#section/Introduction
