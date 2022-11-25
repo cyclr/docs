@@ -58,7 +58,7 @@ Once you have obtained your client ID and client secret you need to create an ap
 
 ### Sandbox or Production
 
-If you wish to use the eBay developer sandbox for testing, please choose the **eBay Sandbox** connector, and use the sandbox application keys you have generated in the previous steps. For production keys, the standard eBay connector should be used.
+If you wish to use the eBay developer sandbox for testing, please set **Is Sandbox?** to true during set-up, and use the sandbox application keys you have generated in the previous steps. For production keys, **Is Sandbox?** should be false.
 
 <a name="console-setup"></a>
 
@@ -73,7 +73,8 @@ To setup your eBay connector within your Cyclr console:
 5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
     - **Client ID**: Your eBay application [App ID (Client ID)](#obtain-client-id-and-client-secret).
     - **Client Secret**: Your eBay application [Cert ID (Client Secret)](#obtain-client-id-and-client-secret).
-6. Select **Save Changes**.
+6. Set **Is Sandbox?** to true or false depending on which type of authentication keys you are using.  
+7. Select **Save Changes**.
 
 <a name="account-setup"></a>
 
