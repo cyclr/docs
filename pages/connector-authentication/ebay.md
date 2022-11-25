@@ -58,7 +58,7 @@ Once you have obtained your client ID and client secret you need to create an ap
 
 ### Sandbox or Production
 
-If you wish to use the eBay developer sandbox for testing, please set **Is Sandbox?** to true during set-up, and use the sandbox application keys you have generated in the previous steps. For production keys, **Is Sandbox?** should be false.
+If you want to use the eBay developer sandbox for testing, set the **Is Sandbox?** field to `true` during setup, and use the sandbox application keys you generated in the previous steps. For production keys,  set **Is Sandbox?** to `false`.
 
 <a name="console-setup"></a>
 
