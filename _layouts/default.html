@@ -4,54 +4,6 @@
 <head>
     {% include v2/generic/head.html %}
     {% seo %}
-    <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
-
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', false);
-            });
-
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', true);
-            });
-
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#tg-sb-link").click(function() {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
-        });
-    </script>
     {% if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
@@ -85,23 +37,24 @@
     {% assign containerclass='container '%}
     {% endif %}
 
-<body class="d-lg-flex flex-lg-column {{sbclass}} layout-{{page.layout}}">
-    {% include v2/generic/topnav.html %}
-    <div class="flex-grow-1 flex-shrink-0 d-lg-flex">
+<body>
+    <header>
         {% unless page.hide_sidebar == true %}
-        <aside class="sidebar flex-grow-0 flex-shrink-0 flex-lg-column justify-content-lg-between align-self-lg- stretch" id="tg-sb-sidebar">
-            {% include v2/generic/sidebar.html %}
-        </aside>
+        {% include v2/generic/sidebar.html %}
         {% endunless %}
+        {% include v2/generic/topnav.html %}
+    </header>
+    <main id="main">
         <!-- Page Content -->
-        <div class="flex-grow-1 flex-shrink-0 d-flex flex-column">
-            <main class="{{containerclass}}post flex-grow-1">
+        <div id="main-container" class="container">
             {{content}}
-            </main>
             {% include v2/generic/footer.html %}
         </div>
-    </div>
+    </main>
 </body>
+<script type="text/javascript" src="{{ "js/mdb/mdb.min.js" }}"></script>
+<script type="javascript/esm" src="{{ "js/customscripts.js" }}"></script>
+
 {% if site.google_analytics %}
 {% include v2/generic/google_analytics.html %}
 {% endif %}

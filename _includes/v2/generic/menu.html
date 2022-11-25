@@ -1,23 +1,28 @@
 {% if menu %}
 {% if menuid %}
-<ul id="{{menuid}}" class="list-unstyled menulevel-{{menulevel}}">
+<ul id="{{menuid}}" class="sidenav-menu ps menulevel-{{menulevel}}">
 {% else %}
-<ul>
+<ul class="sidenav-collapse">
 {% endif %}
 {% for item in menu %}
   {% if page.url == item.url %}
-  {% capture itemclass %}class="active"{% endcapture %}
+  {% capture itemclass %} active{% endcapture %}
   {% else %}
   {% capture itemclass %}{% endcapture %}
   {% endif %}
-  <li {{itemclass}}>
+  <li class="sidenav-item mb-1{{itemclass}}">
     {% if item.toggleonly %}
-    <a class="menu-toggle" title="{{ item.title }}">{{ item.title }}</a>
+    <a class="sidenav-link ripple-surface menu-toggle" title="{{ item.title }}">
+      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
     {% else %}
       {% if item.externalurl %}
-    <a class="menu-link" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">{{ item.title }}</a>
+    <a class="sidenav-link ripple-surface" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
+      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
+    </a>
       {% else %}
-    <a class="menu-link" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+    <a class="sidenav-link ripple-surface" href="{{ item.url }}" title="{{ item.title }}">
+      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
+    </a>
       {% endif %}
     {% endif %}
     {% if item.children %}

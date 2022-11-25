@@ -1,6 +1,6 @@
 ---
 # Only the main Sass file needs front matter 
-# Import all bs and custom scss
+# Import custom scss which includes the mdb pro
 ---
 
 // google font import
@@ -10,6 +10,7 @@
 // @import "variables";
 // @import "bootstrap";
 // @import "mixins";
-// @import "custom";
-@import "mdb/scss/mdb.pro";
+@import "custom";
+
+
 

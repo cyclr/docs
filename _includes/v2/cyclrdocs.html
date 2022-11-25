@@ -31,7 +31,7 @@
 					<div class="card-body d-flex flex-column h-100">
 						<div class="flex-grow-1 d-flex align-items-center justify-content-center {{bgtilecycle}}">
 							{% if tile.img %}
-							<img src="./images/homepage/{{tile.img}}" alt="{{tile.title}}"/>
+							<img class="card-img-top" src="./images/homepage/{{tile.img}}" alt="{{tile.title}}"/>
 							{% elsif tile.icon %}
 							<i class="fa fa-{{ tile.icon }} fa-5x"></i>
 							{% endif %}

@@ -1,28 +1,20 @@
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top d-flex justify-content-between align-items-center">
-{% if page.layout == "homepage" %}
-    <div class="container d-flex">
-{% assign containerclass='flex-grow-1 '%}
-{% else %}
-{% assign containerclass='container '%}
-{% endif %}
-        <div class="logo flex-grow-0 flex-shrink-0">
-            <a class="logo-link" href="index">
-                <img src="images/cyclr-logo.png" alt="Cyclr logo" class="img-responsive">
+<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top navbar-dark c-bg-grey-70">
+    <div class="container-fluid">
+        <div class="d-flex">
+            <button 
+                class="btn-menu" 
+                data-mdb-toggle="sidenav" 
+                data-mdb-target="#sidenav-1" 
+                type="button">
+                <i class="fas fa-bars fa-lg"></i>
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <a class="navbar-brand p-0 me-2" href="#/">
+                <img alt="Cyclr Docs" src="images/cyclr-logo.png" style="max-height:30px;">
             </a>
         </div>
-    {% if page.layout == "page" %}
-    <div class="flex-grow-1 d-flex topnavlinks">
-    {% endif %}
-        <div class="{{containerclass}}d-flex">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+        <div class="d-flex">
             <div class="collapse navbar-collapse flex-grow-1 d-flex" id="bs-example-navbar-collapse-1">
                 {% if page.layout == 'homepage' %}
                 <ul class="nav navbar-nav m-0 p-0 flex-grow-1 d-flex align-items-center justify-content-end">
@@ -98,10 +90,5 @@
                 </ul>
             </div>
         </div>
-    {% if page.layout == "page" %}
     </div>
-    {% endif %}
-{% if page.layout == "homepage" %}
-    </div>
-{% endif %}
 </nav>
