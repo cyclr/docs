@@ -7,7 +7,7 @@ tags: [connector]
 
 ## OneLogin setup
 
-To authenticate this connector you need a credential pair for OneLogin of `Client ID` and `Client Secret`. Find more information on how to obtain these credentials in OneLogin's [Working with API credentials](https://developers.onelogin.com/api-docs/1/getting-started/working-with-api-credentials) documentation.
+To authenticate this connector, you need a OneLogin credential pair of **Client ID** and **Client Secret**. Find more information on how to obtain these credentials in OneLogin's [Working with API credentials](https://developers.onelogin.com/api-docs/1/getting-started/working-with-api-credentials) documentation.
 
 ## Cyclr setup
 
@@ -25,9 +25,9 @@ To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
 
 6. Select **Save Changes**.
 
-## Additional Information
+## Additional information
 
-The **Create App** method accepts a wide range of possible request parameters beyond what is mapped as standard in Cyclr. While these can be mapped manually, it is also possible to generate the fields based off of an existing application. To do this:
+The **Create App** method accepts a wide range of possible request parameters beyond what's mapped as standard in Cyclr. You can map these fields manually, or you can generate the fields based on an existing application. To generate fields:
 
 1. Go to the **Edit Connector** page for the OneLogin connector.
 2. Under the **Methods & Fields** heading, find and select the **Get App Template** method.
@@ -38,9 +38,9 @@ The **Create App** method accepts a wide range of possible request parameters be
 7. Paste the copied JSON into the **Sample Data** box.
 8. Select **Generate**.
 
-The possible request fields will now be mapped ready to use when creating a new application.
+This process maps the possible request fields so they're ready to use when you create a new application.
 
-The **List Users** and **Get User** methods can return custom attributes if they are available. To map these in the response, please map a custom field to the attribute's location. To do this:
+The **List Users** and **Get User** methods can return custom attributes if the're available. To map these in the response, map a custom field to the attribute's location:
 
 1. Go to the **Edit Connector** page for the OneLogin connector.
 2. Under the **Methods & Fields** heading, find and select the **List Users** or **Get User** method.
@@ -49,6 +49,6 @@ The **List Users** and **Get User** methods can return custom attributes if they
 5. For **Get User**, instead use the location `custom_attributes.attributeName`.
 6. Give the field an appropriate **Display Name** and **Description**.
 7. Set the **Data Type** to the expected returned data type.
-8. Click **Create**.
+8. Select **Create**.
 
-The returned custom attributes will now map on all steps that call these methods.
+This process means returned custom attributes map onto all steps that call these methods.
