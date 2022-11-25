@@ -71,6 +71,7 @@ To setup your eBay connector within your Cyclr console:
 3. Use the search box to find the eBay connector.
 4. Select the **Setup Required** icon.
 5. Enter the below valuess:
+
     | **Value**     | **Description**                                                                  |
     |:--------------|:-------------------------------------------------------------------------------- |
     | **Client ID** | Your eBay application [App ID (Client ID)](#obtain-client-id-and-client-secret). |
