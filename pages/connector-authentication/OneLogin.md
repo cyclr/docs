@@ -27,6 +27,8 @@ To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
 
 ## Additional information
 
+### Generate fields for the **Create App** method
+
 The **Create App** method accepts a wide range of possible request parameters beyond what's mapped as standard in Cyclr. You can map these fields manually, or you can generate the fields based on an existing application. To generate fields:
 
 1. Go to the **Edit Connector** page for the OneLogin connector.
