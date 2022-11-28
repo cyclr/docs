@@ -32,7 +32,7 @@ The **Create App** method accepts a wide range of possible request parameters be
 1. Go to the **Edit Connector** page for the OneLogin connector.
 2. Under the **Methods & Fields** heading, find and select the **Get App Template** method.
 3. Specify the template app you want to use, and run this method.
-4. Copy the returned JSON under **Return Value**.
+4. Copy the returned JSON script under **Return Value**.
 5. Under the **Methods & Fields** heading, find and select the **Create App** method.
 6. In the **Request Fields** section, find and select the red magnifying glass icon.
 7. Paste the copied JSON into the **Sample Data** box.
