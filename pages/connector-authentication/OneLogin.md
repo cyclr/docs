@@ -42,7 +42,7 @@ The **Create App** method accepts a wide range of possible request parameters be
 
 This process maps the possible request fields so they're ready to use when you create a new application.
 
-### Map custom fields for the **List/Get Users** methods
+### Map custom fields for the **List Users** and **Get User** methods
 
 The **List Users** and **Get User** methods can return custom attributes if the're available. To map these in the response, map a custom field to the attribute's location:
 
