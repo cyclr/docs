@@ -1,5 +1,5 @@
 ---
-title: Connector Scripting
+title: Scripting
 sidebar: cyclr_sidebar
 permalink: connector-scripting
 keywords: action_data

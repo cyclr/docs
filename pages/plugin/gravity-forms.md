@@ -1,5 +1,5 @@
 ---
-title: Gravity Forms Plugin
+title: Gravity Forms plugin
 sidebar: cyclr_sidebar
 permalink: gravity-forms-plugin
 tags: [plugins]

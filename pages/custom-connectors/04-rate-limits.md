@@ -1,5 +1,5 @@
 ---
-title: Connector Rate Limits
+title: Rate limits
 sidebar: cyclr_sidebar
 permalink: connector-rate-limits
 tags: [connector-creation]

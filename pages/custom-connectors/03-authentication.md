@@ -1,5 +1,5 @@
 ---
-title: Connector Authentication
+title: Authentication
 sidebar: cyclr_sidebar
 permalink: connector-authentication
 tags: [connector-creation]

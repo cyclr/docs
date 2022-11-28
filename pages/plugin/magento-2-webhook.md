@@ -1,5 +1,5 @@
 ---
-title: Magento 2 Webhook Extension
+title: Magento 2 webhook extension
 sidebar: cyclr_sidebar
 permalink: magento-2-webhook-extension
 tags: [plugins]

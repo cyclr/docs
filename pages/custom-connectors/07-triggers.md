@@ -1,5 +1,5 @@
 ---
-title: Connector Triggers
+title: Triggers
 sidebar: cyclr_sidebar
 permalink: connector-triggers
 tags: [connector-creation]

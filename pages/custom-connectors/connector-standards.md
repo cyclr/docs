@@ -1,5 +1,5 @@
 ---
-title: Connector Standards
+title: Connector standards
 sidebar: cyclr_sidebar
 permalink: connector-standards
 tags: [connector-creation]

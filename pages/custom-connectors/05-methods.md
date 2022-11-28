@@ -1,5 +1,5 @@
 ---
-title: Connector Methods
+title: Methods
 sidebar: cyclr_sidebar
 permalink: connector-methods
 tags: [connector-creation]

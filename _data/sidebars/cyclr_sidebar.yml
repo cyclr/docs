@@ -24,11 +24,11 @@ entries:
             url: /community-site
             output: web, pdf
 
-          - title: Legal Notices
+          - title: Legal notices
             url: /legal-notices
             output: web, pdf 
 
-          - title: Release Notes
+          - title: Release notes
             url: /release-notes
             output: web, pdf
 
@@ -309,83 +309,71 @@ entries:
             url: /cycle-activation
             output: web, pdf
 
-      - title: Connector Creation
+      - title: Create a custom connector
         output: web, pdf
         folderitems:
-          - title: Introduction
+          - title: Custom connector introduction
             url: /connector-introduction
             output: web, pdf
 
           - title: Connector standards
             url: /connector-standards
             output: web, pdf
+            subfolders:
+              - title: Create a connector
+                output: web, pdf
+                subfolderitems:
+                  - title: Settings
+                    url: /connector-settings
+                    output: web, pdf
 
-          - title: Settings
-            url: /connector-settings
-            output: web, pdf
+                  - title: Authentication
+                    url: /connector-authentication
+                    output: web, pdf                       
 
-          - title: Connector Authentication
-            url: /connector-authentication
-            output: web, pdf
+                  - title: Rate limits
+                    url: /connector-rate-limits
+                    output: web, pdf
 
-          - title: Rate Limits
-            url: /connector-rate-limits
-            output: web, pdf
+                  - title: Methods
+                    url: /connector-methods
+                    output: web, pdf
 
-          - title: Methods
-            url: /connector-methods
-            output: web, pdf
+                  - title: Parameters
+                    url: /connector-parameters
+                    output: web, pdf
 
-          - title: Parameters
-            url: /connector-parameters
-            output: web, pdf
+                  - title: Triggers
+                    url: /connector-triggers
+                    output: web, pdf
 
-          - title: Triggers
-            url: /connector-triggers
-            output: web, pdf
+                  - title: Scripting
+                    url: /connector-scripting
+                    output: web, pdf
 
-          - title: Scripting
-            url: /connector-scripting
-            output: web, pdf
+                  - title: Data types
+                    url: /data-types
+                    output: web, pdf
 
-          - title: Paging
-            url: /connector-paging
-            output: web, pdf
-            
-          - title: Last Successful Run Date
-            url: /last-successful-run-date
-            output: web, pdf
+                  - title: Last successful run date
+                    url: /last-successful-run-date
+                    output: web, pdf                               
 
-          - title: Auto Installing Webhooks
-            url: /auto-installing-webhooks
-            output: web, pdf
+                  - title: Paging
+                    url: /connector-paging
+                    output: web, pdf
+                    
+                  - title: Enhanced objects
+                    url: /enhanced-objects
+                    output: web, pdf
 
-          - title: Custom Fields
-            url: /dynamic-custom-fields
-            output: web, pdf
-         
-          - title: Data Types
-            url: /data-types
-            output: web, pdf
-            
-          - title: Enhanced Objects
-            url: /enhanced-objects
-            output: web, pdf
+                  - title: Dynamic custom fields
+                    url: /dynamic-custom-fields
+                    output: web, pdf                
 
-      - title: Plugins
-        output: web, pdf
-        folderitems:
-          - title: Contact Form 7 Plugin
-            url: /contact-form-7-plugin
-            output: web, pdf
-
-          - title: Gravity Forms Plugin
-            url: /gravity-forms-plugin
-            output: web, pdf
-
-          - title: Magento 2 Webhook Extension
-            url: /magento-2-webhook-extension
-            output: web, pdf
+                  - title: Automatically install webhooks
+                    url: /auto-installing-webhooks
+                    output: web, pdf
 
       - title: Utility Connectors
         output: web, pdf
@@ -397,21 +385,24 @@ entries:
           - title: Entity Cross Reference
             url: /entity-cross-reference-connector
             output: web, pdf
+            subfolders:
+              - title: Data storage
+                output: web, pdf
+                subfolderitems:
+                  - title: Data storage usage
+                    url: /data-storage-usage
+                    output: web, pdf
 
-          - title: Data Storage Usage
-            url: /data-storage-usage
-            output: web, pdf
+                  - title: Cycle Data Storage
+                    url: /cycle-data-storage
+                    output: web, pdf
 
-          - title: Cycle Data Storage
-            url: /cycle-data-storage
-            output: web, pdf
+                  - title: Global Data Storage
+                    url: /global-data-storage
+                    output: web, pdf                    
 
           - title: Cycle Object Storage
             url: /cycle-object-storage
-            output: web, pdf
-
-          - title: Global Data Storage
-            url: /global-data-storage
             output: web, pdf
 
           - title: Global Object Storage
@@ -432,7 +423,7 @@ entries:
 
           - title: Cyclr Tools
             url: /cyclr-tools
-            output: web, pdf
+            output: web, pdf                
 
       - title: Connector Guides
         output: web, pdf
@@ -1652,10 +1643,25 @@ entries:
           - title: Zoom
             url: /zoom-connector
             output: web, pdf
-            
-      - title: Cyclr API Examples
+
+      - title: Application connector plugins
         output: web, pdf
         folderitems:
-          - title: Create Account & Install Template
+          - title: Contact Form 7 plugin
+            url: /contact-form-7-plugin
+            output: web, pdf
+
+          - title: Gravity Forms plugin
+            url: /gravity-forms-plugin
+            output: web, pdf
+
+          - title: Magento 2 webhook extension
+            url: /magento-2-webhook-extension
+            output: web, pdf            
+            
+      - title: Cyclr API examples
+        output: web, pdf
+        folderitems:
+          - title: Create account, install template, and run a cycle
             url: /create-account-and-install-template
             output: web, pdf
