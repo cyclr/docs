@@ -172,7 +172,7 @@ entries:
             url: /template-export-import
             output: web, pdf                         
 
-     - title: Embed integrations into an app
+      - title: Embed integrations into an app
         output: web, pdf
         folderitems:
           - title: Embedding introduction
