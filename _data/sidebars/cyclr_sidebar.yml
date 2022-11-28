@@ -172,7 +172,7 @@ entries:
             url: /template-export-import
             output: web, pdf                         
 
-      - title: Embed integrations into an app
+      - title: Embed cycles into an app
         output: web, pdf
         folderitems:
           - title: Embedding introduction
@@ -425,7 +425,7 @@ entries:
             url: /cyclr-tools
             output: web, pdf                
 
-      - title: Connector Guides
+      - title: Application connector guides
         output: web, pdf
         folderitems:
           - title: 3DCart

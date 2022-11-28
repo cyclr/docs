@@ -10,16 +10,20 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
 <div class="row">
   <div class="filter-options">
     <button class="btn btn-primary" data-group="all">All</button>
-    <button class="btn btn-primary" data-group="managing-cyclr">Managing Cyclr</button>
-    <button class="btn btn-primary" data-group="templates">Templates</button>
-    <button class="btn btn-primary" data-group="embedding">Embedding Cyclr</button>
-    <button class="btn btn-primary" data-group="installing">Installing Template Integrations</button>
-    <button class="btn btn-primary" data-group="connector-creation">Custom Connector Creation</button>
+    <button class="btn btn-primary" data-group="managing-cyclr">Cyclr</button>
+    <button class="btn btn-primary" data-group="cyclr-config">Cyclr console configuration</button>
+    <button class="btn btn-primary" data-group="api">API</button>
+    <button class="btn btn-primary" data-group="accounts">Accounts</button>        
+    <button class="btn btn-primary" data-group="templates">Create cycle templates</button>
+    <button class="btn btn-primary" data-group="embedding">Embed cycles into an app</button>
     <button class="btn btn-primary" data-group="marketplaces">Marketplaces</button>
-    <button class="btn btn-primary" data-group="launch">LAUNCH</button>
-    <button class="btn btn-primary" data-group="plugins">Plugins</button>
-    <button class="btn btn-primary" data-group="utility-connector">Utility Connectors</button>
-    <button class="btn btn-primary" data-group="connector">Connector Guides</button>
+    <button class="btn btn-primary" data-group="launch">LAUNCH</button>    
+    <button class="btn btn-primary" data-group="installing">Add cycles to accounts (API)</button>
+    <button class="btn btn-primary" data-group="connector-creation">Create a custom connector</button>
+    <button class="btn btn-primary" data-group="utility-connector">Utility connectors</button>
+    <button class="btn btn-primary" data-group="connector">Application connector guides</button>
+    <button class="btn btn-primary" data-group="plugins">Application connector plugins</button>
+    <button class="btn btn-primary" data-group="examples">API examples</button>    
   </div>
 </div>
 <div id="grid" class="row">
@@ -28,9 +32,9 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
   <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["managing-cyclr"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Managing Cyclr</div>
+      <div class="panel-heading">Cyclr</div>
       <div class="panel-body">
-        Learn about managing the Cyclr console.
+        Learn about managing and using Cyclr.
         <ul>
           {% for page in site.pages %}
           {% for tag in page.tags %}
@@ -45,12 +49,72 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
 
   </div>
 
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["cyclr-config"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Cyclr console configuration</div>
+      <div class="panel-body">
+        Learn how to configure the Cyclr console for success.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "cyclr-config" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["api"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">API</div>
+      <div class="panel-body">
+        Learn how to connect with and use the Cyclr API.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "api" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["accounts"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Accounts</div>
+      <div class="panel-body">
+        Learn how to create and use accounts.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "accounts" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>  
+
     <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["templates"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Templates</div>
+      <div class="panel-heading">Create cycle templates</div>
       <div class="panel-body">
-        Learn about building Cyclr templates.
+        Learn how to build cycle templates in Cyclr.
         <ul>
           {% for page in site.pages %}
           {% for tag in page.tags %}
@@ -68,9 +132,9 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
   <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["embedding"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Embedding Cyclr</div>
+      <div class="panel-heading">Embed cycles into an app</div>
       <div class="panel-body">
-        A set of guides to introduce you to how to work with and embed Cyclr:
+        Learn different ways you can deploy integrations with your application.
         <ul>
           {% for page in site.pages %}
           {% for tag in page.tags %}
@@ -85,46 +149,7 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
 
   </div>
 
-  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["connector-creation"]'>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">Custom Connector Creation</div>
-      <div class="panel-body">You can build your own connectors inside the Cyclr platform. Learn about connectors'
-        components and build your own.
-        <ul>
-          {% for page in site.pages %}
-          {% for tag in page.tags %}
-          {% if tag == "connector-creation" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["installing"]'>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">Installing Template Integrations</div>
-      <div class="panel-body">Go through the steps to create your own self-service integration UI using our API.
-        <ul>
-          {% for page in site.pages %}
-          {% for tag in page.tags %}
-          {% if tag == "installing" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-
-  </div>
-  
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["marketplaces"]'>
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["marketplaces"]'>
 
     <div class="panel panel-default">
       <div class="panel-heading">Marketplaces</div>
@@ -165,16 +190,15 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
 
   </div>
 
-  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["plugins"]'>
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["installing"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Plugins</div>
-      <div class="panel-body">
-        We have a few plugins available, learn how to use them here.
+      <div class="panel-heading">Add cycles to accounts (API)</div>
+      <div class="panel-body">Learn how to install cycles, from templates, into an account with the Cyclr API.
         <ul>
           {% for page in site.pages %}
           {% for tag in page.tags %}
-          {% if tag == "plugins" %}
+          {% if tag == "installing" %}
           <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
           {% endif %}
           {% endfor %}
@@ -184,13 +208,32 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
     </div>
 
   </div>
-  
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["utility-connector"]'>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["connector-creation"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Utility Connectors</div>
+      <div class="panel-heading">Create a custom connector</div>
+      <div class="panel-body">Learn about connector components and how to build your own connectors with Cyclr.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "connector-creation" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["utility-connector"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Utility connectors</div>
       <div class="panel-body">
-        Cyclr provides certain Utility Connectors to help in the building of integration Cycles.
+        Learn about the utility connectors Cyclr provides to help you build integration cycles.
         <ul>
           {% for page in site.pages %}
           {% for tag in page.tags %}
@@ -208,7 +251,7 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
   <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["connector"]'>
 
     <div class="panel panel-default">
-      <div class="panel-heading">Application Connector Guides</div>
+      <div class="panel-heading">Application connector guides</div>
       <div class="panel-body">
         Find out more about our connectors, including how to setup OAuth with your credentials.
           <ul>
@@ -228,6 +271,45 @@ see the problems this layout poses if you're including it in PDF. {{site.data.al
   <!-- sizer -->
   <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>
 
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["plugins"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Application connector plugins</div>
+      <div class="panel-body">
+        Some application connectors have plugins.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "plugins" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["examples"]'>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">API examples</div>
+      <div class="panel-body">
+        See the API examples.
+        <ul>
+          {% for page in site.pages %}
+          {% for tag in page.tags %}
+          {% if tag == "plugins" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
 
 </div><!-- /#grid -->
 
