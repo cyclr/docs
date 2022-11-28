@@ -49,7 +49,7 @@ The **List Users** and **Get User** methods can return custom attributes if the'
 1. Go to the **Edit Connector** page for the OneLogin connector.
 2. Under the **Methods & Fields** heading, find and select the **List Users** or **Get User** method.
 3. In the **Request Fields** section, find and select the red plus icon.
-4. For **List User**, set the field location to `[].custom_attributes.attributeName` where `attributeName` is the returned custom attribute.
+4. For **List Users**, set the field location to `[].custom_attributes.attributeName` where `attributeName` is the returned custom attribute.
 5. For **Get User**, instead use the location `custom_attributes.attributeName`.
 6. Give the field an appropriate **Display Name** and **Description**.
 7. Set the **Data Type** to the expected returned data type.
