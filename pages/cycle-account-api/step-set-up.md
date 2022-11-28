@@ -1,5 +1,5 @@
 ---
-title: Step Setup
+title: Set up steps
 sidebar: cyclr_sidebar
 permalink: step-set-up
 tags: [installing]

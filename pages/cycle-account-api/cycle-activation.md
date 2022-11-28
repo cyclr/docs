@@ -1,5 +1,5 @@
 ---
-title: Cycle Activation
+title: Activate a cycle
 sidebar: cyclr_sidebar
 permalink: cycle-activation
 tags: [installing]

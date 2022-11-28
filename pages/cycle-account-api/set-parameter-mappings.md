@@ -1,5 +1,5 @@
 ---
-title: Set Step Parameter
+title: Map parameters
 sidebar: cyclr_sidebar
 permalink: set-step-parameters
 tags: [installing]

@@ -1,5 +1,5 @@
 ---
-title: HTTP Basic Authentication
+title: HTTP basic authentication
 sidebar: cyclr_sidebar
 permalink: basic-authentication
 tags: [installing]

@@ -1,5 +1,5 @@
 ---
-title: OAuth Authentication
+title: OAuth authentication
 sidebar: cyclr_sidebar
 permalink: oauth-authentication
 tags: [installing]

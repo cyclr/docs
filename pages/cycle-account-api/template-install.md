@@ -1,5 +1,5 @@
 ---
-title: Template installation in Cyclr
+title: Cycle introduction
 sidebar: cyclr_sidebar
 permalink: template-install
 tags: [installing]

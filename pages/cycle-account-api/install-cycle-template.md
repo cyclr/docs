@@ -1,24 +1,11 @@
 ---
-title: Install a template
+title: Install a cycle
 sidebar: cyclr_sidebar
 permalink: install-from-template
 tags: [installing]
 ---
 
 A Cycle is an instance of a template you install within an account.
-
-To add a new cycle into your account based on an available template, install the template. There are two ways to install a template from your template library directly into an account:
-
-* Use the console interface.
-* Make a request through the Cyclr API.
-
-## Install a template in the console
-
-To install a template through the Cyclr interface:
-
-1. Open your account.
-2. Select **Templates**.
-3. Search for the template you want to install and select **USE TEMPLATE**.
 
 ## Install a template with the Cyclr API
 

@@ -1,5 +1,5 @@
 ---
-title: Create Account
+title: Create an account
 sidebar: cyclr_sidebar
 permalink: create-account
 tags: [installing]

@@ -1,5 +1,5 @@
 ---
-title: List Available Templates
+title: Get list of available templates
 sidebar: cyclr_sidebar
 permalink: list-available-templates
 tags: [installing]

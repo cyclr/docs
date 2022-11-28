@@ -1,5 +1,5 @@
 ---
-title: Static Value Field Mapping
+title: Map fields with static values
 sidebar: cyclr_sidebar
 permalink: static-value-mapping
 tags: [installing]

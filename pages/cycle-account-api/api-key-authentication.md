@@ -1,5 +1,5 @@
 ---
-title: API Key Authentication
+title: API key authentication
 sidebar: cyclr_sidebar
 permalink: api-key-authentication
 tags: [installing]

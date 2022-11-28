@@ -1,5 +1,5 @@
 ---
-title: Set Step Field Mapping
+title: Map fields
 sidebar: cyclr_sidebar
 permalink: set-step-field-mapping
 tags: [installing]

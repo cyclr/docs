@@ -32,25 +32,6 @@ entries:
             url: /release-notes
             output: web, pdf
 
-      - title: API
-        output: web, pdf
-        folderitems:
-          - title: Access the Cyclr API
-            url: /console-api
-            output: web, pdf
-
-          - title: Cyclr IP allowlist
-            url: /cyclr-ip-allowlist
-            output: web, pdf
-
-          - title: API authentication
-            url: /cyclr-api-authentication
-            output: web, pdf
-
-          - title: Test Cyclr APIs
-            url: /testing-cyclr-api
-            output: web, pdf
-
       - title: Cyclr console configuration
         output: web, pdf
         folderitems:
@@ -82,9 +63,32 @@ entries:
             url: /transaction-error-webhook
             output: web, pdf 
 
+      - title: API
+        output: web, pdf
+        folderitems:
+          - title: Access the Cyclr API
+            url: /console-api
+            output: web, pdf
+
+          - title: Cyclr IP allowlist
+            url: /cyclr-ip-allowlist
+            output: web, pdf
+
+          - title: API authentication
+            url: /cyclr-api-authentication
+            output: web, pdf
+
+          - title: Test Cyclr APIs
+            url: /testing-cyclr-api
+            output: web, pdf            
+
       - title: Accounts
         output: web, pdf
-        subfolders: 
+        subfolders:
+          - title: Set up an account via API
+            url: /overview-new-account
+            output: web, pdf
+
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
@@ -116,7 +120,11 @@ entries:
 
           - title: Install connectors
             url: /installing-connectors
-            output: web, pdf            
+            output: web, pdf
+
+          - title: Authenticate account connector
+            url: /authenticate-account-connector
+            output: web, pdf                 
 
           - title: Template creation
             output: web, pdf
@@ -168,102 +176,140 @@ entries:
             url: /template-export-import
             output: web, pdf                         
 
-     - title: Embedding Cyclr
+     - title: Embed integrations into an app
         output: web, pdf
         folderitems:
-          - title: Quick Overview
+          - title: Embedding introduction
             url: /embedding-overview
             output: web, pdf
+
+          - title: API Endpoints
+            url: /cyclr-api-endpoints
+            output: web, pdf
+
+          - title: Install a partner connector
+            url: /partner-connector
+            output: web, pdf
+
+          - title: LAUNCH
+            output: web, pdf
+            subfolderitems:
+              - title: LAUNCH introduction
+                url: /launch-overview
+                output: web, pdf
+
+              - title: Build compatible templates
+                url: /building-integration-templates-launch
+                output: web, pdf                
+
+              - title: User experience
+                url: /launch-user-experience
+                output: web, pdf
+
+              - title: Handle LAUNCH callbacks
+                url: /handling-callback
+                output: web, pdf
+
+              - title: Customize appearance
+                url: /customising-launch
+                output: web, pdf                
+
+              - title: Deploy LAUNCH
+                url: /launch-deployment
+                output: web, pdf
+
+              - title: ORBIT
+                url: /orbit
+                output: web, pdf
+
+          - title: Marketplace
+            output: web, pdf
+            subfolderitems:
+              - title: Deploy Marketplace
+                url: /marketplace-deployment
+                output: web, pdf
+
+              - title: Handle Marketplace callbacks
+                url: /marketplace-handling-callback
+                output: web, pdf
+
+              - title: Marketplace webhook callbacks
+                url: /marketplace-webhook-callback
+                output: web, pdf
 
           - title: Embed Cyclr in an iframe
             url: /iframe-embedding
             output: web, pdf
 
-
-          - title: Install a Template
-            url: /install-a-template
-            output: web, pdf
-
-
-          - title: API Endpoints
-            url: /cyclr-api-endpoints
-            output: web, pdf            
-
-
-      - title: Installing Template Integrations
+      - title: Add cycles to accounts (API)
         output: web, pdf
         folderitems:
-          - title: Overview
-            url: /overview-new-account
-            output: web, pdf
+          - title: Cycle introduction
+            url: /template-install
+            output: web, pdf  
 
-          - title: Obtain Authorization Token
-            url: /obtain-authorization-token
-            output: web, pdf
-
-          - title: Create an Account
+          - title: Create an account
             url: /create-account
             output: web, pdf
 
-          - title: Get List Available Templates
-            url: /list-available-templates
+          - title: Install cycle from template
             output: web, pdf
+            subfolderitems:
+              - title: Get list of available templates
+                url: /list-available-templates
+                output: web, pdf
 
-          - title: Template installation in Cyclr
-            url: /template-install
-            output: web, pdf  
-    
-          - title: Install a template
-            url: /install-from-template
+              - title: Install a cycle
+                url: /install-from-template
+                output: web, pdf
+
+          - title: Authentication
             output: web, pdf
+            subfolderitems:
+              - title: API key authentication
+                url: /api-key-authentication
+                output: web, pdf
 
-          - title: Get Cycle Prerequisites
+              - title: HTTP basic authentication
+                url: /basic-authentication
+                output: web, pdf
+
+              - title: OAuth authentication
+                url: /oauth-authentication
+                output: web, pdf
+
+          - title: Get cycle prerequisites
             url: /get-cycle-prerequisites
             output: web, pdf
 
-          - title: Account Connector
-            url: /authenticate-account-connector
+          - title: Step setup
             output: web, pdf
+            subfolderitems:
+              - title: Set up steps
+                url: /step-set-up
+                output: web, pdf
 
-          - title: API Key
-            url: /api-key-authentication
-            output: web, pdf
+              - title: Map parameters
+                url: /set-step-parameters
+                output: web, pdf
 
-          - title: HTTP Basic
-            url: /basic-authentication
-            output: web, pdf
+              - title: Map fields
+                url: /set-step-field-mapping
+                output: web, pdf
 
-          - title: OAuth
-            url: /oauth-authentication
-            output: web, pdf
+              - title: Map fields with static values
+                url: /static-value-mapping
+                output: web, pdf
 
-          - title: Step Set Up
-            url: /step-set-up
-            output: web, pdf
+              - title: Map fields with step data
+                url: /field-mapping-with-step-data
+                output: web, pdf
 
-          - title: Set Parameter Mappings
-            url: /set-step-parameters
-            output: web, pdf
+              - title: Map fields from list of values
+                url: /value-list-mapping
+                output: web, pdf
 
-          - title: Set Field Mappings
-            url: /set-step-field-mapping
-            output: web, pdf
-
-          - title: Static Value Field Mapping
-            url: /static-value-mapping
-            output: web, pdf
-
-          - title: Field Mapping with Step Data
-            url: /field-mapping-with-step-data
-            output: web, pdf
-
-          - title: Value List Mapping
-            url: /value-list-mapping
-            output: web, pdf
-
-
-
-          - title: Cycle Activation
+          - title: Activate a cycle
             url: /cycle-activation
             output: web, pdf
 
@@ -330,55 +376,9 @@ entries:
             url: /enhanced-objects
             output: web, pdf
 
-      - title: Marketplaces
-        output: web, pdf
-        folderitems:
-          - title: Deploying a Marketplace
-            url: /marketplace-deployment
-            output: web, pdf
 
-          - title: Handling Callback
-            url: /marketplace-handling-callback
-            output: web, pdf
 
-          - title: Webhook Callback
-            url: /marketplace-webhook-callback
-            output: web, pdf
 
-      - title: LAUNCH
-        output: web, pdf
-        folderitems:
-          - title: Overview
-            url: /launch-overview
-            output: web, pdf
-
-          - title: Install a partner connector
-            url: /partner-connector
-            output: web, pdf
-
-          - title: Building Integration Templates
-            url: /building-integration-templates-launch
-            output: web, pdf
-            
-          - title: User Experience
-            url: /launch-user-experience
-            output: web, pdf
-
-          - title: Deploying LAUNCH
-            url: /launch-deployment
-            output: web, pdf
-
-          - title: Handling Callback
-            url: /handling-callback
-            output: web, pdf
-
-          - title: Customising the appearance of LAUNCH
-            url: /customising-launch
-            output: web, pdf
-
-          - title: ORBIT
-            url: /orbit
-            output: web, pdf
 
       - title: Plugins
         output: web, pdf

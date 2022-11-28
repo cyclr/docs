@@ -1,5 +1,5 @@
 ---
-title: Get Cycle Prerequisites
+title: Get cycle prerequisites
 sidebar: cyclr_sidebar
 permalink: get-cycle-prerequisites
 tags: [installing]
