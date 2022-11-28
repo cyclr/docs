@@ -84,11 +84,7 @@ entries:
 
       - title: Accounts
         output: web, pdf
-        subfolders:
-          - title: Set up an account via API
-            url: /overview-new-account
-            output: web, pdf
-
+        folderitems:
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
@@ -113,7 +109,7 @@ entries:
 
       - title: Create cycle templates
         output: web, pdf
-        subfolders: 
+        folderitems: 
           - title: Template introduction
             url: /template-basics
             output: web, pdf
@@ -141,7 +137,7 @@ entries:
                 url: /field-mapping
                 output: web, pdf
 
-               - title: Add custom fields
+              - title: Add custom fields
                 url: /adding-custom-fields
                 output: web, pdf
 
@@ -375,10 +371,6 @@ entries:
           - title: Enhanced Objects
             url: /enhanced-objects
             output: web, pdf
-
-
-
-
 
       - title: Plugins
         output: web, pdf
