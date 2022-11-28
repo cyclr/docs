@@ -1,5 +1,5 @@
 ---
-title: Handling Launch Callback
+title: Handle LAUNCH callbacks
 sidebar: cyclr_sidebar
 permalink: handling-callback
 tags: [launch]

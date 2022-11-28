@@ -1,5 +1,5 @@
 ---
-title: Embedding Cyclr Overview
+title: Embedding introduction
 sidebar: cyclr_sidebar
 permalink: embedding-overview
 tags: [embedding]

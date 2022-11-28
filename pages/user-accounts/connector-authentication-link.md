@@ -1,8 +1,8 @@
 ---
-title: Connector Authentication Link
+title: Connector authentication link
 sidebar: cyclr_sidebar
 permalink: connector-authentication-link
-tags: [managing-cyclr]
+tags: [accounts]
 ---
 
 If you require one of your clients to authenticate an Account Connector, but they don't have access to Cyclr and don't wish to share their credentials with you, you can generate a **Connector Authentication Link**.

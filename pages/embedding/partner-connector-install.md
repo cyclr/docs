@@ -1,5 +1,5 @@
 ---
-title: Install a Partner Connector
+title: Install a partner connector
 sidebar: cyclr_sidebar
 permalink: partner-connector
 tags: [launch, marketplace, guide]

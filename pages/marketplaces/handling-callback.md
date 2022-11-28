@@ -1,5 +1,5 @@
 ---
-title: Handling Marketplace Callback
+title: Handle Marketplace callbacks
 sidebar: cyclr_sidebar
 permalink: marketplace-handling-callback
 tags: [marketplaces]

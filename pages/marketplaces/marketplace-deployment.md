@@ -1,5 +1,5 @@
 ---
-title: Marketplace Deployment
+title: Deploy Marketplace
 sidebar: cyclr_sidebar
 permalink: marketplace-deployment
 tags: [marketplaces]

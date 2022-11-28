@@ -1,5 +1,5 @@
 ---
-title: Marketplace Webhook Callback
+title: Marketplace webhook callbacks
 sidebar: cyclr_sidebar
 permalink: marketplace-webhook-callback
 tags: [marketplaces]
