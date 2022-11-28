@@ -35,7 +35,7 @@ The **Create App** method accepts a wide range of possible request parameters be
 4. Copy the returned JSON script under **Return Value**.
 5. Under the **Methods & Fields** heading, find and select the **Create App** method.
 6. In the **Request Fields** section, find and select the red magnifying glass icon.
-7. Paste the copied JSON into the **Sample Data** box.
+7. Paste the copied JSON script into the **Sample Data** box.
 8. Select **Generate**.
 
 This process maps the possible request fields so they're ready to use when you create a new application.
