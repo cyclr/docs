@@ -88,24 +88,24 @@ entries:
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
-
-          - title: Connector installation
-            output: web, pdf
-            subfolderitems:
-              - title: Install connectors into an account
-                url: /install-a-connector
+            subfolders:
+              - title: Connector installation
                 output: web, pdf
+                subfolderitems:
+                  - title: Install connectors into an account
+                    url: /install-a-connector
+                    output: web, pdf
 
-              - title: Connector authentication link
-                url: /connector-authentication-link
+                  - title: Connector authentication link
+                    url: /connector-authentication-link
+                    output: web, pdf
+
+              - title: Cyclr as a proxy server
                 output: web, pdf
-
-          - title: Cyclr as a proxy server
-            output: web, pdf
-            subfolderitems:
-              - title: Call a connector method
-                url: /call-a-connector-method
-                output: web, pdf              
+                subfolderitems:
+                  - title: Call a connector method
+                    url: /call-a-connector-method
+                    output: web, pdf              
 
       - title: Create cycle templates
         output: web, pdf
@@ -121,48 +121,48 @@ entries:
           - title: Authenticate account connector
             url: /authenticate-account-connector
             output: web, pdf                 
-
-          - title: Template creation
-            output: web, pdf
-            subfolderitems: 
-              - title: Build templates
-                url: /building-a-template
+            subfolders:
+              - title: Template creation
                 output: web, pdf
+                subfolderitems: 
+                  - title: Build templates
+                    url: /building-a-template
+                    output: web, pdf
 
-              - title: Logic tools
-                url: /logic-tools
-                output: web, pdf
+                  - title: Logic tools
+                    url: /logic-tools
+                    output: web, pdf
 
-              - title: Map fields
-                url: /field-mapping
-                output: web, pdf
+                  - title: Map fields
+                    url: /field-mapping
+                    output: web, pdf
 
-              - title: Add custom fields
-                url: /adding-custom-fields
-                output: web, pdf
+                  - title: Add custom fields
+                    url: /adding-custom-fields
+                    output: web, pdf
 
-              - title: Test scripts
-                url: /script-tester
-                output: web, pdf
+                  - title: Test scripts
+                    url: /script-tester
+                    output: web, pdf
 
-              - title: Collection splitting
-                url: /collection-splitting
-                output: web, pdf
+                  - title: Collection splitting
+                    url: /collection-splitting
+                    output: web, pdf
 
-              - title: Pass data between two steps
-                url: /passing-data-between-two-steps
-                output: web, pdf
+                  - title: Pass data between two steps
+                    url: /passing-data-between-two-steps
+                    output: web, pdf
 
-          - title: Test templates
-            output: web, pdf
-            subfolderitems:
-              - title: Test a template
-                url: /testing-a-template
+              - title: Test templates
                 output: web, pdf
+                subfolderitems:
+                  - title: Test a template
+                    url: /testing-a-template
+                    output: web, pdf
 
-              - title: Template versioning
-                url: /integration-template-versioning
-                output: web, pdf
+                  - title: Template versioning
+                    url: /integration-template-versioning
+                    output: web, pdf
 
           - title: Stop a cycle
             url: /stopping-a-cycle
@@ -186,52 +186,52 @@ entries:
           - title: Install a partner connector
             url: /partner-connector
             output: web, pdf
-
-          - title: LAUNCH
-            output: web, pdf
-            subfolderitems:
-              - title: LAUNCH introduction
-                url: /launch-overview
+            subfolders:
+              - title: LAUNCH
                 output: web, pdf
+                subfolderitems:
+                  - title: LAUNCH introduction
+                    url: /launch-overview
+                    output: web, pdf
 
-              - title: Build compatible templates
-                url: /building-integration-templates-launch
-                output: web, pdf                
+                  - title: Build compatible templates
+                    url: /building-integration-templates-launch
+                    output: web, pdf                
 
-              - title: User experience
-                url: /launch-user-experience
+                  - title: User experience
+                    url: /launch-user-experience
+                    output: web, pdf
+
+                  - title: Handle LAUNCH callbacks
+                    url: /handling-callback
+                    output: web, pdf
+
+                  - title: Customize appearance
+                    url: /customising-launch
+                    output: web, pdf                
+
+                  - title: Deploy LAUNCH
+                    url: /launch-deployment
+                    output: web, pdf
+
+                  - title: ORBIT
+                    url: /orbit
+                    output: web, pdf
+
+              - title: Marketplace
                 output: web, pdf
+                subfolderitems:
+                  - title: Deploy Marketplace
+                    url: /marketplace-deployment
+                    output: web, pdf
 
-              - title: Handle LAUNCH callbacks
-                url: /handling-callback
-                output: web, pdf
+                  - title: Handle Marketplace callbacks
+                    url: /marketplace-handling-callback
+                    output: web, pdf
 
-              - title: Customize appearance
-                url: /customising-launch
-                output: web, pdf                
-
-              - title: Deploy LAUNCH
-                url: /launch-deployment
-                output: web, pdf
-
-              - title: ORBIT
-                url: /orbit
-                output: web, pdf
-
-          - title: Marketplace
-            output: web, pdf
-            subfolderitems:
-              - title: Deploy Marketplace
-                url: /marketplace-deployment
-                output: web, pdf
-
-              - title: Handle Marketplace callbacks
-                url: /marketplace-handling-callback
-                output: web, pdf
-
-              - title: Marketplace webhook callbacks
-                url: /marketplace-webhook-callback
-                output: web, pdf
+                  - title: Marketplace webhook callbacks
+                    url: /marketplace-webhook-callback
+                    output: web, pdf
 
           - title: Embed Cyclr in an iframe
             url: /iframe-embedding
@@ -247,63 +247,63 @@ entries:
           - title: Create an account
             url: /create-account
             output: web, pdf
-
-          - title: Install cycle from template
-            output: web, pdf
-            subfolderitems:
-              - title: Get list of available templates
-                url: /list-available-templates
+            subfolders:
+              - title: Install cycle from template
                 output: web, pdf
+                subfolderitems:
+                  - title: Get list of available templates
+                    url: /list-available-templates
+                    output: web, pdf
 
-              - title: Install a cycle
-                url: /install-from-template
-                output: web, pdf
+                  - title: Install a cycle
+                    url: /install-from-template
+                    output: web, pdf
 
-          - title: Authentication
-            output: web, pdf
-            subfolderitems:
-              - title: API key authentication
-                url: /api-key-authentication
+              - title: Authentication
                 output: web, pdf
+                subfolderitems:
+                  - title: API key authentication
+                    url: /api-key-authentication
+                    output: web, pdf
 
-              - title: HTTP basic authentication
-                url: /basic-authentication
-                output: web, pdf
+                  - title: HTTP basic authentication
+                    url: /basic-authentication
+                    output: web, pdf
 
-              - title: OAuth authentication
-                url: /oauth-authentication
-                output: web, pdf
+                  - title: OAuth authentication
+                    url: /oauth-authentication
+                    output: web, pdf
 
           - title: Get cycle prerequisites
             url: /get-cycle-prerequisites
             output: web, pdf
-
-          - title: Step setup
-            output: web, pdf
-            subfolderitems:
-              - title: Set up steps
-                url: /step-set-up
+            subfolders:
+              - title: Step setup
                 output: web, pdf
+                subfolderitems:
+                  - title: Set up steps
+                    url: /step-set-up
+                    output: web, pdf
 
-              - title: Map parameters
-                url: /set-step-parameters
-                output: web, pdf
+                  - title: Map parameters
+                    url: /set-step-parameters
+                    output: web, pdf
 
-              - title: Map fields
-                url: /set-step-field-mapping
-                output: web, pdf
+                  - title: Map fields
+                    url: /set-step-field-mapping
+                    output: web, pdf
 
-              - title: Map fields with static values
-                url: /static-value-mapping
-                output: web, pdf
+                  - title: Map fields with static values
+                    url: /static-value-mapping
+                    output: web, pdf
 
-              - title: Map fields with step data
-                url: /field-mapping-with-step-data
-                output: web, pdf
+                  - title: Map fields with step data
+                    url: /field-mapping-with-step-data
+                    output: web, pdf
 
-              - title: Map fields from list of values
-                url: /value-list-mapping
-                output: web, pdf
+                  - title: Map fields from list of values
+                    url: /value-list-mapping
+                    output: web, pdf
 
           - title: Activate a cycle
             url: /cycle-activation
