@@ -5,6 +5,7 @@ menus:
   mainmenu:
     title: Using Cyclr
     identifier: using-cyclr
+    icon: navtemplates
     toggleonly: true
     weight: 3
 ---

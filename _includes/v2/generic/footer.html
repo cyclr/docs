@@ -4,59 +4,69 @@
 {% else %}
 {% assign containerclass='container '%}
 {% endif %}
-<footer>
-    <div class="{{containerclass}}footer-content d-flex justify-content-between align-items-center">
-        {% for col in footer.columns %}
-        <div id="{{col.name}}" class="footer-links flex-grow-0 flex-shrink-0 flex-lg-grow-1">
-            {% if col.heading %}
-            <h4>{{col.heading}}</h4>
-            {% endif %}
-            <ul class="nav-footer list-unstyled m-0 p-0">
-            {% for item in col.items %}
-                {% if item.type == "heading" %}
-                    <li><h4>{{item.text}}</h4></li>
-                {% elsif item.type == "link" %}
+<hr class="hr" />
+<footer class="text-center text-lg-start">
+    <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+            {% for col in footer.columns %}
+            <div id="{{col.name}}" class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                {% if col.heading %}
+                <h6 class="fw-bold mb-4">{{col.heading}}</h6>
+                {% endif %}
+                <div class="nav-footer m-0 p-0">
+                    {% for item in col.items %}
+                    {% if item.spacing %}
+                    {% capture itemspacing %} {{item.spacing}}{% endcapture %}
+                    {% else %}
+                    {% capture itemspacing %}{% endcapture %}
+                    {% endif %}
+                    {% if item.type == "heading" %}
+                    <p class="{{itemspacing}}"><h6 class="fw-bold mb-4">{{item.text}}</h6></p>
+                    {% elsif item.type == "link" %}
                     {% unless item.active == false %}
                     {% if item.external_url %}
                     {% assign itemclass = item.text | slugify | downcase %}
-                    <li class="li-{{itemclass}}">
-                        <a class="px-0 py-3" href="{{item.external_url}}" target="_blank">{{item.text}}</a>
-                    </li>
+                    <p class="li-{{itemclass}}{{itemspacing}}">
+                        <a href="{{item.external_url}}" target="_blank">{{item.text}}</a>
+                    </p>
                     {% elsif page.url contains item.url %}
-                    <li class="active li-{{itemclass}}">
-                        <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.text}}</a>
-                    </li>
+                    <p class="active li-{{itemclass}}{{itemspacing}}">
+                        <a href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                    </p>
                     {% else %}
-                    <li class="li-{{itemclass}}">
-                        <a class="px-0 py-3" href="{{item.url | remove: "/"}}">{{item.text}}</a>
-                    </li>
+                    <p class="li-{{itemclass}}{{itemspacing}}">
+                        <a href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                    </p>
                     {% endif %}
                     {% endunless %}
-                {% elsif item.type == "logo" %}
-                     <li>
+                    {% elsif item.type == "logo" %}
+                    <p class="{{itemspacing}}">
                         <a href="index" class="d-block text-right">
                             <img class="img-responsive" src="images/{{item.img}}" alt="{{item.text}}">
                         </a>
-                    </li>
-                {% elsif item.type == "text" %}
-                     <li>{{item.text}}</li>
-                {% elsif item.type == "tel" %}
-                     <li><a href="tel:{{item.text}}">{{item.text}}</a></li>
-                {% elsif item.type == "copyright" %}
-                    <li>
-                        <span class="copyright d-block">{{item.text}}</span>
-                    </li>
-                {% elsif item.type == "social" %}
-                    {% for social in item.items %}
-                        <a class="px-1 py-1" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
-                            <i class="fa fa-{{ social.icon }}"></i>
+                    </p>
+                    {% elsif item.type == "text" %}
+                    <p class="{{itemspacing}}">{{item.text}}</p>
+                    {% elsif item.type == "tel" %}
+                    <p><a href="tel:{{item.text}}">{{item.text}}</a></p>
+                    {% elsif item.type == "copyright" %}
+                    <p class="{{itemspacing}}">
+                        <i class="fa fa-copyright"></i><span>{{item.text}}</span>
+                    </p>
+                    {% elsif item.type == "social" %}
+                    <div class="d-flex">
+                        {% for social in item.items %}
+                        <a class="me-4 link-secondary" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
+                            <i class="fa fa-{{ social.icon }} fa-2x"></i>
                         </a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                     {% endfor %}
-                {% endif %}
-            {% endfor %}
-            </ul>
-        </div>
+                </div>
+            </div>
         {% endfor %}
+        </div>
     </div>
 </footer>
 

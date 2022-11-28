@@ -1,7 +1,7 @@
 //
 // (Button) Base styles
 //
-$red: #C63943;
+@import "./variables";
 
 .btn {
     box-shadow: none;
@@ -440,7 +440,7 @@ a {
 
     &.alert-danger {
         color: #A8192B;
-        background-color: rgba(#C63943, 0.2);
+        background-color: rgba($red, 0.2);
         border: 1px solid rgba(#A8192B, 0.4);
     }
 
@@ -1753,4 +1753,41 @@ h3, .c-h3 {
 
 .circle-warning {
     background-color: $amber;
+}
+
+
+/* -------------------------------------------------------------------------------- 
+    Layout
+   -------------------------------------------------------------------------------- */
+
+#main {
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.nav-footer {
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+    }
+}
+
+.post-content {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+#col-toc {
+    @include sticky(90px);
+    ul {
+        @include list-unstyled();
+    }
 }

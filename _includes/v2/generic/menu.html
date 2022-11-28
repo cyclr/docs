@@ -10,18 +10,24 @@
   {% else %}
   {% capture itemclass %}{% endcapture %}
   {% endif %}
+  {% if item.icon %}
+  {% capture itemicon %}<i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
+  {% else %}
+  {% capture itemicon %}{% endcapture %}
+  {% endif %}
   <li class="sidenav-item mb-1{{itemclass}}">
     {% if item.toggleonly %}
     <a class="sidenav-link ripple-surface menu-toggle" title="{{ item.title }}">
-      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
+      {{ itemicon }}</i><span>{{ item.title }}</span>
+    </a>
     {% else %}
       {% if item.externalurl %}
     <a class="sidenav-link ripple-surface" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
-      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
+      {{ itemicon }}<span>{{ item.title }}</span>
     </a>
       {% else %}
     <a class="sidenav-link ripple-surface" href="{{ item.url }}" title="{{ item.title }}">
-      <i class="far fa-smile fa-fw me-3"></i><span>{{ item.title }}</span></a>
+      {{ itemicon }}<span>{{ item.title }}</span>
     </a>
       {% endif %}
     {% endif %}

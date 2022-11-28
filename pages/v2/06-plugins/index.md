@@ -5,6 +5,7 @@ menus:
   mainmenu:
     title: Plugins
     identifier: plugins
+    icon: navsetupguide
     toggleonly: true
     weight: 6
 ---

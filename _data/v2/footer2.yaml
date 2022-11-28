@@ -78,24 +78,29 @@ columns:
         text: UK Office
       - type: tel
         text: +44 (0) 3300 102 525
+        spacing: mb-4
         active: true
       - type: heading
         text: US Office
       - type: tel
         text: +1 (646) 585-2525
+        spacing: mb-4
         active: true
   - name: col4
     items:
       - type: logo
         text: cyclr.com
-        img:  cyclr-logo.png
+        img:  cyclr-logo-white.png
         show_icon: true
         external_url: https://cyclr.com
         active: true
+        spacing: mb-4
       - type: text
         text: White labelled API integration framework for creating & managing in-app SaaS integrations.
+        spacing: mb-4
       - type: copyright
         text: 2022 Cyclr. All rights reserved.
+        spacing: mb-4
       - type: social
         items:
           - icon: facebook

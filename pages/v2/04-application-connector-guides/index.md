@@ -8,6 +8,7 @@ menus:
   mainmenu:
     title: Application Connector Guides
     identifier: application-connector-guides
+    icon: navconnectors
     toggleonly: true
     weight: 4
 ---

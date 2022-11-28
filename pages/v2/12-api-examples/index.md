@@ -5,6 +5,7 @@ menus:
   mainmenu:
     title: API Examples
     identifier: api-examples
+    icon: navreport
     toggleonly: true
     weight: 12
 ---

@@ -5,6 +5,7 @@ menus:
   mainmenu:
     title: API Reference
     identifier: api-reference
+    icon: navapi
     toggleonly: true
     weight: 11
 ---
