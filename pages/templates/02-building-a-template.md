@@ -12,7 +12,7 @@ tags: [templates]
 
 | Property | Option |Description |
 | --- | --- | --- |
-| On Step Error | Ignore (Default), Stop, Retry | The action to take when a step error is encountered. Note: Retry is not possible for the first step in Cycle or when the transaction will send multiple API requests. 1st retry is after 5 minutes, 2nd after 35 minutes, 3rd after 1h35m, 4th after 4h35m, and 5th after 10h35m. |
+| On Step Error | Ignore (Default), Stop, Retry | The action to take when a step error is encountered. 1st retry is after 5 minutes, 2nd after 35 minutes, 3rd after 1h35m, 4th after 4h35m, and 5th after 10h35m. **Note**: You can't Retry the first step in a cycle, or when the transaction sends multiple API requests.|
 | Log Step Requests | On (Default), Off | When this is turned on, your Integration will log the requests as well as the responses in step data.|
 | Collection Splitting | None, Trigger Step (Default), All Steps| Allows lists of data to be split into separate Transactions for either the First Step, or All Steps. Webhook data cannot be split. |
 
