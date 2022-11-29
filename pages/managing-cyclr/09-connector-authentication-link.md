@@ -5,22 +5,17 @@ permalink: connector-authentication-link
 tags: [managing-cyclr]
 ---
 
-If you require one of your clients to authenticate an Account Connector, but they don't have access to Cyclr and don't wish to share their credentials with you, you can generate a **Connector Authentication Link**.
+If you require one of your clients to authenticate an account connector but they don't have access to Cyclr and don't wish to share their credentials with you, you can use a connector authentication link and token.
 
-This is an emailable link that when clicked will go through the authentication and consent screens of a particular Account Connector.
+This is an emailable link and token that allows your client to access Cyclr just to authenticate a particular account connector.
 
-To generate a Connector Authentication Link:
-
-* Go to the Account containing the Connector you wish to authenticate.
-* Open the **Connectors** menu.
-* Click **Edit Connector** next to the Connector to be authenticated.
-* Click **Generate Setup Token**.
-* Tokens generated here will expire after 5 minutes by default.  If you wish, you can set a longer time before expiry here using the date picker.
-* Click Generate.
-* You will be presented with a sign-in token for your user, and a link to a site where they can enter it.
+1.  Go to the account that contains the connector you want to authenticate.
+2.  Open the **Connectors** menu.
+3.  Select **Edit Connector** next to the connector to be authenticated.
+4.  Select **Generate Setup Token**.
+  *  Tokens you generate here expire after 5 minutes by default.  If you want, you can set a longer expiration using the date picker.
+5.  Select **Generate** to see the token and a link to a web page where your user can enter it.
 
 ![Animated Demo](./images/sign-in-token.gif)
 
-> This is a new way of delivering sign-in tokens, and was developed to address issues some users were having with their spam filters/email systems automatically clicking (_and therefore invalidating_) the links.
-
-This token can only be used once, so you may need to go through these steps again if your user startsbut doesn't complete the sign-in process.
+> **Note**: This token can only be used once, so you may need to go through these steps again if your user starts but doesn't complete the authentication.
