@@ -15,7 +15,7 @@ tags: [embedding]
 - Script: Added HMAC-SHA512 to cyclr_sign
 
 ### 14th November 2022
-- API: Can get and set Data Retention values for Accounts
+- API: Added the ability to get and set Data Retention values for accounts
 - Script: script_parameters now accessible in ``before_oauth2_authorise``,``before_oauth2_token``, ``after_oauth2_token``, ``before_oauth2_refresh`` &amp; ``after_oauth2_refresh``
 
 ### 10th October 2022
