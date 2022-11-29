@@ -16,7 +16,7 @@ tags: [embedding]
 
 ### 14th November 2022
 - API: Added the ability to get and set Data Retention values for accounts
-- Script: script_parameters now accessible in ``before_oauth2_authorise``,``before_oauth2_token``, ``after_oauth2_token``, ``before_oauth2_refresh`` &amp; ``after_oauth2_refresh``
+- Script: Made `script_parameters` accessible in ``before_oauth2_authorise``,``before_oauth2_token``, ``after_oauth2_token``, ``before_oauth2_refresh`` &amp; ``after_oauth2_refresh``
 
 ### 10th October 2022
 - API: Included Marketplace tags in the Marketplace notifications.
