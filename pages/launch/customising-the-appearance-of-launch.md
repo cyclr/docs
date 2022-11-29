@@ -1,5 +1,5 @@
 ---
-title: Customising The Appearance of Launch
+title: Customize appearance
 sidebar: cyclr_sidebar
 permalink: customising-launch
 tags: [launch]

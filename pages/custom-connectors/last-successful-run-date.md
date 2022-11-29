@@ -1,8 +1,8 @@
 ---
-title: Last Successful Run Date
+title: Last successful run date
 sidebar: cyclr_sidebar
 permalink: last-successful-run-date
-tags: [lsrd last successful run date]
+tags: [connector-creation]
 
 ---
 

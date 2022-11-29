@@ -1,8 +1,8 @@
 ---
-title: Marketplace Deployment
+title: Deploy Marketplace
 sidebar: cyclr_sidebar
 permalink: marketplace-deployment
-tags: [marketplaces]
+tags: [marketplaces,embedding]
 ---
 
 When integrating with a Cyclr Marketplace you can decide whether all users access it using the same built-in Account-level "API User" (**Account Marketplace** - this is the typical approach), or create separate users for each in the Cyclr Account (**User Marketplace**).

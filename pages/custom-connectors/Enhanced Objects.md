@@ -1,8 +1,8 @@
 ---
-title: Enhanced Objects
+title: Enhanced objects
 sidebar: cyclr_sidebar
 permalink: enhanced-objects
-tags: [connector-creation, enhanced, objects]
+tags: [connector-creation]
 ---
 
 To enable the copying of a category to be used for custom objects, please follow the steps below:

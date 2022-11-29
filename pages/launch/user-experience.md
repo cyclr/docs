@@ -1,5 +1,5 @@
 ---
-title: Launch User Experience
+title: User experience
 sidebar: cyclr_sidebar
 permalink: launch-user-experience
 tags: [launch]

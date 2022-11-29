@@ -1,8 +1,8 @@
 ---
-title: Launch Overview
+title: LAUNCH introduction
 sidebar: cyclr_sidebar
 permalink: launch-overview
-tags: [launch]
+tags: [embedding,launch]
 ---
 
 ![](./images/cyclr-launch-integration-setup.gif)

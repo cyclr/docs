@@ -5,369 +5,375 @@ entries:
     product: Cyclr Docs
     version: 1.0
     folders:
-      - title: Templates
+      - title: Cyclr
         output: web, pdf
         folderitems:
-          - title: Template overview
-            url: /template-basics
+          - title: Types of Cyclr user
+            url: /types-of-cyclr-user
             output: web, pdf
 
-          - title: Installing Connectors
-            url: /installing-connectors
-            output: web, pdf
-
-          - title: Building a Template
-            url: /building-a-template
-            output: web, pdf
-
-          - title: Field Mapping
-            url: /field-mapping
-            output: web, pdf
-
-          - title: Testing a Template
-            url: /testing-a-template
-            output: web, pdf
-
-          - title: Adding Custom Fields
-            url: /adding-custom-fields
-            output: web, pdf
-
-          - title: Logic Tools
-            url: /logic-tools
-            output: web, pdf
-
-          - title: Integration Template Versioning
-            url: /integration-template-versioning
-            output: web, pdf
-            
-          - title: Template Export Import
-            url: /template-export-import
-            output: web, pdf
-
-      - title: Managing Cyclr
-        output: web, pdf
-        folderitems:
-          - title: Minimum Requirements
+          - title: Minimum requirements
             url: /minimum-requirements
             output: web, pdf
 
-          - title: Cyclr Glossary
+          - title: Glossary
             url: /cyclr-glossary
             output: web, pdf
 
-          - title: Cyclr Community site
+          - title: Community site
             url: /community-site
             output: web, pdf
 
-          - title: Console General Settings
+          - title: Legal notices
+            url: /legal-notices
+            output: web, pdf 
+
+          - title: Release notes
+            url: /release-notes
+            output: web, pdf
+
+      - title: Cyclr console configuration
+        output: web, pdf
+        folderitems:
+          - title: Performance tips
+            url: /performance-tips
+            output: web, pdf
+
+          - title: General settings
             url: /console-general-settings
             output: web, pdf
 
-          - title: Console Appearance Settings
+          - title: Appearance settings
             url: /console-appearance-settings
-            output: web, pdf
+            output: web, pdf 
 
-          - title: Console Data Retention Settings
+          - title: Data retention settings
             url: /console-data-retention-settings
-            output: web, pdf
-
-          - title: Accessing the Cyclr API
-            url: /console-api
-            output: web, pdf
-
-          - title: Security Settings
+            output: web, pdf           
+           
+          - title: Security settings
             url: /console-security
             output: web, pdf
 
-          - title: Cyclr IP Allowlist
+          - title: Custom service domains
+            url: /custom-domains
+            output: web, pdf
+
+          - title: Handle transaction errors
+            url: /transaction-error-webhook
+            output: web, pdf 
+
+      - title: API
+        output: web, pdf
+        folderitems:
+          - title: Access the Cyclr API
+            url: /console-api
+            output: web, pdf
+
+          - title: Cyclr IP allowlist
             url: /cyclr-ip-allowlist
             output: web, pdf
 
-          - title: Connector Authentication Link
-            url: /connector-authentication-link
-            output: web, pdf
-        
-          - title: Pass data between two steps
-            url: /passing-data-between-two-steps
-            output: web, pdf
-
-          - title: Collection Splitting
-            url: /collection-splitting
-            output: web, pdf
-
-          - title: Script Tester
-            url: /script-tester
-            output: web, pdf
-
-          - title: Transaction Error Handling
-            url: /transaction-error-webhook
-            output: web, pdf
-            
-          - title: Custom Domains
-            url: /custom-domains
-            output: web, pdf
-            
-          - title: Sub Accounts
-            url: /sub-accounts
-            output: web, pdf
-            
-          - title: Stopping a Cycle
-            url: /stopping-a-cycle
-            output: web, pdf
-            
-          - title: Types of Cyclr User
-            url: /types-of-cyclr-user
-            output: web, pdf
-            
-          - title: Performance Tips
-            url: /performance-tips
-            output: web, pdf
-            
-          - title: Legal Notices
-            url: /legal-notices
-            output: web, pdf            
-
-      - title: Embedding Cyclr
-        output: web, pdf
-        folderitems:
-          - title: Quick Overview
-            url: /embedding-overview
-            output: web, pdf
-
-          - title: Embed Cyclr in an iframe
-            url: /iframe-embedding
-            output: web, pdf
-
-          - title: API
+          - title: API authentication
             url: /cyclr-api-authentication
             output: web, pdf
 
-          - title: Install a connector
-            url: /install-a-connector
+          - title: Test Cyclr APIs
+            url: /testing-cyclr-api
+            output: web, pdf            
+
+      - title: Accounts
+        output: web, pdf
+        folderitems:
+          - title: Sub accounts
+            url: /sub-accounts
+            output: web, pdf
+            subfolders:
+              - title: Connector installation
+                output: web, pdf
+                subfolderitems:
+                  - title: Install connectors into an account
+                    url: /install-a-connector
+                    output: web, pdf
+
+                  - title: Connector authentication link
+                    url: /connector-authentication-link
+                    output: web, pdf
+
+              - title: Cyclr as a proxy server
+                output: web, pdf
+                subfolderitems:
+                  - title: Call a connector method
+                    url: /call-a-connector-method
+                    output: web, pdf              
+
+      - title: Create cycle templates
+        output: web, pdf
+        folderitems: 
+          - title: Template introduction
+            url: /template-basics
             output: web, pdf
 
-          - title: Install a Template
-            url: /install-a-template
+          - title: Install connectors
+            url: /installing-connectors
             output: web, pdf
 
-          - title: Call a Connector Method
-            url: /call-a-connector-method
+          - title: Authenticate account connector
+            url: /authenticate-account-connector
+            output: web, pdf                 
+            subfolders:
+              - title: Template creation
+                output: web, pdf
+                subfolderitems: 
+                  - title: Build templates
+                    url: /building-a-template
+                    output: web, pdf
+
+                  - title: Logic tools
+                    url: /logic-tools
+                    output: web, pdf
+
+                  - title: Map fields
+                    url: /field-mapping
+                    output: web, pdf
+
+                  - title: Add custom fields
+                    url: /adding-custom-fields
+                    output: web, pdf
+
+                  - title: Test scripts
+                    url: /script-tester
+                    output: web, pdf
+
+                  - title: Collection splitting
+                    url: /collection-splitting
+                    output: web, pdf
+
+                  - title: Pass data between two steps
+                    url: /passing-data-between-two-steps
+                    output: web, pdf
+
+              - title: Test templates
+                output: web, pdf
+                subfolderitems:
+                  - title: Test a template
+                    url: /testing-a-template
+                    output: web, pdf
+
+                  - title: Template versioning
+                    url: /integration-template-versioning
+                    output: web, pdf
+
+          - title: Stop a cycle
+            url: /stopping-a-cycle
+            output: web, pdf
+
+          - title: Import or export templates
+            url: /template-export-import
+            output: web, pdf                         
+
+      - title: Embed cycles into an app
+        output: web, pdf
+        folderitems:
+          - title: Embedding introduction
+            url: /embedding-overview
             output: web, pdf
 
           - title: API Endpoints
             url: /cyclr-api-endpoints
             output: web, pdf
 
-          - title: Release Notes
-            url: /release-notes
+          - title: Install a partner connector
+            url: /partner-connector
+            output: web, pdf
+            subfolders:
+              - title: LAUNCH
+                output: web, pdf
+                subfolderitems:
+                  - title: LAUNCH introduction
+                    url: /launch-overview
+                    output: web, pdf
+
+                  - title: Build compatible templates
+                    url: /building-integration-templates-launch
+                    output: web, pdf                
+
+                  - title: User experience
+                    url: /launch-user-experience
+                    output: web, pdf
+
+                  - title: Handle LAUNCH callbacks
+                    url: /handling-callback
+                    output: web, pdf
+
+                  - title: Customize appearance
+                    url: /customising-launch
+                    output: web, pdf                
+
+                  - title: Deploy LAUNCH
+                    url: /launch-deployment
+                    output: web, pdf
+
+                  - title: ORBIT
+                    url: /orbit
+                    output: web, pdf
+
+              - title: Marketplace
+                output: web, pdf
+                subfolderitems:
+                  - title: Deploy Marketplace
+                    url: /marketplace-deployment
+                    output: web, pdf
+
+                  - title: Handle Marketplace callbacks
+                    url: /marketplace-handling-callback
+                    output: web, pdf
+
+                  - title: Marketplace webhook callbacks
+                    url: /marketplace-webhook-callback
+                    output: web, pdf
+
+          - title: Embed Cyclr in an iframe
+            url: /iframe-embedding
             output: web, pdf
 
-      - title: Installing Template Integrations
+      - title: Add cycles to accounts (API)
         output: web, pdf
         folderitems:
-          - title: Overview
-            url: /overview-new-account
-            output: web, pdf
-
-          - title: Obtain Authorization Token
-            url: /obtain-authorization-token
-            output: web, pdf
-
-          - title: Create an Account
-            url: /create-account
-            output: web, pdf
-
-          - title: Get List Available Templates
-            url: /list-available-templates
-            output: web, pdf
-
-          - title: Template installation in Cyclr
+          - title: Cycle introduction
             url: /template-install
             output: web, pdf  
-    
-          - title: Install a template
-            url: /install-from-template
-            output: web, pdf
 
-          - title: Get Cycle Prerequisites
+          - title: Create an account
+            url: /create-account
+            output: web, pdf
+            subfolders:
+              - title: Install cycle from template
+                output: web, pdf
+                subfolderitems:
+                  - title: Get list of available templates
+                    url: /list-available-templates
+                    output: web, pdf
+
+                  - title: Install a cycle
+                    url: /install-from-template
+                    output: web, pdf
+
+              - title: Authentication
+                output: web, pdf
+                subfolderitems:
+                  - title: API key authentication
+                    url: /api-key-authentication
+                    output: web, pdf
+
+                  - title: HTTP basic authentication
+                    url: /basic-authentication
+                    output: web, pdf
+
+                  - title: OAuth authentication
+                    url: /oauth-authentication
+                    output: web, pdf
+
+          - title: Get cycle prerequisites
             url: /get-cycle-prerequisites
             output: web, pdf
+            subfolders:
+              - title: Step setup
+                output: web, pdf
+                subfolderitems:
+                  - title: Set up steps
+                    url: /step-set-up
+                    output: web, pdf
 
-          - title: Account Connector
-            url: /authenticate-account-connector
-            output: web, pdf
+                  - title: Map parameters
+                    url: /set-step-parameters
+                    output: web, pdf
 
-          - title: API Key
-            url: /api-key-authentication
-            output: web, pdf
+                  - title: Map fields
+                    url: /set-step-field-mapping
+                    output: web, pdf
 
-          - title: HTTP Basic
-            url: /basic-authentication
-            output: web, pdf
+                  - title: Map fields with static values
+                    url: /static-value-mapping
+                    output: web, pdf
 
-          - title: OAuth
-            url: /oauth-authentication
-            output: web, pdf
+                  - title: Map fields with step data
+                    url: /field-mapping-with-step-data
+                    output: web, pdf
 
-          - title: Step Set Up
-            url: /step-set-up
-            output: web, pdf
+                  - title: Map fields from list of values
+                    url: /value-list-mapping
+                    output: web, pdf
 
-          - title: Set Parameter Mappings
-            url: /set-step-parameters
-            output: web, pdf
-
-          - title: Set Field Mappings
-            url: /set-step-field-mapping
-            output: web, pdf
-
-          - title: Static Value Field Mapping
-            url: /static-value-mapping
-            output: web, pdf
-
-          - title: Field Mapping with Step Data
-            url: /field-mapping-with-step-data
-            output: web, pdf
-
-          - title: Value List Mapping
-            url: /value-list-mapping
-            output: web, pdf
-
-          - title: Cyclr APIs
-            url: /testing-cyclr-api
-            output: web, pdf
-
-          - title: Cycle Activation
+          - title: Activate a cycle
             url: /cycle-activation
             output: web, pdf
 
-      - title: Connector Creation
+      - title: Create a custom connector
         output: web, pdf
         folderitems:
-          - title: Introduction
+          - title: Custom connector introduction
             url: /connector-introduction
             output: web, pdf
 
           - title: Connector standards
             url: /connector-standards
             output: web, pdf
+            subfolders:
+              - title: Create a connector
+                output: web, pdf
+                subfolderitems:
+                  - title: Settings
+                    url: /connector-settings
+                    output: web, pdf
 
-          - title: Settings
-            url: /connector-settings
-            output: web, pdf
+                  - title: Authentication
+                    url: /connector-authentication
+                    output: web, pdf                       
 
-          - title: Connector Authentication
-            url: /connector-authentication
-            output: web, pdf
+                  - title: Rate limits
+                    url: /connector-rate-limits
+                    output: web, pdf
 
-          - title: Rate Limits
-            url: /connector-rate-limits
-            output: web, pdf
+                  - title: Methods
+                    url: /connector-methods
+                    output: web, pdf
 
-          - title: Methods
-            url: /connector-methods
-            output: web, pdf
+                  - title: Parameters
+                    url: /connector-parameters
+                    output: web, pdf
 
-          - title: Parameters
-            url: /connector-parameters
-            output: web, pdf
+                  - title: Triggers
+                    url: /connector-triggers
+                    output: web, pdf
 
-          - title: Triggers
-            url: /connector-triggers
-            output: web, pdf
+                  - title: Scripting
+                    url: /connector-scripting
+                    output: web, pdf
 
-          - title: Scripting
-            url: /connector-scripting
-            output: web, pdf
+                  - title: Data types
+                    url: /data-types
+                    output: web, pdf
 
-          - title: Paging
-            url: /connector-paging
-            output: web, pdf
-            
-          - title: Last Successful Run Date
-            url: /last-successful-run-date
-            output: web, pdf
+                  - title: Last successful run date
+                    url: /last-successful-run-date
+                    output: web, pdf                               
 
-          - title: Auto Installing Webhooks
-            url: /auto-installing-webhooks
-            output: web, pdf
+                  - title: Paging
+                    url: /connector-paging
+                    output: web, pdf
+                    
+                  - title: Enhanced objects
+                    url: /enhanced-objects
+                    output: web, pdf
 
-          - title: Custom Fields
-            url: /dynamic-custom-fields
-            output: web, pdf
-         
-          - title: Data Types
-            url: /data-types
-            output: web, pdf
-            
-          - title: Enhanced Objects
-            url: /enhanced-objects
-            output: web, pdf
+                  - title: Dynamic custom fields
+                    url: /dynamic-custom-fields
+                    output: web, pdf                
 
-      - title: Marketplaces
-        output: web, pdf
-        folderitems:
-          - title: Deploying a Marketplace
-            url: /marketplace-deployment
-            output: web, pdf
-
-          - title: Handling Callback
-            url: /marketplace-handling-callback
-            output: web, pdf
-
-          - title: Webhook Callback
-            url: /marketplace-webhook-callback
-            output: web, pdf
-
-      - title: LAUNCH
-        output: web, pdf
-        folderitems:
-          - title: Overview
-            url: /launch-overview
-            output: web, pdf
-
-          - title: Install a partner connector
-            url: /partner-connector
-            output: web, pdf
-
-          - title: Building Integration Templates
-            url: /building-integration-templates-launch
-            output: web, pdf
-            
-          - title: User Experience
-            url: /launch-user-experience
-            output: web, pdf
-
-          - title: Deploying LAUNCH
-            url: /launch-deployment
-            output: web, pdf
-
-          - title: Handling Callback
-            url: /handling-callback
-            output: web, pdf
-
-          - title: Customising the appearance of LAUNCH
-            url: /customising-launch
-            output: web, pdf
-
-          - title: ORBIT
-            url: /orbit
-            output: web, pdf
-
-      - title: Plugins
-        output: web, pdf
-        folderitems:
-          - title: Contact Form 7 Plugin
-            url: /contact-form-7-plugin
-            output: web, pdf
-
-          - title: Gravity Forms Plugin
-            url: /gravity-forms-plugin
-            output: web, pdf
-
-          - title: Magento 2 Webhook Extension
-            url: /magento-2-webhook-extension
-            output: web, pdf
+                  - title: Automatically install webhooks
+                    url: /auto-installing-webhooks
+                    output: web, pdf
 
       - title: Utility Connectors
         output: web, pdf
@@ -379,21 +385,24 @@ entries:
           - title: Entity Cross Reference
             url: /entity-cross-reference-connector
             output: web, pdf
+            subfolders:
+              - title: Data storage
+                output: web, pdf
+                subfolderitems:
+                  - title: Data storage usage
+                    url: /data-storage-usage
+                    output: web, pdf
 
-          - title: Data Storage Usage
-            url: /data-storage-usage
-            output: web, pdf
+                  - title: Cycle Data Storage
+                    url: /cycle-data-storage
+                    output: web, pdf
 
-          - title: Cycle Data Storage
-            url: /cycle-data-storage
-            output: web, pdf
+                  - title: Global Data Storage
+                    url: /global-data-storage
+                    output: web, pdf                    
 
           - title: Cycle Object Storage
             url: /cycle-object-storage
-            output: web, pdf
-
-          - title: Global Data Storage
-            url: /global-data-storage
             output: web, pdf
 
           - title: Global Object Storage
@@ -414,9 +423,9 @@ entries:
 
           - title: Cyclr Tools
             url: /cyclr-tools
-            output: web, pdf
+            output: web, pdf                
 
-      - title: Connector Guides
+      - title: Application connector guides
         output: web, pdf
         folderitems:
           - title: 3DCart
@@ -1634,10 +1643,25 @@ entries:
           - title: Zoom
             url: /zoom-connector
             output: web, pdf
-            
-      - title: Cyclr API Examples
+
+      - title: Application connector plugins
         output: web, pdf
         folderitems:
-          - title: Create Account & Install Template
+          - title: Contact Form 7 plugin
+            url: /contact-form-7-plugin
+            output: web, pdf
+
+          - title: Gravity Forms plugin
+            url: /gravity-forms-plugin
+            output: web, pdf
+
+          - title: Magento 2 webhook extension
+            url: /magento-2-webhook-extension
+            output: web, pdf            
+            
+      - title: Cyclr API examples
+        output: web, pdf
+        folderitems:
+          - title: Create account, install template, and run a cycle
             url: /create-account-and-install-template
             output: web, pdf

@@ -1,8 +1,8 @@
 ---
-title: Building Integration Templates
+title: Build compatible templates
 sidebar: cyclr_sidebar
 permalink: building-integration-templates-launch
-tags: [templates]
+tags: [launch]
 
 ---
 

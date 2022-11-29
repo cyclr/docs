@@ -1,5 +1,5 @@
 ---
-title: Data Storage Usage
+title: Data storage usage
 sidebar: cyclr_sidebar
 permalink: data-storage-usage
 tags: [utility-connector]

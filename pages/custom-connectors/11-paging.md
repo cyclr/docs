@@ -1,5 +1,5 @@
 ---
-title: Connector Paging
+title: Paging
 sidebar: cyclr_sidebar
 permalink: connector-paging
 tags: [connector-creation]

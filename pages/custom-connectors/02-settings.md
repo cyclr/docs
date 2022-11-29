@@ -1,5 +1,5 @@
 ---
-title: Connector Settings
+title: Settings
 sidebar: cyclr_sidebar
 permalink: connector-settings
 tags: [connector-creation]

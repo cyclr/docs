@@ -1,8 +1,8 @@
 ---
-title: Create an Account and Install/Setup/Run a Template
+title: Create account, install template, and run a cycle
 sidebar: cyclr_sidebar
 permalink: create-account-and-install-template
-tags: [Create an Account and Install a Template]
+tags: [examples]
 ---
 
 This document describes how to approach the following use case via API calls 

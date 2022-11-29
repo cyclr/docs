@@ -1,5 +1,5 @@
 ---
-title: Dynamic Custom Fields
+title: Dynamic custom fields
 sidebar: cyclr_sidebar
 permalink: dynamic-custom-fields
 tags: [connector-creation]

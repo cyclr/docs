@@ -1,5 +1,5 @@
 ---
-title: API Endpoints
+title: API endpoints
 sidebar: cyclr_sidebar
 permalink: cyclr-api-endpoints
 tags: [embedding]

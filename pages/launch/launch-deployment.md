@@ -1,5 +1,5 @@
 ---
-title: LAUNCH Deployment
+title: Deploy LAUNCH
 sidebar: cyclr_sidebar
 permalink: launch-deployment
 tags: [launch]

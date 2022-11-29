@@ -1,8 +1,9 @@
 ---
-title: Data Types
+title: Data types
 sidebar: cyclr_sidebar
 permalink: data-types
 keywords: [datatypes,data,type,types]
+tags: [connector-creation]
 ---
 
 The following is a guide to the Data Types available at Request/Response body level, and those available when defining Connector Fields.

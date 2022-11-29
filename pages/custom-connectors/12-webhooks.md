@@ -1,8 +1,8 @@
 ---
-title: Auto Installing Webhooks
+title: Automatically install webhooks
 sidebar: cyclr_sidebar
 permalink: auto-installing-webhooks
-tags: [connector-creation, webhooks]
+tags: [connector-creation]
 ---
 ## Automatically Installing Webhooks via API Calls
 
