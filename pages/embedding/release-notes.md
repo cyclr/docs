@@ -7,6 +7,20 @@ tags: [embedding]
 
 ## 2022
 
+### 28th November 2022
+- Performance: Improved Cycle execution performance for Cycles with lots of decision steps
+
+### 21st November 2022
+- Performance: Reduced latency for synchronous webhooks
+- Script: Added HMAC-SHA512 to cyclr_sign
+
+### 14th November 2022
+- API: Added the ability to get and set Data Retention values for accounts
+- Script: Made `script_parameters` accessible in ``before_oauth2_authorise``,``before_oauth2_token``, ``after_oauth2_token``, ``before_oauth2_refresh`` &amp; ``after_oauth2_refresh``
+
+### 10th October 2022
+- API: Included Marketplace tags in the Marketplace notifications.
+
 ### 26th September 2022
 - Recycle Bin: Delete all option
 - Templates: Copying a template release, can pick a folder to copy into
