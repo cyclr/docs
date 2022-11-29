@@ -19,7 +19,7 @@ tags: [embedding]
 - Script: script_parameters now accessible in ``before_oauth2_authorise``,``before_oauth2_token``, ``after_oauth2_token``, ``before_oauth2_refresh`` &amp; ``after_oauth2_refresh``
 
 ### 10th October 2022
-- API: Marketplace Noticiations now include Marketplace tags
+- API: Included Marketplace tags in the Marketplace notifications.
 
 ### 26th September 2022
 - Recycle Bin: Delete all option
