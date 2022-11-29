@@ -1,7 +1,5 @@
-import { Sidenav } from './mdb/modules/sidenav.min.js';
-
 const sidenav = document.getElementById("sidebarMenu");
-const sidenavInstance = Sidenav.getInstance(sidenav);
+const sidenavInstance = mdb.Sidenav.getInstance(sidenav);
 
 let innerWidth = null;
 

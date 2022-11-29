@@ -1,42 +1,47 @@
 {% if menu %}
-{% if menuid %}
-<ul id="{{menuid}}" class="sidenav-menu ps menulevel-{{menulevel}}">
-{% else %}
-<ul class="sidenav-collapse">
-{% endif %}
-{% for item in menu %}
-  {% if page.url == item.url %}
-  {% capture itemclass %} active{% endcapture %}
-  {% else %}
-  {% capture itemclass %}{% endcapture %}
-  {% endif %}
-  {% if item.icon %}
-  {% capture itemicon %}<i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
-  {% else %}
-  {% capture itemicon %}{% endcapture %}
-  {% endif %}
-  <li class="sidenav-item mb-1{{itemclass}}">
-    {% if item.toggleonly %}
-    <a class="sidenav-link ripple-surface menu-toggle" title="{{ item.title }}">
-      {{ itemicon }}</i><span>{{ item.title }}</span>
-    </a>
+<ul id="{{menuid}}" class="{{menuclass}}">
+    {% for item in menu %}
+    {% if page.url == item.url %}
+    {% capture currentpageclass %} current-page{% endcapture %}
     {% else %}
-      {% if item.externalurl %}
-    <a class="sidenav-link ripple-surface" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
-      {{ itemicon }}<span>{{ item.title }}</span>
-    </a>
-      {% else %}
-    <a class="sidenav-link ripple-surface" href="{{ item.url }}" title="{{ item.title }}">
-      {{ itemicon }}<span>{{ item.title }}</span>
-    </a>
-      {% endif %}
+    {% capture currentpageclass %}{% endcapture %}
+    {% endif %}
+    {% if item.icon %}
+    {% capture itemicon %}
+    <i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
+    {% else %}
+    {% capture itemicon %}{% endcapture %}
     {% endif %}
     {% if item.children %}
-      {% assign menu = item.children %}
-      {% assign menuid = false %}
-      {% include v2/generic/menu.html %}
+    {% capture itemclass %} sidenav-link-parent{% endcapture %}
+    {% else %}
+    {% capture itemclass %}{% endcapture %}
     {% endif %}
-  </li>
-{% endfor %}
+
+    <li class="sidenav-item{{itemclass}}">
+        {% if item.children %}
+        <a class="sidenav-link" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
+            {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        {% else %}
+        {% if item.externalurl %}
+        <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
+            {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        {% else %}
+        <a class="sidenav-link{{currentpageclass}}" href="{{ item.url }}" title="{{ item.title }}">
+            {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        {% endif %}
+        {% endif %}
+        {% if item.children %}
+        {% assign menu = item.children %}
+        {% assign submenuid = item.title | slugify | downcase %}
+        {% assign menuid = item.title | slugify | downcase %}
+        {% assign menuclass = "sidenav-collapse" %}
+        {% include v2/generic/menu.html %}
+        {% endif %}
+    </li>
+    {% endfor %}
 </ul>
 {% endif %}

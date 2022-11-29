@@ -10,81 +10,77 @@
                 <img alt="Cyclr Docs" src="images/cyclr-logo.png" style="max-height:30px;">
             </a>
         </div>
-        <div class="d-flex">
-            <div class="collapse navbar-collapse flex-grow-1 d-flex" id="bs-example-navbar-collapse-1">
-                {% if page.layout == 'homepage' %}
-                <ul class="nav navbar-nav m-0 p-0 flex-grow-1 d-flex align-items-center justify-content-end">
-                {% else %}
-                <ul class="nav navbar-nav m-0 p-0 flex-grow-1 d-flex align-items-center">
-                {% endif %}
-                    {% unless page.hide_search %}
-                    <li class="nav-item-search flex-grow-1">
-                        {% include /v2/generic/search.html %}
-                    </li>
-                    {% endunless %}
-
-                    {% assign topnav = site.data[page.topnav] %}
-                    {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
-
-                    {% for entry in topnav.topnav %}
-                        {% for item in entry.items %}
-                            {% if item.active == true %}
-                                {% if item.external_url %}
-                                {% assign itemclass = item.title | slugify | downcase %}
-                                <li class="nav-item-{{itemclass}}"><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
-                                {% elsif page.url contains item.url %}
-                                <li class="active nav-item-{{itemclass}}"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                                {% else %}
-                                <li class="nav-item-{{itemclass}}"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                    <!-- entries with drop-downs appear here -->
-                    <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                    {% for entry in topnav_dropdowns %}
-                        {% for folder in entry.folders %}
-                        {% unless folder.active == false %}
-                        {% assign itemclass = folder.title | slugify | downcase %}
-                    <li class="dropdown nav-item-{{itemclass}}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}</a>
-                        <ul class="dropdown-menu">
-                            {% for folderitem in folder.folderitems %}
-                                {% if folderitem.active == true %}
-                                    {% if folderitem.external_url %}
-                            <li>
-                                <a href="{{folderitem.external_url}}" target="_blank" title="{{folderitem.title}}">
-                                        {% if folderitem.icon %}
-                                    <img src="images/{{ folderitem.icon }}" /> 
-                                        {% endif %}
-                                    {{folderitem.title}}
-                                </a>
-                            </li>
-                                    {% elsif page.url contains folderitem.url %}
-                            <li class="dropdownActive"><a href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
-                                    {% else %}
-                            <li><a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-                                    {% endif %}
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </li>
-                        {% endunless %}
-                        {% endfor %}
-                        }
-                    {% endfor %}
-                    {% unless page.hide_sidebar %}
-                    <!-- toggle sidebar button -->
-                    <li class="nav-item-toggle">
-                        <a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a>
-                    </li>
-                    <!-- entries without drop-downs appear here -->
-                    {% endunless %}
-                    {% if site.feedback_disable == null or site.feedback_disable == false %}
-                    {% include feedback.html %}
-                    {% endif %}
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarTop">
+            {% unless page.hide_search %}
+            <div class="d-flex flex-md-grow-1">
+                {% include /v2/generic/search.html %}
             </div>
+            {% endunless %}
+            {% if page.layout == 'homepage' %}
+            <ul class="nav navbar-nav m-0 p-0 align-items-center justify-space-between">
+            {% else %}
+            <ul class="nav navbar-nav m-0 p-0 align-items-center justify-space-between">
+             {% endif %}
+
+                {% assign topnav = site.data[page.topnav] %}
+                {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
+
+                {% for entry in topnav.topnav %}
+                {% for item in entry.items %}
+                {% if item.active == true %}
+                {% if item.external_url %}
+                {% assign itemclass = item.title | slugify | downcase %}
+                <li class="nav-item"><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
+                {% elsif page.url contains item.url %}
+                <li class="active nav-item"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                {% else %}
+                <li class="nav-item"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                {% for entry in topnav_dropdowns %}
+                {% for folder in entry.folders %}
+                {% unless folder.active == false %}
+                {% assign itemclass = folder.title | slugify | downcase %}
+                <li class="nav-item dropdown">
+                    <a  href="#" 
+                        class="nav-link dropdown-toggle" 
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false">
+                    {{ folder.title }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                        {% for folderitem in folder.folderitems %}
+                        {% if folderitem.external_url %}
+                        <li>
+                            <a class="dropdown-item" href="{{folderitem.external_url}}" target="_blank" title="{{folderitem.title}}">
+                                {% if folderitem.icon %}
+                                <img src="images/{{ folderitem.icon }}" />
+                                {% endif %}
+                                {{folderitem.title}}
+                            </a>
+                        </li>
+                        {% elsif page.url contains folderitem.url %}
+                        <li class="dropdownActive"><a class="dropdown-item" href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
+                        {% else %}
+                        <li><a class="dropdown-item" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endunless %}
+                {% endfor %}
+                }
+                {% endfor %}
+                {% if site.feedback_disable == null or site.feedback_disable == false %}
+                {% include feedback.html %}
+                {% endif %}
+            </ul>
         </div>
     </div>
 </nav>
