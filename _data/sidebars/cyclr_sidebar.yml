@@ -401,13 +401,13 @@ entries:
                     url: /global-data-storage
                     output: web, pdf                    
 
-          - title: Cycle Object Storage
-            url: /cycle-object-storage
-            output: web, pdf
+                  - title: Cycle Object Storage
+                    url: /cycle-object-storage
+                    output: web, pdf
 
-          - title: Global Object Storage
-            url: /global-object-storage
-            output: web, pdf
+                  - title: Global Object Storage
+                    url: /global-object-storage
+                    output: web, pdf
 
           - title: Generic Form
             url: /generic-form
