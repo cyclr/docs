@@ -1,6 +1,10 @@
 ---
 title: Custom UI
 sidebar: cyclr_sidebar
+permalink: custom-ui
+tags: [UI]
+layout: page
+toc: false
 menus:
   mainmenu:
     title: Custom UI
@@ -9,3 +13,5 @@ menus:
     toggleonly: true
     weight: 8
 ---
+{% assign hubdata = site.data.v2.hub.custom-ui %}
+{% include /v2/hub/hubtables.html %}  

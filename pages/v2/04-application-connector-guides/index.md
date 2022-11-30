@@ -1,8 +1,8 @@
 ---
 title: Application Connector Guides
 sidebar: cyclr_sidebar
-tags: [application-connector-guides]
-layout: page
+permalink: application-connector-guides
+tags: [application,connector,guide]
 toc: false
 menus:
   mainmenu:
@@ -12,3 +12,5 @@ menus:
     toggleonly: true
     weight: 4
 ---
+{% assign hubdata = site.data.v2.hub.application-connector-guides %}
+{% include /v2/hub/hubtiles.html %}	

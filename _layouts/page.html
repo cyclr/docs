@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<div class="container">
+<div class="container p-0">
 
     <div class="row align-items-start">
         {% if page.default_header == true %}
         {% unless page.toc == false %}
-        <div id="col-toc" class="col-md-3 order-md-1 sticky">
-            <div class="card">
-                <h4>In this article</h4>
+        <div id="col-toc" class="col-lg-3 order-lg-1 sticky">
+            <div class="card py-4 px-5">
+                <h4 class="pb-3 mb-3 border-bottom border-1">In this article</h4>
                 {% include toc.html %}
             </div>
         </div>
         {% endunless %}
         {% endif %}
 
-        <div class="col-md-9 order-md-0">
+        <div class="col-lg-9 order-lg-0">
             {% if page.default_header == true %}
             {% if page.icon %}
             <div class="post-header mt-4">

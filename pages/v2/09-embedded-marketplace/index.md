@@ -1,6 +1,10 @@
 ---
 title: Embedded Marketplace
 sidebar: cyclr_sidebar
+permalink: embedded-marketplace
+tags: [embedding,marketplace]
+layout: page
+toc: false
 menus:
   mainmenu:
     title: Embedded Marketplace
@@ -9,3 +13,5 @@ menus:
     toggleonly: true
     weight: 9
 ---
+{% assign hubdata = site.data.v2.hub.custom-ui %}
+{% include /v2/hub/hubtables.html %}

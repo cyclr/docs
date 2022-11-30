@@ -1,6 +1,10 @@
 ---
 title: Embedding Cyclr
 sidebar: cyclr_sidebar
+permalink: embedding-cyclr
+tags: [embedding]
+layout: page
+toc: false
 menus:
   mainmenu:
     title: Embedding Cyclr
@@ -9,3 +13,5 @@ menus:
     toggleonly: true
     weight: 7
 ---
+{% assign hubdata = site.data.v2.hub.embedding-cyclr %}
+{% include /v2/hub/hubtables.html %}  

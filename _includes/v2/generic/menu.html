@@ -7,8 +7,7 @@
     {% capture currentpageclass %}{% endcapture %}
     {% endif %}
     {% if item.icon %}
-    {% capture itemicon %}
-    <i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
+    {% capture itemicon %}<i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
     {% else %}
     {% capture itemicon %}{% endcapture %}
     {% endif %}
@@ -20,8 +19,11 @@
 
     <li class="sidenav-item{{itemclass}}">
         {% if item.children %}
-        <a class="sidenav-link" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
+        <a class="sidenav-link{{currentpageclass}}" href="{{ item.url }}" title="{{ item.title }}">
             {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        <a class="sidenav-link sidenav-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
+            <span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
         </a>
         {% else %}
         {% if item.externalurl %}

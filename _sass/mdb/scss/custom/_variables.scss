@@ -40,6 +40,12 @@ $background-color: $grey-10;
     --c-background-colour: $background-color;
 }
 
+/* links map */
+$links: ( "link": $grey-60,
+    "visited": $grey-60,
+    "hover": $grey-60,
+    "active": $grey-60);
+
 /* ----------------------------------------  
     Cyclr Typography
 -------------------------------------------  */
@@ -287,7 +293,7 @@ $datepicker-toggle-right: 0px;
 
 
 //Sidenav
-$sidenav-width: 276px;
+$sidenav-width: 295px;
 $sidenav-link-height: 3.3333333333333335rem;
 $sidenav-box-shadow: none;
 $sidenav-link-font-size: $h5-font-size;

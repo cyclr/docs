@@ -90,7 +90,12 @@ a {
 
     &:hover {
         text-decoration: underline;
-        color: #A83039;
+    }
+}
+
+@each $state, $color in $links {
+    a:#{$state} {
+        color: $color;
     }
 }
 
@@ -180,8 +185,9 @@ a {
     height: 60px;
 
     .container-fluid {
-        padding-left: 1.3333333333333333rem;
-        padding-right: 1.6666666666666667rem;
+        #toggleContainer {
+            padding-left: 1.3333333333333333rem;
+        }
     }
 }
 
@@ -244,7 +250,9 @@ a {
 
     .sidenav-item {
         margin-left: 19.2px;
-        margin-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
+
         a {
             padding: 8px 8px 7px 8px;
         }
@@ -275,9 +283,22 @@ a {
     color: $white;
     background-color: $red;
 
+    .sidenav-toggle {
+        color: $white;
+        background-color: $red;
+    }
+
     i {
         color: $white;
         transition: $sidenav-link-transition;
+    }
+}
+
+.sidenav {
+    .sidenav-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
 
@@ -465,6 +486,7 @@ a {
     padding-left: 240px;
   }
 }
+
 @media (min-width: 1366px) {
     main {
         margin-left: 294.97px;
@@ -578,7 +600,8 @@ fieldset[disabled] a.btn {
 }
 
 @media (min-width: 1366px) {
-    #main {
+    #main,
+    #navbarTop {
         padding-left: 72px;
         padding-right: 72px;
     }
@@ -1765,6 +1788,51 @@ h3, .c-h3 {
     padding-top: 30px;
 }
 
+@include media-breakpoint-up(sm) {
+    #toggleContainer {
+        flex: 0 0 $sidenav-width;
+    }
+
+    #navbarTop {
+    }
+}
+
+@media (min-width: 1366px) {
+    footer {
+        padding: 0 72px;
+        margin: 0 0 0 $sidenav-width;
+    }
+
+    .sidenav {
+        width: $sidenav-width!important; //override mdb inline width
+    }
+}
+#mainNavbar {
+    .navbar-nav {
+        img.icon {
+            width: 24px;
+            height: auto;
+        }
+    }
+}
+#search-container {
+    width: 100%;
+
+    .algolia-autocomplete {
+        width: 100%;
+    }
+
+    #search-input {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #ffffff;
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #results-container {
+        margin: 0;
+    }
+}
+
 .nav-footer {
     a:link,
     a:visited,
@@ -1789,5 +1857,22 @@ h3, .c-h3 {
     @include sticky(90px);
     ul {
         @include list-unstyled();
+        li {
+            a {
+                color: $red;
+                font-size: 13px;
+                font-weight:600;
+                line-height: 16px;
+                margin: 8px 0;
+                display: block;
+            }
+        }
+    }
+
+}
+
+@include media-breakpoint-up(lg) {
+    #col-toc {
+        margin-top: 8rem;
     }
 }

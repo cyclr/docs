@@ -44,13 +44,15 @@
         {% endunless %}
         {% include v2/generic/topnav.html %}
     </header>
-    <main id="main">
-        <!-- Page Content -->
-        <div id="main-container" class="container mb-0 pb-0">
-            {{content}}
-            {% include v2/generic/footer.html %}
-        </div>
-    </main>
+    <div>
+        <main id="main">
+            <!-- Page Content -->
+            <div id="main-container">
+                {{content}}
+            </div>
+        </main>
+        {% include v2/generic/footer.html %}
+    </div>
 </body>
 <script type="text/javascript" src="{{ "js/mdb/mdb.min.js" }}"></script>
 <script type="module" src="{{ "js/customscripts.js" }}"></script>

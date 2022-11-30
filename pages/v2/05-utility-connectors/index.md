@@ -1,6 +1,10 @@
 ---
 title: Utility Connectors
 sidebar: cyclr_sidebar
+permalink: utility-connectors
+tags: [utility,connectors]
+layout: page
+toc: false
 menus:
   mainmenu:
     title: Utility Connectors
@@ -9,3 +13,5 @@ menus:
     toggleonly: true
     weight: 5
 ---
+{% assign hubdata = site.data.v2.hub.utility-connectors %}
+{% include /v2/hub/hubtables.html %}

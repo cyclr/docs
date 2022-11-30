@@ -1,6 +1,10 @@
 ---
 title: Templates
 sidebar: cyclr_sidebar
+permalink: templates
+tags: [templates]
+layout: page
+toc: false
 menus:
   using-cyclr:
     title: Templates
