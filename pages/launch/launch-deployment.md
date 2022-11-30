@@ -60,6 +60,11 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
         <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
         <td>New Cyclr Account Name</td>
     </tr>
+    <tr>
+        <td>AccountDescription</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created with this description.</td>
+        <td>This is a LAUNCH created account</td>
+    </tr>
     <thead>
         <tr>
             <th colspan="3">Launched Cycle Options<br/>
@@ -259,8 +264,13 @@ You should use a non-account restricted OAuth token as the Authorization for thi
     </tr>
     <tr>
         <td>AccountName</td>
-        <td>(Optional) If the account ID doesn't exist it will be created, you can include a name for the account otherwise the ID will be used as the name.</td>
+        <td>(Optional) If the account doesn't exist it will be created, you can include a name for the account otherwise the ID will be used as the name.</td>
         <td>New Cyclr Account Name</td>
+    </tr>
+    <tr>
+        <td>AccountDescription</td>
+        <td>(Optional) If the account doesn't exist it will be created, you can include a description for the account.</td>
+        <td>This is a LAUNCH created account</td>
     </tr>
     <thead>
         <tr>
