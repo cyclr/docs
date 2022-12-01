@@ -264,7 +264,7 @@ You should use a non-account restricted OAuth token as the Authorization for thi
     </tr>
     <tr>
         <td>AccountName</td>
-        <td>(Optional) If the account doesn't exist it will be created, you can include a name for the account otherwise the ID will be used as the name.</td>
+        <td>(Optional) If the account doesn't exist, this creates one. You can include a name for the account, otherwise it uses the ID as the name.</td>
         <td>New Cyclr Account Name</td>
     </tr>
     <tr>
