@@ -228,7 +228,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </tr>
     <tr>
         <td>AccountDescription</td>
-        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the Request doesn't match an existing Cyclr Account, a new Account will be created with this description.</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the request doesn't match an existing Cyclr account, it creates a new account with this description.</td>
         <td>This is a Marketplace created account</td>
     </tr>
     <tr>
