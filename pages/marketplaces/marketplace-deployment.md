@@ -68,6 +68,11 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
         <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
         <td>New Cyclr Account Name</td>
     </tr>
+    <tr>
+        <td>AccountDescription</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value you provide in the request's URL doesn't match an existing Cyclr account, it creates a new with this description.</td>
+        <td>This is a Marketplace created account</td>
+    </tr>
     <thead>
         <tr>
             <th colspan="3">Partner Connector<br/>
@@ -220,6 +225,11 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
         <td>AccountName</td>
         <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the Request doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
         <td>New Cyclr Account Name</td>
+    </tr>
+    <tr>
+        <td>AccountDescription</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the request doesn't match an existing Cyclr account, it creates a new account with this description.</td>
+        <td>This is a Marketplace created account</td>
     </tr>
     <tr>
         <td>Username</td>
