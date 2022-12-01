@@ -62,7 +62,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </tr>
     <tr>
         <td>AccountDescription</td>
-        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created with this description.</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr account, this creates a new account with this description.</td>
         <td>This is a LAUNCH created account</td>
     </tr>
     <thead>
