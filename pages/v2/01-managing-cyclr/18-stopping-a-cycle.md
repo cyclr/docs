@@ -3,12 +3,14 @@ title: Stopping a Cycle
 sidebar: cyclr_sidebar
 permalink: stopping-a-cycle
 keywords: [cycle,stop,stopping]
+singlecard: false
 menus:
   managing-cyclr:
     title: Stopping a Cycle
     url: /stopping-a-cycle
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**This article refers to Cycles, but the same applies to Templates.**_
 
 When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**
@@ -27,6 +29,8 @@ Any transactions that are waiting to be processed however, will wait for the Cyc
 
 If a Cycle is stopped for 24 hours or more, all of its waiting transactions will automatically be dropped.
 
+</section>
+<section class="card py-5  my-5">
 #### Finish and Stop
 
 The Cycle will stop once all currently processing/queued transactions have completed.
@@ -43,6 +47,8 @@ While it is possible to delete In Progress Transactions here, that can cause iss
 
 Completed Transactions can be deleted without issue.
 
+</section>
+<section class="card py-5 my-5">
 ### Manually Dropping Transactions
 
 If you have transactions in progress/queued that you want to stop and not continue processing for any reason, you should:
@@ -52,4 +58,4 @@ If you have transactions in progress/queued that you want to stop and not contin
 3. Delete the *original* Cycle which will also delete all of its existing transactions.
 
 Your new Cycle won't have any existing transactions.
-
+</section>

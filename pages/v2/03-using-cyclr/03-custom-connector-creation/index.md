@@ -6,6 +6,7 @@ permalink: community-site
 tags: [custom,connector]
 layout: page
 toc: false
+singlecard: false
 menus:
   using-cyclr:
     title: Custom Connector Creation

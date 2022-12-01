@@ -17,6 +17,10 @@ $pink: #FA3572;
 $red: #C63943;
 $green: #74B665;
 $amber: #E79950;
+$lime: #D4D800;
+
+$light: $grey-10;
+$dark: #333B46;
 
 $background-color: $grey-10;
 
@@ -41,10 +45,18 @@ $background-color: $grey-10;
 }
 
 /* links map */
-$links: ( "link": $grey-60,
-    "visited": $grey-60,
-    "hover": $grey-60,
-    "active": $grey-60);
+$links: ( "link": $grey-60, "visited": $grey-60, "hover": $grey-60, "active": $grey-60);
+
+/* colors map */
+$colors: ( "grey-50": $grey-50, "grey-60": $grey-60, "grey-70": $grey-70);
+
+/* backgrounds map */
+$backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "grey-40": $grey-40, "grey-50": $grey-50);
+
+/* flex width map */
+$flexwidths: ( ("sm", 25),("sm", 30),("sm", 50),("sm", 65), ("md", 30));
+
+
 
 /* ----------------------------------------  
     Cyclr Typography
@@ -120,7 +132,7 @@ $badge-padding-y: 0.5rem;
     Material Variable Overrides
 -------------------------------------------  */
 // Theme colors
-$primary: $red !default;
+$primary: $lime !default;
 $success: $green !default;
 $danger: $red !default;
 $light: $grey-30 !default;
@@ -189,7 +201,7 @@ $input-group-focus-border-color: $blue-10 !default;
 $input-group-focus-box-shadow: inset 0 0 0 1px $blue-10 !default;
 $input-padding-x-lg: 1.3333333333333333rem;
 $input-disabled-background-color: transparent;
-
+$input-placeholder-color: $white;
 $input-padding-top: 1.393em !default;
 $input-padding-bottom: $input-padding-top !default;
 

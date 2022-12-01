@@ -2,6 +2,7 @@ title: Using Cyclr
 text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
 sections: 
   - title: Templates 
+    text: Text for the templates section here
     display: true
     items: 
     - title: Template Basics

@@ -5,6 +5,7 @@ permalink: embedded-marketplace
 tags: [embedding,marketplace]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Embedded Marketplace

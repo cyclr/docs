@@ -5,6 +5,7 @@ permalink: utility-connectors
 tags: [utility,connectors]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Utility Connectors

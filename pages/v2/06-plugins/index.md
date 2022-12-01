@@ -5,6 +5,7 @@ permalink: plugins
 tags: [plugins]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Plugins

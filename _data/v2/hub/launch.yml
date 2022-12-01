@@ -5,7 +5,7 @@ sections:
     display: true
     items: 
     - title: LAUNCH Overview
-      url: /https://app.hibob.com/homelaunch-overview
+      url: /launch-overview
       text: Cyclr LAUNCH enables SaaS businesses to make use of Cyclr’s extensive connectivity platform with a reduced burden on their user interface developers.
     - title: Customising The Appearance of Launch
       url: /customising-launch

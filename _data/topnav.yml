@@ -28,6 +28,7 @@ topnav_dropdowns:
             active: true
       - title: Sign in
         active: true
+        class: btn btn-primary
         folderitems:
           - title: US
             external_url: https://my.cyclr.com

@@ -5,6 +5,7 @@ permalink: api-reference
 tags: [api,reference]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: API Reference

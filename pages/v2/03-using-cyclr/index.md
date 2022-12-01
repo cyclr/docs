@@ -5,6 +5,7 @@ permalink: using-cyclr
 tags: [cyclr]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Using Cyclr

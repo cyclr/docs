@@ -5,6 +5,7 @@ permalink: custom-ui
 tags: [UI]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Custom UI

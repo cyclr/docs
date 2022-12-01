@@ -5,6 +5,7 @@ permalink: embedding-cyclr
 tags: [embedding]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Embedding Cyclr

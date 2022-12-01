@@ -5,6 +5,7 @@ permalink: community-site
 tags: [community]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Community Site

@@ -5,6 +5,7 @@ permalink: launch
 tags: [launch]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: LAUNCH

@@ -5,6 +5,7 @@ permalink: managing-cyclr
 tags: [managing-cyclr]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: Managing Cyclr

@@ -4,8 +4,13 @@
 {% else %}
 {% assign containerclass='container '%}
 {% endif %}
+{% if page.hide_sidebar == true %}
+{% assign footerclass=' m-0'%}
+{% else %}
+{% assign footerclass=' sb'%}
+{% endif %}
 <hr />
-<footer class="text-center text-lg-start">
+<footer class="text-center text-lg-start{{footerclass}}">
     <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
             {% for col in footer.columns %}
@@ -65,7 +70,7 @@
                     {% endfor %}
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </footer>

@@ -88,6 +88,7 @@ defaults:
     show_disqus: false
     default_header: true
     toc: true
+    singlecard: true
 # these are defaults used for the frontmatter for these file types
 
 sidebars:

@@ -5,6 +5,7 @@ permalink: api-examples
 tags: [api,examples]
 layout: page
 toc: false
+singlecard: false
 menus:
   mainmenu:
     title: API Examples

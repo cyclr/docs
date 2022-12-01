@@ -5,6 +5,7 @@ permalink: templates
 tags: [templates]
 layout: page
 toc: false
+singlecard: false
 menus:
   using-cyclr:
     title: Templates
