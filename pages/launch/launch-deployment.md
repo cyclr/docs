@@ -269,7 +269,7 @@ You should use a non-account restricted OAuth token as the Authorization for thi
     </tr>
     <tr>
         <td>AccountDescription</td>
-        <td>(Optional) If the account doesn't exist it will be created, you can include a description for the account.</td>
+        <td>(Optional) If the account doesn't exist, this request creates a new account and you can include a description.</td>
         <td>This is a LAUNCH created account</td>
     </tr>
     <thead>
