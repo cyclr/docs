@@ -70,7 +70,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </tr>
     <tr>
         <td>AccountDescription</td>
-        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created with this description.</td>
+        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value you provide in the request's URL doesn't match an existing Cyclr account, it creates a new with this description.</td>
         <td>This is a Marketplace created account</td>
     </tr>
     <thead>
