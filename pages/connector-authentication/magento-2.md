@@ -34,6 +34,22 @@ Now that you have your Access token go to the `Connector Setup` page in Cyclr.
 
 To use bulk methods such as Bulk Update Product you must enable/install asynchronous functionality and RabbitMQ on your Magento instance. More information can be found [here](https://devdocs.magento.com/guides/v2.4/rest/bulk-endpoints.html).
 
+### Custom Methods
+
+The Magento 2 connector allows for custom methods to be created for custom endpoints. This is done through custom objects on the **Custom Method** category.
+
+### Set up a custom object
+
+When you set up a custom object it creates a new method category with the endpoint you enter. To set up a custom object:
+
+1. Go to the **Magento 2** connector **Settings** page.
+2. Under the **Methods and Fields** heading, expand the **Custom Methods** category.
+3. Select the red **Copy this Category to create a Custom Object Category** icon.
+4. Enter the required custom method endpoint into **Specify object name**. 
+5. Select **Copy**.
+
+A new custom object category will have been created with the specified method endpoint. The **GET** or **POST** methods can be run from in here to call the specified endpoint. All request and response fields will need to be mapped manually.
+
 ### Webhooks
 
 If you wish to use webhooks with **Magento 2** we have a dedicated **Magento 2 Webhooks** Connector, along with a plugin to install in your Magento instance.
