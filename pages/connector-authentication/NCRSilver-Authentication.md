@@ -19,14 +19,15 @@ To set up an account, go to the [NCR website](https://developer.ncr.com/):
 
 ### Get authentication details
 
-You need a **Shared Key** and **Secret Key** in order to access the connector.
+You need a **Shared Key** and **Secret Key** in order to access the connector. You will also need a **NEP Organization** value.
 
 To get these from your account, go to the [NCR website](https://developer.ncr.com/):
 1.  Log in to your account.
 2.  Select your email at the top right corner of the window and select dashboard.
 3.  Select your application.
-4.  Select the **+** icon next to **Access Keys**. 
-5.  Make note of the **Shared Key** and **Secret Key**.
+4.  **NEP Organization** is located under Service User Name. It is the value after "acct:" and before the "@" symbol.
+5.  Select the **+** icon next to **Access Keys**. 
+6.  Make note of the **Shared Key** and **Secret Key**.
 
 ## Cyclr setup
 
@@ -39,8 +40,9 @@ To set up the NCR Silver connector in Cyclr, go to your console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | **Shared Key**   | The equivalent of an OAuth client ID.                               |
-   | **Secret Key**   | The equivalent of an OAuth client secret key.                               |
+   | **Shared Key**      | The equivalent of an OAuth client ID.        |
+   | **Secret Key**      | The equivalent of an OAuth client secret key.|
+   | **NEP Organization**| The identifier for the organization.         |
 
 7. Select **Save**.
 
