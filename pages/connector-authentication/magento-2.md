@@ -54,7 +54,7 @@ When you set up a custom object it creates a new method category with the endpoi
 4. Enter the required custom method endpoint into **Specify object name**. 
 5. Select **Copy**.
 
-This creates a new custom object category with the specified method endpoint. You can run the **GET** or **POST** methods from here to call the specified endpoint. You need to map all of the request and response fields manually.
+This creates a new custom object category with the specified method endpoint. You can run the **GET** or **POST** methods from the new category to call the specified endpoint. You need to map all of the request and response fields manually.
 
 ### Webhooks
 
