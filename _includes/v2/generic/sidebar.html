@@ -4,6 +4,7 @@
 {% assign menuid = "scrollContainer" %}
 {% assign menuclass = "sidenav-menu" %}
 {% assign menulevel = 0 %}
+{% assign sidenavfooter = site.data.sidenav %}
 <!-- Sidenav -->
 <nav id="sidebarMenu"
      class="sidenav sidenav-primary"
@@ -11,6 +12,7 @@
      data-mdb-hidden="false"
      data-mdb-scroll-container="#scrollContainer">
     {% include /v2/generic/menu.html %}
+    {% include /v2/generic/sidenavfootermenu.html %}
 </nav>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>

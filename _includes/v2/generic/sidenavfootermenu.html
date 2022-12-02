@@ -1,0 +1,23 @@
+{% if sidenavfooter %}
+<ul id="sidenavfooter" class="sidenav-menu ps mt-0 pt-3 border-top">
+    {% for item in sidenavfooter.items %}
+    {% if item.icon %}
+    {% capture itemicon %}
+    <i class="icon icon-{{item.icon}} fa-fw me-3"></i>{% endcapture %}
+    {% else %}
+    {% capture itemicon %}{% endcapture %}
+    {% endif %}
+    <li class="sidenav-item">
+        {% if item.externalurl %}
+        <a class="sidenav-link ripple-surface" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
+            {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        {% else %}
+        <a class="sidenav-link ripple-surface" href="{{ item.url }}" title="{{ item.title }}">
+            {{ itemicon }}<span>{{ item.title }}</span>
+        </a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
