@@ -42,6 +42,10 @@ Enter the following values when you install the Zendesk connector within an acco
 
 # Additional information
 
+### Using Webhooks
+
+In order to use Zendesk Webhooks, your Zendesk Connector must be authenticated against the account of a Zendesk Admin. 
+
 ### Updating deprecated Zendesk webhooks
 
 Zendesk will soon deprecate HTTP targets within their API. To be compatible with this change, Cyclr has created new webhook methods that use webhooks instead of HTTP targets. As this is a Zendesk change, it means you have to replace these methods manually within your cycles. Information on Zendesk's deprecation of HTTP targets and conversion to webhooks can be found [here](https://support.zendesk.com/hc/en-us/articles/4408826284698-Announcing-the-deprecation-of-HTTP-targets-and-conversion-to-webhooks).
