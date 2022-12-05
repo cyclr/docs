@@ -6,29 +6,30 @@ tags: [connector]
 
 ---
 
-# Zenefits setup
+## Zenefits setup
 
-You will need to register your application (and request access to scopes) with Zenefits before getting started. A registered OAuth application is assigned a unique Client ID and Client Secret. Refer to [this documentation](https://developers.zenefits.com/docs/auth) on how to obtain credentials.
+You need to register your application with Zenefits and request access to scopes before you can use the Zenefits connector. To authenticate your connector, you need the unique Client ID and Client Secret from your registered Oauth application. Refer to the [Zenefits documentation](https://developers.zenefits.com/docs/auth) for information on how to obtain credentials.
 
-# Cyclr setup
+## Cyclr setup
 
-1. To set up the Zenefits connector within Cyclr:
+To set up the Zenefits connector in Cyclr, go to your Cyclr console:
 
-2. Go to your **Cyclr Console**.
+1. Go to **Connectors** > **Application Connector Library**.
 
-3. Select **Connectors** > **Application Connector Library** at the top of the page.
+2. Use the search box to find the Zenefits connector.
 
-4. Use the search box to find the **Zenefits** connector.
+3. Select the **Setup Required** icon.
 
-5. Select the **Setup Required** icon.
-
-6. Enter the below values:
+4. Enter the below values:
 
    | Value             | Description                                                  |
    | :---------------- | :----------------------------------------------------------- |
-   | **Base URL**      | The Base URL of your application’s API instance. Default value will be https://api.zenefits.com. |
+   | **Base URL**      | The Base URL of your application’s API instance. The default value is https://api.zenefits.com. |
    | **Client ID**     | The Client ID from your Zenefits account.                    |
    | **Client Secret** | The Client Secret from your Zenefits account.                |
 
-7. Select **Save Changes**.
+5. Select **Save Changes**.
+
+> **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks for the value when you install the connector into an account.
+
 
