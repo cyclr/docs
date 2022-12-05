@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: console-data-retention-settings
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Console Data Retention Settings
     url: /console-data-retention-settings
 ---

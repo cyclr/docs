@@ -5,7 +5,7 @@ permalink: stopping-a-cycle
 keywords: [cycle,stop,stopping]
 singlecard: false
 menus:
-  managing-cyclr:
+  cylr:
     title: Stopping a Cycle
     url: /stopping-a-cycle
 ---

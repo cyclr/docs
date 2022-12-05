@@ -5,7 +5,7 @@ permalink: types-of-cyclr-user
 tags: [users]
 keywords: [users, console, admin, administrator, partner, account]
 menus:
-  managing-cyclr:
+  cylr:
     title: Types of Cyclr User
     url: /types-of-cyclr-use
 ---

@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: community-site
 tags: [community, managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Cyclr Community Site
     url: /community-site
 ---

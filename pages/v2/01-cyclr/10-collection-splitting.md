@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: collection-splitting
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Collection Splitting
     url: /collection-splitting
 ---

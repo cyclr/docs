@@ -3,7 +3,7 @@ title: Passing data between two steps
 permalink: passing-data-between-two-steps
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Passing data between two steps
     url: /passing-data-between-two-steps
 ---

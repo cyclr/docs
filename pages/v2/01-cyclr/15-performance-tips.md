@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: performance-tips
 tags: [splitting,script,delay]
 menus:
-  managing-cyclr:
+  cylr:
     title: Performance Tips
     url: /performance-tips
 ---

@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: sub-accounts
 tags: [accounts sub-accounts subaccounts sub]
 menus:
-  managing-cyclr:
+  cylr:
     title: Sub Accounts
     url: /sub-accounts
 ---

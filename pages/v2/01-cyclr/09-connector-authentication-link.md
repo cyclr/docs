@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-authentication-link
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Connector Authentication Link
     url: /connector-authentication-link
 ---

@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: transaction-error-webhook
 tags: [embedding]
 menus:
-  managing-cyclr:
+  cylr:
     title: Transaction Error Handling
     url: /transaction-error-webhook
 ---

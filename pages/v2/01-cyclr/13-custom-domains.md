@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: custom-domains
 tags: [installing, embedding, service domain]
 menus:
-  managing-cyclr:
+  cylr:
     title: Custom Service Domain
     url: /custom-domains
 ---

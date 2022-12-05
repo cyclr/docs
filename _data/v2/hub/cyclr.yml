@@ -1,0 +1,21 @@
+title: Cyclr
+text: Learn about managing and using Cyclr.
+sections: 
+  - title: Content
+    display: true
+    items: 
+    - title: Minimum Requirements
+      url: /minimum-requirements
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Glossary
+      url: /cyclr-glossary
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Cyclr Community Site
+      url: /community-site
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Legal notices
+      url: /legal-notices
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Release notes
+      url: /release-notes
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.

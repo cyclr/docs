@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: console-security
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Console Security
     url: /console-security
 ---

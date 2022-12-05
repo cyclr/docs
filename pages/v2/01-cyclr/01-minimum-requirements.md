@@ -2,9 +2,9 @@
 title: Minimum Requirements
 sidebar: cyclr_sidebar
 permalink: minimum-requirements
-tags: [managing-cyclr]
+tags: [cyclr]
 menus:
-  managing-cyclr:
+  cyclr:
     title: Minimum Requirements
     url: /minimum-requirements
 ---

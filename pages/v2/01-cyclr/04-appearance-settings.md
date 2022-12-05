@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: console-appearance-settings
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Console Appearance Settings
     url: /console-appearance-settings
 ---

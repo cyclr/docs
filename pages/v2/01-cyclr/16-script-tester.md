@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: script-tester
 tags: [connector, script testing]
 menus:
-  managing-cyclr:
+  cylr:
     title: Script Tester
     url: /script-tester
 ---

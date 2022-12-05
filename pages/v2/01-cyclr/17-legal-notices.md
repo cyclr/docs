@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: legal-notices
 tags: [managing-cyclr]
 menus:
-  managing-cyclr:
+  cylr:
     title: Legal Notices
     url: /legal-notices
 ---
