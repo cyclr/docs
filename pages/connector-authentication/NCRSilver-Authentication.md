@@ -26,7 +26,8 @@ To get these from your account, go to the [NCR website](https://developer.ncr.co
 1.  Log in to your account.
 2.  Select your email at the top right corner of the window and select dashboard.
 3.  Select your application.
-4.  **NEP Organization** is located under Service User Name. It is the value after "acct:" and before the "@" symbol.
+4.  Make note of the **NEP Organization** value under **Service User Name**. This is the value after `acct:` and before the `@` symbol.
+
     Example: If the Service User Name is acct:test-drive-486bcc60-9426-4e46-bf9c-90l3e6e5883e@44423c74-6324-446b-97d2-e88538c3c926, the **NEP Organization** you need is test-drive-486bcc60-9426-4e46-bf9c-90l3e6e5883e.
 5.  Select the **+** icon next to **Access Keys**. 
 6.  Make note of the **Shared Key** and **Secret Key**.
