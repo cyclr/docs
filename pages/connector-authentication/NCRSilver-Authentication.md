@@ -19,7 +19,8 @@ To set up an account, go to the [NCR website](https://developer.ncr.com/):
 
 ### Get authentication details
 
-You need a **Shared Key** and **Secret Key** in order to access the connector. You will also need a **NEP Organization** value.
+You need a **Shared Key** and **Secret Key** in order to access the connector. You also need an **NEP Organization** value.
+
 
 To get these from your account, go to the [NCR website](https://developer.ncr.com/):
 1.  Log in to your account.
