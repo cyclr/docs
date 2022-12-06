@@ -5,18 +5,18 @@ permalink: authenticate-emarsys
 tags: [connector]
 ---
 
-# Account Setup #
+# Account Setup
 
 <a href=#emarsys-credentials>
 
-To authenticate the connector you will need the following credentials. 
+To authenticate the connector you will need the following credentials:
 
 | Credentials    | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
 | **Username**   | The user name of your Emarsys account. It is usually in the following format: `account_name00X`, where `X` is a digit. |
 | **Secret Key** | The secret key of your Emarsys application.                  |
 
-To obtain these you will need to create an API user within Emarsys. You can find more information on creating an API User [here:](https://help.emarsys.com/hc/en-us/articles/115004740329#api-users) 
+To obtain these you will need to create an API user within Emarsys. You can find more information on creating an API User [here](https://help.emarsys.com/hc/en-us/articles/115004740329#api-users).
 
 Once you have the username and secret, you can use them to authenticate the connector.
 
