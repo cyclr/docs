@@ -35,10 +35,6 @@ entries:
       - title: Cyclr console configuration
         output: web, pdf
         folderitems:
-          - title: Performance tips
-            url: /performance-tips
-            output: web, pdf
-
           - title: General settings
             url: /console-general-settings
             output: web, pdf
@@ -51,8 +47,16 @@ entries:
             url: /console-data-retention-settings
             output: web, pdf           
            
+          - title: OAuth Client Credentials
+            url: /console-api
+            output: web, pdf
+
           - title: Security settings
             url: /console-security
+            output: web, pdf
+
+          - title: Performance tips
+            url: /performance-tips
             output: web, pdf
 
           - title: Custom service domains
@@ -66,10 +70,6 @@ entries:
       - title: API
         output: web, pdf
         folderitems:
-          - title: Access the Cyclr API
-            url: /console-api
-            output: web, pdf
-
           - title: Cyclr IP allowlist
             url: /cyclr-ip-allowlist
             output: web, pdf
@@ -82,23 +82,23 @@ entries:
             url: /testing-cyclr-api
             output: web, pdf            
 
-      - title: Accounts
+      - title: User accounts
         output: web, pdf
         folderitems:
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
             subfolders:
-              - title: Connector installation
+              - title: Connector installation (API)
                 output: web, pdf
                 subfolderitems:
                   - title: Install connectors into an account
                     url: /install-a-connector
                     output: web, pdf
 
-                  - title: Connector authentication link
-                    url: /connector-authentication-link
-                    output: web, pdf
+              - title: Connector authentication link
+                url: /connector-authentication-link
+                output: web, pdf
 
               - title: Cyclr as a proxy server
                 output: web, pdf
@@ -116,11 +116,7 @@ entries:
 
           - title: Install connectors
             url: /installing-connectors
-            output: web, pdf
-
-          - title: Authenticate account connector
-            url: /authenticate-account-connector
-            output: web, pdf                 
+            output: web, pdf               
             subfolders:
               - title: Template creation
                 output: web, pdf
@@ -259,9 +255,13 @@ entries:
                     url: /install-from-template
                     output: web, pdf
 
-              - title: Authentication
+              - title: Connector authentication
                 output: web, pdf
                 subfolderitems:
+                  - title: Authenticate account connector
+                    url: /authenticate-account-connector
+                    output: web, pdf  
+
                   - title: API key authentication
                     url: /api-key-authentication
                     output: web, pdf
