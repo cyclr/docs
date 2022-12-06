@@ -7,7 +7,7 @@ tags: [connector]
 
 # Account Setup
 
-<a href=#emarsys-credentials>
+<a href=#emarsys-credentials></a>
 
 To authenticate the connector you will need the following credentials:
 
@@ -22,7 +22,7 @@ Once you have the username and secret, you can use them to authenticate the conn
 
 ## Additional Information 
 
-<a href=#custom-fields>
+<a href=#custom-fields></a>
 
 ### Custom Fields
 
@@ -86,6 +86,3 @@ From the **Edit Connector** page of the Emarsys connector, to map response field
 4. Select **Create**.
 
 For more information, see the Emarsys API documentation for this method [here](https://dev.emarsys.com/docs/emarsys-api/ce8d99f0f480b-request-external-content-for-personalization).
-
-
-
