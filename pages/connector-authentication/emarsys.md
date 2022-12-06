@@ -12,7 +12,7 @@ tags: [connector]
 
 # **Account Setup** #
 
-<a href=#emarsys-credentials>
+### <a href=#emarsys-credentials> ###
 
 To authenticate the connector you will need the following credentials. 
 
@@ -37,7 +37,10 @@ There are several methods which utilise custom fields in the Emarsys connector. 
 
 #### **Contacts > Get Contact Data**
 
+When entering the **Fields** parameter, you will need to map any fields added manually: 
 
+1. Edit your **Emarsys** Connector navigate to the **Contacts > Get Contact Data** method. 
+2. Add a Custom Field named `[].{{FieldId}}` The `{{FieldId}}` should match the requested fields in the **Fields** parameter.
 
 #### **Contact Lists > List Contact Data In A Contact List** 
 
@@ -51,4 +54,5 @@ When entering the **Fields** parameter, you will need to map any fields added ma
 This method allows you to use your own API to personalize content in your Emarsys messages. In order to use this method you will need to add custom request fields.
 
 1. Edit your **Emarsys** Connector navigate to the **External Content > Request External Content For Personalisation** method.
-2. Add a custom field named `[parameters].{{key}}` The `{{key}}` will be the key of the parameters, these are reference fields which can be requested from Emarsys. More information on the logic to structure this request can be found in Emarsys's [documentation for this method](https://dev.emarsys.com/docs/emarsys-api/ce8d99f0f480b-request-external-content-for-personalization)
+2. Add a custom field named `[parameters].{{key}}` The `{{key}}` will be the key of the parameters, these are reference fields which can be requested from Emarsys. More information on the logic to structure this request can be found [here](https://dev.emarsys.com/docs/emarsys-api/ce8d99f0f480b-request-external-content-for-personalization)
+
