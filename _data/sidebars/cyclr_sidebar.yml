@@ -85,6 +85,10 @@ entries:
       - title: User accounts
         output: web, pdf
         folderitems:
+          - title: User accounts overview
+            url: /overview-new-account
+            output: web, pdf
+
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
@@ -96,10 +100,10 @@ entries:
                     url: /install-a-connector
                     output: web, pdf
 
-              - title: Connector authentication link
-                url: /connector-authentication-link
-                output: web, pdf
-
+          - title: Connector authentication link
+            url: /connector-authentication-link
+            output: web, pdf
+            subfolders:
               - title: Cyclr as a proxy server
                 output: web, pdf
                 subfolderitems:
@@ -118,7 +122,7 @@ entries:
             url: /installing-connectors
             output: web, pdf               
             subfolders:
-              - title: Template creation
+              - title: Template builder
                 output: web, pdf
                 subfolderitems: 
                   - title: Build templates
@@ -168,7 +172,7 @@ entries:
             url: /template-export-import
             output: web, pdf                         
 
-      - title: Embed cycles into an app
+      - title: Embed cycles
         output: web, pdf
         folderitems:
           - title: Embedding introduction
@@ -244,7 +248,7 @@ entries:
             url: /create-account
             output: web, pdf
             subfolders:
-              - title: Install cycle from template
+              - title: Install cycles from templates
                 output: web, pdf
                 subfolderitems:
                   - title: Get list of available templates
@@ -309,7 +313,7 @@ entries:
             url: /cycle-activation
             output: web, pdf
 
-      - title: Create a custom connector
+      - title: Custom connectors
         output: web, pdf
         folderitems:
           - title: Custom connector introduction
