@@ -32,9 +32,10 @@ exclude:
   - .vs/
   - .idea/
   - .gitignore
-  - pages/connector-authentication/
-  - pages/connector-guides-new/
   - pages/tags/
+  - pages/v1/
+  - pages/v2new/
+  - pages/v2old/
   - indexold.md
 
 # these are the files and directories that jekyll will exclude from the build
