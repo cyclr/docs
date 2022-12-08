@@ -7,6 +7,7 @@ menus:
     api-authentication:
         title: OAuth authentication
         identifier: oauth-authentication
+        weight: 4
 ---
 
 **_For connectors that require your user to be taken through an OAuth flow._**

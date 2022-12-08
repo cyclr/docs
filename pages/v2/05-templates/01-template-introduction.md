@@ -8,6 +8,7 @@ menus:
     templates:
         title: Template introduction
         identifier: template-basics
+        weight: 1
 ---
 ## Cyclr Templates
 

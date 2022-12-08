@@ -10,6 +10,7 @@ menus:
   user-accounts:
     title: Connector installation
     identifier: connector-installation
+    weight: 3
 ---
 ## Connector installation
 

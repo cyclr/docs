@@ -5,9 +5,10 @@ permalink: collection-splitting
 tags: [templates]
 
 menus:
-    template-creation:
+    template-builder:
         title: Collection splitting
         identifier: collection-splitting
+        weight: 6
 ---
 
 Collection Splitting can be used when you don't want a list of data to move through your Cycle in a single Transaction.  If you do, then you can disable Collection Splitting.

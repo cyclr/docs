@@ -5,7 +5,7 @@ permalink: data-types
 keywords: [datatypes,data,type,types]
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Data types
         identifier: data-types
         weight: 8

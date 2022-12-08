@@ -7,6 +7,7 @@ menus:
     embedding:
         title: Embedding introduction
         identifier: embedding-overview
+        weight: 1
 ---
 
 This article provides a broad overview of how Cyclr works with your app:

@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Field mapping with step data
         identifier: field-mapping-with-step-data
+        weight: 5
 ---
 
 **_A Step Data mapping uses a value from a previous step response as the value for this steps request._**

@@ -10,6 +10,7 @@ menus:
   templates:
     title: Test templates
     identifier: test-templates
+    weight: 4
 ---
 ## Test templates
 

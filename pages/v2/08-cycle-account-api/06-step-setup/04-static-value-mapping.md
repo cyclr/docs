@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Map fields with static values
         identifier: static-value-mapping
+        weight: 4
 ---
 
 _**A static value can be set as the field mapping, a static value is a value that will never change.**_

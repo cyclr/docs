@@ -7,6 +7,7 @@ menus:
     templates:
         title: Stop a cycle
         identifier: stopping-a-cycle
+        weight: 5
 ---
 
 _**This article refers to Cycles, but the same applies to Templates.**_

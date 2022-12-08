@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Set up steps
         identifier: step-set-up
+        weight: 1
 ---
 
 _**Templates in Cyclr may include steps that require mapping or parameter values that are specific to your end user’s use of those templates.**_

@@ -7,6 +7,7 @@ menus:
     connector-installation:
         title: Install connectors into an account
         identifier: install-a-connector
+        weight: 1
 ---
 
 This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).

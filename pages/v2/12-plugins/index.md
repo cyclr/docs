@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Connector plugins
     identifier: plugins
+    icon: navsettings
+    weight: 11
 ---
 ## Connector plugins
 

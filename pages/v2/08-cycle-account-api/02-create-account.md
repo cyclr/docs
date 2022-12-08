@@ -7,6 +7,7 @@ menus:
     cycle-account-api:
         title: Create an account
         identifier: create-account
+        weight: 2
 ---
 
 A Cyclr account can contain account connectors and integrations, and typically has a one to one relationship with an account in your application.

@@ -7,7 +7,7 @@ menus:
     utility-connectors:
         title: Generic Form
         identifier: generic-form
-        weight: 6
+        weight: 4
 ---
 
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.

@@ -5,10 +5,10 @@ permalink: console-api
 tags: [api]
 
 menus:
-    api:
+    cyclr-configuration:
         title: Access the Cyclr API
         identifier: console-api
-        weight: 1
+        weight: 4
 ---
 
 ## OAuth Client Credentials

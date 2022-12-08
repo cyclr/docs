@@ -126,7 +126,6 @@ with open(jsonfilename_full, 'r') as jsonfile:
                             tofile.write(newline)
                         elif line.startswith("---") and frontmatter == True:
                             # frontmatter menus
-                            # see getconnectorscontent.py 
                             # clone the assets/frontmattermenu.md, substitute item values from json
                             if item['menuname'] is not None:                        
                                 for menuline in menulines:

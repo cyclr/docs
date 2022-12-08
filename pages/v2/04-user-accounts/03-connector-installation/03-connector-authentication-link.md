@@ -7,6 +7,7 @@ menus:
     connector-installation:
         title: Connector authentication link
         identifier: connector-authentication-link
+        weight: 3
 ---
 
 If you require one of your clients to authenticate an account connector but they don't have access to Cyclr and don't wish to share their credentials with you, you can use a connector authentication link and token.

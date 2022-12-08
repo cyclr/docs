@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Add cycles to accounts (API)
     identifier: cycle-account-api
+    icon: navsettings
+    weight: 7
 ---
 ## Add cycles to accounts (API)
 

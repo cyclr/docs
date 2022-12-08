@@ -7,6 +7,7 @@ menus:
     embedding:
         title: API emdpoints
         identifier: cyclr-api-endpoints
+        weight: 2
 ---
 
 Cyclr provides Swagger documentation for the API, the location depends on your instance.

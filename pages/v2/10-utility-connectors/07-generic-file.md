@@ -7,7 +7,7 @@ menus:
     utility-connectors:
         title: Generic File
         identifier: generic-file
-        weight: 7
+        weight: 5
 ---
 
 ## Purpose

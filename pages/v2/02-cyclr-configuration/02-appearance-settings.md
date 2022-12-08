@@ -8,6 +8,7 @@ menus:
     cyclr-configuration:
         title: General settings
         identifier: console-appearance-settings
+        weight: 2
 ---
 
 These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.

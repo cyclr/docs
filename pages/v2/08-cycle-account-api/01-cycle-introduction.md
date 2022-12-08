@@ -7,6 +7,7 @@ menus:
     cycle-account-api:
         title: Cycle introduction
         identifier: template-install
+        weight: 1
 ---
 
 When you install a template into an account, Cyclr:

@@ -7,7 +7,7 @@ menus:
     launch:
         title: Handle LAUNCH callbacks
         identifier: handling-callback
-        weight: 5
+        weight: 4
 ---
 
 The final page of the LAUNCH flow is completely customizable and defined by the HTML &amp; JavaScript entered at:

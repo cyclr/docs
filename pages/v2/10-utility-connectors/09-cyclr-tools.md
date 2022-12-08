@@ -7,7 +7,7 @@ menus:
     utility-connectors:
         title: Cyclr Tools
         identifier: cyclr-tools
-        weight: 9
+        weight: 7
 ---
 
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.

@@ -5,9 +5,10 @@ permalink: logic-tools
 tags: [templates]
 
 menus:
-    template-creation:
+    template-builder:
         title: Logic Tools
         identifier: logic-tools
+        weight: 2
 ---
 
 ## Introduction

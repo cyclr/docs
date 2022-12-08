@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Map parameters
         identifier: set-step-parameters
+        weight: 2
 ---
 
 _**Step Parameters are passed as a header or part of the URL (hostname, path, or query string parameters) to the third party API endpoint.**_

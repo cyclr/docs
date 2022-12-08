@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Map fields
         identifier: set-step-field-mapping
+        weight: 3
 ---
 
 _**Field Mappings are passed to the third party API as the request body.**_

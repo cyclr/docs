@@ -7,6 +7,7 @@ menus:
     user-accounts:
         title: New account overview
         identifier: overview-new-account
+        weight: 1
 ---
 
 This article gives an overview on setting up a new Cyclr Account using the Cyclr API.

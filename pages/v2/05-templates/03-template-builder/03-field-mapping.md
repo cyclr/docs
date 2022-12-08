@@ -5,9 +5,10 @@ permalink: field-mapping
 tags: [templates]
 
 menus:
-    template-creation:
+    template-builder:
         title: Map fields
         identifier: field-mapping
+        weight: 3
 ---
 
 When using an Action step, you will need to map its fields.  You can do this through the 'cog' icon on the step which gives access to the Step Setup functionality.

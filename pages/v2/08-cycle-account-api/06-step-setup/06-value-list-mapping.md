@@ -7,6 +7,7 @@ menus:
     api-step-setup:
         title: Map fields from list of values
         identifier: value-list-mapping
+        weight: 6
 ---
 
 **_Fields within a step may contain a set of pre-defined values that can be selected from, returned in the “Values” array below:_**

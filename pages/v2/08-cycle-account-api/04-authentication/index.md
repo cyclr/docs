@@ -10,6 +10,7 @@ menus:
   cycle-account-api:
     title: Authentication
     identifier: api-authentication
+    weight: 4
 ---
 ## Authentication
 

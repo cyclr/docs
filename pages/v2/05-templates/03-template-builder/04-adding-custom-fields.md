@@ -5,9 +5,10 @@ permalink: adding-custom-fields
 tags: [templates]
 
 menus:
-    template-creation:
+    template-builder:
         title: Add custom fields
         identifier: adding-custom-fields
+        weight: 4
 ---
 
 ## Manually Adding Custom Fields

@@ -8,6 +8,7 @@ menus:
     cyclr-configuration:
         title: Data retention settings
         identifier: console-data-retention-settings
+        weight: 3
 ---
  
 ## Data Retention 

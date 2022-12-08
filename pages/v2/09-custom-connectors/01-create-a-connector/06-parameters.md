@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-parameters
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Parameters
         identifier: connector-parameters
         weight: 5

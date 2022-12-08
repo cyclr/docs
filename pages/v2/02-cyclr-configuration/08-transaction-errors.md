@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Handle transaction errors
         identifier: transaction-error-webhook
+        weight: 8
 ---
 
 Cyclr can be configured to make an HTTP Request if an error occurs in a running Cycle as a way of alerting you or your support staff.

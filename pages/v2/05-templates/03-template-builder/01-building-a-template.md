@@ -5,9 +5,10 @@ permalink: building-a-template
 tags: [templates]
 
 menus:
-    template-creation:
+    template-builder:
         title: Build templates
         identifier: building-a-template
+        weight: 1
 ---
 
 ## Template Settings

@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-settings
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Settings
         identifier: connector-settings
         weight: 1

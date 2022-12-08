@@ -9,7 +9,8 @@ singlecard: false
 menus:
   custom-connectors:
     title: Create a connector via API
-    identifier: custom-connector-api
+    identifier: create-a-connector
+    weight: 3
 ---
 ## Create a connector via API
 

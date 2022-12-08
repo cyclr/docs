@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-triggers
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Triggers
         identifier: connector-triggers
         weight: 6

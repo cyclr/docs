@@ -5,7 +5,7 @@ permalink: last-successful-run-date
 tags: [connector-creation]
 
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Last successful run date
         identifier: last-successful-run-date
         weight: 9

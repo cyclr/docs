@@ -11,25 +11,9 @@
     "menuname": "mainmenu",
     "menutitle": "API",
     "menuidentifier": "api",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "api",
-    "v1md": "06-console-api",
-    "v2folder": "03-api",
-    "v2md": "01-console-api",
-    "permalink": "console-api",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "api",
-    "menutitle": "Access the Cyclr API",
-    "menuidentifier": "console-api",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": 1
+    "menuweight": 3
   },
   {
     "v1folder": "api",
@@ -45,7 +29,7 @@
     "menuidentifier": "cyclr-ip-allowlist",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 2
+    "menuweight": 1
   },
   {
     "v1folder": "api",
@@ -61,7 +45,7 @@
     "menuidentifier": "cyclr-api-authentication",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 3
+    "menuweight": 2
   },
   {
     "v1folder": "api",
@@ -77,7 +61,7 @@
     "menuidentifier": "testing-cyclr-api",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 4
+    "menuweight": 3
   },
   {
     "v1folder": "api-examples",
@@ -91,9 +75,9 @@
     "menuname": "mainmenu",
     "menutitle": "API examples",
     "menuidentifier": "api-examples",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 12
   },
   {
     "v1folder": "api-examples",
@@ -123,9 +107,9 @@
     "menuname": "mainmenu",
     "menutitle": "Application connector guides",
     "menuidentifier": "application-connectors",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 10
   },
   {
     "v1folder": "connector-authentication",
@@ -4795,9 +4779,9 @@
     "menuname": "mainmenu",
     "menutitle": "Create a custom connector",
     "menuidentifier": "custom-connectors",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 8
   },
   {
     "v1folder": "custom-connectors",
@@ -4810,10 +4794,10 @@
     "singlecard": null,
     "menuname": "custom-connectors",
     "menutitle": "Create a connector via API",
-    "menuidentifier": "custom-connector-api",
+    "menuidentifier": "create-a-connector",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "custom-connectors",
@@ -4840,7 +4824,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Settings",
     "menuidentifier": "connector-settings",
     "menuicon": null,
@@ -4856,7 +4840,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Authentication",
     "menuidentifier": "connector-authentication",
     "menuicon": null,
@@ -4872,7 +4856,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Rate limits",
     "menuidentifier": "connector-rate-limits",
     "menuicon": null,
@@ -4888,7 +4872,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Methods",
     "menuidentifier": "connector-methods",
     "menuicon": null,
@@ -4904,7 +4888,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Parameters",
     "menuidentifier": "connector-parameters",
     "menuicon": null,
@@ -4920,7 +4904,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Triggers",
     "menuidentifier": "connector-triggers",
     "menuicon": null,
@@ -4936,7 +4920,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Scripts",
     "menuidentifier": "connector-scripting",
     "menuicon": null,
@@ -4952,7 +4936,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Paging",
     "menuidentifier": "connector-paging",
     "menuicon": null,
@@ -4968,7 +4952,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Auto install webhooks",
     "menuidentifier": "auto-installing-webhooks",
     "menuicon": null,
@@ -4984,7 +4968,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Custom fields",
     "menuidentifier": "dynamic-custom-fields",
     "menuicon": null,
@@ -5032,7 +5016,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Data types",
     "menuidentifier": "data-types",
     "menuicon": null,
@@ -5048,7 +5032,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Enhanced objects",
     "menuidentifier": "enhanced-objects",
     "menuicon": null,
@@ -5064,7 +5048,7 @@
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "custom-connector-api",
+    "menuname": "create-a-connector",
     "menutitle": "Last successful run date",
     "menuidentifier": "last-successful-run-date",
     "menuicon": null,
@@ -5083,9 +5067,9 @@
     "menuname": "mainmenu",
     "menutitle": "Add cycles to accounts (API)",
     "menuidentifier": "cycle-account-api",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "cycle-account-api",
@@ -5101,7 +5085,7 @@
     "menuidentifier": "api-install-cycle",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "cycle-account-api",
@@ -5117,7 +5101,7 @@
     "menuidentifier": "api-authentication",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "cycle-account-api",
@@ -5133,13 +5117,13 @@
     "menuidentifier": "api-step-setup",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "cycle-account-api",
     "v1md": "api-key-authentication",
     "v2folder": "08-cycle-account-api/04-authentication",
-    "v2md": "01-api-key-authentication",
+    "v2md": "02-api-key-authentication",
     "permalink": "api-key-authentication",
     "layout": null,
     "toc": null,
@@ -5149,7 +5133,7 @@
     "menuidentifier": "api-key-authentication",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "cycle-account-api",
@@ -5165,7 +5149,7 @@
     "menuidentifier": "create-account",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "cycle-account-api",
@@ -5181,7 +5165,7 @@
     "menuidentifier": "cycle-activation",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "cycle-account-api",
@@ -5197,7 +5181,7 @@
     "menuidentifier": "field-mapping-with-step-data",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "cycle-account-api",
@@ -5213,7 +5197,7 @@
     "menuidentifier": "get-cycle-prerequisites",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "cycle-account-api",
@@ -5229,13 +5213,13 @@
     "menuidentifier": "list-available-templates",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "cycle-account-api",
     "v1md": "http-basic-authentication",
     "v2folder": "08-cycle-account-api/04-authentication",
-    "v2md": "02-http-basic-authentication",
+    "v2md": "03-http-basic-authentication",
     "permalink": "basic-authentication",
     "layout": null,
     "toc": null,
@@ -5245,13 +5229,13 @@
     "menuidentifier": "basic-authentication",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "cycle-account-api",
     "v1md": "install-a-template",
-    "v2folder": "08-cycle-account-api",
-    "v2md": "install-a-template",
+    "v2folder": null,
+    "v2md": null,
     "permalink": "install-a-template",
     "layout": null,
     "toc": null,
@@ -5277,7 +5261,7 @@
     "menuidentifier": "install-from-template",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "cycle-account-api",
@@ -5293,13 +5277,13 @@
     "menuidentifier": "set-step-field-mapping",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "cycle-account-api",
     "v1md": "oauth-authentication",
     "v2folder": "08-cycle-account-api/04-authentication",
-    "v2md": "03-oauth-authentication",
+    "v2md": "04-oauth-authentication",
     "permalink": "oauth-authentication",
     "layout": null,
     "toc": null,
@@ -5309,7 +5293,7 @@
     "menuidentifier": "oauth-authentication",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "cycle-account-api",
@@ -5325,7 +5309,7 @@
     "menuidentifier": "set-step-parameters",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "cycle-account-api",
@@ -5341,7 +5325,7 @@
     "menuidentifier": "static-value-mapping",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "cycle-account-api",
@@ -5357,7 +5341,7 @@
     "menuidentifier": "step-set-up",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "cycle-account-api",
@@ -5373,7 +5357,7 @@
     "menuidentifier": "template-install",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "cycle-account-api",
@@ -5389,7 +5373,7 @@
     "menuidentifier": "value-list-mapping",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "cyclr",
@@ -5403,9 +5387,9 @@
     "menuname": "mainmenu",
     "menutitle": "Cyclr",
     "menuidentifier": "managing-cyclr",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "cyclr",
@@ -5547,15 +5531,15 @@
     "menuname": "mainmenu",
     "menutitle": "Cyclr console configuration",
     "menuidentifier": "cyclr-configuration",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "performance-tips",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "01-performance-tips",
+    "v2md": "06-performance-tips",
     "permalink": "performance-tips",
     "layout": null,
     "toc": null,
@@ -5565,13 +5549,13 @@
     "menuidentifier": "performance-tips",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "your-account",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "02-your-account",
+    "v2md": "09-your-account",
     "permalink": "your-account",
     "layout": null,
     "toc": null,
@@ -5581,13 +5565,13 @@
     "menuidentifier": "your-account",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 9
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "appearance-settings",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "04-appearance-settings",
+    "v2md": "02-appearance-settings",
     "permalink": "console-appearance-settings",
     "layout": null,
     "toc": null,
@@ -5597,13 +5581,29 @@
     "menuidentifier": "console-appearance-settings",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
+  },
+  {
+    "v1folder": "api",
+    "v1md": "06-console-api",
+    "v2folder": "02-cyclr-configuration",
+    "v2md": "04-console-api",
+    "permalink": "console-api",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "cyclr-configuration",
+    "menutitle": "Access the Cyclr API",
+    "menuidentifier": "console-api",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 4
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "console-general-settings",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "03-general-settings",
+    "v2md": "01-general-settings",
     "permalink": "console-general-settings",
     "layout": null,
     "toc": null,
@@ -5613,13 +5613,13 @@
     "menuidentifier": "console-general-settings",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "console-retention-settings",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "05-console-retention-settings",
+    "v2md": "03-console-retention-settings",
     "permalink": "console-data-retention-settings",
     "layout": null,
     "toc": null,
@@ -5629,13 +5629,13 @@
     "menuidentifier": "console-data-retention-settings",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "cyclr-configuration",
     "v1md": "console-security",
     "v2folder": "02-cyclr-configuration",
-    "v2md": "06-console-security",
+    "v2md": "05-console-security",
     "permalink": "console-security",
     "layout": null,
     "toc": null,
@@ -5645,7 +5645,7 @@
     "menuidentifier": "console-security",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "cyclr-configuration",
@@ -5661,7 +5661,7 @@
     "menuidentifier": "custom-domains",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "cyclr-configuration",
@@ -5677,7 +5677,7 @@
     "menuidentifier": "transaction-error-webhook",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 8
   },
   {
     "v1folder": "embedding",
@@ -5691,9 +5691,9 @@
     "menuname": "mainmenu",
     "menutitle": "Embed cycles into an app",
     "menuidentifier": "embedding",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "embedding",
@@ -5709,7 +5709,7 @@
     "menuidentifier": "cyclr-api-endpoints",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "embedding",
@@ -5725,7 +5725,7 @@
     "menuidentifier": "embedding-overview",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "embedding",
@@ -5741,7 +5741,7 @@
     "menuidentifier": "iframe-embedding",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "embedding",
@@ -5757,7 +5757,7 @@
     "menuidentifier": "partner-connector",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "embedding",
@@ -5773,7 +5773,7 @@
     "menuidentifier": "service-led-deployment",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "integration-tools",
@@ -5805,7 +5805,7 @@
     "menuidentifier": "decision-steps",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "integration-tools",
@@ -5821,7 +5821,7 @@
     "menuidentifier": "delay-steps",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "integration-tools",
@@ -5837,7 +5837,7 @@
     "menuidentifier": "wait-all",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "integration-tools",
@@ -5853,7 +5853,7 @@
     "menuidentifier": "wait-until",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "launch",
@@ -5869,7 +5869,7 @@
     "menuidentifier": "launch",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "launch",
@@ -5891,7 +5891,7 @@
     "v1folder": "launch",
     "v1md": "customising-the-appearance-of-launch",
     "v2folder": "06-embedding/05-launch",
-    "v2md": "06-customising-the-appearance-of-launch",
+    "v2md": "05-customising-the-appearance-of-launch",
     "permalink": "customising-launch",
     "layout": null,
     "toc": null,
@@ -5901,13 +5901,13 @@
     "menuidentifier": "customising-launch",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 6
+    "menuweight": 5
   },
   {
     "v1folder": "launch",
     "v1md": "handling-callback",
     "v2folder": "06-embedding/05-launch",
-    "v2md": "05-handling-callback",
+    "v2md": "04-handling-callback",
     "permalink": "handling-callback",
     "layout": null,
     "toc": null,
@@ -5917,13 +5917,13 @@
     "menuidentifier": "handling-callback",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 5
+    "menuweight": 4
   },
   {
     "v1folder": "launch",
     "v1md": "launch-deployment",
     "v2folder": "06-embedding/05-launch",
-    "v2md": "04-launch-deployment",
+    "v2md": "06-launch-deployment",
     "permalink": "launch-deployment",
     "layout": null,
     "toc": null,
@@ -5933,7 +5933,7 @@
     "menuidentifier": "launch-deployment",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 4
+    "menuweight": 6
   },
   {
     "v1folder": "launch",
@@ -5997,7 +5997,7 @@
     "menuidentifier": "marketplace",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "marketplaces",
@@ -6059,9 +6059,9 @@
     "menuname": "mainmenu",
     "menutitle": "Connector plugins",
     "menuidentifier": "plugins",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 11
   },
   {
     "v1folder": "plugin",
@@ -6123,25 +6123,25 @@
     "menuname": "mainmenu",
     "menutitle": "Create cycle templates",
     "menuidentifier": "templates",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "templates",
     "v1md": "index",
-    "v2folder": "05-templates/03-template-creation",
+    "v2folder": "05-templates/03-template-builder",
     "v2md": "index",
-    "permalink": "template-creation",
+    "permalink": "template-builder",
     "layout": null,
     "toc": null,
     "singlecard": null,
     "menuname": "templates",
-    "menutitle": "Template creation",
-    "menuidentifier": "template-creation",
+    "menutitle": "Template builder",
+    "menuidentifier": "template-builder",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "templates",
@@ -6157,87 +6157,87 @@
     "menuidentifier": "test-templates",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "templates",
     "v1md": "adding-custom-fields",
-    "v2folder": "05-templates/03-template-creation",
+    "v2folder": "05-templates/03-template-builder",
     "v2md": "04-adding-custom-fields",
     "permalink": "adding-custom-fields",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Add custom fields",
     "menuidentifier": "adding-custom-fields",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "templates",
     "v1md": "building-a-template",
-    "v2folder": "05-templates/03-template-creation",
+    "v2folder": "05-templates/03-template-builder",
     "v2md": "01-building-a-template",
     "permalink": "building-a-template",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Build templates",
     "menuidentifier": "building-a-template",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "templates",
     "v1md": "collection-splitting",
-    "v2folder": "05-templates/03-template-creation",
-    "v2md": "07-collection-splitting",
+    "v2folder": "05-templates/03-template-builder",
+    "v2md": "06-collection-splitting",
     "permalink": "collection-splitting",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Collection splitting",
     "menuidentifier": "collection-splitting",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "templates",
     "v1md": "customise-with-script",
-    "v2folder": "05-templates/03-template-creation",
-    "v2md": "05-customise-with-script",
+    "v2folder": "05-templates/03-template-builder",
+    "v2md": "08-customise-with-script",
     "permalink": "customise-with-script",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Customise with script",
     "menuidentifier": "customise-with-script",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 8
   },
   {
     "v1folder": "templates",
     "v1md": "field-mapping",
-    "v2folder": "05-templates/03-template-creation",
+    "v2folder": "05-templates/03-template-builder",
     "v2md": "03-field-mapping",
     "permalink": "field-mapping",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Map fields",
     "menuidentifier": "field-mapping",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "templates",
@@ -6253,39 +6253,39 @@
     "menuidentifier": "installing-connectors",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "templates",
     "v1md": "logic-tools",
-    "v2folder": "05-templates/03-template-creation",
+    "v2folder": "05-templates/03-template-builder",
     "v2md": "02-logic-tools",
     "permalink": "logic-tools",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Logic Tools",
     "menuidentifier": "logic-tools",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "templates",
     "v1md": "passing-data-between-two-steps",
-    "v2folder": "05-templates/03-template-creation",
-    "v2md": "08-passing-data-between-two-steps",
+    "v2folder": "05-templates/03-template-builder",
+    "v2md": "07-passing-data-between-two-steps",
     "permalink": "passing-data-between-two-steps",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Pass data between two steps",
     "menuidentifier": "passing-data-between-two-steps",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "templates",
@@ -6301,23 +6301,23 @@
     "menuidentifier": "publish-template",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 7
   },
   {
     "v1folder": "templates",
     "v1md": "script-tester",
-    "v2folder": "05-templates/03-template-creation",
-    "v2md": "06-script-tester",
+    "v2folder": "05-templates/03-template-builder",
+    "v2md": "05-script-tester",
     "permalink": "script-tester",
     "layout": null,
     "toc": null,
     "singlecard": null,
-    "menuname": "template-creation",
+    "menuname": "template-builder",
     "menutitle": "Test scripts",
     "menuidentifier": "script-tester",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "templates",
@@ -6333,7 +6333,7 @@
     "menuidentifier": "stopping-a-cycle",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 5
   },
   {
     "v1folder": "templates",
@@ -6349,7 +6349,7 @@
     "menuidentifier": "template-basics",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "templates",
@@ -6365,7 +6365,7 @@
     "menuidentifier": "template-export-import",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 6
   },
   {
     "v1folder": "templates",
@@ -6381,7 +6381,7 @@
     "menuidentifier": "integration-template-versioning",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 2
   },
   {
     "v1folder": "templates",
@@ -6397,7 +6397,7 @@
     "menuidentifier": "testing-a-template",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 1
   },
   {
     "v1folder": "user-accounts",
@@ -6411,105 +6411,9 @@
     "menuname": "mainmenu",
     "menutitle": "User accounts",
     "menuidentifier": "user-accounts",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "account-connector-authentication",
-    "v2folder": "04-user-accounts/03-connector-installation",
-    "v2md": "02-account-connector-authentication",
-    "permalink": "authenticate-account-connector",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "connector-installation",
-    "menutitle": "Authenticate connectors",
-    "menuidentifier": "authenticate-account-connector",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "call-a-connector-method",
-    "v2folder": "04-user-accounts/04-cyclr-as-proxy-server",
-    "v2md": "01-call-a-connector-method",
-    "permalink": "call-a-connector-method",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "cylr-as-proxy-server",
-    "menutitle": "Call a connector method",
-    "menuidentifier": "call-a-connector-method",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "connector-authentication-link",
-    "v2folder": "04-user-accounts/03-connector-installation",
-    "v2md": "03-connector-authentication-link",
-    "permalink": "connector-authentication-link",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "connector-installation",
-    "menutitle": "Connector authentication link",
-    "menuidentifier": "connector-authentication-link",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "install-a-connector",
-    "v2folder": "04-user-accounts/03-connector-installation",
-    "v2md": "01-install-a-connector",
-    "permalink": "install-a-connector",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "connector-installation",
-    "menutitle": "Install connectors into an account",
-    "menuidentifier": "install-a-connector",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "overview-new-account",
-    "v2folder": "04-user-accounts",
-    "v2md": "01-overview-new-account",
-    "permalink": "overview-new-account",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "user-accounts",
-    "menutitle": "New account overview",
-    "menuidentifier": "overview-new-account",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
-  },
-  {
-    "v1folder": "user-accounts",
-    "v1md": "subaccounts",
-    "v2folder": "04-user-accounts",
-    "v2md": "02-subaccounts",
-    "permalink": "sub-accounts",
-    "layout": null,
-    "toc": null,
-    "singlecard": null,
-    "menuname": "user-accounts",
-    "menutitle": "Sub accounts",
-    "menuidentifier": "sub-accounts",
-    "menuicon": null,
-    "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
   },
   {
     "v1folder": "user-accounts",
@@ -6525,7 +6429,7 @@
     "menuidentifier": "connector-installation",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "user-accounts",
@@ -6541,7 +6445,103 @@
     "menuidentifier": "cylr-as-proxy-server",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 4
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "account-connector-authentication",
+    "v2folder": "04-user-accounts/03-connector-installation",
+    "v2md": "02-account-connector-authentication",
+    "permalink": "authenticate-account-connector",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "connector-installation",
+    "menutitle": "Authenticate connectors",
+    "menuidentifier": "authenticate-account-connector",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 2
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "call-a-connector-method",
+    "v2folder": "04-user-accounts/04-cyclr-as-proxy-server",
+    "v2md": "01-call-a-connector-method",
+    "permalink": "call-a-connector-method",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "cylr-as-proxy-server",
+    "menutitle": "Call a connector method",
+    "menuidentifier": "call-a-connector-method",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 1
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "connector-authentication-link",
+    "v2folder": "04-user-accounts/03-connector-installation",
+    "v2md": "03-connector-authentication-link",
+    "permalink": "connector-authentication-link",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "connector-installation",
+    "menutitle": "Connector authentication link",
+    "menuidentifier": "connector-authentication-link",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 3
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "install-a-connector",
+    "v2folder": "04-user-accounts/03-connector-installation",
+    "v2md": "01-install-a-connector",
+    "permalink": "install-a-connector",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "connector-installation",
+    "menutitle": "Install connectors into an account",
+    "menuidentifier": "install-a-connector",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 1
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "overview-new-account",
+    "v2folder": "04-user-accounts",
+    "v2md": "01-overview-new-account",
+    "permalink": "overview-new-account",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "user-accounts",
+    "menutitle": "New account overview",
+    "menuidentifier": "overview-new-account",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 1
+  },
+  {
+    "v1folder": "user-accounts",
+    "v1md": "subaccounts",
+    "v2folder": "04-user-accounts",
+    "v2md": "02-subaccounts",
+    "permalink": "sub-accounts",
+    "layout": null,
+    "toc": null,
+    "singlecard": null,
+    "menuname": "user-accounts",
+    "menutitle": "Sub accounts",
+    "menuidentifier": "sub-accounts",
+    "menuicon": null,
+    "menutoggleonly": null,
+    "menuweight": 2
   },
   {
     "v1folder": "utility-connectors",
@@ -6555,9 +6555,9 @@
     "menuname": "mainmenu",
     "menutitle": "Utility connectors",
     "menuidentifier": "utility-connectors",
-    "menuicon": null,
+    "menuicon": "navsettings",
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 9
   },
   {
     "v1folder": "utility-connectors",
@@ -6573,7 +6573,7 @@
     "menuidentifier": "data-storage",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": null
+    "menuweight": 3
   },
   {
     "v1folder": "utility-connectors",
@@ -6626,7 +6626,7 @@
   {
     "v1folder": "utility-connectors",
     "v1md": "03-global-object-storage",
-    "v2folder": "10-utility-connectors",
+    "v2folder": "10-utility-connectors/03-data-storage",
     "v2md": "05-global-object-storage",
     "permalink": "global-object-storage",
     "layout": null,
@@ -6658,7 +6658,7 @@
   {
     "v1folder": "utility-connectors",
     "v1md": "05-cycle-object-storage",
-    "v2folder": "10-utility-connectors",
+    "v2folder": "10-utility-connectors/03-data-storage",
     "v2md": "04-cycle-object-storage",
     "permalink": "cycle-object-storage",
     "layout": null,
@@ -6685,7 +6685,7 @@
     "menuidentifier": "generic-webhook",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 8
+    "menuweight": 6
   },
   {
     "v1folder": "utility-connectors",
@@ -6701,7 +6701,7 @@
     "menuidentifier": "generic-form",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 6
+    "menuweight": 4
   },
   {
     "v1folder": "utility-connectors",
@@ -6717,7 +6717,7 @@
     "menuidentifier": "generic-file",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 7
+    "menuweight": 5
   },
   {
     "v1folder": "utility-connectors",
@@ -6733,7 +6733,7 @@
     "menuidentifier": "cyclr-tools",
     "menuicon": null,
     "menutoggleonly": null,
-    "menuweight": 9
+    "menuweight": 7
   },
   {
     "v1folder": "utility-connectors",

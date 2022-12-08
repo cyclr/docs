@@ -7,7 +7,7 @@ menus:
     launch:
         title: Customize appearance
         identifier: customising-launch
-        weight: 6
+        weight: 5
 ---
 
 To view an instance of LAUNCH from within the Cyclr Console, go to:

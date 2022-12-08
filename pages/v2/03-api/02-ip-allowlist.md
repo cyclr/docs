@@ -8,7 +8,7 @@ menus:
     api:
         title: Cyclr IP allowlist
         identifier: cyclr-ip-allowlist
-        weight: 2
+        weight: 1
 ---
 
 If you are setting up a Connector that requires an IP to be allowed, you can find the addresses that Cyclr *sends* API requests from below.

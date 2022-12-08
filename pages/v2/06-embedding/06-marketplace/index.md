@@ -10,6 +10,7 @@ menus:
   embedding:
     title: Marketplaces
     identifier: marketplace
+    weight: 5
 ---
 ## Marketplaces
 

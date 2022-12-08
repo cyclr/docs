@@ -8,6 +8,7 @@ menus:
     templates:
         title: Connectors
         identifier: installing-connectors
+        weight: 2
 ---
 ## Basics
 

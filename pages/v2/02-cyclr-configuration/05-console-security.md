@@ -8,6 +8,7 @@ menus:
     cyclr-configuration:
         title: Security settings
         identifier: console-security
+        weight: 5
 ---
 
 ## Console Administrators

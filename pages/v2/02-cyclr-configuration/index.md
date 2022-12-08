@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Cyclr console configuration
     identifier: cyclr-configuration
+    icon: navsettings
+    weight: 2
 ---
 ## Cyclr console configuration
 

@@ -10,6 +10,7 @@ menus:
   embedding:
     title: LAUNCH
     identifier: launch
+    weight: 4
 ---
 ## LAUNCH
 

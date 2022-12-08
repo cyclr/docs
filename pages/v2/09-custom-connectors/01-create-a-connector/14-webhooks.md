@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: auto-installing-webhooks
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Auto install webhooks
         identifier: auto-installing-webhooks
         weight: 13

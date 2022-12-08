@@ -8,6 +8,7 @@ menus:
     cyclr-configuration:
         title: Appearance settings
         identifier: console-general-settings
+        weight: 1
 ---
 
 | Option | Documentation |

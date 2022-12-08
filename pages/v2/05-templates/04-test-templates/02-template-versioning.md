@@ -9,6 +9,7 @@ menus:
     test-templates:
         title: Template versioning
         identifier: integration-template-versioning
+        weight: 2
 ---
 
 To help you and your team organise and iterate your integrations we have introduced integration template versioning to the Cyclr Console.

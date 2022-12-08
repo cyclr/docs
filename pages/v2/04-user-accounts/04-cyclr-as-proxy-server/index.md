@@ -10,6 +10,7 @@ menus:
   user-accounts:
     title: Cylr as proxy server
     identifier: cylr-as-proxy-server
+    weight: 4
 ---
 ## Cylr as proxy server
 

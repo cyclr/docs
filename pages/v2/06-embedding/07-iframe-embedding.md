@@ -7,6 +7,7 @@ menus:
     embedding:
         title: Embed Cyclr in an iframe
         identifier: iframe-embedding
+        weight: 6
 ---
 
 To embed Cyclr in an iframe within your own application, you will need to take the following steps:

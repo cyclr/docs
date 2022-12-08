@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: API
     identifier: api
+    icon: navsettings
+    weight: 3
 ---
 ## API
 

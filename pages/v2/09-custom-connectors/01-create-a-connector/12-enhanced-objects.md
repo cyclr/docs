@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: enhanced-objects
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Enhanced objects
         identifier: enhanced-objects
         weight: 11

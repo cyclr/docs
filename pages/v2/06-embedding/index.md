@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Embed cycles into an app
     identifier: embedding
+    icon: navsettings
+    weight: 6
 ---
 ## Embed cycles into an app
 

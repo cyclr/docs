@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Create a custom connector
     identifier: custom-connectors
+    icon: navsettings
+    weight: 8
 ---
 ## Create a custom connector
 

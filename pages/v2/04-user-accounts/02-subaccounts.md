@@ -8,6 +8,7 @@ menus:
     user-accounts:
         title: Sub accounts
         identifier: sub-accounts
+        weight: 2
 ---
 
 Within a Cyclr Account, it's possible to set up **Sub Accounts**.

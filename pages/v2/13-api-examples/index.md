@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: API examples
     identifier: api-examples
+    icon: navsettings
+    weight: 12
 ---
 ## API examples
 

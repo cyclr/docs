@@ -10,6 +10,7 @@ menus:
   utility-connectors:
     title: Data storage
     identifier: data-storage
+    weight: 3
 ---
 ## Data storage
 

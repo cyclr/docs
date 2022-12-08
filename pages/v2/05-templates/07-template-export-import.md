@@ -9,6 +9,7 @@ menus:
     templates:
         title: Template import and export
         identifier: template-export-import
+        weight: 6
 ---
 
 You can export templates from one Cyclr instance and import them to another. This allows you to keep templates in sync if you have Cyclr instances in multiple regions.

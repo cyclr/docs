@@ -7,6 +7,7 @@ menus:
     test-templates:
         title: Test a template
         identifier: testing-a-template
+        weight: 1
 ---
 
 ## Testing Steps

@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Application connector guides
     identifier: application-connectors
+    icon: navsettings
+    weight: 10
 ---
 ## Application connector guides
 

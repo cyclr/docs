@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Utility connectors
     identifier: utility-connectors
+    icon: navsettings
+    weight: 9
 ---
 ## Utility connectors
 

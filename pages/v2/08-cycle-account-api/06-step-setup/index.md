@@ -10,6 +10,7 @@ menus:
   cycle-account-api:
     title: Step set up
     identifier: api-step-setup
+    weight: 6
 ---
 ## Step set up
 

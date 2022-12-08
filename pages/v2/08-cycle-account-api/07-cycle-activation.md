@@ -7,6 +7,7 @@ menus:
     cycle-account-api:
         title: Cycle activation
         identifier: cycle-activation
+        weight: 7
 ---
 
 _**When a cycle is installed in an account they are in a Paused state and must be activated to before any step requests will be processed.**_

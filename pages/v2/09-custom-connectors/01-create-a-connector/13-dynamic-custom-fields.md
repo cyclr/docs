@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: dynamic-custom-fields
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Custom fields
         identifier: dynamic-custom-fields
         weight: 12

@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Performance tips
         identifier: performance-tips
+        weight: 6
 ---
 
 The following tips may improve the performance of your integrations:

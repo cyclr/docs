@@ -6,7 +6,7 @@ keywords: action_data
 redirect_from: "/custom-connector-scripting/"
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Scripts
         identifier: connector-scripting
         weight: 7

@@ -7,6 +7,7 @@ menus:
     cycle-account-api:
         title: Cycle prerequisites
         identifier: get-cycle-prerequisites
+        weight: 5
 ---
 
 **_A Cycle installed in an Account from a Template may have prerequisites that need to be fulfilled before the Cycle can be activated._**

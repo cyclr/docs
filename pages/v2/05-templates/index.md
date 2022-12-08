@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Create cycle templates
     identifier: templates
+    icon: navsettings
+    weight: 5
 ---
 ## Create cycle templates
 

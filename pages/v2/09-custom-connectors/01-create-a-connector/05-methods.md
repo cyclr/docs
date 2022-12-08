@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-methods
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Methods
         identifier: connector-methods
         weight: 4

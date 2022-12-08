@@ -7,7 +7,7 @@ menus:
     launch:
         title: Deploy LAUNCH
         identifier: launch-deployment
-        weight: 4
+        weight: 6
 ---
 
 ## Overview

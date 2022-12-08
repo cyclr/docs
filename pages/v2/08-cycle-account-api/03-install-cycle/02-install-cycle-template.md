@@ -7,6 +7,7 @@ menus:
     api-install-cycle:
         title: Install a cycle
         identifier: install-from-template
+        weight: 2
 ---
 
 A Cycle is an instance of a template you install within an account.

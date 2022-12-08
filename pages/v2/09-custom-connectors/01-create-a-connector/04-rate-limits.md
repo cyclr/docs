@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-rate-limits
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Rate limits
         identifier: connector-rate-limits
         weight: 3

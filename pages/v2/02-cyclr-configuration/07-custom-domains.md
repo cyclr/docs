@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Custom service domains
         identifier: custom-domains
+        weight: 7
 ---
 
 ### Using your own domain as a Cyclr Service Domain

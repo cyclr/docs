@@ -10,6 +10,8 @@ menus:
   mainmenu:
     title: Cyclr
     identifier: managing-cyclr
+    icon: navsettings
+    weight: 1
 ---
 ## Cyclr
 

@@ -7,7 +7,7 @@ menus:
     api:
         title: Test Cyclr APIs
         identifier: testing-cyclr-api
-        weight: 4
+        weight: 3
 ---
 
 Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.

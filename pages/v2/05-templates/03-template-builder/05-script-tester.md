@@ -4,9 +4,10 @@ sidebar: cyclr_sidebar
 permalink: script-tester
 tags: [templates]
 menus:
-    template-creation:
+    template-builder:
         title: Test scripts
         identifier: script-tester
+        weight: 5
 ---
 
 If you need to test some javascript outside of your cycle, you can do so with the **Script Testing** Tool.

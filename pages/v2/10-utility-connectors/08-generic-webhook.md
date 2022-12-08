@@ -8,7 +8,7 @@ menus:
     utility-connectors:
         title: Generic Webhook
         identifier: generic-webhook
-        weight: 8
+        weight: 6
 ---
 
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.

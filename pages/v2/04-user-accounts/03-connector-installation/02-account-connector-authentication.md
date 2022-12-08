@@ -7,6 +7,7 @@ menus:
     connector-installation:
         title: Authenticate connectors
         identifier: authenticate-account-connector
+        weight: 2
 ---
 
 _**Your users will be required to provide authentication information before Cycles can be run.**_

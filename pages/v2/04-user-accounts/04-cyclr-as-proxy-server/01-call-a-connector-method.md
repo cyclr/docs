@@ -7,6 +7,7 @@ menus:
     cylr-as-proxy-server:
         title: Call a connector method
         identifier: call-a-connector-method
+        weight: 1
 ---
 
 ### Introduction

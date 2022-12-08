@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-paging
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Paging
         identifier: connector-paging
         weight: 10

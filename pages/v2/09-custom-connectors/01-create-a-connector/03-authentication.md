@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-authentication
 tags: [connector-creation]
 menus:
-    custom-connector-api:
+    create-a-connector:
         title: Authentication
         identifier: connector-authentication
         weight: 2

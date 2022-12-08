@@ -7,6 +7,7 @@ menus:
     embedding:
         title: Install a partner connector
         identifier: partner-connector
+        weight: 3
 ---
 
 ## What is a Partner Connector?
