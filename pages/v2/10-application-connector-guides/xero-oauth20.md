@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: xero-oauth2
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Xero (OAuth2.0)
 
 ## Partner Setup
@@ -64,3 +65,5 @@ At this point it would be a good idea to install a Connector and run a test agai
 ### Payroll Sections
 Xero has separate APIs for the Australian, UK and New Zealand markets so we have different payroll Methods within the connector to support them. You need to ensure that the client only uses the payroll section related to their login.  All other sections are common.
 i.e. If the users system payroll is Australia they should only use the payroll methods under the Payroll - AU Section.
+
+</section>

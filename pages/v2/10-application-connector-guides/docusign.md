@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: docusign-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Docusign Setup
 ---------------
 
@@ -37,3 +38,5 @@ The Connector now can be installed using the credentials obtained in the above s
 **Scopes** (This is optional) Leave blank or you can reduce the scopes depending on the methods you require for interations. A space-separated list. Full list of scopes are [here](https://developers.docusign.com/platform/auth/reference/scopes/):  
 
 You will then be prompted to log in, select your Hubspot and authorize access to the connector.
+
+</section>

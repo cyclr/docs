@@ -13,7 +13,6 @@ menus:
     icon: navsettings
     weight: 4
 ---
-## User accounts
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.user-accounts %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

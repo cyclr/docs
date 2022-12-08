@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: okta-connector
 tags: [okta,connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To set up the Okta Connector, your user will need an **API token**.
 
 To create an API token they will need follow these steps:
@@ -18,3 +19,5 @@ To create an API token they will need follow these steps:
 The token can then be used to authenticate the Okta Connector within Cyclr.
 
 For more information see MyDocSafe's official documentation: https://api-doc.mydocsafe.com/
+
+</section>

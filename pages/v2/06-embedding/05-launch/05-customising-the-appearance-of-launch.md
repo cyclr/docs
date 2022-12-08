@@ -9,7 +9,8 @@ menus:
         identifier: customising-launch
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To view an instance of LAUNCH from within the Cyclr Console, go to:
 
 Click **Guide** > Click the **Show** button under Integrate with your App > Click the **Try LAUNCH** button for an instance to appear as a pop up with any integration templates you’ve published.
@@ -104,3 +105,5 @@ By wrapping your message in a custom Div you can add stylings to the “**Applic
 This section allows you to display a message to your user once they have successfully installed an integration template.
 
 Design your message and HTML and paste it in this box (in “**Appearance Settings**”), making sure you add any CSS definitions in the **Application Custom CSS** code block.
+
+</section>

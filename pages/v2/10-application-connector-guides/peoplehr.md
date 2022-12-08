@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: peoplehr
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup ##
 
 This document will explain what is needed to setup access to PeopleHR and install the connector.
@@ -21,3 +22,5 @@ Within PeopleHR configure the API Key:
 ### Connector Setup ### 
  * In the connector setup enter the API key obtained above.
 
+
+</section>

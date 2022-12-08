@@ -13,7 +13,6 @@ menus:
     icon: navsettings
     weight: 10
 ---
-## Application connector guides
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.connector-guides %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

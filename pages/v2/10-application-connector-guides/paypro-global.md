@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: paypro-global-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # PayPro Global
 
 ## Setup
@@ -18,3 +19,5 @@ Your Vendor ID can be found by going to https://cc.payproglobal.com/AccountSetti
 It will be listed as your "PayPro account ID". 
 
 You can then use the API secret key and Vendor ID to authenticate the connector. 
+
+</section>

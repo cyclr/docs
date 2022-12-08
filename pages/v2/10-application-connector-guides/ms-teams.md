@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: microsoft-teams-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 **Many of the Microsoft Teams endpoints are protected, due to them handling sensitive data. This requires you to apply for permission to use them from Microsoft via [this request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). 
@@ -89,3 +90,5 @@ Enter the following values:
 **Tenant ID**: This is the Directory ID found below the Client ID in the portal
 
 Your Microsoft Teams Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

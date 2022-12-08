@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: lianacms-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 ### API Key
@@ -38,3 +39,5 @@ Your API key will be shown on the next page.
 4. Enter your API Key and click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

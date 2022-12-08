@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: m3ter-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # M3ter setup
 
 You need to do the following to setup the M3ter connector:
@@ -53,3 +54,5 @@ You will be asked for the following values when installing the M3ter connector w
 | **API Secret**      | The API Secret of your M3ter account. If you did not enter this in step 5 above. |
 | **Environment**     | The M3ter environment to use.                                |
 | **Organisation ID** | The M3ter organization ID of  the organization to access.    |
+
+</section>

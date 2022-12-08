@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: stripe-oauth-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Partner setup
 
 ### Retrieving client ID
@@ -54,3 +55,5 @@ You will be asked for the following values when installing the **Stripe (OAuth)*
 | ----------------- | ------------------------------------------------------------------------------------ |
 | **Client ID**     | The client ID of your Stripe account, if you did not enter this in step 5 above.     |
 | **Client Secret** | The client secret of your Stripe account, if you did not enter this in step 5 above. |
+
+</section>

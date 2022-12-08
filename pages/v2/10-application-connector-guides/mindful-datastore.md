@@ -5,11 +5,15 @@ permalink: mindful-datastore-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Mindful Datastore setup
 
 To set up the Mindful Datastore connector to use in Cyclr, you need to get your API key. If you need more information, contact the Mindful support team.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 To set up the Mindful Datastore connector in Cyclr:
@@ -26,6 +30,9 @@ To set up the Mindful Datastore connector in Cyclr:
 
 6. Select **Save Changes**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Custom Fields
@@ -57,3 +64,5 @@ When you set up a custom object it creates a new method category with the parame
 5. Select **Copy**.
 
 A new custom object category will have been created with the specified contact number. **Get Data Set** can now be run from within this category with all dataset fields mapped automatically.
+
+</section>

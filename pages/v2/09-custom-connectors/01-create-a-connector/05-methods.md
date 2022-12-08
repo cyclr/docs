@@ -9,7 +9,8 @@ menus:
         identifier: connector-methods
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Settings
 
 These are descriptions of the API endpoints in a standard format.
@@ -41,10 +42,16 @@ Connector naming conventions.
 | Delete (ObjectNameSingular) | Used when the method deletes an object. |
 | Update (ObjectNameSingular) | Used when the method updates an object. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Rate Limits
 
 You can specify rate limits that apply to this method alone.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Request Format / Response Format
 
 Here you specify the request or response message format Fields. Note that if these are generated from a sample payload using the Generate Fields button, you will first need to select a Data Type (JSON, XML etc).
@@ -59,10 +66,16 @@ Here you specify the request or response message format Fields. Note that if the
 | Data Type | Options are: Text, Integer, Float, Boolean, DateTime, File, Decimal.  If the type is DateTime then a Format can be entered to specify the format.  Read more about [data types](./data-types) | |
 | Default Value | | |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Parameters
 
 You can specify Parameters specific to this method. Read more about [parameters](./connector-parameters)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Script
 
 You can add script to the connector to handle special situations. Read more about [scripting](./connector-scripting)
@@ -70,7 +83,12 @@ You can add script to the connector to handle special situations. Read more abou
 #### Script Method Type
 The script method type can be used for methods that do not make an external API call (e.g. static data), or where requests will need to be handled entirely by the script engine.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Mergefields
 
 Mergefields are placeholders that will be substituted at runtime.
   * LastSuccessfulRunDate – is the last time a Step successfully ran. This is useful to find newly created or updated records in an app. A format string needs to be provided. For example, _{% raw %}{{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ}}{% endraw %}_.
+
+</section>

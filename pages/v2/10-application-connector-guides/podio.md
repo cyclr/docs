@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: podio-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 ### Podio Interface
@@ -32,6 +33,9 @@ The connector is now authenticated and ready to use.
 
 > It may be the case that you require access to multiple Apps within one Podio account. Our tests have shown that authenticating the connector with one Client ID and Client Secret should give full functionality to the connector across all methods.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 ### Obtaining the App ID
@@ -51,3 +55,5 @@ The connector includes a method 'List Apps' which you can use to find the ID of 
 For most of the actions included in this connector Podio imposes a rate limit of 250 calls per hour. As a result calls (including each page request) are staggered at 15 second intervals.
 
 The maximum page size supported by Podio is 500 objects. If the response to your request contains less than 500 objects you should not experience any delay.
+
+</section>

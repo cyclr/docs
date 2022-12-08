@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: zendesk-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Zendesk setup
 
 The Zendesk connector supports authentication with the following pairs of credentials:
@@ -63,3 +64,5 @@ To add the new Zendesk webhooks to a cycle:
 3. Connect the webhook back to the cycle.
 4. Click **Step setup** for each step within the cycle and check for invalid mappings. Fix as required.
 5. Click **Run** to restart the cycle. This automatically adds webhooks and triggers associated with the webhook to Zendesk.
+
+</section>

@@ -10,7 +10,8 @@ menus:
         identifier: collection-splitting
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Collection Splitting can be used when you don't want a list of data to move through your Cycle in a single Transaction.  If you do, then you can disable Collection Splitting.
 
 Splitting a list into separate items results in each item moving through a Cycle in its own Transaction.
@@ -59,3 +60,5 @@ If mapping from more than one list of data on a Step, Cyclr may automatically di
 These indicate that Cyclr needs help identifying how your lists relate to each other.
 
 If there isn't a field (e.g. an email address or customerId) that connects the lists sources, or one or more of your lists contain items that match multiple items in another list, you may need to split your data when retrieving it earlier in the Cycle.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: vincere-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Vincere Setup
 ---------------
 
@@ -62,3 +63,5 @@ When using List methods such as "List New Candidate Records", make sure to inclu
    ![custom fields for list methods](./images/vincere_custom_fields_2.png)
    
 A guide for adding custom fields to a method can be found [here](https://docs.cyclr.com/adding-custom-fields).
+
+</section>

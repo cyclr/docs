@@ -9,6 +9,8 @@ menus:
         identifier: auto-installing-webhooks
         weight: 13
 ---
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Automatically Installing Webhooks via API Calls
 
 When an API supports setting up a webhook, this is often the best option to choose, as it allows the user to create webhooks without having to leave Cyclr.
@@ -57,3 +59,5 @@ Under *Settings* in the method, select Webhook as the *Method Type*, and set bot
 ![](./images/webhook_example_settings.PNG)
 
 When creating the field mappings for your webhook, the only ones to populate should be *Request Format*. In here you should generate mappings for the data that will be posted to the webhook.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: bigquery
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Google BigQuery ##
 
 This document will explain what is needed to setup access to Google Big Query and install the connector.
@@ -77,3 +78,5 @@ Enter in the email of the user. Choose which permissions to give the user, such 
 Click "Add" 
 
 For reference: [IAM access.](https://cloud.google.com/bigquery/docs/access-control)
+
+</section>

@@ -5,7 +5,8 @@ permalink: oss-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # OSS setup
 To authenticate the OSS connector, you will need a valid `X-Token` and base `URL`.
 To obtain these, please follow the steps below:
@@ -18,3 +19,5 @@ Copy the provided `X-Token`, and enter this into your connector set-up.
 Next, copy the desired `URL`, and enter this into the connector set-up too.
 
 Your OSS Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+</section>

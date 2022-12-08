@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: pipedrive-oauth-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Partner Setup
 -------------
 Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. You must register Cyclr within Pipedrive as its own App to receive a Client ID and Client Secret. This enables Cyclr to authenticate and connect with Pipedrive.
@@ -45,3 +46,5 @@ Create a new App and obtain the Client ID and Client Secret using the steps belo
 <h2>Pipedrive and Contact Form 7 Integration</h2><p>Getting Contact Form 7 to work with your Pipedrive CRM has been a pain for a long time, so you’ll be please to see that you can connect the two with Cyclr.</p><h3>Why Integrate Contact Form 7 and Pipedrive?</h3><p>Contact Form 7 is still one of the most popular form building applications around. While it’s name suggest it is just for contact forms, it has many usages when combined with Pipedrive, including:</p><ul><li>Adding new website enquiries directly into your CRM</li><li>Creating new deals direct from forms</li><li>Managing helpdesk enquiries</li><li>Passing user registration data across your company’s application stack</li></ul><p>Take a look at our video tutorial to find out how to get it set up.</p><p>&nbsp;</p><p></p><center><iframe width="500" height="281" src="https://www.youtube.com/embed/G8gVVAeNB8Q?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center><p></p>
 
 <h2>Automatically Add New Users to your CRM</h2><p>Cyclr lets you integrate Pipedrive with Intercom, so you can add and update user data within your CRM automatically.</p><p>Cyclr’s Intercom connector contains a range of webhooks that can be triggered when an event criteria in Intercom is met. Take a look at the video guide below to see how you can set it up.</p><p></p><center><br> <iframe width="500" height="281" src="https://www.youtube.com/embed/nvwAfTPC6Ak?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center><p></p>
+
+</section>

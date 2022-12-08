@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: voucherify-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Voucherify account or [sign up for one.](https://app.voucherify.io/#/signup)
@@ -36,3 +37,5 @@ Enter the following values:
 
 
 Your Voucherify Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: gym-sales-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Cyclr Setup
 
 Setup your Gym Sales App within Cyclr:
@@ -23,3 +24,5 @@ Enter the following values:
 
 
 Your Gym Sales Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: counterpoint
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Counterpoint ##
 
 This document will explain what is needed to setup access to Counterpoint and install the connector.
@@ -19,3 +20,4 @@ In the connector setup enter your server URL and API Key. The server URL should 
 Now enter the company user login details. The username will start with the company name, followed by a period and then the username. For example: "{CompanyName}.{UserName}".
 
 More information about Authorization can be found [here](https://github.com/NCRCounterpointAPI/APIGuide/blob/master/Basics/Requests.md#authorization).
+</section>

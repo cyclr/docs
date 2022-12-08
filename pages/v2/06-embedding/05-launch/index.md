@@ -12,7 +12,6 @@ menus:
     identifier: launch
     weight: 4
 ---
-## LAUNCH
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.launch %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

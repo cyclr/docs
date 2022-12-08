@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: infusionsoft-connector
 tags: [Connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 ### Obtaining Authentication Credentials
@@ -74,3 +75,5 @@ When entering a State or Country code it is advised that you use our Lookup feat
 ![keap portal](./images/infusionsoft_8.png)
 
 ![keap portal](./images/infusionsoft_9.png)
+
+</section>

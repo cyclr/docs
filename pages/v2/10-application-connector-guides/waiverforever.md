@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: waiverforever-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # WaiverForever setup
 
 To authenticate the WaiverForever connector, you will need a valid `API Key`.
@@ -22,3 +23,5 @@ Copy the newly generated `API Key`, and enter this into your connector set-up.
 
 
 Your WaiverForever Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+</section>

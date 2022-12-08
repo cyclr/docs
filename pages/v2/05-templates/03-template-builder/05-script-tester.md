@@ -9,7 +9,8 @@ menus:
         identifier: script-tester
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 If you need to test some javascript outside of your cycle, you can do so with the **Script Testing** Tool.
 
 This can be found in your **Console**, under the **Connectors** menu. 
@@ -32,3 +33,5 @@ This might be a request from a method you wish to call, or the response from sai
     ![Example Script Test](./images/example-script-test.png)
 
 For more on scripting, see [Connector Scripting](https://docs.cyclr.com/connector-scripting)
+
+</section>

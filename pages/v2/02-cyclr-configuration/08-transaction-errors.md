@@ -9,7 +9,8 @@ menus:
         identifier: transaction-error-webhook
         weight: 8
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Cyclr can be configured to make an HTTP Request if an error occurs in a running Cycle as a way of alerting you or your support staff.
 
 This is performed as an HTTP POST Request to a URL you specify and contains JSON structured data in its Request Body..
@@ -60,3 +61,5 @@ If there are specific errors you wish to handle, you may need to force them to o
     "Detail": "404 Item not found\r\n{\"Code\":200,\"Message\":\"Item not found\"}\r\n\r\n\r\nHTTP Request:\r\nGET https://someapi.com/getitems/myID/ HTTP/1.1\r\nAccept: application/json\r\nApiKey:\r\nUser-Agent: Cyclr\r\nUser-Agent: (https://cyclr.com)"
 }
 ```
+
+</section>

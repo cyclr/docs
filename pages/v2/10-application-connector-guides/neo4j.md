@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: neo4j-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Neo4j Connector
 
 You need the following details to setup the **Neo4j** connector in Cyclr:
@@ -68,3 +69,4 @@ When creating a new 'Custom Object (Node)' category, instead of selecting one of
 
 Once created, you can add custom properties to this new Node type using the previous section of this guide.
   
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: tripleseat
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Login / Sign Up
@@ -34,3 +35,5 @@ Enter the following values:
 **Consumer Secret**: Also from the **Retrieving API Key Details** section of this guide.
 
 Your Tripleseat Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

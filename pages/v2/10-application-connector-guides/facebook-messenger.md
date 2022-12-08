@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: facebook-messenger-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Facebook Messenger API #
 
 
@@ -92,3 +93,5 @@ If your application has not been approved by Facebook, the only users that will 
 Official Facebook Documentation
 ---------
 [https://developers.facebook.com/docs/apps/register](https://developers.facebook.com/docs/apps/register)
+
+</section>

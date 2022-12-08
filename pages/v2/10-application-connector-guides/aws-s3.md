@@ -5,7 +5,8 @@ permalink: s3-connector
 keywords: s3
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Important Note about Bucket Names
 
 Due to limitations in the Amazon S3 API, it's not possible to access a bucket's contents if its name contains a period (.)
@@ -41,3 +42,5 @@ Enter the following values:
 
 
 Your Amazon S3 Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

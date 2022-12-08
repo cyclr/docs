@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: office-365-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Microsoft Office 365 uses OAuth 2.0. Please sign up for an application on Microsoft first and get an OAuth client ID, client secret.
 
 ### Azure Active Directory OAuth Application
@@ -71,3 +72,5 @@ Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Applicati
 
 You are now ready to install the Connector.  When you do so you will need the **Tenant ID**.  This is the Directory ID found below the **Client ID** in the portal.
 
+
+</section>

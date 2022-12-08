@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: twiliovoice
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Twilio Voice #
 
 ## Partner Setup ##
@@ -25,3 +26,5 @@ In the connector setup enter the "Account SID" as the username, and the "Auth To
 2. Set the "Call Status Changes" to the Cyclr webhook URL.
 
 Cyclr will now recieve any incoming or outgoing calls made to or from this Twilio phone number through the webhook.
+
+</section>

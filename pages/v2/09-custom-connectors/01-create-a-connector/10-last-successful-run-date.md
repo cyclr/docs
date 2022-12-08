@@ -10,7 +10,8 @@ menus:
         identifier: last-successful-run-date
         weight: 9
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Last Successful Run Date
 
 If you have a need for a method that only pulls the latest information, you're going to want to use Cyclr's **Last Successful Run Date** functionality.
@@ -46,3 +47,5 @@ Clicking Step Test will use whatever date is in the picker, so 1970-01-01T00:00:
 #### Accessing Last Successful Run Date in script
 
 Last Successful Run Date can be accessed in ``before_action`` functions by making reference to ``last_successful_run_date``.
+
+</section>

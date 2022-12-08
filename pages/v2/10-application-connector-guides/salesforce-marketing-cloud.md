@@ -4,11 +4,15 @@ sidebar: cyclr_sidebar
 permalink: salesforce-marketing-cloud-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 Please refer to [this document](https://docs.cyclr.com/salesforce-connector) for a guide to authenticating Salesforce connectors.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Upsert Custom Data Extension Rows
 
 The Salesforce Marketing Cloud connector gives you have the ability to Upsert (create or update) a batch of data extension rows.
@@ -103,3 +107,5 @@ If adding fields manually, for Field Location:
 **Valid** - property has parent array
 
 > [].keys.EmailAddress
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: payjunction
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup ##
 
 This document will explain what is needed to setup access to PayJunction and install the connector.
@@ -20,3 +21,5 @@ There are multiple steps in the connection setup:
     2. https://api.payjunction.com for production environment.
 2. Enter the PayJunction application key.
 3. Enter your PayJunction username and password. 
+
+</section>

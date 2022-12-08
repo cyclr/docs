@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: heartland
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Heartland #
 
 ## Partner Setup ##
@@ -18,3 +19,4 @@ This document will explain what is needed to setup access to Heartland and insta
 
 ### Connector Setup ### 
 In the connector setup enter the "Secret Key" in the API Key area.
+</section>

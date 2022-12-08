@@ -5,7 +5,8 @@ permalink: github-authentication
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To use the GitHub connector you will need to set up an app within GitHub, to obtain a Client ID and Client Secret.
 
 ## Setting up your GitHub app
@@ -33,3 +34,5 @@ To use the GitHub connector you will need to set up an app within GitHub, to obt
 3. In the next screen, enter your GitHub Client ID and Client Secret and `Save Changes`.
 
 4. Your GitHub connector is now set up, and you won't need to enter this information again when authenticating the connector.
+
+</section>

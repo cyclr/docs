@@ -9,11 +9,15 @@ menus:
         identifier: connector-settings
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Custom Connectors
 
 With certain Cyclr price plans, it is possible to create Custom Connectors.  These connectors are private to the Partner Organisation that created them.  
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Basics
 
 A connector may have various Releases.  When you add a new connector only certain basic naming details are entered.  The main details of the specification of the connector are provided at the connector release level.  A connector can have only one 'live' release and there may be previous deprecated versions.
@@ -22,6 +26,9 @@ There may also be a 'draft' release which is a pending update or extension to th
 
 When a release is pushed live this might be done as a Major release which will cause an 'update available' message to appear on all Steps in templates and live integrations using the connector.  A Major release should generally be used when existing methods need to be updated.  A Minor release can be used when there are no changes being made (or only very minor ones) to existing methods, or when new methods are being added.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Settings
 
 | Property | Description | Recommended Standards |
@@ -31,6 +38,9 @@ When a release is pushed live this might be done as a Major release which will c
 | API Version | Version should be the same as the API's version.| |
 | Icon | The logo that will be used to represent the application. | 400x400 pixel PNG image with a transparent background. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Release Settings
 
 | Property | Description | Recommended Standards |
@@ -44,7 +54,12 @@ When a release is pushed live this might be done as a Major release which will c
 | User Singular Partner Webhook URL? | For specific cases where individual webhook URLs are not appropriate. | Speak to the support team if you would like more information on this setting. |
 | Icon | The logo that will be used to represent the application. | 400x400 pixel PNG image with a transparent background. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 [Paging](./connector-paging)  
 
+
+</section>

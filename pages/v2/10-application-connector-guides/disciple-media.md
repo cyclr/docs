@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: disciple-media-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Disciple Media account or [sign up for one.](https://www.disciplemedia.com/pricing/)
@@ -43,3 +44,5 @@ Webhook requests undergo a validation check before being accepted. Make sure you
 ![disciple webhook setup](./images/disciple_webhook_1.png)
 
 ![connector setup](./images/disciple_webhook_2.png)
+
+</section>

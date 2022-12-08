@@ -9,7 +9,8 @@ menus:
         identifier: authenticate-account-connector
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**Your users will be required to provide authentication information before Cycles can be run.**_
 
 Cyclr supports three types of connector authentication:
@@ -78,3 +79,5 @@ The Account Connector should now be ready to authenticate.
 [API Key Authentication](./api-key-authentication)  
 [HTTP Basic Authentication](./basic-authentication)  
 [OAuth Authentication](./oauth-authentication)
+
+</section>

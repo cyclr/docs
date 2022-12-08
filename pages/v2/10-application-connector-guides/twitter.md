@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: twitter-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Obtaining Authentication Credentials
 
 To authenticate the Twitter connector you will need a Twitter developer account and to have created a developer app.
@@ -27,6 +28,9 @@ To summarize:
 
 7. Make a note of the API Key and Secret (also known as Consumer Key and Secret) as these are what you will need to authenticate the connector
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Setup
 
 1. Locate the Twitter connector
@@ -40,3 +44,5 @@ To summarize:
 4. You will be presented with a twitter login modal. Log in and authorise the connector's access
 
 You will then be redirected to Cyclr where the connector is now authenticated and ready to use.
+
+</section>

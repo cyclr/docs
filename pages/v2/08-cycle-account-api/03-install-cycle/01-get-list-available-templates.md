@@ -9,7 +9,8 @@ menus:
         identifier: list-available-templates
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**Templates are integrations built by you in the Console’s drag-and-drop builder, they can be installed in your end user’s account. Your app would present a list or library of available templates to your end users.**_
 
 Retrieve a list of all public templates within the Partner console.
@@ -49,3 +50,5 @@ Response:
 ````
 
 [How to Install a Template](./install-from-template)
+
+</section>

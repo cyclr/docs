@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sap_successfactors
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 The SAP SuccessFactors connector is currently a beta connector.
 
 ## Partner Setup
@@ -40,3 +41,5 @@ Enter the required values, as found above in previous section.
 
 Your SAP SuccessFactors Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>

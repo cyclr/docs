@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: azure-devops-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 For reference, Microsoft's full Azure DevOps Authentication documentation can be found [here](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops).
 
 The **Microsoft Azure DevOps** Connector is authenticated using OAuth2.0.
@@ -79,3 +80,5 @@ The Connector is now authenticated and ready for use.
 The list of permissions you set for the **Scopes** Connector parameter must *exactly* match the **Authorized scopes** you set when registering your App at [https://app.vsaex.visualstudio.com/app/register](https://app.vsaex.visualstudio.com/app/register).
 
 If they are different you will see an `InvalidScope` error when authenticating the Connector.
+
+</section>

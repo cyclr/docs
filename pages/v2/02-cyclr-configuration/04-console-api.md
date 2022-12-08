@@ -10,7 +10,8 @@ menus:
         identifier: console-api
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## OAuth Client Credentials
 
 ### Password Grant Client ID
@@ -28,3 +29,5 @@ Here you're able to generate up to 5 unique pairs of Client IDs and Secrets. Cli
 The access token represents the authorization of a specific application to access specific parts of a user’s data.
 This section lists each time an Access Token has been generated for use with the API along with the Client ID which was used to generate it, the account by which it was generated, the expiry date, and the ability to revoke active access tokens.
  
+
+</section>

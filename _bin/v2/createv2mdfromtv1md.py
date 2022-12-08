@@ -24,7 +24,11 @@ sourcefolderfull = os.path.join(os.path.dirname(__file__), sourcefolder)
 targetfolderfull = os.path.join(os.path.dirname(__file__), targetfolder)
 templatemdfile = os.path.join(os.path.dirname(__file__), './assets/templatefrontmattermenus.md')
 templateindexfile = os.path.join(os.path.dirname(__file__), './assets/templateindex.md')
-
+# temp content for category pages
+targethubfolder = '../../_data/v2/categoriesnew/'
+targethubfolderfull = os.path.join(os.path.dirname(__file__), targethubfolder)
+# h2 regex string 
+regexh2 = "^##[\s]"
 with open(templatemdfile,'r') as menufile:
     menulines = [menuline for menuline in menufile]
 menufile.close()
@@ -44,10 +48,14 @@ jsonfilename_full = os.path.join(os.path.dirname(__file__), jsonfilename)
 # open and read json file
 with open(jsonfilename_full, 'r') as jsonfile:
     json_data = json.load(jsonfile)
+    targethubymlfile = ''
+    newhubfile = True
+    pagewithsections = False
     for item in json_data:
         if item['v1md'] is None:
             continue
         elif item['v1md'] == 'index':
+            pagewithsections = False
             # add folder if required
             if item['v2folder'] is not None:
                 targetmdfolder = item['v2folder']
@@ -95,9 +103,19 @@ with open(jsonfilename_full, 'r') as jsonfile:
                             if addline == True:
                                 toindexfile.write(newline)
                         toindexfile.close()
+                    # add the target hub yml file
+                    targethubymlfile=item['permalink']+".yml"
+                    targetmdfilefull = os.path.join(os.path.dirname(__file__), targethubfolderfull, targethubymlfile)
+                    if os.path.exists(targetmdfolderfull) == True:
+                        with open(targetmdfilefull,'a',encoding='utf-8') as tohubfile:
+                            tohubfile.write("title: "+item['menutitle']);
+                            tohubfile.write("\ntext: Placeholder content for category page");
+                            tohubfile.write("\nsections:\n");
+                        tohubfile.close()
         elif item['v2folder'] is None:
             continue
         else:
+            pagewithsections = True
             sourcemdfolder = item['v1folder']
             sourcemdfile = item['v1md']+".md"
             sourcefilefull = sourcefolderfull+sourcemdfolder+"/"+sourcemdfile
@@ -108,7 +126,7 @@ with open(jsonfilename_full, 'r') as jsonfile:
             # open files for current json item
             # print(sourcemdfile+" source for "+targetmdfile+"\n")
             if os.path.exists(targetmdfolderfull) == False:
-                print("mkdir "+targetmdfolderfull)
+                # print("mkdir "+targetmdfolderfull)
                 os.mkdir(targetmdfolderfull)  
             # check source file exists
             if os.path.exists(sourcefilefull) == True:
@@ -116,8 +134,26 @@ with open(jsonfilename_full, 'r') as jsonfile:
                     frontmatter = False
                     frontmattercomplete = False
                     iscontent = False
+                    # flags to determine HTML containers for the page content
+                    firstcontentline = True
+                    singlecard = True
                     for line in fromfile:
                         if frontmattercomplete == True:
+                            # add the html parse option
+                            if firstcontentline == True and len(line.strip()) == 0:
+                                continue
+                            elif firstcontentline == True:
+                                firstcontentline = False
+                                tofile.write('{::options parse_block_html="true" /}')
+                                tofile.write('\n<section class="card py-5 my-5">\n')
+                                if bool(re.search(regexh2, line)) == True:
+                                    print(" FOUND H2: "+line)
+                                    singlecard = False
+                            elif firstcontentline == False:
+                                if bool(re.search(regexh2, line)) == True and singlecard == False:
+                                    print(" FOUND H2: "+line)
+                                    tofile.write('\n</section>')
+                                    tofile.write('\n<section class="card py-5 my-5">\n')
                             newline = line
                             tofile.write(newline)
                         elif line.startswith("---") and frontmatter == False:
@@ -162,6 +198,8 @@ with open(jsonfilename_full, 'r') as jsonfile:
                         elif frontmatter == True and frontmattercomplete == False:
                             newline = line
                             tofile.write(newline)
+                    if pagewithsections == True:
+                        tofile.write('\n</section>\n')
                 # close files 
                 fromfile.close()
                 tofile.close()

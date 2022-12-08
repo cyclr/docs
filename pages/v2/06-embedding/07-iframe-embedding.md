@@ -9,7 +9,8 @@ menus:
         identifier: iframe-embedding
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To embed Cyclr in an iframe within your own application, you will need to take the following steps:
 
 1. Obtain an Access Token that enables you to make calls against the Cyclr API
@@ -113,3 +114,5 @@ Here's how the full URL may look once set in the HTML code of a page in your app
 You will need to check that iframe Embedding is turned ON in your Console under Settings > General Settings, and that you have added the domain hosting your application to the Host Source Whitelist.
 
 For security reasons, the page hosting the iframe must be served over HTTPS.
+
+</section>

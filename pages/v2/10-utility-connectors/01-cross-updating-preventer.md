@@ -9,7 +9,8 @@ menus:
         identifier: cross-updating-preventer
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 ## Purpose
@@ -88,3 +89,5 @@ Here we've arbitrarily decided that Salesforce is the "main" system so changes p
 
 The colored boxes and joining lines indicate how the Update OK and Store Data Steps work together: the **Update OK (Outbound)** Step checks the data stored by **Store Date (Inbound)**, and the **Update OK (Inbound)** Step checks the data stored by **Store Data (Outbound)**.
 
+
+</section>

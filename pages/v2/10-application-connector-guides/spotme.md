@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: spotme-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Setup
 
 ## Authentication Credentials
@@ -54,3 +55,5 @@ To authenticate the SpotMe connector you will need a Workspace ID and an API Key
 4. Enter your API Key and click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

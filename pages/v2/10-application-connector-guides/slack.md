@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: slack
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup ##
 
 Slack uses OAuth 2.0 for authentication so you must [register your Cyclr Partner with Slack](https://api.slack.com/apps) to obtain your **Client ID** and **Client Secret** values.
@@ -53,6 +54,9 @@ Now you can retrieve your **Client ID** and **Client Secret** values by going to
 
 Finally, in your **Cyclr Console** go to the **Connectors** menu, then **Connector Library** and set those values from the padlock button next to Slack.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Webhook setup
 
 The Slack Connector has webhooks for subscribing to **File Created** and **File Shared** Slack events. These are both able to use Cyclr's partner-level single URL webhook target. To implement either of these into your cycles, do the following:
@@ -89,3 +93,5 @@ In the cycle where you want to add the webhook:
 1. Drag the **File Created** or **File Shared** Slack webhook onto the cycle builder and connect as normal.
 
 You do not need to use the webhook URL from the webhook step as all requests will arrive there via the partner-level webhook URL you set up.
+
+</section>

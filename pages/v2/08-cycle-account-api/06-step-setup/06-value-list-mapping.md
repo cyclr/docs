@@ -9,7 +9,8 @@ menus:
         identifier: value-list-mapping
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 **_Fields within a step may contain a set of pre-defined values that can be selected from, returned in the “Values” array below:_**
 
 Request:
@@ -88,3 +89,4 @@ Response:
 [Static Value Field Mapping](./static-value-mapping)  
 [Field Mapping with Step Data](./field-mapping-with-step-data)  
 [Cycle Activation](./cycle-activation)
+</section>

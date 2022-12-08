@@ -9,7 +9,8 @@ menus:
         identifier: marketplace-webhook-callback
         weight: 3
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 When integrating with a Cyclr Marketplace you can specify a Webhook URL for Cyclr to send notifications to after your users have performed a Marketplace action.
 
 ## Setting Marketplace URL
@@ -75,3 +76,5 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
     "MarketplaceIntegrationPackageId": 1234
 }
 ````
+
+</section>

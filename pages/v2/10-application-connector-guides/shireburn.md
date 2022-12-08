@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: shireburn-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## API Keys
 
 The Shireburn connector is authenticated with two API Keys.
@@ -22,6 +23,9 @@ Once the state of your Payroll Standard subscription changes to 'Active' you wil
 
 > It can take several hours for your subscription to be activated. If necessary contact Shireburn support for assistance.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authenticate The Connector
 
 1. Locate the Shireburn connector
@@ -46,3 +50,5 @@ The connector is now authenticated and ready to use.
  4. Highlight and copy the code for your company
  
  5. Paste in the field below
+
+</section>

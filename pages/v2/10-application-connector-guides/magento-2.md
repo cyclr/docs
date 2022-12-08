@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: magento-2-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Magento 2 Setup
 
 <a name="api-key"></a>
@@ -23,6 +24,9 @@ To authenticate the connector, you need to create an API Key:
 
 ![](./images/integration-tokens.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr account setup
 
 Cyclr asks you for the below values when you install the Magento 2 connector into an account:
@@ -34,6 +38,9 @@ Cyclr asks you for the below values when you install the Magento 2 connector int
 
 > **Note**: You can use different details for different accounts.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Bulk endpoints
@@ -61,3 +68,5 @@ This creates a new custom object category with the specified method endpoint. Yo
 If you want to use webhooks with **Magento 2**, we have a dedicated **Magento 2 Webhooks** Connector and a plugin that you can install in your Magento 2 instance.
 
 For more information, see our [Magento 2 Webhooks connector](https://docs.cyclr.com/magento-2-webhooks-connector#magento-2-webhooks-setup) documentation.
+
+</section>

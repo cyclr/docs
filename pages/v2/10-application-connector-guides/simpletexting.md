@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: simpletexting-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="simpletexting-setup"></a>
 
 # SimpleTexting setup
@@ -38,3 +39,5 @@ You will be asked for the following values when installing the SimpleTexting con
 | Value   | Description                                                  |
 | ------- | :----------------------------------------------------------- |
 | API Key | The [API token](#get-an-api-token) associated with your SimpleTexting account. |
+
+</section>

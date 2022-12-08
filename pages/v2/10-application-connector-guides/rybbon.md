@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: rybbon-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 ### Obtaining Authentication Credentials
@@ -40,3 +41,5 @@ If you haven't done so already you will need to generate an API Key in the Rybbo
 5. Enter your API Key as the Password, click Next
 
 The connector is now authenticated and ready to use.
+
+</section>

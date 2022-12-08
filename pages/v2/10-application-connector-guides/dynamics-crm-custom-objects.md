@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: dynamics-custom-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Dynamics CRM Custom Objects Connector Setup
 
 This connector is designed to work with a single custom entity. When working with more than one, you must install a separate Dynamics CRM connector for each custom entity type.
@@ -36,3 +37,5 @@ Example:
 ![](../images/dynamics_custom_objects_updated_2.png)
 
 You can edit the **Display Name** and **Description** as appropriate, but **do not** edit the **Field Location** or **Data Type** values; doing so could cause mapping issues.
+
+</section>

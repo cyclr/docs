@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: intelliflo-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To authenticate the Intelliflo connector you will need:
@@ -49,3 +50,5 @@ The connector is now authenticated and ready to use.
 
 ### Webhooks
 Please note that webhooks cannot be deleted when using a sandbox account.
+
+</section>

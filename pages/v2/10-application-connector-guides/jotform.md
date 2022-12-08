@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: jotform-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 To authenticate the JotForm connector you will need an API Key and the API Domain.
@@ -56,3 +57,5 @@ In order to download files using the connector you must disable one of the priva
 6. Click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

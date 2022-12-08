@@ -5,13 +5,17 @@ permalink: google-authentication
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ##  Google Partner Setup
 
 Google makes use of OAuth 2.0 for remote API access. You must register Cyclr with Google as your own Project to receive OAuth Client ID and Client Secret values to enable Cyclr to authenticate with Google.
 
 For your reference, here is a link to [Google’s own documentation](https://developers.google.com/identity/protocols/OAuth2WebServer).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Before Starting
 
 You will need to provide your Cyclr Partner 'Service Domain' as part of the process of setting up access so best to have that information to hand before starting. This is specific to your instance of Cyclr and it can be found from the Cyclr Partner Console under:
@@ -19,6 +23,9 @@ Settings > General Settings > Service Domain.
 
 Your Cyclr Partner will have been setup with a default Service Domain, but this can be changed if you would prefer to remove mentions of 'Cyclr' from it.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Registering Your Application
 
 ### Create a Project
@@ -76,6 +83,9 @@ Step 5	- Click the **Create** button, you'll then be presented with your Google 
 
 ![OAuth Details](./images/google-auth-5.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Enable Google APIs
 
 Google's services (Sheets, Gmail, Calendar, etc) are offered as separate APIs which you must individually enable within the Google API Console for your Project.
@@ -104,6 +114,9 @@ Below are Cyclr Connectors that require multiple Google APIs to be fully functio
 * Google Sheets - Google Sheets API and Google Drive API
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional Setup for Google AdWords
 
 The Google AdWords connector requires [additional setup](https://developers.google.com/adwords/api/docs/guides/signup) before you can access its API.
@@ -131,6 +144,9 @@ Step 3 - Create a few test campaigns using the **test client account**.
 Step 4 - Make note of the **client customer ID** for the client account, this is what you will enter when setting up the connector for testing.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ##  Possible Issues with Refresh Tokens
 
 There are a few situations that can cause the following error to occur when Cyclr attempts to refresh its Connector authentication details with Google:
@@ -145,3 +161,5 @@ There are a few situations that can cause the following error to occur when Cycl
 This could be caused by the user that authenticated the Connector having changed their password, or your Google Project being in a "Testing" status while Google verify it which results in refresh tokens that are only valid for 7 days.
 
 More causes can be found in [Google's Documentation](https://developers.google.com/identity/protocols/oauth2#expiration).
+
+</section>

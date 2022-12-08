@@ -9,7 +9,8 @@ menus:
         identifier: handling-callback
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 The final page of the LAUNCH flow is completely customizable and defined by the HTML &amp; JavaScript entered at:
 
 **Console > Settings > Customize Appearance > Launch Complete HTML**
@@ -65,3 +66,5 @@ Instead of creating a popup to the LAUNCH URL directly, you should create a popu
 #### Redirect after LAUNCH Complete page
 
 JavaScript in the LAUNCH Complete page redirects your user to a page on your domain, passing in the result of the LAUNCH flow. That page then handles the details on your backend before closing the popup.
+
+</section>

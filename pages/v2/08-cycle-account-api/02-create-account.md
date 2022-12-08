@@ -9,7 +9,8 @@ menus:
         identifier: create-account
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 A Cyclr account can contain account connectors and integrations, and typically has a one to one relationship with an account in your application.
 
 If an account doesn't already exist, you can create one.
@@ -79,3 +80,5 @@ If an account doesn't already exist, you can create one.
 | **TransactionErrorWebhookEnabled** | Whether errors are sent to the webhook URL. |
 | **TransactionErrorWebhookUrl** | The webhook URL. |
 | **TransactionErrorWebhookIncludeWarnings** | Whether warnings are sent to wehook URL. |
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: simitive-wams-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Simitive WAMS setup
 
 You need the following information to setup the Simitive WAMS connector:
@@ -42,3 +43,5 @@ You will be asked for the following values when installing the Simitive WAMS con
 | **Client ID**     | The client ID of your Simitive WAMS account, if you did not enter this in step 5 above.                                                                                         |
 | **Client Secret** | The client secret of your Simitive WAMS account, if you did not enter this in step 5 above.                                                                                     |
 | **Domain**        | The domain of your Simitive login URL. For example, if you use `http://myuni.simitive.com/` to sign in to your Simitive account, then enter the domain as `myuni.simitive.com`. |
+
+</section>

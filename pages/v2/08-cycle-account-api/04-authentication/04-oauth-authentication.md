@@ -9,7 +9,8 @@ menus:
         identifier: oauth-authentication
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 **_For connectors that require your user to be taken through an OAuth flow._**
 
 Connectors using OAuth require that the user goes through a webflow where they are sent to the third party application to sign in and grant access to Cyclr.
@@ -113,3 +114,5 @@ Or, if other details have been provided that will enable Cyclr to obtain those d
 [Step Setup](./step-set-up)  
 [API Key Authentication](./api-key-authentication)  
 [HTTP Basic Authentication](./basic-authentication)
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: exact-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Exact Setup
 ---------------
 In order to authenticate the connector, you will need a **Client ID** and **Client Secret**.
@@ -41,3 +42,5 @@ How to register your app
 
     [For more information on getting your app set up, visit the official exact docs here](https://support.exactonline.com/community/s/knowledge-base#All-All-DNO-Content-oauth-eol-oauth-devstep1).
 
+
+</section>

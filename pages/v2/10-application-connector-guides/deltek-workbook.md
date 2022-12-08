@@ -4,8 +4,8 @@ sidebar: cyclr_sidebar
 permalink: deltek-workbook-connector
 tags: [connector]
 ---
-
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Permissions In Deltek Workbook
 ---------------
 Get API Access
@@ -30,3 +30,5 @@ Connector Setup
 The Connector now can be installed using the credentials (Username/Password) for the user obtained in the above steps:
 
 Domain - This is the domain used to access your portal. e.g. "mycompany.workbook.net"
+
+</section>

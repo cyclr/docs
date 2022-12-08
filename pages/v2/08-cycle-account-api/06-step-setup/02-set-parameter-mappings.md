@@ -9,7 +9,8 @@ menus:
         identifier: set-step-parameters
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**Step Parameters are passed as a header or part of the URL (hostname, path, or query string parameters) to the third party API endpoint.**_
 
 For each Missing parameter mapping returned by the step prerequisites request in step 7:
@@ -133,3 +134,4 @@ This response can then be used to present the user with valid options.
 In this example there is a single value to present to the user, Newsletter Subscribers, with a corresponding value to pass to Cyclr as the parameter value, a78f86e7d7.
 
 [How to Set Field Mapping](./listing-field-mappings)
+</section>

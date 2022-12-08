@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: less-annoying-crm-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 ### Obtaining Authentication Credentials
@@ -40,3 +41,5 @@ Within the three Pipeline methods (List, List New and List Updated) you have acc
 ![lookup feature](./images/less_annoying_crm_2.png)
 
 Pipeline ID is the only required field but the request can optionally be filtered by Status and User ID.
+
+</section>

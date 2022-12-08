@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sftp-private-key
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To authenticate the **SFTP Private Key** connector you will need to provide the following values:
 
 ## Host URI ##
@@ -74,3 +75,5 @@ Europe/London
 If the SFTP server is not publicly accessible, ensure you allow Cyclr to connect to it.
 
 See [Cyclr IP Allowlist](https://docs.cyclr.com/cyclr-ip-allowlist)
+
+</section>

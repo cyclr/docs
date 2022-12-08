@@ -14,7 +14,6 @@ menus:
     toggleonly: indexmenutoggleonly
     weight: indexmenuweight
 ---
-## indextitle
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.indexpermalink %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

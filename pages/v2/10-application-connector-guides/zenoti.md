@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: zenoti-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a href="client-id">
 
 To authenticate your connector, you need to get the Client ID. You can find the Client ID in the login URL. For example, if the login URL is `https://mycompany.zenoti.com/SignIn.aspx` the Client ID is `mycompany`.
@@ -45,3 +46,5 @@ Cyclr asks for the below values when you install the Zenoti connector into an ac
 | **Password**       | Your Zenoti account password.               |
 
 > **Note**: You can use different details for different accounts.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: vitari-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 Vitari is a self hosted system (on premise) you will need to contact your system administrator for the required credentials. 
@@ -24,3 +25,5 @@ Enter the following values:
 **GUID**:  Provided by system Admin
 
 Your connector is now setup!
+
+</section>

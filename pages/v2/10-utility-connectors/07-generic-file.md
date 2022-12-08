@@ -9,11 +9,15 @@ menus:
         identifier: generic-file
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Purpose
 
 The **Generic File** Connector provides the **Create Delimited Text File** Method that creates delimited text content, for example Comma Separated Values (CSV) and Tab Separated Values text.  This content might then be sent to a remote FTP server as a new file using the **FTP Connector**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Create Delimited Text File Method
 
 The Generic File Connector's **Create Delimited Text File** Method doesn't provide any initial "data fields" as it doesn't know the data you wish to use.  All it starts with are fields to define the structure of the content to be created: Delimiter and Include Header.
@@ -45,3 +49,5 @@ dave@example.com,Dave
 
 
 Note: You should ensure that the Cycle's **Collection Splitting** Setting doesn't split the data you're mapping from, otherwise the Method will generate separate file content for each record you're passing in.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: bigchange-jobwatch-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # BigChange JobWatch setup
 
 You need the following information to set up the BigChange JobWatch connector in Cyclr:
@@ -77,3 +78,5 @@ You can view custom fields for contacts, contact notes, and jobs in the followin
 -   `Search Contacts By Email, ID, Or Reference`
 -   `Search Contacts By Phone Number`
 -   `Search Contacts By Postcode`
+
+</section>

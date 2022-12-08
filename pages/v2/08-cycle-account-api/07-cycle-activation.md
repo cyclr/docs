@@ -9,7 +9,8 @@ menus:
         identifier: cycle-activation
         weight: 7
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**When a cycle is installed in an account they are in a Paused state and must be activated to before any step requests will be processed.**_
 
 When a Cycle has been installed and all of it’s prerequisites have been provided, the cycle can be activated like below:
@@ -59,3 +60,5 @@ Response:
 ```
 
 The Cycle will then run at StartTime and run every Interval, unless RunOnce is true, in which case the Cycle will run one time at StartTime (or after StartTime if triggered by a webhook).
+
+</section>

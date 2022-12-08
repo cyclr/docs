@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: magento-2-webhooks-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Magento 2 Webhooks Setup
 ---------------
 
@@ -54,3 +55,5 @@ Now that you have your Access token go to the `Connector Setup` page in Cyclr.
 
 
 
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: clover-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Clover #
 
 This guide is for setting up and installing the [Clover](https://cyclr.com/integrate/clover) connector.
@@ -49,3 +50,5 @@ Setup Webhook
 Enable the subscriptions that you wish to receive events for.
 
 **Each subscription requires the corresponding read permission. If you change permissions after a merchant installs your app, the permissions won't update for that merchant until the merchant uninstalls and reinstalls the app.**
+
+</section>

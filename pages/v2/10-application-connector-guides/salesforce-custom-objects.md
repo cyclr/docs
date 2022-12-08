@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: salesforce-custom-objects
 tags: [salesforce]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Accessing Custom Objects in Salesforce
 
 First you will need the API name of your object.  The process of finding this is slightly different depending upon whether you use Salesforce *Lightning Edition* or Salesforce *Classic*.
@@ -51,3 +52,4 @@ First you will need the API name of your object.  The process of finding this is
 8. Click the magnifying glass to bring up the **Generate Fields** window.  Paste the response from step 6 in here and click **Generate**.  This will add all the required fields to your List Records method.
 
 9. Repeat steps 5-8, this time using the method **Get Record By ID 1**.  If you need an ID to use here, you can find one by running **List Records** again.
+</section>

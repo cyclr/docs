@@ -10,7 +10,8 @@ menus:
         identifier: building-a-template
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Template Settings
 
 ### Settings Tab
@@ -29,6 +30,9 @@ Variables can be defined here and, once set, used throughout the template.
 
 You can set the period for which transaction and any error information is retained.  The default is the maximum which is 30 days.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Trigger Step
 
 A trigger is the first step in your cycle; the event that causes the process to start.
@@ -52,6 +56,9 @@ Depending on the type of trigger you have used you will need to setup some of th
 *   **Mappings**: for example, a get trigger may allow you to be more specific about what you wish to get (_these contacts_, _this mailing list_, etc)
 *   **Webhook URL**: you may need to paste this back into the app you’re connecting
 
+
+</section>
+<section class="card py-5 my-5">
 ## Adding More Steps
 
 With a trigger now setup, you need to add an action: the step that will be taken after the first step runs.
@@ -68,6 +75,9 @@ Click-drag an action step onto the builder’s canvas, dropping it near your tri
 
 Next, click-drag the dot on the right side of the trigger and drop it onto the dot on the left side of your action. The steps should now be joined.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Field Mapping
 
 With the two steps joined, you should now click the button on your action and perform the setup and field mapping.
@@ -81,3 +91,5 @@ Any previous step’s fields are available to you. In addition, you can type val
 Fields marked with a tick are required and must be mapped.
 
 [How to Map Fields](./field-mapping)
+
+</section>

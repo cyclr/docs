@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: mailchimp-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To authenticate the Mailchimp connector you will need a `Client ID` and `Client Secret`.  These are obtained by setting up an application within your Mailchimp account.
@@ -24,3 +25,5 @@ To authenticate the Mailchimp connector you will need a `Client ID` and `Client 
 For more information you can visit the official documentation here:
 
 <a href="https://mailchimp.com/developer/guides/access-user-data-with-oauth-2/#register-your-application">https://mailchimp.com/developer/guides/access-user-data-with-oauth-2/#register-your-application</a>
+
+</section>

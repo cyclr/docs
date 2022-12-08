@@ -5,7 +5,8 @@ permalink: gocardless-auth
 keywords: gocardless
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Partner Setup
 
 To set up the GoCardless connector for your users, you will need a Client ID and a Client Secret.  You get these by creating a new application in GoCardless.  
@@ -31,3 +32,5 @@ From your Cyclr Console, click the **Connectors** option along the top then **Ap
 You should now be able to successfully install a **GoCardless** Connector.
 
 At this point it would be a good idea to install a Connector and run a test against one of the Methods, just to make sure the authentication process has been completed successfully.
+
+</section>

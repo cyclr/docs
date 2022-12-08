@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: snowflake-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="snowflake-setup"></a>
 
 # Snowflake setup
@@ -107,3 +108,5 @@ You can create custom `Table Rows` objects to have methods specific to a Snowfla
 3. Select the red **Copy this Category to create a Custom Object Category** icon.
 4. Use the dropdown menu to select the Snowflake table name.
 5. Select **Copy**.
+
+</section>

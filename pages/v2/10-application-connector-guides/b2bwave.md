@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: b2bwave-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 B2B Wave Setup
 ---------------
 In order to authenticate the connector, you will need your App Code and API Token.
@@ -56,3 +57,5 @@ A list of the methods available within the B2B Wave Connector.
    * **List Updated Products** - List Products Updated since the last run
 
 
+
+</section>

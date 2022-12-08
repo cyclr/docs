@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: drip-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Drip Setup
 ---------------
 In order to authenticate the connector, you will need your Client ID and Client Secret.  You get these by setting up an Application within Drip.
@@ -20,3 +21,5 @@ You will need to provide your Cyclr Partner ‘Service Domain’ as part of the 
 **Installing the Connector**
 - You will now be able to authenticate the connector.
 - Use the credentials from above steps.
+
+</section>

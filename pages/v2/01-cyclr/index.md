@@ -13,7 +13,6 @@ menus:
     icon: navsettings
     weight: 1
 ---
-## Cyclr
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.cyclr %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

@@ -5,7 +5,8 @@ permalink: bitrix24-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Bitrix24 setup
 
 The Bitrix24 connector uses Bitrix24's Inbound Webhooks feature to make API requests.
@@ -44,6 +45,9 @@ Under the **Assign permissions** heading, to add each permission:
 2. Enter the required permission.
 3. Select the required permission from the list.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 ### Account setup
@@ -54,3 +58,5 @@ Cyclr asks you for the below values when you install the Bitrix24 connector with
 | :------------- | :----------------------------------------------------------- |
 | **URL**        | The URL of your Bitrix24 instance. For example, `https://my.bitrix24instance.co.uk`. |
 | **Webhook ID** | The webhook ID of your Bitrix24 [Inbound Webhook](#create-inbound-webhook). |
+
+</section>

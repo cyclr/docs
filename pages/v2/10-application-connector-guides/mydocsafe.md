@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: mydocsafe-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Partner Setup
 
 Before setting up the **MyDocSafe** Connector, you will need to get an **application key** and an **application secret**.
@@ -31,3 +32,5 @@ Enter the following values:
  Sign in to MyDocSafe and allow Cyclr Connector to connect to it.
 
 Your MyDocSafe Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

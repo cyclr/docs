@@ -10,7 +10,8 @@ menus:
         identifier: console-general-settings
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 | Option | Documentation |
 | --- | --- |
 | Application Icon | Your application icon. Displayed in the navigation bar if Cyclr is used as a white-labelled service.  40x40 pixel PNG image with a transparent background. |
@@ -36,3 +37,5 @@ menus:
 | Custom Help Email Address | Email address to use for all helpdesk mailto links when Help Link Type is set to "Use custom help links". |
 | Host Source Whitelist | A comma separated list of host sources that can embed your Cyclr application using iframe. This value will be present in the Content-Security-Policy (CSP) header. |
 | Account Concurrent Transaction Limit | Maximum concurrent transactions allowed for an end user account. |
+
+</section>

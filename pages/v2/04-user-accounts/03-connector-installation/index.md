@@ -12,7 +12,6 @@ menus:
     identifier: connector-installation
     weight: 3
 ---
-## Connector installation
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.connector-installation %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

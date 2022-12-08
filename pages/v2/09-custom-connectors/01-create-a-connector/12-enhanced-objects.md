@@ -9,7 +9,8 @@ menus:
         identifier: enhanced-objects
         weight: 11
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To enable the copying of a category to be used for custom objects, please follow the steps below:
 
 1. In connector management, find the connector you wish to edit, select the 'Methods' tab and find the category you wish to enable custom objects for. Click on the new **Edit Category** button and check the **Category Customisation Enabled** checkbox. This allows categories to be copied. To retrieve a collection of objects to offer the user, select an appropriate trigger from the **Object Lookup Trigger** dropdown.
@@ -41,3 +42,5 @@ To enable the copying of a category to be used for custom objects, please follow
     ![Mapping](./images/enhanced_objects_9.png)
 
 7. For all intents and purposes, the methods appear to have been copied. Under the hood, however, the category and methods have not been copied. Instead, an account connector category has been created which references the original connector category. Any steps or custom fields are linked with this account connector category. So everything behaves as normal barring the inclusion of the additional id when working with a method.
+
+</section>

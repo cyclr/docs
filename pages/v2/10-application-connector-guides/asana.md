@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: asana
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### oAuth Application Creation
@@ -42,3 +43,5 @@ Enter the following values:
  * **Client Secret**: The client secret obtained from registering an application.
 
 Your Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

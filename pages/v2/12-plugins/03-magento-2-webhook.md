@@ -9,7 +9,8 @@ menus:
         identifier: magento-2-webhook-extension
         weight: 3
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Magento 2 does not include webhook functionality.
 
 We have created our Magento 2 extension to allow for easy integration with any of the [apps or services that Cyclr connects](https://cyclr.com/connectors).
@@ -46,3 +47,5 @@ Once those steps are complete, you are ready to install the Magento 2 Webhook co
 #### Extension setup
 
 *   The webhooks will be processed once per minute. If you wish to change this setting, you can visit *System -> System Settings -> Cron (Scheduled Tasks) -> webhooks*
+
+</section>

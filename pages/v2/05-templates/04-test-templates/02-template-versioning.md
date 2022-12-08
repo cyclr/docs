@@ -11,7 +11,8 @@ menus:
         identifier: integration-template-versioning
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 To help you and your team organise and iterate your integrations we have introduced integration template versioning to the Cyclr Console.
 
 The new feature allows you to create Draft "releases" of an integration so you can build it out and test new additions, before locking it as a Live release. 
@@ -79,3 +80,5 @@ Once you have promoted your release, the previous Live release will be marked as
 ![](./images/Integration-Template-Releases.png)
 
 This allows you to keep a trail of your integration development progress so you can see what you we previously doing, while also being able to go back by creating a copy of a Deprecated release and promoting it to Live.
+
+</section>

@@ -11,7 +11,8 @@ menus:
         identifier: template-export-import
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 You can export templates from one Cyclr instance and import them to another. This allows you to keep templates in sync if you have Cyclr instances in multiple regions.
 
 For example, you build a template on the UK instance and want to use exactly the same template on the US instance. This can now be achieved using the template export import feature.
@@ -30,3 +31,5 @@ Import Templates
 A template release JSON file can be imported as a new template (see screenshot below), or into an existing template as a new release (see screenshot above). You will see an error message if there are any compatibility issues, e.g. method not found on the current instance.
 
 ![](./images/templates/template-import.png)
+
+</section>

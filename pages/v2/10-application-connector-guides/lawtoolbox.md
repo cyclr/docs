@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: lawtoolbox-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # LawToolBox set up
 
 You need the following information to set up the LawToolBox connector in Cyclr:
@@ -34,3 +35,5 @@ You will be asked for the following values when installing the LawToolBox connec
 -   **Password**: The password provided by LawToolBox, if you did not enter this in step 5 above.
 
 Your LawToolBox connector is now set up! You can test it by executing one of the methods to confirm it can return some data.
+
+</section>

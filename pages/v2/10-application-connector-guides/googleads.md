@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: google-ads-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Google Ads set up
 
 You need to do the following to enable Google Ads access for the Google Ads connector:
@@ -74,3 +75,5 @@ To set up the Google Ads connector within a template:
 12. Click **Allow**.
 
 Your Google Ads connector is now set up! You can test it by running a method within the template it’s installed in to confirm it returns data.
+
+</section>

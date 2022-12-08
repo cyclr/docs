@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: drift-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First you will need to create an oAuth application on the Drift [developer portal](https://dev.drift.com/apps)
@@ -38,3 +39,5 @@ Enter the following values:
 
 
 Your Drift Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

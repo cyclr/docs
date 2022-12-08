@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: selligent
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Selligent
 
 ## Partner Setup
@@ -30,3 +31,5 @@ The API user must assign specific rights, indicating what operations can be perf
 ![connector setup](./images/APIUserRights.png)
 
 Once this is done, the Server, Username and Password (Key) can be entered when installing the connector.
+
+</section>

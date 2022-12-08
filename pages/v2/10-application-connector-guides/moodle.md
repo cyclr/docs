@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: moodle-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To authenticate the Moodle connector you will need an `API Token`. This is obtained by setting up an application within your Moodle environment.
@@ -85,3 +86,5 @@ Once the Moodle Web Service application has been created, you need to create a t
 ![](./images/moodle2.png)
 
 Copy this token, and use it to authenticate in Cyclr.
+
+</section>

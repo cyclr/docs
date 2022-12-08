@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: Kustomer-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Cyclr Setup
 
 Before setting up the **Kustomer** Connector, you will need to get an **API key**.
@@ -18,3 +19,5 @@ When installing a Kustomer Connector within Cyclr, enter the following value:
 * **API key**
 
 See [the Kustomer documentation](https://help.kustomer.com/outbound-webhooks-rkUQvela8) for more details.
+
+</section>

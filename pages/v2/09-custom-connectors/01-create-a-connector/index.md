@@ -12,7 +12,6 @@ menus:
     identifier: create-a-connector
     weight: 3
 ---
-## Create a connector via API
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.create-a-connector %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

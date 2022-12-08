@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: google-data-studio-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Google Data Studio
 
 Google Data Studio is designed to turn your data into interactive dashboards and informative reports.
@@ -60,3 +61,5 @@ The sample code we've provided is partner agnostic. You can customise the script
 - Include the Cyclr domain and client ID in the code so your users don't need to set them up when creating the Data Source.
 - Embed the deployment link in your application.
 - Rename the Username and Password parameters to e.g. Access ID and Access Secret, and display their values in your application. Before users open the Data Studio link from your application, they already know what values they should provide in the Data Source setup.
+
+</section>

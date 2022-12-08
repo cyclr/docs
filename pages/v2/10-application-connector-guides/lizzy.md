@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: lizzy-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Lizzy account.
@@ -26,3 +27,5 @@ API Keys are IP restricted you will need to ensure you [whitelist Cyclr's IP add
 Setup Lizzy within Cyclr:
 
 When installing the connector enter the API key obtained in above steps.
+
+</section>

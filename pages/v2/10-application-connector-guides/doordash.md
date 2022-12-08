@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: doordash-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # DoorDash setup
 
 To authenticate the DoorDash connector, you will need to do the following:
@@ -26,3 +27,5 @@ You can now navigate to the set-up of your installed DoorDash connector to enter
 4. Click **Next**.
 
 Your DoorDash connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+</section>

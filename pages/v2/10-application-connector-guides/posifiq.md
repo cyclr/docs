@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: posifiq-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 Request your API key by contacting support@onesend.com.au
@@ -16,3 +17,5 @@ To setup your POSIFiQ app within Cyclr at the account level when the connector i
 **Base Url**:  The account URL, ie. https://{{yourAccount}}.onesend.app
 
 **API Key**: API Key requested and sent by contacting support@onesend.com.au.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: optimail-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Connector Setup
 ---------------
 
@@ -34,3 +35,4 @@ Within the Optimail portal:
   * On the campaign page you will see `CAMPAIGN API ID` field in the bottom left of the page.
   
 ![](./images/optimail_campaign_id.png)
+</section>

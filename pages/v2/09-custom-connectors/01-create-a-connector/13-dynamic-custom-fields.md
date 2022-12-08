@@ -9,7 +9,8 @@ menus:
         identifier: dynamic-custom-fields
         weight: 12
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Adding Custom Fields Dynamically
 
 Cyclr can add custom fields dynamically to an authenticated connector, removing the need to add them manually for each installation.
@@ -19,6 +20,9 @@ There are two ways to do this:
 1. If the API you are accessing has methods for retrieving object metadata, these can be used to define the fields. <br>See [Enhanced Dynamic Custom Fields](#Enhanced).
 2. If the API does not have such methods, Cyclr can parse an example response from an existing method. <br>See [Basic Dynamic Custom Fields](#Basic).
 
+
+</section>
+<section class="card py-5 my-5">
 ## <a name="Enhanced">1. Enhanced Dynamic Custom Fields</a>
 
 1\. Identify the method within the API that will return the metadata for your object. You will then need to [create this method within the connector](./connector-methods).<br><br>
@@ -187,6 +191,9 @@ Or just a list of the values
 ["UK", "US", "AUS"]
 ```
 
+
+</section>
+<section class="card py-5 my-5">
 ## <a name="Basic">2. Basic Dynamic Custom Fields</a>
 
 1\. Select a method which is able to be called without any field or parameter values being set. This will be your "Source" method.
@@ -227,3 +234,5 @@ Or just a list of the values
 Cyclr will then attempt to determine the correct Display Name and Data Type of the fields found in the response object.
 
 For more control of the custom fields generated you will need to make use of [Enhanced Dynamic Custom Fields](#Enhanced).
+
+</section>

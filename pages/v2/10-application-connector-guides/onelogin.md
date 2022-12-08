@@ -4,11 +4,15 @@ sidebar: cyclr_sidebar
 permalink: onelogin-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## OneLogin setup
 
 To authenticate this connector, you need a OneLogin credential pair of **Client ID** and **Client Secret**. Find more information on how to obtain these credentials in OneLogin's [Working with API credentials](https://developers.onelogin.com/api-docs/1/getting-started/working-with-api-credentials) documentation.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
@@ -25,6 +29,9 @@ To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
 
 6. Select **Save Changes**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Generate fields for the **Create App** method
@@ -56,3 +63,5 @@ The **List Users** and **Get User** methods can return custom attributes if the'
 8. Select **Create**.
 
 This process means returned custom attributes map onto all steps that call these methods.
+
+</section>

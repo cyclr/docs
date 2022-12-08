@@ -10,7 +10,8 @@ menus:
         identifier: types-of-cyclr-user
         weight: 8
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 There are multiple levels of access which can be granted to people with a need to access Cyclr.
 
 ### Users
@@ -25,3 +26,5 @@ There are multiple levels of access which can be granted to people with a need t
 ### Private Instance Administrators
 
 * If you have a private instance, this level of access will allow you to administer all consoles within it.
+
+</section>

@@ -5,7 +5,8 @@ permalink: quickbooks-connector
 tags: [connector]
 keywords: [intuit]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 QuickBooks Setup
 ---------------
 
@@ -37,3 +38,5 @@ To obtain these, you will need to create a QuickBooks Online application.
     > Later, when you have your production app set up, you will enter quickbooks.api.intuit.com here.
 
 3. You can now ![](./images/QuickBooksSignIn.png) to Quickbooks and your connector will be installed.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: waitwhile-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Partner Setup
 
 Before setting up the **Waitwhile** Connector, you will need to get an **API key**:
@@ -21,3 +22,5 @@ When installing the connector on an account enter the following values:
 * **API key**
 
 Your Waitwhile Connector is now setup! You can test it by executing one of the methods to confirm it returns some data.
+
+</section>

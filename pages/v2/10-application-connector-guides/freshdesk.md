@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: freshdesk-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Freshdesk Setup
 
 To find your API key:
@@ -15,6 +16,9 @@ To find your API key:
 4. You will now see your API key on the right.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Setup
 
 When the connector is setup on an account you will need to provide:
@@ -22,6 +26,9 @@ When the connector is setup on an account you will need to provide:
 * **API Key**: See above steps on where this can be found.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Webhooks
 
 If you wish to set up a **Ticket Closed** webhook step, you will first need to add it to your cycle.
@@ -106,3 +113,5 @@ Then open the Freshdesk dashboard, and follow these steps:
 16. Save and enable.  Your webhook step should now be fully usable.
 
 > NB. If you accidentally delete the webhook step and need a new one, you can simply edit the rule and update the URL with that of the new step.
+
+</section>

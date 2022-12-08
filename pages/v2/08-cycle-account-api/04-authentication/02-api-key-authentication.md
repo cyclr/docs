@@ -9,7 +9,8 @@ menus:
         identifier: api-key-authentication
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**For connectors that are authenticated using an API key provided by the 3rd party app.**_
 
 Your user's API Key will need to be collected in your application and sent to Cyclr.
@@ -58,3 +59,5 @@ Response:
 [HTTP Basic Authentication](./basic-authentication)  
 [OAuth Authentication](./oauth-authentication)  
 [Step Setup](./step-set-up)
+
+</section>

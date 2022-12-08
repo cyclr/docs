@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: tiktok-for-business-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # TikTok for Business setup
 
 You need to do the following to setup the TikTok for Business connector:
@@ -82,3 +83,5 @@ You will be asked for the following values when installing the TikTok for Busine
 ### TikTok for Business sandbox account setup
 
 TikTok for business has sandbox account functionality for testing. You can find TikTok for Business's guide on how to set this up [here](https://ads.tiktok.com/marketing_api/docs?id=1738855331457026). Make note of the **Access Token** generated when doing this as it will be needed when installing the sandbox installation version of the connector.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: SproutSend-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Sprout Send account or [sign up for one.](https://myguestlist.com/mgl/contact_forms/covid-sprout/get_started.php)
@@ -35,3 +36,5 @@ Enter the following values:
 
 
 Your Sprout Send Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

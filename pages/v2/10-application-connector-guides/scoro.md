@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: scoro-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Scoro account, or sign-up for a free 14 day trial.
@@ -68,3 +69,5 @@ Enter the following values:
 **API Key**: Enter the **API Key** that was retrieved from the integrations area in the previous step.
 
 Your Scoro Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

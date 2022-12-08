@@ -10,7 +10,8 @@ menus:
         identifier: data-types
         weight: 8
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 The following is a guide to the Data Types available at Request/Response body level, and those available when defining Connector Fields.
 
 ## Request/Response Data Types
@@ -42,3 +43,4 @@ These data types can be set to define the format of the individual fields in the
 |Text| Value will be stored as a string |`"abc"`
 |File| Holds the contents of a file | n/a |
 |Undefined| Value will be passed unformatted | n/a|
+</section>

@@ -12,7 +12,6 @@ menus:
     identifier: cylr-as-proxy-server
     weight: 4
 ---
-## Cylr as proxy server
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.cylr-as-proxy-server %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

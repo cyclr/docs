@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: poweroffice-go-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Retrieving application key and client key
@@ -31,3 +32,5 @@ Enter the following values:
 **Environment**: The environment you would like to use the connector with. This can be either the "Demo" (https://api-demo.poweroffice.net) or "Live" (https://api.poweroffice.net) environment.
 
 Your PowerOffice Go Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

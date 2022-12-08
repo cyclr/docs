@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: orderbot-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Orderbot setup
 
 You need the following information to set up the Orderbot connector in Cyclr:
@@ -42,3 +43,5 @@ Methods in the `Products > Custom Fields` category dynamically return custom fie
     | **Data Type**      | The data type of the custom field. This should match the data type of the custom field in Orderbot. |
     
 6. Select **Create**.
+
+</section>

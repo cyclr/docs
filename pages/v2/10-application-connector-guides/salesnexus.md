@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: salesnexus-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 The SalesNexus connector is authenticated with an API Key (authorization token).
@@ -38,3 +39,5 @@ You can use the following methodology to obtain a temporary API Key within the c
    ![salesnexus setup](./images/salesnexus_setup_3.png)
 
 9. Paste in your API Key and click 'Next'. The connector is now authenticated and ready to use
+
+</section>

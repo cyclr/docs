@@ -9,7 +9,8 @@ menus:
         identifier: overview-new-account
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 This article gives an overview on setting up a new Cyclr Account using the Cyclr API.
 
 Useful links:
@@ -62,3 +63,5 @@ Once you have an Account, you can install Templates into it for any integrations
 You can see what's available by calling the ```GET /v1.0/templates``` endpoint to [list available Templates](./list-available-templates).
 
 You can then [install a Template](./install-from-template) by calling ```POST /v1.0/templates/{id}/install```.
+
+</section>

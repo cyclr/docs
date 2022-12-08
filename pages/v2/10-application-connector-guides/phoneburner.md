@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: phoneburner-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Retrieving public and private key
@@ -33,3 +34,5 @@ Enter the following values:
 
 
 Your PhoneBurner Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

@@ -12,7 +12,6 @@ menus:
     identifier: api-install-cycle
     weight: 3
 ---
-## Install cycle from template
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.install-cycle %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

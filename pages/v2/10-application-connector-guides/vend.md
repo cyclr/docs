@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: vend-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 ---
@@ -41,3 +42,5 @@ Vend uses OAuth 2.0 for authentication. The following are the steps needed to gi
 ![connector setup](./images/vend_setup_img_5.png)
 
 * If the above steps completed successfully you will be redirected back to Cyclr. The connector is now installed and authenticated.
+
+</section>

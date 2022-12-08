@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: shopify
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Shopify
 
 This document explains how to set up Shopify and install the Shopify connector in Cyclr.
@@ -54,3 +55,5 @@ You will be asked for the following values when installing the Shopify connector
 - **API Key**: The [admin API access token](#getting-an-admin-api-access-token) of a custom app within the store you want to manage.
 
 Your Shopify connector is now set up! You can test it by executing one of the methods to confirm it can return some data.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: cyance-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Partner Setup
 
 You need the following details to set up the Cyance connector within Cyclr:
@@ -31,3 +32,5 @@ To set up the Cyance connector within Cyclr:
 7. Select **Next**.
 
 The Cyance connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

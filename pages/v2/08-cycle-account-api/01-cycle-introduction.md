@@ -9,7 +9,8 @@ menus:
         identifier: template-install
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 When you install a template into an account, Cyclr:
 
 * Adds the required account connectors with the same releases the template uses.
@@ -25,3 +26,5 @@ You can use the account connectors from the template instead. Open the template,
 
 [Install a template](./install-from-template)
 
+
+</section>

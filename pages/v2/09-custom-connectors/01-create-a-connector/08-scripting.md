@@ -11,7 +11,8 @@ menus:
         identifier: connector-scripting
         weight: 7
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Scripting
 
 Cyclr supports Javascript as its scripting language, allowing you to manipulate data before it's sent as well as after it's been retrieved.  This can be useful when moving data between applications as what's valid in one, may not be valid in another.  
@@ -703,3 +704,5 @@ function after_error() {
 *   Execution time: 60 seconds. Script running will time out after 60 seconds.
 *   External HTTP requests: for security reasons, we will use the same authentication method as the connector and the same authentication value when the connector was installed by the user. You cannot use the script to access or modify the authentication value.
 *   The **cycle_variables** object is only available through a Step's Advanced Settings area, and not through Inline Script.  Also, any changes made to it and its properties are not persisted.
+
+</section>

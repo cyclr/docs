@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: webeoc-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 This guide presumes that you already have a WebEOC account.
@@ -46,3 +47,5 @@ If you do not know the "Board Input View" and "Board Display" that you want to u
 
 
 Your WebEOC Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

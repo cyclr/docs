@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: dynamics-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Dynamics CRM #
 
 Partner Setup
@@ -99,3 +100,5 @@ Warning: Ensure lowercase is used for the operators. i.e. AND will not work, and
 
 ### Additional Fields To Return
 Some methods provide "Additional Fields To Return" field. This can be used to return addtional data. e.g. Add a custom response field to the method and add the custom field to Additional Fields To Return, to tell the API to return. If there is more than one field use "," seperator.
+
+</section>

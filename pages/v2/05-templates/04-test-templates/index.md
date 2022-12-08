@@ -12,7 +12,6 @@ menus:
     identifier: test-templates
     weight: 4
 ---
-## Test templates
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.test-templates %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

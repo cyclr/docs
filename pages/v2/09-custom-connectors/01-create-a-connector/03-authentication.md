@@ -9,7 +9,8 @@ menus:
         identifier: connector-authentication
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication Types
 
 Cyclr supports various authentication types and, sometimes with the addition of scripting, it is possible to establish a connection with any API.
@@ -23,6 +24,9 @@ Cyclr supports various authentication types and, sometimes with the addition of 
 | None | No authentication used.|
 | AuthFields | the API needs to inject authentication fields into the POST message. Requires: _Name_, _Key_, _Type_. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## OAuth2Type
 
 These fields will only be used if the AuthType is OAuth2.
@@ -34,6 +38,9 @@ These fields will only be used if the AuthType is OAuth2.
 | PasswordCredentials | Client will get the access token from the authorization server using username and password.|
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Bearer Token
 
 If an API requires a Bearer Token to be sent, for example when the API Key is used, then you can add Script at the Connector-level to prepend it with "Bearer " and set it as the **Authorization** HTTP Header in all Requests like this:
@@ -46,3 +53,5 @@ function before_action() {
 ```
 
 Cyclr exposes the API Key entered during installation of the Connector through the **method_auth_value** variable in the **before_action** event.
+
+</section>

@@ -9,7 +9,8 @@ menus:
         identifier: data-storage-usage
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Usage
 
 This Global Data Storage and Cycle Data Storage connectors can be installed multiple times, and each instance will have its own associated data set.  When the connector is installed it is advisable to give it a name that reflects how it will be used.
@@ -44,6 +45,11 @@ This will return all the records in the data set.  A subsequent step in an Integ
 #### Delete All Keys
 This will remove all the entries in the data set.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 [Global Data Storage](./global-data-storage) | [Cycle Data Storage](./cycle-data-storage) 
+
+</section>

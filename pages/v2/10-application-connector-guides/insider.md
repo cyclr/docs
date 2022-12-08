@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: insider-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Connector Setup
 
 To setup the connector you will need a **Partner Name** and **Request Token**, both of which should be provided by Insider.
@@ -17,6 +18,9 @@ To setup the connector you will need a **Partner Name** and **Request Token**, b
 
 The connector is now authenticated and ready to use.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 ### Unifier Field (Required)
@@ -73,3 +77,5 @@ Now from the **Edit Connector** page within the Cyclr console:
    > Note: To integrate properly with the Insider API, the **Data Type** as set in this drop-down can only be **Text**, **Integer**, **Boolean** or **DateTime**.
 
 Your custom field is now initialized and ready to use.
+
+</section>

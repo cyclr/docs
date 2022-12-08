@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: microsoft-education-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Microsoft Education uses OAuth 2.0. Please sign up for an application on Microsoft first and get an OAuth client ID, client secret.
 
 ### Azure Active Directory OAuth Application
@@ -60,3 +61,5 @@ Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Applicati
    **Client Secret**: Create a Password under Microsoft Azure portal > Azure Active Directory > App Registrations > Your Application > API Access > Keys. Copy and paste the password as the client secret. 
 
 The Microsoft Office 365 Connector is now set up! You can test it by installing the Conneector and calling some Methods.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: canvas
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup ##
 
 This document will explain what is needed to setup access to Instructure Canvas and install the connector.
@@ -38,3 +39,5 @@ You will need to be an admin of the Instructure canvas installation to create an
  In the connector setup enter the client ID and secret or your access token, as stated in the previous step.
  
  Set the Base URL as your Instructure Canvas installation URL. This is the URL that you used to login to the web interface, for example if you used "http://cyclr.instructure.com/login/canvas" to login you should enter "http://cyclr.instructure.com" into this textbox. 
+
+</section>

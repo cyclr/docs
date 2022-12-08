@@ -10,7 +10,8 @@ menus:
         identifier: field-mapping
         weight: 3
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 When using an Action step, you will need to map its fields.  You can do this through the 'cog' icon on the step which gives access to the Step Setup functionality.
 
 ## Field mapping example
@@ -53,3 +54,4 @@ These Mergefields can be used to map fields directly and as part of the content 
 ```
 The last run was {% raw %}{{LastSuccessfulRunDate}}{% endraw %}.
 ```
+</section>

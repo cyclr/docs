@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: engagement-multiplier-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication Credentials
 
 The Engagement Multiplier connector is authenticated with OAuth2.0, as a result you will need a **Client ID** and **Client Secret**:
@@ -25,6 +26,9 @@ The Engagement Multiplier connector is authenticated with OAuth2.0, as a result 
 
    ![engagement multiplier interface](./images/engage_multi_3.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authenticate The Connector
 
 1. Locate the Engagement Multiplier connector
@@ -49,6 +53,10 @@ The Engagement Multiplier connector is authenticated with OAuth2.0, as a result 
 
 Upon successful authorization you will be redirected to Cyclr. The connector is now authenticated and ready to use.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 If you are unable to locate your Company ID, you can use the method 'Get Authenticated User'. It will retrieve among other things, the Company ID for the currently authenticated user.
+</section>

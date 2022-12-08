@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: servicemonster-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 ### Authentication Credentials
@@ -30,3 +31,5 @@ To obtain a username and password for use with the API/connector:
 3. Enter your Username and Password, click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

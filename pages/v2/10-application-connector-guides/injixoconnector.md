@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: injixo
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### Injixo Personal Access Token
@@ -20,3 +21,5 @@ Setup your Injixo within Cyclr when installing on an account in Cyclr.
 Enter your Injixo Personal Access Token when asked to enter **API Key**
 
 Your Injxo Connector is now setup! You can test it by executing one of the methods to confirm it can return some data.
+
+</section>

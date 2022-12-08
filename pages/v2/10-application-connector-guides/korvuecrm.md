@@ -5,11 +5,15 @@ permalink: korvue-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Korvue CRM setup
 
 Korvue CRM provides you with credentials and a base URL when you sign up for your account.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 1. To set up the Korvue CRM connector in Cyclr:
@@ -33,3 +37,5 @@ Korvue CRM provides you with credentials and a base URL when you sign up for you
 7. Select **Save Changes**.
 
 > **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
+
+</section>

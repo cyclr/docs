@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: bullhorn-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Bullhorn
 
 ## Partner Setup
@@ -48,3 +49,5 @@ To retrieve custom object fields with your Job Order requests the steps to do so
 3. Add the custom object name and field names to the Custom Objects parameter when making the request. The format must be ObjectName(FieldName,FieldName,FieldName). For example:
 
    ![Add Query](./images/bullhorn_cf_3.png)
+
+</section>

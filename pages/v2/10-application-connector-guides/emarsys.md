@@ -5,7 +5,8 @@ permalink: authenticate-emarsys
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication ##
 
 To authenticate the connector you will need a username and secret key.  To obtain these you will need to create an API user within Emarsys.
@@ -13,3 +14,5 @@ To authenticate the connector you will need a username and secret key.  To obtai
 There are instructions for doing so here: https://dev.emarsys.com/v2/before-you-start/overview#creating-api-users
 
 Once you have the username and secret, you can use them to authenticate the connector.
+
+</section>

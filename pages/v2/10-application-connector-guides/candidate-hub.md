@@ -5,7 +5,8 @@ permalink: candidate-hub
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Partner Setup
 ---------------
 
@@ -51,3 +52,5 @@ You will also need to add the subdomain of your application to the connector whe
 You will then be prompted to log in, select your CandidateHub account information and authorize access to the connector.
 
 
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: mondaydotcom-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To authenticate the monday<span></span>.com connector you will need a Board ID and an API Key.
@@ -56,3 +57,5 @@ To authenticate the monday<span></span>.com connector you will need a Board ID a
 4. Enter your API Key, click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

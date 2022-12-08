@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: wealthbox-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, [login](https://app.crmworkspace.com/users/login) to your existing Wealthbox account or [sign up for one.](https://www.wealthbox.com/)
@@ -36,3 +37,5 @@ Enter the following values:
 **API Key**: Enter the **Access Token** that we retrieved earlier here.
 
 Your Wealthbox Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

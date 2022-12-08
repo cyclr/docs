@@ -9,7 +9,8 @@ menus:
         identifier: install-from-template
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 A Cycle is an instance of a template you install within an account.
 
 ## Install a template with the Cyclr API
@@ -69,3 +70,5 @@ Response:
 
 *  [How to Get Template Prerequisites](./get-cycle-prerequisites)
 *  [Template Installation](./template-installation)
+
+</section>

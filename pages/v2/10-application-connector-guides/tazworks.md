@@ -4,6 +4,8 @@ sidebar: cyclr_sidebar
 permalink: tazworks-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Tazworks Setup
 ---------------
 For Cyclr to connect with the Taxworks
@@ -21,3 +23,5 @@ The Connector now can be installed using the credentials obtained in the above s
 **Domain**: `The domain that you want to use the API on. Can be set to "api-sandbox.instascreen.net" to use the sandbox for development/testing purposes.`
 
 **API Key**: `This is the API token generated in steps above`
+
+</section>

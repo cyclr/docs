@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: liveForce-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Retrieving OAuth2 Details
 
 *   To request access to LiveForce you will need to [e-mail](mailto:tech@liveforce.co) and request for **Client ID** and **Client secret**.
@@ -27,3 +28,5 @@ Enter the following values:
 
 
 Your LiveForce Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

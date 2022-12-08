@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: box-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 Box uses OAuth 2.0 for authentication. The following are the steps needed to give this connector authorization to Box applications:
@@ -44,3 +45,5 @@ Box uses OAuth 2.0 for authentication. The following are the steps needed to giv
  * Upon installation of the connector in your account, you will be redirected to Box and prompted to 'Grant access to Box'. Once completed, you will be redirected back to Cyclr where the connector is authenticated and ready to use.
 
 ![connector setup](./images/box_setup_9.png)
+
+</section>

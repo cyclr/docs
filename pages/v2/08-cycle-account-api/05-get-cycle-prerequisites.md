@@ -9,7 +9,8 @@ menus:
         identifier: get-cycle-prerequisites
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 **_A Cycle installed in an Account from a Template may have prerequisites that need to be fulfilled before the Cycle can be activated._**
 
 The Cyclr API can provide information on the prerequisites for a Cycle to run.
@@ -75,3 +76,5 @@ In this example, there are the following pre-requisites:
 |70| Missing wait until date|
 
 [How to Authenticate Account Connector](./authenticate-account-connector)
+
+</section>

@@ -9,7 +9,8 @@ menus:
         identifier: testing-a-template
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Testing Steps
 
 You can test the steps in your template, by clicking their “play” button.
@@ -31,7 +32,12 @@ Notes:
 *   Cyclr may only return a small part of the data; usually the first “page”
 *   Steps that get _new_ or _updated_ records, will in fact always return some data (such that you can review it)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Run a Template
 
 Once correctly setup  you can click the 'run' button for your template to make it live and ready to receive data. Normally when testing it is normal to use the 'run once' option.
 
+
+</section>

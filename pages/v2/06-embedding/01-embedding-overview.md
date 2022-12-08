@@ -9,7 +9,8 @@ menus:
         identifier: embedding-overview
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 This article provides a broad overview of how Cyclr works with your app:
 
 1.  Connect your API
@@ -59,3 +60,5 @@ The table below outlines some scenarios that are possible.
 Cyclr provides hosting for your integrations, allowing you to get started quickly and have us take care of scaling, maintenance, and security.
 
 In addition, Cyclr can also be deployed to your own infrastructure.
+
+</section>

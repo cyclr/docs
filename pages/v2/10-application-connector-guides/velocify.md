@@ -5,11 +5,15 @@ permalink: authenticate-velocify
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication ##
 
 Velocify uses basic authentication so all you need to do is to provide a valid username/password combination for your account.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Creating Leads in Velocify
 
 In order to create leads using the Velocify connector there are a few preliminary steps to be undertaken first:
@@ -24,3 +28,5 @@ In order to create leads using the Velocify connector there are a few preliminar
 ![](./images/velocify_custom_field.png)
 
 5. Repeat step 4 for every field you wish to have access to, and you're ready to start creating leads.
+
+</section>

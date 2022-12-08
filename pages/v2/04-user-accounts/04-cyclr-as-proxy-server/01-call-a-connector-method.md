@@ -9,7 +9,8 @@ menus:
         identifier: call-a-connector-method
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Introduction
 
 In this guide, you will use the Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.
@@ -163,3 +164,5 @@ If you are using Cyclr APIs to call standard connectors, i.e. third-party connec
 Native connectors with the **IsPartnerIntegrationConnector** flag set to true can be called from any IP addresses.
 
 If you would like to use Cyclr APIs to call standard connectors, please contact our support team to whitelist your IP.
+
+</section>

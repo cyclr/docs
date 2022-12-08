@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: fmx-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="fmx-set-up"></a>
 
 # FMX set up
@@ -88,3 +89,5 @@ To change the display name of a custom object method category:
 3. Move the **Object Name** field to the **Object Value** field.
 4. Change the **Object Name** field as required. This does not require a specific format.
 5. Select **Save**.
+
+</section>

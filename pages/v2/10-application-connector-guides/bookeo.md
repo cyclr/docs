@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: bookeo-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="bookeo-setup"></a>
 # Bookeo setup
 
@@ -56,3 +57,5 @@ You will be asked for the following values when installing the Bookeo connector 
 | :------------- | :------------------------------------------------------------------------------------------------------------- |
 | **API Key**    | The [API key](#getting-an-api-key) of your client's Bookeo account.                                            |
 | **Secret Key** | The [secret key](#getting-a-secret-key) of your Bookeo application, if you did not enter this in step 5 above. |
+
+</section>

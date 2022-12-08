@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: ebay-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="ebay-setup"></a>
 
 # eBay setup
@@ -94,3 +95,5 @@ Cyclr asks for the following values when you install the eBay connector into an 
 | **Account Identifier** | Your eBay application [environment](#create-application-keys). |
 
 To test your eBay connector, you can execute one of the methods to confirm it can return data.
+
+</section>

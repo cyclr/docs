@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sugarcrm-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # SugarCRM #
 
 API Integration Guide
@@ -112,3 +113,5 @@ The supported filter operators are as follows:
 | $gte        | Matches when the field is greater than or equal to the value.                           |
 
 More information on adding custom fields can be found [here](https://docs.cyclr.com/adding-custom-fields).
+
+</section>

@@ -10,7 +10,8 @@ menus:
         identifier: legal-notices
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Terms and Conditions
 Cyclr's [Terms and Conditions](https://cyclr.com/terms-and-conditions)
 
@@ -275,3 +276,5 @@ The software provided by the Cyclr service may contain software available under 
 | WebGrease | [http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm](http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm) |
 | WireMock.Net | [https://licenses.nuget.org/Apache-2.0](https://licenses.nuget.org/Apache-2.0) |
 | YamlDotNet | [https://github.com/aaubry/YamlDotNet/blob/master/LICENSE](https://github.com/aaubry/YamlDotNet/blob/master/LICENSE) |
+
+</section>

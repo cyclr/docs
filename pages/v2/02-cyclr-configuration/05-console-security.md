@@ -10,12 +10,16 @@ menus:
         identifier: console-security
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Console Administrators
 
 Console Administrators have access to both the Cyclr Console and Cyclr Partner API.
 The Console Administrators page is where you can invite or remove people as console administrators, as well as enabling or disabling Account Activity and Billing notifications on a individual basis.
  
+
+</section>
+<section class="card py-5 my-5">
 ## IP Restrictions
 
 ### API and Console
@@ -24,3 +28,5 @@ Access to the API and Console can both be edited here by white-listing approved 
 ### API - Call Non-Native Connector Methods
 APIs for calling non-native (standard) connector methods are blocked by default, and can only be changed on request to the Cyclr support 
 
+
+</section>

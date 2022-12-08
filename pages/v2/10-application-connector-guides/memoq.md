@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: MemoQ-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing MemoQ account or [sign up for one.](https://www.memoq.com/)
@@ -41,3 +42,5 @@ You will also need to set up pre-translation and Machine Translation inside your
 
 *   [Setting up Machine Translation](https://docs.memoq.com/current/en/Places/mt-settings.html)
 *   [Setting up a Project](https://docs.memoq.com/current/en/Places/create-new-online-project-from-template.html)
+
+</section>

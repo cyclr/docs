@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: surefirecrm
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Surefire CRM #
 
 ## Partner Setup ##
@@ -17,3 +18,4 @@ This document will explain what is needed to setup access to Surefire CRM and in
 
 ### Connector Setup ###
 In the connector setup enter the "API Key" and the "Client Key" in the appropriate fields.
+</section>

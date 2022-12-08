@@ -5,7 +5,8 @@ permalink: bluedolphin-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="bluedolphin-set-up"></a>
 
 # BlueDolphin setup
@@ -51,3 +52,5 @@ You will be asked for the following values when installing the BlueDolphin conne
 - **Tenant**: The [Tenant](#getting-the-api-key-and-tenant) of your BlueDolphin account. 
 
 Your BlueDolphin connector is now set up! You can test it by executing one of the methods to confirm it returns data.
+
+</section>

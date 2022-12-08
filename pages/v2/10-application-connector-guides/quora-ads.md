@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: quoraads-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### Setting up your Account
@@ -19,6 +20,9 @@ Once registration is complete, the associated user can view their client ID and 
 
 For further information setting up authentication, please see the [Official Quora Ads documentation](https://www.quora.com/ads/api9169a6d6e9b42452d500a61717d87d15d5fa49ec5b53030741178130#section/Authentication).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Quora Ads within Cyclr:
@@ -37,3 +41,5 @@ Enter the following values:
 > **Client Secret**: Your [Client Secret](https://www.quora.com/ads/oauth_client_data).
 
 Your Quora Ads Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

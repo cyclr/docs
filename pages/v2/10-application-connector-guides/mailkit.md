@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: Mailkit-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing Mailkit account or [sign up for one.](https://app.mailkit.eu/)
@@ -49,3 +50,5 @@ From within the account you wish to install the connector:
 *   Enter your **Client ID** and **Client MD5**, then click 'Next'
 
 Your Mailkit connector is now setup at Account level. You can test it by executing one of the methods to confirm it can return some data.
+
+</section>

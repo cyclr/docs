@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: jobadder-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # JobAdder setup
 
 To authenticate the JobAdder connector, you will need the following pieces of information:
@@ -31,3 +32,5 @@ To obtain the above and authenticate the connector, follow these steps:
 You can now use the `Client ID` and `Client Secret` to authenticate your JobAdder connector. Enter these details and you will be prompted to allow the application access to your JobAdder data.
 
 Your JobAdder Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+</section>

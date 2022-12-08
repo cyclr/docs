@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: hubspot-api-key-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Hubspot Setup
 ---------------
 
@@ -29,3 +30,5 @@ The Connector now can be installed using the credentials obtained in the above s
 
 Your HubSpot Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>

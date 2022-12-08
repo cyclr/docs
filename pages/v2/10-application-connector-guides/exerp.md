@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: exerp-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Exerp setup
 
 You need the following information to setup the Exerp connector:
@@ -45,3 +46,5 @@ The methods `Centers > Get Center` and `People > Get Person` dynamically return 
 
 6. Select **Create**.
 7. Steps in a cycle can now have the extended attribute mapped.
+
+</section>

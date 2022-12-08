@@ -10,6 +10,8 @@ menus:
         identifier: template-basics
         weight: 1
 ---
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Cyclr Templates
 
 You can build Templated integrations in Cyclr that can then be either manually installed to your client's account or offered to clients for self-installation.
@@ -25,12 +27,20 @@ Once you have at least one Template built or in-progress then you will see these
 | Delete | Removes the Template.  This will NOT affect instances of the Template that have been installed in any of your Client's Accounts. |
 | Private/Public | If you want to make the Template available for installation by one of your Clients the setting must be Public.  Leaving the setting as private means that the Template is under construction or is generally not ready for publication. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Tagging Templates
 
 You can add Tags to your Templates through the list view.  These Tags are used by LAUNCH to choose which Templates are presented to a specific client.  The LAUNCH API call can request that only Templates tagged in a particular way are presented for installation.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 [Template Versioning](./integration-template-versioning)
 
 [LAUNCH](./launch-overview)
+
+</section>

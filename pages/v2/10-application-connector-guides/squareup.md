@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: squareup-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Squareup setup
 
 You can install Squareup with either OAuth or Access Token authentication. When installed, select the authentication method to use.
@@ -55,6 +56,9 @@ To obtain the access tokens, go to the [applications page](https://developer.squ
 ![The Squareup connector page.](./images/squareup_connector_setup.png)
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 To set up your Squareup (OAuth) connector within your Cyclr console:
@@ -71,9 +75,14 @@ To set up your Squareup (OAuth) connector within your Cyclr console:
 > **Note**: To use different settings for this connector on each account, leave these fields blank. This means Cyclr asks for these values when you install the connector into an account. 
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authentication errors
 
 If you see a "Not Authorized" message when you authenticate a Squareup connector, make sure you're using the correct details:
 
 * Sandbox or Production **Access tokens** found under "Credentials" in Squareup work with **API Key** authentication.
 * Sandbox or Production **Application secrets** found under "OAuth" in Squareup work with **OAuth** authentication.
+
+</section>

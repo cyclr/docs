@@ -9,7 +9,8 @@ menus:
         identifier: performance-tips
         weight: 6
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 The following tips may improve the performance of your integrations:
 
 ### Disabling Collection Splitting (if not needed)
@@ -27,3 +28,5 @@ Using "Inline Script" on a Field Mapping is a lot slower than using Script in a 
 ### Use Decision steps to avoid unnecessary Cycle runs
 
 Using a decision step to check whether your _trigger_ step has returned data will prevent the rest of the cycle running unnecessarily, and could reduce your task usage.
+
+</section>

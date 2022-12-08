@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sage-50cloud-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Client Setup
 
 ### Setup SDATA
@@ -65,3 +66,5 @@ Enter the following values:
 **Password**: The password of the user that you created in the first steps.
 
 Your Sage 50cloud Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

@@ -9,7 +9,8 @@ menus:
         identifier: custom-domains
         weight: 7
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Using your own domain as a Cyclr Service Domain
 
 To use your own domain as Cyclr Service Domain, follow these steps:
@@ -33,3 +34,5 @@ The domain set as your Cyclr Console's Service Domain is used for Webhook URLs a
 The Safari web browser and Chrome Incognito windows restrict access to third party cookies, causing errors when displaying Cyclr in an iframe to your users.
 
 You can avoid these by using a Service Domain which is a subdomain of the domain hosting your web application.
+
+</section>

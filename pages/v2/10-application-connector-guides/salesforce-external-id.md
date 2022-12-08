@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: salesforce-upsert-setup
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Salesforce Upsert Methods Setup
 
 In order to use the Upsert Account or Upsert Contact methods you must first setup a custom external ID field within the object in salesforce.
@@ -60,3 +61,5 @@ Once you have setup your External ID field you are ready to use the correspondin
 
 2. Go to setup the Upsert method in Cyclr, and insert the copied value into the 'External ID Field', and map your External ID value to the 'External ID' field.
     ![](./images/salesforce_custom_fields_cyclr.png)
+
+</section>

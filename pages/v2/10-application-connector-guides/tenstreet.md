@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: Tenstreet-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Tenstreet App within Cyclr:
@@ -18,3 +19,5 @@ Setup your Tenstreet App within Cyclr:
 ### Partner Setup
 
 In order to get the webhook service working, you'll need to contact Tenstreet customer support and ask them to set up sending data to the webhook. When dragging the webhook into the builder, it will automatically generate a URL in the set up for the step. You'll need to send this URL to Tenstreet so that they can fire off your data to our service.
+
+</section>

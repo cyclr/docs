@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: salesforce-pardot-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To authenticate the Salesforce Pardot connector you will need the **User Key**, **Email Address** and **Password** for the Pardot user account you will be interfacing with.
@@ -22,3 +23,5 @@ User Keys are available in Pardot under {your email address} > Settings in the A
 3. Enter your User Key, Email Address and Password. Click 'Next'
 
 The connector is now authenticated and ready to use. An API Key will automatically be retrieved based on the authentication credentials you provided. If you receive any authentication related errors please check that the credentials you provided are correct.
+
+</section>

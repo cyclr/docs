@@ -10,7 +10,8 @@ menus:
         identifier: cyclr-ip-allowlist
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 If you are setting up a Connector that requires an IP to be allowed, you can find the addresses that Cyclr *sends* API requests from below.
 
 If your Cyclr Partner Console is hosted on one of our shared stacks, you should use the appropriate IP addresses from this list:
@@ -23,3 +24,5 @@ If your Cyclr Partner Console is hosted on one of our shared stacks, you should 
 | APAC (Syndney) | apac.cyclr.com | 54.66.28.210 |
 
 If your Cyclr Partner Console is in a private cloud then please contact Cyclr Support.
+
+</section>

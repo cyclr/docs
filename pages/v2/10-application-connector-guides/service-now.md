@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: servicenow-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 There are currently two ServiceNow connectors available:
 
 - **ServiceNow** - Provides access to various ServiceNow API's
@@ -45,3 +46,5 @@ To authenticate the ServiceNow Table API connector you will need the above crede
 3. Follow the onscreen prompts to enter your authentication credentials
 
 > Note: A separate instance of the ServiceNow Table API connector should be installed for each table you want to interact with.
+
+</section>

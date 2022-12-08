@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: bamboohr-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 To authenticate the BambooHR connector you will need your **Company Subdomain** and an **API Key**.
@@ -46,3 +47,5 @@ To authenticate the BambooHR connector you will need your **Company Subdomain** 
 4. Enter your API Key and click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

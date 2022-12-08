@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: synchtank-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Synchtank Setup #
 
 To authenticate the Synchtank connector you will need the following pieces of information:
@@ -20,3 +21,5 @@ If you do not have access to these, please contact Synchtank to gather the corre
 3. Enter your API key. Click next.
 
 Your Synchtank Connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data.
+
+</section>

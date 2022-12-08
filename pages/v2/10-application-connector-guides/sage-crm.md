@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sagecrm-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Sage setup
 
 ### Enabling Allow Web Service Access for SOAP methods
@@ -44,3 +45,5 @@ You can create custom object categories that allow you to access custom object d
 5. The custom category created appears in your **Methods & Fields** list.
 
 You can use this to list and retrieve individual objects based on the entered name of the custom object. More information can be found [here](https://docs.cyclr.com/enhanced-objects).
+
+</section>

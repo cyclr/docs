@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: shipstation-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To setup the ShipStation connector, you will need a ShipStation API Key, and API Secret.
@@ -20,6 +21,11 @@ To setup the ShipStation connector, you will need a ShipStation API Key, and API
 
 > If you've already generated your API keys, the existing API keys will be displayed here and the button will say Regenerate API Keys.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Setting up the ShipStation Connector
 
 You can now use the Key and Secret retrieved on the previous step, to authenticate the connector.  Enter the Key in the ``Username`` field, and the Secret in the ``Password`` field.
+
+</section>

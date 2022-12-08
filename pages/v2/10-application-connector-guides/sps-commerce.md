@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: sps-commerce-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, [login](https://developercenter.spscommerce.com/) to your existing SPS Commerce Developer account or [sign up for one.](https://developercenter.spscommerce.com/#/signup)
@@ -46,3 +47,4 @@ This method requires you to add your own custom response fields. This can be acc
 "+" button under the **Response Fields** area.
 
 A further explanation of how to do this can be found [here](https://docs.cyclr.com/adding-custom-fields).
+</section>

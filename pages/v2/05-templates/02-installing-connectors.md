@@ -10,6 +10,8 @@ menus:
         identifier: installing-connectors
         weight: 2
 ---
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Basics
 
 In order to build a Cyclr Template you first need to install connectors. You can do this from the builder.  If this is your first Template, you will be directed to the connector store in order to get started.
@@ -20,6 +22,9 @@ If you need further connectors these can be added from the right sidebar of the 
 
 If you want to test a Template, you will need to authenticate the connectors that have been used in order to allow Cyclr to connect and transfer data. If you are just experimenting, you can skip the authentication step and install with the connector without authentication.  However, we strongly recommend that you thoroughly test your Templates before they are published.  
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authenticating a Connector
 
 There are different types of authentication. Depending on the connector you wish to use, the application may require any of the following:
@@ -37,6 +42,11 @@ For the other authentication methods, the connector installer will take you thro
 
 Once you have authenticated your connectors, you will be returned to the builder. Your new connectors will be installed in the sidebar ready to use.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 [How to Build a Template](./building-a-template)
+
+</section>

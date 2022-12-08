@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: chargebee-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### Setting up your Account
@@ -17,6 +18,9 @@ Once you've signed into your account you will be able to get your API Key by sel
 
 For further information setting up API Keys, please see the [Official Chargebee documentation](https://www.chargebee.com/docs/2.0/api_keys.html).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Chargebee connector within Cyclr:
@@ -35,6 +39,9 @@ Enter the following values:
 
 Your Chargebee Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 ### Configuring Custom Fields
@@ -134,3 +141,5 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
    - **Data Type** - You can optionally define a data type for your field. If it is datetime then add the subtype to allow for type conversions between different standards.
 
 Your Meta Data Custom fields are now setup!
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: myob-accountright-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Partner Setup
 -------------
 
@@ -51,3 +52,5 @@ Once the Connector has been installed, the Company File is selected through a St
 Alternatively, when creating a Template for integrating with MYOB that you wish to make available to your users, you can use a Cycle-level **Variable** in your Template and reference that in each MYOB Step, giving yourself a single location to set or update it.
 
 When installing the Template through the Cyclr API, after the MYOB AccountRight Live Connector has been installed and authenticated, you can then manually call the **Get Files** Method ([see here](https://docs.cyclr.com/call-a-connector-method)) to show a list of Company Files to the user, allow them to select one, then set that in the Template.
+
+</section>

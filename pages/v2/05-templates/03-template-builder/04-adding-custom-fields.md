@@ -10,7 +10,8 @@ menus:
         identifier: adding-custom-fields
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Manually Adding Custom Fields
 
 By default, connectors will only include the standard fields used by an application. Where you need to work with additional fields in the application you are connecting to, it is possible to add these using custom fields.
@@ -32,6 +33,9 @@ The following needs to be specified
 | Description | You can optionally describe the field and provide documentation, for example how it is used. |
 | Data Type | You can optionally define a data type for your field.  If it is datetime then add the subtype to allow for type conversions between different standards. Read more about [data types](./data-types)|
 
+
+</section>
+<section class="card py-5 my-5">
 ## Example Field Locations
 
 If you only have a few fields, you may want to add them manually.
@@ -61,6 +65,9 @@ The Field Locations for those properties would be as follows:<br>
 
 If you have a large number of fields to add, there is a more automated option as described below.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Adding Fields Using JSON Example
 
 If you have a JSON example of the request or response then this can be used to auto-add additional or custom fields.
@@ -68,3 +75,5 @@ If you have a JSON example of the request or response then this can be used to a
 Simply take the 'spy glass' icon by the Request or Response area - depending on where you wish to add the fields - and paste in the JSON example in the popup that opens.  Any fields that do not already exist will be added.  You may then need to tidy up the field names and data types that have been automatically generated.
 
 *NOTE: Before pasting in a large JSON example, reduce it to only what you wish to work with as a field will be added for each property it contains. Any you don't wish to keep must be deleted one-by-one.*
+
+</section>

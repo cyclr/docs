@@ -9,7 +9,8 @@ menus:
         identifier: marketplace-handling-callback
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Marketplace Integration Packages are installed using the LAUNCH flow.  After installation is complete, LAUNCH will either redirect the user back to the Marketplace or display the LAUNCH complete page. If the Marketplace Integration Package is not set to redirect the user back to the Marketplace, then the final page of the LAUNCH flow can be customized by defining the HTML &amp; JavaScript at:
 
 **Console > Settings > Customize Appearance > Launch Complete HTML**
@@ -79,3 +80,5 @@ Instead of creating a popup to the Marketplace URL directly, you should create a
 #### Redirect after LAUNCH Complete page
 
 JavaScript in the LAUNCH Complete page redirects your user to a page on your domain, passing in the result of the LAUNCH flow. That page then handles the details on your backend before closing the popup.
+
+</section>

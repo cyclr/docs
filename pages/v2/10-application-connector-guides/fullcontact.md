@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: fullcontact-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # FullContact #
 
 -------------
@@ -68,3 +69,5 @@ tags: [connector]
     Salesforce connector.</p>
 <p><img class="aligncenter wp-image-1202 size-full" src="https://cyclr.com/wp-content/uploads/2017/11/FullContact-Enhance-mapping.gif"
         alt="Mapping data from FullContact connector" width="700" height="336"></p>
+
+</section>

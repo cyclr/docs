@@ -9,7 +9,8 @@ menus:
         identifier: connector-paging
         weight: 10
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Inbound and Outbound Paging
 
 So that Cyclr can retrieve more objects than a remote API may allow in one request (some restrict this to 100 objects, for example), it can take advantage of an API’s paging functionality. This is referred to as **Inbound Paging**. Cyclr will repeatedly request pages of objects until it has retrieved them all.
@@ -38,6 +39,9 @@ These parameters can be overriden and adjusted at the method level.
 If values are not set at the method level they are inherited from those specified for the connector. 
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Inbound Paging Control Variables
 
 When implementing inbound paging in Cyclr, use the following variables.
@@ -55,6 +59,9 @@ Note. These should be entered in the first available **Parameter Value** (see im
 | CYCLR_PAGE_TOKEN | Page token in the response that is used in subsequent requests. This is sometimes called cursor pagination.
 | CYCLR_IGNORE_PARAMETER |Use this when a Connector-level Parameter exists, but is not valid for a particular Method so should be overridden. You must define the Parameter as normal, but provide the CYCLR_IGNORE_PARAMETER variable as the value to have it ignored. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Using Paging Variables
 
 ### Example 1 - API using page number and page size
@@ -110,6 +117,9 @@ If multiple response fields and query string parameters need to be matched, CYCL
 | QueryString| page | NA | NA | NA | NA | true | CYCLR_PAGE_NUMBER |
 | QueryString| limit | NA | NA | NA | NA | true | CYCLR_PAGE_SIZE |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Outbound Paging Variables
 
 Outbound paging only requires one variable to locate the array in the request body. Cyclr identifies when it has “too much” data to pass in one request by comparing it to the **PageSizeOutbound** property. If it has more, it chops the data into multiple requests automatically.
@@ -121,3 +131,5 @@ Use the same notation as request/response format connector field. Specify the lo
 ### Examples of outbound paging definitions:
 
     "PagedOutboundLocation": "data.[records]"
+
+</section>

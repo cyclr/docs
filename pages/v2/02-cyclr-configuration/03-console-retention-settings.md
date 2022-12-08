@@ -10,7 +10,8 @@ menus:
         identifier: console-data-retention-settings
         weight: 3
 ---
- 
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Data Retention 
 
 The data retention settings allow you to specify how long both successful transactions and transaction errors should be retained.
@@ -39,3 +40,5 @@ Data Retention settings can be accessed from the console, the template/cycle bui
 #### From your Account
 
 ![How to access Data Retention settings from your account](./images/access_data_retention_from_acct.png)
+
+</section>

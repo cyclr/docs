@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: vonage-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Setup
 
 To pair the Vonage connector with a Vonage application you will need an **Application ID**, **Private Key**, **API Key** and **API Secret**.
@@ -66,3 +67,5 @@ When retrieving the information associated with a phone number, using the 'Get N
 > Note: The Cnam functionality is only applicable to US phone numbers.
 
 ![vonage dashboard](./images/vonage_dashboard_8.png)
+
+</section>

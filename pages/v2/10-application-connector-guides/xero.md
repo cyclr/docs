@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: xero-private-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Xero Private Instance #
 
 Partner Setup
@@ -34,3 +35,5 @@ Paste this into the Private Key field in the Cyclr Connector Authentication scre
 Press `Next` and the connector should now be authenticated.
 
 At this point it would be a good idea to run a test against one of the methods, just to make sure the authentication process has been completed successfully.
+
+</section>

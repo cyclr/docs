@@ -10,7 +10,8 @@ menus:
         identifier: console-appearance-settings
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
 
 *Due to caching within Cyclr, allow 1 minute before the changes take effect.*
@@ -74,3 +75,5 @@ The error and error description, returned by the 3rd party, can be used within t
 ```` html
 <p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>
 ````
+
+</section>

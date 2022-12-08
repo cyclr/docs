@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: breathehr
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Breathe HR ##
 
 This document will explain what is needed to setup access to Breathe HR and install the connector.
@@ -19,3 +20,5 @@ This document will explain what is needed to setup access to Breathe HR and inst
 
 ### Connector Setup ###
  * In connector setup enter the production API key and the connector will authenticate.
+
+</section>

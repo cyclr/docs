@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: ec2-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing AWS account or [sign up for one.](https://aws.amazon.com/)
@@ -36,3 +37,5 @@ Enter the following values:
 
 
 Your Amazon EC2 Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

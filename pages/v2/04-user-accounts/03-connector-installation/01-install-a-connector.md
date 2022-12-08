@@ -9,7 +9,8 @@ menus:
         identifier: install-a-connector
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).
 
 ### Getting the connector ID
@@ -120,3 +121,5 @@ Now you have a sign in token, you can "build" the URL to send the user to where 
     https://[Partner Service Domain]/connectorauth/updateaccountconnectoroauth?id=1&token=***************************************&targetOrigin=example.com&callbackMessage=done
 
 When the user is sent to the built URL they will be redirected to the third party OAuth flow. On completion they will be either redirected to targetOrigin or a JavaScript message will be posted to the parent window.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: clubready-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Club Ready Setup
 ---------------
 **ApiKey Setup**
@@ -43,3 +44,5 @@ A list of some of the basic terms used within the ClubReady API.
 
 
 
+
+</section>

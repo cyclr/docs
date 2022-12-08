@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: spark-membership-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 To authenticate the Spark Membership connector you will need an API key. This can be found in your Spark Membership account under **Settings** > **API Key**.
@@ -20,3 +21,5 @@ To authenticate the Spark Membership connector you will need an API key. This ca
 3. Enter your API Key, click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

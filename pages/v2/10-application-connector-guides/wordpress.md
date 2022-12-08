@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: wordpress-connector.html
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Wordpress #
 
 Wordpress Connector Setup
@@ -41,3 +42,5 @@ With the above correctly setup, install the WordPress connector in Cyclr and pro
 ![](/images/wordpress-auth.png)
 
 Click the Next button and you will be prompted to sign into WordPress. Do this and then authorize Cyclr and you can now begin to use your WordPress site’s API.
+
+</section>

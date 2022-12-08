@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: google-calendar-workspace-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Account Level Setup
 
 ### Create Service Account with appropriate permissions
@@ -33,6 +34,9 @@ This action must be completed by a super admin of the Google Workspace account.
   * **https://www.googleapis.com/auth/admin.directory.group.readonly** - allows API access to read groups.
 * Click Authorize.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Google Calendar - Workspace App within Cyclr:
@@ -53,3 +57,5 @@ Enter the following values:
 
 
 Your Google Calendar - Workspace Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

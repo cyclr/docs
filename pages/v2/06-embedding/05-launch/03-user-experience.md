@@ -9,7 +9,8 @@ menus:
         identifier: launch-user-experience
         weight: 3
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Launch guides your users through setting up an integration between your app and third party apps, requiring them to provide only that information which cannot be included within your integration template.
 
 For example, the process of exporting contacts from your app to your user’s email marketing platform could largely be templated, but it may be desirable to allow your user to select the mailing list that contacts are added to.
@@ -93,3 +94,5 @@ They will most likely then be returned to your application:
 We provide response values that enable you to update your UI to indicate success, or instigate a backend process to make use of the newly installed Cyclr (for example, start a data export process).
 
 [Building Integration Templates for LAUNCH](./building-integration-templates-launch)
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: envision
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Envision ##
 
 This document will explain what is needed to setup access to Envision and install the connector.
@@ -17,3 +18,4 @@ This document will explain what is needed to setup access to Envision and instal
 
 ### Connector Setup ###
 In the connector setup enter the API Key and then enter your login details.
+</section>

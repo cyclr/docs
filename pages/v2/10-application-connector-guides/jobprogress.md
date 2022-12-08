@@ -5,7 +5,8 @@ permalink: jobprogress-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # JobProgress setup
 
 To authenticate the JobProgress connector, you will need a valid `Access Token`, please follow the steps below:
@@ -22,3 +23,5 @@ To authenticate the JobProgress connector, you will need a valid `Access Token`,
 You can now use the `Access Token` to authenticate your JobProgress connector.
 
 Your JobProgress connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data. 
+
+</section>

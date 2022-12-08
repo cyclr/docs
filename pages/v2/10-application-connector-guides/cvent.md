@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: cvent-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Cvent setup
 
 ### Requirements
@@ -13,6 +14,9 @@ To connect with Cyclr, you need a **Client ID** and **Client Secret**. For infor
 
 You also need to know the **Host Name** of the instance you want to access. You can find the **Host Name** options in the Cvent documenation on [API Endpoints](https://developer-portal.cvent.com/documentation#section/Getting-Started/API-Endpoints).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 To set up the Cvent connector in Cyclr, go to your console:
@@ -31,3 +35,5 @@ To set up the Cvent connector in Cyclr, go to your console:
    | **Client Secret** | The key used by OAuth to authenticate the application.                                                           |
 
 7. Select **Save**.
+
+</section>

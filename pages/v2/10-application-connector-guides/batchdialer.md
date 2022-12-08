@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: batchdialer-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Obtaining your API Key
 
 To authenticate the BatchDialer connector you will need an API Key. To retrieve this:
@@ -26,3 +27,5 @@ To authenticate the BatchDialer connector you will need an API Key. To retrieve 
 4. Enter your API Key and click "Next"
 
 The connector is now authenticated and ready to use.
+
+</section>

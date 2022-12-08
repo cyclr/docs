@@ -4,13 +4,17 @@ sidebar: cyclr_sidebar
 permalink: salesforce-metadata-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 When installing the **Salesforce Metadata** Connector you'll need to provide a Username and Password for the Salesforce account you wish to work with.
 
 You can optionally enter an Account Type.  Possible values are "enterprise" or "partner".
 
+
+</section>
+<section class="card py-5 my-5">
 ## Creating Custom Fields
 
 To create custom fields within Salesforce, there are three fundamental steps that must be carried out:
@@ -68,3 +72,5 @@ You will now be able to see the field from the Page Layouts interface in Salesfo
 An example of a cycle where we are setting the field level security for all profiles might look as follows. Notably, we are adding "List Profiles" before "Set Field Level Security" to set the field level security for all profiles.
 
 ![example cycle](./images/salesforce_meta_1.png)
+
+</section>

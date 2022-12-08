@@ -9,7 +9,8 @@ menus:
         identifier: static-value-mapping
         weight: 4
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**A static value can be set as the field mapping, a static value is a value that will never change.**_
 
 This value should be obtained from your user, or automatically assigned by your application, then provided to Cyclr like below:
@@ -54,3 +55,5 @@ Response:
 [Field Mapping with Step Data](./field-mapping-with-step-data)  
 [Value List Mapping](./value-list-mapping)  
 [Cycle Activation](./cycle-activation)
+
+</section>

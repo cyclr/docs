@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: caspio
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### Login / Sign Up
@@ -32,6 +33,9 @@ For your API integrations to work, you must:
 
 For further information, please see the [Official Caspio documentation](https://howto.caspio.com/).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Caspio within Cyclr:
@@ -54,6 +58,9 @@ Enter the following values:
 
 Your Caspio Connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Utilising Custom Object Categories
 
 The methods within some categories (like Tables) require you to create a custom object category. This is to create a clearer user experience when creating cycles.
@@ -65,3 +72,5 @@ In Cyclr:
 3. When some categories are expanded (to reveal their methods) a copy button will appear below the category name.
 4. Once you press this button, you will be able to select which item to create the Custom Category for (For example a specified Table).
 5. Now when you return to your Cycle editor, you will see the new category (marked with a star), which will automatically connect with the object that was assigned to it.
+
+</section>

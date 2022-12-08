@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: azure-ad-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 The Microsoft Azure Active Directory connector is authenticated with the OAuth2.0 protocol. You will need to register an application and provide the connector with that application's Client ID (Application ID) and Client Secret.
@@ -57,3 +58,5 @@ To allow your clients to access their own data through your Active Directory App
 
 
 The Microsoft Azure Active Directory Connector can now be installed and the user will only be asked to authenticate your App.
+
+</section>

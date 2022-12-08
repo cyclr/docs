@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: openapply-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 To authenticate the OpenApply connector you will need a Client ID, Client Secret and the name of you account.
@@ -35,6 +36,9 @@ Your OpenApply account as displayed in your account URL. Example: if your accoun
 
 The connector is now authenticated and ready to use.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 ### Custom Fields
@@ -57,3 +61,5 @@ The "Field Location" format for each of the supported methods is as follows:
 | Search Students By Tag          | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
 
 The following is a guide for adding custom fields to a method: [adding custom fields](https://docs.cyclr.com/adding-custom-fields).
+
+</section>

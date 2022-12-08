@@ -10,7 +10,8 @@ menus:
         identifier: logic-tools
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Introduction
 
 Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
@@ -22,6 +23,9 @@ Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
 | Wait Until | Allows you to hold processing until a specific data/time has been reached. |
 | Wait All | Allows you to add closing steps to a process when the integraton has been processing an array of transations in parallel. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Decisions
 
 Decision steps can split the data in your cycle down a true or false branch.
@@ -58,6 +62,9 @@ To create more advanced logic, you can chain multiple Decision steps together.
 * Only Step 2's results are being filtered by a decision step.
 * Any data from Step 1 will always be mapped, regardless of the results of Step 2.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Delays
 
 Delay steps added to a cycle, will execute without any scheduled delays. Connecting a Delay between two steps will allow you to set a fixed time that Cyclr should wait before it executes the next step.
@@ -70,6 +77,9 @@ Once the Delay s on the build canvas, connect it between two steps and click the
 
 You can also pause for a period based on a date field in your data. For example, when a contact’s subscription is due for renewal. To do this, you should use a Wait Until step.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Wait Until
 
 You can use a Wait Until step in two ways.
@@ -90,6 +100,9 @@ For example, a contact’s subscription renewal date.
 
 Select a step from the first dropdown, then a field from the second. The field should be a date.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Wait All
 
 A **Wait All** Step waits for all Transactions running in a Cycle to complete before moving on and executing the Steps that appear after it.
@@ -110,3 +123,5 @@ After all contacts have been processed, the Step following the Wait All will be 
 * Avoid setting your Cycle to run too frequently as the Wait All Step only continues once there are no "In Progress" Transactions running on the Cycle, regardless of when and how they were started.
 * A Wait All Step effectively splits a Cycle into 2 parts: Steps that come before the Wait All and Steps that come after it.  Because of this, Steps placed after a Wait All are not able to map from Steps that come before it.
 * You don't need to connect all Steps to a Wait All to have it fire.  Decision Steps and Methods that have True and False Exits can't prevent a Wait All functioning by not linking their Exits to it.  The Wait All will still fire once all "In Progress" Transactions have been completed.
+
+</section>

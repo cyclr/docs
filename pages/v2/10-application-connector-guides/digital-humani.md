@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: digital-humani
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Login / Sign Up
@@ -20,6 +21,9 @@ For your API integrations to work, you must find the following details from your
 
 For further information, please see the [Official Digital Humani documentation](https://docs.digitalhumani.com/).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your Digital Humani within Cyclr:
@@ -39,3 +43,5 @@ Enter the following values:
 > **API Key**: Your API Key.
 
 Your Digital Humani Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

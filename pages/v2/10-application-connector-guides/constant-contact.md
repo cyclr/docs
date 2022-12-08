@@ -5,7 +5,8 @@ permalink: constant-contact
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Constant Contact Setup
 
 To use the Constant Contact connector, you will first need to setup an application within Constant Contact to obtain a `Key` and `Secret`.
@@ -26,3 +27,5 @@ To use the Constant Contact connector, you will first need to setup an applicati
 ### Setting up your Constant Contact Connector
 
 You can now use the `Key` and `Secret` from the previous stage, as `Client ID` and `Client Secret` respectively, when authenticating the connector.
+
+</section>

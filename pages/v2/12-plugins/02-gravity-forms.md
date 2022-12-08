@@ -9,7 +9,8 @@ menus:
         identifier: gravity-forms-plugin
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ![Gravity Forms](https://cyclr.com/wp-content/uploads/2017/10/Gravity-Forms-259x300.png)
 
 #### Prerequisites
@@ -58,3 +59,5 @@ The simplest way is to make a dummy submission of your form after having clicked
 To manually add Fields or to change existing ones, follow these steps:
 *   In the builder, open the connector in the sidebar and click the Settings button
 *   Under Methods & Fields, pop open the Entries category and then the Form Entry webhook
+
+</section>

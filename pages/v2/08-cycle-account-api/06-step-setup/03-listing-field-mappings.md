@@ -9,7 +9,8 @@ menus:
         identifier: set-step-field-mapping
         weight: 3
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**Field Mappings are passed to the third party API as the request body.**_
 
 For each Missing field mapping returned in the Step prerequisites request in step 7:
@@ -53,3 +54,4 @@ There are multiple ways of setting a Field Mapping value.
 [Static Value Field Mapping](./static-value-mapping)  
 [Field Mapping with Step Data](./field-mapping-with-step-data)  
 [Value List Mapping](./value-list-mapping)
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: franconnect
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## FranConnect ##
 
 This document will explain what is needed to setup access to FranConnect and install the connector.
@@ -20,3 +21,5 @@ In Cyclr's Connector Setup, enter the **Client ID** and **Client Secret** you we
 For example, if the login URL for your FranConnect system is `https://developers.franconnect.net/fc`, then the company code will be `developers.franconnect.net`.
 
 Sign in the the FranConnect account using the details provided and the connector will then be authenticated.
+
+</section>

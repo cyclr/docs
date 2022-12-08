@@ -9,7 +9,8 @@ menus:
         identifier: connector-standards
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Cyclr Connector Standards Guide
 ---------------------------
 
@@ -52,3 +53,5 @@ Cyclr Connector Standards Guide
 #### Display Names
 - Each word should be seperated with a space and capitalised e.g. "Address Line 1"
 - IDs should be uppercase e.g. "**ID**"
+
+</section>

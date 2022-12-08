@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: woocommerce-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 ### Before you start
@@ -25,3 +26,4 @@ To create or manage keys for a specific WordPress user:
 6. Select **Generate API Key**, and WooCommerce creates API keys for that user.
 
 You can now authenticate the connector, passing the **Consumer Key** you just obtained as the username, and the **Consumer Secret** as the password.
+</section>

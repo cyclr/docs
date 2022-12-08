@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: open-bom-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Obtaining Authentication Credentials
 
 To authenticate the OpenBOM connector you will need your OpenBOM username and password, and an API Key.
@@ -24,3 +25,5 @@ API Keys are provided on request by OpenBOM's support team. Please contact suppo
 4. Click "Next"
 
 The connector is now authenticated and ready to use.
+
+</section>

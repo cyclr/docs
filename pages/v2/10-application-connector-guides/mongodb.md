@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: mongodb-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 MongoDB Connection
 ------------------
 
@@ -42,3 +43,5 @@ Currently, the following versions of MongoDB are supported:
 4.2
 4.0
 3.6
+
+</section>

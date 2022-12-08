@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: shopify-oauth
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Shopify (oAuth) ##
 
 If you are using API key authentication please see the documentation [here](https://docs.cyclr.com/shopify)
@@ -23,3 +24,5 @@ This document will explain what is needed to setup access to Shopify and install
 - The Secret is the Secret found on your application settings page.
 
 ![Shopify Details](./images/shopify-2.png)
+
+</section>

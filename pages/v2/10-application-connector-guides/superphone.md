@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: superphone-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Setup
 
 ## API Key
@@ -26,3 +27,5 @@ When you first get started you need to generate an API key. You can revoke or re
 3. Enter your API Key and click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: twilio-connector.html
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Twilio Connector Guide Setup #
 -------------
 
@@ -19,3 +20,5 @@ tags: [connector]
 
 
 <h3>Google Sheets Powered User Agent Dashboard</h3><p>Now you have your bi-directional chat helpdesk set up we want to add reporting functionality to it.</p><p>To do this, we create a Google Sheets powered dashboard. The dashboard will show you how many active chats you have in session and user agents you have available. More importantly, it will show you how to connect your Google Sheet to your helpdesk so you can extend its functionality further.</p><p>&nbsp;</p><p></p><center><iframe width="500" height="281" src="https://www.youtube.com/embed/ZvpOAm9IY3w?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe><p></p><p>&nbsp;</p><p>&nbsp;</p><p></p></center>
+
+</section>

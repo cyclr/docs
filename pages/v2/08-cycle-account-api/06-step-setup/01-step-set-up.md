@@ -9,7 +9,8 @@ menus:
         identifier: step-set-up
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**Templates in Cyclr may include steps that require mapping or parameter values that are specific to your end user’s use of those templates.**_
 
 If the Cycle prerequisites method returned Steps that required mapping, you need to loop through them to determine what is required.
@@ -65,3 +66,5 @@ Response:
 ````
 
 [How to Set Step Parameters](./set-step-parameters)
+
+</section>

@@ -9,7 +9,8 @@ menus:
         identifier: release-notes
         weight: 7
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## 2022
 
 ### 28th November 2022
@@ -128,6 +129,9 @@ menus:
 - API: include connector categories in API response
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## 2021
 
 ### 29th November 2021
@@ -228,6 +232,11 @@ menus:
 - Builder: new Run Once option in Consonle > Template > Publish Settings.
 - API: Account APIs allowed to have unset parameters.
 
+
+</section>
+<section class="card py-5 my-5">
 ## 2021 and older
 
 For release notes before 23rd February 2021, please visit [the Cyclr website](https://cyclr.com/changelog){:target="_blank"}.
+
+</section>

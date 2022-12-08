@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: marketo-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To get a **client ID** and **client secret** you must login to your Marketo installation as an admin.
@@ -33,6 +34,9 @@ Enter the following values:
 
 Your Marketo Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Bulk Import/Export
 
 The ability to import and export CSV, TSV or SSV files is supported with methods from the **Bulk Imports** and **Bulk Exports** categories.
@@ -160,3 +164,5 @@ Now that both cycles are configured we can run them:
 1. Run **Cycle 2** first. As you will see, nothing will happen at this point. The cycle is essentially on standby, ready to run when the webhook is triggered
 
 2. Run **Cycle 1**. This will create an export job, add it to the processing queue and send the Export ID to the webhook of **Cycle 2**, thus starting that cycle
+
+</section>

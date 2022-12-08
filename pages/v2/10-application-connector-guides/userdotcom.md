@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: userdotcom-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To authenticate the User<span></span>.com connector you will need your application's subdomain and API Key.
@@ -51,6 +52,9 @@ To authenticate the User<span></span>.com connector you will need your applicati
 
 The connector is now authenticated and ready to use.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Webhooks
 
 You have the ability to configure webhooks, triggered upon the completion of specified events.
@@ -126,3 +130,5 @@ In this example we will configure a webhook that is triggered upon the creation 
 17. Now that the workflow has been configured click 'Run' in the top-left corner of the workflow buider
 
 The workflow is now active. Each time a user is created, the webhook will be triggered and the new user's details will be retrieved.
+
+</section>

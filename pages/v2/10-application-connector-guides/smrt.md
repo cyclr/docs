@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: smrt-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Authentication
 
 To authenticate the SMRT connector you will need the name of your SMRT account and an API Key.
@@ -42,3 +43,5 @@ A modal will appear with a sample cURL request. The long string after "Bearer" i
 4. Enter your API Key, click 'Next'
 
 The connector is now authenticated and ready to use.
+
+</section>

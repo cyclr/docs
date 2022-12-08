@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: mindbody-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Mindbody Setup
 ---------------
 
@@ -40,3 +41,5 @@ The Connector now can be installed using the credentials obtained in the above s
 
 **Password**: `password`
 
+
+</section>

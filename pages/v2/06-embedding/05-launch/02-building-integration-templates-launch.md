@@ -10,7 +10,8 @@ menus:
         identifier: building-integration-templates-launch
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 Integration Templates available in the LAUNCH flow are designed using the Cyclr drag-and-drop builder.
 
 Integration Name
@@ -76,3 +77,5 @@ Within the context of the LAUNCH flow, template tags help display to your end us
 For example, tagging could be based on the type of application that is integrated to (e.g. CRM, email marketing, accounting, etc…), or a specific brand of application (e.g. Salesforce, Oracle, Facebook, etc…).
 
 [Deploying LAUNCH in your App](./launch-deployment)
+
+</section>

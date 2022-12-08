@@ -5,7 +5,8 @@ permalink: profitwell
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## ProfitWell ##
 
 This document will explain what is needed to setup access to ProfitWell and install the connector.
@@ -18,3 +19,5 @@ This document will explain what is needed to setup access to ProfitWell and inst
 
 ### Connector Setup ###
  * In connector setup enter the API Token and the connector will authenticate.
+
+</section>

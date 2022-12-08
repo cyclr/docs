@@ -9,7 +9,8 @@ menus:
         identifier: cycle-data-storage
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 ## Purpose
@@ -33,3 +34,5 @@ If you wish to store more structured data or more than one value (perhaps the fi
 * [Cycle Object Storage](./cycle-object-storage)
 * [Global Data Storage](./global-data-storage)
 * [Global Object Storage](./global-object-storage)
+
+</section>

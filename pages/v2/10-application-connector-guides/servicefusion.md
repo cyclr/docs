@@ -4,8 +4,8 @@ sidebar: cyclr_sidebar
 permalink: servicefusion-connector
 tags: [connector]
 ---
-
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Partner Setup
 
 Before you can install your connector, you need to register an oAuth application with Service Fusion:
@@ -32,3 +32,5 @@ Enter the following values:
 **Client ID**:  the _Consumer Key_ of your Salesforce Connected App
 
 **Client Secret**: the _Consumer Secret_ of your Salesforce Connected App
+
+</section>

@@ -6,7 +6,8 @@ tags: [connector]
 
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner setup
 
 This page explains how to setup access to Zoho so you can use the Zoho connector in Cyclr.
@@ -31,6 +32,9 @@ For more information, see [Zoho's documentation](https://www.zoho.com/accounts/p
 
 > **Note**: You can find your **Service Domain** in your Cyclr console from the **Settings** menu then **General Settings**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console:
@@ -48,6 +52,9 @@ When you install the **Zoho CRM** connector, use the domain part of the URL that
 If you have a Zoho CRM Plus subscription, use the normal domain format `https://crm.zoho.com` instead of `https://crmplus.zoho.com`.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Scopes
@@ -104,3 +111,5 @@ To use this method, follow these steps to set up your cycle:
     ```
 
     > **Note**: To update the last successful run date of your cycle please drag the the **Update Last Successful Run Date** Method located in the **Utilities**  Category onto your cycle and run the step. 
+
+</section>

@@ -10,7 +10,8 @@ menus:
         identifier: cyclr-glossary
         weight: 2
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Accounts
 
 Each of a Cyclr Partner's Customers will have an account in Cyclr.
@@ -55,3 +56,5 @@ A Cycle is made up of a collection of Cycle Steps.  Each Cycle Step may:
 * Perform a logic action such as delaying the Cycle Transaction for a period of time<br> 
 or 
 * Perform different actions depending on the data received from the third party API.
+
+</section>

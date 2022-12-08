@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: google-classroom-workspace-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Google Workspace Setup
 
 > Note: Due to how Google Classroom authentication works, clients themselves will need to follow the Google Workspace setup process described below.
@@ -71,3 +72,5 @@ To setup the Google Classroom connector within a template:
 9. Click **Next**.
 
 Your Google Classroom connector is now setup! You can test it by running a method within the template it's installed in to confirm it returns data.
+
+</section>

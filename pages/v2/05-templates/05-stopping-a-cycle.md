@@ -9,7 +9,8 @@ menus:
         identifier: stopping-a-cycle
         weight: 5
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 _**This article refers to Cycles, but the same applies to Templates.**_
 
 When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**
@@ -53,3 +54,5 @@ If you have transactions in progress/queued that you want to stop and not contin
 3. Delete the *original* Cycle which will also delete all of its existing transactions.
 
 Your new Cycle won't have any existing transactions.
+
+</section>

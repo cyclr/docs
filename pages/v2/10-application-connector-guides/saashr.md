@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: saashr-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="saashr-setup"></a>
 
 # SaaShr setup
@@ -63,3 +64,5 @@ In some cases, further field mapping is required on methods which accept key and
 The **Update Cost Center** method allows this mapping for the following fields: `gl_codes`, `custom_fields` and `contacts`.
 
 The **Update Employee Pay Information** only allows this mapping for `gl_codes`.
+
+</section>

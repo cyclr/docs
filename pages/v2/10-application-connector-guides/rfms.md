@@ -6,7 +6,8 @@ tags: [connector]
 
 
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 <a name="rfms-set-up"></a>
 
 # RFMS set up
@@ -47,3 +48,5 @@ To set up your RFMS connector within your Cyclr console:
 
 Your RFMS connector is now set up! You can test it by installing it to a
 Cyclr account and then executing one of the methods to confirm it returns data.
+
+</section>

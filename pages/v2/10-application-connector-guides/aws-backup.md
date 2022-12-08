@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: aws-backup-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing AWS account or [sign up for one.](https://aws.amazon.com/)
@@ -35,3 +36,5 @@ Enter the following values:
 **AWS Secret Key**:  The Secret Key that we noted down earlier when we created a new access key.
 
 Your AWS Backup Connector is now setup!
+
+</section>

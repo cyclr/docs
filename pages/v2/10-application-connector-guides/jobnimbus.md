@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: jobnimbus-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Login / Sign Up
@@ -37,13 +38,16 @@ Enter the following values:
 **API Key**: The key we just generated from the **Retrieving API Key Details** section of this guide.
 
 Your JobNimbus Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>
 ---
 title: JobNimbus Authentication
 sidebar: cyclr_sidebar
 permalink: jobnimbus-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup
 
 #### Login / Sign Up
@@ -76,3 +80,5 @@ Enter the following values:
 **API Key**: The key we just generated from the **Retrieving API Key Details** section of this guide.
 
 Your JobNimbus Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+
+</section>

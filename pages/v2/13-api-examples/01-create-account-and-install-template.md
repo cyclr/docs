@@ -9,7 +9,8 @@ menus:
         identifier: create-account-and-install-template
         weight: 1
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 This document describes how to approach the following use case via API calls 
 
 1. Creating an Account
@@ -95,3 +96,5 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
 ```
 
 See **Cycle Activation** for more details: [Click Here](/cycle-activation)
+
+</section>

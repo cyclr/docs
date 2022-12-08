@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: calendly-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Calendly setup
 
 Before you install the Calendly connector into a Cyclr account, you need to do the following:
@@ -26,6 +27,9 @@ On the **Register your public application** form, the **OAuth redirect URL** fie
 
 You receive a client ID and client secret via email when you [register a Calendly OAuth application](#register-a-calendly-oauth-application).  This might take up to 24 hours. Contact Calendly support if you don't receive these values.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr console setup
 
 To set up your Calendly connector, go to your Cyclr console:
@@ -43,3 +47,5 @@ To set up your Calendly connector, go to your Cyclr console:
 5. Select **Save Changes**.
 
 > **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks you to enter the value when you install the connector into an account.
+
+</section>

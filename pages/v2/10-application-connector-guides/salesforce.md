@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: salesforce-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 *This guide applies to Salesforce, Salesforce Service Cloud, and other services that use Salesforce authentication.*
 
 # Partner Setup
@@ -204,3 +205,5 @@ To retrieve the contents of a CSV document, you will need to take the following 
 2. Use this ID in a "Get Content Version" call to get the Content Version ID.
 3. Enter the Content Version ID in a "Get Content Document Data (CSV)" call.
 4. You will need to add the fields within connector settings so that you can map them.  The field location will be '[].yourcolumname' without quotes.
+
+</section>

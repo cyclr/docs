@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: clicksend-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Partner Setup ##
 
 This document will explain what is needed to setup access to ClickSend and install the connector.
@@ -22,3 +23,5 @@ Copy the `API Key` field and continue to the next step.
 ### Connector Setup ###
  In the connector setup enter your ClickSend username, and then the `API Key` you copied above as the password.
 
+
+</section>

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: petexec-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Setup
 
 To authenticate the PetExec connector you will need a Client ID, Client Secret and the name of your account.
@@ -46,3 +47,5 @@ Your PetExec account as it is formatted in the URL. Example: if the URL for your
 5. You will be prompted to login to your PetExec account, after which you will be redirected to Cyclr
 
 The connector is now authenticated and ready to use.
+
+</section>

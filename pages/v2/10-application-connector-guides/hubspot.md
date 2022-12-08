@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: hubspot-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## HubSpot setup
 
 To connect Cyclr with the HubSpot API, you need to create an app within HubSpot, as detailed below:
@@ -22,6 +23,9 @@ To connect Cyclr with the HubSpot API, you need to create an app within HubSpot,
 
 In order to use the Products and Line Items methods, you need to assign the user a [paid Sales Hub seat](https://knowledge.hubspot.com/articles/kcs_article/account/manage-sales-hub-and-service-hub-paid-users) within HubSpot.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr setup
 
 You can install the connector with the credentials obtained in the above steps:
@@ -45,6 +49,9 @@ In this example, that would be the "Cyclr" account:
 
 ![](./images/hubspot-choose-acct.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Webhook setup
@@ -107,3 +114,5 @@ You can also create a custom object method category.
 5. Select **Copy**.
 
 The new category then uses the custom object schema selected for all methods.
+
+</section>

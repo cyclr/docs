@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: devicepilot
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Device Pilot #
 
 ## Partner Setup ##
@@ -41,3 +42,5 @@ Webhooks are managed by DevicePilot, so will need to be setup through the admin 
 6. Save the changes.
 
 More information can be seen on the [DevicePilot help page](https://help.devicepilot.com/webhook).
+
+</section>

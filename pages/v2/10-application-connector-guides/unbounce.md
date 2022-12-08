@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: unbounce
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ### Retrieving API Key Details
 
 * Go to https://unbounce.com/product-selector/ and create an account. Once your account is verified then sign in and:
@@ -19,3 +20,5 @@ tags: [connector]
 Setup your Unbounce Connecector within Cyclr:
 
 *  When installing the connector, enter the API key as the username, and leave the password field blank.
+
+</section>

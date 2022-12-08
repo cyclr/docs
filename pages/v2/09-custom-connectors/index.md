@@ -13,7 +13,6 @@ menus:
     icon: navsettings
     weight: 8
 ---
-## Create a custom connector
-
-Placeholder md for the category page
-
+{% assign hubdata = site.data.v2.categoriesnew.custom-connectors %}
+{% include v2/generic/hub/hub.html %}	
+{% include v2/generic/iconblocks.html %}	

@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: facebook-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Facebook Marketing API #
 
 Facebook Marketing API uses OAuth 2. You should sign up for an application on Facebook first and get an OAuth client ID and client secret.
@@ -74,3 +75,5 @@ The "Promoted Object" is required for certain campaign objectives. The below tab
 | OFFSITE_CONVERSIONS   | - **Application ID**, **Object Store URL**, and **Custom Event Type** (Standard Events) |
 | PRODUCT_CATALOG_SALES | - **Product Set ID**<br/>- **Product Set ID** and **Custom Event Type** |
 | LEAD_GENERATION       | - **Page ID** |
+
+</section>

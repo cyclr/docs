@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: klaviyo-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 ## Klaviyo setup
 
 To set up the Klaviyo connector in Cyclr you need a [private API key](#get-a-private-api-key) for your Klaviyo account.
@@ -15,6 +16,9 @@ To set up the Klaviyo connector in Cyclr you need a [private API key](#get-a-pri
 
 To see how to get a private API key, see [Klaviyo's guide](https://help.klaviyo.com/hc/en-us/articles/7423954176283). When you create a private API key, set **Select Access Level** to **Full Access Key** so the Klaviyo connector functions correctly within Cyclr.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr account setup
 
 When you install the Klaviyo connector in an account, Cyclr asks you for authentication details:
@@ -23,6 +27,9 @@ When you install the Klaviyo connector in an account, Cyclr asks you for authent
 | :------------------ | :----------------------------------------------------------- |
 | **Private API Key** | The [private API key](#get-a-private-api-key) for your Klaviyo account. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## Additional information
 
 ### Profile custom properties
@@ -76,3 +83,5 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
     | **Data Type**      | The data type of the custom property. Set this to `Text`. |
 
 5. Select **Create**.
+
+</section>

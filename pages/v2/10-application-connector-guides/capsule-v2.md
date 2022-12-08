@@ -4,7 +4,8 @@ sidebar: cyclr_sidebar
 permalink: capsule-connector
 tags: [connector]
 ---
-
+{::options parse_block_html="true" /}
+<section class="card py-5 my-5">
 # Capsule v2 #
 
 Partner Setup
@@ -51,3 +52,4 @@ API Integration Guide
 Capsule v2 connector uses OAuth 2 Authorisation Code flow. It requires your end users to sign into Capsule and grant Cyclr access to their account.
 
 To do this, call _/UpdateAccountConnectorOAuth_ with a one-time sign-in token.
+</section>
