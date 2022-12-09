@@ -22,6 +22,9 @@ Note: Throughout this document, the domain used in the example requests is ```ap
 
 If you are on the UK instance, this should be replaced with ```api.cyclr.uk```, and for the EU, ```api.eu.cyclr.com```.
 
+
+</section>
+<section class="card py-5 my-5">
 ## 1. Create Account
 
 ```curl
@@ -33,6 +36,9 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 
 See **Create Account** docs for more details: [Click Here](/create-account)
 
+
+</section>
+<section class="card py-5 my-5">
 ## 2. Install template into new account
 
 ```curl
@@ -44,6 +50,9 @@ Depending on the template being installed, there may be more to specify in this 
 See **Install a Template** docs for more details: [Click Here](/install-from-template)
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## 3. Authenticate connector (OAuth)
 
 ### 3a. Get Sign-in Token
@@ -71,6 +80,9 @@ Your service domain can be found by visiting General Settings in your Cyclr cons
 
 See our docs for more on authenticating via OAuth: [Click Here](/oauth-authentication).  Documentation for other auth routes is also available.
 
+
+</section>
+<section class="card py-5 my-5">
 ## 4. Set Step Field Mapping
 
 ```curl
@@ -85,6 +97,9 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
 
 See **Set Step Field Mapping** in our documentation for more details: [Click Here](/set-step-field-mapping)
 
+
+</section>
+<section class="card py-5 my-5">
 ## 5. Start Cycle
 
 ```curl

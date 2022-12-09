@@ -36,7 +36,10 @@ TikTok for Business's guide on how to create a developer app can be found [here]
 
 Find your created app under the **My Apps** section of the TikTok for business website [here](https://ads.tiktok.com/marketing_api/apps/). Select the app you want to install the connector using and make note of the **App ID** and **Secret**. These are both required to install the TikTok for business connector.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 The TikTok for Business connector can be used with two different authentication types: `Production Installation` or `Sandbox Installation`. The production installation should be used for live production accounts and the sandbox installation should be used for sandbox accounts. The `Advertisers` > `List Advertisers` method will not function when using the sandbox installation. Please see the additional information section for details on [TikTok for Business sandbox account setup](#tiktok-for-business-sandbox-account-setup).
 
@@ -76,7 +79,10 @@ You will be asked for the following values when installing the TikTok for Busine
 | **Environment** | The environment to install the TikTok for Business connector in. Select **Sandbox**. |
 | **API Key**     | The access token of your TikTok for Business app sandbox ad account.                 |
 
-# Additional information
+
+</section>
+<section class="card py-5 my-5">
+## Additional information
 
 <a name="tiktok-for-business-sandbox-account-setup"></a>
 

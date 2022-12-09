@@ -7,7 +7,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Authentication ##
+## Authentication
 
 Velocify uses basic authentication so all you need to do is to provide a valid username/password combination for your account.
 

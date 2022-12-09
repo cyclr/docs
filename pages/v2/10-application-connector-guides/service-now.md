@@ -13,6 +13,9 @@ There are currently two ServiceNow connectors available:
 
 ---
 
+
+</section>
+<section class="card py-5 my-5">
 ## Setup
 
 > Note: Before authenticating either of the ServiceNow connectors you must first obtain a **Personal Developer Instance** within ServiceNow. Details on how to do so can be found [here](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/technology_partner_program/app_store_learnv2_buildmyfirstapp_orlando_personal_developer_instances).

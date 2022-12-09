@@ -6,11 +6,11 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Partner Setup ##
+## Partner Setup
 
 This document will explain what is needed to setup access to ClickSend and install the connector.
 
-### Access Token ###
+### Access Token
 
 To retrieve your ClickSend access token you must log in to the ClickSend dashboard and open your *API Credentials* modal. How to do this is pictured below.
 
@@ -20,7 +20,7 @@ To retrieve your ClickSend access token you must log in to the ClickSend dashboa
 
 Copy the `API Key` field and continue to the next step.
 
-### Connector Setup ###
+### Connector Setup
  In the connector setup enter your ClickSend username, and then the `API Key` you copied above as the password.
 
 

@@ -15,9 +15,12 @@ A Cyclr account can contain account connectors and integrations, and typically 
 
 If an account doesn't already exist, you can create one.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Request
 
-````http
+```html
     POST /v1.0/accounts
     Authorization: Bearer 0000000000000000000000000000000000000000000000000000000000000000
 
@@ -31,7 +34,7 @@ If an account doesn't already exist, you can create one.
         "TransactionErrorWebhookUrl": "https://webhook/path/here",
         "TransactionErrorWebhookIncludeWarnings": false
     }
-````
+```
 
 | Parameter | Description |
 | --- | --- |
@@ -45,9 +48,12 @@ If an account doesn't already exist, you can create one.
 | **TransactionErrorWebhookIncludeWarnings** | Optional: sends warnings to the webhook URL if set to `true`. |
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Response
 
-````http
+```html
     200 Ok
     {
         "CreatedDate": "2017-12-06T15:54:06.6440352Z"
@@ -64,7 +70,7 @@ If an account doesn't already exist, you can create one.
         "TransactionErrorWebhookUrl": "https://webhook/path/here",
     	"TransactionErrorWebhookIncludeWarnings": false
     }
-````
+```
 
 | Parameter | Description |
 | --- | --- |

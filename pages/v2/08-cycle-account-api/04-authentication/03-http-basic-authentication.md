@@ -20,7 +20,7 @@ Your user’s username and password will need to be collected by your applicatio
 
 That string should then be set as the **AuthValue** property of the Account Connector:
 
-```http
+```html
     PUT /v1.0/account/connectors/{Account Connector ID}
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -28,11 +28,11 @@ That string should then be set as the **AuthValue** property of the Account Conn
     {
         "AuthValue": "dXNlcm5hbWU6cGFzc3dvcmQ="
     }
-````
+```
 
 Response:
 
-````json
+```json
     {
         "Id": 0,
         "Name": "Pipedrive",
@@ -55,7 +55,7 @@ Response:
         "Properties": [],
         "CustomFields": []
     }
-````
+```
 
 [API Key Authentication](./api-key-authentication)<br/>[OAuth Authentication](./oauth-authentication)  
 [Step Setup](./step-set-up)

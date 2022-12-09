@@ -41,12 +41,12 @@ eu.cyclr.com | https://api.eu.cyclr.com/oauth/token
 
 #### Example Request
 
-```http
+```html
 POST https://{API Domain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123
-````
+```
 > NB. ``grant_type``, ``client_id`` and ``client_secret`` go in the body of the call - they are not added to the endpoint.
 
 #### Example Response
@@ -73,17 +73,17 @@ grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123
 
 All calls to the Cyclr must provide the access token in the Authorize HTTP request header.
 
-````http
+```html
 Authorization: Bearer {access_token}
-````
+```
 
 #### Accessing Account Methods
 
 For any calls to API methods that relate to an account the ID of the account must be provided as a HTTP header in the request.
 
-````http
+```html
 X-Cyclr-Account: {AccountID}
-````
+```
 
 ### Account Restricted Tokens
 
@@ -91,11 +91,11 @@ If required you can restrict access tokens to only work for a specific account b
 
 #### Example Request
 
-```http
+```html
 POST https://{API Domain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123&scope=account:{account_id}
-````
+```
 
 </section>

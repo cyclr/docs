@@ -28,7 +28,10 @@ From the [API settings](https://dashboard.stripe.com/apikeys) page of your Strip
 1. Select **Reveal live key**. If testing mode is enabled, this will be labelled as **Reveal test key**.
 2. Make note of the **Secret key**, this will be required to set the connector up in Cyclr.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 ### Console setup
 

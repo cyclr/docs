@@ -12,6 +12,9 @@ PingOne uses OAuth 2 Client Credentials for remote API access. You must register
 
 The official documentation for creating an application can be found [here](https://apidocs.pingidentity.com/pingone/platform/v1/api/#getting-started).
 
+
+</section>
+<section class="card py-5 my-5">
 ## PingOne Setup – Register Your Application
 
 Use the PingOne admin portal to configure your oAuth application. To create the application connection select the environment  that you wish to connect to and then:
@@ -33,6 +36,9 @@ Use the PingOne admin portal to configure your oAuth application. To create the 
  * Auth Domain would be "auth.pingone.eu"
  * Environment  ID would be ""cd91070f-c371-480e-80b2-753c735f8aa1"
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr Setup
 
 Setup your PingOne connector within Cyclr:

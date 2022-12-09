@@ -14,6 +14,9 @@ menus:
 Cyclr Connector Standards Guide
 ---------------------------
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Details
 * Name should not include any version information
 * Version should be same as API version
@@ -21,9 +24,15 @@ Cyclr Connector Standards Guide
 * Logo should be 400x400 and scale down nicely
 * Connectors should only use 1 API version
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authentication
 - Use OAuth where available
 
+
+</section>
+<section class="card py-5 my-5">
 ## Methods
 #### Naming Convention:
 - **Get**: Used when the method retrieves a single item
@@ -39,6 +48,9 @@ Cyclr Connector Standards Guide
 #### Functionality
 * All entities should inlcude methods for **Get**, **Get New**, **Get Updated**, **List**, **Create**, **Update**, **Delete** unless not supported by the API
 
+
+</section>
+<section class="card py-5 my-5">
 ## Fields & Parameters
 - Descriptions should end in "."
 - Should provide lookup/triggers for IDs where possible

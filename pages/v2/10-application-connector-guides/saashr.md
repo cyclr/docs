@@ -8,7 +8,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="saashr-setup"></a>
 
-# SaaShr setup
+
+</section>
+<section class="card py-5 my-5">
+## SaaShr setup
 
 You will need the following to authenticate the SaaShr connector in an account:
 
@@ -28,7 +31,10 @@ When installing the SaaShr connector for the first time you need to enter an add
 
 <a name="cyclr-setup"></a>
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 <a name="account-setup"></a>
 
@@ -45,8 +51,14 @@ You will be asked for the following values when installing the SaaShr connector 
 | **Setup Password** | Only required if this is your first time integrating with the API. This is an auto-generated password provided by SaaShr.                        |
 | **API Key**        | The API key of your SaaShr account.                                                                                                              |
 
-# Further information
 
+</section>
+<section class="card py-5 my-5">
+## Further information
+
+
+</section>
+<section class="card py-5 my-5">
 ## Custom field mapping
 In some cases, further field mapping is required on methods which accept key and value pairs in an array. This can be seen in the methods **Update Cost Center** and **Update Employee Pay Information**. To map fields, please follow these steps:
 

@@ -16,7 +16,10 @@ You need the following information to setup the Simitive ABC-HE connector:
 
 From within your Simitive ABC-HE account, navigate to the **API Keys** page. Here you can create and view already existing API keys associated with your account. Select **Add API key** to create a new API key. Select **...** to the right of an existing API key and then **Reveal Token** to view an existing API key.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 ### Account setup
 
@@ -27,7 +30,10 @@ You will be asked for the following values when installing the Simitive ABC-HE c
 | **Domain**  | The domain of your Simitive ABC-HE login URL. For example, if you use `http://myuni.simitive.com/` to sign in to your Simitive ABC-HE account, then enter the domain as `myuni.simitive.com`. |
 | **API Key** | The API key of your Simitive ABC-HE account.                                                                                                                                                  |
 
-# Additional information
+
+</section>
+<section class="card py-5 my-5">
+## Additional information
 
 ### Custom Object (Period Version)
 

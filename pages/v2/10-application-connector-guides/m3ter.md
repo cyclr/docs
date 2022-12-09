@@ -13,16 +13,28 @@ You need to do the following to setup the M3ter connector:
 1. Generate an API Key and Secret for a Service User
 2. Get an organisation ID.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Generate an API Key and Secret for a Service User
 
 Please see M3ter's documentation on how to generate an API Key and Secret for a Service User [here](https://www.m3ter.com/docs/guides/authenticating-with-the-service/service-authentication#generating-an-api-key-and-secret-for-a-service-user).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Get an organisation ID
 
 Please see M3ter's documentation on how to get an organisation ID [here](https://www.m3ter.com/docs/guides/managing-organization-and-users/viewing-and-editing-organization#viewing-details-and-editing-configuration).
 
-# Cyclr setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Console setup
 
 To setup the M3ter connector within your Cyclr console:
@@ -44,6 +56,9 @@ To setup the M3ter connector within your Cyclr console:
 
 6. Select **Save Changes**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Account setup
 
 You will be asked for the following values when installing the M3ter connector within an account:

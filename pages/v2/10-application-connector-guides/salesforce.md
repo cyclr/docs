@@ -8,12 +8,18 @@ tags: [connector]
 <section class="card py-5 my-5">
 *This guide applies to Salesforce, Salesforce Service Cloud, and other services that use Salesforce authentication.*
 
-# Partner Setup
+
+</section>
+<section class="card py-5 my-5">
+## Partner Setup
 
 Salesforce uses OAuth 2 for remote API access. You must register Cyclr within Salesforce as your own Connected App to receive OAuth Client ID and Client Secret values to enable Cyclr to authenticate with Salesforce.
 
 The official Salesforce documentation for creating a **Connected App** can be found [here](https://help.salesforce.com/articleView?id=connected_app_create.htm).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Salesforce Setup – Register Your Application
 
 ### Introduction
@@ -93,6 +99,9 @@ Enter the following values:
 
 Your Salesforce Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Webhook Setup
 ### Add Webhook class to SalesForce account
 * Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
@@ -160,6 +169,9 @@ Your Salesforce Connector is now setup! You can test it by installing it in one 
 Now your account is set and ready to use webhooks in your account.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Enduser Salesforce Account Setup
 
 For the best experience when using the Salesforce Connector, and to reduce the frequency at which Cyclr must obtain a new Access Token and avoid some connection issues, ensure the following Session Settings have been set:
@@ -175,6 +187,9 @@ Under **Session Settings**
 
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## FAQ
 
 ### Expired access/refresh token errors

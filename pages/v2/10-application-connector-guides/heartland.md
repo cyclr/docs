@@ -6,13 +6,16 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Heartland #
+# Heartland
 
-## Partner Setup ##
+
+</section>
+<section class="card py-5 my-5">
+## Partner Setup
 
 This document will explain what is needed to setup access to Heartland and install the connector.
 
-### API Key Setup ###
+### API Key Setup
 
 1. Go to [https://developer.heartlandpaymentsystems.com/Account/KeysandCredentials](https://developer.heartlandpaymentsystems.com/Account/KeysandCredentials) and sign in.
 2. Create "Production Keys". Copy the "Secret Key".

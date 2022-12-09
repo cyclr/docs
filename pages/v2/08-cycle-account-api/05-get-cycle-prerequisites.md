@@ -17,15 +17,15 @@ The Cyclr API can provide information on the prerequisites for a Cycle to run.
 
 Request:
 
-````http
+```html
     GET /v1.0/cycles/{Cycle Id}/prerequisites
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response
 
-````json
+```json
     [{
         "ReasonCode": 20,
         "Reason": "Unauthenticated connector",
@@ -44,7 +44,7 @@ Response
         "ObjectType": "Action",
         "ObjectId": "709b68ba-394e-4339-9550-abd0312e8dd5"
     }]
-````
+```
 
 In this example, there are the following pre-requisites:
 
@@ -53,6 +53,9 @@ In this example, there are the following pre-requisites:
 
 <hr>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Full list of potential prerequisites
 
 | ReasonCode | Reason |

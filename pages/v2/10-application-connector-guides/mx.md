@@ -36,7 +36,10 @@ You can now use the `Client ID` and `API Key` to authenticate your MX connector.
 Your MX connector is now set up! You can test it by installing it to one of your Cyclr accounts and using one of the methods to confirm it returns data. Please read the information below concerning how to run `Institution` methods.
 
 
-# Additional information
+
+</section>
+<section class="card py-5 my-5">
+## Additional information
 
 
 

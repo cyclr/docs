@@ -43,7 +43,7 @@ eu.cyclr.com | https://api.eu.cyclr.com
 
 #### Example Request
 
-```http
+```html
 POST https://{API Domain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
@@ -72,7 +72,7 @@ To find this value in your Console, go to Accounts > Account Management and clic
 
 Make this call, specifying a user to sign in as.  If they don't already exist, they will be created:
 
-```http
+```html
 POST https://{API Domain}/v1.0/accounts/{API ID}/signintoken
 Authorization: Bearer YOURACCESSTOKENHERE
 Content-Type: application/json
@@ -84,12 +84,12 @@ Content-Type: application/json
 
 This will return the following response:
 
-````json
+```json
 {
   "Token": "JWxm_cYOq0m6PYWcVPWpuSBP-ppqRwhBk",
   "ExpiresAtUtc": "2021-05-17T15:55:41.9993413Z"
 }
-````
+```
 
 **The Token returned will expire after 5 minutes and can only be used once**.  Each time you need to give a user access to a Cyclr Account through your iframe, you must generate a new Token.
 

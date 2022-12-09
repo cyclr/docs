@@ -13,6 +13,9 @@ menus:
 <section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Purpose
 
 Many integrations are triggered when details of an updated record in one application are sent to a second application to keep the data in sync.
@@ -22,6 +25,9 @@ There are occasions when this process needs to be bi-directional and this can re
 The Cyclr **Cross Updating Preventer** (or "XUP" for short) is designed to avoid this situation.  It can be used to make sure that an inbound update to an application does not result in a returning outbound update.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Overview
 
 ### Inbound or Outbound?
@@ -39,6 +45,9 @@ The value must be something that's unique to each object and that exists in the 
 
 For systems where there isn't a shared and unique value, you could use a "concatenated Common Key" by combining the unique ID values from each system with a dividing character such as `[SystemA ID]_[SystemA ID]`, e.g. `5325_AVb38nj`.  When using a concatenated Common Key, you must ensure you combine the values in the same way wherever they're used.  Each system would also need to store a reference to the other system's ID value on its objects, like a Foreign Key on a database record.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Methods
 
 There are 4 main Methods on the Connector.  Their purpose is to check if data being sent from one system to the other is the result of a previous update so has been sent before, and if so to prevent it from continuing.
@@ -61,6 +70,9 @@ These simply compare the data you map to them with data previously stored by the
 These store the data you map to them in the Cross Updating Preventer's internal storage, ready to be used by the opposite direction's **Update OK** Method.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## How it Works
 
 **Update OK (*Outbound*)** compares the values you map on it with values that have been stored by **Store Data (*Inbound*)** for a specific Common Key value.  If there is any difference between those values, the Transaction leaves the Step through the True Exit, meaning the update should continue.  If the values are all the same, then it leaves through the False Exit indicating this isn't a real update as the data hasn't changed since the last time it was seen.
@@ -79,6 +91,9 @@ So **Update OK (*Inbound*)** and **Store Data (*Outbound*)** must have the same 
 And **Update OK (*Outbound*)** and **Store Data (*Inbound*)** must have the same fields mapped (and values formatted the same way).
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cycle Setup
 
 The screenshot below shows how you might build 2 Cycles that synchronize Contacts between Salesforce and HubSpot.

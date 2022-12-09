@@ -15,7 +15,10 @@ You need the following information to setup the Simitive WAMS connector:
 
 Your Simitive WAMS account manager/project manager should provide you with these.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 ### Console setup
 

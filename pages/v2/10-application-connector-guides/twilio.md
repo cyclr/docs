@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Twilio Connector Guide Setup #
+# Twilio Connector Guide Setup
 -------------
 
 <h2>Creating a Helpdesk using Twilio, Slack and Cyclr Example</h2><p>This guide shows you how to create your very own helpdesk that lets your agents view and respond to chats within Slack.</p><p>This guide will show you:</p><ul><li>How to create new channels in Slack</li><li>How to connect Twilio chat and Slack</li><li>How to build and test automation workflows in Cyclr</li><li>How to match chat windows with Slack channels</li><li>How to archive Slack channels for closed chats</li><li>How to create a Google Sheets driven dashboard</li></ul><h3>Automatic Channel Creation</h3><p>In part 1 of this guide, we show you how to create an automation workflow in Cyclr that automatically creates a new Slack channel when a Twilio chat is initiated.</p><p></p><center><iframe width="500" height="281" src="https://www.youtube.com/embed/Ytj2Xx6a-8Q?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center><p></p>

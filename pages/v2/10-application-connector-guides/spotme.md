@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 # Setup
 
+
+</section>
+<section class="card py-5 my-5">
 ## Authentication Credentials
 
 To authenticate the SpotMe connector you will need a Workspace ID and an API Key.
@@ -42,6 +45,9 @@ To authenticate the SpotMe connector you will need a Workspace ID and an API Key
 
    ![token](./images/spotme_interface_6.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Setup
 
 1. Locate the SpotMe connector

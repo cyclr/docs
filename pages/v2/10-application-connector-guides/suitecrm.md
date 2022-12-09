@@ -7,7 +7,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Authentication ##
+## Authentication
 
 Please Note - Each installation of the connector needs its own dedicated user, or you may see "Invalid Session" errors.  If you need to add further users, you can consult [SuiteCRM's official documentation](https://docs.suitecrm.com/admin/administration-panel/users/#_user_management).
 
@@ -20,7 +20,7 @@ The SuiteCRM Connector requires the following information to install.
 
 </section>
 <section class="card py-5 my-5">
-## Note about Contact methods ##
+## Note about Contact methods
 
 It should be noted that the SuiteCRM API will only return the first two email addresses of a record.  To see any additional email addresses, you will need to access your SuiteCRM portal.
 

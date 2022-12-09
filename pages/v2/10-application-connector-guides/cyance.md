@@ -16,7 +16,10 @@ You need the following details to set up the Cyance connector within Cyclr:
 
 You can request access to the Cyance API by contacting them [here](customerservices@cyance.com).
 
-# Cyclr Setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr Setup
 
 To set up the Cyance connector within Cyclr:
 

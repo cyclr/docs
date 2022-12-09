@@ -17,7 +17,7 @@ This value should be obtained from your user, or automatically assigned by your 
 
 Request:
 
-````http
+```html
     PUT /v1.0/steps/{Step ID}/fieldmappings/{Field ID}
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000 
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -26,11 +26,11 @@ Request:
       "MappingType": "StaticValue",
       "Value": "MyStaticValue"
     }
-````
+```
 
 Response:
 
-````json
+```json
     {
       "Field": {
         "Id": 283792,
@@ -50,7 +50,7 @@ Response:
       "TriggerValueDisplayName": null,
       "Value": "MyStaticValue"
     }
-````
+```
 
 [Field Mapping with Step Data](./field-mapping-with-step-data)  
 [Value List Mapping](./value-list-mapping)  

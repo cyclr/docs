@@ -11,6 +11,9 @@ tags: [connector]
 
 Due to limitations in the Amazon S3 API, it's not possible to access a bucket's contents if its name contains a period (.)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 First, login to your existing AWS account or [sign up for one.](https://aws.amazon.com/)

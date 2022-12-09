@@ -17,13 +17,13 @@ Retrieve a list of all public templates within the Partner console.
 
 Request:
 
-````http
+```html
     GET /v1.0/templates
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
-````
+```
 Response:
 
-````json
+```json
     [
         {
             "Name": "Pipedrive > MailChimp",
@@ -47,7 +47,7 @@ Response:
             ]
         }
     ]
-````
+```
 
 [How to Install a Template](./install-from-template)
 

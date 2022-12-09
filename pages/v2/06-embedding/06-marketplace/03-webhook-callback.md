@@ -13,14 +13,20 @@ menus:
 <section class="card py-5 my-5">
 When integrating with a Cyclr Marketplace you can specify a Webhook URL for Cyclr to send notifications to after your users have performed a Marketplace action.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Setting Marketplace URL
 
 In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. Set the Marketplace Notification URL to the location where Cyclr should send notifications.
 
 ![Marketplace Notification URL](/images/marketplace_notification_url.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Installed Payload Example
-````json
+```json
  {
     "Status": "installed",
     "AccountId": "00000000-0000-0000-0000-000000000000",
@@ -43,38 +49,47 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
     "Errors" : ["Failed to start cycle"],
     "UserId": "00000000-0000-0000-0000-000000000000"
 }
-````
+```
 
+
+</section>
+<section class="card py-5 my-5">
 ## Uninstalled Payload Example
-````json
+```json
  {
     "Status": "uninstalled",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
     "MarketplaceIntegrationPackageId": 1234
 }
-````
+```
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Started Payload Example
-````json
+```json
  {
     "Status": "started",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
     "MarketplaceIntegrationPackageId": 1234
 }
-````
+```
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Stopped Payload Example
-````json
+```json
  {
     "Status": "stopped",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
     "MarketplaceIntegrationPackageId": 1234
 }
-````
+```
 
 </section>

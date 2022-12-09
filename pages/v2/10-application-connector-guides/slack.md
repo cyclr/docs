@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Partner Setup ##
+## Partner Setup
 
 Slack uses OAuth 2.0 for authentication so you must [register your Cyclr Partner with Slack](https://api.slack.com/apps) to obtain your **Client ID** and **Client Secret** values.
 

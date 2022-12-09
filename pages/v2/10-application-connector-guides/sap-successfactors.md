@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 The SAP SuccessFactors connector is currently a beta connector.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To authenticate the SAP SuccessFactors connector you will need the following:

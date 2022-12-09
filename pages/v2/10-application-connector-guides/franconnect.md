@@ -6,14 +6,14 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## FranConnect ##
+## FranConnect
 
 This document will explain what is needed to setup access to FranConnect and install the connector.
 
-### Authentication Details Setup ###
+### Authentication Details Setup
 Contact FranConnect to get a **Client ID** and **Client Secret**. Contact details can be found [here](https://docs.franconnect.net/#tag/Introduction).
 
-### Connector Setup ###
+### Connector Setup
 In Cyclr's Connector Setup, enter the **Client ID** and **Client Secret** you were given into the appropriate fields.
 
 **Company Code** is the part after "https://" and before "/fc" of the login URL.

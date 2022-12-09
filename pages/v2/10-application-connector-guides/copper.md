@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## API Key ##
+## API Key
 
 The Copper connector is authenticated using an API key. You can generate an API key after logging into your Copper account. You need to go to:
 

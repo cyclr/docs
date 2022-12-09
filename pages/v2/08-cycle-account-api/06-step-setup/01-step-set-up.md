@@ -17,15 +17,15 @@ If the Cycle prerequisites method returned Steps that required mapping, you need
 
 Request:
 
-````http
+```html
     GET /steps/{Step ID}/prerequisites
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     [{
             "ReasonCode": 40,
             "Reason": "Missing parameter mapping",
@@ -63,7 +63,7 @@ Response:
             "ObjectId": 283796
         }
     ]
-````
+```
 
 [How to Set Step Parameters](./set-step-parameters)
 

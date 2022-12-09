@@ -10,7 +10,7 @@ tags: [connector]
 Wordpress Connector Setup
 -------------
 
-## Read me ##
+## ⚠️ Read me ⚠️ ##
 Make sure this is the right Wordpress connector you are after. This connector is used for self-hosted Wordpress sites.
 For Wordpress hosted sites view the Wordpress guide [here](https://docs.cyclr.com/wordpresscom-connector#wordpress-connector-setup).
 

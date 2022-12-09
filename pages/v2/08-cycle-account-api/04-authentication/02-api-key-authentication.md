@@ -19,7 +19,7 @@ You can update an existing Account Connector with this Cyclr API Request where *
 
 Request:
 
-````http
+```html
     PUT /v1.0/account/connectors/{Account Connector ID}
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -27,11 +27,11 @@ Request:
     {
         "AuthValue": "0000000000000000000000000000000000000000"
     }
-````
+```
 
 Response:
 
-````json
+```json
     {
         "Id": 0,
         "Name": "Pipedrive",
@@ -54,7 +54,7 @@ Response:
         "Properties": [],
         "CustomFields": []
     }
-````
+```
 
 [HTTP Basic Authentication](./basic-authentication)  
 [OAuth Authentication](./oauth-authentication)  

@@ -7,7 +7,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Authentication ##
+## Authentication
 
 Freshbooks Classic uses basic authentication.  For this, you will need your Authentication Token.
 

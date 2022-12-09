@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Breathe HR ##
+## Breathe HR
 
 This document will explain what is needed to setup access to Breathe HR and install the connector.
 
@@ -18,7 +18,7 @@ This document will explain what is needed to setup access to Breathe HR and inst
   5. Highlight and copy the production API key
   6. Paste in the field below
 
-### Connector Setup ###
+### Connector Setup
  * In connector setup enter the production API key and the connector will authenticate.
 
 </section>

@@ -14,6 +14,9 @@ menus:
 <section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Purpose
 
 The **Generic Webhook** Utility Connector provides the typical HTTP Methods - **DELETE** **GET** **PATCH** **POST** **PUT** - allowing you to make HTTP Requests towards remote systems.  We strongly recommend however that although these methods are available it is preferable to use a 'proper' fully featured Cyclr connector.
@@ -25,6 +28,9 @@ Each instance of the Webhook Method uses a unique URL to which a POST Request ca
 As with all connectors, the **Generic Webhook** Utility Connector can be added multiple times.  This allows the Connector to be setup and named appropriately for each use case.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Webhooks and Synchronous Webhooks
 
 When a Request is sent to a **Webhook** Step in a running Cycle, a Response is sent back straightaway confirming whether the Request was accepted or not.  If it was accepted, Cyclr will go on to run the Cycle using the data it was given, but you won't hear anything more about it.
@@ -40,6 +46,9 @@ This allows you to tell Cyclr to do some work and for it to say "ok, please wait
 We refer to this setup as **Synchronous Webhooks**.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Passing Control between Cycles
 
 The **Generic Webhook** Utility Connector can be used to link Cycles together.  For example, a step in Cycle 1 can make an HTTP POST to a Webhook that has been set up as a trigger to start Cycle 2.
@@ -55,6 +64,9 @@ When testing or running this kind of 'linked Cycles' structure you must start Cy
 In this example, 2 Cycles have been used but the same procedure can be set up to chain together a whole series of Cycles.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Mid-Cycle Webhooks
 
 Webhook Steps can be used as the *first* Step in a Cycle as a way to receive data for processing, but they can also be used *part-way through* a Cycle - or "Mid-Cycle" - as a way of holding a Transaction until ready to proceed.
@@ -67,6 +79,9 @@ Mid-Cycle Webhooks have a **Webhook Mapping** section in Step Setup where you de
 
 Each time the mid-Cycle Webhook receives a Request, it will look for the most recent Transaction that has a matching value for the Webhook Mapping defined, and run that Transaction from there.  This can be done multiple times, causing a Transaction to be run from the mid-Cycle Webhook more than once.  This can be useful when processing data such as Orders where a notification might be received each time its status changes (e.g. from Received, Picked, Packed to Despatched).  In this situation, if you only wanted to continue when the Order's status was "Despatched", you could use a Decision Step after the Webhook Step to check the current status.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 [How to add custom fields](./adding-custom-fields) 

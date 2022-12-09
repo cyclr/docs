@@ -1,5 +1,5 @@
 ---
-title: Connectors
+title: Install connectors
 sidebar: cyclr_sidebar
 permalink: installing-connectors
 tags: [templates]

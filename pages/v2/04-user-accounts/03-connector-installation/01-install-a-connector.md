@@ -19,15 +19,15 @@ You need the ID of a connector before you can install it. You can find a connect
 
 #### Request
 
-```http
+```html
     GET https://yourCyclrInstance/v1.0/connectors HTTP/1.1
     Authorization: Bearer ****************************************************************
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 #### Response
 
-````json
+```json
     [
        {  
           "Id":1,
@@ -43,7 +43,7 @@ You need the ID of a connector before you can install it. You can find a connect
        },
        {...}
     ]
-````
+```
 
 ### Installing the connector
 
@@ -59,17 +59,17 @@ Now that you have a connector ID, the connector can be installed by calling the 
 
 #### Request
 
-````http
+```html
     POST https://yourCyclrInstance/v1.0/connectors/1/install
     Authorization: Bearer ****************************************************************
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
     {"Name":"Example", "AuthValue":"example-api-key"}
-````
+```
 
 #### Response
 
-````json
+```json
     {  
        "Id": 1,
        "Name":"Example",
@@ -78,7 +78,7 @@ Now that you have a connector ID, the connector can be installed by calling the 
        "Connector":{ ... },
        ...
     }
-````
+```
 
 The connector is now installed into the account, if the connector doesn’t use OAuth you’re all done; otherwise, read on to authenticate with OAuth.
 
@@ -88,23 +88,23 @@ If the connector requires an OAuth authentication to work with the third party A
 
 #### Request
 
-````http
+```html
     POST https://yourCyclrInstance/v1.0/accounts/{AccountId}/signintoken
     Authorization: Bearer ****************************************************************
     {
       "Username":"Username of the user the token should sign in"
     }
-````
+```
 > NB. If said user does not exist, they will be created by this call.
 
 #### Response
 
-````json
+```json
     {
       "Token":"***************************************",
       "ExpiresAtUtc":"2017-11-29T16:22:36.7257196Z"
     }
-````
+```
 
 Now you have a sign in token, you can "build" the URL to send the user to where they will begin the OAuth flow.
 

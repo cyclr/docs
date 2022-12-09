@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 # Selligent
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To use the Selligent connector, you will need 

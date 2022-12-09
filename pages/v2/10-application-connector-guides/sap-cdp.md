@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 The SAP CDP connector is currently a POC connector.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To authenticate the SAP CDP connector you will need the following:

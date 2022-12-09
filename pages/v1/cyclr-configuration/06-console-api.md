@@ -1,8 +1,8 @@
 ---
-title: Access the Cyclr API
+title: OAuth Client Credentials
 sidebar: cyclr_sidebar
 permalink: console-api
-tags: [api]
+tags: [cyclr-config]
 
 ---
 

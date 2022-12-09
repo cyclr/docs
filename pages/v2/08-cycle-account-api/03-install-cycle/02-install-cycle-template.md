@@ -13,19 +13,22 @@ menus:
 <section class="card py-5 my-5">
 A Cycle is an instance of a template you install within an account.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Install a template with the Cyclr API
 
 Request:
 
-````http
+```html
 POST /v1.0/templates/{Template ID}/install
 Authorization: Bearer ****************************************************************
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     {
         "Id": "cf636e9c-13dd-47ea-b0e8-88a5bf7f7b00",
         "CreatedOnUtc": "2017-12-06T16:21:46.0499829Z",
@@ -62,10 +65,13 @@ Response:
     "LogStepDataRequests": true,
     "TemplateId": "7ad2265e-2ff0-477b-b913-cae1dfde2ea8"
 }
-````
+```
 
 > **Note**: If you install a template, Cyclr also installs all of the connectors the cycle needs to run.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related pages
 
 *  [How to Get Template Prerequisites](./get-cycle-prerequisites)

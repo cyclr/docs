@@ -17,15 +17,15 @@ Cyclr provides an endpoint to discover valid field mapping options for a given s
 
 Request:
 
-````http
+```html
     GET /v1.0/steps/{Step ID}/fieldsformapping
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     [{
             "Id": 283797,
             "Name": "Member ID",
@@ -181,7 +181,7 @@ Response:
             "Triggers": []
         }
     ]
-````
+```
 
 [Value List Mapping](./value-list-mapping)  
 [Static Value Mapping](./static-value-mapping)  

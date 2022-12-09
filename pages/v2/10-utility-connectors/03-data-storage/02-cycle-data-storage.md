@@ -13,6 +13,9 @@ menus:
 <section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Purpose
 
 To store some data in a Cycle and access it later in the same Cycle, you can use the **Cycle Data Storage** Connector.
@@ -25,10 +28,16 @@ The **Cycle Data Storage** Connector works using simple Key and Value pairs.  Th
 
 If you wish to store more structured data or more than one value (perhaps the firstname, lastname, etc of a contact), you should use the **[Cycle *Object* Storage](./cycle-object-storage)** Connector as that allows multiple values to be stored as a single "object" against a Key value.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Usage
 
 [How To Use Cycle Data Storage](./data-storage-usage) 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 * [Cycle Object Storage](./cycle-object-storage)

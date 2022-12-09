@@ -10,6 +10,9 @@ For reference, Microsoft's full Azure DevOps Authentication documentation can be
 
 The **Microsoft Azure DevOps** Connector is authenticated using OAuth2.0.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Preparation
 
 Either you or your end-users will need to [register an application with Microsoft](https://app.vsaex.visualstudio.com/app/register) and provide its details to Cyclr.
@@ -20,6 +23,9 @@ If your users will require different Authorized scopes, either they or you can r
 
 When authenticating the Connector, the Scopes parameter used **must** match the Authorized scopes specified on the application being used.  If they are different, you will see an `InvalidScope` error from Microsoft's API.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Registering an Application
 
 Registering an application is done [here](https://app.vsaex.visualstudio.com/app/register)
@@ -43,6 +49,9 @@ After registering your application your **App ID**, **App Secret** and **Client 
 Keep a note of these details to refer to.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 **If you plan to use the same Scopes for all your users:**
@@ -56,6 +65,9 @@ Enter your **App ID** into the *Client ID* box, your **Client Secret** into the 
 You should leave the Application Connector Library entry blank.  Doing this requires the user to provide all the details when installing the Connector.  This also allows different application details and related Scopes to be used that meet each user's requirements.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Connector Setup
 
 When installing the Connector the **Organization ID** and **Project Name** to work with are needed.
@@ -75,6 +87,9 @@ These details can be found by logging in to the [DevOps portal](https://aex.dev.
 The Connector is now authenticated and ready for use.
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Setting Scopes/InvalidScope Error
 
 The list of permissions you set for the **Scopes** Connector parameter must *exactly* match the **Authorized scopes** you set when registering your App at [https://app.vsaex.visualstudio.com/app/register](https://app.vsaex.visualstudio.com/app/register).

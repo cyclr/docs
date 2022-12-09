@@ -13,6 +13,9 @@ menus:
 <section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Purpose
 
 
@@ -22,6 +25,9 @@ The **Global *Object* Storage** Connector works by using a Key that sets and get
 
 If you only wish to store a single value, you could instead use the **[Global *Data* Storage](./global-data-storage)** Connector which works with simple Key and Value pairs.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Installation
 
 When installing this Connector, you're asked to provide a **Field List**.
@@ -32,6 +38,9 @@ You could enter ```firstname, lastname, dateofbirth``` for instance to create 3 
 
 If you wish to add additional Fields after you've installed the Connector, you can simply return to the Setup and modify the Field List.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Usage
 
 **Add/Update Entry** Method: either creates a new entry or updates an existing one using a unique Key and any values you've provided for the other Fields.
@@ -42,6 +51,9 @@ This Connector builds upon the features of the **Global Data Storage** Connector
 
 [Data Storage Usage](./data-storage-usage)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Related Topics
 
 * [Cycle Data Storage](./cycle-data-storage)

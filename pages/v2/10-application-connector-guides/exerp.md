@@ -12,7 +12,10 @@ You need the following information to setup the Exerp connector:
 
 1. The username and password of your Exerp account.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 ### Account setup
 
@@ -23,7 +26,10 @@ You will be asked for the following values when installing the Exerp connector w
 | **Username** | The username of your Exerp account.      |
 | **Password** | The client secret of your Exerp account. |
 
-# Additional information
+
+</section>
+<section class="card py-5 my-5">
+## Additional information
 
 ### Mapping extended attribute fields
 

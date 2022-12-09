@@ -6,13 +6,13 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Google BigQuery ##
+## Google BigQuery
 
 This document will explain what is needed to setup access to Google Big Query and install the connector.
 
 You should install a new connector instance for each table that you wish to access.
 
-### Setup Google OAuth2 Credentials ###
+### Setup Google OAuth2 Credentials
 
 First setup OAuth2 within Google Developer Console. 
 
@@ -33,7 +33,7 @@ First setup OAuth2 within Google Developer Console.
 
 Now save the Client ID and Client Secret, these settings will be needed later.
 
-### Google Big Query Settings ###
+### Google Big Query Settings
 
 The Connector requires Project ID, Table ID and Dataset ID. These can be found by:
 
@@ -57,7 +57,7 @@ In the example above, the project ID is "round-bounty-259512" and dataset ID is 
 
 In the example above table ID is "testTable".
 
-### Connector Setup ###
+### Connector Setup
 
 You should install a new connector instance for each table that you wish to access.
  
@@ -65,7 +65,7 @@ Click "Setup" and then enter "Client ID", "Client Secret", "Project ID", "Table 
 
 The connector is now setup.
 
-### Allowing Other Users Access To a Dataset ###
+### Allowing Other Users Access To a Dataset
 
 This section is for reference if another user is needed to access the dataset.
 

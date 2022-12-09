@@ -14,6 +14,9 @@ menus:
 <section class="card py-5 my-5">
 When using an Action step, you will need to map its fields.  You can do this through the 'cog' icon on the step which gives access to the Step Setup functionality.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Field mapping example
 
 ![](./images/field-mapping-eg.png)
@@ -22,6 +25,9 @@ The left most column is the **Destination** (the app you are connecting to). S
 
 The **Source** for these fields, shown to the right, can be any preceding step or a combination of steps.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Field mapping sources
 
 Depending on the app you're connecting to and the field you are using, only some of these source types will be available.
@@ -35,10 +41,16 @@ Depending on the app you're connecting to and the field you are using, only some
 | Lookup | Cycler will connect to the Destination app to retrieve a list of possible mapping values. For example, a mailing lists in an email marketing platform. |
 | Select a Value | There may be a pre-configured list of values from which you can choose a mapping. |
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Configurable
 
 Setting the field to be **User Configurable** means that this mapping will be finalised by the user when the Template in installed into an Account.  For the purposes of testing a value may be provided but this value will NOT be copied over on Template installation.
 
+
+</section>
+<section class="card py-5 my-5">
 ## System mergefields
 
 You can use Cyclr system mergefields as the **Source** value in Field Mapping.

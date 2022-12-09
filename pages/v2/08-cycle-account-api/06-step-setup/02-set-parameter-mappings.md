@@ -17,15 +17,15 @@ For each Missing parameter mapping returned by the step prerequisites request in
 
 Request:
 
-````http
+```html
     GET /v1.0/steps/{Step ID}/parameters/{Parameter ID}
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     {
         "Parameter": {
             "Id": 16017,
@@ -54,7 +54,7 @@ Response:
         "TriggerValueDisplayName": null,
         "Value": null
     }
-````
+```
 
 In the example above, the Triggers array provides directions as to the source of valid values.
 
@@ -64,15 +64,15 @@ Values can be retrieved from the trigger by calling the identified trigger metho
 
 Request:
 
-````http
+```html
     GET /v1.0/account/connectors/36329/methods/36666
     Authorization Bearer 2890edffcb964e8aab038cf4efc340ab62a4f604bd5a41369654086f5bd25519
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     {
         "lists": [{
             "id": "a78f86e7d7",
@@ -127,7 +127,7 @@ Response:
             "_links": []
         }]
     }
-````
+```
 
 This response can then be used to present the user with valid options.
 

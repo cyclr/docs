@@ -8,7 +8,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="simpletexting-setup"></a>
 
-# SimpleTexting setup
+
+</section>
+<section class="card py-5 my-5">
+## SimpleTexting setup
 
 You need the following information to setup the SimpleTexting connector in Cyclr:
 
@@ -28,7 +31,10 @@ To access or create a new API token, do the following:
 
 <a name="cyclr-setup"></a>
 
-# Cyclr setup 
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup 
 
 <a name="account-setup"></a>
 

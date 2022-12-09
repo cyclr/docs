@@ -11,8 +11,14 @@ tags: [connector]
 
 You will need to create a store API account. Please see BigCommerce's documentation on how to obtain store API credentials [here](https://support.bigcommerce.com/s/article/Store-API-Accounts?language=en_US#creating).
 
-# Cyclr setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Console setup
 
 To setup the BigCommerce connector within your Cyclr console:
@@ -35,6 +41,9 @@ To setup the BigCommerce connector within your Cyclr console:
 
 6. Select **Save Changes**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Account setup
 
 If you did not enter them in step 5 above, you will be asked for the following values when installing the BigCommerce connector within an account:

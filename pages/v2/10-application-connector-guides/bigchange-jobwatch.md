@@ -15,12 +15,21 @@ You need the following information to set up the BigChange JobWatch connector in
 
 <a name="getting-the-api-key"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Getting the API key
 
 Please contact your BigChange JobWatch customer service representative if you need help getting your API key.
 
-# Cyclr setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Account setup
 
 You will be asked for the following values when installing the BigChange JobWatch connector within an account:
@@ -31,8 +40,14 @@ You will be asked for the following values when installing the BigChange JobWatc
 | **Username** | The username of your BigChange JobWatch account. |
 | **Password** | The password of your BigChange JobWatch account. |
 
-# Additional information
 
+</section>
+<section class="card py-5 my-5">
+## Additional information
+
+
+</section>
+<section class="card py-5 my-5">
 ## Mapping custom fields
 
 The BigChange JobWatch connector has custom field support for several methods. You can find a list of compatiable methods [here](#custom-field-compatiable-methods). To add a custom field to a method:
@@ -53,6 +68,9 @@ The BigChange JobWatch connector has custom field support for several methods. Y
 
 <a name="custom-field-compatiable-methods"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Custom field compatiable methods
 
 You can add custom fields for contacts, contact notes, and jobs in the following methods:

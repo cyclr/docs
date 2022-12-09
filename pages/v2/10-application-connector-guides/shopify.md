@@ -12,6 +12,9 @@ This document explains how to set up Shopify and install the Shopify connector i
 
 <a name="shopify-set-up"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Shopify set up
 
 To authenticate the Shopify connector in Cyclr you need:
@@ -43,6 +46,9 @@ You can find the admin API access token in the newly created custom app under **
 
 <a name="cyclr-set-up"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Cyclr set up
 
 <a name="connector-set-up"></a>

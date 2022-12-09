@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Facebook Marketing API #
+# Facebook Marketing API
 
 Facebook Marketing API uses OAuth 2. You should sign up for an application on Facebook first and get an OAuth client ID and client secret.
 
@@ -61,6 +61,9 @@ Official Facebook Documentation
 ---------
 [https://developers.facebook.com/docs/apps/register](https://developers.facebook.com/docs/apps/register)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Create Ad Set "Promoted Object"
 
 The "Promoted Object" is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.

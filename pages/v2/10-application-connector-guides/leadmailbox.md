@@ -7,7 +7,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Authentication ##
+## Authentication
 
 Authentication with LeadMailbox is very simple.  When the connector is installed you will need to provide the name of your account only.
 

@@ -16,10 +16,16 @@ To allow the Google Classroom connector to manage Google classrooms within your 
 2. Create a service account.
 3. Enable domain-wide delegation for the service account and set the correct scopes.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Enabling the Google Classroom API
 
 To access the Google Classroom API endpoints, you need to enable the Google Classroom API within a project in your workspace. Google's documentation on how to do this can be found [here](https://support.google.com/googleapi/answer/6158841?hl=en).
 
+
+</section>
+<section class="card py-5 my-5">
 ## Creating a service account
 
 A service account needs to be created to allow admin-level access to Google classrooms within your workspace. Google's documentation on how to do this can be found [here](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount). When creating the service account, set up the fields below as follows:
@@ -31,6 +37,9 @@ Make note of the **OAuth 2 client ID** and **Email** for your service account. Y
 
 When adding the service account key, set the **Key type** to JSON, then open the downloaded .json key file and make note of the **private_key** field. You need this to authorize your account with Cyclr.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Enabling domain-wide delegation for your service account
 
 Domain-wide delegation needs to be enabled for your service account to allow it to access user data on behalf of users in your workspace. You need to be a "super administrator" of the workspace to configure this. Google's documentation on how to do this can be found [here](https://developers.google.com/identity/protocols/oauth2/service-account#delegatingauthority). When enabling domain-wide delegation, set up the fields below as follows:
@@ -42,8 +51,14 @@ Domain-wide delegation needs to be enabled for your service account to allow it 
     -   **https://www.googleapis.com/auth/classroom.rosters** for student and teacher access.
     -   **https://www.googleapis.com/auth/admin.directory.user** for workspace user access.
 
-# Cyclr Setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr Setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Client installation
 
 When using a template containing the Google Classroom connector, clients will be prompted for the following information from the previous sections:
@@ -53,6 +68,9 @@ When using a template containing the Google Classroom connector, clients will be
 -   **Administrator Email**: The email address of the user for which the application is requesting delegated access. This should be the email of the administrator of the Workspace account.
 -   **Scopes**: The required scopes. These must match the scopes set for the service account in the previous section. **Full access** is required for all methods to function.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner templates
 
 To setup the Google Classroom connector within a template:

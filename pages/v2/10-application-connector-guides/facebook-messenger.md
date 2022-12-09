@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Facebook Messenger API #
+# Facebook Messenger API
 
 
 Facebook Messenger API uses OAuth 2. You should sign up for an application on Facebook first and get an OAuth client ID and client secret.

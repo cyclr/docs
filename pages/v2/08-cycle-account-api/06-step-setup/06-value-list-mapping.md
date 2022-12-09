@@ -15,15 +15,15 @@ menus:
 
 Request:
 
-````http
+```html
     GET /v1.0/steps/{Step ID}/fieldmappings/{Field ID}
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
-````
+```
 
 Response:
 
-````json
+```json
     {
       "Field": {
         "Id": 283792,
@@ -47,11 +47,11 @@ Response:
       "TriggerValueDisplayName": null,
       "Value": null
     }
-````
+```
 
 For these steps, the list of valid values should be presented to your user for them to make a selection. Their selection should then be used to update the field value:
 
-````http
+```html
     POST /v1.0/steps/{Step ID}/fieldmappings/{Field ID} 
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -60,11 +60,11 @@ For these steps, the list of valid values should be presented to your user for t
     "MappingType": "ValueList",
     "Value": "List Option 1"
     }
-````
+```
 
 Response:
 
-````json
+```json
     {
       "Field": {
         "Id": 283792,
@@ -84,7 +84,7 @@ Response:
       "TriggerValueDisplayName": null,
       "Value": "List Option 1" 
     }
-````
+```
 
 [Static Value Field Mapping](./static-value-mapping)  
 [Field Mapping with Step Data](./field-mapping-with-step-data)  

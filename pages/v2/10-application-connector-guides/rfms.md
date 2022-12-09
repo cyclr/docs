@@ -10,7 +10,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="rfms-set-up"></a>
 
-# RFMS set up
+
+</section>
+<section class="card py-5 my-5">
+## RFMS set up
 
 You need the following information to set up the RFMS connector in Cyclr:
 
@@ -26,7 +29,10 @@ Cyclr. Before you can get these you need to
 find RFMS' guide on getting the Store ID and Api Key in the RFMS
 console [here](https://rfmsapps.zendesk.com/hc/en-us/articles/360015957574-RFMS-Standard-API).
 
-# Cyclr set up
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr set up
 
 <a name="console-setup"></a>
 

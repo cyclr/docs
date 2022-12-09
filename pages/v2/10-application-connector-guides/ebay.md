@@ -8,7 +8,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="ebay-setup"></a>
 
-# eBay setup
+
+</section>
+<section class="card py-5 my-5">
+## eBay setup
 
 You need the following to setup the eBay connector in Cyclr:
 
@@ -53,7 +56,10 @@ Once you have obtained your client ID and client secret, you need to create an a
 
 <a name="cyclr-set-up"></a>
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 <a name="sandbox-or-production"></a>
 

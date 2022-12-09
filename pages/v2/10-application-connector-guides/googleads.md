@@ -35,7 +35,10 @@ You need a Google Ads **developer token** to set up the Google Ads connector in 
 
 You need the end user's **client customer ID** to set up the Google Ads connector in Cyclr. Google's documentation on how end users can get this can be found [here](https://support.google.com/google-ads/answer/1704344?hl=en-GB).
 
-# Cyclr set up
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr set up
 
 ### Cyclr console
 

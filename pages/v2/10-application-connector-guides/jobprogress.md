@@ -16,8 +16,14 @@ To authenticate the JobProgress connector, you will need a valid `Access Token`,
 3. Navigate to the **Settings** area for the logged in account. In this section, you will find an area for **Developers**.
 4. In the **Developer** area, click on the **Generate Token** button. This will create a new `Access Token` with the given name. Save this token for later use.
 
-# Cyclr Setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr Setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Account Setup
 
 You can now use the `Access Token` to authenticate your JobProgress connector.

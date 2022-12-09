@@ -12,7 +12,10 @@ You need the following information to set up the LawToolBox connector in Cyclr:
 
 -   A user name and password, obtained by requesting the credentials from yout LawToolBox representative (this is not the username and password for your LawToolBox account)
 
-# Cyclr set up
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr set up
 
 ### Console set up
 

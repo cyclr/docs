@@ -13,6 +13,9 @@ menus:
 <section class="card py-5 my-5">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Purpose
 
 This connector contains tools that will help you to verify data.  Currently, two verifications are offered.  There is an inbuilt method to verify the syntax of an Email Address, and there is a general REGEX verification.

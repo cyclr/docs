@@ -12,8 +12,14 @@ You need the following information to set up the Orderbot connector in Cyclr:
 
 - The username and password of your Orderbot account.
 
-# Cyclr setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Account setup
 
 You will be asked for the following values when installing the Orderbot connector within an account:
@@ -23,8 +29,14 @@ You will be asked for the following values when installing the Orderbot connecto
 | **Username** | The username of your Orderbot account. |
 | **Password** | The password of your Orderbot account. |
 
-# Additional information
 
+</section>
+<section class="card py-5 my-5">
+## Additional information
+
+
+</section>
+<section class="card py-5 my-5">
 ## Mapping custom fields
 
 Methods in the `Products > Custom Fields` category dynamically return custom field data dependant on how custom fields are set up in the Orderbot UI. To map these fields within Cyclr:

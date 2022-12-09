@@ -12,6 +12,9 @@ In order to use the Upsert Account or Upsert Contact methods you must first setu
 
 Setting up the method will be a slightly different process depending upon whether you are using Salesforce Classic, or Lightning Experience.
 
+
+</section>
+<section class="card py-5 my-5">
 ## External ID Creation - Salesforce Classic
 
 1. To add a custom external ID field to an object in Salesforce first click the `Setup` button in the top right of the screen.
@@ -27,6 +30,9 @@ Setting up the method will be a slightly different process depending upon whethe
 6. Check `Visible` and press `Next` and then `Save`.
     ![](./images/salesforce_custom_fields_visible.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## External ID Creation - Lightning Experience
 
 1. To add a custom external ID field to an object in Lightning Experience first click the `Setup` cog in the top right of the screen, and select `Setup`.
@@ -47,6 +53,9 @@ Setting up the method will be a slightly different process depending upon whethe
     ![](./images/salesforce_custom_fields_visible.png)
 
 
+
+</section>
+<section class="card py-5 my-5">
 ## Using the Upsert Methods
  
 Once you have setup your External ID field you are ready to use the corresponding Upsert method.

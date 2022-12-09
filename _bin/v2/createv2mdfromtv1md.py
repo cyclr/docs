@@ -27,8 +27,18 @@ templateindexfile = os.path.join(os.path.dirname(__file__), './assets/templatein
 # temp content for category pages
 targethubfolder = '../../_data/v2/categoriesnew/'
 targethubfolderfull = os.path.join(os.path.dirname(__file__), targethubfolder)
-# h2 regex string 
+# regex string for headings
+regexh1 = "^#[\s]"
 regexh2 = "^##[\s]"
+regexeol = "[\s]#{1,}$"
+regextable = "^\|"
+regexcodefencebad = "^\u0060{4}"
+regexcodefencehttp = "^\u0060{3}http"
+codefence = "\u0060\u0060\u0060"
+codefencehtml = "\u0060\u0060\u0060html"
+tableclass = "{: .table .mt-2 .mb-5 }\n"
+
+
 with open(templatemdfile,'r') as menufile:
     menulines = [menuline for menuline in menufile]
 menufile.close()
@@ -66,8 +76,8 @@ with open(jsonfilename_full, 'r') as jsonfile:
                 if item['v2md'] == 'index':
                     targetmdfile = item['v2md']+".md"
                     targetmdfilefull = os.path.join(os.path.dirname(__file__), targetfolder, targetmdfolder, targetmdfile)
-                    print("index.md "+targetmdfilefull)
-                    with open(targetmdfilefull,'a',encoding='utf-8') as toindexfile:
+                    # print("index.md "+targetmdfilefull)
+                    with open(targetmdfilefull,'w',encoding='utf-8') as toindexfile:
                         for indexline in indexlines:
                             addline = True
                             if "indexmenuname" in indexline:
@@ -78,7 +88,7 @@ with open(jsonfilename_full, 'r') as jsonfile:
                                 newline = re.sub("indextags", item['permalink'], indexline)
                             elif "indextitle" in indexline:
                                 newline = re.sub("indextitle", item['menutitle'], indexline)
-                                print("index.md title: "+newline)
+                                # print("index.md title: "+newline)
                             elif "indexmenutitle" in indexline:
                                 newline = re.sub("indexmenutitle", item['menutitle'], indexline)
                             elif "indexmenuidentifier" in indexline:
@@ -107,7 +117,7 @@ with open(jsonfilename_full, 'r') as jsonfile:
                     targethubymlfile=item['permalink']+".yml"
                     targetmdfilefull = os.path.join(os.path.dirname(__file__), targethubfolderfull, targethubymlfile)
                     if os.path.exists(targetmdfolderfull) == True:
-                        with open(targetmdfilefull,'a',encoding='utf-8') as tohubfile:
+                        with open(targetmdfilefull,'w',encoding='utf-8') as tohubfile:
                             tohubfile.write("title: "+item['menutitle']);
                             tohubfile.write("\ntext: Placeholder content for category page");
                             tohubfile.write("\nsections:\n");
@@ -130,31 +140,39 @@ with open(jsonfilename_full, 'r') as jsonfile:
                 os.mkdir(targetmdfolderfull)  
             # check source file exists
             if os.path.exists(sourcefilefull) == True:
-                with open(sourcefilefull,'r',encoding='utf-8') as fromfile, open(targetmdfilefull,'a',encoding='utf-8') as tofile:
+                # print("Port "+sourcemdfolder+"/"+sourcemdfile+" to "+targetmdfolder+"/"+targetmdfile)
+                with open(sourcefilefull,'r',encoding='utf-8') as fromfile, open(targetmdfilefull,'w',encoding='utf-8') as tofile:
                     frontmatter = False
                     frontmattercomplete = False
                     iscontent = False
+                    # prevlinetable = False
                     # flags to determine HTML containers for the page content
                     firstcontentline = True
-                    singlecard = True
                     for line in fromfile:
                         if frontmattercomplete == True:
+                            mdline = line
                             # add the html parse option
                             if firstcontentline == True and len(line.strip()) == 0:
+                                # prevlinetable = False
                                 continue
                             elif firstcontentline == True:
                                 firstcontentline = False
                                 tofile.write('{::options parse_block_html="true" /}')
                                 tofile.write('\n<section class="card py-5 my-5">\n')
-                                if bool(re.search(regexh2, line)) == True:
-                                    print(" FOUND H2: "+line)
-                                    singlecard = False
                             elif firstcontentline == False:
-                                if bool(re.search(regexh2, line)) == True and singlecard == False:
-                                    print(" FOUND H2: "+line)
+                                if bool(re.search(regexh1, line)) == True or bool(re.search(regexh2, line)) == True:
                                     tofile.write('\n</section>')
                                     tofile.write('\n<section class="card py-5 my-5">\n')
-                            newline = line
+                                if bool(re.search(regexh1, line)) == True:
+                                    mdline = re.sub("^#[\s]","## ",line)
+                                    if (item['permalink']) is not None:
+                                        print(item['permalink'] +" h1 line: "+line+" > "+mdline)
+                                    else:
+                                        print(" h1 line: "+line+" > "+mdline)
+                            if bool(re.search(regexcodefencebad, mdline)) == True:
+                                mdline = re.sub(regexcodefencebad,codefence,mdline)
+                            mdline = re.sub(regexcodefencehttp,codefencehtml,mdline)
+                            newline = re.sub(regexeol, "", mdline)
                             tofile.write(newline)
                         elif line.startswith("---") and frontmatter == False:
                             frontmatter = True

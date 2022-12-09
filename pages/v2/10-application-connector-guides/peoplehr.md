@@ -6,11 +6,11 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Partner Setup ##
+## Partner Setup
 
 This document will explain what is needed to setup access to PeopleHR and install the connector.
 
-### PeopleHR API key ###
+### PeopleHR API key
 
 Within PeopleHR configure the API Key:
 

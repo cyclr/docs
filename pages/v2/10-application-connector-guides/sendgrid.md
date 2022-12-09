@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-## Partner Setup ##
+## Partner Setup
 
 SendGrid uses an API key for authentication, so you must gain an API key by visiting the SendGrid website.
 

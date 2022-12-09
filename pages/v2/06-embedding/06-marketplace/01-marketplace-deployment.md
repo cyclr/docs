@@ -19,6 +19,9 @@ For example:
 
 ![Generic Host Application](./images/generic-host-app-connected-v2.png)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Account Marketplace
 
 When a user clicks the **Integrations** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/accounts/CYCLR_ACCOUNT_API_ID/marketplace` endpoint to obtain a **Marketplace URL**.  The user can then be directed to this URL in their web browser.
@@ -173,6 +176,9 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
 > After deploying a Marketplace you will see an "API User" in your Cyclr console.
 > The "API User" has access to the Account, however they cannot signin to the Cyclr interface.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Marketplace
 
 When a user clicks the **Integrations** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/users/marketplace` endpoint to obtain a **Marketplace URL**.  The user can then be directed to this URL in their web browser.

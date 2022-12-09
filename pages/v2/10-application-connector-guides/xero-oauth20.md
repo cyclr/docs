@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 # Xero (OAuth2.0)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 In order to install a **Xero (OAuth2.0)** Connector, you must first create a Xero OAuth 2.0 **App** in Xero's Developer portal.

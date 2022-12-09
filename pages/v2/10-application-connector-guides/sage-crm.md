@@ -14,7 +14,10 @@ Several legacy methods in the Sage CRM connector target SOAP endpoints. These me
 
 Some Sage CRM accounts may not have the ability to allow web service access. In this case, any methods marked `(SOAP)` will not function correctly.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 Setup your Sage CRM connector within Cyclr:
 
@@ -32,7 +35,10 @@ Enter the following values:
 
 Your Sage CRM Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
-# Additional Information
+
+</section>
+<section class="card py-5 my-5">
+## Additional Information
 
 ### Custom Entity category
 

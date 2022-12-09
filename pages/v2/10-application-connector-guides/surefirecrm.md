@@ -6,16 +6,19 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Surefire CRM #
+# Surefire CRM
 
-## Partner Setup ##
+
+</section>
+<section class="card py-5 my-5">
+## Partner Setup
 
 This document will explain what is needed to setup access to Surefire CRM and install the connector.
 
-### API Key Setup ###
+### API Key Setup
 
 1. Contact Top of Mind to get your API access. They can be contacted through their support.
 
-### Connector Setup ###
+### Connector Setup
 In the connector setup enter the "API Key" and the "Client Key" in the appropriate fields.
 </section>

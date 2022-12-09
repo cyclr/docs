@@ -6,19 +6,25 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Wordpress #
+# Wordpress
 
 Wordpress Connector Setup
 -------------
 
-## Read me ##
+
+</section>
+<section class="card py-5 my-5">
+## ⚠️ Read me ⚠️
 Make sure this is the right Wordpress connector you are after. This connector is used for self-hosted Wordpress sites.
 For Wordpress hosted sites view the Wordpress guide [here](https://docs.cyclr.com/wordpresscom-connector#wordpress-connector-setup).
 
-## Authentication ##
+
+</section>
+<section class="card py-5 my-5">
+## Authentication
 In order to allow Cyclr to connect to your WordPress site’s API, you must install the <a href="https://wordpress.org/plugins/rest-api-oauth1/" target="_blank">WordPress REST API – OAuth 1.0a Server</a>. This gives your site the ability to securely authenticate API use.
 
-### Register Cyclr as an application ###
+### Register Cyclr as an application
 Once you have installed the plugin, open WordPress and go to:
 
 Users &gt; Applications &gt; Add New
@@ -36,7 +42,7 @@ When you add your Consumer, you will be presented with your Client Key and Clien
 
 (Yours will be different to the screenshot).
 
-### Authenticate WordPress in Cyclr ###
+### Authenticate WordPress in Cyclr
 With the above correctly setup, install the WordPress connector in Cyclr and provide the Client Key and Client Secret along with your website’s URL.
 
 ![](/images/wordpress-auth.png)

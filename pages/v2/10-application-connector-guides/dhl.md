@@ -10,8 +10,14 @@ tags: [connector]
 
 You need a DHL business account with API access enabled to install the DHL connector in Cyclr. You can register interest in a DHL business account [here](https://www.dhl.com/gb-en/home/our-divisions/parcel/business-users/business-services.html#parsysPath_horizontal_ruler_195), or if you have an active account please contact your sales person or account manager for more information.
 
-# Cyclr setup
 
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
+
+
+</section>
+<section class="card py-5 my-5">
 ## Account setup
 
 You will be asked for the following values when installing the DHL connector within an account:

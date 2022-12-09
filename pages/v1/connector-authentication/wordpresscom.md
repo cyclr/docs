@@ -10,7 +10,7 @@ tags: [connector]
 Wordpress.com Connector Setup
 -------------
 
-## Read me ##
+## ⚠️ Read me ⚠️ ##
 Make sure this is the right Wordpress connector you are after. Wordpress.com uses authentication that doesnt require the use of 3rd party plugins and is primarily used for Wordpress hosted sites rather than self-hosted.
 For self-hosted sites view the Wordpress guide [here](https://docs.cyclr.com/wordpress-connector.html#wordpress-connector-setup).
 

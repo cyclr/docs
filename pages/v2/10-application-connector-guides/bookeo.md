@@ -7,7 +7,10 @@ tags: [connector]
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
 <a name="bookeo-setup"></a>
-# Bookeo setup
+
+</section>
+<section class="card py-5 my-5">
+## Bookeo setup
 
 You need the following to set up the Bookeo connector in Cyclr:
 -   A Bookeo application and the [secret key](#getting-a-secret-key) associated with it.
@@ -24,7 +27,10 @@ You can find Bookeo's guide on how to register an application to get a secret ke
 Once you have created an application, use the **Authorisation URL** to allow clients to install your Bookeo application to their Bookeo account. The Cyclr Bookeo connector requires the following permissions to function: `customers_r_all`,`bookings_r_all`,`payments_r_all`. Multiple permissions should be entered as a comma separated list. An authorisation URL for a Bookeo application for Cyclr has the following format: `signin.bookeo.com/?authappid=XYZ&permissions=customers_r_all,bookings_r_all,payments_r_all`.
 
 <a name="client-setup"></a>
-# Client setup
+
+</section>
+<section class="card py-5 my-5">
+## Client setup
 
 <a name="getting-an-api-key"></a>
 ### Getting an API key
@@ -32,7 +38,10 @@ Once you have created an application, use the **Authorisation URL** to allow cli
 Clients install your Bookeo application to their account using the authorization URL obtained in the [previous section](#setting-permissions). You can find Bookeo's guide on how to get an API key [here](https://www.bookeo.com/api/setup/) under the **Obtaining user authorization for your application** section.
 
 <a name="cyclr-setup"></a>
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 <a name="console-setup"></a>
 ### Console setup

@@ -20,6 +20,9 @@ You may for example want an account for a bookstore chain, and a Sub Account for
 
 Each Sub Account has access to use the installed connectors in its *parent* account.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Creating a Sub Account in the Console
 
 To set up a Sub Account you would:
@@ -32,11 +35,14 @@ To set up a Sub Account you would:
 
 4. You can now set up a **Sub Account** just as you would an ordinary **Account**.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Creating a Sub Account using the Cyclr API
 
 You use the standard `POST /v1.0/accounts` endpoint to create an Account, you just provide an additional **ParentAccountId** property in the Request Body to tell Cyclr which Account to add it under:
 
-```http
+```html
 POST /v1.0/accounts
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
@@ -48,6 +54,9 @@ Content-Type: application/json
 }
 ```
 
+
+</section>
+<section class="card py-5 my-5">
 ## Task Usage in Sub Accounts
 
 Your Cyclr Console displays Task Usage for each Sub Account in the same wasy as standard Accounts.

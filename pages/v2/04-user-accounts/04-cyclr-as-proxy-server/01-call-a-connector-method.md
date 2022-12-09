@@ -23,7 +23,7 @@ Let's get a list of installed account connectors from your account so Cyclr know
 
 #### Request:
 
-```http
+```html
 GET https://yourCyclrInstance/v1.0/account/connectors
 Authorization: Bearer ****************************************************************
 X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -96,7 +96,7 @@ Some Connector Methods may alter the response returned by the third-party API, s
 
 #### Request
 
-```http
+```html
 POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json
@@ -133,7 +133,7 @@ If the method you are calling requires any values to be passed, they can be incl
 
 #### Request
 
-```http
+```html
 POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer ****************************************************************
 Content-Type: application/json

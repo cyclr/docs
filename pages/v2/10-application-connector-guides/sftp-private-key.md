@@ -8,27 +8,36 @@ tags: [connector]
 <section class="card py-5 my-5">
 To authenticate the **SFTP Private Key** connector you will need to provide the following values:
 
-## Host URI ##
+
+</section>
+<section class="card py-5 my-5">
+## Host URI
 
 The URI where the SFTP server is located.
 
-````
+```
 sftp://example.com
-````
+```
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Name ## 
 
 The username to authenticate as with the SFTP server.
 
-````
+```
 sftp_user
-````
+```
 
-## Private Key ##
+
+</section>
+<section class="card py-5 my-5">
+## Private Key
 
 The PKCS #1 RSA private key that the SFTP server knows as an _authorized_key_ for the username provided.
 
-````
+```
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAv9fnWThDaI2kVqkZrI0euSHEQBea2yewrcth78GpD9JfFMvd
 gT8kjs5JzHFi8uo10YRdvexD0ILXzgt/AF7NuwWiw8VPQANAl9Y/11oZns+OUgzR
@@ -56,21 +65,30 @@ FyClAoGAMdqMGicntRIqRjOB/P80rbD4w5VctjCzmB+qopbU8n/rqVcqqyXgqO8R
 YXmlBTmJEWSQ52vNFxyjpeWFcwJBCF4QOJQucJCUgUzdOQgy0wZ3ieIfO2wOzehB
 U+RfJn9l5kWbZLhVkb9AlVP8MA6VOM2U+LfW7Z/7gOslnoMMosk=
 -----END RSA PRIVATE KEY-----
-````
+```
 
-## Passphrase (Optional) ##
+
+</section>
+<section class="card py-5 my-5">
+## Passphrase (Optional)
 
 If the private key requires a passphrase, provide it here.
 
-## Server Time Zone ##
+
+</section>
+<section class="card py-5 my-5">
+## Server Time Zone
 
 The timezone used by the SFTP server. If not set correctly the **List Updated Files** method will not function as expected.
 
-````
+```
 Europe/London
-````
+```
 
-## IP Allowlist ##
+
+</section>
+<section class="card py-5 my-5">
+## IP Allowlist
 
 If the SFTP server is not publicly accessible, ensure you allow Cyclr to connect to it.
 

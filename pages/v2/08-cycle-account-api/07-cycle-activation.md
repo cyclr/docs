@@ -17,7 +17,7 @@ When a Cycle has been installed and all of it’s prerequisites have been provid
 
 Request:
 
-````http
+```html
     PUT /v1.0/cycles/{Cycle ID}/activate
     Authorization Bearer 0000000000000000000000000000000000000000000000000000000000000000
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
@@ -27,7 +27,7 @@ Request:
         "Interval": 360,
         "RunOnce": false
     }
-````
+```
 
 | Parameter | Description |
 | --- | --- |
@@ -55,7 +55,7 @@ Valid Intervals:
 
 Response:
 
-```http
+```html
     200 OK
 ```
 

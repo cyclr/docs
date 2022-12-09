@@ -21,9 +21,9 @@ The final page of the LAUNCH flow is completely customizable and defined by the 
 
 The most basic example is to simply display a completed message.
 
-````html
+```html
 <h1>Congrats - you're connected!</h1>
-````
+```
 
 #### JavaScript postMessage
 

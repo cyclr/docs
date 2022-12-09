@@ -21,17 +21,17 @@ Marketplace Integration Packages are installed using the LAUNCH flow.  After ins
 
 The most basic example is to simply display a completed message.
 
-````html
+```html
 <h1>Congrats - you're connected!</h1>
-````
+```
 
 #### Integration Package Message
 
 If the Marketplace Integration Package includes an install complete message, you can display custom messages for each Integration Package by using the InstallCompleteMessage mergefield.
 
-````html
+```html
 <h1>{% raw %}{{InstallCompleteMessage}}{% endraw %}</h1>
-````
+```
 
 #### JavaScript postMessage
 

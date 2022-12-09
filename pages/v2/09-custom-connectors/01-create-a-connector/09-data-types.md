@@ -14,6 +14,9 @@ menus:
 <section class="card py-5 my-5">
 The following is a guide to the Data Types available at Request/Response body level, and those available when defining Connector Fields.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Request/Response Data Types
 
 These data types can be set to define the format of the entire request/response.
@@ -29,6 +32,9 @@ These data types can be set to define the format of the entire request/response.
 |SimpleFile|For uploading and downloading files from the body|
 |MultipartRelated|(Supported for use in Request Only)|
 
+
+</section>
+<section class="card py-5 my-5">
 ## Field formats
 
 These data types can be set to define the format of the individual fields in the request/response.

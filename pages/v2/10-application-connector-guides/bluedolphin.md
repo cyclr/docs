@@ -9,7 +9,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="bluedolphin-set-up"></a>
 
-# BlueDolphin setup
+
+</section>
+<section class="card py-5 my-5">
+## BlueDolphin setup
 
 You need the following information to setup the BlueDolphin connector in Cyclr:
 
@@ -28,7 +31,10 @@ You need the following information to setup the BlueDolphin connector in Cyclr:
 
 You can find BlueDolphin's guide on how to get an API key [here](https://developers.eu.bluedolphin.app/tutorials/api-keys#UuIQo//) under the **Create a new API key and make an authenticated request** section.
 
-# Cyclr set up 
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr set up 
 
 <a name="console-setup"></a>
 

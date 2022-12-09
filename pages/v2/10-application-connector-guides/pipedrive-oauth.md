@@ -12,6 +12,9 @@ Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. 
 
 > Note: Due to how Pipedrive authentication works, customers themselves will need to follow the below Pipedrive setup process.  You may wish to use the standard (non-OAuth) Pipedrive Connector if you don't want your customer to have this responsibility.  With the standard Connector only their personal API Key is required for installation. (https://support.pipedrive.com/en/article/how-can-i-find-my-personal-api-key)
 
+
+</section>
+<section class="card py-5 my-5">
 ## Pipedrive Setup
 
 To obtain Client ID and Client Secret values from within Pipedrive:
@@ -34,7 +37,10 @@ Create a new App and obtain the Client ID and Client Secret using the steps belo
 7. Click `Save` to create the App. This will take you back to the Marketplace Manager.
 8. Click the newly created App within the **Marketplace Manager** to be taken to the settings again. Under the **OAuth & Access scopes** heading you will now find the **Client ID** and can click `Show` to reveal the **Client secret**. Make a note of these as they will be required by Cyclr to set up the Pipedrive Connector.
 
-# Pipedrive Integration Workflow Building Examples
+
+</section>
+<section class="card py-5 my-5">
+## Pipedrive Integration Workflow Building Examples
 -------------
 <h2>Automating Pipedrive</h2> 
 <h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-left">Example uses:</p><ul><li>Sync new deals with another system</li><li>Trigger time-based actions for deals stuck at a certain stage</li><li>At key deal stages, add the associated contacts to a marketing system</li><li>Automate internal Pipedrive deals, e.g. when a deal hits a certain stage move it to a different pipeline</li></ul><h4 class="intercom-align-left">Deal stage lookups</h4><p class="intercom-align-left">One of the keys to using Pipedrive’s deals is working with the Stage ID in a Cyclr Decision step. In doing this, you can then trigger the next appropriate action – either in Pipedrive or in another app.</p><div class="intercom-container intercom-align-left"><img src="https://downloads.intercomcdn.com/i/o/29084048/e84a2753288301ecbc2bb070/pipedrive-deal-lookup.gif"></div><h3 id="forms" class="intercom-align-left">Forms</h3><p class="intercom-align-left">With Cyclr, you can integrate Pipedrive with a number of form building apps including:</p><ul><li>Contact Form 7</li><li>Gravity Forms</li><li>Typeform</li><li>SurveyMonkey</li></ul>

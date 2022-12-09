@@ -6,7 +6,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card py-5 my-5">
-# Synchtank Setup #
+# Synchtank Setup
 
 To authenticate the Synchtank connector you will need the following pieces of information:
 
@@ -15,7 +15,7 @@ To authenticate the Synchtank connector you will need the following pieces of in
 
 If you do not have access to these, please contact Synchtank to gather the correct credentials. This can be done [here](https://www.synchtank.com/solutions/).
 
-### Authenticate your connector ###
+### Authenticate your connector
 1. Install the Synchtank connector and go to **Setup**. 
 2. Enter the Domain to your given API instance in the URL box of the **Connector Setup**. This is the string after `https://` in your URL. Click next.
 3. Enter your API key. Click next.

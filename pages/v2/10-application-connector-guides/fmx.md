@@ -8,7 +8,10 @@ tags: [connector]
 <section class="card py-5 my-5">
 <a name="fmx-set-up"></a>
 
-# FMX set up
+
+</section>
+<section class="card py-5 my-5">
+## FMX set up
 
 You need the following information to set up the FMX connector:
 
@@ -17,7 +20,10 @@ You need the following information to set up the FMX connector:
 
 These are given/set on FMX account creation. Clients should ask their FMX account manager if they require help obtaining these.
 
-# Cyclr set up
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr set up
 
 To set up the FMX connector within Cyclr:
 
@@ -34,7 +40,10 @@ To set up the FMX connector within Cyclr:
 
 The FMX connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
-# FMX custom objects
+
+</section>
+<section class="card py-5 my-5">
+## FMX custom objects
 
 The FMX connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
 
@@ -44,6 +53,9 @@ The FMX connector uses Cyclr custom objects to make methods dynamic based on mod
 
 <a name="find-the-module-name"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Find the module name
 
 You need a module name to set up a custom object. To find a specific module name:
@@ -54,6 +66,9 @@ You need a module name to set up a custom object. To find a specific module name
 
 <a name="find-the-request-type-id"></a>
 
+
+</section>
+<section class="card py-5 my-5">
 ## Find the request type ID
 
 You need a request type ID to set up a custom object. Before you can find the request type ID:
@@ -68,6 +83,9 @@ To find a specific request type ID:
     - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **FMX** > **Settings**.
 2. Run the **List Request Types** method under **Methods and Fields** > **Utilities** to return a list of request types and request type IDs. For example, the `Appliance` request type has a request type ID of `363065`.
 
+
+</section>
+<section class="card py-5 my-5">
 ## Set up a custom object
 
 When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:

@@ -95,8 +95,8 @@ $body-bg: $background-color !default;
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
-$font-size-root: 12px !default;
-$font-size-base: 1rem !default; // Normal browser default is typically `16px`
+$font-size-root: 12px;
+$font-size-base: 1rem; // Normal browser default is typically `16px`
 
 $font-weight-normal: 500 !default;
 
@@ -152,6 +152,7 @@ $body-color: $grey-70 !default;
 $font-family-inter: 'Inter', sans-serif !default;
 $font-family-base: $font-family-inter !default;
 
+$code-font-size: 1rem;
 
 // Buttons
 //

@@ -28,7 +28,10 @@ Create an API key and client secret on the [API keys page](https://www.eventbrit
 8. Select the new entry in the API keys list, this will have the same name as the application name entered in step 5.
 9. Make note of the **API key** and **Client secret** below the expanded entry.
 
-# Cyclr setup
+
+</section>
+<section class="card py-5 my-5">
+## Cyclr setup
 
 To set up your Eventbrite connector within your Cyclr console:
 
@@ -43,7 +46,10 @@ To set up your Eventbrite connector within your Cyclr console:
 
 Your Eventbrite connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
-# Event custom objects
+
+</section>
+<section class="card py-5 my-5">
+## Event custom objects
 
 The Eventbrite connector uses Cyclr custom objects to make methods dynamic based on an event ID. Each event custom object requires its corresponding event ID to function. This enables custom fields to be automatically mapped for each event custom object created.
 

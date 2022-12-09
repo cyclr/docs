@@ -19,7 +19,7 @@ You'll need to create an Account Sign-In Token for a User to access the account.
 
 Request:
 
-````http
+```html
 POST  /v1.0/accounts/{Account ID}/signintoken
 Content-Type: application/json
 Authorization: Bearer 0000000000000000000000000000000000000000000000000000000000000000
@@ -27,16 +27,16 @@ Authorization: Bearer 0000000000000000000000000000000000000000000000000000000000
 {
     "Username": "example_user"
 }
-````
+```
 
 Response:
 
-````json
+```json
 {
     "Token": "ABCD12340000000000000=",
     "ExpiresAtUtc": "2017-12-08T11:02:48.7436471Z"
 }
-````
+```
 
 The user should then be sent here in their browser:
 
@@ -87,28 +87,28 @@ That may simply be by providing `ClientId` and `ClientSecret` as [mentioned abov
 
 Depending on how an API authenticates, you can provide a JSON object containing the Access and Refresh Token details as follows:
 
-````json
+```json
 {
 	"AccessToken": "XXXXXXXXXX",
 	"RefreshToken": "XXXXXXXXXX",
 	"Expires": "2021-10-01T00:00:00Z",
 	"RefreshExpires": "2022-10-01T00:00:00Z"
 }
-````
+```
 
 That JSON object should then be serialized - e.g. by using the standard Javascript ```JSON.stringify()``` function - then used as the **AuthValue** property of an Account Connector.
 
 That would look like this in an API call:
 
-````json
+```json
 "AuthValue": "{\"AccessToken\":\"XXXXXXXXXX\",\"RefreshToken\":\"XXXXXXXXXX\",\"Expires\":\"2021-10-01T00:00:00Z\",\"RefreshExpires\":\"2022-10-01T00:00:00Z\"}"
-````
+```
 
 Or, if other details have been provided that will enable Cyclr to obtain those details itself, you can simply set it as an empty JSON object and the next time Cyclr attempts to call a Method on the Connector, it will automatically attempt to authenticate and retrieve this information:
 
-````json
+```json
 "AuthValue": "{}"
-````
+```
 
 
 [Step Setup](./step-set-up)  

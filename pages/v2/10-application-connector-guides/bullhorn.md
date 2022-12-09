@@ -8,6 +8,9 @@ tags: [connector]
 <section class="card py-5 my-5">
 # Bullhorn
 
+
+</section>
+<section class="card py-5 my-5">
 ## Partner Setup
 
 To authenticate the Bullhorn connector you will need a Client ID and Client Secret.  If you do not already have these, you or a listed Account / Support Contact will need to get in touch with Bullhorn Support to have credentials set up.
@@ -20,6 +23,9 @@ Your service domain can be found in your Cyclr console under Settings > General 
 
 Once you have your Client ID and Secret, you will be able to use these details to authenticate the connector.
 
+
+</section>
+<section class="card py-5 my-5">
 ## FAQ
 
 ### Apache Tomcat Error
@@ -30,6 +36,9 @@ After you are redirected to Bullhorn during the authentication process, sometime
 
 This is a known issue with Bullhorn. The solution is to clear the Bullhorn cookies in your browser, or open Cyclr and authenticate the connector in a private window.
 
+
+</section>
+<section class="card py-5 my-5">
 ## User Guide
 
 ### Retrieving Custom Objects
