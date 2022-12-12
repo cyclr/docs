@@ -1,0 +1,31 @@
+{% unless site.output == "pdf" %}
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+{% endunless %}
+<div class="row">
+	<div class="filter-options">
+		<button class="btn btn-primary" data-group="all">All</button>
+		{% for category in categories %}
+	  <button class="btn btn-primary" data-group="{{ category | slugify | downcase }}">{{ category }}</button>
+	  {% endfor %}
+	</div>
+</div>
+<div id="grid" class="row shuffle">
+{% for category in categories %}
+	<div class="col-12 col-md-6 col-lg-4" data-groups='["{{ category | slugify | downcase }}"]'>
+    	<h3>{{ category }}</h3>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains '/connectors-new/' %}
+          	{% if page.category == category %}
+      	<li><a href="{{page.permalink}}">{{page.title}}</a></li>
+          	{% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+	</div>
+{% endfor %}
+</div>
+{% unless site.output == "pdf" %}
+{% include initialize_shuffle.html %}
+{% endunless %}

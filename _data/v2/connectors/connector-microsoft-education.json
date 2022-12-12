@@ -1,0 +1,60 @@
+{
+    "Description": "Transforms classroom time, educators can focus on delivering personalised learning experiences that help enable better learning outcomes.",
+    "Id": 14689,
+    "Name": "Microsoft Education",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14689",
+    "Categories": [
+        "Miscellaneous",
+        "Collaboration"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Assignments",
+            "Methods": [
+                {
+                    "Name": "List Assignments",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Assignment",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Classes",
+            "Methods": [
+                {
+                    "Name": "List Classes",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Class",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Submissions",
+            "Methods": [
+                {
+                    "Name": "List Submission Outcomes",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Submissions",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/microsoft-education-connector"
+}

@@ -1,0 +1,75 @@
+{
+    "Description": "Sales software to accelerate your sales lead management.",
+    "Id": 14191,
+    "Name": "Velocify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14191",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get New Lead IDs",
+                    "Description": "Get IDs of new leads created after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Leads",
+                    "Description": "Get new leads created after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Get a lead by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Email",
+                    "Description": "Get the lead(s) for a given email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Leads",
+                    "Description": "Get new leads updated after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a new lead entity. Custom fields must be added with Field Location values of 'soapenv:Envelope.Field_ID_*'  where '*' is the Field ID. Retrieve field IDs from the List Fields method.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Fields",
+            "Methods": [
+                {
+                    "Name": "List Fields",
+                    "Description": "Get a list of the available fields that a lead can have. (For use with the 'Create Lead' method)",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Get a list of all campaigns.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/authenticate-velocify"
+}

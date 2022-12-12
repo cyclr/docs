@@ -1,0 +1,192 @@
+{
+    "Description": "Document360 RESTful APIs will allow you to integrate your documentation with your software, allowing you to easily onboard new users, manage your articles and more. ",
+    "Id": 12270,
+    "Name": "Document360",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12270",
+    "Categories": [
+        "Customer Experience",
+        "Developer Tools",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Articles",
+            "Methods": [
+                {
+                    "Name": "GetArticle",
+                    "Description": "Gets article with an ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UpdateArticle",
+                    "Description": "Updates an article with the ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete",
+                    "Description": "Deletes an article with an ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetArticleVersions",
+                    "Description": "Gets all article versions",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetArticleVersion",
+                    "Description": "Gets article by a version number",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetArticleSettings",
+                    "Description": "Gets settings for the article",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UpdateArticleSettings",
+                    "Description": "Updates settings for the article",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "PublishArticle",
+                    "Description": "Publishes an article with an id",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "ForkArticleVersion",
+                    "Description": "Forks an article with an id",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "DeleteArticleVersion",
+                    "Description": "Deletes article version",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "BulkDelete",
+                    "Description": "Deletes multiple articles",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "CreateArticle",
+                    "Description": "Adds an article to an existing category",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "BulkCreateArticle",
+                    "Description": "Adds multiple articles",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "BulkPublishArticle",
+                    "Description": "Publishes multiple articles",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "BulkUpdateArticle",
+                    "Description": "Updates multiple articles",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Categories",
+            "Methods": [
+                {
+                    "Name": "GetCategory",
+                    "Description": "Gets category with an ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UpdateCategory",
+                    "Description": "Updates a category with the ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "DeleteCategory",
+                    "Description": "Deletes an category with an ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "AddCategory",
+                    "Description": "Adds a new category",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "ProjectVersions",
+            "Methods": [
+                {
+                    "Name": "SearchProjectVersion",
+                    "Description": "Searches for a phrase inside project version",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetCategories",
+                    "Description": "Gets list of categories within project version",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetArticles",
+                    "Description": "Gets list of articles within project version",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetProjectVersions",
+                    "Description": "Gets list of project versions",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teams",
+            "Methods": [
+                {
+                    "Name": "GetUsers",
+                    "Description": "Gets all the users",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetUser",
+                    "Description": "Gets user with the ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "DeleteUser",
+                    "Description": "Deletes a user with an ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "EmailExists",
+                    "Description": "hecks if email already exists in the project",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UpdateUserRole",
+                    "Description": "Updates a user with the ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "AddUser",
+                    "Description": "Adds a user to project",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GetRoles",
+                    "Description": "Gets available roles",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/document360-connector"
+}

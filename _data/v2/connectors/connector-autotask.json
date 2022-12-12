@@ -1,0 +1,97 @@
+{
+    "Description": "Datto\u2019s Autotask Professional Services Automation (PSA) is a powerful and intuitive cloud-based PSA platform providing a singular view of the entire business - enabling MSPs to centralize business operations and make data-driven decisions to improve service, productivity and profitability.",
+    "Id": 12859,
+    "Name": "Autotask",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12859",
+    "Categories": [
+        "Dashboarding",
+        "Data Tools",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List New Contacts By Company",
+                    "Description": "Retrieves contacts associated with the specified company, created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Retrieves the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Retrieves contacts created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts By Company",
+                    "Description": "Retrieves contacts associated with the specified company, updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Retrieves contacts updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Retrieves all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Company",
+                    "Description": "Retrieves all contacts associated with the specified company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Get Company",
+                    "Description": "Retrieves the specified company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Companies",
+                    "Description": "Retrieves companies updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Retrieves all companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Companies",
+                    "Description": "Retrieves companies created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a new company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "Updates the specified company.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,36 @@
+{
+    "Description": "Enabling businesses and organizations to seamlessly and safely collect, analyze and act on location-based customer data.",
+    "Id": 11857,
+    "Name": "Cloud4Wi",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11857",
+    "Categories": [
+        "Miscellaneous",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Lists all customers for an Organisation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Delete's the specified customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

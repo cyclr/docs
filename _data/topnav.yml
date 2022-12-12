@@ -1,0 +1,48 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+  - title: Topnav
+    items:
+      - title: Cyclr Website
+        external_url: https://cyclr.com
+        active: false
+
+#Topnav dropdowns
+topnav_dropdowns:
+  - title: Topnav dropdowns
+    folders:
+      - title: Resources
+        active: true
+        folderitems:
+          - title: API Reference
+            url: /testing-cyclr-api
+            active: true
+          - title: Connector Library
+            external_url: https://cyclr.com/connectors
+            active: true
+          - title: Changelog
+            external_url: https://cyclr.com/changelog
+            active: false
+          - title: Blog
+            external_url: https://cyclr.com/blog
+            active: true
+      - title: Sign in
+        active: true
+        class: btn btn-primary
+        folderitems:
+          - title: US
+            external_url: https://my.cyclr.com
+            icon: us-flag-24.png
+            active: true
+          - title: UK
+            external_url: https://my.cyclr.uk
+            icon: uk-flag-24.png
+            active: true
+          - title: EU
+            external_url: https://eu.cyclr.com
+            icon: eu-flag.png
+            active: true
+          - title: APAC
+            external_url: https://apac.cyclr.com
+            icon: apac-flag.png
+            active: true

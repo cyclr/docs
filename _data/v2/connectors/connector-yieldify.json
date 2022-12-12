@@ -1,0 +1,30 @@
+{
+    "Description": "Smart and simple ways to make your customer journey convert",
+    "Id": 5772,
+    "Name": "Yieldify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5772",
+    "Categories": [
+        "Marketing",
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Email",
+            "Methods": [
+                {
+                    "Name": "Email captured",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

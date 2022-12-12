@@ -1,0 +1,251 @@
+{
+    "Description": "Provet Cloud is a cloud-based veterinary practice management software, making life at the practice easier through the enhancement of client and care processes.",
+    "Id": 7592,
+    "Name": "Provet Cloud",
+    "Version": "v0.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7592",
+    "Categories": [
+        "Miscellaneous",
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "Get Client List",
+                    "Description": "Gets all clients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Insurance Claim Client List",
+                    "Description": "Gets insurance claim client list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client",
+                    "Description": "Gets client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client List By Email",
+                    "Description": "Gets client list biased on partial match of email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Clients",
+                    "Description": "Gets new clients since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Clients ",
+                    "Description": "Gets updated clients since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client",
+                    "Description": "Create a new client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client",
+                    "Description": "Update a client.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Patients",
+            "Methods": [
+                {
+                    "Name": "Get Patient",
+                    "Description": "Gets patient by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Patients By Name",
+                    "Description": "Get Patients By Name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Patient List",
+                    "Description": "Get Patients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Patient",
+                    "Description": "Update Patient.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Patient",
+                    "Description": "Create new patient.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Patients",
+                    "Description": "Get New Patients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Patients",
+                    "Description": "Get Updated Patients.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Get Species ",
+                    "Description": "Gets list of species.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Breeds ",
+                    "Description": "Gets list of breeds.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "Get Invoice List",
+                    "Description": "Gets all invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Invoices",
+                    "Description": "Gets invoices created since last run datetime.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Invoices",
+                    "Description": "Gets invoices updated since last run datetime.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Gets invoices by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoices by Client",
+                    "Description": "Gets all invoices for client.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoice Rows",
+            "Methods": [
+                {
+                    "Name": "Get Invoice Row List",
+                    "Description": "Gets all invoice rows.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Invoice Rows",
+                    "Description": "Gets new invoice rows since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Invoice Rows",
+                    "Description": "Gets updated invoice rows since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice Row",
+                    "Description": "Gets invoice row by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice Row by Invoice",
+                    "Description": "Gets invoice rows by invoice ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoice Payments",
+            "Methods": [
+                {
+                    "Name": "Get Invoice Payment By Invoice",
+                    "Description": "Gets all invoice payments for invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Invoice Payments",
+                    "Description": "Gets list of invoice payments created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Invoice Payments",
+                    "Description": "Gets list of invoice payments updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice Payment",
+                    "Description": "Gets invoice payment by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Unallocated Payments",
+            "Methods": [
+                {
+                    "Name": "Get Unallocated Payment List",
+                    "Description": "Gets all unallocated payments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Unallocated Payments",
+                    "Description": "Gets unallocated payments created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Unallocated Payments",
+                    "Description": "Gets unallocated payments updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Unallocated Payment",
+                    "Description": "Gets unallocated payments by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Unallocated Payments By Client",
+                    "Description": "Gets unallocated payments for client.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Phone Numbers",
+            "Methods": [
+                {
+                    "Name": "Delete Phone Number",
+                    "Description": "Delete a phone number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Phone Number",
+                    "Description": "Update a phone number.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

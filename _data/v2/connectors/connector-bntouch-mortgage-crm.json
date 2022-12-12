@@ -1,0 +1,30 @@
+{
+    "Description": "Automate your marketing, convert more leads, stay top of mind with your borrowers and recruit new partners using one simple Mortgage CRM solution.",
+    "Id": 12262,
+    "Name": "BNTouch Mortgage CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12262",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Create Lead",
+                    "Description": "Creates a new lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/bntouch-connector"
+}

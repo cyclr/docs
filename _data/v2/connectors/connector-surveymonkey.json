@@ -1,0 +1,90 @@
+{
+    "Description": null,
+    "Id": 14632,
+    "Name": "SurveyMonkey",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14632",
+    "Categories": [
+        "Surveys"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Collectors",
+            "Methods": [
+                {
+                    "Name": "Create Collector",
+                    "Description": "Create a collector for a survey.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Collector",
+                    "Description": "Get details of a collector.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Collectors by Survey ID",
+                    "Description": "Returns a list of Collectors specific to a survey.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Templates",
+            "Methods": [
+                {
+                    "Name": "Get Templates",
+                    "Description": "Retrieve a list of templates provided by SurveyMonkey.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Surveys",
+            "Methods": [
+                {
+                    "Name": "List New And Updated Surveys",
+                    "Description": "Retrieves a list of surveys updated in a user's account since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Surveys",
+                    "Description": "Retrieves a list of surveys in a user's account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Survey Details",
+                    "Description": "Retrieves a survey's metadata.  Note that this only works for Surveys upder 200 pages and with less than 1,000 questions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Survey Responses",
+                    "Description": "Returns a list of responses",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Survey Response Data",
+                    "Description": "Returns a list of responses and the data from those responses. An annual paid SurveyMonkey account is required for this. Custom fields must be added for the response.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Responses",
+            "Methods": [
+                {
+                    "Name": "List Responses by Collector ID",
+                    "Description": "Returns a list of responses by a specific collector.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "SurveyMonkey Integration - Marketing & Support Automation - Cyclr",
+    "MetaDescription": "Connect your SurveyMonkey account to your CRM, Marketing & support systems to create automation workflows that take the pain out of data management.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/surveymonkey",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,51 @@
+{
+    "Description": "Build beautiful, engaging, and conversational online forms, surveys, quizzes, landing pages, and much more with Typeform.",
+    "Id": 11673,
+    "Name": "Typeform",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11673",
+    "Categories": [
+        "Forms",
+        "Surveys"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "Get Form",
+                    "Description": "Get a form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Forms",
+                    "Description": "Get a list of all your typeforms.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Retrieve all webhooks for the specified typeform.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Form Submission",
+                    "Description": "Get new form submissions as soon as they are entered. To map your answers create a custom field with the prefix \"form_response.answers.\" or use auto discovery.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Typeform Integration - Form & Feedback Automation - Cyclr",
+    "MetaDescription": "Integrate your Typeform forms into your business systems, so you can make the most of your data.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/typeform",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

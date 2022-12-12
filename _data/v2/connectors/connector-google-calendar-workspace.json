@@ -1,0 +1,88 @@
+{
+    "Description": "With Google's free online calendar, it's easy to keep track of life's important events all in one place.",
+    "Id": 17294,
+    "Name": "Google Calendar - Workspace",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17294",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Group",
+            "Methods": [
+                {
+                    "Name": "Get Group by Identifier",
+                    "Description": "Get a group from an account or domain by either group's email address, group alias, or the unique group ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Group by Name",
+                    "Description": "Get a group from an account or domain by a groups name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Group Members",
+                    "Description": "List all users in a group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Groups",
+                    "Description": "List all groups in an account or domain.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "List all users in an organization.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Calendar",
+            "Methods": [
+                {
+                    "Name": "List Calendars",
+                    "Description": "Gets a list of the calendars.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Get Event",
+                    "Description": "Gets an event from a calendar.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Events",
+                    "Description": "Gets new events from a calendar.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Events",
+                    "Description": "Gets events from a calendar.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Events",
+                    "Description": "Gets new and updated events from a calendar.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-calendar-workspace-connector"
+}

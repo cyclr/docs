@@ -1,0 +1,30 @@
+{% assign currentcategory = page.category %}
+<section class="intro">
+	<div class="intro-text">
+		<p>{{hubdata.text}}</p>
+	</div>
+</section>
+<section class="tiles mx-n4">
+	<div class="d-flex flex-row flex-wrap m-0 p-0 justify-content-start align-items-stretch">
+	{% for docpage in site.pages %}
+			{% for tag in docpage.tags %}
+				{% if tag == "connector" %}
+				{% for cat in docpage.categories %}
+				{% if cat == currentcategory %}
+		<div class="icon-link card text-center p-0 m-4">
+			<div class="card-body d-flex flex-column justify-content-around">
+				<a href="{{docpage.permalink}}" class="btn-icon p-0 m-0" title="{{ docpage.title }} connector guide">
+					<img class="img-icon" src="{{ docpage.icon }}" alt="{{ docpage.title }} icon"/>
+					<h3 class="icon-link-title">{{ docpage.title }} connector guide</h3>
+				</a>
+			</div>
+		</div>
+				{% endif %}
+				{% endfor %}          
+				{% endif %}
+			{% endfor %}          
+	{% endfor %}
+	</div>
+</section>
+
+

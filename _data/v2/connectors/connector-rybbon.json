@@ -1,0 +1,66 @@
+{
+    "Description": "Rybbon is the all-in-one solution for sending, tracking, and managing digital rewards programs.",
+    "Id": 14370,
+    "Name": "Rybbon",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14370",
+    "Categories": [
+        "Customer Experience",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Gift Claims",
+            "Methods": [
+                {
+                    "Name": "Add Gift Claim (Variable Denomination)",
+                    "Description": "Creates and sends a gift claim for one or more recipients for gifts with variable denomination.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Gift Claim (Fixed Denomination)",
+                    "Description": "Creates and sends a gift claim for one or more recipients for gifts with fixed denomination.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Points",
+            "Methods": [
+                {
+                    "Name": "Add Points",
+                    "Description": "Adds points to a member.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns (Fixed Gift Price)",
+                    "Description": "Retrieves all campaigns available in your account with gifts of fixed denomination.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Retrieves all campaigns available in your account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns (Variable Gift Price)",
+                    "Description": "Retrieves all campaigns available in your account with gifts of variable denomination.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/rybbon-connector"
+}

@@ -1,0 +1,120 @@
+{
+    "Description": "BambooHR is all-in-one HR software made for small and medium businesses. BambooHR makes it easy to collect, maintain, and analyze your people data, improve the way you hire talent, onboard new employees, manage compensation, and develop your company culture.",
+    "Id": 16728,
+    "Name": "BambooHR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16728",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Time Off",
+            "Methods": [
+                {
+                    "Name": "List Updated Time Off Requests",
+                    "Description": "Retrieves Time Off Requests that have been created or updated since the last time this successfully ran. Only Time Off Requests set to start between 1 month ago and 6 months in the future will be examined.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payroll",
+            "Methods": [
+                {
+                    "Name": "List Unpaid Paystubs",
+                    "Description": "Retrieves an employee's unpaid paystubs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Default Withholdings",
+                    "Description": "Retrieves an employee's default withholdings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Paystub",
+                    "Description": "Retrieves an employee's paystub.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Direct Deposit Accounts",
+                    "Description": "Retrieves an employee's direct deposit information.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Retrieves all users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "List New Employees",
+                    "Description": "Retrieves employees whose records have been created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Retrieves information about the specified employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Employees",
+                    "Description": "Retrieves employees whose records have changed since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deleted Employees",
+                    "Description": "Retrieves employees whose records have been deleted since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee",
+                    "Description": "Updates information about the specified employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New, Updated and Deleted Employees",
+                    "Description": "Retrieves employees whose records have changed since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "Retrieves all employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employee Dependents",
+                    "Description": "Retrieves all of an employees dependents.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Employee Updated",
+                    "Description": "Webhook that is fired when an employee record is updated in BambooHR.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/bamboohr-connector"
+}

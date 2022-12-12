@@ -1,0 +1,48 @@
+{
+    "Description": "Industry leaders trust DevicePilot to help them analyse and manage their devices at scale.",
+    "Id": 8604,
+    "Name": "DevicePilot",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8604",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Device Data",
+            "Methods": [
+                {
+                    "Name": "Upsert Device Data",
+                    "Description": "Send telemetry or metadata info about your device.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Batch Upsert Device Data",
+                    "Description": "Send telemetry or metadata info about your devices.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Notify Generic",
+                    "Description": "Trigger a notification to an external application.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Zendesk",
+                    "Description": "Trigger a notification to Zendesk",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/devicepilot"
+}

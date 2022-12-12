@@ -1,0 +1,153 @@
+{
+    "Description": "Connect with customers on the channels they love and easily guide them to find answers fast with Freshdesk Messaging.",
+    "Id": 14616,
+    "Name": "Freshdesk Messaging",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14616",
+    "Categories": [
+        "Chat",
+        "Customer Experience",
+        "Sales",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Groups",
+                    "Description": "List all groups.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Outbound Messages",
+            "Methods": [
+                {
+                    "Name": "Get Outbound Message",
+                    "Description": "Get an outbound message.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Outbound Message",
+                    "Description": "Creates a request to send whatsapp messages to users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Metrics",
+            "Methods": [
+                {
+                    "Name": "List Historical Dashboard Metrics",
+                    "Description": "List all historical dashboard metrics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Instant Dashboard Metrics",
+                    "Description": "List all instant dashboard metrics.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Agents",
+            "Methods": [
+                {
+                    "Name": "Update Agent",
+                    "Description": "Update an agent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Agents",
+                    "Description": "List all agents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Agent",
+                    "Description": "Get an agent.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Channels",
+            "Methods": [
+                {
+                    "Name": "List Channels",
+                    "Description": "List all channels.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Conversations",
+            "Methods": [
+                {
+                    "Name": "Get Conversation",
+                    "Description": "Get a conversation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Conversation",
+                    "Description": "Update a conversation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Conversation",
+                    "Description": "Create a conversation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Conversation Message",
+                    "Description": "Create a conversation message.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "Create Report",
+                    "Description": "Create a report.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Report",
+                    "Description": "Get a report.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

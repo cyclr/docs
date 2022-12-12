@@ -1,0 +1,947 @@
+{
+    "Description": "Get full control of your finances with PowerOffice Go.",
+    "Id": 15867,
+    "Name": "PowerOffice Go",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15867",
+    "Categories": [
+        "Accounting"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Updated Projects",
+                    "Description": "Get a list of updated or created projects since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Project",
+                    "Description": "Create or update a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "Delete a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Projects",
+                    "Description": "Get a list of projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Get a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project Team Member",
+                    "Description": "Get a project team member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project Team Member",
+                    "Description": "Delete a project team member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Project Team Member",
+                    "Description": "Create or update a project team member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Project Team Members",
+                    "Description": "Get a list of project team members.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Project Activities",
+                    "Description": "Get a list of project activities.",
+                    "MethodType": "Action",
+                    "Subcategory": "Activities"
+                },
+                {
+                    "Name": "Delete Project Activity",
+                    "Description": "Delete a project activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project Activity",
+                    "Description": "Get a project activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Project Activity",
+                    "Description": "Create or update a project activity.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Import",
+            "Methods": [
+                {
+                    "Name": "Get Import",
+                    "Description": "Gets the specified Import by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Import",
+                    "Description": "Updates the previously uploaded Import on the client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Imports",
+                    "Description": "Gets a list of updated or created imports since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Import",
+                    "Description": "Deletes the specified Import by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Import",
+                    "Description": "Saves the provided Import.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Imports",
+                    "Description": "Gets a list of Import filtered by Odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Import Status",
+                    "Description": "Gets the status of the specified Import by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Imports",
+                    "Description": "Gets a list of Imports filtered by Odata query since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Suppliers",
+            "Methods": [
+                {
+                    "Name": "List New Suppliers",
+                    "Description": "Get a list of new suppliers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Suppliers",
+                    "Description": "Get a list of suppliers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Suppliers",
+                    "Description": "Get a list of updated or created suppliers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Supplier",
+                    "Description": "Delete a supplier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Supplier",
+                    "Description": "Get a supplier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Supplier",
+                    "Description": "Create or update a supplier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Supplier Contact",
+                    "Description": "Create or update a supplier contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Contacts",
+                    "Description": "Get a list of supplier contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Supplier Contact",
+                    "Description": "Get a supplier contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Supplier Contact",
+                    "Description": "Delete a supplier contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Supplier Bank Accounts",
+                    "Description": "Get a list of updated or created  supplier bank accounts since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Supplier Bank Account",
+                    "Description": "Delete a supplier bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Supplier Contacts",
+                    "Description": "Get a list of updated or created supplier contacts since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Bank Accounts",
+                    "Description": "Get a list of supplier bank accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Accounts"
+                },
+                {
+                    "Name": "Get Supplier Bank Account",
+                    "Description": "Get a supplier bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Supplier Bank Account",
+                    "Description": "Create or update a supplier bank account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Gets a list of updated or created products since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Deletes the specified Product by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Gets a list of Products filtered by odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Gets the specified Product by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Product",
+                    "Description": "Creates or updates the specified Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Group",
+                    "Description": "Deletes the specified Product Group by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Group ",
+                    "Description": "Gets the specified Product Group by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Product Group",
+                    "Description": "Creates or updates the specified Product Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Groups",
+                    "Description": "Gets a list of Product Groups filtered by odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Product Groups",
+                    "Description": "Gets a list of updated or created product groups since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Inventory Entries",
+                    "Description": "Gets a list of Product Inventory Entry filtered by odata query.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reporting",
+            "Methods": [
+                {
+                    "Name": "List Customer Balances",
+                    "Description": "Lists balances of all active cutomers on specific date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Balances",
+                    "Description": "Lists the balances for active suppliers on specific date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ledger Customers For Date",
+                    "Description": "Lists customers from customer ledger for a specific date. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ledger Customers By Match ID",
+                    "Description": "Lists all customers in a ledger with a specific Match ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unmatch Customer Ledger Entry",
+                    "Description": "Unmatches a Customer Ledger Entry with the provided match request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Match Customer Ledger Entry",
+                    "Description": "Matches a Customer Ledger Entry with the provided match request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Ledger Customers",
+                    "Description": "Lists new customers from customer ledger in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Ledger Customers",
+                    "Description": "Lists updated customers from customer ledger in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ledger Customers",
+                    "Description": "Lists customers from customer ledger in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Transactions",
+                    "Description": "Lists all newly created account transactions in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Account Transactions",
+                    "Description": "Lists all transactions by an account in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Transactions",
+                    "Description": "Lists all account transactions in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Transactions",
+                    "Description": "Lists updated account transactions in date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Ledger Entries By Match ID",
+                    "Description": "Gets all supplier ledger entries associated with a Match ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Ledger Entries",
+                    "Description": "Lists the supplier ledger entries in date range. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Match Supplier Ledger Entries",
+                    "Description": "Matches the supplier ledger entries provided by their ID's.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Supplier Ledger Entries",
+                    "Description": "Lists new supplier ledger entries in date range. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Supplier Ledger Entries",
+                    "Description": "Lists updated supplier ledger entries in date range. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Ledger Entries For Date",
+                    "Description": "Lists the supplier ledger entries for a specific date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unmatch Supplier Ledger Entries",
+                    "Description": "Matches the supplier ledger entries by their ID's.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Trial Balances For Date",
+                    "Description": "Lists trial balances for a specific date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Trial Balances",
+                    "Description": "Lists current trial balances.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Transactions",
+                    "Description": "Lists time transactions in date range.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "General Ledger Accounts",
+            "Methods": [
+                {
+                    "Name": "Delete General Ledger Account",
+                    "Description": "Delete the specified General Ledger Account by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated General Ledger Accounts",
+                    "Description": "Gets a list of updated or created general ledger accounts since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert General Ledger Accounts",
+                    "Description": "Creates or updates the specified General Ledger Account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List General Ledger Accounts",
+                    "Description": "Gets a list of General Ledger Account filtered by odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get General Ledger Account",
+                    "Description": "Gets the specified General Ledger Account by its identifier.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "List Client Contacts",
+                    "Description": "Get a list of client contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current Client",
+                    "Description": "Get the current client.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Departments",
+            "Methods": [
+                {
+                    "Name": "Delete Department",
+                    "Description": "Delete a department.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Departments",
+                    "Description": "Get a list of departments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Department",
+                    "Description": "Get a department.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Departments",
+                    "Description": "Get a list of updated or created departments since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Department",
+                    "Description": "Create or update a department.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "Delete Employee",
+                    "Description": "Delete an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Employees",
+                    "Description": "Get a list of updated or created employees since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Employees",
+                    "Description": "Get a list of new employees since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "Get a list of employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Employee",
+                    "Description": "Create or update an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee Bank Account",
+                    "Description": "Get an employees bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Bank Account",
+                    "Description": "Delete an employees bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Employee Bank Account",
+                    "Description": "Create or update an employee bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employee Bank Accounts",
+                    "Description": "Get a list of employees bank accounts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Employee Bank Accounts",
+                    "Description": "Get a list of updated or created employees bank accounts since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Outgoing Invoices",
+            "Methods": [
+                {
+                    "Name": "Delete Outgoing Invoice",
+                    "Description": "Deletes the specified Outgoing Invoice by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Invoice To Customer",
+                    "Description": "Sends an invoice from Go to the specified customer through a given invoice delivery type.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Outgoing Invoices",
+                    "Description": "Gets a list of Outgoing Invoices filtered by Odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Outgoing Invoice",
+                    "Description": "Creates or updates the specified Outgoing Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Outgoing Invoices",
+                    "Description": "Gets a list of new Outgoing Invoices filtered by Odata query since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Outgoing Invoice Voucher Notes",
+                    "Description": "Gets all Voucher Notes connected to an Outgoing Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Outgoing Invoice Voucher Note",
+                    "Description": "Saves a new Voucher Note or updates an existing note on an Outgoing Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Outgoing Invoice",
+                    "Description": "Gets the specified OutgoingInvoice by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Outgoing Invoices",
+                    "Description": "Gets a list of updated or created outgoing invoices since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vat Codes",
+            "Methods": [
+                {
+                    "Name": "List General Ledger Account VAT Codes",
+                    "Description": "Gets available VAT codes for the specified general ledger account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List VAT Codes",
+                    "Description": "Gets a list of VAT codes filtered by odata query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get VAT Code",
+                    "Description": "Gets the specified Vat Code by it's id.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Blob",
+            "Methods": [
+                {
+                    "Name": "Get Voucher EHF",
+                    "Description": "Get a voucher EHF XML document.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Voucher Documents",
+                    "Description": "List voucher documents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Voucher Document",
+                    "Description": "Get a voucher document.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Voucher Image",
+                    "Description": "Get a voucher image.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a single customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Delete a single customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Get a list of updated or created customers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Get a list of new customers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Customer",
+                    "Description": "Create or update a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Get a list of customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customer Bank Accounts",
+                    "Description": "Get a list of updated or created bank accounts for a customer since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Bank Accounts",
+                    "Description": "Get a list of bank accounts for a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer Bank Account",
+                    "Description": "Delete a bank account of a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Customer Bank Account",
+                    "Description": "Create or update a customers bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer Bank Account",
+                    "Description": "Get a bank account of a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customer Contacts",
+                    "Description": "Get a list of updated or created contacts for a customer since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Contacts",
+                    "Description": "Get a list of contacts for a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer Contact",
+                    "Description": "Get a contact of a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Customer Contact",
+                    "Description": "Create or update a customers bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer Contact",
+                    "Description": "Delete a contact of a customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Time Tracking",
+            "Methods": [
+                {
+                    "Name": "List Updated Time Tracking Hour Types",
+                    "Description": "Lists all time tracking hour types that have been updated since method was last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Time Tracking Hour Type",
+                    "Description": "Delete time tracking hour type by specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Time Tracking Activity",
+                    "Description": "Deletes a time tracking activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Time Tracking Activity",
+                    "Description": "Creates or updates a time tracking activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Tracking Activities",
+                    "Description": "List all time tracking activities. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Time Tracking Activities",
+                    "Description": "Gets list of all updated time tracking activities since method was last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Time Tracking Entry",
+                    "Description": "Get time tracking entry by specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Tracking Entries",
+                    "Description": "Lists all time tracking entries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Time Tracking Entry",
+                    "Description": "Delete time tracking entry by specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Time Tracking Entry",
+                    "Description": "Create or update a time tracking entry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Time Tracking Entries",
+                    "Description": "Lists all time tracking entries which have been updated since method was last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Time Tracking Hour Type",
+                    "Description": "Get time tracking hour type by specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Tracking Hour Types",
+                    "Description": "Lists all time tracking hour types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Time Tracking Hour Type",
+                    "Description": "Create or update a time tracking hour type.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vouchers",
+            "Methods": [
+                {
+                    "Name": "Create Bank Journal Voucher",
+                    "Description": "Creates a Bank Journal Voucher in the general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Bank Journal Vouchers",
+                    "Description": "Lists bank journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Bank Journal Voucher",
+                    "Description": "Gets the specified bank journal voucher by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reverse Bank Journal Voucher",
+                    "Description": "Reverses a previously sent bank journal voucher by it's id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Outgoing Invoice Vouchers",
+                    "Description": "Lists outgoing invoice vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reverse Outgoing Invoice Voucher",
+                    "Description": "Reverses a previously sent voucher by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Outgoing Invoice Voucher",
+                    "Description": "Creates a outgoing invoice voucher within the general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Manual Journal Voucher",
+                    "Description": "Gets the specified manual journal voucher by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reverse Manual Journal Voucher",
+                    "Description": "Reverses a previously sent manual journal voucher by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Manual Journal Vouchers",
+                    "Description": "Lists manual journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Cash Journal Vouchers",
+                    "Description": "Lists cash journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Manual Journal Vouchers",
+                    "Description": "Lists new manual journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reverse Incoming Invoice Voucher",
+                    "Description": "Reverse a previously sent voucher by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Incoming Invoice Voucher",
+                    "Description": "Creates an incoming invoice voucher in the general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Incoming Invoice Vouchers",
+                    "Description": "Lists new incoming invoice vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Incoming Invoice Voucher",
+                    "Description": "Gets a specified incoming invoice voucher by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Incoming Invoice Vouchers",
+                    "Description": "Lists incoming invoice vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Journal Entry Voucher",
+                    "Description": "Get journal entry voucher by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Journal Entry Vouchers",
+                    "Description": "Lists all journal entry vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Forward Incoming EHF",
+                    "Description": "Insert EHF invoice into Go. Puts a CreateEhfImageMessage on the queue to the standard worker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Journal Entry Voucher",
+                    "Description": "Deletes journal entry voucher specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Journal Entry Voucher",
+                    "Description": "Creates a journal entry voucher.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Bank Journal Vouchers",
+                    "Description": "Lists new bank journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Manual Journal Voucher",
+                    "Description": "Creates a manual journal voucher in the general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Outgoing Invoice Vouchers",
+                    "Description": "Lists new outgoing invoice vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Cash Journal Vouchers",
+                    "Description": "Lists new cash journal vouchers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Cash Journal Voucher",
+                    "Description": "Creates an Cash Journal Voucher in the general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Cash Journal Voucher",
+                    "Description": "Gets the specified cash journal voucher by its identifier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reverse Cash Journal Voucher",
+                    "Description": "Reverses a previously sent cash journal voucher by its id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Outgoing Invoice Voucher",
+                    "Description": "Get a specified outgoing invoice voucher using it's ID. ",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/poweroffice-go-connector"
+}

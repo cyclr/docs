@@ -1,0 +1,36 @@
+{
+    "Description": "Aesthetic Record helps you run your entire clinic from any computer, taking care of all business aspects, from anywhere in the world.",
+    "Id": 8271,
+    "Name": "Aesthetic Record",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8271",
+    "Categories": [
+        "CRMs",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Lists orders placed between a specified start and end date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Lists orders placed since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

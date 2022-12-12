@@ -1,0 +1,80 @@
+{
+    "Description": "Pure360 offer strategy and advice complemented by an easy-to-use email marketing platform.",
+    "Id": 12454,
+    "Name": "Pure360",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12454",
+    "Categories": [
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Emails",
+            "Methods": [
+                {
+                    "Name": "Send Email",
+                    "Description": "Send an email to an existing contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Email Processing Started",
+                    "Description": "Notification that a campaign has reached the scheduled date time and processing has begun.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Email Processing Finished",
+                    "Description": "A campaign has finished processing and is being sent out (not indicative of completion of sending).",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Email Opened",
+                    "Description": "A recipient has opened an email identified by images being downloaded or a link clicked.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Hyperlink Clicked",
+                    "Description": "Notification that a recipient has clicked a hyperlink in an email.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Status Change",
+                    "Description": "Notification of a change in a contact's status from an email. The 'Type' field will identify what has happened.  The options are: BOUNCE - A hard bounce response is received from the email recipient, BLOCKED - A blocked response is received from the email recipient, SOFTBOUNCE - A soft bounce response is received from the email recipient, OPTIN - A recipient opts in to a profile via a signup form that uses the list builder interface, OPTOUT - A recipient opts out of a profile via an unsubscribe link in an email campaign.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "SMS",
+            "Methods": [
+                {
+                    "Name": "SMS Deliery Failure/Opt Out",
+                    "Description": "Notification that delivery of an SMS Message has failed or that the contact has opted out of future SMS messages. The 'Type' field will identify what has happened.  The options are: SMSOPTOUT - This indicates that the Contact has opted out of future SMS communications, SMSFAILED - A bounce response was received from the SMS recipient.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Send SMS",
+                    "Description": "Send an SMS to an existing contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Create or Update Contact",
+                    "Description": "Update an existing contact. If the contact doesn't exist, it will be created in your profile.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Pure360 Integration | Marketing Automation | Cyclr",
+    "MetaDescription": "Use Cyclr\u2019s Easy to Use, Drag & Drop Workflow Builder to Create and Publish Automation Workflows to Integrate with Pure360's Email Marketing Platform.",
+    "Screenshot": null,
+    "Content": "<p>Create automation workflows that let your users integrate your app with Pure360's email marketing platform. Use Cyclr's drag and drop integration builder to create template integrations that your users can authenticate and activate without leaving your application.</p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/pure360",
+    "DocumentationUrl": "https://apihub.pure360.com/documentation/overview",
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,1080 @@
+{
+    "Description": "Scoro empowers you and your team to work at 100% and make the right decisions. Farewell to boring status update meetings. You\u2019ll finally have time to focus on high-impact tasks.",
+    "Id": 16911,
+    "Name": "Scoro",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16911",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Expenses",
+            "Methods": [
+                {
+                    "Name": "List Expenses",
+                    "Description": "Returns a list of Expenses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Expenses",
+                    "Description": "Returns a list of new Expenses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Expenses",
+                    "Description": "Returns a list of updated Expenses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Expense",
+                    "Description": "Update or create a specific Expense.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Expense",
+                    "Description": "Gets the details of the specified Expense.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Expense",
+                    "Description": "Delete a specific Expense.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "Returns a list of invoices created or updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Invoice PDF",
+                    "Description": "Generate a PDF file for the specific Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Invoice",
+                    "Description": "Delete a specific invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Invoices",
+                    "Description": "Returns a list of invoices created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Invoice",
+                    "Description": "Update or create a specific invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoices",
+                    "Description": "Returns a list of invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get details of an invoice by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Invoice Changed",
+                    "Description": "Event received when a invoice record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Invoice Created",
+                    "Description": "Event received when a invoice record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Invoice Modified",
+                    "Description": "Event received when a invoice record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List Custom Fields",
+                    "Description": "Returns a list of all custom fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Depots",
+            "Methods": [
+                {
+                    "Name": "List Depots",
+                    "Description": "Returns a list of Depots.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Depot",
+                    "Description": "Gets the details of the specified Depots.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "VAT Codes",
+            "Methods": [
+                {
+                    "Name": "Get VAT Code",
+                    "Description": "Returns details of a specific VAT code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert VAT Code",
+                    "Description": "Update or create a VAT code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List VAT Codes",
+                    "Description": "Returns a list of VAT codes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete VAT Code",
+                    "Description": "Delete a specific VAT code.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Groups",
+            "Methods": [
+                {
+                    "Name": "Upsert User Group",
+                    "Description": "Update or create a specific user group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User Group",
+                    "Description": "Delete a specific user group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Groups",
+                    "Description": "Returns a list of user groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Group",
+                    "Description": "Gets the details of the specified user group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounting Objects",
+            "Methods": [
+                {
+                    "Name": "List Accounting Objects",
+                    "Description": "Returns a list of accounting objects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Accounting Object",
+                    "Description": "Returns details of a specific accounting object.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Returns the details of the specified User.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Returns a list of Users",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Settings",
+                    "Description": "Returns the settings and company accounts of the currently logged in user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets the details of the specified Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a specific Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Person Modified",
+                    "Description": "Event received when a person record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Persons"
+                },
+                {
+                    "Name": "Person Changed",
+                    "Description": "Event received when a person record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Persons"
+                },
+                {
+                    "Name": "Person Deleted",
+                    "Description": "Event received when a person record is deleted.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Persons"
+                },
+                {
+                    "Name": "Company Deleted",
+                    "Description": "Event received when a Company record is deleted.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Companies"
+                },
+                {
+                    "Name": "Company Created",
+                    "Description": "Event received when a Company record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Companies"
+                },
+                {
+                    "Name": "Company Modified",
+                    "Description": "Event received when a Company record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Companies"
+                },
+                {
+                    "Name": "Company Changed",
+                    "Description": "Event received when a Company record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Companies"
+                },
+                {
+                    "Name": "List Persons",
+                    "Description": "Returns a list of persons.",
+                    "MethodType": "Action",
+                    "Subcategory": "Persons"
+                },
+                {
+                    "Name": "List New Persons",
+                    "Description": "Returns a list of new persons.",
+                    "MethodType": "Action",
+                    "Subcategory": "Persons"
+                },
+                {
+                    "Name": "Upsert Person Contact ",
+                    "Description": "Update or create a specific Contact.",
+                    "MethodType": "Action",
+                    "Subcategory": "Persons"
+                },
+                {
+                    "Name": "List Updated Persons",
+                    "Description": "Returns a list of updated persons.",
+                    "MethodType": "Action",
+                    "Subcategory": "Persons"
+                },
+                {
+                    "Name": "Get Person",
+                    "Description": "Gets the details of the specified company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Persons"
+                },
+                {
+                    "Name": "List New Companies",
+                    "Description": "Returns a list of new companies.",
+                    "MethodType": "Action",
+                    "Subcategory": "Companies"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Returns a list of companies.",
+                    "MethodType": "Action",
+                    "Subcategory": "Companies"
+                },
+                {
+                    "Name": "Upsert Company Contact",
+                    "Description": "Update or create a specific Contact.",
+                    "MethodType": "Action",
+                    "Subcategory": "Companies"
+                },
+                {
+                    "Name": "List Updated Companies",
+                    "Description": "Returns a list of updated companies.",
+                    "MethodType": "Action",
+                    "Subcategory": "Companies"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "Gets the details of the specified company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Companies"
+                },
+                {
+                    "Name": "Person Created",
+                    "Description": "Event received when a person record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events - Persons"
+                }
+            ]
+        },
+        {
+            "Category": "Relation Types",
+            "Methods": [
+                {
+                    "Name": "List Relations Types",
+                    "Description": "Returns a list of Relation types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Receipt Accounts",
+            "Methods": [
+                {
+                    "Name": "List Receipt Accounts",
+                    "Description": "Returns a list of receipt accounts",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Receipt Groups",
+            "Methods": [
+                {
+                    "Name": "Upsert Receipt Group",
+                    "Description": "Update or create a receipt group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Receipt Groups",
+                    "Description": "Returns a list of receipt groups",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "PDF Templates",
+            "Methods": [
+                {
+                    "Name": "List PDF Templates",
+                    "Description": "Returns a list of PDF Templates",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Statuses",
+            "Methods": [
+                {
+                    "Name": "List Statuses",
+                    "Description": "Returns a list of Statuses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Statuses",
+                    "Description": "Returns a list of updated Statuses.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Scheduled Invoices",
+            "Methods": [
+                {
+                    "Name": "Get Scheduled Invoice",
+                    "Description": "Returns the details of the specified scheduled invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Scheduled Invoice PDF",
+                    "Description": "Generate a PDF file for the specific scheduled invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Scheduled Invoices",
+                    "Description": "Returns a list of scheduled invoices added or modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Scheduled Invoice",
+                    "Description": "Update or create a scheduled invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Invoices",
+                    "Description": "Returns a list of scheduled invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Scheduled Invoices",
+                    "Description": "Returns a list of scheduled invoices added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Scheduled Invoice",
+                    "Description": "Delete a specific scheduled invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "List Tasks",
+                    "Description": "Returns a list of Tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Task",
+                    "Description": "Update or create a specific Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "Returns a list of Tasks.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Meters",
+            "Methods": [
+                {
+                    "Name": "Delete Meter",
+                    "Description": "Delete a specific meter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Meters",
+                    "Description": "Returns a list of meters.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Meter",
+                    "Description": "Returns details of a specific meter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Meter",
+                    "Description": "Update or create a meter.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "List Updated Activities",
+                    "Description": "Returns a list of updated Activities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Activities",
+                    "Description": "Returns a list of Activities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Returns a list of Orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Order",
+                    "Description": "Delete a specific Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Gets the details of the specified Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Order",
+                    "Description": "Update or create a specific Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "Returns a list of updated Orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Order PDF",
+                    "Description": "Generate a PDF file for the specific Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Returns a list of new Orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Order Changed",
+                    "Description": "Event received when a order record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Order Created",
+                    "Description": "Event received when a order record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Order Modified",
+                    "Description": "Event received when a order record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Search",
+            "Methods": [
+                {
+                    "Name": "Search Module Data",
+                    "Description": "Search for a specified phrase across all modules.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "List Tags",
+                    "Description": "Returns a list of Tags.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Prepayments",
+            "Methods": [
+                {
+                    "Name": "Delete Prepayment",
+                    "Description": "Delete a specific prepayment invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Prepayments",
+                    "Description": "Returns a list of prepayments added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Prepayment",
+                    "Description": "Returns the details of the specified prepayment invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Prepayment PDF",
+                    "Description": "Generate a PDF file for the specific prepayment invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Prepayments",
+                    "Description": "Returns a list of prepayments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Prepayments",
+                    "Description": "Returns a list of prepayments added or modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Prepayment",
+                    "Description": "Update or create a prepayment invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Prepayment Changed",
+                    "Description": "Event received when a prepayment record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Prepayment Created",
+                    "Description": "Event received when a prepayment record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Prepayment Modified",
+                    "Description": "Event received when a prepayment record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Properties",
+            "Methods": [
+                {
+                    "Name": "Get Property",
+                    "Description": "Returns details of a specific property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Property",
+                    "Description": "Delete a specific property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Properties",
+                    "Description": "Returns a list of properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Property",
+                    "Description": "Update or create a specific property.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Price Lists",
+            "Methods": [
+                {
+                    "Name": "Get Price List",
+                    "Description": "Gets the details of the specified Price List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Price Lists",
+                    "Description": "Returns a list of Price Lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Purchase Orders",
+            "Methods": [
+                {
+                    "Name": "Get Purchase Order",
+                    "Description": "Gets the details of the specified Purchase Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Purchase Orders",
+                    "Description": "Returns a list of Purchase Orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Purchase Order",
+                    "Description": "Update or create a specific Purchase Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Purchase Orders",
+                    "Description": "Returns a list of updated Purchase Orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Purchase Order",
+                    "Description": "Delete a specific Purchase Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Purchase Orders",
+                    "Description": "Returns a list of new Purchase Orders.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Time Entries",
+            "Methods": [
+                {
+                    "Name": "List Time Entries",
+                    "Description": "Returns a list of Time Entries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Time Entry",
+                    "Description": "Update or create a specific Time Entry,",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Groups",
+            "Methods": [
+                {
+                    "Name": "Get Product Group",
+                    "Description": "Gets the details of the specified Product Groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Groups",
+                    "Description": "Returns a list of Product Groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Product Group",
+                    "Description": "Update or create a specific Product Group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Readings",
+            "Methods": [
+                {
+                    "Name": "Get Reading",
+                    "Description": "Returns details of a specific meter reading.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Readings",
+                    "Description": "Returns a list of meter readings.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Returns a list of updated Products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Product",
+                    "Description": "Update or create a specific Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Delete a specific Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Gets the details of the specified Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Returns a list of Products.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Addresses",
+            "Methods": [
+                {
+                    "Name": "List Addresses",
+                    "Description": "Returns a list of Addresses.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Finance Accounts",
+            "Methods": [
+                {
+                    "Name": "Upsert Finance Account",
+                    "Description": "Update or create a finance account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Finance Account",
+                    "Description": "Delete a specific finance account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Finance Accounts",
+                    "Description": "Returns a list of finance accounts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Finance Account",
+                    "Description": "Gets the details of the specified finance account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Download File",
+                    "Description": "Download the specified File.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete File",
+                    "Description": "Delete a specific File.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create File Relation",
+                    "Description": "Create a file relation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Files",
+                    "Description": "Returns a list of new Files.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get File",
+                    "Description": "Gets the details of the specified File.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert File",
+                    "Description": "Update or create a specific File.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete File Relation",
+                    "Description": "Delete a file relation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Files",
+                    "Description": "Returns a list of Files.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Quotes",
+            "Methods": [
+                {
+                    "Name": "Get Quote",
+                    "Description": "Gets the details of the specified Quote.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Quote PDF",
+                    "Description": "Generate a PDF file for the specific Quote.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Quote",
+                    "Description": "Delete a specific Quote.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Quotes",
+                    "Description": "Returns a list of updated Quotes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Quotes",
+                    "Description": "Returns a list of new Quotes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Quote",
+                    "Description": "Update or create a specific Quote.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Quotes",
+                    "Description": "Returns a list of Quotes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Quote Created",
+                    "Description": "Event received when a quote record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Quote Modified",
+                    "Description": "Event received when a quote record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Quote Changed",
+                    "Description": "Event received when a quote record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "List Notifications",
+                    "Description": "Returns a list of Notifications.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Notification",
+                    "Description": "Update or create a specific Notification.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Notifications",
+                    "Description": "Returns a list of new Notifications.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Categories",
+            "Methods": [
+                {
+                    "Name": "List Categories",
+                    "Description": "Returns a list of Categories.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bills",
+            "Methods": [
+                {
+                    "Name": "Upsert Bill",
+                    "Description": "Update or create a specific Bill.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Bills",
+                    "Description": "Returns a list of new Bills.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Bills",
+                    "Description": "Returns a list of updated Bills.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Bills",
+                    "Description": "Returns a list of Bills.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Bill",
+                    "Description": "Delete a specific Bill.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Bill",
+                    "Description": "Gets the details of the specified Bill.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bill Changed",
+                    "Description": "Event received when a bill record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Bill Created",
+                    "Description": "Event received when a bill record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Bill Modified",
+                    "Description": "Event received when a bill record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "Returns a list of Projects",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "Delete a specific Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Gets the details of the specified Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Projects",
+                    "Description": "Returns a list of updated Projects",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Project",
+                    "Description": "Update or create a specific Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Project Created",
+                    "Description": "Event received when a project record is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Project Modified",
+                    "Description": "Event received when a project record is modified.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Project Changed",
+                    "Description": "Event received when a project record changes.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                },
+                {
+                    "Name": "Project Deleted",
+                    "Description": "Event received when a project record is deleted.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Events"
+                }
+            ]
+        },
+        {
+            "Category": "Bookmarks",
+            "Methods": [
+                {
+                    "Name": "List Bookmarks",
+                    "Description": "Returns a list of Bookmarks.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/scoro-connector"
+}

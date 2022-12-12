@@ -1,0 +1,450 @@
+{
+    "Description": "CRM and operations software for the recruitment industry.",
+    "Id": 17043,
+    "Name": "Bullhorn",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17043",
+    "Categories": [
+        "HR/Payroll",
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Fields",
+            "Methods": [
+                {
+                    "Name": "Get Metadata for Custom Objects",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Fields For ClientContact",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Fields For Candidate",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Appointments",
+            "Methods": [
+                {
+                    "Name": "Get Appointment",
+                    "Description": "Retrieve details of a Appointment by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Appointment",
+                    "Description": "Update an existing Appointment Record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Appointment",
+                    "Description": "Create a new Appointment Record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Appointments",
+                    "Description": "Lists all Appointments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Appointment",
+                    "Description": "Delete an Appointment by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Appointments",
+                    "Description": "Lists all Appointments updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Appointments",
+                    "Description": "Lists all Appointments added since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Job Submissions",
+            "Methods": [
+                {
+                    "Name": "Create Job Submission",
+                    "Description": "Create a new Job Submission.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Job Submissions",
+                    "Description": "Lists all Job Submissions updated since the last run. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Job Submission",
+                    "Description": "Update a Job Submission.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Job Submissions",
+                    "Description": "Lists all Job Submissions. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Job Submission",
+                    "Description": "Delete a Job Submission by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job Submission",
+                    "Description": "Get an individual Job Submission by its ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Authentication",
+            "Methods": [
+                {
+                    "Name": "Verify Authentication",
+                    "Description": "Verify if the Bullhorn connector is still authenticated.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Job Orders",
+            "Methods": [
+                {
+                    "Name": "Get Custom Object Fields",
+                    "Description": "Retrieves the fields of a custom object associated with the Job Order object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Job Order",
+                    "Description": "Update an existing Job Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Job Orders",
+                    "Description": "Lists all Job Orders/Requirements added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Job Order",
+                    "Description": "Create a new Job Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Job Orders",
+                    "Description": "Lists all Job Orders/Requirements updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job Order",
+                    "Description": "Get an individual Job Order by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Job Order",
+                    "Description": "Delete a Job Order by its ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Placements",
+            "Methods": [
+                {
+                    "Name": "Create Placement",
+                    "Description": "Create a new Placement record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Placements",
+                    "Description": "Lists all successfully filled jobs updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Placements",
+                    "Description": "Lists all successfully filled jobs since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Placement",
+                    "Description": "Retrieve details of a Placement by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Placement",
+                    "Description": "Delete a Placement by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Placement",
+                    "Description": "Update an existing Placement record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Placements by Candidate",
+                    "Description": "Gets all matching placements by candidate",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Gets a list of Corporate Users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Gets details of the specified user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Countries",
+            "Methods": [
+                {
+                    "Name": "List Countries",
+                    "Description": "Gets all countries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Country By Name",
+                    "Description": "Gets a country by name.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Candidates",
+            "Methods": [
+                {
+                    "Name": "List My Candidates",
+                    "Description": "Get all my candidates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Candidate",
+                    "Description": "Update candidate details by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Candidate by Email",
+                    "Description": "Gets a candidate by email. When several candidates exist, only the first is retrieved.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Candidates",
+                    "Description": "Gets all candidates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Candidates by Email",
+                    "Description": "Gets all matching candidates by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Candidates",
+                    "Description": "Search for candidate where they have been modified since date time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Candidate",
+                    "Description": "Delete a candidate.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Candidate",
+                    "Description": "Add a new Candidate.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Candidate",
+                    "Description": "Gets candidate details by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notes",
+            "Methods": [
+                {
+                    "Name": "Get Note By ID",
+                    "Description": "Gets a note by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Notes For Entity",
+                    "Description": "Gets notes for an entity",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts by Email",
+                    "Description": "Gets all matching contacts by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets Contact details by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Adds a new Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact by Email",
+                    "Description": "Gets a contact by email. When several contacts exist, only the first is retrieved.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Get recently modified contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List My Contacts",
+                    "Description": "Gets my contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Gets all contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Hotlists",
+            "Methods": [
+                {
+                    "Name": "Get Hotlist By Name",
+                    "Description": "Searches for Hotlists using the name property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Hotlist Members",
+                    "Description": "Gets a list of members of the Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact to Hotlist",
+                    "Description": "Add a Contact to a Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Hotlists",
+                    "Description": "Gets a list of all hotlists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Hotlist",
+                    "Description": "Deletes a Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Candidate to Hotlist",
+                    "Description": "Add a Candidate to a Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Hotlist",
+                    "Description": "Gets details of the specified Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Contact from Hotlist ",
+                    "Description": "Removes a Contact from a Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Hotlist Members",
+                    "Description": "Gets a list of new members of the Hotlist, check Person Type to filter out any member types that you are interested in e.g. Candidate",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Candidate from Hotlist ",
+                    "Description": "Removes a Candidate from a Hotlist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Hotlist List ",
+                    "Description": "Gets updated Hotlists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Hotlist ",
+                    "Description": "Creates a new Hotlist",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Corporations",
+            "Methods": [
+                {
+                    "Name": "Get Corporation By Name",
+                    "Description": "Gets a Corporation by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Corporation",
+                    "Description": "Add a new Corporation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Corporation",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Corporations",
+                    "Description": "Gets a list of all Corporations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Corporation",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List My Corporations",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Corporations",
+                    "Description": "Gets a list of all Corporations.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/bullhorn-connector"
+}

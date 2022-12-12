@@ -1,0 +1,65 @@
+{
+    "Description": "Supervised exercise to treat chronic disease.",
+    "Id": 6357,
+    "Name": "Live Well Exercise Clinic",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6357",
+    "Categories": [
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Members",
+            "Methods": [
+                {
+                    "Name": "List Members",
+                    "Description": "Get a List of All Members by Location.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Member",
+                    "Description": "Get a Member by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscribers",
+            "Methods": [
+                {
+                    "Name": "List Subscribers",
+                    "Description": "Get a List of All Subscribers by Location.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscriber",
+                    "Description": "Get a Subscriber by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscriber",
+                    "Description": "Create a New Subscriber.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Subscribers",
+                    "Description": "Get a List of All New Subscribers by Location.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Subscribers",
+                    "Description": "Get a List of All Updated Subscribers by Location.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

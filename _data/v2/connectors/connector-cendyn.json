@@ -1,0 +1,31 @@
+{
+    "Description": "Drive more business via your most profitable channel with the Cendyn Hospitality Cloud.",
+    "Id": 6144,
+    "Name": "Cendyn",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6144",
+    "Categories": [
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "Upload Form Data",
+                    "Description": "Upload data to a form with the specified Form ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

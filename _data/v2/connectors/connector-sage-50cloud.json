@@ -1,0 +1,288 @@
+{
+    "Description": "The aim of the Sage 50 Cloud API is to provide a consistent method for connecting external systems to Sage.  This approach must support both 3rd Party Developer solutions and internal Sage Solutions to also provide a consistent solution to enable seamless integrations between Sage Products.",
+    "Id": 15377,
+    "Name": "Sage 50cloud",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15377",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contact Invoice",
+            "Methods": [
+                {
+                    "Name": "Get Contact Invoice",
+                    "Description": "Get a contact invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Invoices",
+                    "Description": "List all contact invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact Invoice",
+                    "Description": "Delete a contact invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact Invoice",
+                    "Description": "Update a contact invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact Invoice",
+                    "Description": "Create a contact invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Emails",
+            "Methods": [
+                {
+                    "Name": "Get Email Address",
+                    "Description": "Get an email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Addresses",
+                    "Description": "List all email addresses.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales Invoices",
+            "Methods": [
+                {
+                    "Name": "Get Sales Invoice",
+                    "Description": "Get a sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales Invoice",
+                    "Description": "Create a sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Sales Invoice",
+                    "Description": "Delete a sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales Invoices",
+                    "Description": "List all sales invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales Invoice Lines",
+                    "Description": "List all product lines of a sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sales Invoice Line",
+                    "Description": "Get a product line of a sales invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Postal Addresses",
+            "Methods": [
+                {
+                    "Name": "List Postal Addresses",
+                    "Description": "List all postal addresses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Postal Address",
+                    "Description": "Get a postal address.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Commodities",
+            "Methods": [
+                {
+                    "Name": "Create Commodity",
+                    "Description": "Create a commodity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Commodities",
+                    "Description": "List all commodities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bank Accounts",
+            "Methods": [
+                {
+                    "Name": "List Bank Accounts",
+                    "Description": "List all bank accounts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Bank Account",
+                    "Description": "Get a bank account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "List Transactions",
+                    "Description": "List all transactions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Transaction",
+                    "Description": "Get a transaction.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Units of Measure",
+            "Methods": [
+                {
+                    "Name": "List Units of Measure",
+                    "Description": "List all units of measure.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account Transaction Types",
+            "Methods": [
+                {
+                    "Name": "List Account Transaction Types",
+                    "Description": "List Account Transaction Types",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Price Lists",
+            "Methods": [
+                {
+                    "Name": "List Price Lists",
+                    "Description": "List all price lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Trading Accounts",
+            "Methods": [
+                {
+                    "Name": "Create Trading Account",
+                    "Description": "Create a trading account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Trading Accounts",
+                    "Description": "List all trading accounts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Trading Account",
+                    "Description": "Get a trading account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Create Project",
+                    "Description": "Create a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "Delete a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Get a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Projects",
+                    "Description": "List all projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Project",
+                    "Description": "Update a project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Financial Accounts",
+            "Methods": [
+                {
+                    "Name": "List Financial Accounts",
+                    "Description": "List all financial accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tax Codes",
+            "Methods": [
+                {
+                    "Name": "List Tax Codes",
+                    "Description": "List all tax codes.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Get a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Create a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update a contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/sage-50cloud-connector"
+}

@@ -1,0 +1,132 @@
+{
+    "Description": "Prospect.io is the sales Automation Platform for sales teams.",
+    "Id": 6373,
+    "Name": "Prospect.io",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6373",
+    "Categories": [
+        "Marketing",
+        "Email Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Prospects",
+            "Methods": [
+                {
+                    "Name": "List Prospects",
+                    "Description": "Returns a list of Prospects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Prospect",
+                    "Description": "Gets details of the specified Prospect.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Prospect",
+                    "Description": "Creats a new Prospect.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Prospect",
+                    "Description": "Updates a Prospect.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Returns a list of Campaigns.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Returns details of the specified Campaign.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "List Lists",
+                    "Description": "Returns a list of Lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List",
+                    "Description": "Returns details of the specified List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List",
+                    "Description": "Creates a new List",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update List",
+                    "Description": "Updates the specification of a List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete List",
+                    "Description": "Deletes a list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets details of your Account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Returns a list of Users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Returns details of the specifed User.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "Create Subscription",
+                    "Description": "Creates a new Subscription",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription",
+                    "Description": "Gets details of a Campaign Subscription record.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

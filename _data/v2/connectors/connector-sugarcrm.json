@@ -1,0 +1,376 @@
+{
+    "Description": "SugarCRM enables businesses to create extraordinary customer relationships with the most innovative and affordable CRM solution in the market.",
+    "Id": 17137,
+    "Name": "SugarCRM",
+    "Version": "10",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17137",
+    "Categories": [
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Link Requests",
+            "Methods": [
+                {
+                    "Name": "List Custom Object's Related Records",
+                    "Description": "Retrieves records related to an instance of a custom object, in accordance with the specified Link.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact's Related Records",
+                    "Description": "Retrieves records related to a contact, in accordance with the specified Link.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Search Opportunities",
+                    "Description": "Gets opportunities that match the provided filter(s).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Lines",
+                    "Description": "Lists all opportunity lines for the specified opportunity from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "Update an existing opportunity in SuagrCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "List all opportunities from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Opportunities",
+                    "Description": "Gets new opportunities from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Gets a specified opportunity from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Opportunity",
+                    "Description": "Deletes a specified opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New And Updated Opportunities",
+                    "Description": "Gets new and updated opportunities from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity",
+                    "Description": "Create a new opportunity in SuagrCRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Calls",
+            "Methods": [
+                {
+                    "Name": "List Calls",
+                    "Description": "Lists all calls.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New And Updated Calls",
+                    "Description": "Lists all calls created or updated since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Call",
+                    "Description": "Gets a specified call.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Calls",
+                    "Description": "Lists all calls updated since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Calls",
+                    "Description": "Lists all calls created since the last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "List Activities By Opportunity",
+                    "Description": "Lists the specified opportunity's activities from SugarCRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Delete Account",
+                    "Description": "Deletes a specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets a specified account from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account",
+                    "Description": "Update an existing account in  SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Account",
+                    "Description": "Create a new account in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Lists all accounts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New And Updated Accounts",
+                    "Description": "Gets new and updated accounts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Accounts",
+                    "Description": "Get new accounts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product by Contact",
+                    "Description": "Gets a specified product from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List all products from SugarCRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "List Tasks",
+                    "Description": "List all tasks from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Task",
+                    "Description": "Deletes a specified task.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Lead",
+                    "Description": "Gets a specified lead from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads by Email",
+                    "Description": "List leads from SugarCRM associated with a given email address..",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "List all leads from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a new lead in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Leads",
+                    "Description": "Gets new leads from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New And Updated Leads",
+                    "Description": "Gets new and updated leads from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Update an existing lead in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Deletes a specified lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaign Contacts",
+                    "Description": "Lists the contacts associated with a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaign Leads",
+                    "Description": "Lists the leads associated with a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets a specified campaign from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Log",
+                    "Description": "Retrieves the log for the specified campaign from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Lists all campaigns from SugarCRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets a specified contact from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Opportunity",
+                    "Description": "Lists the specified opportunity's contacts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts With Email Addresses",
+                    "Description": "This method gets contacts that have at least one email address. For each email address, a separate contact is returned.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update an existing contact in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deleted Contacts",
+                    "Description": "Get deleted contacts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Gets new and updated contacts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contacts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact by Email",
+                    "Description": "Gets a specified contact from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Account",
+                    "Description": "Lists the specified account's contacts from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Get new contacts from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a specified contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Objects",
+            "Methods": [
+                {
+                    "Name": "Update Custom Object",
+                    "Description": "Update a custom object in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Custom Object",
+                    "Description": "Create a new object in a custom endpoint in SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Custom Object",
+                    "Description": "Delete a custom object from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New And Updated Custom Objects",
+                    "Description": "Get new and updated custom objects from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Custom Objects",
+                    "Description": "Gets all custom objects from the specified endpoint from SugarCRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Custom Objects",
+                    "Description": "Get new custom objects from SugarCRM since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Custom Objects",
+                    "Description": "Gets custom objects that match the provided filter(s).",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "SugarCRM Integration - CRM Automation - Cyclr",
+    "MetaDescription": "Keep your customer data organised and up to date with SugarCRM automation workflows that integrate with your favourite apps.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/sugarcrm",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/sugarcrm"
+}

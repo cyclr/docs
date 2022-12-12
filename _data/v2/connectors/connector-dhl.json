@@ -1,0 +1,28 @@
+{
+    "Description": "DHL is the world's leading logistics company. Our 400,000 people in over 220 countries and territories work every day to help you cross borders, reach new markets and grow your business. ",
+    "Id": 17435,
+    "Name": "DHL",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17435",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Create New Order",
+                    "Description": "Create a new order.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/dhl-connector"
+}

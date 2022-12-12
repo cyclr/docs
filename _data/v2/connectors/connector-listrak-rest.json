@@ -1,0 +1,58 @@
+{
+    "Description": "The only integrated digital marketing platform trusted by 1,000+ leading retailers and brands for email, text message marketing, identity resolution, behavioral triggers and cross-channel orchestration.",
+    "Id": 12867,
+    "Name": "Listrak REST",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12867",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Get a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "Create or update a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "List all new contacts subscribed or unsubscribed since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "List Lists",
+                    "Description": "List all lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Lists",
+                    "Description": "List all new lists created since the last run date.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/listrak-rest-connector"
+}

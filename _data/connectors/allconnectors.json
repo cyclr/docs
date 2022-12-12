@@ -1,0 +1,4102 @@
+[
+  {
+    "Description": "3D Cart makes it easy to build the perfect website for your business and start selling your products or services online.",
+    "Id": 15811,
+    "Name": "3D Cart",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15811",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "CRM & Marketing Automation built for small & midsized business success.",
+    "Id": 15578,
+    "Name": "Act!",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15578",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Active Campaign is a powerful email marketing platform.",
+    "Id": 12608,
+    "Name": "ActiveCampaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12608",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales",
+      "SMS"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 12359,
+    "Name": "Administrate",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12359",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "A set of solutions that help you personalize and deliver campaigns across all of your online and offline channels.",
+    "Id": 12363,
+    "Name": "Adobe Campaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12363",
+    "Categories": [
+      "Customer Experience",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.",
+    "Id": 14066,
+    "Name": "ADP",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14066",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Create a highly converting, professional landing page within AdPage's powerful page builder.",
+    "Id": 11818,
+    "Name": "AdPage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11818",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Aesthetic Record helps you run your entire clinic from any computer, taking care of all business aspects, from anywhere in the world.",
+    "Id": 8271,
+    "Name": "Aesthetic Record",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8271",
+    "Categories": [
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Aircall empowers teams to ace every call with a phone system specifically built for their favorite business tools.",
+    "Id": 12369,
+    "Name": "Aircall",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12369",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Ecommerce",
+      "Sales",
+      "SMS",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Airship helps to acquire new customer through mobile first experiences and messaging at each stage of the customer lifecycle.",
+    "Id": 14161,
+    "Name": "Airship",
+    "Version": null,
+    "Status": "Planned",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14161",
+    "Categories": [
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes.",
+    "Id": 15136,
+    "Name": "Airtable",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15136",
+    "Categories": [
+      "Collaboration",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Our technology powers the travel industry. We help connect over 1.5 billion people a year to local travel providers in over 190 countries.",
+    "Id": 15466,
+    "Name": "Amadeus",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15466",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Amadeus provides the technology which keep the travel sector moving. ",
+    "Id": 11855,
+    "Name": "Amadeus Sandbox",
+    "Version": "1.2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11855",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.",
+    "Id": 11435,
+    "Name": "Amazon EC2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11435",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Help you with Backup, Archive, Big Data Analytics, Disaster Recovery, and much more.",
+    "Id": 16113,
+    "Name": "Amazon S3",
+    "Version": "2006-03-01",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16113",
+    "Categories": [
+      "Analytics",
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "The Answerbase Q&A Platform facilitates users being able to ask questions, browse Q&A content, and receive quality answers.",
+    "Id": 7384,
+    "Name": "Answerbase",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7384",
+    "Categories": [
+      "Customer Experience",
+      "Developer Tools",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Our library is ever growing. However, our team can accelerate the development of a particular Connector you require. We will liaise with you over your requirements, discuss any associated fee and agree the specification prior to build.",
+    "Id": 6624,
+    "Name": "Any Other Application",
+    "Version": null,
+    "Status": "Planned",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6624",
+    "Categories": [
+      "HR/Payroll",
+      "ERP",
+      "Marketing",
+      "Product Management",
+      "POS",
+      "Collaboration",
+      "Dashboarding",
+      "Accounting",
+      "Analytics",
+      "Billing/Payment",
+      "Blogs",
+      "Chat",
+      "CRMs",
+      "Customer Experience",
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "Ecommerce",
+      "Email Marketing",
+      "Forms",
+      "Project Management",
+      "Sales",
+      "SMS",
+      "Social Media",
+      "Support",
+      "Surveys",
+      "Calendars",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "APPX is the premier development and run-time environment for business application software.",
+    "Id": 741,
+    "Name": "Appx",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/741",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work.",
+    "Id": 15982,
+    "Name": "Asana",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15982",
+    "Categories": [
+      "Product Management",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Automated dialer to help your sales team close more deals.",
+    "Id": 15050,
+    "Name": "AutoReach",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15050",
+    "Categories": [
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Datto’s Autotask Professional Services Automation (PSA) is a powerful and intuitive cloud-based PSA platform providing a singular view of the entire business - enabling MSPs to centralize business operations and make data-driven decisions to improve service, productivity and profitability.",
+    "Id": 12859,
+    "Name": "Autotask",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12859",
+    "Categories": [
+      "Dashboarding",
+      "Data Tools",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Centrally manage and automate backups across AWS services.",
+    "Id": 12043,
+    "Name": "AWS Backup",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12043",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "BambooHR is all-in-one HR software made for small and medium businesses. BambooHR makes it easy to collect, maintain, and analyze your people data, improve the way you hire talent, onboard new employees, manage compensation, and develop your company culture.",
+    "Id": 16284,
+    "Name": "BambooHR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16284",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Easy online project management and collaboration.",
+    "Id": 13332,
+    "Name": "Basecamp",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13332",
+    "Categories": []
+  },
+  {
+    "Description": "Online email marketing solution to engage subscribers, target an audience, send beautiful, responsive emails and track results.",
+    "Id": 7672,
+    "Name": "Benchmark Email",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7672",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Double your email revenue with the personalization solution of choice for the world's fastest growing retailers.",
+    "Id": 6689,
+    "Name": "Bluecore",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6689",
+    "Categories": [
+      "Marketing",
+      "Ecommerce",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Automate your marketing, convert more leads, stay top of mind with your borrowers and recruit new partners using one simple Mortgage CRM solution.",
+    "Id": 12262,
+    "Name": "BNTouch Mortgage CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12262",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "The people management platform that helps fast-growing companies bring out the best in their employees.",
+    "Id": 13532,
+    "Name": "bob HR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13532",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Spa & Salon Management that takes care of the booking, payment, customer management, and marketing...  so you can take care of your customers.",
+    "Id": 7998,
+    "Name": "Booker",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7998",
+    "Categories": [
+      "CRMs",
+      "Calendars",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "One platform for secure content management, workflow, and collaboration",
+    "Id": 15655,
+    "Name": "Box",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15655",
+    "Categories": []
+  },
+  {
+    "Description": "The All-In-One Customer Communication Hub",
+    "Id": 8005,
+    "Name": "Brandbot",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8005",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Look after your people and your time, with the most cost-effective HR software on the market.",
+    "Id": 12263,
+    "Name": "Breathe HR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12263",
+    "Categories": []
+  },
+  {
+    "Description": "We are a Pest Control Software Company that helps automate business for Pest Control companies without losing any time or money and is user-friendly.",
+    "Id": 12264,
+    "Name": "Briostack",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12264",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Verify individual email addresses on demand as a user enters them in a web form or mobile application.",
+    "Id": 1818,
+    "Name": "BriteVerify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1818",
+    "Categories": [
+      "Data Tools",
+      "Ecommerce",
+      "Email Marketing",
+      "Sales",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Commerce marketing automation provider, enabling retailers to drive revenue through their email, mobile and social campaigns.",
+    "Id": 11838,
+    "Name": "Bronto",
+    "Version": "v4",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11838",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "The BugHerd app sits on top of your website and lets you log a bug instantaneously. BugHerd feedback will be pinned to the issue, like a sticky-note, enabling the developer to access it directly from the webpage at any time.",
+    "Id": 6650,
+    "Name": "BugHerd",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6650",
+    "Categories": [
+      "Product Management",
+      "Developer Tools",
+      "Support"
+    ]
+  },
+  {
+    "Description": "CRM and operations software for the recruitment industry.",
+    "Id": 16173,
+    "Name": "Bullhorn",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16173",
+    "Categories": [
+      "HR/Payroll",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Calendly is the modern scheduling platform that makes “finding time” a breeze. When connecting is easy, your teams can get more done.",
+    "Id": 14166,
+    "Name": "Calendly",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14166",
+    "Categories": []
+  },
+  {
+    "Description": null,
+    "Id": 900,
+    "Name": "CallPro",
+    "Version": "1",
+    "Status": "Beta",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/900",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Campaign Monitor makes it easy to create, send and measure the impact of your email marketing campaigns.",
+    "Id": 14216,
+    "Name": "Campaign Monitor",
+    "Version": "v3.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14216",
+    "Categories": [
+      "Marketing",
+      "Ecommerce",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "See the people and businesses visiting your website with CANDDi website visitor tracking software.",
+    "Id": 4044,
+    "Name": "CANDDi",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/4044",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 11820,
+    "Name": "Cap HPI",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11820",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Online hosted CRM system for individuals, small businesses and sales teams wanting a simple, effective and affordable solution.",
+    "Id": 15738,
+    "Name": "Capsule",
+    "Version": "V2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15738",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Sales",
+      "Calendars"
+    ]
+  },
+  {
+    "Description": "Simply and securely integrate, accept and manage payments.",
+    "Id": 14528,
+    "Name": "Cardpointe",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14528",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Caspio is a cloud platform to create online database applications fast and without coding.",
+    "Id": 16201,
+    "Name": "Caspio",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16201",
+    "Categories": []
+  },
+  {
+    "Description": "Drive more business via your most profitable channel with the Cendyn Hospitality Cloud.",
+    "Id": 6144,
+    "Name": "Cendyn",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6144",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Chargebee is an on-line application that adapts to every recurring billing scenario.",
+    "Id": 13632,
+    "Name": "Chargebee",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13632",
+    "Categories": [
+      "HR/Payroll",
+      "Billing/Payment",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Chargify is an on-line application that adapts to every recurring billing scenario.",
+    "Id": 16256,
+    "Name": "Chargify",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16256",
+    "Categories": [
+      "Accounting",
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Cheetah Messaging enables marketers to manage and optimize cross-channel campaigns and interactions to improve your marketing performance.",
+    "Id": 13670,
+    "Name": "Cheetah",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13670",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "ClickSend is a global leader in business communications solutions.",
+    "Id": 14343,
+    "Name": "ClickSend SMS",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14343",
+    "Categories": [
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Enabling businesses and organizations to seamlessly and safely collect, analyze and act on location-based customer data.",
+    "Id": 11857,
+    "Name": "Cloud4Wi",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11857",
+    "Categories": [
+      "Miscellaneous",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Clover builds smart, customized point of sale systems that make running your business easier.",
+    "Id": 12268,
+    "Name": "Clover",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12268",
+    "Categories": [
+      "Billing/Payment",
+      "Ecommerce",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Clover builds smart, customized point of sale systems that make running your business easier.",
+    "Id": 12267,
+    "Name": "Clover Sandbox",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12267",
+    "Categories": []
+  },
+  {
+    "Description": "Gym and studio management software",
+    "Id": 3597,
+    "Name": "Club OS",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3597",
+    "Categories": [
+      "Marketing",
+      "POS",
+      "Sales",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Web-based fitness and gym management platform, branded for you. From leads through member retention, you'll have what you need to run your business, your way.",
+    "Id": 12269,
+    "Name": "Club Ready",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12269",
+    "Categories": [
+      "Billing/Payment",
+      "CRMs",
+      "Sales",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Constant Contact empowers small businesses and nonprofits to grow and succeed through email marketing. ",
+    "Id": 12100,
+    "Name": "Constant Contact",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12100",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Add webhooks to Contact Form 7.",
+    "Id": 873,
+    "Name": "Contact Form 7 Plugin",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/873",
+    "Categories": [
+      "Forms"
+    ]
+  },
+  {
+    "Description": "Accept payments in any way your business requires with Converge. Converge is a payment platform that enables you to grow your business the way you want. Over the phone, by mail, by invoice, online, or on-the-go.",
+    "Id": 8443,
+    "Name": "Converge",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8443",
+    "Categories": [
+      "POS"
+    ]
+  },
+  {
+    "Description": "Copper is the #1 CRM for G Suite. It is embedded into Gmail so you can update opportunities, add contacts, and manage your pipeline right from your inbox.",
+    "Id": 15611,
+    "Name": "Copper",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15611",
+    "Categories": [
+      "Marketing",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Run your business. Connect with customers. Sell anywhere. NCR Counterpoint is the specialty retail management system that integrates your front end and back office seamlessly, so it's easy to grow your business. ",
+    "Id": 14038,
+    "Name": "Counterpoint",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14038",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Creditsafe Global Company Database allowing you to control your master data, utilize up-to-date Business and Director information to enhance your onboarding and qualification processes, and get alerts when your customer's and supplier's Credit Report changes. ",
+    "Id": 11821,
+    "Name": "Creditsafe",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11821",
+    "Categories": [
+      "Data Tools",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Freelancing, contracting, or running a small business? We can help with accounting, insurance, mortgages, pensions and much more.",
+    "Id": 12769,
+    "Name": "Crunch",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12769",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Cumul.io is a cloud analytics platform for business experts & SaaS companies to integrate intuitive yet powerful data visualization into their daily lives.",
+    "Id": 11859,
+    "Name": "Cumul.io",
+    "Version": "0.1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11859",
+    "Categories": [
+      "Analytics",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Datadog is a monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.",
+    "Id": 13433,
+    "Name": "DataDog",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13433",
+    "Categories": [
+      "Dashboarding",
+      "Analytics",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Search engine for B2B prospects, helping sales department reach decision makers worldwide.",
+    "Id": 7403,
+    "Name": "Datafy",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7403",
+    "Categories": [
+      "Marketing",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Manage the complete project lifecycle and increase profitability with a unified ERP system for ambitious project-centric firms.",
+    "Id": 5287,
+    "Name": "Deltek Vision",
+    "Version": "7.6",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5287",
+    "Categories": [
+      "ERP",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Agency Management Software, Simplified Deltek WorkBook lets you manage all your agency operations in one streamlined solution.",
+    "Id": 12390,
+    "Name": "Deltek Workbook",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12390",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Document360 RESTful APIs will allow you to integrate your documentation with your software, allowing you to easily onboard new users, manage your articles and more. ",
+    "Id": 12270,
+    "Name": "Document360",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12270",
+    "Categories": [
+      "Customer Experience",
+      "Developer Tools",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Electronically sign, and now prepare, act on, and manage agreements to deliver great experiences for your customers and employees.",
+    "Id": 15101,
+    "Name": "DocuSign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15101",
+    "Categories": [
+      "Miscellaneous",
+      "Collaboration",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Email Marketing Software and Marketing Automation from dotdigital.",
+    "Id": 8830,
+    "Name": "dotdigital",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8830",
+    "Categories": [
+      "Marketing",
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "With Drift on your website, any conversation can be a conversion. Instead of traditional marketing and sales platforms that rely on forms and follow ups, Drift connects your business with the best leads in real-time.",
+    "Id": 13995,
+    "Name": "Drift",
+    "Version": "1.2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13995",
+    "Categories": [
+      "Marketing",
+      "Chat",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Drip is the first ECRM–an Ecommerce CRM designed for building personal and profitable relationships with your customers at scale.",
+    "Id": 14513,
+    "Name": "Drip",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14513",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Dropbox brings everything – traditional files, cloud content and web shortcuts – together in one place.",
+    "Id": 15371,
+    "Name": "Dropbox",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15371",
+    "Categories": [
+      "Collaboration"
+    ]
+  },
+  {
+    "Description": "Emarsys enables brands around the world to deliver truly personal customer interactions across email, mobile, social, SMS, and web",
+    "Id": 12272,
+    "Name": "Emarsys",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12272",
+    "Categories": [
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Engagement Multiplier is an employee engagement platform created to make a company more productive, more profitable, and easier to run.",
+    "Id": 12273,
+    "Name": "Engagement Multiplier",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12273",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Powerful Web-Based Software in an Easy to Use Package",
+    "Id": 11860,
+    "Name": "Envision Salon & Spa",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11860",
+    "Categories": [
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Create events and sell tickets.",
+    "Id": 13987,
+    "Name": "Eventbrite",
+    "Version": "v3.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13987",
+    "Categories": [
+      "Customer Experience",
+      "Ecommerce",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "We build cloud business software for SMEs and accountants.",
+    "Id": 11815,
+    "Name": "Exact",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11815",
+    "Categories": [
+      "HR/Payroll",
+      "ERP",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 7720,
+    "Name": "Excel",
+    "Version": "1.0",
+    "Status": "Beta",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7720",
+    "Categories": [
+      "Accounting",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "With audiences you build a group of people who receive your ad. You can create audiences based on customer data, conversion data such as activity in your app or website, and so on.",
+    "Id": 15036,
+    "Name": "Facebook Audiences",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15036",
+    "Categories": [
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "This insights edge provides a single, consistent interface to retrieve an ad's statistics.",
+    "Id": 16304,
+    "Name": "Facebook Insights",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16304",
+    "Categories": [
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "Build marketing automation with Facebook's advertising platform.",
+    "Id": 15909,
+    "Name": "Facebook Marketing API",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15909",
+    "Categories": [
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "Reach new people and re-engage ones you know on Facebook Messenger.",
+    "Id": 16007,
+    "Name": "Facebook Messenger",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16007",
+    "Categories": [
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "Track when transactions occur in your offline channels after people see or engage with your Facebook ads.",
+    "Id": 15039,
+    "Name": "Facebook Offline Conversions",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15039",
+    "Categories": [
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "FastSpring is the trusted ecommerce partner for software companies around the world. ",
+    "Id": 7593,
+    "Name": "FastSpring",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7593",
+    "Categories": [
+      "Billing/Payment",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Share, review, and approve all your files in one place and enjoy a faster, more productive approval process.",
+    "Id": 13790,
+    "Name": "Filestage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13790",
+    "Categories": [
+      "Collaboration",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "FindEmails discovers business email addresses from the first and last names, and the company name or website. It uses millions of business email patterns and mail server results to give you industry-leading sending rates.",
+    "Id": 1817,
+    "Name": "FindEmails",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1817",
+    "Categories": [
+      "Marketing",
+      "Data Tools",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Integrated Point of Sale (POS) Solutions for the Restaurant & Pizza Industry. Tap into our experience and transform your Restaurant Business Today!",
+    "Id": 14225,
+    "Name": "FoodTec Solutions",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14225",
+    "Categories": [
+      "Miscellaneous",
+      "POS"
+    ]
+  },
+  {
+    "Description": "Marketing Automation made easy with Force24",
+    "Id": 11620,
+    "Name": "Force24 v2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11620",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Formstack provides a builder that enables users to create any type of online form which can be deployed on a website.",
+    "Id": 7802,
+    "Name": "Formstack",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7802",
+    "Categories": [
+      "Forms",
+      "Surveys"
+    ]
+  },
+  {
+    "Description": "Fountain brings hiring into one place so you can hire faster, whether your company is gig economy, franchise, or a small business.",
+    "Id": 6284,
+    "Name": "FountainHR",
+    "Version": "v2.0 ",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6284",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "FranConnect is the leading franchise management software provider.",
+    "Id": 15021,
+    "Name": "FranConnect",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15021",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Franpos #POS is the one and only #pointofsale platform exclusively designed for #Franchises in #retail #salon and #quickservice #fastcasual industries.",
+    "Id": 6849,
+    "Name": "Franpos",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6849",
+    "Categories": [
+      "POS",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "FreeAgent's online accounting software brings everything together, from invoices and expenses to VAT, payroll and tax return filing.",
+    "Id": 14039,
+    "Name": "FreeAgent",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14039",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "FreshBooks is a cloud-based accounting software for small and medium businesses.",
+    "Id": 12436,
+    "Name": "Freshbooks",
+    "Version": "2.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12436",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Accounting software in the cloud for self-employed professionals and their teams.",
+    "Id": 11747,
+    "Name": "Freshbooks Classic",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11747",
+    "Categories": [
+      "HR/Payroll",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Cloud-based customer support software & helpdesk ticketing system that assists customers over email, phone and social channels.",
+    "Id": 15535,
+    "Name": "Freshdesk",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15535",
+    "Categories": [
+      "Chat",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Connect with customers on the channels they love and easily guide them to find answers fast with Freshdesk Messaging.",
+    "Id": 14616,
+    "Name": "Freshdesk Messaging",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14616",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Sales",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Freshworks CRM is an AI-powered platform that enables businesses to get and keep Customers-for-life.",
+    "Id": 16276,
+    "Name": "Freshworks CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16276",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Transfer files using FTP, FTPS or SFTP.",
+    "Id": 15498,
+    "Name": "FTP",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15498",
+    "Categories": [
+      "Utility Connectors",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "FullContact can enhance the information you have on a contact with details from social media.",
+    "Id": 16070,
+    "Name": "FullContact",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16070",
+    "Categories": [
+      "Data Tools",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Integrate with FullContact contact management services such as reading, updating and searching user's contact information.",
+    "Id": 12275,
+    "Name": "FullContact Contacts API",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12275",
+    "Categories": []
+  },
+  {
+    "Description": "Online Project Management Software for Agencies.",
+    "Id": 5237,
+    "Name": "Function Point",
+    "Version": "1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5237",
+    "Categories": [
+      "Marketing",
+      "Accounting",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Create a file with our File connector",
+    "Id": 15496,
+    "Name": "Generic File",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15496",
+    "Categories": [
+      "Utility Connectors",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Sends data as a HTTP POST to an endpoint expecting form data",
+    "Id": 14178,
+    "Name": "Generic Form",
+    "Version": "0.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14178",
+    "Categories": []
+  },
+  {
+    "Description": "Connect to any form with our Webhook connector",
+    "Id": 8752,
+    "Name": "Generic Webhook",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8752",
+    "Categories": [
+      "Utility Connectors",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Email marketing from GetResponse. Send email newsletters, campaigns, online surveys and follow-up autoresponders.",
+    "Id": 3590,
+    "Name": "GetResponse",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3590",
+    "Categories": [
+      "Marketing",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Online scheduling software for dog daycare, boarding, training and grooming businesses.",
+    "Id": 12957,
+    "Name": "Gingr",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12957",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "A unified marketing, sales, and support platform that serves as a single source of truth for the entire journey from website visitor to happy customer.",
+    "Id": 11863,
+    "Name": "Gist",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11863",
+    "Categories": [
+      "Chat",
+      "CRMs",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Web-based hosting service for version control using Git.",
+    "Id": 15649,
+    "Name": "GitHub",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15649",
+    "Categories": [
+      "Product Management",
+      "Developer Tools",
+      "Project Management",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Gmail is email that's intuitive, efficient, and useful.",
+    "Id": 15437,
+    "Name": "Gmail",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15437",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "GoCardless makes collecting money by Direct Debit easy for everyone from individuals to multi-national corporations.",
+    "Id": 13149,
+    "Name": "GoCardless",
+    "Version": "v1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13149",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "GoCardless makes collecting money by Direct Debit easy for everyone from individuals to multi-national corporations. This is for sandbox access only.",
+    "Id": 13148,
+    "Name": "GoCardless Sandbox",
+    "Version": "v1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13148",
+    "Categories": []
+  },
+  {
+    "Description": "Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.",
+    "Id": 15586,
+    "Name": "Google Analytics",
+    "Version": "V3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15586",
+    "Categories": [
+      "Marketing",
+      "Dashboarding",
+      "Analytics"
+    ]
+  },
+  {
+    "Description": "A serverless, highly scalable, and cost-effective cloud data warehouse designed to help you make informed decisions quickly, so you can transform your business with ease. ",
+    "Id": 12539,
+    "Name": "Google BigQuery",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12539",
+    "Categories": [
+      "Databases",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "With Google's free online calendar, it's easy to keep track of life's important events all in one place.",
+    "Id": 15522,
+    "Name": "Google Calendar",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15522",
+    "Categories": []
+  },
+  {
+    "Description": "With Google's free online calendar, it's easy to keep track of life's important events all in one place.",
+    "Id": 15049,
+    "Name": "Google Calendar - Workspace",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15049",
+    "Categories": [
+      "Calendars"
+    ]
+  },
+  {
+    "Description": "With the Google People API you can read and manage the authenticated user's Contacts, read and copy the authenticated user's \"other contacts\", read profile information for authenticated users and their contacts, and read domain profiles and contacts.",
+    "Id": 14845,
+    "Name": "Google Contacts",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14845",
+    "Categories": [
+      "Miscellaneous",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with Google Drive.",
+    "Id": 14706,
+    "Name": "Google Drive",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14706",
+    "Categories": [
+      "Collaboration",
+      "Databases",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Google Groups allows you to create and participate in online forums and email-based groups with a rich experience for community conversations.",
+    "Id": 4891,
+    "Name": "Google Groups",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/4891",
+    "Categories": [
+      "Collaboration"
+    ]
+  },
+  {
+    "Description": "PageSpeed Insights analyzes the content of a web page, then generates suggestions to make that page faster",
+    "Id": 7772,
+    "Name": "Google PageSpeed",
+    "Version": "v5",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7772",
+    "Categories": [
+      "Marketing",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Google Search Console allows you to monitor and control the optimization and indexing of your website",
+    "Id": 3852,
+    "Name": "Google Search Console",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3852",
+    "Categories": [
+      "Marketing",
+      "Dashboarding",
+      "Analytics",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Read and modify worksheets and data in Google Sheets.",
+    "Id": 16269,
+    "Name": "Google Sheets",
+    "Version": "v4",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16269",
+    "Categories": [
+      "Accounting",
+      "Databases",
+      "Data Tools",
+      "Forms"
+    ]
+  },
+  {
+    "Description": "Gravity Forms is the Easiest Tool to Create Advanced Forms for Your WordPress Powered Website.",
+    "Id": 7387,
+    "Name": "Gravity Forms",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7387",
+    "Categories": [
+      "Forms"
+    ]
+  },
+  {
+    "Description": "Add webhooks to Gravity Forms.",
+    "Id": 783,
+    "Name": "Gravity Forms Plugin",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/783",
+    "Categories": [
+      "Forms"
+    ]
+  },
+  {
+    "Description": "Simplify sales, marketing and lead nurturing efforts with an integrated phone dialer and single-click self-booking.",
+    "Id": 14531,
+    "Name": "Gym Sales",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14531",
+    "Categories": [
+      "Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Professional services automation (PSA) software providing the maximum degree of process automation so that user intervention is only required to add value - not to administer.",
+    "Id": 6044,
+    "Name": "Harmony PSA",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6044",
+    "Categories": [
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "A Global Payements System",
+    "Id": 12279,
+    "Name": "Heartland",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12279",
+    "Categories": [
+      "HR/Payroll",
+      "POS",
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Personnel administration. Easy. On-line.",
+    "Id": 7595,
+    "Name": "HeavenHR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7595",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Simple CRM. Manage relationships, communication, tasks and more.",
+    "Id": 11765,
+    "Name": "Highrise",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11765",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "HubSpot is an inbound marketing and sales platform that helps companies attract visitors, convert leads, and close customers.",
+    "Id": 16293,
+    "Name": "HubSpot",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16293",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Hurree is a market segmentation platform for all of your marketing tools. ",
+    "Id": 8024,
+    "Name": "Hurree",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8024",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "IBM Watson Customer Engagement",
+    "Id": 5079,
+    "Name": "IBM Watson Marketing",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5079",
+    "Categories": [
+      "Marketing",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Imonggo is the first free cloud-based POS retail management solution for SMB and SME. Begin managing your store or restaurant effortlessly!",
+    "Id": 14317,
+    "Name": "Imonggo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14317",
+    "Categories": [
+      "POS"
+    ]
+  },
+  {
+    "Description": "Use Infusionsoft to automate your small business sales and marketing, while combining your CRM, email marketing, lead capture and e-commerce in one place.",
+    "Id": 12547,
+    "Name": "Infusionsoft",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12547",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Use Infusionsoft to automate your small business sales and marketing, while combining your CRM, email marketing, lead capture and e-commerce in one place.",
+    "Id": 12423,
+    "Name": "Infusionsoft by Keap",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12423",
+    "Categories": [
+      "Marketing",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Partner Marketing Platform designed to help businesses manage their marketing channels, strategic relationships and processes easily – all in one place.",
+    "Id": 14514,
+    "Name": "Ingenious Vendor",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14514",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Inline Data Systems specializes in deep data insight, key integrations, and a multi-tier marketing platform using a powerful CRM for vehicle service contracts sales fulfillment. Inline CRM is able to give clients drilled down reporting with matched graphs and customizable metrics suited to clients’ needs.",
+    "Id": 7388,
+    "Name": "Inline CRM",
+    "Version": "2.3.2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7388",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Insightly is the easy, powerful and affordable online Customer Relationship & Project Management Software used by over 400000 small businesses world wide.",
+    "Id": 11469,
+    "Name": "Insightly",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11469",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Instant Financial is the leading Earned Wage Access platform that gives employees free instant access to their pay after each shift, thus cuts turnover.",
+    "Id": 14300,
+    "Name": "Instant.co",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14300",
+    "Categories": [
+      "HR/Payroll",
+      "Miscellaneous",
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Customer messaging apps for sales, marketing, and support, connected on one platform.",
+    "Id": 15564,
+    "Name": "Intercom",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15564",
+    "Categories": [
+      "Chat",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Customer messaging apps for sales, marketing, and support, connected on one platform.",
+    "Id": 13436,
+    "Name": "Intercom v1.0 (Deprecated)",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13436",
+    "Categories": [
+      "Chat",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Invenias is the leading platform trusted by professionals responsible for executive search software and strategic hiring globally.",
+    "Id": 12696,
+    "Name": "Invenias",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12696",
+    "Categories": [
+      "HR/Payroll",
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Skyrocket your sales with our marketing automation CRM platform, for sales agents nationwide.",
+    "Id": 8006,
+    "Name": "iSalesCRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8006",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Iterable is a cross-channel marketing platform that powers unified customer experiences and empowers you to create, optimize and measure every interaction across the entire customer journey.",
+    "Id": 13152,
+    "Name": "Iterable",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13152",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "JIRA Software is equipped with features that support every stage of your software development process to help you plan, track and report.",
+    "Id": 14633,
+    "Name": "JIRA",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14633",
+    "Categories": [
+      "Developer Tools",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "JotForm helps you create online forms and collect data, all without needing to write a single line of code.",
+    "Id": 13403,
+    "Name": "JotForm",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13403",
+    "Categories": [
+      "Forms",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Kanban Software for Lean Management See your department and company workflows at a glance. Visualize dependencies. Make your work flow.",
+    "Id": 7390,
+    "Name": "Kanbanize",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7390",
+    "Categories": [
+      "Product Management",
+      "Collaboration",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "The beta version of the new Kanbanize API",
+    "Id": 14067,
+    "Name": "Kanbanize V2",
+    "Version": "2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14067",
+    "Categories": []
+  },
+  {
+    "Description": "Keen IO is a set of powerful APIs that allow you to stream, compute, and visualize events from anything connected to the internet.",
+    "Id": 8530,
+    "Name": "Keen IO",
+    "Version": "v3.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8530",
+    "Categories": [
+      "Dashboarding",
+      "Analytics",
+      "Databases",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Klaviyo makes it easy for ecommerce marketers to target, personalize, measure and optimize email and Facebook campaigns.",
+    "Id": 14687,
+    "Name": "Klaviyo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14687",
+    "Categories": [
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Complete Marketing Automation and CRM software for businesses. ",
+    "Id": 1811,
+    "Name": "Lead Squared",
+    "Version": "V2",
+    "Status": "Beta",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1811",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "LeadMailbox is a leading online CRM/lead management system founded in 2000.",
+    "Id": 8628,
+    "Name": "LeadMailbox",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8628",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Leadoo converts more visitors to customers from your existing website traffic. Understand and improve upon user intent, behavior, marketing channels and company information.",
+    "Id": 14940,
+    "Name": "Leadoo",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14940",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Less Annoying CRM allows users to track and organize their contacts and leads without the headache. Simple, easy, powerful, less annoying.",
+    "Id": 12302,
+    "Name": "Less Annoying CRM",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12302",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Lever streamlines the hiring process and simplifies the Applicant Tracking System, so that recruiters and hiring managers can focus on what truly matters: their candidates.",
+    "Id": 14040,
+    "Name": "Lever",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14040",
+    "Categories": [
+      "HR/Payroll",
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Manage your inventory, service, data, staff, and customer relationships with a single technology provider: Lightspeed. ",
+    "Id": 14069,
+    "Name": "Lightspeed Retail",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14069",
+    "Categories": [
+      "Accounting",
+      "Billing/Payment",
+      "CRMs",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Listrak enables your brands to increase sales through email, mobile, social, on-site and display ads.",
+    "Id": 5998,
+    "Name": "Listrak",
+    "Version": "v31",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5998",
+    "Categories": [
+      "Marketing",
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Supervised exercise to treat chronic disease.",
+    "Id": 6357,
+    "Name": "Live Well Exercise Clinic",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6357",
+    "Categories": [
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Lizzy is the leading DMS/BMS for the powersports, OPE, and marine industries. ",
+    "Id": 13741,
+    "Name": "Lizzy",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13741",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Magento is an open source digital commerce platform.",
+    "Id": 15483,
+    "Name": "Magento",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15483",
+    "Categories": []
+  },
+  {
+    "Description": "Build your site on the most powerful eCommerce platform! Customizable and agile, Magento gives your business the flexibility other platforms cannot.",
+    "Id": 15942,
+    "Name": "Magento 2",
+    "Version": "2.3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15942",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Add webhooks to your Magento 2 installation (requires some setup).",
+    "Id": 15449,
+    "Name": "Magento 2 Webhooks",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15449",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Our extension for Magento gives you webhooks for new and updated customers. ",
+    "Id": 5093,
+    "Name": "Magento Extension",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5093",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "This connector provides basic functionalities for connecting to MailChimp.",
+    "Id": 15718,
+    "Name": "MailChimp",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15718",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Closing the circle between Deliverability and Engagement. Premium marketing platform to truly unleash your creativity",
+    "Id": 15247,
+    "Name": "Mailkit",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15247",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "MailUp is your complete email and SMS delivery solution.",
+    "Id": 13425,
+    "Name": "MailUp",
+    "Version": "1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13425",
+    "Categories": []
+  },
+  {
+    "Description": "ManageBac is the leading IB learning management system (LMS) - the trusted choice of over 3,000 IB World schools supporting the IB DP, CP, MYP and PYP.",
+    "Id": 13136,
+    "Name": "ManageBac",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13136",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Mandrill is a delivery application for transactional emails.",
+    "Id": 568,
+    "Name": "Mandrill",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/568",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Increase your ROI by up to 600% with two-way, interactive conversations that guide product selection and enable customers to make purchases all within Facebook Messenger.",
+    "Id": 8674,
+    "Name": "ManyChat",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8674",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Mapp is purposefully designed to meet your most demanding digital marketing needs; engaging with your customers on a truly personal level.",
+    "Id": 11839,
+    "Name": "Mapp",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11839",
+    "Categories": [
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Marketo's powerful marketing automation software helps marketers master the art & science of digital marketing to engage customers and prospects.",
+    "Id": 15741,
+    "Name": "Marketo",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15741",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "MatchCraft specializes in Search, Display & Social technologies for companies that sell local online advertising to small businesses around the world.",
+    "Id": 15373,
+    "Name": "MatchCraft",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15373",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Math.js is an extensive math library. It features big numbers, complex numbers, matrices, units, and a flexible expression parser.",
+    "Id": 1477,
+    "Name": "math.js",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1477",
+    "Categories": [
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Email marketing and marketing automation experts providing the tools and support allowing you to build comprehensive email marketing and automation programmes??",
+    "Id": 7393,
+    "Name": "Maxemail by Xtremepush",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7393",
+    "Categories": [
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "All-inclusive and personalized CRM software that's affordable, easy-to-use, and trusted around the world. Industry-leading support and training.",
+    "Id": 6459,
+    "Name": "Maximizer CRM",
+    "Version": "2.9",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6459",
+    "Categories": [
+      "Marketing",
+      "CRMs",
+      "Sales",
+      "Support"
+    ]
+  },
+  {
+    "Description": "The Azure Active Directory (Azure AD) enterprise identity service provides SSO and multi-factor authentication to help protect your users from 99.9 per cent of cybersecurity attacks.",
+    "Id": 14183,
+    "Name": "Microsoft Azure Active Directory",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14183",
+    "Categories": [
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Azure DevOps helps you plan your project with Agile tools, manages your code using Git, and deploys your code.",
+    "Id": 14919,
+    "Name": "Microsoft Azure DevOps",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14919",
+    "Categories": [
+      "Databases",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Microsoft Dynamics CRM is a customer relationship management software package.",
+    "Id": 14423,
+    "Name": "Microsoft Dynamics CRM",
+    "Version": "v8.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14423",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Microsoft Dynamics CRM is a customer relationship management software package.",
+    "Id": 15515,
+    "Name": "Microsoft Dynamics CRM (OAuth2.0 Authorization Code)",
+    "Version": "v8.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15515",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Microsoft Dynamics CRM is a customer relationship management software package.  This Connector is for an on-premises installation of version 2011 to 2016.",
+    "Id": 15354,
+    "Name": "Microsoft Dynamics CRM (on-premises)",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15354",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Connector to work with custom entity types in Dynamics.",
+    "Id": 12731,
+    "Name": "Microsoft Dynamics CRM Custom Object",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12731",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Transforms classroom time, educators can focus on delivering personalised learning experiences that help enable better learning outcomes.",
+    "Id": 14689,
+    "Name": "Microsoft Education",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14689",
+    "Categories": [
+      "Miscellaneous",
+      "Collaboration"
+    ]
+  },
+  {
+    "Description": "Designed to help you achieve more with innovative Office apps, intelligent cloud services, and world-class security.",
+    "Id": 16013,
+    "Name": "Microsoft Office 365",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16013",
+    "Categories": []
+  },
+  {
+    "Description": "MS SQL Server is a relational database management system (RDBMS) developed by Microsoft.",
+    "Id": 16288,
+    "Name": "Microsoft SQL Server - Table",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16288",
+    "Categories": [
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Microsoft Teams, the hub for team collaboration in Microsoft 365, integrates the people, content, and tools your team needs to be more engaged and effective.",
+    "Id": 15339,
+    "Name": "Microsoft Teams",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15339",
+    "Categories": [
+      "Collaboration",
+      "Chat"
+    ]
+  },
+  {
+    "Description": "Powerful business management software",
+    "Id": 15750,
+    "Name": "MINDBODY",
+    "Version": "v6",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15750",
+    "Categories": [
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "monday.com is a cloud-based Work OS, where teams create workflow apps in minutes to run their processes, projects, and everyday work.",
+    "Id": 14015,
+    "Name": "monday.com",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14015",
+    "Categories": [
+      "Product Management",
+      "Collaboration",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Moodle is a free and open-source learning management system.",
+    "Id": 14186,
+    "Name": "Moodle",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14186",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Real estate software to transform the way communities live, work and play.",
+    "Id": 14387,
+    "Name": "MRI",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14387",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "MYOB AccountRight is powerful accounting software with business management capabilities",
+    "Id": 14037,
+    "Name": "MYOB AccountRight",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14037",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Most popular open-source relational database management system (RDBMS).",
+    "Id": 11828,
+    "Name": "MySQL",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11828",
+    "Categories": [
+      "Databases",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Neto, by Maropost, is the only B2B and multi-channel ecommerce platform that provides an all-in-one solution for ecommerce, POS, inventory management, order management, and shipping labelling.",
+    "Id": 14223,
+    "Name": "Neto",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14223",
+    "Categories": [
+      "POS",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Can't find a connector for a service? Don't worry, our connector team can create connectors for nearly any third-party service. Just get in touch and let us know what you want to integrate with.",
+    "Id": 6659,
+    "Name": "New Connector Request",
+    "Version": null,
+    "Status": "Planned",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6659",
+    "Categories": [
+      "HR/Payroll",
+      "ERP",
+      "Marketing",
+      "Product Management",
+      "Miscellaneous",
+      "POS",
+      "Utility Connectors",
+      "Collaboration",
+      "Dashboarding",
+      "Accounting",
+      "Analytics",
+      "Billing/Payment",
+      "Blogs",
+      "Chat",
+      "CRMs",
+      "Customer Experience",
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "Ecommerce",
+      "Email Marketing",
+      "Forms",
+      "Project Management",
+      "Sales",
+      "SMS",
+      "Social Media",
+      "Support",
+      "Surveys",
+      "Calendars",
+      "Healthcare/Wellness",
+      "IoT",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Nexudus is a tool to manage your coworking or shared office space.",
+    "Id": 12594,
+    "Name": "Nexudus",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12594",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "The all-in-one workspace — for notes, tasks, wikis, and databases.",
+    "Id": 14964,
+    "Name": "Notion",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14964",
+    "Categories": [
+      "Collaboration",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "A next generation flexible workspace management solution, beautiful members portal and mobile app, connected into one platform.",
+    "Id": 11869,
+    "Name": "OfficeR&D",
+    "Version": "V1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11869",
+    "Categories": [
+      "Miscellaneous",
+      "CRMs",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Okta provides operations to manage users in your organization.",
+    "Id": 15034,
+    "Name": "Okta",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15034",
+    "Categories": [
+      "Collaboration",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Powerful marketing automation platform for ecommerce that enables retailers to send personalised marketing messages.",
+    "Id": 7752,
+    "Name": "Ometria",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7752",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "OpenApply is a School Admissions Management System supporting the applicant journey from enquiry to enrolment.",
+    "Id": 12367,
+    "Name": "OpenApply",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12367",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "In OpenCRM, you have all the tools you need to run your business from a single system. From your Sales Process to Customer Service right through to your Email Marketing, it’s all right here at your fingertips.",
+    "Id": 12895,
+    "Name": "OpenCRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12895",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "OpSuite Next Generation Retail Solutions provide business owners and managers with the tools and technology needed to drive business forward. ",
+    "Id": 14396,
+    "Name": "OpSuite",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14396",
+    "Categories": [
+      "Marketing",
+      "POS",
+      "Ecommerce",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Integrate Optimail with your website or app.",
+    "Id": 12310,
+    "Name": "Optimail",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12310",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Optimizely is the world's leading progressive delivery & experimentation platform. Empowering engineering, product & marketing teams ship high-quality code & experiences faster & with data-driven confidence in the results.",
+    "Id": 12024,
+    "Name": "Optimizely",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12024",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Enables marketers to plan and execute personalized marketing automation campaigns.",
+    "Id": 12901,
+    "Name": "Oracle Eloqua",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12901",
+    "Categories": [
+      "Chat"
+    ]
+  },
+  {
+    "Description": "One unified business management suite, encompassing ERP/Financials, CRM and ecommerce.",
+    "Id": 16199,
+    "Name": "Oracle NetSuite RESTlet",
+    "Version": "RESTlet",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16199",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Leading email marketing and cross-channel orchestration solution.",
+    "Id": 11870,
+    "Name": "Oracle Responsys",
+    "Version": "v1.3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11870",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Oracle Sales Cloud is a powerful and customisable CRM system.",
+    "Id": 2554,
+    "Name": "Oracle Sales Cloud",
+    "Version": "11.1.11",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2554",
+    "Categories": [
+      "ERP",
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "PagerDuty gives you real-time visibility into your critical apps and services all in one place, driven by our full-service ownership model.",
+    "Id": 13404,
+    "Name": "PagerDuty",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13404",
+    "Categories": [
+      "Data Tools",
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Employee Scheduling & Time Tracking Software",
+    "Id": 12030,
+    "Name": "Papershift",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12030",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Accept payments anywhere, manage all activity in the cloud and receive award-winning service.",
+    "Id": 8377,
+    "Name": "PayJunction",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8377",
+    "Categories": [
+      "POS",
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Peakon is the simple, scientific, and strategic way to maximise your employee engagement, retention, and culture.",
+    "Id": 11871,
+    "Name": "Peakon",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11871",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "People HR is a reliable human resources management solution built for small and medium businesses.",
+    "Id": 12312,
+    "Name": "PeopleHR",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12312",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "A holistic HR and applicant management software for 10 to 1000 employees.",
+    "Id": 16161,
+    "Name": "PersonioHR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16161",
+    "Categories": []
+  },
+  {
+    "Description": "PetExec is the industry leading tool for dog daycares, boarding facilities, trainers, and groomers alike.",
+    "Id": 12697,
+    "Name": "PetExec",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12697",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Software that powers personal service businesses. ",
+    "Id": 7622,
+    "Name": "Pike13",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7622",
+    "Categories": [
+      "HR/Payroll",
+      "CRMs",
+      "Calendars",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Identity Security for the Global Enterprise",
+    "Id": 12534,
+    "Name": "PingOne",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12534",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Sales CRM for small teams with big ambitions. This connector authenticates you via an API key.",
+    "Id": 16277,
+    "Name": "Pipedrive",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16277",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Sales CRM for small teams with big ambitions.",
+    "Id": 5376,
+    "Name": "Pipedrive Marketplace App",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5376",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Podio supplies a web-based platform for organizing team communication, business processes, data and content in project management workspaces according to project needs.",
+    "Id": 12314,
+    "Name": "Podio",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12314",
+    "Categories": [
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "PostgreSQL is a powerful, open source object-relational database system.",
+    "Id": 14308,
+    "Name": "PostgreSQL Table",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14308",
+    "Categories": [
+      "Databases",
+      "Data Tools",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Get full control of your finances with PowerOffice Go.",
+    "Id": 15867,
+    "Name": "PowerOffice Go",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15867",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "ProdPad is product management software that helps product managers develop product strategy.",
+    "Id": 16071,
+    "Name": "ProdPad",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16071",
+    "Categories": []
+  },
+  {
+    "Description": "Send product data feeds to external providers such as Google Shopping and Catch.com.au.",
+    "Id": 11781,
+    "Name": "Product Data Feeds",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11781",
+    "Categories": [
+      "Utility Connectors",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.",
+    "Id": 14187,
+    "Name": "ProfitWell",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14187",
+    "Categories": [
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Prospect.io is the sales Automation Platform for sales teams.",
+    "Id": 6373,
+    "Name": "Prospect.io",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6373",
+    "Categories": [
+      "Marketing",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "ProsperWorks is the #1 CRM for G Suite. It is embedded into Gmail so you can update opportunities, add contacts, and manage your pipeline right from your inbox.",
+    "Id": 8503,
+    "Name": "Prosperworks",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8503",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Provet Cloud is a cloud-based veterinary practice management software, making life at the practice easier through the enhancement of client and care processes.",
+    "Id": 7592,
+    "Name": "Provet Cloud",
+    "Version": "v0.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7592",
+    "Categories": [
+      "Miscellaneous",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Pure360 offer strategy and advice complemented by an easy-to-use email marketing platform.",
+    "Id": 12454,
+    "Name": "Pure360",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12454",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Marketing technology that works across email and website to personalise customer experiences, drive sales and increase customer loyalty.",
+    "Id": 15359,
+    "Name": "Pure360 - Rest",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15359",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "The #1 rated small business accounting software.",
+    "Id": 14436,
+    "Name": "QuickBooks",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14436",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Make deeper connections with students from inquiry to application and enrollment with higher education’s best-in-class admissions management solution.",
+    "Id": 11830,
+    "Name": "Radius Campus Management",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11830",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Readable.io is a collection of tools for improving the quality of your writing.",
+    "Id": 5202,
+    "Name": "Readable.io",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5202",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Recruiterflow is modern applicant tracking software for recruiting and staffing agencies designed to do your busywork, so you can focus on what's important.",
+    "Id": 15767,
+    "Name": "Recruiterflow",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15767",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Digital Marketing Company specialising in AI driven Marketing Automation Technology & Services.",
+    "Id": 14131,
+    "Name": "RedEye Contour",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14131",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Retail express is an intuitive, powerful cloud POS, inventory and eCommerce software.",
+    "Id": 12834,
+    "Name": "Retail Express",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12834",
+    "Categories": [
+      "POS",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Artificial intelligence automation platform delivers a personalized customer experience to each individual.",
+    "Id": 5413,
+    "Name": "Retention Science",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5413",
+    "Categories": [
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Increase productivity while decreasing management complexity with a global communications solution.",
+    "Id": 15647,
+    "Name": "RingCentral",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15647",
+    "Categories": []
+  },
+  {
+    "Description": " Robly; a leading innovator in small business marketing automation.",
+    "Id": 1876,
+    "Name": "Robly",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1876",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Powerful member management software built for high-volume facilities like yours.",
+    "Id": 8843,
+    "Name": "Rock Gym Pro",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8843",
+    "Categories": [
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Get items from RSS feeds",
+    "Id": 5448,
+    "Name": "RSS Reader",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5448",
+    "Categories": [
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Match real customer form fills and phone calls against the marketing campaign and keyword from which it was generated.",
+    "Id": 6850,
+    "Name": "Ruler",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6850",
+    "Categories": [
+      "Marketing",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Rybbon is the all-in-one solution for sending, tracking, and managing digital rewards programs.",
+    "Id": 14370,
+    "Name": "Rybbon",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14370",
+    "Categories": [
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Online accounting software for small business. Online invoices, expenses, cashflow, inventory and payroll.",
+    "Id": 7469,
+    "Name": "Saasu",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7469",
+    "Categories": [
+      "HR/Payroll",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Global technology company providing IT solutions to airlines, hotels, agencies, corporate customers & the travel industry. Follow us for insights & tech trends.",
+    "Id": 13354,
+    "Name": "Sabre",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13354",
+    "Categories": [
+      "Miscellaneous",
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Combining the convenience of the cloud with the power of desktop accounting software, giving you a complete view of all your business finances in one place.",
+    "Id": 12315,
+    "Name": "Sage 50",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12315",
+    "Categories": [
+      "HR/Payroll",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Combining the convenience of the cloud with the power of desktop accounting software, giving you a complete view of all your business finances in one place.",
+    "Id": 14120,
+    "Name": "Sage Accounting",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14120",
+    "Categories": [
+      "HR/Payroll",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "Gives businesses the information, insight and tools they need to succeed today.",
+    "Id": 16131,
+    "Name": "Sage CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16131",
+    "Categories": []
+  },
+  {
+    "Description": "Sailthru helps modern #marketers build lasting relationships with their customers across email, web & mobile with 1:1 personalization.",
+    "Id": 11842,
+    "Name": "Sailthru",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11842",
+    "Categories": [
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Salesforce CRM automates the sales process with an array of cloud-based tools.",
+    "Id": 16278,
+    "Name": "Salesforce",
+    "Version": "v43.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16278",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 12316,
+    "Name": "Salesforce Chatter",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12316",
+    "Categories": [
+      "Chat",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Powerful digital marketing platform letting you connect to customers in a whole new way.",
+    "Id": 12318,
+    "Name": "Salesforce Marketing Cloud",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12318",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Powerful digital marketing platform letting you connect to customers in a whole new way. This version only works with Legacy Packages.",
+    "Id": 12317,
+    "Name": "Salesforce Marketing Cloud (Legacy)",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12317",
+    "Categories": []
+  },
+  {
+    "Description": "Pardot offers powerful marketing automation to help marketing and sales teams find and nurture the best leads, close more deals, and maximize ROI.",
+    "Id": 12986,
+    "Name": "Salesforce Pardot",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12986",
+    "Categories": [
+      "Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Salesforce CRM automates the sales process with an array of cloud-based tools.",
+    "Id": 14188,
+    "Name": "Salesforce Sandbox",
+    "Version": "v30.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14188",
+    "Categories": []
+  },
+  {
+    "Description": "Give your customers the information and support they need with Service Cloud - the customer service and support application that you can customise to fit your business needs.",
+    "Id": 13396,
+    "Name": "Salesforce Service Cloud",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13396",
+    "Categories": [
+      "Customer Experience",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Generate leads and increase your ROI to ensure marketing automation success.",
+    "Id": 5634,
+    "Name": "Salesfusion",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5634",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "SalesLoft is the #1 sales engagement platform, helping sales organizations deliver a better sales experience for their customers.",
+    "Id": 12562,
+    "Name": "Salesloft",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12562",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Online CRM and Email Marketing built by sales people for sales people.",
+    "Id": 12321,
+    "Name": "SalesNexus",
+    "Version": "V1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12321",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "SalesPad was designed by distributors with day-to-day operations in mind. Gone are the days of ERP that catered solely to the accounting crowd.",
+    "Id": 16110,
+    "Name": "SalesPad",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16110",
+    "Categories": [
+      "ERP",
+      "Billing/Payment",
+      "CRMs",
+      "Ecommerce",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "You can use these APIs to maintain the general background information of an employee, including education and outside work experiences.",
+    "Id": 13959,
+    "Name": "SAP SuccessFactors - Sandbox",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13959",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "SchoolsBuddy's school software system combines activities management, online payments, parent communications, school bookings, and more.",
+    "Id": 12199,
+    "Name": "Schools Buddy",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12199",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Online Scrum, Kanban and Scrumban project management software.",
+    "Id": 12332,
+    "Name": "ScrumDo",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12332",
+    "Categories": [
+      "Developer Tools",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Selligent is an intelligent marketing and experience platform that enables B2C brands to #MaximizeEveryMoment with consumers.",
+    "Id": 12322,
+    "Name": "Selligent",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12322",
+    "Categories": [
+      "Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Delivering your transactional and marketing email through one reliable platform.",
+    "Id": 14742,
+    "Name": "SendGrid",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14742",
+    "Categories": []
+  },
+  {
+    "Description": "Sendible is a social media management tool that helps companies and agencies manage their social media presence more effectively.",
+    "Id": 1422,
+    "Name": "Sendible",
+    "Version": "1.0.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1422",
+    "Categories": [
+      "Marketing",
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "Easy-to-use all-in-one email marketing, SMS, transactional email (SMTP), and marketing automation platform.",
+    "Id": 13506,
+    "Name": "SendinBlue",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13506",
+    "Categories": []
+  },
+  {
+    "Description": "A powerful multi channel marketing platform.",
+    "Id": 6629,
+    "Name": "Sentori",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6629",
+    "Categories": [
+      "Marketing",
+      "Email Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "All-in-one software for commercial and residential HVAC, plumbing, electrical, and other field service businesses.",
+    "Id": 11629,
+    "Name": "Service Titan",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11629",
+    "Categories": [
+      "Marketing",
+      "Miscellaneous",
+      "Collaboration",
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "The operating system for franchised home services.",
+    "Id": 12843,
+    "Name": "serviceminder.io",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12843",
+    "Categories": [
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Schedule jobs. Get paid. Grow business. The all-in-one app to help you run your cleaning business.",
+    "Id": 14078,
+    "Name": "ServiceMonster",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14078",
+    "Categories": [
+      "Miscellaneous",
+      "Collaboration"
+    ]
+  },
+  {
+    "Description": "ServiceNow helps to transform old, manual ways of working into modern digital workflows. Employees and customers get what they need, when they need it—fast, simple, easy.",
+    "Id": 15616,
+    "Name": "ServiceNow",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15616",
+    "Categories": [
+      "Support"
+    ]
+  },
+  {
+    "Description": "Enterprise Pest Control Software.",
+    "Id": 15572,
+    "Name": "ServSuite",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15572",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "ShipStation creates an unparalleled buying and delivery experience with every order you send. All the tools you need to exceed your customers' expectations.",
+    "Id": 14153,
+    "Name": "ShipStation",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14153",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Shireburn develop and support business software solutions for accounting, inventory, retail and catering, and HR/payroll.",
+    "Id": 12333,
+    "Name": "Shireburn",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12333",
+    "Categories": [
+      "HR/Payroll",
+      "Accounting"
+    ]
+  },
+  {
+    "Description": "This connector brings webhooks to Shopify.",
+    "Id": 15405,
+    "Name": "Shopify",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15405",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Online Payments Solutions for SaaS Providers, Developers, Businesses and Non-Profits.",
+    "Id": 5567,
+    "Name": "Shuttle",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5567",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "User-friendly resourcing tool to help making resource plans easily and provide a clear view your company’s resource allocations.",
+    "Id": 11873,
+    "Name": "Silverbucket",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11873",
+    "Categories": [
+      "HR/Payroll",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Slack is a messaging app for teams.",
+    "Id": 15764,
+    "Name": "Slack",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15764",
+    "Categories": [
+      "Chat",
+      "Developer Tools",
+      "Project Management",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Collaboration and work management. Smartsheet is used to assign tasks, track project progress, manage calendars, share documents and manage other work.",
+    "Id": 14144,
+    "Name": "Smartsheet",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14144",
+    "Categories": [
+      "Product Management",
+      "Collaboration",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Create, manage and analyze your contracts - all from one beautifully built, powerful, award-winning platform",
+    "Id": 12507,
+    "Name": "SpotDraft",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12507",
+    "Categories": [
+      "Miscellaneous",
+      "Collaboration",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Mobile Omnichannel POS and Retail Management System designed for brands & retailers, by retailers.",
+    "Id": 8329,
+    "Name": "Springboard",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8329",
+    "Categories": [
+      "POS"
+    ]
+  },
+  {
+    "Description": "Dedicated CRM marketing platform, giving aggregated insights for you to build a bigger & better customer experience. Hospitality & Leisure.",
+    "Id": 12860,
+    "Name": "Sprout Send",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12860",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Everything needed to power your ideas: websites, online stores, domains, and more.",
+    "Id": 12872,
+    "Name": "Squarespace",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12872",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Securely take payments everywhere with a single platform.",
+    "Id": 14341,
+    "Name": "Squareup",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14341",
+    "Categories": []
+  },
+  {
+    "Description": "CRM, inside Gmail.",
+    "Id": 13385,
+    "Name": "Streak",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13385",
+    "Categories": []
+  },
+  {
+    "Description": "Payments infrastructure for the internet.",
+    "Id": 15630,
+    "Name": "Stripe",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15630",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "SugarCRM enables businesses to create extraordinary customer relationships with the most innovative and affordable CRM solution in the market.",
+    "Id": 16073,
+    "Name": "SugarCRM",
+    "Version": "10",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16073",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "World's most popular #opensource #CRM!",
+    "Id": 14567,
+    "Name": "SuiteCRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14567",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "An AI-driven IT and Enterprise Service Management Suite",
+    "Id": 12578,
+    "Name": "SummitAI",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12578",
+    "Categories": [
+      "Chat",
+      "Support"
+    ]
+  },
+  {
+    "Description": "SuperPhone is a powerful, scalable, 1-to-1 text marketing platform that helps you build deeper relationships by keeping you top of mind.",
+    "Id": 8652,
+    "Name": "SuperPhone",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8652",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Top of Mind’s Surefire CRM is the #1 most used sales and online marketing platform for the mortgage industry.",
+    "Id": 16167,
+    "Name": "SurefireCRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16167",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Cloud Accounts and Payroll Software for small businesses and Accountants.",
+    "Id": 11835,
+    "Name": "Surf Accounts",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11835",
+    "Categories": [
+      "Accounting"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 14632,
+    "Name": "SurveyMonkey",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14632",
+    "Categories": [
+      "Surveys"
+    ]
+  },
+  {
+    "Description": "Intuitive Digital Asset Management",
+    "Id": 11846,
+    "Name": "Swivle",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11846",
+    "Categories": [
+      "Collaboration"
+    ]
+  },
+  {
+    "Description": "From customer engagement, marketing, sales, employee engagement, selling and tracking memberships, collecting past due through fully automated system, fully integrated online store, automated account handling and much more, Tan-Link is all about getting the last dollar of profit out of your business.",
+    "Id": 8123,
+    "Name": "Tan-Link",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8123",
+    "Categories": [
+      "HR/Payroll",
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Pizza & Delivery POS that knows your business.",
+    "Id": 6719,
+    "Name": "Thr!ve",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6719",
+    "Categories": [
+      "POS",
+      "Billing/Payment",
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Tide gives you a business current account in as little as 5 minutes",
+    "Id": 3071,
+    "Name": "Tide",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3071",
+    "Categories": [
+      "Accounting",
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Turn your team on to productivity with Toggl the time tracker. Break down your hours by projects, clients and tasks to see what’s making you money.",
+    "Id": 12431,
+    "Name": "Toggl",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12431",
+    "Categories": [
+      "Product Management",
+      "Analytics",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Toofr discovers business email addresses from the first and last names, and the company name or website. It uses millions of business email patterns and mail server results to give you industry-leading sending rates.",
+    "Id": 8513,
+    "Name": "Toofr",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8513",
+    "Categories": [
+      "Data Tools"
+    ]
+  },
+  {
+    "Description": "Total Expert is a fintech software company that built the first enterprise-grade Marketing Operating System (MOS) purpose built for the modern financial service.",
+    "Id": 16242,
+    "Name": "Total Expert",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16242",
+    "Categories": [
+      "Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Infinitely flexible. Incredibly easy to use. Great mobile apps. It's free. Trello keeps track of everything, from the big picture to the minute details.",
+    "Id": 15565,
+    "Name": "Trello",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15565",
+    "Categories": [
+      "Product Management",
+      "Project Management",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "A universal API to access identity data, balance and transactions from your users’ bank account. Connect with multiple institutions, save months of development and stay compliant.",
+    "Id": 3181,
+    "Name": "TrueLayer",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3181",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "Trustpilot is the world's most powerful review platform, working to inspire ever-improving experiences for everyone.",
+    "Id": 12340,
+    "Name": "Trustpilot",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12340",
+    "Categories": [
+      "Customer Experience",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Add chat to any app with SDKs for mobile and web.",
+    "Id": 2569,
+    "Name": "Twilio Chat",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2569",
+    "Categories": [
+      "Marketing",
+      "Chat",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Twilio allows you to integrate voice and SMS communications into your applications.",
+    "Id": 8097,
+    "Name": "Twilio SMS",
+    "Version": "2010-04-01",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8097",
+    "Categories": [
+      "Marketing",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Synchronize web and mobile apps with a single source of state in the cloud.",
+    "Id": 2394,
+    "Name": "Twilio Sync",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2394",
+    "Categories": [
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "The power of contact center routing made available for orchestrating interactions within CRM, Support workflows and IoT.",
+    "Id": 7597,
+    "Name": "Twilio TaskRouter",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7597",
+    "Categories": [
+      "Marketing",
+      "Chat"
+    ]
+  },
+  {
+    "Description": "Build conversations anywhere. Make, receive, and monitor calls around the world using the Voice API that developers rely on.",
+    "Id": 8230,
+    "Name": "Twilio Voice",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8230",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Connect with your friends â€” and other fascinating people. Get in-the-moment updates on the things that interest you.",
+    "Id": 8156,
+    "Name": "Twitter",
+    "Version": "1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8156",
+    "Categories": [
+      "Marketing",
+      "Social Media"
+    ]
+  },
+  {
+    "Description": "Build beautiful, engaging, and conversational online forms, surveys, quizzes, landing pages, and much more with Typeform.",
+    "Id": 11673,
+    "Name": "Typeform",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11673",
+    "Categories": [
+      "Forms",
+      "Surveys"
+    ]
+  },
+  {
+    "Description": "AI-powered human translations at scale.",
+    "Id": 11848,
+    "Name": "Unbabel",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11848",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Support"
+    ]
+  },
+  {
+    "Description": "The leading landing page platform that helps you convert more of your visitors into leads, sales, and customers with conversion intelligence.",
+    "Id": 15491,
+    "Name": "Unbounce",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15491",
+    "Categories": [
+      "Marketing",
+      "Forms"
+    ]
+  },
+  {
+    "Description": "Unifonic makes cloud communications more accessible, cost-efficient and simpler to implement with solutions that scale. ",
+    "Id": 8444,
+    "Name": "Unifonic",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8444",
+    "Categories": [
+      "SMS"
+    ]
+  },
+  {
+    "Description": "Adestra is a worldwide leader of one-to-one email and lifecycle marketing solutions for global and growing brands.",
+    "Id": 12209,
+    "Name": "Upland Adestra",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12209",
+    "Categories": [
+      "Marketing",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "A fitness CRM that doesn't suck.",
+    "Id": 6613,
+    "Name": "UpLaunch",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6613",
+    "Categories": [
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Send personalised emails at the perfect moment or activity. Increase returning traffic with individualised notifications. Store organised knowledge for your team and customers.",
+    "Id": 8794,
+    "Name": "User.com",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8794",
+    "Categories": [
+      "Marketing",
+      "Analytics",
+      "Chat"
+    ]
+  },
+  {
+    "Description": "Userpilot helps product teams deliver personalized in-app experiences to increase growth metrics at every stage of the user journey.",
+    "Id": 15097,
+    "Name": "UserPilot",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15097",
+    "Categories": [
+      "Product Management",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Sales software to accelerate your sales lead management.",
+    "Id": 14191,
+    "Name": "Velocify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14191",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Point of sale for iPad, Mac and PC.",
+    "Id": 12577,
+    "Name": "Vend",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12577",
+    "Categories": [
+      "POS",
+      "Billing/Payment",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Payments infrastructure for the internet.",
+    "Id": 15752,
+    "Name": "VHT",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15752",
+    "Categories": [
+      "Billing/Payment"
+    ]
+  },
+  {
+    "Description": "CRM/ATS for ambitious recruiting firms of all sizes.",
+    "Id": 15946,
+    "Name": "Vincere",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15946",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "Vonage APIs help growing startups and agile enterprises enhance customer experience and realize new business outcomes at scale.",
+    "Id": 12342,
+    "Name": "Vonage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12342",
+    "Categories": [
+      "Customer Experience",
+      "Data Tools",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "SMS marketing and messaging that grows your ecommerce business.",
+    "Id": 7877,
+    "Name": "Voyage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7877",
+    "Categories": [
+      "Ecommerce",
+      "SMS"
+    ]
+  },
+  {
+    "Description": "The new standard in building connectivity. Wattsense is a non-intrusive building connectivity service. We help facility managers deliver operational efficiency.",
+    "Id": 11851,
+    "Name": "Wattsense",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11851",
+    "Categories": [
+      "IoT"
+    ]
+  },
+  {
+    "Description": "Wealthbox is CRM you’ll actually enjoy. Powerful and beautiful. Web-based and secure. No training required.",
+    "Id": 11436,
+    "Name": "Wealthbox",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11436",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "WebEOC, the world’s most widely-used, battle-tested emergency management software in the industry.",
+    "Id": 12437,
+    "Name": "WebEOC",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12437",
+    "Categories": [
+      "Miscellaneous",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "WebinarJam's cloud-based broadcasting technology allows you to reach up to 5000 people in one presentation without breaking a sweat.",
+    "Id": 11852,
+    "Name": "WebinarJam",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11852",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Cognitive people search and analytics platform",
+    "Id": 2933,
+    "Name": "WhoKnows",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2933",
+    "Categories": [
+      "Marketing",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Willo is a global on-demand virtual video interviewing software, communication and recruitment platform.",
+    "Id": 14354,
+    "Name": "Willo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14354",
+    "Categories": [
+      "Collaboration",
+      "Chat"
+    ]
+  },
+  {
+    "Description": "Discover the platform that gives you the freedom to create, design, manage and develop your web presence exactly the way you want. ",
+    "Id": 14310,
+    "Name": "Wix",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14310",
+    "Categories": [
+      "Customer Experience",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "WooCommerce is an open source e-commerce plugin for WordPress. It is designed for small to large-sized online merchants giving complete control to sell anything.",
+    "Id": 14194,
+    "Name": "WooCommerce",
+    "Version": "3.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14194",
+    "Categories": [
+      "Ecommerce",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Access your WordPress site's data.",
+    "Id": 14195,
+    "Name": "WordPress",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14195",
+    "Categories": [
+      "Developer Tools",
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "Online accounting and payroll service.  For Public and Partner Xero Apps.",
+    "Id": 16099,
+    "Name": "Xero",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16099",
+    "Categories": []
+  },
+  {
+    "Description": "Online accounting and payroll service.  For Private Xero Apps.",
+    "Id": 16098,
+    "Name": "Xero - Private Instance",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16098",
+    "Categories": []
+  },
+  {
+    "Description": "Smart and simple ways to make your customer journey convert",
+    "Id": 5772,
+    "Name": "Yieldify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5772",
+    "Categories": [
+      "Marketing",
+      "Customer Experience"
+    ]
+  },
+  {
+    "Description": "Zaius empowers B2C marketers with ownership of customer data so they can better understand how their customers shop and engage them with personalized, omnichannel campaigns, all in one platform.",
+    "Id": 7832,
+    "Name": "Zaius",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7832",
+    "Categories": [
+      "Marketing",
+      "Data Tools",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Zendesk makes it easy to support customers when they need your help.",
+    "Id": 16295,
+    "Name": "Zendesk",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16295",
+    "Categories": [
+      "Chat",
+      "CRMs",
+      "Sales",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Zendesk Sell is a sales CRM software tool that enhances productivity, processes and pipeline visibility for sales teams. Eliminate friction and sell more.",
+    "Id": 15945,
+    "Name": "Zendesk Sell",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15945",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Zenoti is the most advanced cloud-based, business software for spas, salons, and medi-spas. Trusted by 5000+ spas and salons across the world.",
+    "Id": 15719,
+    "Name": "Zenoti",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15719",
+    "Categories": []
+  },
+  {
+    "Description": "Reach out to prospects at the right moment and engage them across every channel. Zoho CRM helps businesses of all sizes close more deals the smarter way.",
+    "Id": 15399,
+    "Name": "Zoho CRM",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15399",
+    "Categories": [
+      "CRMs",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Zoho Desk is the industry's first context-aware help desk software that helps businesses focus on the customer.",
+    "Id": 15385,
+    "Name": "Zoho Desk",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15385",
+    "Categories": [
+      "Customer Experience",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Zoho Recruit is a cloud based applicant tracking system that’s built to provide diverse, end-to-end hiring solutions for staffing agencies, corporate HRs and temporary workforce.",
+    "Id": 14133,
+    "Name": "Zoho Recruit",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14133",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, collaboration, chat, and webinars across mobile devices, desktops, telephones, and room systems.",
+    "Id": 13384,
+    "Name": "Zoom",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13384",
+    "Categories": [
+      "Chat"
+    ]
+  }
+]

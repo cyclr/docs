@@ -1,0 +1,723 @@
+{
+    "Description": "Sales CRM for small teams with big ambitions.",
+    "Id": 17388,
+    "Name": "Pipedrive (OAuth2.0)",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17388",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Pipelines",
+            "Methods": [
+                {
+                    "Name": "List Updated Pipelines",
+                    "Description": "Returns a list of pipelines new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Pipeline",
+                    "Description": "Returns data about a specific pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Pipeline",
+                    "Description": "Update the properties of a pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Pipelines",
+                    "Description": "Returns a list of new pipelines created since the last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Pipeline",
+                    "Description": "Adds a Pipeline.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currencies",
+            "Methods": [
+                {
+                    "Name": "Get Currencies",
+                    "Description": "Returns all supported currencies in given account which should be used when saving monetary values with other objects. The 'code' parameter of the returning objects is the currency code according to ISO 4217 for all non-custom currencies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teams",
+            "Methods": [
+                {
+                    "Name": "List Teams",
+                    "Description": "Returns a list of all Teams.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Returns data about all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Role Settings",
+                    "Description": "Get a users role settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Get a users details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users Blacklisted Email Addresses",
+                    "Description": "List all blacklisted email addresses of the specified user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Users",
+                    "Description": "Returns a list of users new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Updates the properties of a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Adds a new user to the company, returns the ID upon success.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Users",
+                    "Description": "Returns a list of new users since last successful run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current User",
+                    "Description": "Get the currently authenticated users details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Users By Name",
+                    "Description": "Find users by their name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Followers",
+                    "Description": "List followers of a specific user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Filters",
+            "Methods": [
+                {
+                    "Name": "List New Filters",
+                    "Description": "Returns a list of new filters since last successful run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Filter",
+                    "Description": "Delete an existing filter",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Filter",
+                    "Description": "Add a new filter",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Filters",
+                    "Description": "Returns a list of filters new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Filters",
+                    "Description": "Returns data about all filters.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Filter",
+                    "Description": "Returns data about a single filter.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Mail Messages",
+            "Methods": [
+                {
+                    "Name": "Get Mail Message",
+                    "Description": "Retrieves the specified mail message.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Mail Messages",
+                    "Description": "Lists mail messages associated with a deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notes",
+            "Methods": [
+                {
+                    "Name": "Get New Notes",
+                    "Description": "Returns all new notes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Note",
+                    "Description": "Updates a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Notes",
+                    "Description": "Returns a list of notes new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add a Note",
+                    "Description": "Adds a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get All Notes",
+                    "Description": "Returns all notes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Note",
+                    "Description": "Get details of the specified Note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Note",
+                    "Description": "Deletes a note.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "List People by Owner ID ",
+                    "Description": "Returns a list of people by Owner ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get People by Email Address",
+                    "Description": "Returns a list of people matching the email address provided.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People",
+                    "Description": "Returns a list of people new/updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person",
+                    "Description": "Gets all the details of a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "Deletes a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People",
+                    "Description": "Returns a list of people.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "Updates a person's details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Person",
+                    "Description": "Adds a new person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People by Owner ID",
+                    "Description": "Returns a list of people new/updated since last run filtered by their owner ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New People",
+                    "Description": "Returns a list of new people created since the last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search People",
+                    "Description": "Searches all people by name, email, phone, notes and/or custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person V2",
+                    "Description": "Gets all the details of a person.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "List Deals by Stage",
+                    "Description": "Returns all deals at a specific stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Products",
+                    "Description": "Lists products associated with a deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal",
+                    "Description": "Marks a deal as deleted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Participants",
+                    "Description": "Lists participants associated with a deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Deals",
+                    "Description": "Returns a list of deals new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deals",
+                    "Description": "Returns a list of new deals since last successful run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deals",
+                    "Description": "Returns all deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal",
+                    "Description": "Returns details of a specific deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Deal",
+                    "Description": "Adds a new deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal",
+                    "Description": "Updates the details of a deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Stages",
+            "Methods": [
+                {
+                    "Name": "List Updated Stages",
+                    "Description": "Returns a list of stages new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Stages",
+                    "Description": "Returns data about all stages in all Pipelines.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Stage",
+                    "Description": "Returns data about a specific stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Stage",
+                    "Description": "Adds a new stage, returns the ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Stage",
+                    "Description": "Update the properties of a stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Stage",
+                    "Description": "Marks a stage as deleted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Stages for Pipeline",
+                    "Description": "Returns data about the stages in the selected Pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Stages",
+                    "Description": "Returns a list of new stages created since the last successful run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "Returns a list of all roles.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Fields",
+            "Methods": [
+                {
+                    "Name": "Get Deal Field",
+                    "Description": "Returns details of a specific deal field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Fields",
+                    "Description": "Returns all deal fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Updated Stage",
+                    "Description": "Triggered when a stage has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Updated Activity",
+                    "Description": "Triggered when an activity has been updated.\t",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Added Product",
+                    "Description": "Triggered when a product has been added.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Updated Organization",
+                    "Description": "Triggered when an organization has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Added Deal",
+                    "Description": "Triggered when a deal has been added.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Updated Deal",
+                    "Description": "Triggered when a deal has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Updated Product",
+                    "Description": "Triggered when a product has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Updated Person",
+                    "Description": "Triggered when a person's record has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Added Note",
+                    "Description": "Triggered when a note has been added.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "Get Organization V2",
+                    "Description": "Gets details of an organization",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Organizations",
+                    "Description": "Returns a list of new organizations since last successful run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Organizations",
+                    "Description": "Gets a list of organizations new/updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organizations Associated Deals",
+                    "Description": "Gets a list of an organizations associated deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Organizations",
+                    "Description": "Searches all Organizations by a given term.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organizations by Name",
+                    "Description": "Searches all organizations by their name",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organizations Permitted Users",
+                    "Description": "Gets a list of an organizations permitted users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Organization",
+                    "Description": "Adds a new organization ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organization",
+                    "Description": "Update details of an existing organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Organization",
+                    "Description": "Update details of an existing organization ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations",
+                    "Description": "Gets a list of organizations",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organization",
+                    "Description": "Gets details of an organization",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organizations Followers",
+                    "Description": "Gets a list of an organizations followers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organizations People",
+                    "Description": "Gets a list of an organizations people.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organization's Updates",
+                    "Description": "Gets a list of an organization's updates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List An Organizations Activities",
+                    "Description": "Gets a list of an organizations activities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List New Leads",
+                    "Description": "Returns the details of all Leads created since the last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Updates the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Returns the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Returns a list of updated leads since last successful run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Returns all leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Creates a new lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "List Person Fields - LIST (for Custom Field Lookup)",
+                    "Description": "Returns all person fields in an array.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Singular Person Fields (for Custom Field Lookup)",
+                    "Description": "Returns all person fields in singular format, no array.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Singular Organization Fields (for Custom Field Lookup)",
+                    "Description": "Returns all organization fields in singular format, no array.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Delete Product",
+                    "Description": "Marks a product as deleted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Adds a new product to the products inventory.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Returns data about all products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates product data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product's Prices",
+                    "Description": "Returns data about a specific product's prices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Returns data about a specific product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Products",
+                    "Description": "Searches all products by name, code and/or custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Returns data about all products created or modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Products",
+                    "Description": "Returns data about all products created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organization Fields",
+            "Methods": [
+                {
+                    "Name": "List Organization Fields",
+                    "Description": "Returns all organization fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Custom Organization Fields",
+                    "Description": "Returns all custom organization fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People Fields",
+            "Methods": [
+                {
+                    "Name": "List Custom People Fields",
+                    "Description": "Returns all custom people fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People Fields",
+                    "Description": "Returns all people fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "Update Activity",
+                    "Description": "Modifies an activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Activity",
+                    "Description": "Deletes an activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Activities",
+                    "Description": "Returns all activities assigned to a particular user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Activity",
+                    "Description": "Get the details of an Activity",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Activities",
+                    "Description": "Get the details of all Activities",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Activities",
+                    "Description": "Returns a list of activities new/updated since last run.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Activities",
+                    "Description": "Returns the details of all Activities created since the last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Activity",
+                    "Description": "Adds an activity.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,40 @@
+{
+    "Description": "Gravity Forms is the Easiest Tool to Create Advanced Forms for Your WordPress Powered Website.",
+    "Id": 7387,
+    "Name": "Gravity Forms",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7387",
+    "Categories": [
+        "Forms"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "List Forms",
+                    "Description": "Returns a list of all ACTIVE forms along with its entry count.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Form Submissions",
+                    "Description": "Returns the latest entries for the given Form ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Form",
+                    "Description": "Returns a Form object. ",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/gravity-forms",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

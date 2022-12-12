@@ -1,0 +1,581 @@
+{
+    "Description": "Chargify is an on-line application that adapts to every recurring billing scenario.",
+    "Id": 16735,
+    "Name": "Chargify",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16735",
+    "Categories": [
+        "Accounting",
+        "Billing/Payment"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "Update Subscription",
+                    "Description": "Update a single subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions By Customer",
+                    "Description": "Gets a list of all the subscriptions for a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update On-Hold Subscription",
+                    "Description": "To update a subscription's resume date, use this method to change or update the automatically_resume_at date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Subscriptions",
+                    "Description": "Gets a list of all the subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Usage For Subscription",
+                    "Description": "Allows you to record an instance of metered usage for a subscription. The quantity from usage for each component is accumulated to the unit_balance on the component line item for the subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription Component Allocations",
+                    "Description": "Gets details of a subscription's specific components allocations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Subscriptions Billing Date",
+                    "Description": "Update a single subscriptions next billing date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Subscriptions By Customer",
+                    "Description": "Gets a list of all the subscriptions for a customer updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions Components",
+                    "Description": "Gets a list of all components for a susbscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Metadata For Subscription",
+                    "Description": "Gets details of a specific subscriptions custom field entries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions",
+                    "Description": "Gets a list of all the subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Subscriptions",
+                    "Description": "Gets a list of all the subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription",
+                    "Description": "Gets details of a specific subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Subscription",
+                    "Description": "Delete a single subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscription",
+                    "Description": "Create a subscription. Depending on the fields set will determine the type of subscription created, see https://reference.chargify.com/v1/subscriptions/subscription-request-examples",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pause Subscription",
+                    "Description": "This will place the subscription in the on_hold state and it will not renew.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Subscriptions By Customer",
+                    "Description": "Gets a list of customers subscriptions created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Subscription Metadata",
+                    "Description": "Update a single subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription Component",
+                    "Description": "Gets details of a subscription's specific component.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscription Metadata",
+                    "Description": "Create metadata for a single subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription by Reference",
+                    "Description": "Lookup Subscription by Reference.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "MRR",
+            "Methods": [
+                {
+                    "Name": "Get MRR",
+                    "Description": "Returns your site's current MRR, including plan and usage breakouts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get MRR Movements",
+                    "Description": "This endpoint returns your site's MRR movements. Results can be scoped to a single subscription by providing a subscription_id query param.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "Update Custom Field",
+                    "Description": "Update a specific subscription or customer custom field.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Prepaid Usage",
+            "Methods": [
+                {
+                    "Name": "Create Prepaid Usage Allocation",
+                    "Description": "Creates a prepaid usage allocation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Prepaid Usage",
+                    "Description": "Creates an instance of prepaid usage for a subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Allocation's Expiration Date",
+                    "Description": "Updates a prepaid usage allocation's expiration date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Prepaid Usage Component",
+                    "Description": "Creates a prepaid usage component under the specified product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Prepaid Usage Price Point",
+                    "Description": "Creates a price point for a prepaid usage component.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Prepaid Usage Allocation",
+                    "Description": "Deletes a prepaid usage allocation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Prepaid Usage",
+                    "Description": "Retrieves a list of the usages associated with a subscription for a particular prepaid usage component.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Products",
+                    "Description": "Gets a list of all products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Identify Product",
+                    "Description": "Returns first product found when given a collection of handles.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Products",
+                    "Description": "Gets a list of all products created after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Gets the details of a specified product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Creates a new product record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products in Family",
+                    "Description": "Gets a list of all products within a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Family",
+                    "Description": "Deletes a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Deletes a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product By Handle",
+                    "Description": "Gets a product by handle.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices",
+                    "Description": "Gets a list of all invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get a single invoice record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Invoices",
+                    "Description": "Gets a list of all invoices created after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Invoice Payment",
+                    "Description": "Record an external payment against a specific invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoice Payments",
+                    "Description": "Gets a list of all payments for an invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Read New Invoice Events",
+                    "Description": "Retrieves a list of invoice events since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Credit Notes",
+            "Methods": [
+                {
+                    "Name": "Get Credit Note",
+                    "Description": "Get a single credit note.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Components",
+            "Methods": [
+                {
+                    "Name": "Find Component By Handle",
+                    "Description": "This request will return information regarding a component having the handle you provide. You can identify your components with a handle so you don't have to save or reference the IDs generated.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Component (Quantity Based)",
+                    "Description": "Create a quantity based component within a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Component (On Off)",
+                    "Description": "Create an \"on off\" component within a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Identify Components",
+                    "Description": "Returns only components when given a collection of handles.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Components By Product Family",
+                    "Description": "Gets a list of all components for a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Price Point",
+                    "Description": "Create a new price point.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Component (Metered)",
+                    "Description": "Create a metered component within a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Multiple Allocations",
+                    "Description": "Creates multiple allocations, setting the current allocated quantity for each of the components and recording a memo.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Components By Product Family",
+                    "Description": "Gets a list of all components for a product family created after the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Component Quantity",
+                    "Description": "Creates a new allocation for the subscription, setting a new currently allocated quantity and recording a memo.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Allocation For On/Off Component",
+                    "Description": "This request will return information regarding a component having the handle you provide. You can identify your components with a handle so you don't have to save or reference the IDs generated.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Component Price Points",
+            "Methods": [
+                {
+                    "Name": "Create Currency Prices (Component)",
+                    "Description": "Create currency prices for a given currency that has been defined on the site level in your settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Price Point",
+                    "Description": "Updates an existing price point's prices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Component Price Point Currency Prices",
+                    "Description": "Gets the currency prices for a price point of a given component.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Currency Prices (Component)",
+                    "Description": "Update currency prices for a given currency that has been defined on the site level in your settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Component Price Points",
+                    "Description": "Gets the price points of a given component.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get New Customers",
+                    "Description": "Gets a list of customers created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Deletes a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Makes updates to a customer record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Creates a new customer record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Gets details of a specific customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Gets a list of all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check Customer Exists",
+                    "Description": "Checks customer exists and returns the first customer record found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Customers",
+                    "Description": "Gets a list of customers updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Customers",
+                    "Description": "Gets a list of customers matching a value.  This can be a complete or partial email address, an ID, etc.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer by Reference",
+                    "Description": "Lookup Customer by Reference.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Families",
+            "Methods": [
+                {
+                    "Name": "Update Product Family",
+                    "Description": "Update a product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product Family",
+                    "Description": "Creates a new product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Family",
+                    "Description": "Gets details of a specific product family.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Families",
+                    "Description": "Gets a list of all product families.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Price Points",
+            "Methods": [
+                {
+                    "Name": "Update Product Price Point",
+                    "Description": "Update the price points of a given product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Currency Prices (Product)",
+                    "Description": "Create currency prices for a given currency that has been defined on the site level in your settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product Price Point",
+                    "Description": "Create a price point for a given product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Price Points",
+                    "Description": "Gets the price points of a given product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Currency Prices (Product)",
+                    "Description": "Update the prices of currency prices for a given currency that exists on the product price point.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Customer Created",
+                    "Description": "Customer Created Event received when subscribed to in chargify.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Changed",
+                    "Description": "Subscriptions Event received when subscribed to in chargify.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "New Subscription",
+                    "Description": "Subscription Created Event received when subscribed to in chargify.\t",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Renewal Success",
+                    "Description": "Renewal Success Event received when subscribed to in chargify.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Statement Settled",
+                    "Description": "Event received when Statement Settled in Chargify.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Signup Success",
+                    "Description": "Signup Success Event received when subscribed to in chargify.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Management Links",
+            "Methods": [
+                {
+                    "Name": "Get Management Link",
+                    "Description": "Read a management link.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Site Events",
+                    "Description": "Gets a list of events for a site. Use filters to narrow down results. You may use the key filter to narrow down results..",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions Events",
+                    "Description": "Gets a list of events for a subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Subscriptions Events",
+                    "Description": "Gets a list of new events for a subscription since last run",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Site Events",
+                    "Description": "Gets a list of events for a site since last run. Use filters to narrow down results. You may use the key filter to narrow down results..",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Count of Site Events",
+                    "Description": "Gets a count of the entire events for a given site.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customer Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List Customers Custom Fields",
+                    "Description": "Gets details of a specific customers custom field entries.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Chargify Integration - Billing Automation - Cyclr",
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/chargify",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/chargify-admin-connector"
+}

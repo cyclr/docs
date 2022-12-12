@@ -1,0 +1,55 @@
+{
+    "Description": "Optimize your venue safety, comply with government guidance, increase operational efficiency, and reassure visitors.",
+    "Id": 16159,
+    "Name": "Purple",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16159",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Venues",
+            "Methods": [
+                {
+                    "Name": "Get Venue",
+                    "Description": "Get a venue.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Venues",
+                    "Description": "List all venues.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Venue Visitor Visits",
+                    "Description": "List all visits of a venue visitor.",
+                    "MethodType": "Action",
+                    "Subcategory": "Visitors"
+                },
+                {
+                    "Name": "List Venue Visitors",
+                    "Description": "List all visitors of a venue.",
+                    "MethodType": "Action",
+                    "Subcategory": "Visitors"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Wifi Webhook",
+                    "Description": "Webhook that listens for when a device connects to your WiFi.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/purple-connector"
+}

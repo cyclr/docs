@@ -1,0 +1,86 @@
+{
+    "Description": "Constant Contact empowers small businesses and nonprofits to grow and succeed through email marketing. ",
+    "Id": 12100,
+    "Name": "Constant Contact",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12100",
+    "Categories": [
+        "Marketing",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact by ID",
+                    "Description": "Gets details of a single contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a single contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts",
+                    "Description": "Gets a list of all contacts in the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update the details of an existing contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New & Updated Contacts",
+                    "Description": "Gets a list of all new & updated contacts in the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact",
+                    "Description": "Add a new contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Lists",
+            "Methods": [
+                {
+                    "Name": "Get Contact List Members",
+                    "Description": "Get Contact List Members",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact To List",
+                    "Description": "Adds a contact to a list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Contact From List",
+                    "Description": "Removes a contact from a list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Lists",
+                    "Description": "Get all Contact Lists",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact List",
+                    "Description": "Creates a new Contact List",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Integrate Constant Contact - Email Marketing Automation - Cyclr",
+    "MetaDescription": "Keep your Constant Contact email marketing platform automatically up to date by integrating it with your favourite business apps.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/constant-contact",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/constant-contact"
+}

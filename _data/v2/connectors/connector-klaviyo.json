@@ -1,0 +1,66 @@
+{
+    "Description": "Klaviyo makes it easy for ecommerce marketers to target, personalize, measure and optimize email and Facebook campaigns.",
+    "Id": 14687,
+    "Name": "Klaviyo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14687",
+    "Categories": [
+        "Email Marketing",
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Subscribe To List",
+                    "Description": "Subscribe or re-subscribe profiles to a list. Profiles will be single or double opted into the specified list in accordance with that list\u2019s settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List or Segment Members",
+                    "Description": "Gets all of the emails, phone numbers, and push tokens for profiles in a given list or segment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add List Member",
+                    "Description": "Add profile to a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List",
+                    "Description": "Gets a single List by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List's Exclusions",
+                    "Description": "Gets all of the emails and phone numbers that have been excluded from a list along with the exclusion reasons and exclusion time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lists",
+                    "Description": "Gets all the Lists in the account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Exclusions",
+            "Methods": [
+                {
+                    "Name": "Get Global Exclusions and Unsubscribes",
+                    "Description": "Returns global exclusions/unsubscribes. Global exclusions are distinct from list exclusions in that these email addresses will not receive any emails from any list.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,296 @@
+{
+    "Description": "ManageBac is the leading IB learning management system (LMS) - the trusted choice of over 3,000 IB World schools supporting the IB DP, CP, MYP and PYP.",
+    "Id": 13136,
+    "Name": "ManageBac",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13136",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Memberships",
+            "Methods": [
+                {
+                    "Name": "List Updated Memberships",
+                    "Description": "List all memberships updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Memberships",
+                    "Description": "List all memberships.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Students",
+            "Methods": [
+                {
+                    "Name": "List Updated Students",
+                    "Description": "List all students updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Student",
+                    "Description": "Creates new student record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Student",
+                    "Description": "Retrieves a single student.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Students",
+                    "Description": "List all students.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Student",
+                    "Description": "Updates a student record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Archive Student",
+                    "Description": "Archives the student record hiding the student from classes, groups etc.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unarchive Student",
+                    "Description": "Reverses the archive operation on the student record, showing the student in classes, groups etc.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Parents",
+            "Methods": [
+                {
+                    "Name": "List Parents",
+                    "Description": "List all parents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Archive Parent",
+                    "Description": "Archives the parent record. This action will hide the parent from groups they are members of.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unarchive Parent",
+                    "Description": "Reverses the archive operation on the parent record. This action will restore the parent's group membership and show the parent in groups they were members of before archive action.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Parent",
+                    "Description": "Retrieves a single parent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Parent",
+                    "Description": "Create a new parent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Parent",
+                    "Description": "Update a parent.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teachers",
+            "Methods": [
+                {
+                    "Name": "List Updated Teachers",
+                    "Description": "List all updated teachers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Teacher",
+                    "Description": "Create a new teacher.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Teachers",
+                    "Description": "List all teachers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Teacher",
+                    "Description": "Retrieves a teacher.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Teacher",
+                    "Description": "Update a teacher.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Year Groups",
+            "Methods": [
+                {
+                    "Name": "List Year Groups",
+                    "Description": "List all year groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Year Groups",
+                    "Description": "List all year groups updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Students From Year Group",
+                    "Description": "Remove a list of student IDs from a Year Group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "Add Students To Year Group",
+                    "Description": "Adds a list of student IDs to a Year Group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "List Advisors",
+                    "Description": "Retrieves the Homeroom, CAS, EE and TOK advisors for a Year Group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Advisors"
+                },
+                {
+                    "Name": "List Year Group Students",
+                    "Description": "Retrieves all students that belong to a Year Group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "List Homeroom Attendance During Term",
+                    "Description": "Retrieves homeroom attendance for students belonging to a Year Group. The homeroom attendance is retrieved for a Academic Term.",
+                    "MethodType": "Action",
+                    "Subcategory": "Attendance"
+                },
+                {
+                    "Name": "List Homeroom Attendance For A Date",
+                    "Description": "Retrieves homeroom attendance for students belonging to a Year Group on a date.",
+                    "MethodType": "Action",
+                    "Subcategory": "Attendance"
+                }
+            ]
+        },
+        {
+            "Category": "Schools",
+            "Methods": [
+                {
+                    "Name": "Get School Subjects",
+                    "Description": "Retrieves the subject details for enabled subjects. Subjects are only retrieved if the program is enabled at the school. The returned subjects are grouped by program (programmes).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get School",
+                    "Description": "Retrieves school details and enabled programs (programmes).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get School Grades",
+                    "Description": "Retrieves the grade details defined for each programs (programmes) a school runs. It returns grades grouped by each program (programme).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Academic Years",
+                    "Description": "Retrieves a list of academic years and terms defined for each program (programme) enabled for the school.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Classes",
+            "Methods": [
+                {
+                    "Name": "Get Class Task",
+                    "Description": "Retrieves a task that belongs to the class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Tasks"
+                },
+                {
+                    "Name": "List Class Term Grades",
+                    "Description": "Retrieves all term grades for a term belonging to a class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Grades"
+                },
+                {
+                    "Name": "Get Class",
+                    "Description": "Retrieves a single class.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Student Assesment Results",
+                    "Description": "Retrieves assessment results of all students for a class task.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "List Updated Classes",
+                    "Description": "List all classes updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Class Students",
+                    "Description": "Retrieves all students belonging to the class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "List Class Attendance During Term",
+                    "Description": "Retrieves attendance for all students within a class during an academic term.",
+                    "MethodType": "Action",
+                    "Subcategory": "Attendance"
+                },
+                {
+                    "Name": "List Class Grades During Term",
+                    "Description": "Retrieves all gradebook grades for a term belonging to a class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Grades"
+                },
+                {
+                    "Name": "List Class Attendance For A Date",
+                    "Description": "Retrieves the class attendance for all the class students on a given date. The specified date must be between the class's start and end dates.",
+                    "MethodType": "Action",
+                    "Subcategory": "Attendance"
+                },
+                {
+                    "Name": "List Classes",
+                    "Description": "List all classes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Class Tasks",
+                    "Description": "Retrieves all tasks belonging to the class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Tasks"
+                },
+                {
+                    "Name": "Remove Students From A Class",
+                    "Description": "Removes students, specified by list of student IDs, from a class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                },
+                {
+                    "Name": "Add Students To Class",
+                    "Description": "Adds students, specified by a list of student IDs, to a class.",
+                    "MethodType": "Action",
+                    "Subcategory": "Students"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/managebac-connector"
+}

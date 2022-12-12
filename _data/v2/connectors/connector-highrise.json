@@ -1,0 +1,125 @@
+{
+    "Description": "Simple CRM. Manage relationships, communication, tasks and more.",
+    "Id": 11765,
+    "Name": "Highrise",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11765",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Search People By Email",
+                    "Description": "Find an individual (or multiple) person/contact with a specific email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person",
+                    "Description": "Find a person/contact by their record ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "Update a person / contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "Delete a person / contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "Create a person / contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People",
+                    "Description": "Get people / contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People",
+                    "Description": "Get people / contacts that have been created or updated since last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Emails",
+            "Methods": [
+                {
+                    "Name": "List Emails",
+                    "Description": "List of all emails for the authenticated user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Emails",
+                    "Description": "List of all emails for the authenticated user since the last successful run date.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notes",
+            "Methods": [
+                {
+                    "Name": "List Notes",
+                    "Description": "List of all notes for the authenticated user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Notes",
+                    "Description": "List all new notes for the authenticated user since the last successful run date.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "List Companies",
+                    "Description": "Get all companies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "List Deals",
+                    "Description": "Get all deals for the authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cases",
+            "Methods": [
+                {
+                    "Name": "List Open Cases",
+                    "Description": "Get open cases for the authenticated user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Closed Cases",
+                    "Description": "Get closed cases for the authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Highrise Integration - CRM Automation - Cyclr",
+    "MetaDescription": "Connect your Highrise CRM to all of your essential apps to streamline business process & cut out admin.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/highrise",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

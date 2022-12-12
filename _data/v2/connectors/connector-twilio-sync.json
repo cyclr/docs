@@ -1,0 +1,75 @@
+{
+    "Description": "Synchronize web and mobile apps with a single source of state in the cloud.",
+    "Id": 2394,
+    "Name": "Twilio Sync",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2394",
+    "Categories": [
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Services",
+            "Methods": [
+                {
+                    "Name": "List all Services",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Documents",
+            "Methods": [
+                {
+                    "Name": "List all documents",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create document",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update document",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Create list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Push item to list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List all lists",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update item in list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove item from list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List items in list",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

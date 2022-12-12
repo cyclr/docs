@@ -1,0 +1,68 @@
+{
+    "Description": "3D Cart makes it easy to build the perfect website for your business and start selling your products or services online.",
+    "Id": 16926,
+    "Name": "3D Cart",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16926",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Order Status",
+                    "Description": "Get a list of all order status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "Get a list of all orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get an order by it's order ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Get a list of all orders created since the last cycle run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "Get a list of all orders created and updated since the last cycle run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer by customer ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Get a list of all customers created and updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Get a list of all orders.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/3DCart-connector"
+}

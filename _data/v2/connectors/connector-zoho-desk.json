@@ -1,0 +1,121 @@
+{
+    "Description": "Zoho Desk is the industry's first context-aware help desk software that helps businesses focus on the customer.",
+    "Id": 15385,
+    "Name": "Zoho Desk",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15385",
+    "Categories": [
+        "Customer Experience",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Help Center Users",
+            "Methods": [
+                {
+                    "Name": "List Help Center Users",
+                    "Description": "List all help center users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all Contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tickets",
+            "Methods": [
+                {
+                    "Name": "Update Ticket",
+                    "Description": "Update a ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Tickets",
+                    "Description": "List All Tickets created or updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ticket",
+                    "Description": "Gets the details of a ticket",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ticket",
+                    "Description": "Create a new ticket",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Tickets",
+                    "Description": "List All Tickets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Tickets",
+                    "Description": "List All Tickets created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "List all roles.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "List Organizations",
+                    "Description": "List all organizations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organization",
+                    "Description": "Gets the specified organization.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Departments",
+            "Methods": [
+                {
+                    "Name": "List Departments",
+                    "Description": "List all departments.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Agents",
+            "Methods": [
+                {
+                    "Name": "List Agents",
+                    "Description": "List all agents.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/zoho"
+}

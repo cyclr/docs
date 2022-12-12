@@ -1,0 +1,31 @@
+{
+    "Description": "Centrally manage and automate backups across AWS services.",
+    "Id": 12043,
+    "Name": "AWS Backup",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12043",
+    "Categories": [
+        "Developer Tools",
+        "DevOps"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Backup Jobs",
+            "Methods": [
+                {
+                    "Name": "List Backup Jobs",
+                    "Description": "Returns a list of existing backup jobs for an authenticated account.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/aws-backup-connector"
+}

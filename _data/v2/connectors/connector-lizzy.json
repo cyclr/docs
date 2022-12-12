@@ -1,0 +1,75 @@
+{
+    "Description": "Lizzy is the leading DMS/BMS for the powersports, OPE, and marine industries. ",
+    "Id": 13741,
+    "Name": "Lizzy",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13741",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Service History",
+            "Methods": [
+                {
+                    "Name": "List Service History",
+                    "Description": "Get list of service history records. Returns false if no records found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Service History",
+                    "Description": "Get list of service history records since last run. Returns false if no records found.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Serialized Sales",
+            "Methods": [
+                {
+                    "Name": "List New Serialized Sales",
+                    "Description": "Get list of new serialized sales since last run. Returns false if no records found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Serialized Sales",
+                    "Description": "Get list of serialized sales. Returns false if no records found.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Part Sales",
+            "Methods": [
+                {
+                    "Name": "List Part Sales",
+                    "Description": "Get list of part sales. Returns false if no records found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Part Sales",
+                    "Description": "Get list of new part sales since last run. Returns false if no records found.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get invoice. Returns false if no invoice found.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/lizzy-connector"
+}

@@ -1,0 +1,120 @@
+{
+    "Description": "Enterprise Pest Control Software.",
+    "Id": 15572,
+    "Name": "ServSuite",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15572",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Work Orders",
+            "Methods": [
+                {
+                    "Name": "List Completed Work Orders by Date Range",
+                    "Description": "Get detailed list of work orders completed within a range of dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Completed Work Orders",
+                    "Description": "Get detailed list of work orders completed since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact By Account ID",
+                    "Description": "Retrieves the primary contact of the specified account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Addresses",
+            "Methods": [
+                {
+                    "Name": "Get Address",
+                    "Description": "Retrieves the address specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Estimates",
+            "Methods": [
+                {
+                    "Name": "List New Received Estimates",
+                    "Description": "Get estimates received since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Estimates by Date Range",
+                    "Description": "Get estimates sheduled in the specified date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Estimates",
+                    "Description": "Get estimates added since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sheduled Estimates",
+                    "Description": "Get estimates scheduled since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Estimates by Date Range",
+                    "Description": "Get estimates from the specified date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Received Estimates by Date Range",
+                    "Description": "Get estimates received in the specified date range.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Retrieves the account specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices by Date Range",
+                    "Description": "Get invoice details by date range",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Invoices",
+                    "Description": "Get invoices added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "Get invoices modified since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/servsuite"
+}

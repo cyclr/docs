@@ -1,0 +1,111 @@
+{
+    "Description": "Search engine for B2B prospects, helping sales department reach decision makers worldwide.",
+    "Id": 7403,
+    "Name": "Datafy",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7403",
+    "Categories": [
+        "Marketing",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Retrieve Contact",
+                    "Description": "Retrieve a single contacts details from Datafy.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Company",
+            "Methods": [
+                {
+                    "Name": "Retrieve Company",
+                    "Description": "Retrieve a company from Datafy.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Employees",
+                    "Description": "Retrieve a list of contacts that have a position at the specified company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Searches",
+            "Methods": [
+                {
+                    "Name": "Estimate",
+                    "Description": "Estimate number of results based on keywords",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Run New Search",
+                    "Description": "A new Search is created and started for the Customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Search Results - Persons",
+                    "Description": "Get Persons that resulted from the search.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Search Results - Companies",
+                    "Description": "Get Companies that resulted from the search.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Catalog",
+            "Methods": [
+                {
+                    "Name": "Countries",
+                    "Description": "A collection of Countries available when running Queries",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Industries",
+                    "Description": "A collection of Industries available when running Queries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Companies",
+                    "Description": "A collection of Companies available when running Queries.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Query",
+            "Methods": [
+                {
+                    "Name": "Run New Partner Query",
+                    "Description": "Search-related actions of the Partner API. All actions are customer-specific, which means that a customer ID must be provided as a part of the URL to be able to list or run searches and retrieve their results.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User",
+            "Methods": [
+                {
+                    "Name": "Get User Details",
+                    "Description": "Get current API user details.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/datafy",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

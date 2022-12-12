@@ -1,0 +1,92 @@
+{
+    "Description": "Drip is the first ECRM\u2013an Ecommerce CRM designed for building personal and profitable relationships with your customers at scale.",
+    "Id": 14513,
+    "Name": "Drip",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14513",
+    "Categories": [
+        "Chat",
+        "Customer Experience",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "List all campaigns.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Fetch a specific campaign record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Subscriber to Campaign",
+                    "Description": "Subscribe someone to a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaign Subscribers",
+                    "Description": "List all subscribers for a specific campaign.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Fetch a the authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscribers",
+            "Methods": [
+                {
+                    "Name": "Upsert Subscriber",
+                    "Description": "Create a new subscriber, or update an existing subscriber.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscribers",
+                    "Description": "List all subscribers (now known as people within the Drip portal).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions",
+                    "Description": "List all of a subscriber's campaign subscriptions",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscriber",
+                    "Description": "Fetch an individual subscriber (person) record.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "Get Main Account",
+                    "Description": "Retrieve details of the main account accessible to the logged-in user.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/drip-connector"
+}

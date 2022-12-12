@@ -1,0 +1,60 @@
+{
+    "Description": "Gmail is email that's intuitive, efficient, and useful.",
+    "Id": 15437,
+    "Name": "Gmail",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15437",
+    "Categories": [
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Messages",
+            "Methods": [
+                {
+                    "Name": "Get Email",
+                    "Description": "Reads an email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send",
+                    "Description": "Sends an email to the specified recipient",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send with Attached Text File",
+                    "Description": "Sends an email to the specified recipient with attached text data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Email Attachment",
+                    "Description": "Gets an email atachment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Emails",
+                    "Description": "Lists Emails.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Emails by Query",
+                    "Description": "Lists Emails.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Emails",
+                    "Description": "Lists Emails received since the last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

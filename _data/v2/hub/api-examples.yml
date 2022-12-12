@@ -1,0 +1,9 @@
+title: API Examples
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+sections: 
+  - title: Content 
+    display: true
+    items: 
+    - title: Create an Account and Install/Setup/Run a Template
+      url: /create-account-and-install-template
+      text: How to use API calls to create an account with a template

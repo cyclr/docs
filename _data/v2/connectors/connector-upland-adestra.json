@@ -1,0 +1,86 @@
+{
+    "Description": "Adestra is a worldwide leader of one-to-one email and lifecycle marketing solutions for global and growing brands.",
+    "Id": 12209,
+    "Name": "Upland Adestra",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12209",
+    "Categories": [
+        "Marketing",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Search Contacts By Email",
+                    "Description": "Fetches all matching contacts in the specified core table. Custom response fields can be added in the format methodResponse.[contacts].<fieldname> e.g. methodResponse.[contacts].firstname",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Adds a new contact record. Custom request fields can be added with the format \"methodCall.fields.<fieldname>$<datatype>. e.g. methodCall.fields.firstname$string",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Fetches all contacts.  Custom response fields can be added in the format methodResponse.[contacts].<fieldname> e.g. methodResponse.[contacts].firstname",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Add Contact to List",
+                    "Description": "Adds a contact to a list. No action is taken if the contact is already on the list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Lists",
+                    "Description": "Returns the lists the contact is in.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lists",
+                    "Description": "Fetches all lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tables",
+            "Methods": [
+                {
+                    "Name": "List Core Tables",
+                    "Description": "Fetches all core tables.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Data Tables",
+                    "Description": "Fetches all data tables.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campains",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Fetches all campaigns.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/authenticate-adestra"
+}

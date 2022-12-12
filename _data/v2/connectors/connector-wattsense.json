@@ -1,0 +1,35 @@
+{
+    "Description": "The new standard in building connectivity. Wattsense is a non-intrusive building connectivity service. We help facility managers deliver operational efficiency.",
+    "Id": 11851,
+    "Name": "Wattsense",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11851",
+    "Categories": [
+        "IoT"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Device",
+            "Methods": [
+                {
+                    "Name": "List Device Properties",
+                    "Description": "This endpoint allows you to search for measurements sent by a device. If no parameter is passed, it returns all the values for all the properties of the device during the last 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Device Properties",
+                    "Description": "This endpoint allows you to search for measurements sent by a device since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

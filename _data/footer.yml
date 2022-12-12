@@ -1,0 +1,28 @@
+## Footer content
+## Icon homepage link, other nav, search, copyright
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+icon_text: cyclr.com
+show_icon: true
+external_url: https://cyclr.com
+active: true
+show_search: true
+copyright: 2022 Cyclr. All rights reserved.
+items:
+  - title: Documentation
+    url: /index
+    active: true
+  - title: Log In
+    external_url: https://cyclr.com/
+    active: true
+  - title: Website
+    external_url: https://cyclr.com/
+    active: true
+  - title: Privacy Policy
+    external_url: https://cyclr.com/privacy-policy
+    active: true
+  - title: Resources
+    url: https://cyclr.com/
+    active: true
+  - title: Terms and Conditions
+    external_url: https://cyclr.com/terms-and-conditions
+    active: true

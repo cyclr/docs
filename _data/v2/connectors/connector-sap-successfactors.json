@@ -1,0 +1,399 @@
+{
+    "Description": "You can use these APIs to maintain the general background information of an employee, including education and outside work experiences.",
+    "Id": 16729,
+    "Name": "SAP SuccessFactors",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16729",
+    "Categories": [
+        "HR/Payroll",
+        "Collaboration"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List All Users",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Job Requisitions",
+            "Methods": [
+                {
+                    "Name": "Get Job Requisition Posting",
+                    "Description": "Gets job requisition posting by ID. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Job Requisition Posting ",
+                    "Description": "Retrieves a list of  job requisition postings. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Job Applications",
+            "Methods": [
+                {
+                    "Name": "List Job Application Assessment Reports",
+                    "Description": "Returns all job application assessment reports.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job Application Assessment Report",
+                    "Description": "Returns the specified job application assessment report.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get an Employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Employees",
+                    "Description": "List All Updated Employees since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Employees",
+                    "Description": "List All New Employees since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "List All Employees.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Candidates",
+            "Methods": [
+                {
+                    "Name": "Create Candidate",
+                    "Description": "Creates a candidate. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Candidate",
+                    "Description": "Updates a candidate. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Success Factors - Employee Profile",
+            "Methods": [
+                {
+                    "Name": "Delete Education",
+                    "Description": "Delete education.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Education"
+                },
+                {
+                    "Name": "List Education",
+                    "Description": "List all education.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Education"
+                },
+                {
+                    "Name": "Create Education",
+                    "Description": "Create education.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Education"
+                },
+                {
+                    "Name": "Update Education",
+                    "Description": "Update education.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Education"
+                },
+                {
+                    "Name": "Update Volunteer Work",
+                    "Description": "Update volunteer work.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Community"
+                },
+                {
+                    "Name": "List Volunteer Work",
+                    "Description": "List all volunteer work.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Community"
+                },
+                {
+                    "Name": "Delete Volunteer Work",
+                    "Description": "Delete volunteer work.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Volunteer Work",
+                    "Description": "Create volunteer work.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Volunteer Work",
+                    "Description": "Get a single volunteer work job.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Community"
+                },
+                {
+                    "Name": "Get Education",
+                    "Description": "Get education.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Education"
+                },
+                {
+                    "Name": "Update Inside Work Experience",
+                    "Description": "Update inside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Inside Work Experience"
+                },
+                {
+                    "Name": "Get Inside Work Experience",
+                    "Description": "Get inside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Inside Work Experience"
+                },
+                {
+                    "Name": "Delete Inside Work Experience",
+                    "Description": "Delete inside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Inside Work Experience"
+                },
+                {
+                    "Name": "List Inside Work Experience",
+                    "Description": "List all inside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Inside Work Experience"
+                },
+                {
+                    "Name": "Create Inside Work Experience",
+                    "Description": "Create inside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Inside Work Experience"
+                },
+                {
+                    "Name": "Delete Language",
+                    "Description": "Delete a language.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Languages"
+                },
+                {
+                    "Name": "Update Langauge",
+                    "Description": "Update a language.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Languages"
+                },
+                {
+                    "Name": "Get Language",
+                    "Description": "Get a language.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Languages"
+                },
+                {
+                    "Name": "List Languages",
+                    "Description": "List all languages.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Languages"
+                },
+                {
+                    "Name": "Create Language",
+                    "Description": "Create language.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Languages"
+                },
+                {
+                    "Name": "Update Outside Work Experience",
+                    "Description": "Update outside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Outside Work Experience"
+                },
+                {
+                    "Name": "Get Outside Work Experience",
+                    "Description": "Get outside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Outside Work Experience"
+                },
+                {
+                    "Name": "Get Course",
+                    "Description": "Get a course.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Courses"
+                },
+                {
+                    "Name": "Create Course",
+                    "Description": "Create a new course.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Courses"
+                },
+                {
+                    "Name": "List Courses",
+                    "Description": "List all courses.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Courses"
+                },
+                {
+                    "Name": "Update Course",
+                    "Description": "Update a course.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Courses"
+                },
+                {
+                    "Name": "Delete Course",
+                    "Description": "Delete a course.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Courses"
+                },
+                {
+                    "Name": "Delete Outside Work Experience",
+                    "Description": "Delete outside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Outside Work Experience"
+                },
+                {
+                    "Name": "List Outside Work Experience",
+                    "Description": "List all outside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Outside Work Experience"
+                },
+                {
+                    "Name": "Get Lead Experience",
+                    "Description": "Get lead experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Lead Experience"
+                },
+                {
+                    "Name": "Update Lead Experience",
+                    "Description": "Update lead experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Lead Experience"
+                },
+                {
+                    "Name": "Delete Lead Experience",
+                    "Description": "Delete lead experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Lead Experience"
+                },
+                {
+                    "Name": "Create Outside Work Experience",
+                    "Description": "Create outside work experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Outside Work Experience"
+                },
+                {
+                    "Name": "Create Lead Experience",
+                    "Description": "Create lead experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Lead Experience"
+                },
+                {
+                    "Name": "List Lead Experience",
+                    "Description": "List all lead experience.",
+                    "MethodType": "Action",
+                    "Subcategory": "Background Lead Experience"
+                }
+            ]
+        },
+        {
+            "Category": "Success Factors - Employee Payroll",
+            "Methods": [
+                {
+                    "Name": "Get Time Valuation",
+                    "Description": "Get a time valuation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Sheets",
+                    "Description": "List all time sheets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Sheet Entries",
+                    "Description": "List all time sheet entries.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Time Sheet",
+                    "Description": "Get a time sheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Time Sheet Entry",
+                    "Description": "Get a time sheet entry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Valuations",
+                    "Description": "List all time valuations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Payroll Item",
+                    "Description": "Delete a payroll item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Payroll Items",
+                    "Description": "List all payroll items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Payroll Item",
+                    "Description": "Update payroll item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Payroll Item",
+                    "Description": "Create payroll item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Payroll",
+                    "Description": "Get a payroll.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Payrolls",
+                    "Description": "List all payrolls.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Payroll Item",
+                    "Description": "Get a payroll item.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Entities",
+            "Methods": [
+                {
+                    "Name": "List Entity Metadata",
+                    "Description": "Lists Metadata for and entity.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

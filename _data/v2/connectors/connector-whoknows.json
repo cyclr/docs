@@ -1,0 +1,29 @@
+{
+    "Description": "Cognitive people search and analytics platform",
+    "Id": 2933,
+    "Name": "WhoKnows",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2933",
+    "Categories": [
+        "Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Methods": [
+                {
+                    "Name": "Search",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

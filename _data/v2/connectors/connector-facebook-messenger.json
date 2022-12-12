@@ -1,0 +1,80 @@
+{
+    "Description": "Reach new people and re-engage ones you know on Facebook Messenger.",
+    "Id": 16379,
+    "Name": "Facebook Messenger",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16379",
+    "Categories": [
+        "Social Media"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Message Received",
+                    "Description": "This callback will occur when a message has been sent to your Page.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Webhook",
+                    "Description": "Receiver for Facebook Webhooks.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Conversations",
+            "Methods": [
+                {
+                    "Name": "Get Conversation",
+                    "Description": "Get a conversation between a Facebook page and a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Conversations",
+                    "Description": "Return all conversations between a Facebook page and users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Conversations",
+                    "Description": "Return all conversations updated since the last successful cycle run datetime.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Conversations in Folder",
+                    "Description": "Return all conversations between a Facebook page and users in a specific folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Conversation Messages",
+                    "Description": "Get messages in a conversation between a Facebook page and a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Done Conversations",
+                    "Description": "Return all conversations between a Facebook page and users that have been marked as Done.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pages",
+            "Methods": [
+                {
+                    "Name": "List Page Tokens",
+                    "Description": "Get all available page tokens for the authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/facebook-messenger-connector"
+}

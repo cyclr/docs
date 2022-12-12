@@ -1,0 +1,40 @@
+{
+    "Description": "Formstack provides a builder that enables users to create any type of online form which can be deployed on a website.",
+    "Id": 7802,
+    "Name": "Formstack",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7802",
+    "Categories": [
+        "Forms",
+        "Surveys"
+    ],
+    "MethodCategories": [
+        {
+            "Methods": [
+                {
+                    "Name": "New Submission",
+                    "Description": "Notification each time there is a new submission of the form.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Forms",
+                    "Description": "Get all the forms in your account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Fields",
+                    "Description": "Get all the fields for the specified form.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Formstack Integration - Contact & Questionnaire Form Automation - Cyclr",
+    "MetaDescription": "Automatically send the results of your Formstack forms to where you need them most!",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/formstack",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

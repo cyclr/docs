@@ -1,0 +1,90 @@
+{
+    "Description": "Liana Technologies is an international company specialized in digital marketing and communication software. Our mission is to give the best possible tools in the form of our digital product family.",
+    "Id": 12303,
+    "Name": "LianaCMS",
+    "Version": "3.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12303",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product",
+                    "Description": "Retrieves details for a specified product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates the details for a specified product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Returns all products that match the given filters.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Creates a product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "List Form Submissions",
+                    "Description": "Returns all submissions for a specified form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Forms",
+                    "Description": "Returns all forms.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Returns all users, optionally filtered by Group ID's.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Updates the details for a specified user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Categories",
+            "Methods": [
+                {
+                    "Name": "List Categories",
+                    "Description": "Returns all categories, optionally filtered by language code.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/lianacms-connector"
+}

@@ -1,0 +1,45 @@
+{
+    "Description": "Our extension for Magento gives you webhooks for new and updated customers. ",
+    "Id": 5093,
+    "Name": "Magento Extension",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5093",
+    "Categories": [
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Customer Registers",
+                    "Description": "This webhook is triggered when a new customer is registered on Magento.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Updates",
+                    "Description": "This webhook is triggered when an existing customer is updated on Magento.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "New Order",
+                    "Description": "This webhook is triggered when a new order is made on Magento.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Integrate Magento | eCommerce Automation | Cyclr",
+    "MetaDescription": "Integrate Magento eCommerce shops with your application to enhance your users' marketing, communications, data management & shop administration. ",
+    "Screenshot": null,
+    "Content": "<p>Seamlessly integrate your application with Magento eCommerce shops, helping automate your users' marketing, finance & organisational systems.</p><p>Use Cyclr\u2019s easy to use drag-and-drop workflow builder to build and publish integrations for your users, letting them do more with their resources; making their sales & customer data work for them. </p>   ",
+    "WebsiteUrl": "https://cyclr.com/integrate/magento",
+    "DocumentationUrl": "https://cyclr.com/docs/magento-plugin/magento-introduction",
+    "PartnerSetupGuideUrl": null
+}

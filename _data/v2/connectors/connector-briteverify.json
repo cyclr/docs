@@ -1,0 +1,33 @@
+{
+    "Description": "Verify individual email addresses on demand as a user enters them in a web form or mobile application.",
+    "Id": 1818,
+    "Name": "BriteVerify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1818",
+    "Categories": [
+        "Data Tools",
+        "Ecommerce",
+        "Email Marketing",
+        "Sales",
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Methods": [
+                {
+                    "Name": "Email Verification",
+                    "Description": "Verify email addresses on demand",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/briteverify",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

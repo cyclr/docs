@@ -1,0 +1,155 @@
+/* 
+ * bootstrap and custom variables
+ */
+
+$font-family-sans-serif: 'Montserrat', Arial, sans-serif;
+
+// colours
+$red:                   #E20B14;
+$yellow:				#DCFF00;
+$pink:					#E23653;
+$white:                 #FFFFFF;
+$gray-100:				#FDFCFC;
+$gray-200:              #EAEAE9;
+$gray-300:              #B9B9B9;
+$gray-700:              #333B46;
+$gray-800:              #343B46;
+$green-1:               #469D10;
+$green-2:               #D4D800;
+$dark:					$gray-800;
+$link-color:			$red;
+$link-color-light:      $red;
+$primary:               $pink;
+$secondary:             $yellow;
+
+$brand-primary:         $pink;
+$brand-success:         $yellow;
+$brand-info:            $pink;
+$brand-warning:         $red;
+$brand-danger:          $red;
+
+// typography
+$font-size-h1:				36px;
+$font-size-h2:				32px;
+$font-size-h3:				28px;
+$font-size-h4:				24px;
+$font-size-h5:				18px;
+$font-size-h6:				16px;
+
+$hero-font-size-h1:         24px;
+$hero-font-weight-h1:       700;
+$hero-line-height-h1:       29px;
+$hero-text-transform-h1:    uppercase;
+
+$hero-font-size-h2:         36px;
+$hero-font-weight-h2:       400;
+$hero-line-height-h2:       44px;
+$hero-text-transform-h2:    none;
+
+$headings-font-family: 		$font-family-sans-serif;
+$headings-color:			$gray-800;
+$body-color:				$gray-800;
+$body-color-light:          $white;
+$toc-color:                 $body-color;
+$toc-color-bg:              #F4F4F4;
+$toc-spacing-v:             30px;
+$toc-spacing-h:             40px;
+$toc-spacing:               $toc-spacing-v $toc-spacing-h;
+
+$content-box_bg:            #f4f4f4;
+$content-box-shadow:        4px 4px 8px 1px rgba(51, 59, 70 , 0.1);
+
+$text-secondary:            $green-1;
+
+// spacing
+$spacing-1:              16px;
+$spacing-2:              18px;
+$spacing-3:              24px;
+$spacing-4:              28px;
+$spacing-5:              32px;
+$spacing-6:              36px;
+
+// navbar
+$navbar-height:                     108px;
+$navbar-margin-bottom:              0;
+$navbar-border-radius:              0;
+$navbar-default-color:              #gray-800;
+$navbar-default-bg:                 $white;
+$navbar-default-border:             $white;
+$navbar-default-link-color:         $red;
+$navbar-default-link-hover-color:   $pink;
+$navbar-default-link-active-color:  $pink;
+
+// Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color:                      $white;
+$navbar-inverse-bg:                         $gray-700;
+$navbar-inverse-border:                     $gray-700;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 $white;
+$navbar-inverse-link-hover-color:           #pink;
+$navbar-inverse-link-active-color:          $pink;
+$navbar-inverse-link-active-bg:             transparent;
+$navbar-inverse-link-disabled-color:        $gray-100;
+
+$navbar-font-size:                          18px;
+$navbar-font-weight:                        700;
+$navbar-font-style:                         normal;
+$navbar-line-height:                        22px;
+
+// search 
+$search-input-font-size:                    18px;
+$search-input-font-weight:                  400;
+$search-input-line-height:                  22px;
+$search-input-border-radius:                82px;
+$search-input-bg:                           #ffffff;     
+$search-input-color:                        $gray-800;
+$placeholder-color:                         rgba(51, 59, 70, 0.5);
+
+// footer
+$footer-color:                              $white;
+$footer-link-color:                         $white;
+$footer-link-color-hover:                   $white;
+$footer-bg:                                 $pink;
+$footer-font-size:                          18px;
+$footer-line-height:                        22px;
+$footer-font-weight:                        500;
+
+// sidebar 
+$sidebar_width_media_md:                    307px;
+$sidebar-color:                             $white;
+$sidebar-bg:                                $pink;
+$sidebar-font-size:                         18px;
+$sidebar-font-weight:                       700;
+$sidebar-line-height:                       22px;
+$sidebar-link-color:                        $white;
+$sidebar-link-color-hover:                  $white;
+$sidebar-link-color-active:                 $white;
+$sidebar-link-border-color:                 transparent;
+$sidebar-link-border-width:                 0;
+$sidebar-submenu-font-size:                 16px;
+$sidebar-submenu-font-weight:               400;
+$sidebar-submenu-line-height:               20px;
+$sidebar-submenu-link-color:                $white;
+$sidebar-submenu-link-color-hover:          $white;
+$sidebar-submenu-link-color-active:         $white;
+$sidebar-nav-spacing:                       25px;
+$sidebar-height:                            calc(100vh - 108px);
+
+// content
+$content-font-size:                         18px;
+$content-line-height:                       22px;
+$content-gutter-max:                        80px;
+
+$screen-xl-min:                             1400px;
+@import "bootstrap/variables";
+
+$content-width-max-md:                      calc(#{$screen-md-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+$content-width-max-lg:                      calc(#{$screen-lg-min} - #{$sidebar_width_media_md} - (#{$sidebar-nav-spacing} * 2));
+$content-width-max-xl:                      calc(100vw - #{$sidebar_width_media_md} - (#{$content-gutter-max} * 2));
+
+$content-width-max-md-nonav:                960px;
+$content-width-max-lg-nonav:                1140px;
+$content-width-max-xl-nonav:                1320px;
+

@@ -1,0 +1,105 @@
+{
+    "Description": "Add webhooks to your Magento 2 installation (requires some setup).",
+    "Id": 15449,
+    "Name": "Magento 2 Webhooks",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15449",
+    "Categories": [
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customer Notifications",
+            "Methods": [
+                {
+                    "Name": "Customer Updated",
+                    "Description": "Get notified when a customer is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Created",
+                    "Description": "Get notified when a new customer is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Deleted",
+                    "Description": "Get notified when a customer is deleted.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Order Notifications",
+            "Methods": [
+                {
+                    "Name": "Order Created",
+                    "Description": "Get notified when a new order is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Updated",
+                    "Description": "Get notified when an order is updated.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Product Notifications",
+            "Methods": [
+                {
+                    "Name": "Product Updated",
+                    "Description": "Get notified when a product is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Product Deleted",
+                    "Description": "Get notified when a product is deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Product Created",
+                    "Description": "Get notified when a new product is created.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriber Notifications",
+            "Methods": [
+                {
+                    "Name": "Subscriber Saved",
+                    "Description": "Get notified when a subscriber is added/removed.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "List Webhooks",
+                    "Description": "List all currently active webhooks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Details of Webhook",
+                    "Description": "Get Details of a webhook by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Webhook (Manually)",
+                    "Description": "Delete a webhook by ID",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/magento-2-webhooks-connector"
+}

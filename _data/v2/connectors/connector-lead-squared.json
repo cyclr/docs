@@ -1,0 +1,22 @@
+{
+    "Description": "Complete Marketing Automation and CRM software for businesses. ",
+    "Id": 1811,
+    "Name": "Lead Squared",
+    "Version": "V2",
+    "Status": "Beta",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/1811",
+    "Categories": [
+        "Marketing",
+        "CRMs",
+        "Email Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/lead-squared",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

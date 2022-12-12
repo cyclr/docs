@@ -1,0 +1,124 @@
+{
+    "Description": "Marketing technology that works across email and website to personalise customer experiences, drive sales and increase customer loyalty.",
+    "Id": 15359,
+    "Name": "Pure360 - Rest",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15359",
+    "Categories": [
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Event Notifications",
+            "Methods": [
+                {
+                    "Name": "Retrieve Event Notifications List",
+                    "Description": "Gets a list of event notifications.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Event Notification",
+                    "Description": "Removes the event notifications.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Event Notification",
+                    "Description": "Updates the event notifications with Process ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Replace List With File Source",
+                    "Description": "Updates existing mailing list with file source.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Replace List With Report Source",
+                    "Description": "Updates existing mailing list with report source.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove List Contact",
+                    "Description": "Removes a contact from the list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve List Uploads",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List",
+                    "Description": "Creates new mailing list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List Uploads ",
+                    "Description": "Uploads the records ready to add to list",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List Uploads (with outbound paging)",
+                    "Description": "Uploads the records ready to add to list",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Replace Contact",
+                    "Description": "Updates a contact.  To add fields to the list, use the field location of [lists].customfields.n where n is the desired column number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a contact.  To apply values to existing fields, use the field location of customfields.colnumber",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contact List",
+                    "Description": "Gets a list of contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contacts By Mobile",
+                    "Description": "Gets a list of contacts with matching mobile.  Search is done by partial or Exact match.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contacts By Email",
+                    "Description": "Gets a list of contacts with matching email.  Search is done by partial or Exact match.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Newsletter (Non-Customer) Contact List",
+                    "Description": "Gets a list of contacts who are not customers, simply newsletter subscribers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contacts",
+                    "Description": "Gets a list of contacts with matching email and/or mobile.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contact",
+                    "Description": "Gets contact details by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

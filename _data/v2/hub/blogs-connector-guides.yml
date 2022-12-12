@@ -1,0 +1,10 @@
+title: Blogs Connector Guides
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+blocks: 
+  - title: New Connector Request
+    text: Don’t see the project management application you need? We are constantly adding new connectors to our library based on our customer requests.
+    icon: file-pen
+  - title: Add to an Existing Connector
+    text: See the Connector you require but not the method? We are keen to expand our Connectors and will happily liase with you over your requirements to improve a Connector.
+    icon: circle-plus
+blocksfooter: Send us an email about the apps you’d like to see in our library!

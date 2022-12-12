@@ -1,0 +1,52 @@
+{
+    "Description": "Create a file with our File connector",
+    "Id": 17157,
+    "Name": "Generic File",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17157",
+    "Categories": [
+        "Utility Connectors",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Create Delimited Text File",
+                    "Description": "Add Request Fields to this connector to create a delimited text file.  Use the Field Location syntax of \"[].FieldName\" to build content from a list (or array) of data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Read Delimited Text File",
+                    "Description": "Convert delimited text file to JSON. Add response fields in the Field Location syntax of \"[].FieldName\" to map the converted data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "XML Files",
+            "Methods": [
+                {
+                    "Name": "Read XML File",
+                    "Description": "Convert XML file to JSON. Add response fields in the Field Location syntax of \"[].FieldName\" to map the converted data. Attributes are prefixed with \"@\".",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create XML File",
+                    "Description": "Add Request Fields to this connector to create an XML file.  Use the Field Location syntax of \"[person].name\" to build content from a list (or array) of data. Use \"[person].@id\" to build attributes. Use \"[person].#cdata-section\" to build character data.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/generic-file"
+}

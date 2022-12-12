@@ -1,0 +1,206 @@
+{
+    "Description": "Neto, by Maropost, is the only B2B and multi-channel ecommerce platform that provides an all-in-one solution for ecommerce, POS, inventory management, order management, and shipping labelling.",
+    "Id": 14223,
+    "Name": "Neto",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14223",
+    "Categories": [
+        "POS",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Retrieves the customer specified by Username or Email Address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Retrieves customers updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer Log",
+                    "Description": "Updates an existing customer log. Customer logs are a record of communication made between you and a customer. (Multiple customer logs can be updated in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer Log",
+                    "Description": "Creates a new customer log. Customer logs are a record of communication made between you and a customer. (Multiple customer logs can be posted in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Updates an existing customer. (Multiple customers can be updated in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Retrieves all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Retrieves customers created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Creates a new customer. (Multiple customers can be posted in one request)",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payments",
+            "Methods": [
+                {
+                    "Name": "Add Payment",
+                    "Description": "Adds a new payment to an order/invoice. (Multiple payments can be posted in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Payment",
+                    "Description": "Retrieves the specified payment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Payments",
+                    "Description": "Retrieves payments created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Payments",
+                    "Description": "Retrieves all payments.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Create Product",
+                    "Description": "Creates a new product. (Multiple products can be posted in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Retrieves products updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates an existing product. (Multiple products can be updated in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Retrieves all products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Retrieves the specified product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Suppliers",
+            "Methods": [
+                {
+                    "Name": "Create Supplier",
+                    "Description": "Creates a new supplier. (Multiple suppliers can be posted in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Supplier",
+                    "Description": "Updates an existing supplier. (Multiple suppliers can be updated in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Suppliers",
+                    "Description": "Retrieves all suppliers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Pick Orders",
+                    "Description": "Retrieves orders with status 'Pick'.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Orders",
+                    "Description": "Retrieves orders with any status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates a new order. (Multiple orders can be posted in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Changed Orders",
+                    "Description": "Retrieves orders that have been changed since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order",
+                    "Description": "Updates an existing order. (Multiple orders can be updated in one request)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Retrieves orders with status 'New'.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pack Orders",
+                    "Description": "Retrieves orders with status 'Pack'.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currency",
+            "Methods": [
+                {
+                    "Name": "Get Currency Settings",
+                    "Description": "Retrieves the currency settings of your Neto account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Currency Settings",
+                    "Description": "Updates the currency settings of your Neto account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payment Methods",
+            "Methods": [
+                {
+                    "Name": "List Payment Methods",
+                    "Description": "Retrieves all payment methods.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,596 @@
+{
+    "Description": "Combining the convenience of the cloud with the power of desktop accounting software, giving you a complete view of all your business finances in one place.",
+    "Id": 12315,
+    "Name": "Sage 50",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12315",
+    "Categories": [
+        "HR/Payroll",
+        "Accounting"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Chart Of Accounts",
+            "Methods": [
+                {
+                    "Name": "List Chart Of Account Accounts",
+                    "Description": "Returns all Chart Of Account Accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Get Chart Of Account Account",
+                    "Description": "Returns a Chart Of Account Account",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "List Chart Of Account Templates",
+                    "Description": "Returns all Chart Of Account Templates.",
+                    "MethodType": "Action",
+                    "Subcategory": "Templates"
+                },
+                {
+                    "Name": "Get Chart Of Account Template",
+                    "Description": "Returns a Coa Template.",
+                    "MethodType": "Action",
+                    "Subcategory": "Templates"
+                },
+                {
+                    "Name": "List Ledger Accounts",
+                    "Description": "Returns all Ledger Accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Accounts"
+                },
+                {
+                    "Name": "Get Ledger Account",
+                    "Description": "Returns a Ledger Account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Accounts"
+                },
+                {
+                    "Name": "List Ledger Account Types",
+                    "Description": "Returns all Ledger Account Types",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Account Types"
+                },
+                {
+                    "Name": "Get Ledger Account Type",
+                    "Description": "Returns a Ledger Account Type.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Account Types"
+                },
+                {
+                    "Name": "Update Ledger Account",
+                    "Description": "Updates a Ledger Account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Accounts"
+                },
+                {
+                    "Name": "List Updated Chart Of Account Accounts",
+                    "Description": "Returns all New Or Updated Chart Of Account Accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "List Updated Ledger Accounts",
+                    "Description": "Returns all New Or Updated Ledger Accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Accounts"
+                },
+                {
+                    "Name": "Create Ledger Account",
+                    "Description": "Creates a Ledger Account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Ledger Accounts"
+                }
+            ]
+        },
+        {
+            "Category": "Address Types",
+            "Methods": [
+                {
+                    "Name": "List Address Types",
+                    "Description": "Returns all Address Types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Contacts",
+                    "Description": "Returns all Contacts",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Returns all Contacts since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a Contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Types",
+            "Methods": [
+                {
+                    "Name": "List Contact Types",
+                    "Description": "Returns all Contact Types",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact People",
+            "Methods": [
+                {
+                    "Name": "List Contact People",
+                    "Description": "Returns all Contact People",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Person",
+                    "Description": "Returns a Contact Person",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contact People",
+                    "Description": "Returns all Contact People updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Countries",
+            "Methods": [
+                {
+                    "Name": "List Countries",
+                    "Description": "Returns all Countries.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currencies",
+            "Methods": [
+                {
+                    "Name": "List Currencies",
+                    "Description": "Returns all Currencies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Purchase Transactions",
+            "Methods": [
+                {
+                    "Name": "List Purchase Corrective Invoices",
+                    "Description": "Returns all Purchase Corrective Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "Get Purchase Corrective Invoice",
+                    "Description": "Returns a Purchase Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "Update Purchase Corrective Invoice",
+                    "Description": "Updates a Purchase Corrective Invoice",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "Delete Purchase Corrective Invoice",
+                    "Description": "Deletes a Purchase Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "List Purchase Credit Notes",
+                    "Description": "Returns all Purchase Credit Notes.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "Get Purchase Credit Note",
+                    "Description": "Returns a Purchase Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "Update Purchase Credit Note",
+                    "Description": "Updates a Purchase Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "Delete Purchase Credit Note",
+                    "Description": "Deletes a Purchase Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "Release Purchase Credit Note",
+                    "Description": "Releases a Purchase Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "List Purchase Invoices",
+                    "Description": "Returns all Purchase Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "Get Purchase Invoice",
+                    "Description": "Returns a Purchase Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "Update Purchase Invoice",
+                    "Description": "Updates a Purchase Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "Delete Purchase Invoice",
+                    "Description": "Deletes a Purchase Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "Release Purchase Invoice",
+                    "Description": "Releases a Purchase Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "List Purchase Quick Entries",
+                    "Description": "Returns all Purchase Quick Entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                },
+                {
+                    "Name": "Get Purchase Quick Entry",
+                    "Description": "Returns a Purchase Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                },
+                {
+                    "Name": "Update Purchase Quick Entry",
+                    "Description": "Updates a Purchase Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                },
+                {
+                    "Name": "Delete Purchase Quick Entry",
+                    "Description": "Deletes a Purchase Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                },
+                {
+                    "Name": "List Updated Purchase Corrective Invoices",
+                    "Description": "Returns all New Or Updated Purchase Corrective Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "List Updated Purchase Credit Notes",
+                    "Description": "Returns all New Or Updated Purchase Credit Notes.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "List Updated Purchase Invoices",
+                    "Description": "Returns all New Or Updated Purchase Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "List Updated Purchase Quick Entries",
+                    "Description": "Returns all New Or Updated Purchase Quick Entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                },
+                {
+                    "Name": "Create Purchase Corrective Invoice",
+                    "Description": "Creates a Purchase Corrective Invoice",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Corrective Invoices"
+                },
+                {
+                    "Name": "Create Purchase Credit Note",
+                    "Description": "Creates a Purchase Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Credit Notes"
+                },
+                {
+                    "Name": "Create Purchase Invoice",
+                    "Description": "Creates a Purchase Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Invoices"
+                },
+                {
+                    "Name": "Create Purchase Quick Entry",
+                    "Description": "Creates a Purchase Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Quick Entries"
+                }
+            ]
+        },
+        {
+            "Category": "Sales Transactions",
+            "Methods": [
+                {
+                    "Name": "List Sales Corrective Invoices",
+                    "Description": "Returns all Sales Corrective Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "Get Sales Corrective Invoice",
+                    "Description": "Returns a Sales Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "Update Sales Corrective Invoice",
+                    "Description": "Updates a Sales Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "Delete Sales Corrective Invoice",
+                    "Description": "Voids a Sales Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "List EU Sales Descriptions",
+                    "Description": "Returns all EU Sales Descriptions.",
+                    "MethodType": "Action",
+                    "Subcategory": "EU Sales Descriptions"
+                },
+                {
+                    "Name": "Get EU Sales Description",
+                    "Description": "Returns a EU Sales Description.",
+                    "MethodType": "Action",
+                    "Subcategory": "EU Sales Descriptions"
+                },
+                {
+                    "Name": "List Sales Credit Notes",
+                    "Description": "Returns all Sales Credit Notes.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "Get Sales Credit Note",
+                    "Description": "Returns a Sales Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "Update Sales Credit Note",
+                    "Description": "Updates a Sales Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "Delete Sales Credit Note",
+                    "Description": "Voids a Sales Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "Release Sales Credit Note",
+                    "Description": "Releases a Sales Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "List Sales Estimates",
+                    "Description": "Returns all Sales Estimates.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Estimates"
+                },
+                {
+                    "Name": "Get Sales Estimate",
+                    "Description": "Returns a Sales Estimate.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Estimates"
+                },
+                {
+                    "Name": "Update Sales Estimate",
+                    "Description": "Updates a Sales Estimate.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Estimates"
+                },
+                {
+                    "Name": "Delete Sales Estimate",
+                    "Description": "Deletes a Sales Estimate.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Estimates"
+                },
+                {
+                    "Name": "List Sales Invoices",
+                    "Description": "Returns all Sales Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "Get Sales Invoice",
+                    "Description": "Returns a Sales Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "Update Sales Invoice",
+                    "Description": "Updates a Sales Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "Delete Sales Invoice",
+                    "Description": "Voids a Sales Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "Release Sales Invoice",
+                    "Description": "Releases a Sales Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "List Sales Quick Entries",
+                    "Description": "Returns all Sales Quick Entries",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "Get Sales Quick Entry",
+                    "Description": "Returns a Sales Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "Update Sales Quick Entry",
+                    "Description": "Updates a Sales Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "Delete Sales Quick Entry",
+                    "Description": "Deletes a Sales Quick Entry",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "List Sales Quotes",
+                    "Description": "Returns all Sales Quotes.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quotes"
+                },
+                {
+                    "Name": "Get Sales Quote",
+                    "Description": "Returns a Sales Quote.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quotes"
+                },
+                {
+                    "Name": "Update Sales Quote",
+                    "Description": "Updates a Sales Quote.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quotes"
+                },
+                {
+                    "Name": "Delete Sales Quote",
+                    "Description": "Deletes a Sales Quote.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quotes"
+                },
+                {
+                    "Name": "List Hosted Artefact Payment Settings",
+                    "Description": "Returns all Hosted Artefact Payment Settings.",
+                    "MethodType": "Action",
+                    "Subcategory": "Hosted Artefact Payment Settings"
+                },
+                {
+                    "Name": "Get Hosted Artefact Payment Setting",
+                    "Description": "Returns a Hosted Artefact Payment Setting.",
+                    "MethodType": "Action",
+                    "Subcategory": "Hosted Artefact Payment Settings"
+                },
+                {
+                    "Name": "Delete Hosted Artefact Payment Setting",
+                    "Description": "Deletes a Hosted Artefact Payment Setting.",
+                    "MethodType": "Action",
+                    "Subcategory": "Hosted Artefact Payment Settings"
+                },
+                {
+                    "Name": "List Updated Sales Corrective Invoices",
+                    "Description": "Returns all New Or Updated Sales Corrective Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "List Updated Sales Credit Notes",
+                    "Description": "Returns all New Or Updated Sales Credit Notes.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "List Updated Sales Estimates",
+                    "Description": "Returns all New Or Updated Sales Estimates.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Estimates"
+                },
+                {
+                    "Name": "List Updated Sales Invoices",
+                    "Description": "Returns all New Or Updated Sales Invoices.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "List Updated Sales Quick Entries",
+                    "Description": "Returns all New Or Updated Sales Quick Entries",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "List Updated Sales Quotes",
+                    "Description": "Returns all New Or Updated Sales Quotes.\t",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quotes"
+                },
+                {
+                    "Name": "Create Sales Corrective Invoice",
+                    "Description": "Creates a Sales Corrective Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Corrective Invoices"
+                },
+                {
+                    "Name": "Create Sales Credit Note",
+                    "Description": "Creates a Sales Credit Note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Credit Notes"
+                },
+                {
+                    "Name": "Create Sales Invoice",
+                    "Description": "Creates a Sales Invoice.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Invoices"
+                },
+                {
+                    "Name": "Create Sales Quick Entry",
+                    "Description": "Creates a Sales Quick Entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Quick Entries"
+                },
+                {
+                    "Name": "Create Hosted Artefact Payment Setting",
+                    "Description": "Creates a Hosted Artefact Payment Setting.",
+                    "MethodType": "Action",
+                    "Subcategory": "Hosted Artefact Payment Settings"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/sage50-connector"
+}

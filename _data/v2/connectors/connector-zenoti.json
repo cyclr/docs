@@ -1,0 +1,325 @@
+{
+    "Description": "Zenoti is the most advanced cloud-based, business software for spas, salons, and medi-spas. Trusted by 5000+ spas and salons across the world.",
+    "Id": 17030,
+    "Name": "Zenoti",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17030",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Guests",
+            "Methods": [
+                {
+                    "Name": "Create Guest",
+                    "Description": "Create a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Center Guests",
+                    "Description": "Retrieve a list of all of the updated guests of a center.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Center Guests",
+                    "Description": "Retrieve a list of guests for a center.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Guest",
+                    "Description": "Update a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Guests",
+                    "Description": "Searches for a guest using one of their credentials.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Guest",
+                    "Description": "Retrieve the details of a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Memberships",
+                    "Description": "Retrieve a list of memberships for a guest.",
+                    "MethodType": "Action",
+                    "Subcategory": "Memberships"
+                },
+                {
+                    "Name": "Create Guest Form",
+                    "Description": "Create a guest form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Guest Form",
+                    "Description": "Get a form of a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Loyalty Points",
+                    "Description": "Get loyalty point history of a guest. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Product Purchased",
+                    "Description": "Retrieves a list of products purchased by a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Prepaid Cards",
+                    "Description": "Retrieve a list of prepaid cards of a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Series Packages",
+                    "Description": "Retrieve a list of series packages for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Coupons ",
+                    "Description": "Retrieve a list of coupons for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Appointment Services",
+                    "Description": "Retrieve a list of appointment services for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guest Appointments",
+                    "Description": "Retrieve a list of appointments for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Guests Gift Cards",
+                    "Description": "Retrieves a list of gift cards for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Guest Note",
+                    "Description": "Get a guest note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Guest Note",
+                    "Description": "Delete a guest note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Guest Note",
+                    "Description": "Create a guest note.",
+                    "MethodType": "Action",
+                    "Subcategory": "Note"
+                },
+                {
+                    "Name": "List Guest Notes",
+                    "Description": "List all notes of a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Guest Note",
+                    "Description": "Update a guest note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Guest Form",
+                    "Description": "Update a guest form.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Centers",
+            "Methods": [
+                {
+                    "Name": "List Centers",
+                    "Description": "Retrieve a list of centers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "List Sales",
+                    "Description": "Retrieves the sales report of a center.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Collections",
+                    "Description": "Retrieve the collections report of a center.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Collections",
+                    "Description": "Retrieve the collections report of a center since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sales",
+                    "Description": "Retrieves the sales report of a center since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Appointments",
+            "Methods": [
+                {
+                    "Name": "Get Appointment",
+                    "Description": "Retrieves the details of an appointment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Appointments by Center",
+                    "Description": "Lists appointments of a specified center.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "Edit an opportunity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Retrieves an opportunity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities Metadata",
+                    "Description": "Lists metadata of the opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "Retrieves a list of all new opportunities since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "Retrieves a list of all opportunities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Membership Sale",
+            "Methods": [
+                {
+                    "Name": "Send Guest Email",
+                    "Description": "If the invoice is closed and has completed payment,  use this method to send an email to a guest. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Center Memberships",
+                    "Description": "Retrieves a list of memberships for a center.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Membership Invoice",
+                    "Description": "Create an invoice for memberships.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Membership From Invoice",
+                    "Description": "Delete a membership from an invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Membership To Invoice",
+                    "Description": "Add a membership to an invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Sale",
+            "Methods": [
+                {
+                    "Name": "Retrieve Invoice Details",
+                    "Description": "Retrieves the details of an invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product From Invoice",
+                    "Description": "Delete product from invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Invoice",
+                    "Description": "Create invoice with products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pay With Gift Card",
+                    "Description": "Collect invoice payment with guest's gift card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Custom Payment",
+                    "Description": "Insert custom payment for an invoice into Zenoti",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pay with Unsaved Card",
+                    "Description": "Collect payment with guest's unsaved card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pay Tip With Card",
+                    "Description": "Collect tip by using a guest's credit/debit card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pay with Saved Card",
+                    "Description": "Collect payment with guest's saved card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Guest Debit/Credit Card",
+                    "Description": "Add a credit/debit card for a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Guest Cards",
+                    "Description": "Delete guest's saved credit/debit cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Stored Cards of a Guest",
+                    "Description": "Retrieve the stored cards of a guest.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Apply Offer Code",
+                    "Description": "Apply a media campaign offer code on an invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Close Invoice",
+                    "Description": "Closes an Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Product To Invoice",
+                    "Description": "Add a product to an invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

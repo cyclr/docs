@@ -1,0 +1,178 @@
+{
+    "Description": "We help eCommerce businesses make pricing decisions.",
+    "Id": 15368,
+    "Name": "BlackCurve V2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15368",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Sales Schema",
+            "Methods": [
+                {
+                    "Name": "Get Sales Schema",
+                    "Description": "Get a sales schema.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sales Schema",
+                    "Description": "Update a sales schema.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales",
+            "Methods": [
+                {
+                    "Name": "Get Sale",
+                    "Description": "Gets a sale.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sales",
+                    "Description": "Update multiple sales.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales",
+                    "Description": "Gets a list of all sales.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sale",
+                    "Description": "Update a sale.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sale",
+                    "Description": "Create a sale.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales",
+                    "Description": "Create multiple sales.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a new product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Gets a list of all products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Products",
+                    "Description": "Update multiple products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Products",
+                    "Description": "Create multiple products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get a product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Schema",
+            "Methods": [
+                {
+                    "Name": "Get Product Schema",
+                    "Description": "Get a product schema.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product Schema",
+                    "Description": "Update a product schema.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Prices",
+            "Methods": [
+                {
+                    "Name": "Get Price",
+                    "Description": "Get a price.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Prices",
+                    "Description": "Gets a list of all prices.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Geography",
+            "Methods": [
+                {
+                    "Name": "Get Geography",
+                    "Description": "Get a geography.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Geographies",
+                    "Description": "Gets a list of all geographies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Errors",
+            "Methods": [
+                {
+                    "Name": "Submit Error",
+                    "Description": "Create an error report. (BlackCurve use only).",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currencies",
+            "Methods": [
+                {
+                    "Name": "Get Currency",
+                    "Description": "Get a currency.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Currency",
+                    "Description": "Update a currency.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Currencies",
+                    "Description": "Gets a list of all currencies.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/blackcurve-connector"
+}

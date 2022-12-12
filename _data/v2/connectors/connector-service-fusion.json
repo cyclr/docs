@@ -1,0 +1,88 @@
+{
+    "Description": "All-in-one field service management software that allows you to run your service business from anywhere with enterprise-level features at a small business price.",
+    "Id": 16376,
+    "Name": "Service Fusion",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16376",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List all customers updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By ID",
+                    "Description": "Get the customer specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By Name",
+                    "Description": "Get the customer specified by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List all customers created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoicing",
+            "Methods": [
+                {
+                    "Name": "List New Invoices",
+                    "Description": "List all Invoices created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "List all Invoices updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoices",
+                    "Description": "List all Invoices",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Estimates",
+            "Methods": [
+                {
+                    "Name": "List Updated Estimates",
+                    "Description": "List all estimates updated since last run",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Estimates",
+                    "Description": "List all estimates since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Estimates",
+                    "Description": "List all estimates",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/servicefusion-connector"
+}

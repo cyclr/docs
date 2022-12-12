@@ -1,0 +1,95 @@
+{
+    "Description": "Scheduling and chatbot solutions. Increase your sales, delight your customers, and save time.",
+    "Id": 16711,
+    "Name": "OnceHub",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16711",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Methods": [
+                {
+                    "Name": "Contact Res",
+                    "MethodType": "WebhookResponse"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "[V2] Booking",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "[V2] Contact",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Booking",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Conversation",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "[V2] Conversation",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Update Contact Details",
+                    "Description": "Update the contact details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Fields",
+            "Methods": [
+                {
+                    "Name": "List Contact Fields",
+                    "Description": "List all contact fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "Update Booking Details",
+                    "Description": "Update the booking details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Conversations",
+            "Methods": [
+                {
+                    "Name": "Update Conversation Details",
+                    "Description": "Update the conversation details.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/oncehub-connector"
+}

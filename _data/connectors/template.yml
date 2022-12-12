@@ -1,0 +1,20 @@
+title: Guide title
+text: This is the content for the connector guide page
+icon: Replace this with the connector icon url
+sections: 
+  - title: Partner Setup
+    items: 
+      - text: content
+    display: true
+  - title: Installing the Connector
+    items:
+      - text: content
+    display: true
+  - title: Section 3
+    items:
+      - text: content
+    display: true
+  - title: FAQ
+    items:
+      - text: content
+    display: true

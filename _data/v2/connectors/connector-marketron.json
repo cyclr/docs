@@ -1,0 +1,431 @@
+{
+    "Description": "Marketron is a leading provider of enterprise revenue and profitability management solutions for the media industry.",
+    "Id": 17314,
+    "Name": "Marketron",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17314",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List All Invoices",
+                    "Description": "List all invoices for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Sales Data",
+                    "Description": "List all Sales Data for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "List updated invoices since last successful run for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales Data ",
+                    "Description": "List all Sales Data for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders/Sales",
+            "Methods": [
+                {
+                    "Name": "Get Traffic Sale Type Category",
+                    "Description": "Get traffic sale type category details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sale Type",
+                    "Description": "List all sale types for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales Type",
+            "Methods": [
+                {
+                    "Name": "List Sale Types",
+                    "Description": "List all sale types for a given company. Alternatively known as Inventory Type or Spot Type.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sale Type Categories",
+                    "Description": "List all sale type categories for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Sale Types",
+                    "Description": "List all sale types for a given company that have been updated since last run. Alternatively known as Inventory Type or Spot Type.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Sale Type Categories",
+                    "Description": "List all sale type categories for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Order API",
+            "Methods": [
+                {
+                    "Name": "Get Order",
+                    "Description": "Retrieve a specific order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Performance Data",
+                    "Description": "Gets the performance data for a specified order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Performance Data",
+                    "Description": "Updates a specified order's performance data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order",
+                    "Description": "Update part of an existing order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Performance Summaries",
+                    "Description": "Lists all performance summaries of a company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Create a new order.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "AR Payments",
+            "Methods": [
+                {
+                    "Name": "List Updated AR Payments",
+                    "Description": "List all AR Payments for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List AR Payments",
+                    "Description": "List all AR Payments for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "Get Client",
+                    "Description": "Gets a client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clients",
+                    "Description": "List all clients for a given company, clients include Advertisers and Agencies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Clients",
+                    "Description": "List all clients for a given company that have been updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Revenue Sources",
+            "Methods": [
+                {
+                    "Name": "List Revenue Sources",
+                    "Description": "List all revenue sources for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Traffic Revenue Source",
+                    "Description": "Get traffic revenue sources details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Revenue Sources",
+                    "Description": "List all revenue sources for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Order Data",
+            "Methods": [
+                {
+                    "Name": "Get Order Details",
+                    "Description": "Get details of an order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Order Summaries",
+                    "Description": "List all order summaries for a given company, updated since the last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Projections",
+                    "Description": "List all Order Projections for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Summaries",
+                    "Description": "List all order summaries for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Details",
+                    "Description": "List order details for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Order Details",
+                    "Description": "List order details for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Spots",
+            "Methods": [
+                {
+                    "Name": "List Updated Spots",
+                    "Description": "List Spots for a given company that have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Spots",
+                    "Description": "List Spots for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "AR Adjustments",
+            "Methods": [
+                {
+                    "Name": "List Updated AR Adjustments",
+                    "Description": "List all AR Adjustments for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List AR Adjustments",
+                    "Description": "List all AR Adjustments for a given company",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Data Subscription",
+            "Methods": [
+                {
+                    "Name": "Create Company Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create AcctExec Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Asset Event Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Product Code Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Transaction Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Sale Type Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Station Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Asset Code Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Revenue Source Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Client Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List Data Subscriptions",
+                    "Description": "List data subscriptions for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order Subscription",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Data Subscription",
+                    "Description": "Get data subscription for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account Executives",
+            "Methods": [
+                {
+                    "Name": "List Account Executives",
+                    "Description": "List all Account Executives or Sales Reps for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account Executive",
+                    "Description": "Get executive account details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Account Executives",
+                    "Description": "List all Account Executives or Sales Reps for a given company that have been updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "AR Aging Data",
+            "Methods": [
+                {
+                    "Name": "List Updated AR Aging Data",
+                    "Description": "List all AR Aging Data for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List AR Aging Data",
+                    "Description": "List all ar aging Data for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Stations",
+            "Methods": [
+                {
+                    "Name": "List Stations",
+                    "Description": "List all Stations or Media Outlets associated with a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Station",
+                    "Description": "Get station details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Get Company",
+                    "Description": "Get Company Details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "List all companies the autheticated user is associated with. Companies may be alternatively known as Markets or Database instance.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Assets and Products",
+            "Methods": [
+                {
+                    "Name": "Get Product Code",
+                    "Description": "Get details for a particular product code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Codes",
+                    "Description": "List all product codes associated with a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Product Codes",
+                    "Description": "List all product codes associated with a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Asset Events",
+            "Methods": [
+                {
+                    "Name": "List Asset Codes",
+                    "Description": "List all Asset Codes for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Traffic Asset Events",
+                    "Description": "List all traffic asset events for a given company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Assets",
+            "Methods": [
+                {
+                    "Name": "List Updated Traffic Asset Events, Copy of",
+                    "Description": "List all traffic asset events for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Asset Event",
+                    "Description": "Get asset event details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Traffic Asset Events",
+                    "Description": "List all traffic asset events for a given company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Asset Codes",
+                    "Description": "List all Asset Codes for a given company that have been updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "List Webhooks",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/marketron-connector"
+}

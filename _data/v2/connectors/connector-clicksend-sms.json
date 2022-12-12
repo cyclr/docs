@@ -1,0 +1,109 @@
+{
+    "Description": "ClickSend is a global leader in business communications solutions.",
+    "Id": 14343,
+    "Name": "ClickSend SMS",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14343",
+    "Categories": [
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a specific contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Copy Contact To List",
+                    "Description": "Copy contact to another list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Transfer Contact To List",
+                    "Description": "Transfer contact to another list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Create a new contact.  Leaves through the Step's True Exit if the contact is created successfully, else through the False Exit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update a specific contact. Leaves through the Step's True Exit if the contact is updated successfully, else through the False Exit.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Lists",
+            "Methods": [
+                {
+                    "Name": "Create List",
+                    "Description": "Create new contact list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Management"
+                },
+                {
+                    "Name": "Update List",
+                    "Description": "Update specific contact list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Management"
+                },
+                {
+                    "Name": "Delete List",
+                    "Description": "Delete a specific contact list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Management"
+                },
+                {
+                    "Name": "Get Contact List",
+                    "Description": "Get specific contact list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Management"
+                },
+                {
+                    "Name": "Get Updated List Members",
+                    "Description": "Get list members that have been updated since the last cycle run.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Get List Members",
+                    "Description": "Get all contacts in a list.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Remove Duplicate List Members",
+                    "Description": "Remove duplicate contacts from the specified list. Select True/False for the fields you wish to be used in the operation.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "Remove Opted Out Members",
+                    "Description": "Remove all opted out contacts.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Members"
+                },
+                {
+                    "Name": "List Contact Lists",
+                    "Description": "Get all contact lists.",
+                    "MethodType": "Action",
+                    "Subcategory": "List Management"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/clicksend-connector"
+}

@@ -1,0 +1,48 @@
+{
+    "Description": "The First Integrated Growth Management Platform for Digital Marketers.",
+    "Id": 16404,
+    "Name": "Insider",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16404",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Create Events via Upserting Users",
+                    "Description": "Submit new events including user attributes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Events",
+                    "Description": "Submit new events for existing users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Delete User",
+                    "Description": "Each request must have a unifier field under identifiers object, which is decided by customer. For example, if a customer decides email field as unifier, data without email field will not be accepted. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Users",
+                    "Description": "Create or Update a users attributes.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/insider-connector"
+}

@@ -1,0 +1,73 @@
+{
+    "Description": null,
+    "Id": 16928,
+    "Name": "PagerDuty",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16928",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Audit Records for User",
+                    "Description": "Lists the audit records with changes to the identified user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List the users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users Sessions",
+                    "Description": "List active sessions of a PagerDuty user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Incidents",
+            "Methods": [
+                {
+                    "Name": "Create Incident",
+                    "Description": "Creates an Incident",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New and Updated Incidents",
+                    "Description": "List incidents created, or whose status has changed since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Incidents",
+                    "Description": "List existing incidents.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Change Events",
+            "Methods": [
+                {
+                    "Name": "List Change Events",
+                    "Description": "List all Change Events.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Change Events",
+                    "Description": "List Updated Change Events since last run cycle.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

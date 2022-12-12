@@ -1,0 +1,95 @@
+{
+    "Description": "OpenApply is a School Admissions Management System supporting the applicant journey from enquiry to enrolment.",
+    "Id": 12367,
+    "Name": "OpenApply",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12367",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Students",
+            "Methods": [
+                {
+                    "Name": "Get Student By ID",
+                    "Description": "Retrieves the specified student.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Student",
+                    "Description": "Updates the specified student.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Student Payments",
+                    "Description": "Retrieves the specified student's payments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Students By Student Slug",
+                    "Description": "Retrieves students whose match the search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Students By Tag",
+                    "Description": "Retrieves students whose have been assigned the specified tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Students By Field Value",
+                    "Description": "Retrieves students whose match the search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Students",
+                    "Description": "Retrieves all students.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Students",
+                    "Description": "Retrieves students who have been updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Parents",
+            "Methods": [
+                {
+                    "Name": "Get Parent By ID",
+                    "Description": "Retrieves the specified parent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Parent",
+                    "Description": "Updates the specified parent.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Parents",
+                    "Description": "Retrieves parents whose match the search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Parents",
+                    "Description": "Retrieves all parents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Parents",
+                    "Description": "Retrieves parents who have been updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/openapply-connector"
+}

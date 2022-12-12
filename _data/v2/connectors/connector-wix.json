@@ -1,0 +1,66 @@
+{
+    "Description": "Discover the platform that gives you the freedom to create, design, manage and develop your web presence exactly the way you want. ",
+    "Id": 14310,
+    "Name": "Wix",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14310",
+    "Categories": [
+        "Customer Experience",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List New Orders",
+                    "Description": "List all new orders since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "List all updated orders since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "List all orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get an order.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Event Orders",
+                    "Description": "List all event orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Event Orders",
+                    "Description": "List all new event orders since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event Order",
+                    "Description": "Get an event order.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/wix-connector"
+}

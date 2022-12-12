@@ -1,0 +1,72 @@
+{
+    "Description": "PostgreSQL is a powerful, open source object-relational database system.",
+    "Id": 17256,
+    "Name": "PostgreSQL Table",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17256",
+    "Categories": [
+        "Databases",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Rows",
+            "Methods": [
+                {
+                    "Name": "List Table Rows",
+                    "Description": "Get rows in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Table Row",
+                    "Description": "Adds a new row.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Table Row",
+                    "Description": "Updates a existing row.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Table Row",
+                    "Description": "Deletes a single row from the Table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UPSERT Table Row",
+                    "Description": "Adds or updates a row if there is a unique key on table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Table  Row ",
+                    "Description": "Get a single row in a table.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tables",
+            "Methods": [
+                {
+                    "Name": "Get Table Description ",
+                    "Description": "Gets information on the table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tables",
+                    "Description": "Gets all tables.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

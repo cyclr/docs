@@ -1,0 +1,55 @@
+// Mixins
+
+// block highlights
+@mixin highlight-code() {
+    margin: 10px 0 20px 0;
+    border-left: 6px solid $gray-700;
+    padding: 20px 0 20px 24px;
+    position: relative;
+    box-shadow: $content-box_shadow;
+    background: $content-box_bg;
+    border-radius: 0;
+    min-height: 80px;
+    &:after {
+        position: absolute;
+        top: 1em;
+        left: -19px;
+        content: "C";
+        display: block;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 30px;
+        background-color: $gray-700;
+        border-radius: 50%;
+        border: 1px solid $gray-700;
+        color: $white;
+        width: 30px;
+        text-align: center;
+    }
+}
+
+
+@mixin highlight-required() {
+    border-left: 6px solid $green-2;
+    padding: 20px 0 20px 24px;
+    position: relative;
+    box-shadow: $content-box_shadow;
+    background: $content-box_bg;
+    &:after {
+        position: absolute;
+        top: 1em;
+        left: -19px;
+        content: "\f12a";
+        display: block;
+        font-family: 'Font Awesome\ 6 Free';
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 30px;
+        background-color: $green-2;
+        border-radius: 50%;
+        border: 1px solid $green-2;
+        color: $gray-700;
+        width: 30px;
+        text-align: center;
+    }
+}

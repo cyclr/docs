@@ -1,0 +1,185 @@
+{
+    "Description": "Podio supplies a web-based platform for organizing team communication, business processes, data and content in project management workspaces according to project needs.",
+    "Id": 12314,
+    "Name": "Podio",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12314",
+    "Categories": [
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "Lists opportunities created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunities",
+                    "Description": "Lists opportunities updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "Lists all opportunities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Partners",
+            "Methods": [
+                {
+                    "Name": "List New Partners",
+                    "Description": "Lists partners created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Partners",
+                    "Description": "Lists all partners.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Partners",
+                    "Description": "Lists partners updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Apps",
+            "Methods": [
+                {
+                    "Name": "List Apps",
+                    "Description": "Lists the apps associated with this account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get App Fields",
+                    "Description": "Gets the definition of an app fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Create Leads",
+                    "Description": "Creates an item for a specified app.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Calls",
+            "Methods": [
+                {
+                    "Name": "List Calls",
+                    "Description": "Lists all calls.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Calls",
+                    "Description": "Lists calls logged since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Communications",
+            "Methods": [
+                {
+                    "Name": "List Communications",
+                    "Description": "Lists all communications.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Communications",
+                    "Description": "Lists communications created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Communications",
+                    "Description": "Lists communications updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Seller Leads",
+            "Methods": [
+                {
+                    "Name": "List Seller Leads",
+                    "Description": "Lists all seller leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Seller Leads",
+                    "Description": "Lists seller leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Seller Lead",
+                    "Description": "Creates a new seller lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webforms",
+            "Methods": [
+                {
+                    "Name": "List Webforms",
+                    "Description": "Lists all webforms, optionally filtered by a specific View ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Webforms",
+                    "Description": "Lists webforms created since the last run, optionally filtered by a specific View ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities V2",
+            "Methods": [
+                {
+                    "Name": "List Opportunities V2",
+                    "Description": "Lists all opportunities, optionally filtered by a specific View ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities V2",
+                    "Description": "Lists opportunities created since the last run, optionally filtered by a specific View ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Seller Leads V2",
+            "Methods": [
+                {
+                    "Name": "List New Seller Leads V2",
+                    "Description": "Lists seller leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Seller Lead V2",
+                    "Description": "Creates a new seller lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/podio-connector"
+}

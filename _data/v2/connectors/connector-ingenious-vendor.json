@@ -1,0 +1,90 @@
+{
+    "Description": "Partner Marketing Platform designed to help businesses manage their marketing channels, strategic relationships and processes easily \u2013 all in one place.",
+    "Id": 14514,
+    "Name": "Ingenious Vendor",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14514",
+    "Categories": [
+        "Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "General Entities/Ledgers",
+            "Methods": [
+                {
+                    "Name": "Update General Ledger",
+                    "Description": "Update a general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List General Ledgers",
+                    "Description": "List all general ledgers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete General Ledger",
+                    "Description": "Delete a general ledger.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create General Ledger",
+                    "Description": "Create a general ledger.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices",
+                    "Description": "List all invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get the specified invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Invoice Status",
+                    "Description": "Update status of single invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vendors",
+            "Methods": [
+                {
+                    "Name": "List Vendors",
+                    "Description": "List all accounting vendors.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Vendor",
+                    "Description": "Create an accounting vendor.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Vendor",
+                    "Description": "Delete an accounting vendor.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Vendor",
+                    "Description": "Update an accounting vendor.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/ingenious-vendor-connector"
+}

@@ -1,0 +1,15 @@
+title: Analytics Connector Guides
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+blocks: 
+  - title: New Connector Request
+    text: Don’t see the project management application you need? We are constantly adding new connectors to our library based on our customer requests.
+    icon: file-pen
+    external_url: https://cyclr.com/contact
+    external_url_title: Contact us with a new connector request
+  - title: Add to an Existing Connector
+    text: See the Connector you require but not the method? We are keen to expand our Connectors and will happily liase with you over your requirements to improve a Connector.
+    icon: circle-plus
+    external_url: https://cyclr.com/contact
+    external_url_title: Contact us to add an existing connector
+blocksfooter: |
+    <p>Send us an <a target="_blank" title="Contact Cyclr" href="https://cyclr.com/contact" data-toggle="tooltip" data-placement="top">email</a> about the apps you’d like to see in our library!</p>

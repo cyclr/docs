@@ -1,0 +1,123 @@
+{
+    "Description": "One platform for secure content management, workflow, and collaboration",
+    "Id": 15655,
+    "Name": "Box",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15655",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List New Users",
+                    "Description": "List users created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Delete a user. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a new user in an enterprise. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Users",
+                    "Description": "List users whose details have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Get a single user by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Folders",
+            "Methods": [
+                {
+                    "Name": "List New Folder Items",
+                    "Description": "List new items in a folder, added since last run. Items can be files, folders and web links.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Folder",
+                    "Description": "Get folder by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Folder",
+                    "Description": "Delete folder by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Folder",
+                    "Description": "Update folder by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Files",
+                    "Description": "List files in a folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Folder",
+                    "Description": "Create folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Folders",
+                    "Description": "List subfolders in a folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Folder Items",
+                    "Description": "List items in a folder. Items can be files, folders and web links.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Get File Information",
+                    "Description": "Get information about a file by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete File",
+                    "Description": "Delete file by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get File URL",
+                    "Description": "Get a file's download URL by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update File Information",
+                    "Description": "Update file information by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/box-connector"
+}

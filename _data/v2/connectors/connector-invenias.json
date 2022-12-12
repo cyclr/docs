@@ -1,0 +1,45 @@
+{
+    "Description": "Invenias is the leading platform trusted by professionals responsible for executive search software and strategic hiring globally.",
+    "Id": 16727,
+    "Name": "Invenias",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16727",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Get Journal",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person by Email",
+                    "Description": "Get details of a person by their email address",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People",
+                    "Description": "List all people created/updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/invenias-connector"
+}

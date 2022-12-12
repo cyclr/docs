@@ -1,0 +1,48 @@
+{
+    "Description": "Tide gives you a business current account in as little as 5 minutes",
+    "Id": 3071,
+    "Name": "Tide",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3071",
+    "Categories": [
+        "Accounting",
+        "Billing/Payment"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "List transactions",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "List Companies",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Accounts",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

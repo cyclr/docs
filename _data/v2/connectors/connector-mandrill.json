@@ -1,0 +1,29 @@
+{
+    "Description": "Mandrill is a delivery application for transactional emails.",
+    "Id": 568,
+    "Name": "Mandrill",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/568",
+    "Categories": [
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Methods": [
+                {
+                    "Name": "Send Message",
+                    "Description": "Sends a transactional message.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Mandrill Integration - Automated Transactional Emails - Cyclr",
+    "MetaDescription": "Automate your transactional emails by syncing Mandrill with your essential business cloud apps! ",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/mandrill",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

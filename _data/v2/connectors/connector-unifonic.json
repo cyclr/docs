@@ -1,0 +1,35 @@
+{
+    "Description": "Unifonic makes cloud communications more accessible, cost-efficient and simpler to implement with solutions that scale. ",
+    "Id": 8444,
+    "Name": "Unifonic",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8444",
+    "Categories": [
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Messages",
+            "Methods": [
+                {
+                    "Name": "Send Message",
+                    "Description": "Send message.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Whatsapp Message",
+                    "Description": "Send message via Whatsapp.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

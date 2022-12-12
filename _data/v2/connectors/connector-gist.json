@@ -1,0 +1,101 @@
+{
+    "Description": "A unified marketing, sales, and support platform that serves as a single source of truth for the entire journey from website visitor to happy customer.",
+    "Id": 11863,
+    "Name": "Gist",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11863",
+    "Categories": [
+        "Chat",
+        "CRMs",
+        "Email Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Lead",
+                    "Description": "Get a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Delete a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create/Update Lead",
+                    "Description": "Creates or updates a lead. Update match is done on email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Leads",
+                    "Description": "Gets a list of leads created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Gets a list of leads updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User By Email",
+                    "Description": "Gets a user by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User By User ID",
+                    "Description": "Gets a user by User ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Gets a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Delete a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create or Update User",
+                    "Description": "Creates or updates a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Users",
+                    "Description": "Get users created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Users",
+                    "Description": "Get users updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

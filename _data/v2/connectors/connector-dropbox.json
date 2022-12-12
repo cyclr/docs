@@ -1,0 +1,33 @@
+{
+    "Description": "Dropbox brings everything \u2013 traditional files, cloud content and web shortcuts \u2013 together in one place.",
+    "Id": 17110,
+    "Name": "Dropbox",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17110",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Files and Folders",
+            "Methods": [
+                {
+                    "Name": "Search Files and Folders",
+                    "Description": "Searches for files and folders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Temporary File",
+                    "Description": "Get a temporary link to stream content of a file. This link will expire in four hours and afterwards you will get 410 Gone.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/dropbox-connector"
+}

@@ -1,0 +1,14 @@
+<!--start search-->
+<div id="search-container">
+    <input class="form-control rounded" type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
+    <ul id="results-container"></ul>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+apiKey: '52876b34ea9346e119deb025402cd681',
+indexName: 'cyclr',
+inputSelector: '#search-input',
+debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+<!--end search-->

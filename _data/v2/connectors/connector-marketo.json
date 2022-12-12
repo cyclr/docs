@@ -1,0 +1,280 @@
+{
+    "Description": "Marketo's powerful marketing automation software helps marketers master the art & science of digital marketing to engage customers and prospects.",
+    "Id": 16340,
+    "Name": "Marketo",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16340",
+    "Categories": [
+        "CRMs",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Bulk Exports",
+            "Methods": [
+                {
+                    "Name": "Create Export Job - Activities",
+                    "Description": "Creates an activity export job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Export Job - New Leads",
+                    "Description": "Creates an export job for leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Export File",
+                    "Description": "Retrieves a completed export file's content.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Export Job - Leads",
+                    "Description": "Creates a lead export job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Export Jobs",
+                    "Description": "Returns a list of export jobs created in the past 7 days.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Export Job Status",
+                    "Description": "Retrieves the status for an export job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Export Job",
+                    "Description": "Cancels an export job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Enqueue Export Job",
+                    "Description": "Adds an export job to the processing queue.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Export Job - New Activities",
+                    "Description": "Creates an export job for activities created since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Static Lists",
+            "Methods": [
+                {
+                    "Name": "List Lists",
+                    "Description": "Lists all the static lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List",
+                    "Description": "Gets a static list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Lead From List ",
+                    "Description": "Removes a lead or leads from a static list ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List Members",
+                    "Description": "Gets the members of a Static List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Lead To List",
+                    "Description": "Adds a lead or leads to a static list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "List Activity Types",
+                    "Description": "Lists activity types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Lists leads updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Memberships",
+                    "Description": "Lists a leads memberships.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Activities",
+                    "Description": "Lists a lead's activities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Or Update Leads",
+                    "Description": "Creates or updates leads (batch).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Changes",
+                    "Description": "Lists data value changes and new lead activities after the given datetime.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Or Update Lead",
+                    "Description": "Creates or updates a lead, for use with a single lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Lists all leads using a filter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Lead Activities",
+                    "Description": "Lists the lead activities updated since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Website And Email History",
+                    "Description": "Lists a leads website and email history.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Lead Changes",
+                    "Description": "Lists data value changes and new lead activities since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Gets a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads By Email Address",
+                    "Description": "Gets all of the leads with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Smart Campaigns",
+                    "Description": "Lists the smart campaigns of a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Fields",
+                    "Description": "Returns a list of all fields available for interaction via the REST API.",
+                    "MethodType": "Action",
+                    "Subcategory": "Lead Fields"
+                }
+            ]
+        },
+        {
+            "Category": "Program Members",
+            "Methods": [
+                {
+                    "Name": "List Program Members",
+                    "Description": "Retrieve a list of program members.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Describe Program Member",
+                    "Description": "Retrieve metadata about program member objects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bulk Imports",
+            "Methods": [
+                {
+                    "Name": "Get Import Job Failures",
+                    "Description": "Retrieves a list of failures for an import job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Import Job",
+                    "Description": "Creates an import job for a csv payload into the target instance.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Import Job Status",
+                    "Description": "Retrieves the status for an import job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Import Job Warnings",
+                    "Description": "Retrieves a list of warnings for an import job.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Objects",
+            "Methods": [
+                {
+                    "Name": "List Linkable Custom Objects",
+                    "Description": "Lists linkable custom objects and their fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Custom Objects",
+                    "Description": "Creates a custom object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Custom Objects",
+                    "Description": "Lists the API name of existing custom objects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead Custom Object",
+                    "Description": "Updates a leads custom object. Custom Object mappings must be added as custom fields.",
+                    "MethodType": "Action",
+                    "Subcategory": "Leads"
+                },
+                {
+                    "Name": "Create Custom Object Values",
+                    "Description": "Creates a custom objects values. Insert custom object fields under \"[input].<CustomObjectField>\".",
+                    "MethodType": "Action",
+                    "Subcategory": "Values"
+                },
+                {
+                    "Name": "Upsert Custom Object Values",
+                    "Description": "Creates or updates a custom objects values. Insert custom object fields under \"[input].<CustomObjectField>\".",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Custom Object Values",
+                    "Description": "Updates a custom objects values. Insert custom object fields under \"[input].<CustomObjectField>\".",
+                    "MethodType": "Action",
+                    "Subcategory": "Values"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Retrieve a list of all user records. Required Permissions: Access User Management Api and Access Users",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/marketo-connector"
+}

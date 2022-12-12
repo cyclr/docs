@@ -1,0 +1,80 @@
+{
+    "Description": "We help eCommerce businesses make pricing decisions.",
+    "Id": 13229,
+    "Name": "BlackCurve",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13229",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Sales History",
+            "Methods": [
+                {
+                    "Name": "List Sales History Data",
+                    "Description": "Gets a list of data from Sales History.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Sales History Data",
+                    "Description": "Update or create items in Sales History.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Inventory",
+            "Methods": [
+                {
+                    "Name": "List Product Inventory Data",
+                    "Description": "Gets a list of data from Product Inventory.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Product Inventory Data",
+                    "Description": "Update or create items in Product Inventory. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Inventory Data",
+                    "Description": "Deletes items in a given data source. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Prices",
+            "Methods": [
+                {
+                    "Name": "List Prices",
+                    "Description": "Gets a list of all prices.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Data Sources",
+            "Methods": [
+                {
+                    "Name": "Get Data Source Structure",
+                    "Description": "Retrieves the column names and data types for a specified data source.",
+                    "MethodType": "Action",
+                    "Subcategory": "Structures"
+                },
+                {
+                    "Name": "List Data Source Structures",
+                    "Description": "List all data sources.",
+                    "MethodType": "Action",
+                    "Subcategory": "Structures"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/blackcurve-connector"
+}

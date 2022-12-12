@@ -1,0 +1,68 @@
+{
+    "Description": "Datadog is a monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.",
+    "Id": 13433,
+    "Name": "DataDog",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13433",
+    "Categories": [
+        "Dashboarding",
+        "Analytics",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Metrics",
+            "Methods": [
+                {
+                    "Name": "Post Metrics",
+                    "Description": "Post metric data points to DataDog.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Get the list of all users in the organization. This list includes all users even if they are deactivated or unverified.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organization",
+            "Methods": [
+                {
+                    "Name": "Get Organization Information",
+                    "Description": "Get organization information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Managed Organizations",
+                    "Description": "List your managed organizations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "Returns all roles, including their names and IDs.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

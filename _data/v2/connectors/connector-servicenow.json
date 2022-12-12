@@ -1,0 +1,109 @@
+{
+    "Description": "ServiceNow helps to transform old, manual ways of working into modern digital workflows. Employees and customers get what they need, when they need it\u2014fast, simple, easy.",
+    "Id": 15616,
+    "Name": "ServiceNow",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15616",
+    "Categories": [
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Custom Records",
+            "Methods": [
+                {
+                    "Name": "Create Record",
+                    "Description": "Inserts one record into the configured table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Modify Record",
+                    "Description": "Updates only the specified record fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Replace Record",
+                    "Description": "Replaces the specified record with the data specified in the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Record",
+                    "Description": "Retrieves the specified record by sys_id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Records",
+                    "Description": "Retrieves multiple records for the configured table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Record",
+                    "Description": "Deletes the specified record by sys_id.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tables",
+            "Methods": [
+                {
+                    "Name": "List Tables",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Incidents",
+            "Methods": [
+                {
+                    "Name": "Create Incident Record",
+                    "Description": "Inserts one record into the configured table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Incident Record",
+                    "Description": "Deletes the specified record by sys_id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Incident Record (PUT)",
+                    "Description": "Replaces the specified record with the data specified in the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Incident Record",
+                    "Description": "Retrieves the specified record by sys_id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Incident Records",
+                    "Description": "Retrieves multiple records for the configured table that have been created since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Incident Records",
+                    "Description": "Retrieves multiple records for the configured table that have been created or updated since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Incident Record (PATCH)",
+                    "Description": "Updates only the specified record fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Incident Records",
+                    "Description": "Retrieves multiple records for the configured table.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/servicenow-connector"
+}

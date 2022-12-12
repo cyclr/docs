@@ -1,0 +1,23 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Diff Backup
+.bak
+/pages/connector-authentication/.vs/connector-authentication/v16/.suo
+/pages/connector-authentication/.vs/slnx.sqlite
+/pages/connector-authentication/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/docs/v16/.suo
+/.vs/docs/config/applicationhost.config
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite-journal

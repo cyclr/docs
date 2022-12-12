@@ -1,0 +1,46 @@
+{
+    "Description": null,
+    "Id": 17053,
+    "Name": "Leadoo",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17053",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "New Company Profile",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List Lead Fields",
+                    "Description": "Get fields of a Lead object",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Lead To Endpoint",
+                    "Description": "Post JSON to another endpoint.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "New Lead",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

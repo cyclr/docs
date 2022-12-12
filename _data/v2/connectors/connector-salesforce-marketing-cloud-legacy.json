@@ -1,0 +1,86 @@
+{
+    "Description": "Powerful digital marketing platform letting you connect to customers in a whole new way. This version only works with Legacy Packages.",
+    "Id": 12317,
+    "Name": "Salesforce Marketing Cloud (Legacy)",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12317",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Subscribers",
+            "Methods": [
+                {
+                    "Name": "Add Subscribers to a List",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriber Lists",
+            "Methods": [
+                {
+                    "Name": "Retrieve All Lists",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Transactional Email",
+            "Methods": [
+                {
+                    "Name": "Send Transactional Email",
+                    "Description": "Sends transactional email using Marketing Cloud's triggered send functionality. In order to use this service, configure a triggered send definition in Email Studio.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Search Contacts",
+                    "Description": "Finds specified contacts based on provided attributes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact with the specified information in the specified attribute groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact with the specified information in the specified attribute groups.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Data Events",
+            "Methods": [
+                {
+                    "Name": "Insert Data Extension Rows by Key",
+                    "Description": "Upserts a batch of data extensions rows by key.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Interaction",
+            "Methods": [
+                {
+                    "Name": "Fire the Event",
+                    "Description": "Fires the entry event that initiates the journey.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Salesforce Marketing Cloud Integration | Marketing Automation | Cyclr",
+    "MetaDescription": "Connect your app with Salesforce Marketing Cloud to make your platform part of your users' marketing automation staples.",
+    "Screenshot": null,
+    "Content": "<p>Integrate your application with Salesforce Marketing Cloud to be part of your users' marketing automation plans.</p><p>Create template automations using the Cyclr integration paltform and publish them to your very own integration store - your users can authenticate and activate them in a matter of clicks!</p>\t",
+    "WebsiteUrl": "https://cyclr.com/integrate/salesforce-marketing-cloud",
+    "DocumentationUrl": "https://help.salesforce.com/articleView?id=000233457&type=1",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/salesforce-marketing-cloud-connector"
+}

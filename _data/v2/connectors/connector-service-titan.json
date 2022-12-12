@@ -1,0 +1,95 @@
+{
+    "Description": "All-in-one software for commercial and residential HVAC, plumbing, electrical, and other field service businesses.",
+    "Id": 11629,
+    "Name": "Service Titan",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11629",
+    "Categories": [
+        "Marketing",
+        "Miscellaneous",
+        "Collaboration",
+        "Customer Experience",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List New Customers",
+                    "Description": "Retrieves all customers added to the system since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Retrieves a single customer by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "List New Bookings",
+                    "Description": "Retrieves a list of bookings created since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List New Invoices",
+                    "Description": "Retrieves all invoices created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoices",
+                    "Description": "Retrieves all invoices created since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "List Employees",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "List Jobs",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Technicians",
+            "Methods": [
+                {
+                    "Name": "List Technicians",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

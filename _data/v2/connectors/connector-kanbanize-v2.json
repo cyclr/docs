@@ -1,0 +1,737 @@
+{
+    "Description": "The beta version of the new Kanbanize API",
+    "Id": 14067,
+    "Name": "Kanbanize V2",
+    "Version": "2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14067",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Merged Areas",
+            "Methods": [
+                {
+                    "Name": "Get Merged Area",
+                    "Description": "Get the details of a single merged area.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Merged Areas",
+                    "Description": "Get a list of merged areas.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Merged Area",
+                    "Description": "Delete a merged area.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Merged Area",
+                    "Description": "Update a merged area.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Merged Area",
+                    "Description": "Create a merged area.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Parent Cards",
+            "Methods": [
+                {
+                    "Name": "Check If Parent",
+                    "Description": "Check if a card is a parent of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Make Parent",
+                    "Description": "Make a card a parent of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Parent Cards",
+                    "Description": "Get a list of parent cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Child Card Link",
+                    "Description": "Remove the link between a child card and a parent card.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cell Limits",
+            "Methods": [
+                {
+                    "Name": "Set Cell Limit",
+                    "Description": "Set a cell limit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Cell Limits",
+                    "Description": "Get a list of cell limits.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Board Settings",
+            "Methods": [
+                {
+                    "Name": "Get Board Settings",
+                    "Description": "Get the values of the board settings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Board Settings",
+                    "Description": "Set the values of the board settings.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Columns",
+            "Methods": [
+                {
+                    "Name": "Update Column",
+                    "Description": "Update a column.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Column",
+                    "Description": "Delete a column.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Column",
+                    "Description": "Get the details of a single column.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Column",
+                    "Description": "Create a column.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Columns",
+                    "Description": "Get a list of columns.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Project Managers",
+            "Methods": [
+                {
+                    "Name": "List Project Managers",
+                    "Description": "Get a list of project managers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check Project Manager",
+                    "Description": "Check if a user is a project manager.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Make Project Manager",
+                    "Description": "Make a user a project manager.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Project Manager",
+                    "Description": "Make a user not a project manager.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Workflows",
+            "Methods": [
+                {
+                    "Name": "Add Initiatives Workflow",
+                    "Description": "Add a initiatives workflow.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Initiatives Workflow",
+                    "Description": "Get the initiatives workflow details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Cards Workflow",
+                    "Description": "Update the cards workflow.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Initiatives Workflow",
+                    "Description": "Update the initiatives workflow.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Cards Workflow",
+                    "Description": "Get the cards workflow details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Cards Workflow",
+                    "Description": "Add a cards workflow.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "Get a list of projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Get the details of a single project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Project",
+                    "Description": "Update a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Project",
+                    "Description": "Create a project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Boards",
+            "Methods": [
+                {
+                    "Name": "List Boards",
+                    "Description": "Get a list of boards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board",
+                    "Description": "Get the details of a single board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Board",
+                    "Description": "Create a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Board",
+                    "Description": "Update a board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Board Assignees",
+            "Methods": [
+                {
+                    "Name": "List Board Assignees",
+                    "Description": "Get a list of board assignees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board Assignee Role",
+                    "Description": "Get the role of a board assignee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unassign Board User",
+                    "Description": "Unassign a user from a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Assign Board User",
+                    "Description": "Assign a user to a board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lanes",
+            "Methods": [
+                {
+                    "Name": "Update Lane",
+                    "Description": "Update a lane.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Lane",
+                    "Description": "Delete a lane.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lane",
+                    "Description": "Create a lane.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lanes",
+                    "Description": "Get a list of lanes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lane",
+                    "Description": "Get the details of a single lane.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Mirror Cards",
+            "Methods": [
+                {
+                    "Name": "Check If Mirror",
+                    "Description": "Check if a card is a mirror of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Mirror Link",
+                    "Description": "Change the properties of a mirror link.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Card Link",
+                    "Description": "Remove the link between a card and a mirror card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Mirror",
+                    "Description": "Make a card a mirror of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Mirror Cards",
+                    "Description": "Get a list of mirror cards.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Relative Cards",
+            "Methods": [
+                {
+                    "Name": "List Relatives",
+                    "Description": "Get a list of related cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Relationship",
+                    "Description": "Make a card a relative of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Card Relationship",
+                    "Description": "Remove the link between a card and a related card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check If Related",
+                    "Description": "Check if a card is a relative of a given card.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Stickers",
+            "Methods": [
+                {
+                    "Name": "Create Sticker",
+                    "Description": "Create a sticker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sticker",
+                    "Description": "Get the details of a single sticker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Stickers",
+                    "Description": "Get a list of stickers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Sticker",
+                    "Description": "Delete a sticker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sticker",
+                    "Description": "Update a sticker.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Successor Cards",
+            "Methods": [
+                {
+                    "Name": "Remove Successor Link",
+                    "Description": "Remove the link between a predecessor card and a successor card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Make Successor",
+                    "Description": "Make a card a successor of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check If Successor",
+                    "Description": "Check if a card is a successor of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Successor Cards",
+                    "Description": "Get a list of successor cards.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Predecessor Cards",
+            "Methods": [
+                {
+                    "Name": "List Predecessor Cards",
+                    "Description": "Get a list of predecessor cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check If Predecessor",
+                    "Description": "Check if a card is a predecessor of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Make Predecessor",
+                    "Description": "Make a card a predecessor of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Predecessor Link",
+                    "Description": "Remove the link between a successor card and a predecessor card.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Block Reasons",
+            "Methods": [
+                {
+                    "Name": "Create Block Reason",
+                    "Description": "Create a block reason.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Block Reasons",
+                    "Description": "Get a list of block reasons.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Block Reason",
+                    "Description": "Get the details of a single block reason.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Block Reason",
+                    "Description": "Delete a block reason.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Block Reason",
+                    "Description": "Update a block reason.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "Get all roles.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Watch Board Changes Webhook",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Board Structure",
+            "Methods": [
+                {
+                    "Name": "Get Board Structure",
+                    "Description": "Get the current board structure.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board Structure Revision",
+                    "Description": "Get the current revision of the board structure.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Board Stickers",
+            "Methods": [
+                {
+                    "Name": "Add Sticker To Board",
+                    "Description": "Make a sticker available on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Board Stickers",
+                    "Description": "Get a list of stickers available on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Sticker From Board",
+                    "Description": "Make a sticker unavailable on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check Sticker Available",
+                    "Description": "Check if a sticker is available on a board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Board Structure Revisions",
+            "Methods": [
+                {
+                    "Name": "List Board Structure Revisions",
+                    "Description": "Get a list of revisions of the board structure.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board Structure Revision By ID",
+                    "Description": "Get a specific revision of the board structure.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Related Boards",
+            "Methods": [
+                {
+                    "Name": "List Related Boards",
+                    "Description": "Get a list of related boards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Board Relationship",
+                    "Description": "Add a related board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Related Board",
+                    "Description": "Remove a related board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check Related Board",
+                    "Description": "Check if a board is related to another board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Board Block Reasons",
+            "Methods": [
+                {
+                    "Name": "List Block Reasons For Board",
+                    "Description": "Get a list of block reasons available on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check Block Reason Available",
+                    "Description": "Check if a block reason is available on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Block Reason To Board",
+                    "Description": "Make a block reason available on a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Block Reason From Board",
+                    "Description": "Make a block reason unavailable on a board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Managed Projects",
+            "Methods": [
+                {
+                    "Name": "List Managed Projects",
+                    "Description": "Get a list of managed projects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Boards",
+            "Methods": [
+                {
+                    "Name": "List Assigned Boards",
+                    "Description": "Get a list of boards the user is assigned to.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Favorite Boards",
+            "Methods": [
+                {
+                    "Name": "List Favorites",
+                    "Description": "Get a list of favorite boards for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check If Favorite",
+                    "Description": "Check if a board is one of user's favorite.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Favorite",
+                    "Description": "Add a board to the user's favorite.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Board From Favorite",
+                    "Description": "Remove a board from the user's favorite.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Get a list of Users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Child Cards",
+            "Methods": [
+                {
+                    "Name": "Make Child",
+                    "Description": "Make a card a child of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Child Parent Link",
+                    "Description": "Remove the link between a parent card and a child card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Check If Child",
+                    "Description": "Check if a card is a child of a given card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Child Cards",
+                    "Description": "Get a list of child cards.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Block Reason Boards",
+            "Methods": [
+                {
+                    "Name": "List Boards With Block Reason",
+                    "Description": "Get a list of boards where the block reason is available.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sticker Boards",
+            "Methods": [
+                {
+                    "Name": "List Boards With Stickers",
+                    "Description": "Get a list of boards where the sticker is available.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Linked Cards",
+            "Methods": [
+                {
+                    "Name": "List Linked Cards",
+                    "Description": "Get a list of linked cards.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Card Stickers",
+            "Methods": [
+                {
+                    "Name": "Remove Sticker",
+                    "Description": "Remove a sticker from a card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Card Stickers",
+                    "Description": "Get a list of card stickers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Sticker To Card",
+                    "Description": "Add a sticker to a card.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Card Block Reason",
+            "Methods": [
+                {
+                    "Name": "Unblock Card",
+                    "Description": "Unblock a card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Block Card",
+                    "Description": "Block a card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Card Block Reason",
+                    "Description": "Get a card's block reason.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

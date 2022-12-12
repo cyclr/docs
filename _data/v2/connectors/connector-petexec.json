@@ -1,0 +1,45 @@
+{
+    "Description": "PetExec is the industry leading tool for dog daycares, boarding facilities, trainers, and groomers alike.",
+    "Id": 12697,
+    "Name": "PetExec",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12697",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List New Orders",
+                    "Description": "Retrieves all orders since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "Retrieves all orders from the specified time range.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Owners",
+            "Methods": [
+                {
+                    "Name": "Get Owner",
+                    "Description": "Retrieves the specified owner by User ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/petexec-connector"
+}

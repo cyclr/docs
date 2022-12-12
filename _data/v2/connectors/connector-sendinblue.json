@@ -1,0 +1,218 @@
+{
+    "Description": "Easy-to-use all-in-one email marketing, SMS, transactional email (SMTP), and marketing automation platform.",
+    "Id": 13506,
+    "Name": "SendinBlue",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13506",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Webhook Management",
+            "Methods": [
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Returns a list of webhooks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Webhook",
+                    "Description": "Gets the details of the webhook whose ID has been provided.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Webhook",
+                    "Description": "Creates a new webhook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Webhook",
+                    "Description": "Updates an existing webhook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Webhook",
+                    "Description": "This method deletes an existing webhook.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets details of a contact by email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact record based on the email address provided.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Returns a list of all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Adds a new contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Folders",
+            "Methods": [
+                {
+                    "Name": "List Folders",
+                    "Description": "Gets a list of all folders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Folder",
+                    "Description": "Creates a new folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Folder",
+                    "Description": "Updates the details of a contact folder",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Folder",
+                    "Description": "Details the details of a folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Folder",
+                    "Description": "Deletes a folder and its associated lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Folder Lists",
+                    "Description": "Gets all the lists in a folder.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Create List",
+                    "Description": "Creates a new list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lists",
+                    "Description": "Gets all lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contacts To List",
+                    "Description": "Adds existing contacts to a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete List",
+                    "Description": "Deletes a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List List Members",
+                    "Description": "Returns a list of all Contacts in a List",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "New Contact In List",
+                    "Description": "This will notify you when a new contact is added to a list.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Senders",
+            "Methods": [
+                {
+                    "Name": "Delete Sender",
+                    "Description": "Deletes a sender record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Senders",
+                    "Description": "Returns a list of senders",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sender",
+                    "Description": "Adds a new sender",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Email Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Returns a list of Campaigns",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Create a new email campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets details and statistics for a Campaign. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Campaign",
+                    "Description": "Send an email campaign immediately.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets details of account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Settings",
+            "Methods": [
+                {
+                    "Name": "Get Account Info",
+                    "Description": "Gets information about your account",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

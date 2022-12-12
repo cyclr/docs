@@ -1,0 +1,35 @@
+{
+    "Description": "Our technology powers the travel industry. We help connect over 1.5 billion people a year to local travel providers in over 190 countries.",
+    "Id": 15466,
+    "Name": "Amadeus",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15466",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Flights",
+            "Methods": [
+                {
+                    "Name": "List Flight Offers",
+                    "Description": "Retrieve all the flight offers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Flight Offers",
+                    "Description": "Retrieve a list of Flight Offers based on posted searching criteria.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/amadeus"
+}

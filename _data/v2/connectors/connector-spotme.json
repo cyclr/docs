@@ -1,0 +1,210 @@
+{
+    "Description": "From live to on-demand, SpotMe makes it easy to deliver digital experiences and event apps that your audience love.",
+    "Id": 13582,
+    "Name": "SpotMe",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13582",
+    "Categories": [
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Sessions",
+            "Methods": [
+                {
+                    "Name": "List Sessions",
+                    "Description": "Retrieves all sessions, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sessions",
+                    "Description": "Retrieves sessions created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Session",
+                    "Description": "Retrieves a session by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Session",
+                    "Description": "If a Session ID is provided, the existing session will be updated. Otherwise a new session will be created.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Session",
+                    "Description": "Deletes a session.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Session Tags",
+            "Methods": [
+                {
+                    "Name": "Upsert Tag",
+                    "Description": "If a Tag ID is provided, the existing tag will be updated. Otherwise a new tag will be created. Tags, by Tag ID, can then be added to a session using the Upsert Session method.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Session Tags",
+                    "Description": "Retrieves all tags for a session, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Session Tags",
+                    "Description": "Retrieves a session's tags created since the last time this process was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Registrations",
+            "Methods": [
+                {
+                    "Name": "Get Registration",
+                    "Description": "Retrieves a registration by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Registrations",
+                    "Description": "Retrieves a session's registrations created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Registrations",
+                    "Description": "Retrieves all registrations for a session, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Registration",
+                    "Description": "If a Registration ID is provided, the existing registration will be updated. Otherwise a new registration, a user being registered to a session, will be created.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Registration",
+                    "Description": "Deletes a registration to a session.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "Get Form",
+                    "Description": "Retrieves a form by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Forms",
+                    "Description": "Retrieves forms created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Forms",
+                    "Description": "Retrieves all forms, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Speakers",
+            "Methods": [
+                {
+                    "Name": "Upsert Speaker",
+                    "Description": "If a Speaker ID is provided, the existing speaker will be updated. Otherwise a new speaker will be created.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Speakers",
+                    "Description": "Retrieves speakers created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Speaker",
+                    "Description": "Retrieves a speaker by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upload Speaker Photo",
+                    "Description": "Upload a photo for a speaker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Speakers",
+                    "Description": "Retrieves all speakers, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Speaker Photo",
+                    "Description": "Retrieves a speaker photo by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Speaker",
+                    "Description": "Deletes a speaker.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Delete User",
+                    "Description": "Deletes a user, giving them a status of 'Cancelled'.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Retrieves all users, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Users",
+                    "Description": "Retrieves users created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Retrieves a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert User",
+                    "Description": "If a User ID is provided, the existing user will be updated. Otherwise a new user will be created.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Form Responses",
+            "Methods": [
+                {
+                    "Name": "List New Form Responses",
+                    "Description": "Retrieves a form's responses created since the last time this process was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Responses",
+                    "Description": "Retrieves all responses to a form, optionally filtered to only those created since the specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Form Response",
+                    "Description": "Retrieves a form response by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/spotme-connector"
+}

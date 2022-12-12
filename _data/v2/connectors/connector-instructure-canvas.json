@@ -1,0 +1,570 @@
+{
+    "Description": "At Instructure, we help move learning and growth forward, with platforms that simplify teaching, learning, and career development.",
+    "Id": 16797,
+    "Name": "Instructure Canvas",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16797",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users In Account",
+                    "Description": "List all users in an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Custom User Data",
+                    "Description": "Get custom data for a user. Add your own fields to the response to get the unique data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Custom User Data",
+                    "Description": "Store custom user data. Add your own fields to the request to store the unique data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Courses",
+                    "Description": "List all courses for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Users In An Account",
+                    "Description": "List all new users in an account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sections",
+            "Methods": [
+                {
+                    "Name": "De-cross-list Section",
+                    "Description": "Undo cross-listing of a Section, returning it to its original course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course Section",
+                    "Description": "Update an existing course section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cross-list Section",
+                    "Description": "Move a section to another course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Course Sections",
+                    "Description": "List all course sections.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Course Section",
+                    "Description": "Create a course section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Course Section",
+                    "Description": "Get a course section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Course Section",
+                    "Description": "Delete a course section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User Section Enrollment",
+                    "Description": "Enroll a user on a section.",
+                    "MethodType": "Action",
+                    "Subcategory": "Enrollments"
+                },
+                {
+                    "Name": "List Section Enrollments",
+                    "Description": "List all enrollments of a section.",
+                    "MethodType": "Action",
+                    "Subcategory": "Enrollments"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Sub-Accounts",
+                    "Description": "List all sub-accounts of a specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "List all accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Submissions",
+            "Methods": [
+                {
+                    "Name": "List New Submissions By Course",
+                    "Description": "List all new submissions of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Submissions By Section",
+                    "Description": "List all submissions of a section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Submissions By Section",
+                    "Description": "List all new submissions of a section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Grade Submission By Section",
+                    "Description": "Grade or comment on a submission, specifying the section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Submission By Course",
+                    "Description": "Create a submission, specifying the course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Submission By Section",
+                    "Description": "Create a submission, specifying the section.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Course Submission",
+                    "Description": "Get a course submission.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Submission By Course",
+                    "Description": "Get a user's submission, specifying the course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Submissions By Course",
+                    "Description": "List all submissions of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Grade Submission By Course",
+                    "Description": "Grade or comment on a submission, specifying the course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Submission By Section",
+                    "Description": "Get a user's submission, specifying the section.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Results",
+            "Methods": [
+                {
+                    "Name": "List Results",
+                    "Description": "List all results.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Result",
+                    "Description": "Get a result.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Line Items",
+            "Methods": [
+                {
+                    "Name": "List Line Items",
+                    "Description": "List all line items in a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Line Items",
+                    "Description": "Get a line item in a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Courses",
+            "Methods": [
+                {
+                    "Name": "List Course Users",
+                    "Description": "List all users of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Course Settings",
+                    "Description": "Gets the settings of the specified course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Courses In Account",
+                    "Description": "List all new courses in an account since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Course Students",
+                    "Description": "List all students in a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Courses",
+                    "Description": "List all courses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Course",
+                    "Description": "Create a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Courses",
+                    "Description": "List all updated courses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course",
+                    "Description": "Update a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Courses In Account",
+                    "Description": "List all courses in an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course Settings",
+                    "Description": "Updates the settings of the specified course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Course",
+                    "Description": "Get a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Courses",
+                    "Description": "List all new courses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Course Users",
+                    "Description": "List all new users of a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Logins",
+            "Methods": [
+                {
+                    "Name": "Update User Login",
+                    "Description": "Update an existing login for a user in the given account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Logins (By Account)",
+                    "Description": "List all logins for the specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Logins (By User)",
+                    "Description": "List all logins for the specified user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Modules",
+            "Methods": [
+                {
+                    "Name": "List New Course Modules",
+                    "Description": "List all new modules of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Module",
+                    "Description": "Create a module.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Module",
+                    "Description": "Delete a module.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Course Modules",
+                    "Description": "List all modules of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Module",
+                    "Description": "Get a module.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Module",
+                    "Description": "Update a module.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Assignments",
+            "Methods": [
+                {
+                    "Name": "List Updated Course Assignments",
+                    "Description": "List all updated assignments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Course Assignments",
+                    "Description": "List all assignments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Course Assignments",
+                    "Description": "List all new assignments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Assignment Submissions",
+                    "Description": "List all submissions of an assignment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User In A Course Level Assignment Data ",
+                    "Description": "List all assignments for the course sorted by due date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Course Assignment",
+                    "Description": "Get a course assignment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Assignment Group",
+                    "Description": "Delete an assignment group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Assignment Group",
+                    "Description": "Create an assignment group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Assignment Groups",
+                    "Description": "List all assignment groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Assignment Group",
+                    "Description": "Update an assignment group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Assignment Group",
+                    "Description": "Get an assignment group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enrollments",
+            "Methods": [
+                {
+                    "Name": "Re-activate Enrollment",
+                    "Description": "Activates an inactive enrollment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User Course Enrollment",
+                    "Description": "Enroll a user on a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course Enrollment",
+                    "Description": "Conclude, delete, inactivate or deactivate a course enrollment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Accept Course Enrollment",
+                    "Description": "Accept a course enrollment offer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Enrollments",
+                    "Description": "List all enrollments of a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Course Enrollments",
+                    "Description": "List all updated enrollments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Course Enrollments",
+                    "Description": "List all enrollments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account Enrollment by ID",
+                    "Description": "Get an account enrollment by Enrollment ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Course Enrollments",
+                    "Description": "List all new enrollments of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Enrollment Term",
+                    "Description": "Get an enrollment term.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Enrollment Term",
+                    "Description": "Update an enrollment term.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Enrollment Terms",
+                    "Description": "List all enrollment terms.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Enrollment Term",
+                    "Description": "Create an enrollment term.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Enrollment Terms",
+                    "Description": "List all new enrollment terms since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Enrollment Term",
+                    "Description": "Delete an enrollment term.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "SIS Imports",
+            "Methods": [
+                {
+                    "Name": "Create SIS Data",
+                    "Description": "Import SIS data into Canvas. Must be on a root account with SIS imports enabled.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New SIS Imports",
+                    "Description": "List all new SIS imports for an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List SIS Imports",
+                    "Description": "List all SIS imports for an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get SIS Import Status",
+                    "Description": "Get the status of a SIS import.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Quizzes",
+            "Methods": [
+                {
+                    "Name": "Validate Quiz Access Code",
+                    "Description": "Accepts an access code and returns a boolean indicating whether that access code is correct.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "List Quiz Questions",
+                    "Description": "List all questions for the specified quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Quiz Questions"
+                },
+                {
+                    "Name": "Get Quiz",
+                    "Description": "Get a course quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "Update Quiz",
+                    "Description": "Update a course quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "List Quizzes",
+                    "Description": "List all quizzes of a course.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "Delete Quiz",
+                    "Description": "Delete a course quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "Get Quiz Question",
+                    "Description": "List all questions for the specified quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Quiz Questions"
+                },
+                {
+                    "Name": "Get Quiz Question Group",
+                    "Description": "Gets details of the specified Quiz Question Group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Quiz Question Groups"
+                },
+                {
+                    "Name": "Reorder Quiz Items",
+                    "Description": "Change order of the quiz questions or groups within the quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                },
+                {
+                    "Name": "Create Quiz",
+                    "Description": "Create a course quiz.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage Quizzes"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/canvas"
+}

@@ -1,0 +1,46 @@
+{
+    "Description": "MongoDB supports transactional, search, analytics, and mobile use cases while using a common query interface and the data model developers love.",
+    "Id": 16216,
+    "Name": "MongoDB",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16216",
+    "Categories": [
+        "Databases",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Collections",
+            "Methods": [
+                {
+                    "Name": "Get Collections",
+                    "Description": "Gets all collections.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Documents",
+            "Methods": [
+                {
+                    "Name": "InsertMany",
+                    "Description": "Insert multiple documents into a collection.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Insert",
+                    "Description": "Insert a document into a collection. Create the document using custom fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

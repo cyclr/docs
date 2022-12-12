@@ -1,0 +1,15 @@
+title: Plugins
+text: We have a few plugins available, learn how to use them here.
+sections: 
+  - title: Content 
+    display: true
+    items: 
+    - title: Contact Form 7 Plugin
+      url: /contact-form-7-plugin
+      text: Easy integration with WordPress Contact Form 7 to collect data from form submissions.
+    - title: Gravity Forms Plugin
+      url: /gravity-forms-plugin
+      text: 
+    - title: Magento 2 Webhook Extension
+      url: /magento-2-webhook-extension
+      text: Easy integration Magento 2.

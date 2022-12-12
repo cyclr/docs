@@ -1,0 +1,61 @@
+{
+    "Description": "Simplify sales, marketing and lead nurturing efforts with an integrated phone dialer and single-click self-booking.",
+    "Id": 14531,
+    "Name": "Gym Sales",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14531",
+    "Categories": [
+        "Marketing",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Get Person",
+                    "Description": "Get a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "Create a person.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lead Status",
+            "Methods": [
+                {
+                    "Name": "List New Sales",
+                    "Description": "List all new lead status reports since the last successful run that have the person status of sale .",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Status Reports",
+                    "Description": "List all lead status reports.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "List Companies",
+                    "Description": "List all companies.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/gym-sales-connector"
+}

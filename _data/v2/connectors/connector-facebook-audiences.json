@@ -1,0 +1,75 @@
+{
+    "Description": "With audiences you build a group of people who receive your ad. You can create audiences based on customer data, conversion data such as activity in your app or website, and so on.",
+    "Id": 16977,
+    "Name": "Facebook Audiences",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16977",
+    "Categories": [
+        "Social Media"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Members",
+            "Methods": [
+                {
+                    "Name": "Add Email Audience Member",
+                    "Description": "Add a member using email address match.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Audience MultiKey Members",
+                    "Description": "Add users using multi-key matches.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Audience Members",
+                    "Description": "Delete audience members.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Audience",
+            "Methods": [
+                {
+                    "Name": "Delete Audience",
+                    "Description": "Deletes an audience.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Audience List",
+                    "Description": "Gets a list of audiences for the ad account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Audience",
+                    "Description": "Create a audience.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Audience",
+                    "Description": "Gets audience details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ad Accounts",
+            "Methods": [
+                {
+                    "Name": "Get My Ad Accounts",
+                    "Description": "Gets the advertising accounts to which you have access.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

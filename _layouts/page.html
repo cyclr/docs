@@ -1,0 +1,109 @@
+---
+layout: default
+---
+{% if page.singlecard == true %}
+{% assign cardclass='class="card py-5 my-5""' %}
+{% assign cardclass='' %}
+{% else %}
+{% assign cardclass='' %}
+{% endif %}
+<div class="container p-0">
+
+    <div class="row align-items-start">
+        {% if page.default_header == true %}
+        {% unless page.toc == false %}
+        <div id="col-toc" class="col-lg-3 order-lg-1 sticky">
+            <div class="card py-4 px-5">
+                <h4 class="pb-3 mb-3 border-bottom border-1">In this article</h4>
+                {% include toc.html %}
+            </div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        <div class="col-lg-9 order-lg-0">
+            {% if page.default_header == true %}
+            {% if page.icon %}
+            <div class="post-header mt-4">
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-row">
+                        <div class="col-2">
+                            <img class="img-fluid" src="{{ page.icon }}" alt="{{ page.title }} icon" />
+                        </div>
+                        <div class="col-10">
+                            <h1 class="post-title-main">{{ page.title }}</h1>
+                            {% if page.description %}
+                            <p>{{ page.description }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="post-header mt-4">
+                <h1 class="post-title-main ps-5">{{ page.title }}</h1>
+            </div>
+            {% endif %}
+            {% endif %}
+
+            {% if page.simple_map == true %}
+
+            <script>
+    $(document).ready(function () {
+        $('.box{{page.box_number}}').addClass('active');
+    });
+            </script>
+
+            {% include custom/{{page.map_name}}.html %}
+
+            {% elsif page.complex_map == true %}
+
+            <script>
+    $(document).ready(function () {
+        $('.modalButton{{page.box_number}}').addClass('active');
+    });
+            </script>
+
+            {% include custom/{{page.map_name}}.html %}
+
+            {% endif %}
+
+            <div class="post-content">
+                <div {{cardclass}}>
+                    {% if page.summary %}
+                    <div class="summary">{{page.summary}}</div>
+                    {% endif %}
+
+                    {{content}}
+
+                    {% unless page.show_tags == false %}
+                    <div class="tags">
+                        {% if page.tags != null %}
+                        <b>Tags: </b>
+                        {% assign projectTags = site.data.tags.allowed-tags %}
+                        {% for tag in page.tags %}
+                        {% if projectTags contains tag %}
+                        <a href="{{ "tag_" | append: tag }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    {% endunless %}
+
+                    {% unless page.show_editme_path == false %}
+                    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+                    {% endunless %}
+
+                    {% unless page.show_disqus == false %}
+                    {% include disqus.html %}
+                    {% endunless %}
+                </div>
+            </div>
+
+            {{site.data.alerts.hr_shaded}}
+        </div>
+    </div>
+
+    {% include v2/generic/poll.html %}
+
+</div>

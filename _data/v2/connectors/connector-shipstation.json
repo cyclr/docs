@@ -1,0 +1,240 @@
+{
+    "Description": "ShipStation creates an unparalleled buying and delivery experience with every order you send. All the tools you need to exceed your customers' expectations.",
+    "Id": 14153,
+    "Name": "ShipStation",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14153",
+    "Categories": [
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List New Orders",
+                    "Description": "Returns a list of new orders received since the last run of the step.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get the details of the specified order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "Returns a list of orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Changed Orders",
+                    "Description": "Returns a list of orders that have been changed since the last run of the step.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Order Mark Shipped",
+                    "Description": "Mark an order as being shipped.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates a new order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order",
+                    "Description": "Updates an order.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Warehouses",
+            "Methods": [
+                {
+                    "Name": "Get Warehouses",
+                    "Description": "Returns details of the specified Warehouse.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Warehouses",
+                    "Description": "Returns a list of Warehouses",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Stores",
+            "Methods": [
+                {
+                    "Name": "List Marketplaces",
+                    "Description": "Returns a list of Marketplaces",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Store",
+                    "Description": "Returns details of the specified Store.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Stores",
+                    "Description": "Returns a list of Stores",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Shipments",
+            "Methods": [
+                {
+                    "Name": "List Shipments",
+                    "Description": "Returns a list of shipments.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Delete Webhook",
+                    "Description": "Delete a  Webhook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Returns a list of Webhooks",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Webhook",
+                    "Description": "Subscribes a new Webhook.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Returns a list of Customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Returns details of the specified Customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Notification Order Details",
+                    "Description": "Returns order notification details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "New Order Notification",
+                    "Description": "Webhook notification that a new order has been received.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "New Shipment Notification",
+                    "Description": "Webhook notification that a new shipment has been made.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Shipment Details",
+                    "Description": "Returns details of the shipment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Update Product",
+                    "Description": "Updates details of the specified Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Products",
+                    "Description": "Returns a list of Products received since the last run of the step.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Changed Products",
+                    "Description": "Returns a list of Products that have been changed since the last run of the step. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Returns details of the specified Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Returns a list of Products.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Carriers",
+            "Methods": [
+                {
+                    "Name": "List Services",
+                    "Description": "Returns a list of Services for a Carrier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Carrier",
+                    "Description": "Returns details for the specified Carrier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Packages",
+                    "Description": "Returns a list of Packages for a Carrier.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Carriers",
+                    "Description": "Returns a list of Carriers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Fulfillments",
+            "Methods": [
+                {
+                    "Name": "List Fulfillments",
+                    "Description": "Returns a list of fulfillments.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Returns a list of Users",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/shipstation-connector"
+}

@@ -1,0 +1,190 @@
+{
+    "Description": "Payments infrastructure for the internet.",
+    "Id": 15752,
+    "Name": "VHT",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15752",
+    "Categories": [
+        "Billing/Payment"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "Pay Invoice",
+                    "Description": "Stripe automatically creates and then attempts to pay invoices for customers on subscriptions. We'll also retry unpaid invoices according to your retry settings. However, if you'd like to attempt to collect payment on an invoice out of the normal retry schedule or for some other reason, you can do so.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoice Line Items",
+                    "Description": "Retrieve a list of line items associated with an Invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoices",
+                    "Description": "You can list all invoices, or list the invoices for a specific customer. The invoices are returned sorted by creation date, with the most recently created invoices appearing first.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Retrieves the invoice with the given ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Invoice",
+                    "Description": "Until an invoice is paid, it is marked as open (closed=false). If you'd like to stop Stripe from automatically attempting payment on an invoice or would simply like to close the invoice out as no longer owed by the customer, you can update the closed parameter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Invoice",
+                    "Description": "This method can only be used if there is something to invoice for the customer, the cycle will fail otherwise. If you need to invoice your customer outside the regular billing cycle, you can create an invoice that pulls in all pending invoice items, including prorations. The customer's billing cycle and regular subscription won't be affected.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "Update Subscription",
+                    "Description": "Updates an existing subscription to match the specified parameters.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions",
+                    "Description": "By default, returns a list of subscriptions that have not been canceled.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription",
+                    "Description": "Retrieves the subscription with the given ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscription",
+                    "Description": "Creates a new subscription on an existing customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Subscription",
+                    "Description": "Cancels a customer's subscription. If you set the at_period_end parameter to true, the subscription will remain active until the end of the period, at which point it will be canceled and not renewed. By default, the subscription is terminated immediately.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Coupons",
+            "Methods": [
+                {
+                    "Name": "List Coupons",
+                    "Description": "Returns a list of your coupons.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Coupon",
+                    "Description": "Gets the specified Coupon",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Coupon",
+                    "Description": "Deletes the specified Coupon",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Coupon",
+                    "Description": "Creates a new Coupon",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer By Email",
+                    "Description": "Retrieves a customer by email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Returns a list of your customers. The customers are returned sorted by creation date, with the most recent customers appearing first.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Retrieves the details of an existing customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Create a new customer in Stripe. If a source is included then the following fields are required: Object, Expiry Month, Expiry Year, Number, Currency and CVC.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Update a customer in Stripe. If a source is included then the following fields are required: Object, Expiry Month, Expiry Year, Number, Currency and CVC.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Permanently deletes a customer. It cannot be undone. Also immediately cancels any active subscriptions on the customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Plans",
+            "Methods": [
+                {
+                    "Name": "List Plans",
+                    "Description": "Returns a list of your plans.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Plan",
+                    "Description": "Returns details of a single Plan",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Charges",
+            "Methods": [
+                {
+                    "Name": "Create Charge",
+                    "Description": "Creates a new Charge record in Stripe.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Charge",
+                    "Description": "Get all the details of a Charge.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Charges",
+                    "Description": "Returns a list of charges.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "New Event",
+                    "Description": "Use webhooks to be notified about events that happen in a Stripe account.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Stripe Integration - Invoice & Subscription Automation - Cyclr",
+    "MetaDescription": "Take the hassle out of managing your invoices & subscriptions with Cyclr's Stripe connectivity, letting you integrate with 3rd party apps.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/stripe",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

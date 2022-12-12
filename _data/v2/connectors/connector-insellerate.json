@@ -1,0 +1,28 @@
+{
+    "Description": "Insellerate, the true mortgage CRM.",
+    "Id": 14179,
+    "Name": "Insellerate",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14179",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Create Leads",
+                    "Description": "Add leads to a campaign.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/authenticate-insellerate"
+}

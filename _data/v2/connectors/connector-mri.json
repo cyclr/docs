@@ -1,0 +1,75 @@
+{
+    "Description": "Real estate software to transform the way communities live, work and play.",
+    "Id": 14387,
+    "Name": "MRI",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14387",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Entities",
+            "Methods": [
+                {
+                    "Name": "List Entities",
+                    "Description": "List all entities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices",
+                    "Description": "List all invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get the specified invoice by invoice number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Invoice",
+                    "Description": "Create an invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Pay Invoice",
+                    "Description": "Pay an existing invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "List all invoices updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vendors",
+            "Methods": [
+                {
+                    "Name": "List Vendors",
+                    "Description": "List all vendors.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Vendors",
+                    "Description": "List all updated vendors since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/mri-connector"
+}

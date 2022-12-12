@@ -1,0 +1,136 @@
+{
+    "Description": "Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.",
+    "Id": 14187,
+    "Name": "ProfitWell",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14187",
+    "Categories": [
+        "Customer Experience",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Plans",
+            "Methods": [
+                {
+                    "Name": "List Plans",
+                    "Description": "List all manually-added plans.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Plan",
+                    "Description": "Retrieve a single manually-added plan by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Plan",
+                    "Description": "Create a new, manually-added plan. You may create a new plan using this endpoint. Alternatively, if you create a manually-added subscription and place that subscription on a plan that has never been referenced before, that plan will automatically be created. If you try to create a plan that already exists, this endpoint will return an error.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Plan",
+                    "Description": "Retrieve a single manually-added plan by ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Delete User",
+                    "Description": "Completely delete a user and his subscription history.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User's Subscription History",
+                    "Description": "Get the history of subscription updates you've made to a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a User's email address.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "Update Subscription",
+                    "Description": "Upgrade/downgrade an existing subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Churn Subscription",
+                    "Description": "Churn a subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscription",
+                    "Description": "Create a new subscription. Can be for a new user, or a user who already has another subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Un-churn Subscription",
+                    "Description": "Remove the churn event associated with a subscription. This rewrites history for the subscription, making it appear as thought the subscription never churned to begin with. You may do this for a subscription that has already churned, or that is set to churn in the future.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Metrics",
+            "Methods": [
+                {
+                    "Name": "List Plan IDs",
+                    "Description": "Retrieve your company's active plan IDs, sorted by MRR. Will only return plan IDs for which there are currently active customers, and will return at most 150.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Daily Metrics",
+                    "Description": "Retrieve financial metrics broken down by day for either the current month or the last. Optionally scope to an individual metric and/or plan. See https://profitwellapiv2.docs.apiary.io/#reference/metrics/daily-metrics/get-daily-metrics for metrics to filter by.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Monthly Metrics",
+                    "Description": "Retrieve all monthly financial metrics for your company. Optionally scope to an individual metric and/or plan.  See https://profitwellapiv2.docs.apiary.io/#reference/metrics/monthly-metrics/get-monthly-metrics for metrics to filter by.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Exclude Customer from Metrics",
+                    "Description": "Exclude user's data from the calculation of all metrics.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Company",
+            "Methods": [
+                {
+                    "Name": "Get Company Account Settings",
+                    "Description": "Get your company's ProfitWell account settings. These include your company ID, name, timezone, and the currency in which your metrics are displayed.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Maintenance",
+            "Methods": [
+                {
+                    "Name": "Get API Status",
+                    "Description": "This endpoint returns a status code of 200 if the API is operational and if you've properly authenticated. If you haven't authenticated properly, the endpoint returns a status code of 401.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/profitwell"
+}

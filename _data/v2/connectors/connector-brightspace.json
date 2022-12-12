@@ -1,0 +1,1215 @@
+{
+    "Description": "Created by D2L (formerly Desire2Learn), Brightspace is the best LMS software for online learning and teaching.",
+    "Id": 16857,
+    "Name": "Brightspace",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16857",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "List Organizations",
+                    "Description": "List all organizations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organization Unit Type",
+                    "Description": "Update a particular org unit type.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organization Unit",
+                    "Description": "Update a custom org unit\u2019s properties",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Organization Unit",
+                    "Description": "Create a new custom org unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organization Properties",
+                    "Description": "List all properties of an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Organization Unit Type",
+                    "Description": "Create a custom organization unit type.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get Current User",
+                    "Description": "Get the current user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User's Names",
+                    "Description": "Update a user's names.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Get a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Delete a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User's Names",
+                    "Description": "Get a user's names.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Profile Image",
+                    "Description": "Remove the profile image from a particular personal profile, by Profile ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Delete User's Profile Image",
+                    "Description": "Remove the profile image from a particular personal profile, by User ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get Current User Profile Image",
+                    "Description": "Get the current user's profile image.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update Current User Profile",
+                    "Description": "Get the current user's profile.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get User's Profile Image",
+                    "Description": "Get a user's profile image.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update Profile",
+                    "Description": "Update a particular personal profile, by Profile ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get User Profile",
+                    "Description": "Get a user's profile.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update Current User Profile Image",
+                    "Description": "Update the personal profile image for the current user context.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get Profile Image",
+                    "Description": "Get the profile's image.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update User's Profile Image",
+                    "Description": "Update the profile image for the identified personal profile, by User ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get Profile",
+                    "Description": "Get a profile.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Get Current User Profile",
+                    "Description": "Get the current user's profile.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Delete Current User Profile Image",
+                    "Description": "Remove the current user's profile image.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update User's Activation Settings",
+                    "Description": "Update a user's activation settings.",
+                    "MethodType": "Action",
+                    "Subcategory": "Activation"
+                },
+                {
+                    "Name": "List Notification Subscriptions",
+                    "Description": "Get all current subscriptions for notification messages.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "List Carrier Channels",
+                    "Description": "List all carrier channels for delivering notification messages.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Set User's Notification Number",
+                    "Description": "Set the user\u2019s notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Delete Notification Subscription",
+                    "Description": "Delete the subscription for messages of a particular type, delivered by a particular carrier.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Update Notification Settings For User",
+                    "Description": "Update the notification settings for the provided user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Set Notification Subscription",
+                    "Description": "Subscribe to notification messages of a particular type, delivered by a particular carrier.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "List Notification Users",
+                    "Description": "Get all users with the provided notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Get User Notification Settings",
+                    "Description": "Get the user's notification settings.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Delete Password",
+                    "Description": "Clear a particular user's password.",
+                    "MethodType": "Action",
+                    "Subcategory": "Passwords"
+                },
+                {
+                    "Name": "Delete Notification Number Settings For User",
+                    "Description": "Delete the notification number settings for provided user with the provided notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Get User Notification Number",
+                    "Description": "Get the user's notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Delete Users Notification Number",
+                    "Description": "Delete the user\u2019s notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Delete Notification Subscription For User",
+                    "Description": "Delete the subscription for messages of a particular type, delivered by a particular carrier.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Set Notification Subscription For User",
+                    "Description": "Subscribe to notification messages of a particular type, delivered by a particular carrier, for a particular user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "List User Alerts",
+                    "Description": "List all alerts for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Delete Notification Number Settings",
+                    "Description": "Delete the notification number settings for users with the provided notification number.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "List Notification Subscriptions Of User",
+                    "Description": "Get all current subscriptions for notification messages of a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Notifications"
+                },
+                {
+                    "Name": "Update Profile Image",
+                    "Description": "Remove the profile image from a particular personal profile, by Profile ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "Update Password",
+                    "Description": "Update a particular user\u2019s password.",
+                    "MethodType": "Action",
+                    "Subcategory": "Passwords"
+                },
+                {
+                    "Name": "Assign User's Global Map ID",
+                    "Description": "Assign the global map identifier for a particular user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Global User Mapping"
+                },
+                {
+                    "Name": "Get User's Activation Settings",
+                    "Description": "Get a user's activation settings.",
+                    "MethodType": "Action",
+                    "Subcategory": "Activation"
+                },
+                {
+                    "Name": "List User Roles",
+                    "Description": "List all user roles.",
+                    "MethodType": "Action",
+                    "Subcategory": "Roles"
+                },
+                {
+                    "Name": "Get User Role",
+                    "Description": "Get a user role.",
+                    "MethodType": "Action",
+                    "Subcategory": "Roles"
+                },
+                {
+                    "Name": "List Organization's User Roles",
+                    "Description": "List all user roles of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Roles"
+                },
+                {
+                    "Name": "Delete Sessions",
+                    "Description": "Terminate all active sessions for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Roles"
+                },
+                {
+                    "Name": "Map User to LIS Roles",
+                    "Description": "Map a user role to a set of LIS Roles.",
+                    "MethodType": "Action",
+                    "Subcategory": "IMS/LIS Role Configuration"
+                },
+                {
+                    "Name": "List LIS Roles",
+                    "Description": "Get all LIS roles.",
+                    "MethodType": "Action",
+                    "Subcategory": "IMS/LIS Role Configuration"
+                },
+                {
+                    "Name": "Reset Password",
+                    "Description": "Reset a particular user's password.",
+                    "MethodType": "Action",
+                    "Subcategory": "Passwords"
+                },
+                {
+                    "Name": "List Role LIS Roles Mappings",
+                    "Description": "Get all mappings between user roles and LIS roles for a role.",
+                    "MethodType": "Action",
+                    "Subcategory": "IMS/LIS Role Configuration"
+                },
+                {
+                    "Name": "Create Relationships",
+                    "Description": "Create relationships for given users.",
+                    "MethodType": "Action",
+                    "Subcategory": "User Relationships"
+                },
+                {
+                    "Name": "List Parental Relationships",
+                    "Description": "Get all parental relationships of a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "User Relationships"
+                },
+                {
+                    "Name": "Delete Parental Relationships",
+                    "Description": "Get all parental relationships of a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "User Relationships"
+                },
+                {
+                    "Name": "Link User To Google Apps Account, Copy of",
+                    "Description": "Link a user to a Google Apps user account,.",
+                    "MethodType": "Action",
+                    "Subcategory": "Integrations"
+                },
+                {
+                    "Name": "Link User To Google Apps Account",
+                    "Description": "Link a user to a Google Apps user account,.",
+                    "MethodType": "Action",
+                    "Subcategory": "Integrations"
+                },
+                {
+                    "Name": "Unassign User's Global Map ID",
+                    "Description": "Unassign the global map identifier for a particular user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Global User Mapping"
+                },
+                {
+                    "Name": "Get User's Global Map ID",
+                    "Description": "Get the global map ID for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Global User Mapping"
+                },
+                {
+                    "Name": "Get D2L Map User",
+                    "Description": "Get the D2L map user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Global User Mapping"
+                },
+                {
+                    "Name": "List LIS Roles Mappings",
+                    "Description": "Get all mappings between user roles and LIS roles.",
+                    "MethodType": "Action",
+                    "Subcategory": "IMS/LIS Role Configuration"
+                }
+            ]
+        },
+        {
+            "Category": "Dropbox",
+            "Methods": [
+                {
+                    "Name": "Get Dropbox Folder File",
+                    "Description": "Retrieve a file attachment (identified by file ID) from a specific dropbox folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Udpate Dropbox Folder",
+                    "Description": "Update a particular dropbox folder in an org unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Dropbox Folder Users",
+                    "Description": "Retrieve a list of users with access to a specified dropbox folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Dropbox Folders",
+                    "Description": "Get all dropbox folders for an organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Dropbox Feedback",
+                    "Description": "Retrieve a list of org units for which the current user context has an assessment role on their dropbox folders (can see submissions and provide feedback).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Dropbox Folder",
+                    "Description": "Get a dropbox folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Dropbox Folder",
+                    "Description": "Create a new dropbox folder in an org unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Dropbox Folder Category",
+                    "Description": "Delete a specific dropbox folder category from an org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Folder Categories"
+                },
+                {
+                    "Name": "Get Dropbox Folder Category Information",
+                    "Description": "Delete a specific dropbox folder category from an org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Folder Categories"
+                },
+                {
+                    "Name": "Create Submission For Current User",
+                    "Description": "Post a new submission for the current user context to a particular dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "Get Dropbox Folder Submission Files By User",
+                    "Description": "Download all the files submitted by a user for a particular dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "Get Dropbox Folder Submission File",
+                    "Description": "Retrieve one of the files included in a submission for a particular dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "Create Group Submission",
+                    "Description": "Post a new group submission to a particular dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "Mark Submitted File As Read",
+                    "Description": "Marks the specified submitted file as read.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "List Dropbox Folder Categories",
+                    "Description": "Retrieve all dropbox folder categories for the provided org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Folder Categories"
+                },
+                {
+                    "Name": "Update Dropbox Folder Category",
+                    "Description": "Update the information for a specific dropbox folder category.",
+                    "MethodType": "Action",
+                    "Subcategory": "Folder Categories"
+                },
+                {
+                    "Name": "Delete Special Access Rules For User",
+                    "Description": "Retrieve the special access rule for a user in a specified dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Special Access"
+                },
+                {
+                    "Name": "Create Dropbox Folder Category",
+                    "Description": "Create a new dropbox folder category for the provided org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Folder Categories"
+                },
+                {
+                    "Name": "Get Dropbox Folder Feedback",
+                    "Description": "Retrieve the feedback entry from a dropbox folder for the provided entity.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Get Dropbox Folder Feedback File",
+                    "Description": "Retrieve the feedback entry from a dropbox folder for the provided entity.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Delete Dropbox Folder Feedback File",
+                    "Description": "Remove a particular file attachment from an entity\u2019s feedback entry within a specified dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Attach File To Feedback Entry",
+                    "Description": "Attach an uploaded file to a particular entity\u2019s feedback entry in a specific dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Upload Feedback File",
+                    "Description": "Initiate a resumable file upload request for a particular entity\u2019s feedback for a specific dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Set Completion Date For Entity",
+                    "Description": "Manually set the completion date value for an entity within a specified observational dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Entities"
+                },
+                {
+                    "Name": "Get Special Access Rules For User",
+                    "Description": "Retrieve the special access rule for a user in a specified dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Special Access"
+                },
+                {
+                    "Name": "Upsert Special Access Rules For User",
+                    "Description": "Create or update a special access rule for a user in a dropbox folder.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "LIst Special Access Rules",
+                    "Description": "Retrieve special access rules for users in a specified dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Special Access"
+                },
+                {
+                    "Name": "Create Dropbox Folder Submission Feedback",
+                    "Description": "Post feedback (without attachment) for a particular submission in a specific dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Feedback"
+                },
+                {
+                    "Name": "Get Dropbox Folder Submission Files By Group",
+                    "Description": "Download all the files submitted by users in a group for a particular dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                },
+                {
+                    "Name": "List Dropbox Folder Submissions",
+                    "Description": "Retrieve all the submissions for a specific dropbox folder.",
+                    "MethodType": "Action",
+                    "Subcategory": "Submissions"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "Get Job Progress",
+                    "Description": "Get a job's progress.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Job ID",
+                    "Description": "Create a job ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Grades",
+            "Methods": [
+                {
+                    "Name": "List User Grades",
+                    "Description": "List all grade values for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Final Grade",
+                    "Description": "Retrieve the final grade value for a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enrollments",
+            "Methods": [
+                {
+                    "Name": "Get Enrolled User",
+                    "Description": "Get an enrolled user of an organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Un-enrol User",
+                    "Description": "Un-enrol a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current User Enrollments In An Organization",
+                    "Description": "Get the enrollment details of the current user provided in the organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current User Enrollments Access",
+                    "Description": "Get the entollment access details of the current user provided in the organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Enrolled Users Classlist",
+                    "Description": "Get all enrolled users in the classlist for an organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Current User Enrollments",
+                    "Description": "Get the enrollment details of the current user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Enrollments",
+                    "Description": "Get all users enrollments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Enrol User",
+                    "Description": "Enrol a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Enrolled Users",
+                    "Description": "Get all enrolled users of an organization unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Enrollments Of An Organization",
+                    "Description": "Get a users enrollments of an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Group Category",
+                    "Description": "Update a group category.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Remove User From Group",
+                    "Description": "Remove a user from a group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Enroll User In Group",
+                    "Description": "Enrol a user in a group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Create Group Category",
+                    "Description": "Create a group category.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Auditee",
+                    "Description": "Add an auditee to the list of users that an auditor is auditing.",
+                    "MethodType": "Action",
+                    "Subcategory": "Auditors"
+                },
+                {
+                    "Name": "Get Auditee",
+                    "Description": "Get an auditee.",
+                    "MethodType": "Action",
+                    "Subcategory": "Auditors"
+                },
+                {
+                    "Name": "List Auditor Audits",
+                    "Description": "Get all audits an auditor is auditing.",
+                    "MethodType": "Action",
+                    "Subcategory": "Auditors"
+                },
+                {
+                    "Name": "Get Auditor",
+                    "Description": "Get an auditor.",
+                    "MethodType": "Action",
+                    "Subcategory": "Auditors"
+                },
+                {
+                    "Name": "Update Group",
+                    "Description": "Update a group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Delete Group Category",
+                    "Description": "Delete a group category for an organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Remove Auditee",
+                    "Description": "Remove an auditee from the list of users that an auditor is auditing.",
+                    "MethodType": "Action",
+                    "Subcategory": "Auditors"
+                },
+                {
+                    "Name": "Create Group",
+                    "Description": "Create a group.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Get \"Group Category\" Group",
+                    "Description": "Get a group of a \"group category\" of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Delete Pin",
+                    "Description": "Remove the pin from the provided organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Pinning"
+                },
+                {
+                    "Name": "Initialize Section",
+                    "Description": "Initialize one or more sections for a particular organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Enroll User In Section",
+                    "Description": "Enroll a user in a section for a particular organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Get Section",
+                    "Description": "Get a section of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Create Section",
+                    "Description": "Create a new section in a provided organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Update Section Settings",
+                    "Description": "Update the section properties for an organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Create Pin For User",
+                    "Description": "Pin an organization unit to the top of the list for a user's enrollments.",
+                    "MethodType": "Action",
+                    "Subcategory": "Pinning"
+                },
+                {
+                    "Name": "List \"Group Category\" Groups",
+                    "Description": "Get all groups of a \"group category\" of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "List Sections",
+                    "Description": "Get all sections of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Get Group Category",
+                    "Description": "Get a group category of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Delete Group",
+                    "Description": "Delete a group from an organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Update Section",
+                    "Description": "Update a section in a provided organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Delete Section",
+                    "Description": "Delete a section from a provided organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "List Group Categories",
+                    "Description": "Get all group categories of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Groups"
+                },
+                {
+                    "Name": "Create Pin",
+                    "Description": "Pin an organization unit to the top of the list of a user's enrollments.",
+                    "MethodType": "Action",
+                    "Subcategory": "Pinning"
+                },
+                {
+                    "Name": "Get Sections Settings",
+                    "Description": "Get sections settings of an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sections"
+                },
+                {
+                    "Name": "Delete Pin Of User",
+                    "Description": "Remove the pin of a user from the provided organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Pinning"
+                }
+            ]
+        },
+        {
+            "Category": "Courses",
+            "Methods": [
+                {
+                    "Name": "Get Course",
+                    "Description": "Get a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Course",
+                    "Description": "Create a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Course",
+                    "Description": "Delete a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course",
+                    "Description": "Update a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Data Hub",
+            "Methods": [
+                {
+                    "Name": "List Export Jobs",
+                    "Description": "List all available export jobs that you have previously submitted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Download Export Job Data",
+                    "Description": "Get the CSV data of an export job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Export Job",
+                    "Description": "Get an available export job that you have previously submitted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Data Set",
+                    "Description": "Get a data set.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Data Sets",
+                    "Description": "List all data sets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Export Job",
+                    "Description": "Create an export job for the requested data set.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Download Data Set Plugin 3",
+                    "Description": "Download a data set plugin as a CSV file.",
+                    "MethodType": "Action",
+                    "Subcategory": "Data Sets"
+                },
+                {
+                    "Name": "List Data Set Plugins",
+                    "Description": "List all data set plugins.",
+                    "MethodType": "Action",
+                    "Subcategory": "Data Sets"
+                },
+                {
+                    "Name": "Download Data Set Plugin 1",
+                    "Description": "Download a data set plugin as a CSV file.",
+                    "MethodType": "Action",
+                    "Subcategory": "Data Sets"
+                },
+                {
+                    "Name": "Download Data Set Plugin 4",
+                    "Description": "Download a data set plugin as a CSV file.",
+                    "MethodType": "Action",
+                    "Subcategory": "Data Sets"
+                },
+                {
+                    "Name": "Download Data Set Plugin 2",
+                    "Description": "Download a data set plugin as a CSV file.",
+                    "MethodType": "Action",
+                    "Subcategory": "Data Sets"
+                }
+            ]
+        },
+        {
+            "Category": "Course Content",
+            "Methods": [
+                {
+                    "Name": "Add Child Module",
+                    "Description": "Add a child module to a specific module\u2019s structure.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Module",
+                    "Description": "Update a module.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Module",
+                    "Description": "Delete a specific module from an org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Modules"
+                },
+                {
+                    "Name": "List Module Access",
+                    "Description": "List all users with access to a module.",
+                    "MethodType": "Action",
+                    "Subcategory": "Modules"
+                },
+                {
+                    "Name": "List Organization Units",
+                    "Description": "Get all of the organization units associated with an ISBN.",
+                    "MethodType": "Action",
+                    "Subcategory": "ISBN"
+                },
+                {
+                    "Name": "Create ISBN",
+                    "Description": "Create a new association between an ISBN and an org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "ISBN"
+                },
+                {
+                    "Name": "List ISBN Organization Unit Associations",
+                    "Description": "Get all of the associations between an ISBN and an organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "ISBN"
+                },
+                {
+                    "Name": "List ISBNs",
+                    "Description": "Get all ISBNs that are associated with an organization unit ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "ISBN"
+                },
+                {
+                    "Name": "Delete ISBN",
+                    "Description": "Remove the association between an ISBN and org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "ISBN"
+                },
+                {
+                    "Name": "List Topic Captions",
+                    "Description": "Get all the metadata for an audio or video content topic.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Add Child Link Topic",
+                    "Description": "Add a child topic of type Link to a specific topics structure.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Topic Completion Count",
+                    "Description": "Get the count of completed and required content topics in an organization unit for each of the users in the parameter.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "List Topic Completion Count For A User",
+                    "Description": "Get the count of completed and required content topics in an organization unit for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "List Topic Completions",
+                    "Description": "Get all topic completions for a topic for users the caller has access to.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Update Topic File",
+                    "Description": "Replace the content topic file for a content topic.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "List Topic Completions For A User",
+                    "Description": "Get all topic completions for a topic for a specific user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Get Module Structure",
+                    "Description": "Get the structure of a module.",
+                    "MethodType": "Action",
+                    "Subcategory": "Modules"
+                },
+                {
+                    "Name": "List Bookmarked Topics",
+                    "Description": "Get all bookmarked topics.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Create Root Module",
+                    "Description": "Create a new root module for an org unit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Overdue Items",
+                    "Description": "Get all overdue items of the calling user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Scheduled Items"
+                },
+                {
+                    "Name": "List Organizations Scheduled Items Due",
+                    "Description": "Get all scheduled items that are due of the calling user in an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Due Item Count",
+                    "Description": "Get a count of all the scheduled due items of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Items Of User",
+                    "Description": "List all scheduled items of a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations Scheduled Items",
+                    "Description": "Get all scheduled items of the calling user in an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Item Count",
+                    "Description": "Get a count of all the scheduled items of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Scheduled Items Due",
+                    "Description": "Get all scheduled items that are due of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations Scheduled Due Item Count",
+                    "Description": "Get a count of all the scheduled due items of the calling user of an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations Scheduled Item Count",
+                    "Description": "Get a count of all the scheduled items of the calling user in an organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Complete Scheduled Items Due",
+                    "Description": "Get all completed scheduled due items of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Complete Scheduled Items",
+                    "Description": "Get all completed scheduled items of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Overdue Items Of User",
+                    "Description": "Get all overdue items of a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Scheduled Items"
+                },
+                {
+                    "Name": "List Scheduled Items",
+                    "Description": "Get all scheduled items of the calling user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organization Root Modules",
+                    "Description": "List all root modules for an organization.",
+                    "MethodType": "Action",
+                    "Subcategory": "Modules"
+                },
+                {
+                    "Name": "Get Topic Access",
+                    "Description": "List all users with access to a topic.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "List Recently Visited Topics",
+                    "Description": "Get all recently visited topics.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "List ToC For Organization",
+                    "Description": "Get all table of course content for an organization unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Delete Topic",
+                    "Description": "Delete a specific topic from an org unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Get Content Overview File",
+                    "Description": "Get the content overview's file attachment for a course offering.",
+                    "MethodType": "Action",
+                    "Subcategory": "Overview"
+                },
+                {
+                    "Name": "Delete Topic Caption",
+                    "Description": "Delete a specific topic caption from a topic.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Set Module Pacing Dates",
+                    "Description": "Set pacing dates for a specific module.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Pacing Dates",
+                    "Description": "Get pacing dates for content.",
+                    "MethodType": "Action",
+                    "Subcategory": "Pacing"
+                },
+                {
+                    "Name": "Set Pacing Dates",
+                    "Description": "Set pacing dates for content.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Content Overview",
+                    "Description": "Get the content overview for a course offering.",
+                    "MethodType": "Action",
+                    "Subcategory": "Overview"
+                },
+                {
+                    "Name": "Update Topic",
+                    "Description": "Update a topic.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Topic Count",
+                    "Description": "Get the aggregate count of completed and required content topics in an organization unit for the calling user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Topics"
+                },
+                {
+                    "Name": "Create Exemption By Filter",
+                    "Description": "Create exemptions for content topics matching a specific filter for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Exemption",
+                    "Description": "Create exemptions for specific content topics for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Exemptions"
+                },
+                {
+                    "Name": "Delete Exemptions",
+                    "Description": "Delete exemptions for content topics for a user.",
+                    "MethodType": "Action",
+                    "Subcategory": "Exemptions"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/brightspace-connector"
+}

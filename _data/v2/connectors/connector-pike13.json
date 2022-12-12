@@ -1,0 +1,78 @@
+{
+    "Description": "Software that powers personal service businesses. ",
+    "Id": 7622,
+    "Name": "Pike13",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7622",
+    "Categories": [
+        "HR/Payroll",
+        "CRMs",
+        "Calendars",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List Custom Fields",
+                    "Description": "Get a List of Custom Fields associated with the Business.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "List People - Clients",
+                    "Description": "Get a List of All People.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New People - Clients",
+                    "Description": "Get a List of All New People since last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People - Clients",
+                    "Description": "Get a List of All Updated People since last run time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices",
+                    "Description": "Get a List of All Invoice IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get an Invoices by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reporting - Clients",
+            "Methods": [
+                {
+                    "Name": "List Clients",
+                    "Description": "List Clients (reporting)",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

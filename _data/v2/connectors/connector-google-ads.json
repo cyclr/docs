@@ -1,0 +1,116 @@
+{
+    "Description": "Google Ads is a product that you can use to promote your business, help sell products or services, raise awareness and increase traffic to your website. Google Ads accounts are managed online, so you can create and change your ad campaign at any time, including your ad text, settings and budget.",
+    "Id": 16967,
+    "Name": "Google Ads",
+    "Version": "v8",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16967",
+    "Categories": [
+        "Marketing",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "Get Ad Group Performance",
+                    "Description": "The Ad Group Performance report includes all statistics aggregated by default at the ad group level, one row per ad group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Keywords Performance",
+                    "Description": "The Keywords Performance report includes all statistics aggregated at the keyword level, one row per keyword.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Performance",
+                    "Description": "The Campaigns Performance report includes all statistics aggregated by default at the campaign level, one row per campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad Performance",
+                    "Description": "The Ad Performance report includes all statistics aggregated at the ad level, one row per ad.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Offline User Data Jobs",
+            "Methods": [
+                {
+                    "Name": "Run Offline User Data Job",
+                    "Description": "Run an offline user data job, and populate the user list with new data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add User Data To Offline User Data Job",
+                    "Description": "Add user data to an offline user data job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Offline User Data Job",
+                    "Description": "Create an offline user data job, ready to be populated with data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Lists",
+            "Methods": [
+                {
+                    "Name": "Get User List (v8)",
+                    "Description": "Get a user list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User List",
+                    "Description": "Update a user list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User List",
+                    "Description": "Create a user list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User List (v10)",
+                    "Description": "Get a user list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User List",
+                    "Description": "Delete a user list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Lists",
+                    "Description": "List all user lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-ads-authentication"
+}

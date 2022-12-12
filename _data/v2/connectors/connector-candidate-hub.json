@@ -1,0 +1,63 @@
+{
+    "Description": "A modern, simplified job board and candidate resourcing tool designed to enable employers and staffing agencies to make HUGE monthly savings!",
+    "Id": 12258,
+    "Name": "Candidate Hub",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12258",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Get a contact by their Id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Allows you to update the contact that you select.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete the contact details for the specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By Email",
+                    "Description": "Get a contact by email address. Contains an action condition for found status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "List all contacts that have been updated since last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "List all contacts that have been created since last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Create a new contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/candidate-hub"
+}

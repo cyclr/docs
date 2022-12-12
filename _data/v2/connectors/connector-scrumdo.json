@@ -1,0 +1,106 @@
+{
+    "Description": "Online Scrum, Kanban and Scrumban project management software.",
+    "Id": 16799,
+    "Name": "ScrumDo",
+    "Version": "v3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16799",
+    "Categories": [
+        "Developer Tools",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Epics",
+            "Methods": [
+                {
+                    "Name": "Get Epics",
+                    "Description": "Get all epics for a project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organization",
+            "Methods": [
+                {
+                    "Name": "Get Organizations",
+                    "Description": "Get organisations visible to this account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Project",
+            "Methods": [
+                {
+                    "Name": "Get Iterations for Project",
+                    "Description": "Get all iterations for a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Latest Iteration for Project",
+                    "Description": "Get latest iteration for a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Projects",
+                    "Description": "Get all projects for an organisation.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Stories",
+            "Methods": [
+                {
+                    "Name": "Create New Story",
+                    "Description": "Create a new story within an iteration.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Stories for Project",
+                    "Description": "Get all stories for a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Story Custom Fields",
+                    "Description": "Update custom fields within a story. This only works for text type custom fields. Use the \"List Template Custom Fields\" method to obtain all custom field ID's. Add these as needed to this method with the \"Field Location\" set to the custom field ID to map.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Story By ID",
+                    "Description": "Get story within a project by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Stories By Iteration",
+                    "Description": "Get all stories for an iteration.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Templates",
+            "Methods": [
+                {
+                    "Name": "List Project Templates",
+                    "Description": "List all templates for a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Template Custom Fields",
+                    "Description": "List all custom fields for a template.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

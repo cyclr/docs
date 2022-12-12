@@ -1,0 +1,95 @@
+{
+    "Description": "Lever streamlines the hiring process and simplifies the Applicant Tracking System, so that recruiters and hiring managers can focus on what truly matters: their candidates.",
+    "Id": 14040,
+    "Name": "Lever",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14040",
+    "Categories": [
+        "HR/Payroll",
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Get All Opportunities",
+                    "Description": "Lists all pipeline opportunities in your Lever account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Tags To Opportunity",
+                    "Description": "Adds tags to a opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity Stage",
+                    "Description": "Change an opportunities current stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Gets a single pipeline opportunity in your Lever account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Tags From Opportunity",
+                    "Description": "Remove tags from an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Opportunity Sources",
+                    "Description": "Remove sources from an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Opportunity Sources",
+                    "Description": "Add sources to an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Opportunties",
+                    "Description": "Lists all pipeline opportunities that have been updated since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity",
+                    "Description": "Creates an opportunity in your Lever account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity Archived State",
+                    "Description": "Change an opportunities archived state.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Candidates",
+            "Methods": [
+                {
+                    "Name": "Add Candidate Postings",
+                    "Description": "Add postings to a candidate.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

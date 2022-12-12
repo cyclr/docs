@@ -1,0 +1,88 @@
+{
+    "Description": "Cloud-based Bill of Materials (BOM) and Inventory management system for engineering teams, manufacturing companies, and supply chain.",
+    "Id": 16754,
+    "Name": "OpenBOM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16754",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Bill Of Materials",
+            "Methods": [
+                {
+                    "Name": "List Updated BOMs",
+                    "Description": "Returns boms accessible by the user that have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Top Level BOMs",
+                    "Description": "Returns only top level boms accessible by the user that have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List BOMs",
+                    "Description": "Returns all boms accessible by the user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Order BOMs",
+                    "Description": "Returns order boms accessible by the user that have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order BOMs",
+                    "Description": "Returns all order boms accessible by the user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Top Level BOMs",
+                    "Description": "Returns all only top level boms accessible by the user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Catalogs",
+            "Methods": [
+                {
+                    "Name": "List Updated Catalogs",
+                    "Description": "Returns catalogs accessible by the user that have been updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Catalogs",
+                    "Description": "Returns all catalogs accessible by the user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Catalog Items",
+            "Methods": [
+                {
+                    "Name": "List Catalog Items",
+                    "Description": "Returns all items for this catalog.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "BOM Items",
+            "Methods": [
+                {
+                    "Name": "List BOM Items",
+                    "Description": "Returns all items for this BOM.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/open-bom-connector"
+}

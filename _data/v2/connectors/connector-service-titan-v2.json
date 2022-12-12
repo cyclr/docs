@@ -1,0 +1,28 @@
+{
+    "Description": "Service Titan helps hardworking contractors grow their businesses and reach the level of success they deserve.",
+    "Id": 16130,
+    "Name": "Service Titan v2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16130",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Call Reasons",
+            "Methods": [
+                {
+                    "Name": "List Call Reasons",
+                    "Description": "Returns a list of call reasons.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

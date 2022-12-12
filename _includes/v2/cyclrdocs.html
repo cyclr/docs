@@ -1,0 +1,56 @@
+<section class="hero bg-dark d-flex">
+	<div class="container text-center p-0 w-auto d-flex flex-column">
+		<h1 class="text-light mx-0 mt-0 mb-3 flex-grow-0 flex-shrink-1">{{ site.data.homepage.title }}</h1>
+		<p class="text-light mb-5 p-0 flex-grow-0 flex-shrink-1">{{ site.data.homepage.text }}</p>
+	{% if site.data.homepage.herosearch %}
+		<div class="flex-grow-1 mb-5 pb-5">
+			{% include v2/generic/search.html %}
+		</div>
+	</div>
+	{% endif %}
+</section>
+{% for section in site.data.homepage.sections %}
+{% capture bgcycle %}{% cycle 'bg-light', 'bg-dark' %}{% endcapture %}
+{% capture bgtilecycle %}{% cycle '', 'bg-light' %}{% endcapture %}
+{% capture textcycle %}{% cycle 'text-dark', 'text-light' %}{% endcapture %}
+<section class="{{ bgcycle }} py-5">
+	<div class="container">
+		<div class="{{ textcycle }}">
+			<h2 class="{{ textcycle }}">{{ section.title }}</h2>
+			<div class="border-bottom pb-4 d-flex justify-content-between">
+				<div class="intro my-3 flex-sm-65">
+					<p class="py-0 {{ textcycle }}">{{ section.text }}</p>
+				</div>
+				{% if section.cta-text %}
+				<div class="flex-shrink-1">
+					<a href="{{ section.cta-url }}" class="btn btn-primary">{{ section.cta-text }}</a>
+				</div>
+				{% endif %}
+			</div>
+			<div class="d-flex justify-content-between mt-4 mb-5">
+				{% for tile in section.tiles %}
+				<div class="card flex-sm-30 my-4 p-0 d-flex flex-colum justify-content-between">
+					{% if tile.img %}
+					<img class="card-img-top border-0" src="./images/homepage/{{tile.img}}" alt="{{tile.title}}" />
+					{% elsif tile.icon %}
+					<i class="card-img-top border-0 fa fa-{{ tile.icon }} fa-5x"></i>
+					{% endif %}
+					<div class="card-body p-4 border-top flex-grow-0">
+						{% if tile.externalurl %}
+						<a class="card-link stretched-link" href="{{tile.externalurl}}" target="_blank">
+							<strong>{{tile.title}}</strong>
+						</a>
+						{% else %}
+						<a class="card-link stretched-link" href="{{tile.url}}">
+							<strong>{{tile.title}}</strong>
+						</a>
+						{% endif %}
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+{% endfor %}
+

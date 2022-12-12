@@ -1,0 +1,115 @@
+{
+    "Description": "Recruiterflow is modern applicant tracking software for recruiting and staffing agencies designed to do your busywork, so you can focus on what's important.",
+    "Id": 15767,
+    "Name": "Recruiterflow",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15767",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Candidates",
+            "Methods": [
+                {
+                    "Name": "Update Candidate",
+                    "Description": "Updates the candidate specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Candidates",
+                    "Description": "Retrieves candidates updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Candidates",
+                    "Description": "Retrieves candidates created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Candidate",
+                    "Description": "Retrieves the candidate specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "Update Client",
+                    "Description": "Updates the client specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Clients",
+                    "Description": "Retrieves clients updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client",
+                    "Description": "Retrieves the client specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Clients",
+                    "Description": "Retrieves clients created since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "List Updated Jobs",
+                    "Description": "Retrieves jobs created or updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Jobs",
+                    "Description": "Retrieves all jobs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job",
+                    "Description": "Retrieves the job specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Retrieves contacts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Retrieves the contact specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates the contact specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Retrieves contacts updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

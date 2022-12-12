@@ -1,0 +1,119 @@
+{
+    "Description": "Help you with Backup, Archive, Big Data Analytics, Disaster Recovery, and much more.",
+    "Id": 16975,
+    "Name": "Amazon S3",
+    "Version": "2006-03-01",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16975",
+    "Categories": [
+        "Analytics",
+        "Databases",
+        "Data Tools",
+        "Developer Tools",
+        "DevOps"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Buckets",
+            "Methods": [
+                {
+                    "Name": "List Buckets",
+                    "Description": "Returns a list of all buckets owned by the authenticated sender of the request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Bucket",
+                    "Description": "Creates a new bucket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Bucket",
+                    "Description": "Deletes the bucket.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Objects",
+            "Methods": [
+                {
+                    "Name": "Get Object (JSON)",
+                    "Description": "Get the details of a JSON object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Object (XML)",
+                    "Description": "Get the details of an XML object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (CSV)",
+                    "Description": "Generate a CSV file in the chosen bucket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (Entire Response)",
+                    "Description": "Generate a JSON file in the chosen bucket, based on the entire response of another step.  It is expected that the previous step has a custom field with the location of (.) without the brackets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Extended File Object",
+                    "Description": "Generate a file in the chosen bucket. Supports all file types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Objects",
+                    "Description": "Returns objects in a bucket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Object",
+                    "Description": "Get the details of an object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object",
+                    "Description": "Generate a file in the chosen bucket. Supports JSON, CSV or XML types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Objects",
+                    "Description": "Returns objects in a bucket that have been created or updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Object (CSV)",
+                    "Description": "Get the details of a CSV object.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (JSON)",
+                    "Description": "Generate a JSON file in the chosen bucket.\t",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (JSON) (Mapped Fields)",
+                    "Description": "Generate a JSON file in the chosen bucket. The fields of the object must be mapped individually as custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Object",
+                    "Description": "Removes the null version (if there is one) of an object and inserts a delete marker, which becomes the current version of the object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Object (XML)",
+                    "Description": "Generate an XML file in the chosen bucket.\t",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/s3-connector"
+}

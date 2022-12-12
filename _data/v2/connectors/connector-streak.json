@@ -1,0 +1,102 @@
+{
+    "Description": "CRM, inside Gmail.",
+    "Id": 17184,
+    "Name": "Streak",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17184",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Pipeline Contacts",
+                    "Description": "Get all contacts in the specified pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Box Contacts",
+                    "Description": "Get all contacts in the specified box.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Boxes",
+            "Methods": [
+                {
+                    "Name": "List Boxes",
+                    "Description": "This call lets you get all boxes contained in the specified pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Boxes",
+                    "Description": "This call lets you get all updated boxes contained in the specified pipeline.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pipeline",
+            "Methods": [
+                {
+                    "Name": "List Pipelines",
+                    "Description": "Gets a list of all pipelines",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Gets the public details for the user specified.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Teams",
+                    "Description": "Gets all the teams the current user is on.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Task Due",
+                    "Description": "Triggered when a task is due",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Updated",
+                    "Description": "Triggered when a contact is updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Created",
+                    "Description": "Triggered when a contact is created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Box Created",
+                    "Description": "Triggered when a box is created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Webhook",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

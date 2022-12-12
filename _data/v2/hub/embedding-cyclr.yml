@@ -1,0 +1,36 @@
+title: Embedding Cyclr
+text: A set of guides to introduce you to how to work with and embed Cyclr.
+sections: 
+  - title: Content 
+    display: true
+    items: 
+    - title: Embedding Cyclr Overview
+      url: /embedding-overview
+      text: A broad overview of how Cyclr works with your app.
+    - title: API Authentication (deprecated)
+      url: /cyclr-api-authentication-password
+      text:  Cyclr API authentication using the OAuth 2.0 Password Grant flow.
+    - title: Transaction Error Handling
+      url: /transaction-error-handling
+      text: HTTP Reques configuration to provide an alert on error.
+    - title: Install a Connector
+      url: /install-a-connector
+      text: Step by step guide for installing a connector into an account.
+    - title: Embedding Cyclr in an iframe
+      url: /iframe-embedding
+      text: Steps to embed Cyclr in an iframe in your own application.
+    - title: API Authentication
+      url: /cyclr-api-authentication
+      text: Authentication using OAuth 2.0 Client Credentials 
+    - title: API Endpoints
+      url: /cyclr-api-endpoints
+      text: Cyclr provides Swagger documentation for the API, the location depends on your instance.
+    - title: Call a Connector Method
+      url: /call-a-connector-method
+      text: How to use the Cyclr API to call a connector method.
+    - title: Install a Template
+      url: /install-a-template
+      text: How to use the Cyclr API to install a template.
+    - title: Release Notes
+      url: /release-notes
+      text: All Cyclr Connector release notes

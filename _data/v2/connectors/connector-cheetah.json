@@ -1,0 +1,35 @@
+{
+    "Description": "Cheetah Messaging enables marketers to manage and optimize cross-channel campaigns and interactions to improve your marketing performance.",
+    "Id": 13670,
+    "Name": "Cheetah",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13670",
+    "Categories": [
+        "Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Records",
+            "Methods": [
+                {
+                    "Name": "Update Record\u00a0",
+                    "Description": "It is used to submit and write data, one record at a time, to one or more joined tables, in your Messaging database.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Record",
+                    "Description": "The Search Record endpoint is used to request details of a specified record, or records, in your database.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,260 @@
+{
+    "Description": "Aircall empowers teams to ace every call with a phone system specifically built for their favorite business tools.",
+    "Id": 12369,
+    "Name": "Aircall",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12369",
+    "Categories": [
+        "Chat",
+        "Customer Experience",
+        "Ecommerce",
+        "Sales",
+        "SMS",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Numbers",
+            "Methods": [
+                {
+                    "Name": "Get Number",
+                    "Description": "Gets detail of the specified number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Numbers",
+                    "Description": "Lists all numbers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "New Numbers",
+                    "Description": "Gets Numbers added since the last run of this process.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Gets full details of a user including the associated numbers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Updates the details of a user,",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Deletes a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Gets a list of all Users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Creates a new user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets details of the specified Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Removes  a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update the details of an existing Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "New Contacts",
+                    "Description": "List new Contacts since the last run of this process.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Lists all Contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "Get Tag",
+                    "Description": "Gets details of the specified Tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Tag",
+                    "Description": "Removes a Tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Tag",
+                    "Description": "Updates the details of a Tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tags",
+                    "Description": "List all tags.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Tag",
+                    "Description": "Creates a new Tag.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhook Management",
+            "Methods": [
+                {
+                    "Name": "Delete Webhook",
+                    "Description": "Completely removes a Webhook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Webhook",
+                    "Description": "Gets the details of a Webhook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Returns a list of Webhooks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Webhook",
+                    "Description": "Creates a Webhook.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teams",
+            "Methods": [
+                {
+                    "Name": "Get Team",
+                    "Description": " Gets details of a Team.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Team User ",
+                    "Description": "Adds a User to a Team.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Team User ",
+                    "Description": "Removes a User from a Team.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Teams",
+                    "Description": "Gets a full list of Teams.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Team",
+                    "Description": "Creates a new Team.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Calls",
+            "Methods": [
+                {
+                    "Name": "Get Call",
+                    "Description": "Gets details of a call.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Tag Call",
+                    "Description": "Apply Tags to a Call.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Comment Call",
+                    "Description": "Add comments to a Call.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Start Call",
+                    "Description": "Start a call",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Calls",
+                    "Description": "List all calls.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "New Calls",
+                    "Description": "List all new calls since the last run of this process.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Notify New Contact",
+                    "Description": "Receives notifications that a new contact has been created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Deleted Contact",
+                    "Description": "Receives notifications that a contact has been deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Updated Contact",
+                    "Description": "Receives notifications that a Contact has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Add Del User",
+                    "Description": "Receives notifications for of addition and deletions to Users list.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Notify Add Del Number",
+                    "Description": "Receives notifications for addition and deletions to Numbers.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/aircall-connector"
+}

@@ -1,0 +1,61 @@
+{
+    "Description": "JobNimbus saves you time and money with robust project, contact, and task management tools wrapped in a simple interface. ",
+    "Id": 15955,
+    "Name": "JobNimbus",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15955",
+    "Categories": [
+        "Product Management",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Gets a list of all contacts updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Gets a list of all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Gets a list of all contacts created since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "List New Jobs",
+                    "Description": "Gets a list of new jobs since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Jobs",
+                    "Description": "Gets a list of updated jobs since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Jobs",
+                    "Description": "Gets a list of all jobs.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/jobnimbus-connector"
+}

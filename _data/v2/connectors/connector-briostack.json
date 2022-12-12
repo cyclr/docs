@@ -1,0 +1,45 @@
+{
+    "Description": "We are a Pest Control Software Company that helps automate business for Pest Control companies without losing any time or money and is user-friendly.",
+    "Id": 16825,
+    "Name": "Briostack",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16825",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Sales",
+            "Methods": [
+                {
+                    "Name": "List Sales",
+                    "Description": "Gets the sold report data. This returns the number of customers with an initial service scheduled for a given sales rep in a given sales office.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sales",
+                    "Description": "Gets the sold report data for sales added since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Returns a customer record by Customer ID",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/briostack-connector"
+}

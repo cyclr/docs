@@ -1,0 +1,112 @@
+{
+    "Description": "A serverless, highly scalable, and cost-effective cloud data warehouse designed to help you make informed decisions quickly, so you can transform your business with ease. ",
+    "Id": 12539,
+    "Name": "Google BigQuery",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12539",
+    "Categories": [
+        "Databases",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "List projects to which the user has been granted any project role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project Service Account",
+                    "Description": "Get the project service account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Datasets",
+            "Methods": [
+                {
+                    "Name": "List Datasets",
+                    "Description": "Lists all datasets in the specified project to which the user has been granted the READER dataset role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Dataset",
+                    "Description": "Get the dataset specified.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Dataset",
+                    "Description": "Create a new empty dataset.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Dataset",
+                    "Description": "Update an existing dataset by overwriting existing fields with fields supplied.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Table",
+            "Methods": [
+                {
+                    "Name": "List Tables",
+                    "Description": "Lists all tables in the specified dataset. Requires the READER dataset role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Table Data",
+                    "Description": "List the content of a table in rows.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Table Data",
+                    "Description": "List the content of a table in rows added since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Partial Table Data",
+                    "Description": "List the content of a specific rows of a table",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Insert Table Data",
+                    "Description": "Insert data into tabledata",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Table Structure",
+                    "Description": "Get table structure.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Query",
+            "Methods": [
+                {
+                    "Name": "Get Query Results",
+                    "Description": "Get the results of a query job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Query",
+                    "Description": "Runs a BigQuery SQL query synchronously and returns query results if the query completes within a specified timeout.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/bigquery"
+}

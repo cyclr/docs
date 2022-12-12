@@ -1,0 +1,418 @@
+{
+    "Description": "Intelliflo widens access to financial advice through leading technology which powers the financial advisory experience. Open software architectures combined with unmatched industry experience simplify a complex digital landscape.",
+    "Id": 17205,
+    "Name": "Intelliflo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17205",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Income Created Webhook",
+                    "Description": "Event is raised any time a income is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Webhook",
+                    "Description": "Get a current webhook subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Webhook (Manually)",
+                    "Description": "Deletes a subscription defined by the provided Webhook ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Lists all current webhook subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Client Address Updated Webhook",
+                    "Description": "Event is raised any time any client addresses are updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Plan Deleted Webhook",
+                    "Description": "Event is raised any time a plan is deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Plan Created Webhook",
+                    "Description": "Event is raised any time a plan is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Client Changed Webhook",
+                    "Description": "Event is raised any time a client is changed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Client Address Created Webhook",
+                    "Description": "Event is raised any time any client addresses are created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Client Contact Detail Updated Webhook",
+                    "Description": "Event is raised any time any client contact details are updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Plan Status Updated Webhook",
+                    "Description": "Event is raised any time a plan status for a plan is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Client Created Webhook",
+                    "Description": "Event is raised any time a client is created.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "List Clients",
+                    "Description": "Lists all clients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Clients",
+                    "Description": "Lists all new clients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client",
+                    "Description": "Deletes a client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client",
+                    "Description": "Updates a client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client",
+                    "Description": "Creates a new client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client",
+                    "Description": "Gets a client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Address",
+                    "Description": "Deletes an Address for a specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Addresses",
+                    "Description": "Lists all addresses of specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Address",
+                    "Description": "Gets an address by specified Client ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Contact Details",
+                    "Description": "Deletes a client's contact detail specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Contact Details",
+                    "Description": "Creates new client contact details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Contact Details",
+                    "Description": "Updates client contact details specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Contact Details",
+                    "Description": "Gets a client's contact details by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Contact Details",
+                    "Description": "Lists all of a client's contact details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Employment",
+                    "Description": "Updates an employment for specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Employment",
+                    "Description": "Deletes an employment for specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Employments",
+                    "Description": "Lists all employments for specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Employment",
+                    "Description": "Creates an employment for specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Assets",
+                    "Description": "Lists Assets for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Address",
+                    "Description": "Updates a new Address for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Asset",
+                    "Description": "Updates the Asset for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Asset",
+                    "Description": "Deletes the Asset for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Asset",
+                    "Description": "Gets the Asset for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Incomes",
+                    "Description": "Lists Income records for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Income",
+                    "Description": "Creates Income record for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Income",
+                    "Description": "Deletes Income for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Income",
+                    "Description": "Updates Income for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Income",
+                    "Description": "Gets Income for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Marketing Preferences",
+                    "Description": "Updates a client's marketing preferences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Marketing Preferences",
+                    "Description": "Gets a client's marketing preferences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Asset",
+                    "Description": "Creates a new Asset for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Address",
+                    "Description": "Creates a new Address for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Employment",
+                    "Description": "Gets an employment by specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Relationship",
+                    "Description": "Updates the Relationship for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Relationship",
+                    "Description": "Creates a Relationship for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Revoke Client Relationship Access",
+                    "Description": "Revokes access for the Relationship relation to the Relationship subject.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client Relationship",
+                    "Description": "Deletes the Relationship for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Relationship",
+                    "Description": "Gets the Relationship for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client Relationship and Relation",
+                    "Description": "Creates a Relationship and Relation for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Client Relationships",
+                    "Description": "Lists the Relationships for specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Grant Client Relationship Access",
+                    "Description": "Grants access for the Relationship relation to the Relationship subject.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Lead",
+                    "Description": "Retrieves the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Creates a new lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Deletes the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Leads",
+                    "Description": "Retrieves leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Updates the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Retrieves all leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead Address",
+                    "Description": "Updates an address for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead Address",
+                    "Description": "Gets an address by specified Lead ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Addresses",
+                    "Description": "Retrieves all addresses for the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead Address",
+                    "Description": "Deletes an address for a specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead Address",
+                    "Description": "Creates a new Address for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead Marketing Preferences",
+                    "Description": "Gets a lead's marketing preferences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead Marketing Preferences",
+                    "Description": "Updates a lead's marketing preferences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Relationships",
+                    "Description": "Retrieves all relationships for the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead Relationship",
+                    "Description": "Updates the Relationship for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead Relationship",
+                    "Description": "Deletes the Relationship for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead Relationship",
+                    "Description": "Creates a Relationship for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead Relationship",
+                    "Description": "Gets the Relationship for specified Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead Contact Details",
+                    "Description": "Create a new contact for a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead Contact Details",
+                    "Description": "Updates a lead's contact details by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Contact Details",
+                    "Description": "Retrieves all contact details for the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead Contact Details",
+                    "Description": "Gets a lead's contact details specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Contact Details",
+                    "Description": "Lists all contacts details of a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead Contact Details",
+                    "Description": "Deletes a lead's contact details by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/intelliflo-connector"
+}

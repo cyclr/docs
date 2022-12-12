@@ -1,0 +1,43 @@
+{
+    "Description": "Deprecated as of 27/04/22, please use the Google Ads connector instead.",
+    "Id": 17041,
+    "Name": "Google AdWords",
+    "Version": "v201802",
+    "Status": "Unknown",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17041",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "Get Ad Performance",
+                    "Description": "The Ad Performance report includes all statistics aggregated at the ad level, one row per ad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Keywords Performance",
+                    "Description": "The Keywords Performance report includes all statistics aggregated at the keyword level, one row per keyword.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad Group Performance",
+                    "Description": "The Ad Group Performance report includes all statistics aggregated by default at the ad group level, one row per ad group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Performance",
+                    "Description": "The Campaigns Performance report includes all statistics aggregated by default at the campaign level, one row per campaign.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-authentication"
+}
