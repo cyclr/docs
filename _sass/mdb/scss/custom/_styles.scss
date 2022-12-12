@@ -1909,6 +1909,9 @@ Layout
                 margin: 8px 0;
                 display: block;
             }
+            ul {
+                @extend .ps-2;
+            }
         }
     }
 }

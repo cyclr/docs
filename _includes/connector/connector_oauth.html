@@ -1,28 +1,35 @@
+{% if hubdata.icon %}
+{% assign colclass=' col-9' %}
+{% else %}
+{% assign colclass=' col-12' %}
+{% endif %}
 <div class="d-flex flex-row flex-wrap mt-5 mb-1">
 
+	{% if hubdata.icon %}
 	<div class="text-center col-3">
 		<span class="fa-stack fa-4x">
 			<i class="fa fa-circle fa-stack-2x text-primary"></i>
 			<i class="fa fa-{{ hubdata.icon }} fa-stack-1x fa-inverse"></i>
 		</span>
 	</div>
-	<div class="text-left col-9">
+	{% endif %}
+	<div class="text-left{{ colclass }}">
 		<h1>{{ connectordata.title }}</h1>
 		<p>{{ connectordata.text }}</p>
 	</div>
 </div>
 <div class="d-flex flex-row flex-wrap">
 	{% for section in connectordata.sections %}
-		{% if section.display == true %}
+	{% if section.display == true %}
 	<div class="col-12">
 		<div class="text-left mx-4 mb-4">
 			<div class="d-flex flex-column justify-content-between">
 				<h3 class="title">{{ section.title }}</h3>
-				<a class="anchorjs-link " 
-					aria-label="Anchor" 
-					data-anchorjs-icon="" 
-					href="#{{ section.title | slugify | downcase }}"
-					style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
+				<a class="anchorjs-link "
+				   aria-label="Anchor"
+				   data-anchorjs-icon=""
+				   href="#{{ section.title | slugify | downcase }}"
+				   style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
 				</a>
 				{% for item in section.items %}
 				{{ item.text | markdownify }}
@@ -30,6 +37,6 @@
 			</div>
 		</div>
 	</div>
-		{% endif %}
-  {% endfor %}
+	{% endif %}
+	{% endfor %}
 </div>
