@@ -1909,10 +1909,41 @@ Layout
                 margin: 8px 0;
                 display: block;
             }
+            ul {
+                @extend .ps-2;
+            }
         }
     }
 }
 
+
+section.card {
+    h2 {
+        @extend .mt-2;
+        @extend .mb-3;
+    }
+
+    h3, h4, h5 {
+        @extend .mt-2;
+        @extend .mb-3;
+    }
+
+    table {
+        @extend .table;
+        @extend .mt-2;
+        @extend .mb-4;
+    }
+
+    .highlight {
+        code {
+            display: block;
+            max-height: 20em;
+            overflow-y: auto;
+            @extend .mt-2;
+            @extend .mb-4;
+        }
+    }
+}
 @include media-breakpoint-up(lg) {
     #col-toc {
         margin-top: 8rem;

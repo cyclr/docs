@@ -3,6 +3,7 @@ layout: default
 ---
 {% if page.singlecard == true %}
 {% assign cardclass='class="card py-5 my-5""' %}
+{% assign cardclass='' %}
 {% else %}
 {% assign cardclass='' %}
 {% endif %}
@@ -40,7 +41,7 @@ layout: default
             </div>
             {% else %}
             <div class="post-header mt-4">
-                <h1 class="post-title-main">{{ page.title }}</h1>
+                <h1 class="post-title-main ps-5">{{ page.title }}</h1>
             </div>
             {% endif %}
             {% endif %}

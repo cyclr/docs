@@ -7,31 +7,31 @@ columns:
     items:
       - type: link
         text: Company
-        url: /index
+        external_url: https://cyclr.com/company/about-us
         active: true
       - type: link
         text: About us
-        external_url: https://cyclr.com/
+        external_url: https://cyclr.com/company/about-us
         active: true
       - type: link
         text: Contact
-        external_url: https://cyclr.com/
+        external_url: https://cyclr.com/contact
         active: true
       - type: link
         text: Security and Compliance
-        external_url: https://cyclr.com/privacy-policy
+        external_url: https://cyclr.com/security-and-compliance
         active: true
       - type: link
         text: Pricing
-        url: https://cyclr.com/
+        external_url: https://cyclr.com/product/pricing
         active: true
       - type: link
         text: Blog
-        external_url: https://cyclr.com/
+        external_url: https://cyclr.com/blog
         active: true
       - type: link
         text: Branding
-        external_url: https://cyclr.com/
+        external_url: https://cyclr.com/brand
         active: true
       - type: link
         text: Embedded IPaas
@@ -42,27 +42,27 @@ columns:
     items:
       - type: link
         text: Website Terms
-        url: /index
+        external_url: https://cyclr.com/legal/website
         active: true
       - type: link
         text: Privacy Policy
-        external_url: https://cyclr.com/
-        active: true
-      - type: link
-        text: Terms and Conditions
-        external_url: https://cyclr.com/
-        active: true
-      - type: link
-        text: Data Protection Agreement
         external_url: https://cyclr.com/privacy-policy
         active: true
       - type: link
+        text: Terms and Conditions
+        external_url: https://cyclr.com/terms-and-conditions
+        active: true
+      - type: link
+        text: Data Protection Agreement
+        external_url: https://cyclr.com/data-protection-agreement
+        active: true
+      - type: link
         text: SLA
-        url: https://cyclr.com/
+        external_url: https://cyclr.com/sla
         active: true
       - type: link
         text: GDPR
-        external_url: https://cyclr.com/
+        external_url: https://cyclr.com/legal/gdpr-compliance
         active: true
       - type: link
         text: Application Stack
