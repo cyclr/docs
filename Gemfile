@@ -15,9 +15,8 @@ gem 'jekyll-toc'
 
 gem 'markdown_helper'
 
-gem "jekyll-menus", "~> 0.6.1"
-
 group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.7.1"
   gem 'jekyll-redirect-from', '~> 0.16.0'
+  gem "jekyll-menus", "~> 0.6.1"
 end
