@@ -1,4 +1,4 @@
-repository: cyclr/docs
+repository: cyclr/docs-v2
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,7 +12,7 @@ site_title: Cyclr Documentation
 company_name: Cyclr
 # this appears in the footer
 
-github_editme_path: cyclr/docs/blob/master/
+github_editme_path: cyclr/docs-v2/blob/master/
 # github_editme_path: cyclr/docs/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
@@ -34,8 +34,6 @@ exclude:
   - .gitignore
   - pages/tags/
   - pages/v1/
-  - pages/v2new/
-  - pages/v2old/
   - indexold.md
 
 # these are the files and directories that jekyll will exclude from the build
