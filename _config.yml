@@ -121,4 +121,4 @@ plugins:
 
 # needed for sitemap.xml file only
 # url: https://docs.cyclr.com
-# baseurl: /docs
+baseurl: /docs-v2
