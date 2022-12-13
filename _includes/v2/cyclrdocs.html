@@ -23,7 +23,7 @@
 				</div>
 				{% if section.cta-text %}
 				<div class="flex-shrink-1">
-					<a href="{{ section.cta-url }}" class="btn btn-primary">{{ section.cta-text }}</a>
+					<a href="{{ site.baseurl }}{{ section.cta-url }}" class="btn btn-primary">{{ section.cta-text }}</a>
 				</div>
 				{% endif %}
 			</div>
@@ -37,11 +37,11 @@
 					{% endif %}
 					<div class="card-body p-4 border-top flex-grow-0">
 						{% if tile.externalurl %}
-						<a class="card-link stretched-link" href="{{tile.externalurl | relative_url }}" target="_blank">
+						<a class="card-link stretched-link" href="{{tile.externalurl}}" target="_blank">
 							<strong>{{tile.title}}</strong>
 						</a>
 						{% else %}
-						<a class="card-link stretched-link" href="{{tile.url}}">
+						<a class="card-link stretched-link" href="{{ site.baseurl }}{{tile.url}}">
 							<strong>{{tile.title}}</strong>
 						</a>
 						{% endif %}

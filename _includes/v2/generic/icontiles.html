@@ -13,7 +13,7 @@
 				{% if cat == currentcategory %}
 		<div class="icon-link card text-center p-0 m-4">
 			<div class="card-body d-flex flex-column justify-content-around">
-				<a href="{{docpage.permalink | relative_url }}" class="btn-icon p-0 m-0" title="{{ docpage.title }} connector guide">
+				<a href="{{site.baseurl}}{{docpage.permalink}}" class="btn-icon p-0 m-0" title="{{ docpage.title }} connector guide">
 					<img class="img-icon" src="{{ docpage.icon }}" alt="{{ docpage.title }} icon"/>
 					<h3 class="icon-link-title">{{ docpage.title }} connector guide</h3>
 				</a>
