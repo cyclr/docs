@@ -1123,7 +1123,10 @@ Tables
 @font-face {
     font-family: 'Cyclr-20';
     src: url('/fonts/Cyclr-20.eot?mrjigf');
-    src: url('/fonts/Cyclr-20.eot?mrjigf#iefix') format('embedded-opentype'), url('/fonts/Cyclr-20.ttf?mrjigf') format('truetype'), url('/fonts/Cyclr-20.woff?mrjigf') format('woff'), url('/fonts/Cyclr-20.svg?mrjigf#Cyclr-20') format('svg');
+    src: url('/fonts/Cyclr-20.eot?mrjigf#iefix') format('embedded-opentype'),
+         url('/fonts/Cyclr-20.ttf?mrjigf') format('truetype'),
+         url('/fonts/Cyclr-20.woff?mrjigf') format('woff'),
+         url('/fonts/Cyclr-20.svg?mrjigf#Cyclr-20') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
