@@ -36,11 +36,11 @@
                     </p>
                     {% elsif page.url contains item.url %}
                     <p class="active li-{{itemclass}}{{itemspacing}}">
-                        <a href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                        <a href="{{item.url | remove: "/" | relative_url }}">{{item.text}}</a>
                     </p>
                     {% else %}
                     <p class="li-{{itemclass}}{{itemspacing}}">
-                        <a href="{{item.url | remove: "/"}}">{{item.text}}</a>
+                        <a href="{{item.url | remove: "/" | relative_url }}">{{item.text}}</a>
                     </p>
                     {% endif %}
                     {% endunless %}

@@ -34,7 +34,7 @@
 				<a class="anchorjs-link "
 				   aria-label="Anchor"
 				   data-anchorjs-icon=""
-				   href="#{{ section.title | slugify | downcase }}"
+				   href="#{{ section.title | slugify | downcase | relative_url }}"
 				   style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
 				</a>
 				{% for item in section.items %}

@@ -13,7 +13,7 @@
             {{ itemicon }}<span>{{ item.title }}</span>
         </a>
         {% else %}
-        <a class="sidenav-link ripple-surface" href="{{ item.url }}" title="{{ item.title }}">
+        <a class="sidenav-link ripple-surface" href="{{ item.url | relative_url }}" title="{{ item.title }}">
             {{ itemicon }}<span>{{ item.title }}</span>
         </a>
         {% endif %}
