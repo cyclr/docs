@@ -1,0 +1,16 @@
+# Jekyll 4 sample workflow 
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@2.0.5
+        env:
+          JEKYLL_PAT: $
