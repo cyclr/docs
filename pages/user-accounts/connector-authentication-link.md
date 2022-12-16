@@ -1,5 +1,5 @@
 ---
-title: Connector authentication link
+title: OAuth authentication link
 sidebar: cyclr_sidebar
 permalink: connector-authentication-link
 tags: [accounts]

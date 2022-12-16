@@ -5,45 +5,61 @@ permalink: cyclr-api-authentication
 tags: [api]
 ---
 
-Cyclr API can be authenticated using the Client Credentials and Password flows. The [Password flow](./cyclr-api-authentication-password) will cease to be supported and stop functioning after May 2021. You should migrate to Client Credentials before then.
+You can use the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow to authenticate with the Cyclr API.
 
-This document is for authenticating with the Cyclr API using the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow.
+There are certain values you need to use in order to make different calls to the Cyclr API:
 
-### Get Client ID and Secret
+*  [**API domain**](#api-domain) `{YourCyclrDomain}`
+*  [**Access token**](#access-token) `{access_token}`
+*  [**Account ID**](#account-id) `{AccountId}`
+*  [**Client ID** and **Client Secret**](#client-id-and-client-secret) `{client_id}`, `{client_secret}`
+*  [**Service domain**](#service-domain) `{YourServiceDomain}`
 
-You can generate a Client ID and Secret from the Cyclr Partner Console, Settings > OAuth Client Credentials
+## API domain
 
-![Cyclr Console OAuth Client Credentials](./images/cyclr-api-client-credentials.png)
+The API domain you use to make API calls depends on where your Cyclr Console is hosted: 
 
-### Get Access Tokens
+| **Cyclr Console Location** | **API Domain**             |
+|:---------------------------|:---------------------------|
+| my.cyclr.com               | api.cyclr.com      |
+| my.cyclr.uk                | api.cyclr.uk       |
+| eu.cyclr.com               | api.eu.cyclr.com   |
+| apac.cyclr.com             | api.apac.cyclr.com |
 
-Once you have a Client ID and Secret you need to call the Cyclr API OAuth token endpoint to generate an access token.  This endpoint will be different depending on where your Cyclr Console is hosted:
 
-Cyclr Console Location | API Domain
---- | ---
-my.cyclr.com | https://api.cyclr.com/oauth/token
-my.cyclr.uk | https://api.cyclr.uk/oauth/token
-eu.cyclr.com | https://api.eu.cyclr.com/oauth/token
+>  **Note**: Replace `{YourCyclrInstance}` or `{YourCyclrDomain}` in example calls with the correct domain for your console location.
 
-#### Required Request Body Parameters
+## Access token
+
+All calls to the Cyclr must provide the access token in the Authorize HTTP request header:
+
+````http
+Authorization: Bearer {access_token}
+````
+
+Tokens expire after 14 days, so remember to generate a new one when necessary.
+
+### Request
+Once you have a **Client ID** and **Client Secret**, you can call the Cyclr API OAuth token endpoint to generate an access token.
+
+```http
+POST https://{YourCyclrDomain}/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&client_id={client_idi}&client_secret={client_secret}
+```
+
+#### Query string parameters
+
+These parameters are in the request body:
 
 | Parameter | Description | Example |
 | --- | --- | --- |
-| grant_type | Identifies the OAuth flow being used. Must be client_credentials | client_credentials |
-| client_id | Identifies the Cyclr Partner the token is for | abcdefg |
-| client_secret | The matching secret for the client ID | abcdefghij123 |
+| grant_type | Use `client_credentials` to identify the OAuth flow. |
+| client_id | Enter the **Client ID** to identify which Cyclr Partner the token is for. |
+| client_secret | Enter the matching **Client Secret** for the Cyclr Partner. |
 
-#### Example Request
-
-```http
-POST https://{API Domain}/oauth/token
-Content-Type: application/x-www-form-urlencoded
-
-grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123
-````
-> NB. ``grant_type``, ``client_id`` and ``client_secret`` go in the body of the call - they are not added to the endpoint.
-
-#### Example Response
+### Example Response
 
 ```json
 {
@@ -54,40 +70,54 @@ grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123
 }
 ```
 
+#### Response parameters
+
 | Parameter | Description |
 | --- | --- |
-| token_type | The type of token, this is always bearer |
-| access_token | Token to use when making requests to the Cyclr API |
-| expires_in | The amount of time in seconds until access_token will expire |
-| clientId | Client ID provided when getting the token |
+| `token_type` | The type of token is always `bearer`. |
+| `access_token` | The token you use to make requests to the Cyclr API. |
+| `expires_in` | The amount of time in seconds until the access token expires. |
+| `clientId` | The **Client ID** you provide when you make the request. |
 
-> Tokens will expire after 14 days, you will need to generate a new token when this occurs.
+## Account ID
 
-### Using the Access Token
-
-All calls to the Cyclr must provide the access token in the Authorize HTTP request header.
-
-````http
-Authorization: Bearer {access_token}
-````
-
-#### Accessing Account Methods
-
-For any calls to API methods that relate to an account the ID of the account must be provided as a HTTP header in the request.
+For calls to API methods that relate to an account, you need to provide the **Account ID**  as a HTTP header in the request:
 
 ````http
 X-Cyclr-Account: {AccountID}
 ````
 
-### Account Restricted Tokens
+To view an **Account ID** in your Cyclr console, go to **Accounts** > **Account Management** and select the **Settings** icon for the account you want to use.
 
-If required you can restrict access tokens to only work for a specific account by including the account ID in the scope when getting the access token.
+The **Account ID** of an account is also displayed in the URL in this format: `accountId=xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
-#### Example Request
+### Account restricted access tokens
+
+You can restrict access tokens to only work for a specific account if you include the **Account ID** in the scope when you make the [access token](#access-token) request:
 
 ```http
 POST https://{API Domain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123&scope=account:{account_id}
-````
+```
+
+## Client ID and Client Secret
+
+To generate a **Client ID** and **Client Secret** from your Cyclr console:
+
+1.  Go to **Settings** > **OAuth Client Credentials**.
+2.  Select **Generate Credentials**.
+3.  Write a description for the credential set, and select **Ok**.
+
+The table displays the new **Client ID** next to the time you create it. To view the **Client Secret**, select the eye icon to the right side of the description.
+
+![Cyclr Console OAuth Client Credentials](./images/cyclr-api-client-credentials.png)
+
+## Service domain
+
+For some calls, you need to use your service domain, which is in the format: `{YourCompany}-h.cyclr.uk`.
+
+To view your service domain in your Cyclr console, go to **Settings** > **General Settings**.
+
+For information on how to create a custom domain, see the [Custom Service Domains](custom-domains) documentation.
