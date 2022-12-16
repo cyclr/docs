@@ -768,6 +768,10 @@ entries:
             url: /farmers-agp-connector
             output: web, pdf
 
+          - title: Filevine
+            url: /filevine-connector
+            output: web, pdf      
+
           - title: FIVE CRM
             url: /FIVECRM-connector
             output: web, pdf
@@ -1295,6 +1299,10 @@ entries:
           - title: Sage CRM
             url: /sagecrm-connector
             output: web, pdf
+
+          - title: Sage Intacct
+            url: /sage-intacct-connector
+            output: web, pdf            
 
           - title: Salesforce
             url: /salesforce-connector
