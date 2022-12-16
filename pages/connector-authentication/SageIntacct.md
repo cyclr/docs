@@ -9,7 +9,7 @@ tags: [connector]
 ## Sage Intacct setup
 To authenticate the connector you need the following credentials:
 
-| Credential | Description |
+| **Credential** | **Description** |
 | ----------- | ----------- |
 | **Web Services ID** and **Web Services Password**  |  Sage Intacct provides a Web Services sender ID and password for customers/partners with an active Web Services developer license. These credentials are not necessarily tied to a particular Sage Intacct company/user, so a Marketplace Partner can use a sender ID for any Sage Intacct company that has authorized that sender ID for Web Services.     |
 | **Company Login ID** and **Company Login Password** | The user ID and password to log in to your/your company's Sage Intacct account.   |
