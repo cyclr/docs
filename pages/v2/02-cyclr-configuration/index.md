@@ -13,6 +13,7 @@ menus:
     icon: navsettings
     weight: 2
 ---
-{% assign hubdata = site.data.v2.categoriesnew.cyclr-configuration %}
-{% include v2/generic/hub/hub.html %}	
-{% include v2/generic/iconblocks.html %}	
+{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign hubtitle = "Cyclr console configuration" %}
+{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% include v2/generic/hub/hubtables.html identifier="cyclr-configuration" intro=hubintro title=hubtitle text=hubtext %}

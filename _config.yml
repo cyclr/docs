@@ -121,6 +121,6 @@ plugins:
 # url: https://docs.cyclr.com
 # dev build - override baseurl required for github pages
 # prod build: confirm baseurl requirement 
-# bundle exec jekyll serve --livereload --baseurl=""
+# bundle exec jekyll serve --livereload --baseurl="/"
 baseurl: "/docs-v2/"
 

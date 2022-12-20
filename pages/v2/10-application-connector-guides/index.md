@@ -13,6 +13,7 @@ menus:
     icon: navsettings
     weight: 10
 ---
-{% assign hubdata = site.data.v2.categoriesnew.connector-guides %}
-{% include v2/generic/hub/hub.html %}	
-{% include v2/generic/iconblocks.html %}	
+{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign hubtitle = "Application connector guides" %}
+{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% include v2/generic/hub/hubtables.html identifier="application-connectors" intro=hubintro title=hubtitle text=hubtext %}

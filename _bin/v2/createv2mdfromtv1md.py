@@ -25,8 +25,8 @@ targetfolderfull = os.path.join(os.path.dirname(__file__), targetfolder)
 templatemdfile = os.path.join(os.path.dirname(__file__), './assets/templatefrontmattermenus.md')
 templateindexfile = os.path.join(os.path.dirname(__file__), './assets/templateindex.md')
 # temp content for category pages
-targethubfolder = '../../_data/v2/categoriesnew/'
-targethubfolderfull = os.path.join(os.path.dirname(__file__), targethubfolder)
+# targethubfolder = '../../_data/v2/categoriesnew/'
+# targethubfolderfull = os.path.join(os.path.dirname(__file__), targethubfolder)
 # regex string for headings
 regexh1 = "^#[\s]"
 regexh2 = "^##[\s]"
@@ -58,8 +58,8 @@ jsonfilename_full = os.path.join(os.path.dirname(__file__), jsonfilename)
 # open and read json file
 with open(jsonfilename_full, 'r') as jsonfile:
     json_data = json.load(jsonfile)
-    targethubymlfile = ''
-    newhubfile = True
+    # targethubymlfile = ''
+    # newhubfile = True
     pagewithsections = False
     for item in json_data:
         if item['v1md'] is None:
@@ -114,14 +114,14 @@ with open(jsonfilename_full, 'r') as jsonfile:
                                 toindexfile.write(newline)
                         toindexfile.close()
                     # add the target hub yml file
-                    targethubymlfile=item['permalink']+".yml"
-                    targetmdfilefull = os.path.join(os.path.dirname(__file__), targethubfolderfull, targethubymlfile)
-                    if os.path.exists(targetmdfolderfull) == True:
-                        with open(targetmdfilefull,'w',encoding='utf-8') as tohubfile:
-                            tohubfile.write("title: "+item['menutitle']);
-                            tohubfile.write("\ntext: Placeholder content for category page");
-                            tohubfile.write("\nsections:\n");
-                        tohubfile.close()
+                    # targethubymlfile=item['permalink']+".yml"
+                    # targetmdfilefull = os.path.join(os.path.dirname(__file__), targethubfolderfull, targethubymlfile)
+                    # if os.path.exists(targetmdfolderfull) == True:
+                    #    with open(targetmdfilefull,'w',encoding='utf-8') as tohubfile:
+                    #        tohubfile.write("title: "+item['menutitle']);
+                    #        tohubfile.write("\ntext: Placeholder content for category page");
+                    #        tohubfile.write("\nsections:\n");
+                    #    tohubfile.close()
         elif item['v2folder'] is None:
             continue
         else:

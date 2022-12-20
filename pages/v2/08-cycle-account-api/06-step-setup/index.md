@@ -12,6 +12,7 @@ menus:
     identifier: api-step-setup
     weight: 6
 ---
-{% assign hubdata = site.data.v2.categoriesnew.step-setup %}
-{% include v2/generic/hub/hub.html %}	
-{% include v2/generic/iconblocks.html %}	
+{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign hubtitle = "Step set up" %}
+{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% include v2/generic/hub/hubtables.html identifier="api-step-setup" intro=hubintro title=hubtitle text=hubtext %}

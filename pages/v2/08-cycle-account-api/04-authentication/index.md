@@ -12,6 +12,7 @@ menus:
     identifier: api-authentication
     weight: 4
 ---
-{% assign hubdata = site.data.v2.categoriesnew.api-authentication %}
-{% include v2/generic/hub/hub.html %}	
-{% include v2/generic/iconblocks.html %}	
+{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign hubtitle = "Authentication" %}
+{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% include v2/generic/hub/hubtables.html identifier="api-authentication" intro=hubintro title=hubtitle text=hubtext %}
