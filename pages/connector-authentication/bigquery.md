@@ -77,3 +77,7 @@ Enter in the email of the user. Choose which permissions to give the user, such 
 Click "Add" 
 
 For reference: [IAM access.](https://cloud.google.com/bigquery/docs/access-control)
+
+### Inserting Table Data ###
+
+When inserting table data, you will need to wait for it to populate in Google Big Query as they process and stream the data from their internal servers to the table instead of populating directly. As long as the call hasn't returned an error, you will see the data in your table in the next 24 hours.
