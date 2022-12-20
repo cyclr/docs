@@ -122,5 +122,5 @@ plugins:
 # dev build - override baseurl required for github pages
 # prod build: confirm baseurl requirement 
 # bundle exec jekyll serve --livereload --baseurl=""
-baseurl: "/docs-v2"
+baseurl: "/docs-v2/"
 
