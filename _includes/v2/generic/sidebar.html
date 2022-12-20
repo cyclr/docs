@@ -1,20 +1,19 @@
 <!-- include doc version here? -->
 <!-- add functionality to capture breadcrumb - use the recursive menu.html to build array of links -->
-{% assign menu = site.menus.mainmenu %}
-{% assign menuid = "scrollContainer" %}
-{% assign menuclass = "sidenav-menu" %}
-{% assign menulevel = 0 %}
 {% assign sidenavfooter = site.data.sidenav %}
 <!-- Sidenav -->
 <nav id="sidebarMenu"
-     class="sidenav sidenav-primary"
-     data-mdb-close-on-esc="false"
-     data-mdb-hidden="false"
-     data-mdb-scroll-container="#scrollContainer">
-    {% include /v2/generic/menu.html %}
+    class="sidenav sidenav-primary"
+    data-mdb-close-on-esc="false"
+    data-mdb-hidden="false"
+    data-mdb-scroll-container="#scrollContainer">
+    {% include v2/generic/menu.html menuname="mainmenu" menuid="scrollContainer" menuclass="sidenav-menu" %}
     {% include /v2/generic/sidenavfootermenu.html %}
 </nav>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
-<script>
-    $("li.active").parents('li').toggleClass("active");
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a.active').parents('li.sidenav-item').toggleClass("active");
+    }
+    );
 </script>

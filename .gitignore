@@ -5,6 +5,7 @@ _site/
 .jekyll-metadata
 
 # Visual Studio Code
+.vs/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -13,11 +14,4 @@ _site/
 
 # Diff Backup
 .bak
-/pages/connector-authentication/.vs/connector-authentication/v16/.suo
-/pages/connector-authentication/.vs/slnx.sqlite
-/pages/connector-authentication/.vs/VSWorkspaceState.json
-/.vs/slnx.sqlite
-/.vs/docs/v16/.suo
-/.vs/docs/config/applicationhost.config
-/.vs/VSWorkspaceState.json
-/.vs/slnx.sqlite-journal
+

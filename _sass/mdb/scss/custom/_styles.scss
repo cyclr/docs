@@ -316,6 +316,13 @@ a {
         top: 0;
         right: 0;
     }
+    li {
+        &.active {
+            > ul.collapse {
+                display: block;
+            }
+        }
+    }
 }
 
 #sidebarMenu .fixed-bottom .sidenav-menu {
