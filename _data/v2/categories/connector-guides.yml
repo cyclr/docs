@@ -1,0 +1,13 @@
+tiles: 
+  - title: Connector Library
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    icon: navdocs
+    url: /connector-library
+  - title: What are Connetors?
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    icon: navsetupguide
+    url: /what-are-connectors
+  - title: TBC
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    icon: navaccount
+    url: /tbc

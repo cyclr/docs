@@ -6,6 +6,9 @@ tags: [indextags]
 layout: page
 toc: false
 singlecard: false
+categorylayout: [categorylayout]
+introtitle: [introtitle]
+introtext: [introtext]
 menus:
   indexmenuname:
     title: indexmenutitle
@@ -17,4 +20,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "indextitle" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% include v2/generic/hub/hubtables.html identifier="indexmenuidentifier" intro=hubintro title=hubtitle text=hubtext %}
+{% assign categorydata = site.data.v2.category.{{page.permalink}} %}
+{% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=hubintro title=hubtitle text=hubtext %}

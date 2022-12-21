@@ -16,4 +16,4 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Create cycle templates" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% include v2/generic/hub/hubtables.html identifier="templates" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="templates" intro=hubintro title=hubtitle text=hubtext %}

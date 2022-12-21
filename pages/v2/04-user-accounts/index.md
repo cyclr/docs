@@ -16,4 +16,4 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "User accounts" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% include v2/generic/hub/hubtables.html identifier="user-accounts" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="user-accounts" intro=hubintro title=hubtitle text=hubtext %}

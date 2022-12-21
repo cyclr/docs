@@ -1844,7 +1844,7 @@ Layout
     }
 }
 
-#search-container {
+.doc-search-container {
     width: 100%;
 
     .algolia-autocomplete {
@@ -1860,19 +1860,19 @@ Layout
             position: absolute;
             top: 0;
             left: 0;
-            color: $input-placeholder-color;
+            color: inherit;
             padding: .375rem .75rem;
         }
     }
 
-    #search-input {
+    .doc-search-input {
         background-color: rgba(255, 255, 255, 0.1);
-        color: #ffffff;
+        color: inherit;
         border-color: rgba(255, 255, 255, 0.1);
         padding-left: 2.5rem;
     }
 
-    #results-container {
+    .results-container {
         margin: 0;
     }
 }
