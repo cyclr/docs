@@ -19,3 +19,5 @@ This is an emailable link and token that allows your client to access Cyclr just
 ![Animated Demo](./images/sign-in-token.gif)
 
 > **Note**: This token can only be used once, so you may need to go through these steps again if your user starts but doesn't complete the authentication.
+
+If more than one account connector needs to be authenticated, multiple setup tokens can be generated and sent to your client, but they should authenticate each connector before they move on to the next.
