@@ -6,7 +6,9 @@
 
 You will need to log into your server's developer portal and obtain a Client ID and Client Secret. Please refer to GoTo Connect's [documentation](https://developer.goto.com/Authentication/#section/Obtaining-Client-Credentials) on how to obtain these.
 
-To set up the GoTo Connect connector in Cyclr, go to your Cyclr console:
+## Cyclr setup
+
+To set up the GoTo Connect connector in Cyclr, go to your **Cyclr Console**:
 
 1. Go to **Connectors** > **Application Connector Library**.
 
@@ -20,7 +22,6 @@ To set up the GoTo Connect connector in Cyclr, go to your Cyclr console:
    | ----------------- | ------------------------------------------------------------ |
    | **Client ID**     | The Client ID. This can be accessed from the developer's portal. |
    | **Client Secret** | The Client Secret from your GoTo Connect account.            |
-   | **Domain**        | The server where the account is hosted, e.g. api.jive.com    |
 
 5. Select **Save Changes**.
 
