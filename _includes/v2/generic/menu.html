@@ -1,6 +1,13 @@
 <ul id="{{include.menuid}}" class="{{include.menuclass}} {{include.menuname}}">
-     {% capture currentfilter %}page.menus.{{include.menuname}}{% endcapture %}
+    {% capture currentfilter %}page.menus.{{include.menuname}}{% endcapture %}
     {% capture currentsort %}menus.{{include.menuname}}.weight{% endcapture %}
+    {% if include.overviewitemtitle %}
+    <li class="sidenav-item item-{{include.overviewmenuitem}}">
+        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ include.overviewitemurl }}" title="{{ item.title }} overview">
+            <span>Overview</span>
+        </a>
+    </li>
+    {% endif %}
     {% assign menuitems = site.pages | where_exp: 'page', currentfilter | sort: currentsort %}
     {% for item in menuitems %}
     {% if item.menus[include.menuname].icon %}
@@ -15,31 +22,32 @@
     {% else %}
     {% capture currentpageclass %}{% endcapture %}
     {% endif %}
-    <li class="sidenav-item{{include.itemclass}} item-{{menuitem}}">
-        {% if item.name == "index.md" %}
-        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ item.permalink}}" title="{{ item.title }}">
-            {{ itemicon }}<span>{{ item.title }}</span>
-        </a>
-        <a class="sidenav-link sidenav-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
-            <span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
-        </a>
-        {% capture submenuname %}{{menuitem}}{% endcapture %}
-        {% capture submenuid %}{{item.title | slugify | downcase}}{% endcapture %}
-        {% capture submenuclass %}sidenav-collapse{% endcapture %}
-        {% capture submenufilter %}item.menus.{{menuitem}}{% endcapture %}
-        {% include v2/generic/menu.html menuname=submenuname menuid=submenuid menuclass=submenuclass %}
-        {% else %}
-        {% if item.externalurl %}
-        <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
-            {{ itemicon }}<span>{{ item.title }}</span>
-        </a>
-        {% else %}
-        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}">
-            {{ itemicon }}<span>{{ item.title }}</span>
-        </a>
-        {% endif %}
-        {% endif %}
-    </li>
+<li class="sidenav-item{{include.itemclass}} item-{{menuitem}}">
+    {% if item.name == "index.md" %}
+    <a class="sidenav-link" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
+        {{ itemicon }}<span>{{ item.title }}</span><span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
+    </a>
+    {% capture overviewitemtitle %}{{item.title}}{% endcapture %}
+    {% capture overviewitemurl %}{{item.permalink}}{% endcapture %}
+    {% capture overviewmenuitem %}{{menuitem}}{% endcapture %}
+    {% capture currentclass %}{{currentpageclass}}{% endcapture %}
+    {% capture submenuname %}{{menuitem}}{% endcapture %}
+    {% capture submenuid %}{{item.title | slugify | downcase}}{% endcapture %}
+    {% capture submenuclass %}sidenav-collapse{% endcapture %}
+    {% capture submenufilter %}item.menus.{{menuitem}}{% endcapture %}
+    {% include v2/generic/menu.html menuname=submenuname menuid=submenuid menuclass=submenuclass currentclass=currentclass overviewitemtitle=overviewitemtitle overviewitemurl=overviewitemurl overviewmenuitem=overviewmenuitem %}
+    {% else %}
+    {% if item.externalurl %}
+    <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
+        {{ itemicon }}<span>{{ item.title }}</span>
+    </a>
+    {% else %}
+    <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}">
+        {{ itemicon }}<span>{{ item.title }}</span>
+    </a>
+    {% endif %}
+    {% endif %}
+</li>
     {% endfor %}
 </ul>
 

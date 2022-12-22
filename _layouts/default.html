@@ -33,7 +33,7 @@
     {% endif %}
     {% if page.layout == "homepage" %}
     {% assign containerclass=''%}
-    {% assign mainclass='container-fluid p-0'%}
+    {% assign mainclass='container-fluid bg-dark pg-home m-0 px-0'%}
     {% assign topnavborderclass=' border-0'  %}
     {% else %}
     {% assign containerclass='container '%}
@@ -48,15 +48,13 @@
         {% endunless %}
         {% include v2/generic/topnav.html %}
     </header>
-    <div>
-        <main id="main" class="{{ mainclass }}">
-            <!-- Page Content -->
-            <div id="main-container">
-                {{content}}
-            </div>
-        </main>
-        {% include v2/generic/footer.html %}
-    </div>
+    <main id="main" class="{{ mainclass }}">
+        <!-- Page Content -->
+        <div id="main-container">
+            {{content}}
+        </div>
+    </main>
+    {% include v2/generic/footer.html %}
 </body>
 <script type="text/javascript" src="{{ "js/mdb/mdb.min.js" }}"></script>
 <script type="module" src="{{ "js/customscripts.js" }}"></script>

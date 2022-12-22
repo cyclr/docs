@@ -1810,6 +1810,9 @@ Layout
 #main {
     margin-top: 60px;
     padding-top: 30px;
+    &.pg-home {
+        padding-top: 90px;
+    }
 }
 
 @include media-breakpoint-up(sm) {
