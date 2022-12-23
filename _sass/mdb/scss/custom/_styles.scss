@@ -1853,6 +1853,16 @@ Layout
     .algolia-autocomplete {
         width: 100%;
 
+        .ds-dropdown-menu {
+            max-width: unset;
+            width: 100%;
+
+            &:before {
+                content: '';
+                display: none;
+            }
+        }
+
         &:after {
             content: "\f002";
             font-family: FontAwesome;
@@ -1873,10 +1883,46 @@ Layout
         color: inherit;
         border-color: rgba(255, 255, 255, 0.1);
         padding-left: 2.5rem;
+        color: $white;
     }
 
     .results-container {
         margin: 0;
+    }
+
+    .hero & {
+        .algolia-autocomplete {
+            &:after {
+                color: inherit;
+                padding: 16px 0 0 16px;
+                font-size: 16px;
+                line-height: 17px;
+            }
+
+            &:hover {
+                &:after {
+                    color: $dark;
+                }
+            }
+        }
+
+        .doc-search-input {
+            max-height: 50px;
+            font-size: 12px;
+            line-height: 17px;
+            padding: 16px 16px 17px 44px;
+
+            &:hover {
+                background-color: #ffffff;
+                color: $dark;
+                border-color: $blue;
+                box-shadow: 0 0 4px 0 $blue;
+
+                &::placeholder {
+                    color: $dark;
+                }
+            }
+        }
     }
 }
 
@@ -1899,7 +1945,9 @@ Layout
         max-width: 100%;
         height: auto;
     }
-}.sticky {
+}
+
+.sticky {
     position: sticky;
     top: 0;
 }
@@ -1919,6 +1967,7 @@ Layout
                 margin: 8px 0;
                 display: block;
             }
+
             ul {
                 @extend .ps-2;
             }
@@ -1954,6 +2003,7 @@ section.card {
         }
     }
 }
+
 @include media-breakpoint-up(lg) {
     #col-toc {
         margin-top: 8rem;
@@ -1961,3 +2011,11 @@ section.card {
 }
 
 
+footer {
+   .link-social {
+        color: $grey-70;
+        &:hover {
+            color: $lime;
+        }
+    }
+}

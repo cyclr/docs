@@ -125,3 +125,5 @@ plugins:
 # bundle exec jekyll serve --livereload --baseurl="/"
 baseurl: "/docs-v2/"
 
+# algolia search debug
+search_debug: true

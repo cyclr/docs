@@ -78,13 +78,13 @@ columns:
         text: UK Office
       - type: tel
         text: +44 (0) 3300 102 525
-        spacing: mb-4
+        spacing: mb-3
         active: true
       - type: heading
         text: US Office
       - type: tel
         text: +1 (646) 585-2525
-        spacing: mb-4
+        spacing: mb-3
         active: true
   - name: col4
     items:

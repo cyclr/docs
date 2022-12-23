@@ -26,7 +26,7 @@
                     {% capture itemspacing %}{% endcapture %}
                     {% endif %}
                     {% if item.type == "heading" %}
-                    <p class="{{itemspacing}}"><h6 class="fw-bold mb-4">{{item.text}}</h6></p>
+                    <h6 class="fw-bold mb-3">{{item.text}}</h6>
                     {% elsif item.type == "link" %}
                     {% unless item.active == false %}
                     {% if item.external_url %}
@@ -61,7 +61,7 @@
                     {% elsif item.type == "social" %}
                     <div class="d-flex">
                         {% for social in item.items %}
-                        <a class="me-4 link-secondary" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
+                        <a class="me-4 link-social" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
                             <i class="fa fa-{{ social.icon }} fa-2x"></i>
                         </a>
                         {% endfor %}
