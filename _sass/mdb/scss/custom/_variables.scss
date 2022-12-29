@@ -101,7 +101,7 @@ $font-size-base: 1rem; // Normal browser default is typically `16px`
 
 $font-weight-normal: 500 !default;
 
-$h1-font-size: $font-size-base * 3 !default;
+$h1-font-size: $font-size-base * 44px;
 $h2-font-size: $font-size-base * 2.5 !default;
 $h3-font-size: $font-size-base * 2 !default;
 $h4-font-size: $font-size-base * 1.6666666666666667 !default;
@@ -133,13 +133,14 @@ $badge-padding-y: 0.5rem;
     Material Variable Overrides
 -------------------------------------------  */
 // Theme colors
-$primary: $lime !default;
-$success: $green !default;
-$danger: $red !default;
-$light: $grey-30 !default;
-$dark: $grey-70 !default;
-$info: $blue-20 !default;
+$primary: $lime;
+$success: $green;
+$danger: $red;
+$light: $grey-30;
+$dark: $grey-70;
+$info: $blue-20;
 
+$bg-opacity: 0.1;
 
 // Body
 //

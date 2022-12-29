@@ -3,6 +3,11 @@
 //
 @import "./variables";
 
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @include button-variant($value, $value, color-contrast($value),rgba($value, $bg-opacity));
+    }
+}
 .btn {
     box-shadow: none;
     text-transform: none;
@@ -86,6 +91,12 @@ a {
         &:hover {
             text-decoration: none;
         }
+
+        .icon {
+            width: 40px;
+            height: auto;
+            padding: 0 12px 0 0;
+        }
     }
 
     &:hover {
@@ -149,7 +160,7 @@ a {
         }
     }
 }
-
+/* 
 .navbar-dark {
     .nav-link {
         &.dropdown-toggle {
@@ -169,7 +180,7 @@ a {
         }
     }
 }
-
+*/
 .navbar-nav .dropdown-menu,
 .dropdown-menu {
     background: $white;

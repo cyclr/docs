@@ -18,76 +18,51 @@
                     </div>
                     {% endunless %}
                 </div>
-                <div class="col-lg-3 justify-content-end">
-                    {% if page.layout == 'homepage' %}
-                    <ul class="nav navbar-nav m-0 p-0 align-items-center justify-content-end">
-                    {% else %}
-                        <ul class="nav navbar-nav m-0 p-0 align-items-center justify-content-end">
-                            {% endif %}
+                <div class="col-lg-3 justify-content-end d-flex">
 
-                            {% assign topnav = site.data[page.topnav] %}
-                            {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
-
-                            {% for entry in topnav.topnav %}
-                            {% for item in entry.items %}
-                            {% if item.active == true %}
-                            {% if item.external_url %}
-                            {% assign itemclass = item.title | slugify | downcase %}
-                            <li class="nav-item"><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
-                            {% elsif page.url contains item.url %}
-                            <li class="active nav-item"><a href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                            {% else %}
-                            <li class="nav-item"><a href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.title}}</a></li>
-                            {% endif %}
-                            {% endif %}
-                            {% endfor %}
-                            {% endfor %}
-                            <!-- entries with drop-downs appear here -->
-                            <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                            {% for entry in topnav_dropdowns %}
-                            {% for folder in entry.folders %}
-                            {% unless folder.active == false %}
-                            {% assign itemclass = folder.title | slugify | downcase %}
-                            {% if folder.class %}
-                            {% assign itemlinkclass = folder.class %}
-                            {% else %}
-                            {% assign itemlinkclass = '' %}
-                            {% endif %}
-                            <li class="nav-item dropdown">
-                                <a href="#"
-                                   class="nav-link dropdown-toggle {{itemlinkclass}}"
-                                   id="navbarDropdownMenuLink"
-                                   role="button"
-                                   data-mdb-toggle="dropdown"
-                                   aria-expanded="false">
-                                    {{ folder.title }}
+                        {% assign topnav = site.data.topnav %}
+                        <!-- dropdown menus -->
+                        {% for item in topnav.items %}
+                        {% unless item.active == false %}
+                        {% assign itemid = item.title | slugify | remove: "-" %}
+                        {% if item.class %}
+                        {% assign itemclass = item.class %}
+                        {% else %}
+                        {% assign itemclass = '' %}
+                        {% endif %}
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle {{itemclass}}"
+                                    type="button"
+                                    id="dropdown{{itemid}}"
+                                    data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                {{ item.title }}
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdown{{ itemid }}">
+                                {% for dditem in item.items %}
+                                {% if dditem.icon %}
+                                {% capture itemicon %}<img class="icon" src="images/{{ dditem.icon }}" />{% endcapture %}
+                                {% else %}
+                                {% capture itemicon %}{% endcapture %}
+                                {% endif %}
+                                {% if dditem.external_url %}
+                                <a class="dropdown-item" href="{{dditem.external_url}}" target="_blank" title="{{dditem.title}}">
+                                    {{ itemicon }}
+                                    {{dditem.title}}
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    {% for folderitem in folder.folderitems %}
-                                    {% if folderitem.external_url %}
-                                    <li>
-                                        <a class="dropdown-item" href="{{folderitem.external_url}}" target="_blank" title="{{folderitem.title}}">
-                                            {% if folderitem.icon %}
-                                            <img class="icon" src="images/{{ folderitem.icon }}" />
-                                            {% endif %}
-                                            {{folderitem.title}}
-                                        </a>
-                                    </li>
-                                    {% elsif page.url contains folderitem.url %}
-                                    <li class="dropdownActive"><a class="dropdown-item" href="{{site.baseurl}}{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
-                                    {% else %}
-                                    <li><a class="dropdown-item" href="{{site.baseurl}}{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-                                    {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                            {% endunless %}
-                            {% endfor %}
-                            {% endfor %}
-                            {% if site.feedback_disable == null or site.feedback_disable == false %}
-                            {% include feedback.html %}
-                            {% endif %}
-                        </ul>
+                                {% elsif page.url contains dditem.url %}
+                                <a class="dropdown-item active" href="{{site.baseurl}}{{dditem.url |  remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
+                                {% else %}
+                                <a class="dropdown-item" href="{{site.baseurl}}{{dditem.url | remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endunless %}
+                        {% endfor %}
+                        {% if site.feedback_disable == null or site.feedback_disable == false %}
+                        {% include feedback.html %}
+                        {% endif %}
                 </div>
          </div>
     </div>
