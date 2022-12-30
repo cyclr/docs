@@ -8,9 +8,31 @@
         @include button-variant($value, $value, color-contrast($value),rgba($value, $bg-opacity));
     }
 }
+
+@each $fontsize, $value in $custom-font-weights {
+    .fw-#{$fontsize} {
+        font-weight: $value;
+    }
+}
+
+@each $fontsize, $value in $custom-font-sizes {
+    .fs-#{$fontsize} {
+        font-size: $value;
+    }
+}
+
+@each $fontsize, $value in $custom-font-sizes {
+    .font-#{$fontsize} {
+        @extend .fs-#{$fontsize};
+        @extend .fw-#{$fontsize};
+    }
+}
+    
 .btn {
-    box-shadow: none;
-    text-transform: none;
+    box-shadow: none
+    ;
+    text-transform: none
+    ;
 
     &[class*='btn-outline-'] {
         border: 1px solid $grey-20;
@@ -1894,6 +1916,12 @@ html {
     }
 }
 
+.hero {
+    .hero-search {
+        margin: 40px 0 86px;
+        padding: 0;
+    }
+}
 .doc-search-container {
     width: 100%;
 
@@ -2023,30 +2051,59 @@ html {
 }
 
 
-section.card {
-    h2 {
-        @extend .mt-2;
-        @extend .mb-3;
+section {
+    &.cards {
+        padding: 50px 0 100px;
+
+        h2 {
+            @extend .font-section;
+            margin: 0 0 12px;
+        }
+
+        .intro {
+            @extend .font-section-text;
+            p:last-child {
+                margin: 0;
+            }
+        }
+
+        .border-bottom {
+            padding-bottom: 40px;
+            margin-bottom: 28px;
+        }
+        .card-body {
+            padding: 18px;
+        }
+        .card-link {
+            @extend .font-section-text;
+        }
     }
 
-    h3, h4, h5 {
-        @extend .mt-2;
-        @extend .mb-3;
-    }
+    &.card {
+        h2 {
+            @extend .mt-2;
+            @extend .mb-3;
+        }
 
-    table {
-        @extend .table;
-        @extend .mt-2;
-        @extend .mb-4;
-    }
+        h3, h4, h5 {
+            @extend .mt-2;
+            @extend .mb-3;
+        }
 
-    .highlight {
-        code {
-            display: block;
-            max-height: 20em;
-            overflow-y: auto;
+        table {
+            @extend .table;
             @extend .mt-2;
             @extend .mb-4;
+        }
+
+        .highlight {
+            code {
+                display: block;
+                max-height: 20em;
+                overflow-y: auto;
+                @extend .mt-2;
+                @extend .mb-4;
+            }
         }
     }
 }

@@ -101,11 +101,15 @@ $font-size-base: 1rem; // Normal browser default is typically `16px`
 
 $font-weight-normal: 500 !default;
 
-$h1-font-size: $font-size-base * 44px;
-$h2-font-size: $font-size-base * 2.5 !default;
-$h3-font-size: $font-size-base * 2 !default;
-$h4-font-size: $font-size-base * 1.6666666666666667 !default;
-$h5-font-size: $font-size-base * 1.1666666666666667 !default;
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.6666666666666667;
+$h5-font-size: $font-size-base * 1.1666666666666667;
+
+// custom font size map
+$custom-font-sizes: ( "xl": 55px, "xxl": 80px, "hero": 44px, "hero-text": 16px, "label": 13px, "label-small": 10px, "note": 10px, "note-small": 9px, "section": 36px, "section-text": 14px, "tooltip": 12px);
+$custom-font-weights: ( "xl": 400, "xxl": 300, "hero": 600, "hero-text": 500, "label": 600, "label-small": 700, "note": 500, "note-small": 500, "section": 600, "section-text": 500, "tooltip": 600);
 
 $display-font-weight: 400 !default;
 

@@ -7,16 +7,23 @@ layout: default
 {% else %}
 {% assign cardclass='' %}
 {% endif %}
+{% capture toc2 %}{{ content | split: "<h2" | size }}{% endcapture %}
+{% capture toc3 %}{{ content | split: "<h3" | size }}{% endcapture %}
+{% capture toc4 %}{{ content | split: "<h4" | size }}{% endcapture %}
+{% capture tocs %}{{ toc2 | plus: toc3 | plus: toc4  }}{% endcapture %}
+
 <div class="container p-0">
 
     <div class="row align-items-start">
         {% if page.default_header == true %}
         {% unless page.toc == false %}
         <div id="col-toc" class="col-lg-3 order-lg-1 sticky">
+            {% if tocs != "3" %}
             <div class="card py-4 px-5">
                 <h4 class="pb-3 mb-3 border-bottom border-1">In this article</h4>
                 {% include toc.html %}
             </div>
+            {% endif %}
         </div>
         {% endunless %}
         {% endif %}
