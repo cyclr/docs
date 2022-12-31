@@ -33,7 +33,7 @@
     ;
     text-transform: none
     ;
-
+    margin: $btn-margin;
     &[class*='btn-outline-'] {
         border: 1px solid $grey-20;
 
@@ -900,6 +900,9 @@ Cards
     margin-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    &:hover {
+        box-shadow: $card-box-shadow;
+    }
 }
 
 .card-header {
@@ -1817,6 +1820,11 @@ Menu Button (Burger Button)
             flex-basis: 400px;
             height: 375px;
         }
+
+        &.flex-md-30 {
+            flex-basis: 30%;
+            height: auto;
+        }
     }
 }
 
@@ -2062,8 +2070,13 @@ section {
 
         .intro {
             @extend .font-section-text;
+
             p:last-child {
                 margin: 0;
+            }
+
+            &.text-dark {
+                color: $grey-60;
             }
         }
 
@@ -2071,13 +2084,17 @@ section {
             padding-bottom: 40px;
             margin-bottom: 28px;
         }
+
         .card-body {
             padding: 18px;
         }
+
         .card-link {
             @extend .font-section-text;
+            color: $grey-70;
         }
     }
+
 
     &.card {
         h2 {
@@ -2126,4 +2143,8 @@ footer {
    h6 {
        font-size: 13px;
    }
+}
+
+.border-bottom {
+    border-color: $divider-color!important;
 }

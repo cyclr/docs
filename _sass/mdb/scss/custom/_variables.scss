@@ -194,7 +194,12 @@ $btn-floating-height: 3rem !default;
 $btn-floating-icon-width: 3rem !default;
 $btn-floating-icon-line-height: 3rem !default;
 
+$btn-margin-top: 12px;
+$btn-margin-right: 12px;
+$btn-margin-bottom: 12px;
+$btn-margin-left: 12px;
 
+$btn-margin: $btn-margin-top $btn-margin-right $btn-margin-bottom $btn-margin-left;
 // Forms
 //
 // Material styling for outline forms border, label, size
@@ -227,6 +232,8 @@ $form-notch-leading-width: 12px;
 $form-outline-select-notch-border-color: $blue-10;
 $form-outline-select-label-color: $blue-10;
 
+//Cards
+$card-box-shadow: 0px 4px 12px 0px #000;
 
 //Checkbox
 
@@ -329,3 +336,5 @@ $toast-background-color: $grey-70;
 
 //Progress
 $progress-bar-bg: $pink !default;
+
+$divider-color: $grey-20;
