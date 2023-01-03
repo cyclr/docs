@@ -4,7 +4,7 @@
 	</div>
 </section>
 <section>
-	<div class="card py-4">
+	<div class="card">
 		<h2>{{ page.introtitle }}</h2>
 		<div class="text">
 			{{page.introtext}}
@@ -29,7 +29,7 @@
 	<div class="container">
 		<div class="d-flex justify-content-between mt-4 mb-5">
 			{% for tile in categorydata.tiles %}
-			<div class="card flex-sm-30 flex-md-30 p-0 d-flex flex-colum justify-content-between">
+			<div class="card hover-shadow flex-sm-30 flex-md-30 p-0 d-flex flex-colum justify-content-between">
 				<div class="card-body p-0">
 					<div class="d-flex flex-column justify-content-start align-items-start ">
 						<i class="card-img-top border-0 icon icon-{{ tile.icon }} fa-5x my-4 py-5 text-center"></i>

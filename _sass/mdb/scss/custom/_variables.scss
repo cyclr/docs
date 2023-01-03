@@ -57,7 +57,8 @@ $backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "
 /* flex width map */
 $flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30));
 
-
+/* gap map */
+$flexgaps: ("sm": 20px, "md": 48px);
 
 /* ----------------------------------------  
     Cyclr Typography
@@ -146,6 +147,11 @@ $info: $blue-20;
 
 $bg-opacity: 0.1;
 
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark: $dark;
+$color-contrast-light: $white;
+
+
 // Body
 //
 // Settings for the `<body>` element.
@@ -157,7 +163,6 @@ $body-color: $grey-70 !default;
 // Font, line-height, and color for body text, headings, and more.
 $font-family-inter: 'Inter', sans-serif !default;
 $font-family-base: $font-family-inter !default;
-
 $code-font-size: 1rem;
 
 // Buttons
@@ -200,6 +205,12 @@ $btn-margin-bottom: 12px;
 $btn-margin-left: 12px;
 
 $btn-margin: $btn-margin-top $btn-margin-right $btn-margin-bottom $btn-margin-left;
+
+$btn-hover-bg-shade-amount: 10%;
+$btn-hover-bg-tint-amount: 10%;
+$btn-hover-border-shade-amount: 10%;
+$btn-hover-border-tint-amount: 10%;
+
 // Forms
 //
 // Material styling for outline forms border, label, size
@@ -232,9 +243,14 @@ $form-notch-leading-width: 12px;
 $form-outline-select-notch-border-color: $blue-10;
 $form-outline-select-label-color: $blue-10;
 
-//Cards
-$card-box-shadow: 0px 4px 12px 0px #000;
-
+//Shadow
+$box-shadow: 0px 4px 12px 0px #000;
+$box-shadow-soft: 0px 4px 12px 0px rgba(0,0,0,0.5);
+$box-shadow-sm: 0 4px 6px 0px #000;
+$box-shadow-lg: 0 4px 16px 0px #000;
+$box-shadow-inset: inset 0 1px 2px #000;
+$image-hover-shadow-box-shadow: $box-shadow;
+$image-hover-shadow-box-shadow-soft: $box-shadow-soft;
 //Checkbox
 
 $form-switch-form-check-input-width: 34px;
@@ -338,3 +354,9 @@ $toast-background-color: $grey-70;
 $progress-bar-bg: $pink !default;
 
 $divider-color: $grey-20;
+
+// custom
+$container-width-max: 1240px;
+$container-width-max-homepage: 1240px;
+$footer-width-max: 973px;
+$footer-width-max-homepage: 973px;

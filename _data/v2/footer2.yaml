@@ -3,6 +3,7 @@
 ## For external_url, the build applies a different link base url.
 columns:
   - name: col1
+    type: default
     heading: Company
     items:
       - type: link
@@ -38,6 +39,7 @@ columns:
         external_url: https://cyclr.com/
         active: true
   - name: col2
+    type: default
     heading: Legal
     items:
       - type: link
@@ -73,20 +75,20 @@ columns:
         external_url: https://cyclr.com/
         active: true
   - name: col3
+    type: default
     items:
       - type: heading
         text: UK Office
       - type: tel
         text: +44 (0) 3300 102 525
-        spacing: mb-3
         active: true
       - type: heading
         text: US Office
       - type: tel
         text: +1 (646) 585-2525
-        spacing: mb-3
         active: true
   - name: col4
+    type: wide
     items:
       - type: logo
         text: cyclr.com
@@ -94,13 +96,10 @@ columns:
         show_icon: true
         external_url: https://cyclr.com
         active: true
-        spacing: mb-4
       - type: text
         text: White labelled API integration framework for creating & managing in-app SaaS integrations.
-        spacing: mb-4
       - type: copyright
         text: 2022 Cyclr. All rights reserved.
-        spacing: mb-4
       - type: social
         items:
           - icon: facebook

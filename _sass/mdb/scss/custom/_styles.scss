@@ -147,6 +147,12 @@ a {
     }
 }
 
+@each $sz, $gap in $flexgaps {
+    .colgap-#{$sz} {
+        column-gap: $gap;
+    }
+}
+
 //Dropdown
 .dropdown-toggle {
     .fa {
@@ -900,9 +906,6 @@ Cards
     margin-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    &:hover {
-        box-shadow: $card-box-shadow;
-    }
 }
 
 .card-header {
@@ -1892,6 +1895,18 @@ html {
     }
 }
 
+section {
+    .container {
+        .pg-home & {
+            max-width: $container-width-max-homepage;
+            .card {
+                width: 400px;
+                height: 375px;
+            }
+        }
+    }
+}
+
 @include media-breakpoint-up(sm) {
     #toggleContainer {
         flex: 0 0 $sidenav-width;
@@ -2133,16 +2148,63 @@ section {
 
 
 footer {
-    font-size: 13px;
-   .link-social {
+    font-size: 12px;
+    font-weight: 500;
+    color: $grey-60;
+
+    h3 {
+        font-size: 13px;
+        font-weight: 600;
         color: $grey-70;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin-bottom: 0;
+
+        &.footer-text {
+            margin: 0 0 12px
+        }
+
+        &.footer-tel {
+            margin: 0 0 24px
+        }
+    }
+
+    .footer-link {
+        line-height: 27px;
+    }
+
+    .footer-social {
+        margin-top: 20px;
+    }
+
+    .link-social {
+        margin: 0 20px 0 0;
+        color: $grey-70;
+
         &:hover {
             color: $lime;
         }
     }
-   h6 {
-       font-size: 13px;
-   }
+
+    .col-default {
+        flex: 0 1 179px;
+    }
+
+    .col-wide {
+        flex: 0 0 283px;
+    }
+
+    .row {
+        max-width: $footer-width-max;
+    }
+
+    &.pg-home {
+        .row {
+            max-width: $footer-width-max-homepage;
+        }
+    }
 }
 
 .border-bottom {

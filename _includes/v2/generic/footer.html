@@ -1,8 +1,12 @@
 {% assign footer = site.data.v2.footer2 %}
 {% if page.layout == "homepage" %}
 {% assign containerclass='container '%}
+{% assign rowclass=' mx-auto'%}
+{% assign pageclass=' pg-home' %}
 {% else %}
 {% assign containerclass='container '%}
+{% assign rowclass=''%}
+{% assign pageclass='' %}
 {% endif %}
 {% if page.hide_sidebar == true %}
 {% assign footerclass=' m-0'%}
@@ -10,58 +14,54 @@
 {% assign footerclass=' sb'%}
 {% endif %}
 <hr />
-<footer class="text-center text-lg-start{{footerclass}}">
+<footer class="text-center text-lg-start{{footerclass}}{{pageclass}}">
     <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
+        <div class="row colgap-md{{rowclass}}">
             {% for col in footer.columns %}
-            <div id="{{col.name}}" class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div id="{{col.name}}" class="col-{{col.type}}">
                 {% if col.heading %}
-                <h6 class="fw-bold mb-4">{{col.heading}}</h6>
+                <h3 class="">{{col.heading}}</h3>
                 {% endif %}
                 <div class="nav-footer m-0 p-0">
                     {% for item in col.items %}
-                    {% if item.spacing %}
-                    {% capture itemspacing %} {{item.spacing}}{% endcapture %}
-                    {% else %}
-                    {% capture itemspacing %}{% endcapture %}
-                    {% endif %}
                     {% if item.type == "heading" %}
-                    <h6 class="fw-bold mb-3">{{item.text}}</h6>
+                    <h3 class="">{{item.text}}</h3>
                     {% elsif item.type == "link" %}
                     {% unless item.active == false %}
                     {% if item.external_url %}
-                    {% assign itemclass = item.text | slugify | downcase %}
-                    <p class="li-{{itemclass}}{{itemspacing}}">
-                        <a href="{{item.external_url}}" target="_blank">{{item.text}}</a>
+                    <p>
+                        <a class="footer-link" href="{{item.external_url}}" target="_blank">{{item.text}}</a>
                     </p>
                     {% elsif page.url contains item.url %}
-                    <p class="active li-{{itemclass}}{{itemspacing}}">
-                        <a href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.text}}</a>
+                    <p>
+                        <a class="footer-link active" href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.text}}</a>
                     </p>
                     {% else %}
-                    <p class="li-{{itemclass}}{{itemspacing}}">
-                        <a href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.text}}</a>
+                    <p>
+                        <a class="footer-link" href="{{site.baseurl}}{{item.url | remove: "/"}}">{{item.text}}</a>
                     </p>
                     {% endif %}
                     {% endunless %}
                     {% elsif item.type == "logo" %}
-                    <p class="{{itemspacing}}">
-                        <a href="index" class="d-block text-right">
+                    <p class="footer-text">
+                        <a class="footer-link" href="index" class="d-block text-right">
                             <img class="img-responsive" src="images/{{item.img}}" alt="{{item.text}}">
                         </a>
                     </p>
                     {% elsif item.type == "text" %}
-                    <p class="{{itemspacing}}">{{item.text}}</p>
+                    <p class="footer-text">{{item.text}}</p>
                     {% elsif item.type == "tel" %}
-                    <p><a href="tel:{{item.text}}">{{item.text}}</a></p>
+                    <p class="footer-tel">
+                        <a class="footer-link" href="tel:{{item.text}}">{{item.text}}</a>
+                    </p>
                     {% elsif item.type == "copyright" %}
-                    <p class="{{itemspacing}}">
-                        <i class="fa fa-copyright"></i><span>{{item.text}}</span>
+                    <p class="footer-text">
+                        <i class="fa fa-copyright"></i>{{item.text}}
                     </p>
                     {% elsif item.type == "social" %}
-                    <div class="d-flex">
+                    <div class="d-flex footer-social">
                         {% for social in item.items %}
-                        <a class="me-4 link-social" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
+                        <a class="link-social" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
                             <i class="fa fa-{{ social.icon }} fa-2x"></i>
                         </a>
                         {% endfor %}
