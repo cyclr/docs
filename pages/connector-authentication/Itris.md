@@ -1,7 +1,7 @@
 ---
 title: Itris
 sidebar: cyclr_sidebar
-permalink: Itris-connector
+permalink: itris-connector
 tags: [connector]
 ---
 
