@@ -1,13 +1,13 @@
 ---
-title: Google Data Studio
+title: Looker Studio
 sidebar: cyclr_sidebar
-permalink: google-data-studio-connector
+permalink: looker-studio-connector
 tags: [connector]
 ---
 
-## Google Data Studio
+## Looker Studio
 
-Google Data Studio is designed to turn your data into interactive dashboards and informative reports.
+Looker Studio is designed to turn your data into interactive dashboards and informative reports.
 
 Using the Cyclr API, you can consume data from any Cyclr connectors you have installed and display them in Data Studio.
 
