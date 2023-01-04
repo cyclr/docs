@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 This article provides a broad overview of how Cyclr works with your app:
 
 1.  Connect your API

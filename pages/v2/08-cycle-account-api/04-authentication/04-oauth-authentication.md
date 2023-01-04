@@ -10,7 +10,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 **_For connectors that require your user to be taken through an OAuth flow._**
 
 Connectors using OAuth require that the user goes through a webflow where they are sent to the third party application to sign in and grant access to Cyclr.

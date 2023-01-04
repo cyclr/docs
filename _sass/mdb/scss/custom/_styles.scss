@@ -910,9 +910,19 @@ Cards
     border: 1px solid $grey-20;
     border-radius: 8px;
     box-shadow: none;
-    margin-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+
+    #col-toc & {
+        @extend .pt-4;
+        @extend .px-40;
+        @extend .pb-4;
+    }
+
+    .pg-category & {
+        @extend .pt-4;
+        @extend .px-40;
+        @extend .pb-50;
+        @extend .mt-20;
+    }
 }
 
 .card-header {
@@ -1906,6 +1916,7 @@ section {
     .container {
         .pg-home & {
             max-width: $container-width-max-homepage;
+
             .card {
                 width: 400px;
                 height: 375px;
@@ -2119,6 +2130,7 @@ section {
 
 
     &.card {
+
         h2 {
             @extend .mt-2;
             @extend .mb-3;
@@ -2144,12 +2156,19 @@ section {
                 @extend .mb-4;
             }
         }
+
+        .pg-doc & {
+            @extend .pt-4;
+            @extend .px-40;
+            @extend .pb-50;
+            @extend .mt-20;
+        }
     }
 }
 
 @include media-breakpoint-up(lg) {
     #col-toc {
-        margin-top: 8rem;
+        margin-top: 63px;
     }
 }
 

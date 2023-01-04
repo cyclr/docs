@@ -10,14 +10,14 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Custom Connectors
 
 With certain Cyclr price plans, it is possible to create Custom Connectors.  These connectors are private to the Partner Organisation that created them.  
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Basics
 
 A connector may have various Releases.  When you add a new connector only certain basic naming details are entered.  The main details of the specification of the connector are provided at the connector release level.  A connector can have only one 'live' release and there may be previous deprecated versions.
@@ -28,7 +28,7 @@ When a release is pushed live this might be done as a Major release which will c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Settings
 
 | Property | Description | Recommended Standards |
@@ -40,7 +40,7 @@ When a release is pushed live this might be done as a Major release which will c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Release Settings
 
 | Property | Description | Recommended Standards |
@@ -56,7 +56,7 @@ When a release is pushed live this might be done as a Major release which will c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 [Paging](./connector-paging)  

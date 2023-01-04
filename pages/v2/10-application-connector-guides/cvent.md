@@ -5,7 +5,7 @@ permalink: cvent-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Cvent setup
 
 ### Requirements
@@ -16,7 +16,7 @@ You also need to know the **Host Name** of the instance you want to access. You 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up the Cvent connector in Cyclr, go to your console:

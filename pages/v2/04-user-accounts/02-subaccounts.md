@@ -11,7 +11,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Within a Cyclr Account, it's possible to set up **Sub Accounts**.
 
 Sub Accounts are a way of organising multiple related accounts.
@@ -22,7 +22,7 @@ Each Sub Account has access to use the installed connectors in its *parent* acco
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating a Sub Account in the Console
 
 To set up a Sub Account you would:
@@ -37,7 +37,7 @@ To set up a Sub Account you would:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating a Sub Account using the Cyclr API
 
 You use the standard `POST /v1.0/accounts` endpoint to create an Account, you just provide an additional **ParentAccountId** property in the Request Body to tell Cyclr which Account to add it under:
@@ -56,7 +56,7 @@ Content-Type: application/json
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Task Usage in Sub Accounts
 
 Your Cyclr Console displays Task Usage for each Sub Account in the same wasy as standard Accounts.

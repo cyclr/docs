@@ -10,14 +10,14 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 A Cyclr account can contain account connectors and integrations, and typically has a one to one relationship with an account in your application.
 
 If an account doesn't already exist, you can create one.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Request
 
 ```html
@@ -50,7 +50,7 @@ If an account doesn't already exist, you can create one.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Response
 
 ```html

@@ -5,14 +5,14 @@ permalink: azure-devops-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 For reference, Microsoft's full Azure DevOps Authentication documentation can be found [here](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops).
 
 The **Microsoft Azure DevOps** Connector is authenticated using OAuth2.0.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Preparation
 
 Either you or your end-users will need to [register an application with Microsoft](https://app.vsaex.visualstudio.com/app/register) and provide its details to Cyclr.
@@ -25,7 +25,7 @@ When authenticating the Connector, the Scopes parameter used **must** match the 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Registering an Application
 
 Registering an application is done [here](https://app.vsaex.visualstudio.com/app/register)
@@ -51,7 +51,7 @@ Keep a note of these details to refer to.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 **If you plan to use the same Scopes for all your users:**
@@ -67,7 +67,7 @@ You should leave the Application Connector Library entry blank.  Doing this requ
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 When installing the Connector the **Organization ID** and **Project Name** to work with are needed.
@@ -89,7 +89,7 @@ The Connector is now authenticated and ready for use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting Scopes/InvalidScope Error
 
 The list of permissions you set for the **Scopes** Connector parameter must *exactly* match the **Authorized scopes** you set when registering your App at [https://app.vsaex.visualstudio.com/app/register](https://app.vsaex.visualstudio.com/app/register).

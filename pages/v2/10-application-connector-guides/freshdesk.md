@@ -5,7 +5,7 @@ permalink: freshdesk-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Freshdesk Setup
 
 To find your API key:
@@ -18,7 +18,7 @@ To find your API key:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 When the connector is setup on an account you will need to provide:
@@ -28,7 +28,7 @@ When the connector is setup on an account you will need to provide:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Webhooks
 
 If you wish to set up a **Ticket Closed** webhook step, you will first need to add it to your cycle.

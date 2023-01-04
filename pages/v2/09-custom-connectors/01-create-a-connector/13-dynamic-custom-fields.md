@@ -10,7 +10,7 @@ menus:
         weight: 12
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Adding Custom Fields Dynamically
 
 Cyclr can add custom fields dynamically to an authenticated connector, removing the need to add them manually for each installation.
@@ -22,7 +22,7 @@ There are two ways to do this:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## <a name="Enhanced">1. Enhanced Dynamic Custom Fields</a>
 
 1\. Identify the method within the API that will return the metadata for your object. You will then need to [create this method within the connector](./connector-methods).<br><br>
@@ -193,7 +193,7 @@ Or just a list of the values
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## <a name="Basic">2. Basic Dynamic Custom Fields</a>
 
 1\. Select a method which is able to be called without any field or parameter values being set. This will be your "Source" method.

@@ -5,7 +5,7 @@ permalink: exerp-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Exerp setup
 
 You need the following information to setup the Exerp connector:
@@ -14,7 +14,7 @@ You need the following information to setup the Exerp connector:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup
@@ -28,7 +28,7 @@ You will be asked for the following values when installing the Exerp connector w
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Mapping extended attribute fields

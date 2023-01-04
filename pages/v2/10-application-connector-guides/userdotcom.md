@@ -5,7 +5,7 @@ permalink: userdotcom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 To authenticate the User<span></span>.com connector you will need your application's subdomain and API Key.
@@ -54,7 +54,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Webhooks
 
 You have the ability to configure webhooks, triggered upon the completion of specified events.

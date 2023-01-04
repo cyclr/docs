@@ -10,12 +10,12 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 When integrating with a Cyclr Marketplace you can specify a Webhook URL for Cyclr to send notifications to after your users have performed a Marketplace action.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting Marketplace URL
 
 In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. Set the Marketplace Notification URL to the location where Cyclr should send notifications.
@@ -24,7 +24,7 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Installed Payload Example
 ```json
  {
@@ -53,7 +53,7 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Uninstalled Payload Example
 ```json
  {
@@ -67,7 +67,7 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Started Payload Example
 ```json
  {
@@ -81,7 +81,7 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Stopped Payload Example
 ```json
  {

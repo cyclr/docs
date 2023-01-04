@@ -10,7 +10,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Settings
 
 These are descriptions of the API endpoints in a standard format.
@@ -44,14 +44,14 @@ Connector naming conventions.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Rate Limits
 
 You can specify rate limits that apply to this method alone.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Request Format / Response Format
 
 Here you specify the request or response message format Fields. Note that if these are generated from a sample payload using the Generate Fields button, you will first need to select a Data Type (JSON, XML etc).
@@ -68,14 +68,14 @@ Here you specify the request or response message format Fields. Note that if the
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Parameters
 
 You can specify Parameters specific to this method. Read more about [parameters](./connector-parameters)
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Script
 
 You can add script to the connector to handle special situations. Read more about [scripting](./connector-scripting)
@@ -85,7 +85,7 @@ The script method type can be used for methods that do not make an external API 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Mergefields
 
 Mergefields are placeholders that will be substituted at runtime.

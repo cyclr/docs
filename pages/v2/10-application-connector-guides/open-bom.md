@@ -5,7 +5,7 @@ permalink: open-bom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Obtaining Authentication Credentials
 
 To authenticate the OpenBOM connector you will need your OpenBOM username and password, and an API Key.

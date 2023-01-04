@@ -5,7 +5,7 @@ permalink: casavi
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Casavi
 
 This document will explain what is needed and install the Casavi connector.

@@ -5,7 +5,7 @@ permalink: servicenow-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 There are currently two ServiceNow connectors available:
 
 - **ServiceNow** - Provides access to various ServiceNow API's
@@ -15,7 +15,7 @@ There are currently two ServiceNow connectors available:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 > Note: Before authenticating either of the ServiceNow connectors you must first obtain a **Personal Developer Instance** within ServiceNow. Details on how to do so can be found [here](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/technology_partner_program/app_store_learnv2_buildmyfirstapp_orlando_personal_developer_instances).

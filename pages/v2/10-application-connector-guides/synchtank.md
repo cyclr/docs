@@ -5,7 +5,7 @@ permalink: synchtank-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Synchtank Setup
 
 To authenticate the Synchtank connector you will need the following pieces of information:

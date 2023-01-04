@@ -5,12 +5,12 @@ permalink: simpletexting-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="simpletexting-setup"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## SimpleTexting setup
 
 You need the following information to setup the SimpleTexting connector in Cyclr:
@@ -33,7 +33,7 @@ To access or create a new API token, do the following:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup 
 
 <a name="account-setup"></a>

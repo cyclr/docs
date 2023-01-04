@@ -5,7 +5,6 @@ permalink: test-templates
 tags: [test-templates]
 layout: page
 toc: false
-singlecard: false
 menus:
   templates:
     title: Test templates
@@ -15,4 +14,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Test templates" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categorydata = site.data.v2.categories.test-templates %}
 {% include v2/category/{{page.categorylayout}}.html identifier="test-templates" intro=hubintro title=hubtitle text=hubtext %}

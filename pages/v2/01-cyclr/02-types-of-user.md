@@ -11,7 +11,7 @@ menus:
         weight: 8
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 There are multiple levels of access which can be granted to people with a need to access Cyclr.
 
 ### Users

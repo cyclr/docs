@@ -5,7 +5,6 @@ permalink: data-storage
 tags: [data-storage]
 layout: page
 toc: false
-singlecard: false
 menus:
   utility-connectors:
     title: Data storage
@@ -15,4 +14,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Data storage" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categorydata = site.data.v2.categories.data-storage %}
 {% include v2/category/{{page.categorylayout}}.html identifier="data-storage" intro=hubintro title=hubtitle text=hubtext %}

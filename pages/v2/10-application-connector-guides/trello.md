@@ -5,7 +5,7 @@ permalink: trello-connector
 tags: [trello,connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To set up the Trello Connector you will need an API Key and a Secret.

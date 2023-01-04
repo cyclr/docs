@@ -10,7 +10,7 @@ menus:
         weight: 11
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To enable the copying of a category to be used for custom objects, please follow the steps below:
 
 1. In connector management, find the connector you wish to edit, select the 'Methods' tab and find the category you wish to enable custom objects for. Click on the new **Edit Category** button and check the **Category Customisation Enabled** checkbox. This allows categories to be copied. To retrieve a collection of objects to offer the user, select an appropriate trigger from the **Object Lookup Trigger** dropdown.

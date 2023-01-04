@@ -10,7 +10,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To view an instance of LAUNCH from within the Cyclr Console, go to:
 
 Click **Guide** > Click the **Show** button under Integrate with your App > Click the **Try LAUNCH** button for an instance to appear as a pop up with any integration templates you’ve published.

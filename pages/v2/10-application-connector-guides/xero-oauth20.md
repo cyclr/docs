@@ -5,12 +5,12 @@ permalink: xero-oauth2
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Xero (OAuth2.0)
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 In order to install a **Xero (OAuth2.0)** Connector, you must first create a Xero OAuth 2.0 **App** in Xero's Developer portal.

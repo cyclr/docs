@@ -5,12 +5,12 @@ permalink: appdirect-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # App Direct
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 In order to install a **App Direct (OAuth2.0)** Connector, you must first create a App Direct OAuth 2.0 **App** in App Directs's Developer portal.

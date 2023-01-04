@@ -5,7 +5,7 @@ permalink: sps-commerce-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, [login](https://developercenter.spscommerce.com/) to your existing SPS Commerce Developer account or [sign up for one.](https://developercenter.spscommerce.com/#/signup)

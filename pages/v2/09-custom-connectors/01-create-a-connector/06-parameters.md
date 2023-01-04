@@ -10,7 +10,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 Parameters can be used to define a number of different properties to be used in an HTTP Request or Response, e.g. HTTP headers, mergefields and querystring values.
@@ -22,7 +22,7 @@ If a Parameter is defined at the Connector level, it will be available to all th
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Parameter Definition
 
 | Property | Description |
@@ -51,7 +51,7 @@ Connector level Parameters have these additional properties:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Types of Parameter
 
 ### HttpHeader

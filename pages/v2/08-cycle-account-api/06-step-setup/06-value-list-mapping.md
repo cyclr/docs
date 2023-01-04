@@ -10,7 +10,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 **_Fields within a step may contain a set of pre-defined values that can be selected from, returned in the “Values” array below:_**
 
 Request:

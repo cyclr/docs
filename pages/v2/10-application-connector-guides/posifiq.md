@@ -5,7 +5,7 @@ permalink: posifiq-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 Request your API key by contacting support@onesend.com.au

@@ -5,7 +5,7 @@ permalink: shopify-oauth
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Shopify (oAuth)
 
 If you are using API key authentication please see the documentation [here](https://docs.cyclr.com/shopify)

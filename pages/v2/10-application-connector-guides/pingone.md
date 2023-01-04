@@ -5,7 +5,7 @@ permalink: pingone-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Partner Setup
 
 PingOne uses OAuth 2 Client Credentials for remote API access. You must register a worker application within PingOne to receive OAuth Client ID and Client Secret values to enable Cyclr to authenticate with PingOne.
@@ -14,7 +14,7 @@ The official documentation for creating an application can be found [here](https
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## PingOne Setup – Register Your Application
 
 Use the PingOne admin portal to configure your oAuth application. To create the application connection select the environment  that you wish to connect to and then:
@@ -38,7 +38,7 @@ Use the PingOne admin portal to configure your oAuth application. To create the 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your PingOne connector within Cyclr:

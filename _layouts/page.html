@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-{% if page.singlecard == true %}
-{% assign cardclass='class="card py-5 my-5""' %}
-{% assign cardclass='' %}
-{% else %}
-{% assign cardclass='' %}
-{% endif %}
 {% capture toc2 %}{{ content | split: "<h2" | size }}{% endcapture %}
 {% capture toc3 %}{{ content | split: "<h3" | size }}{% endcapture %}
 {% capture toc4 %}{{ content | split: "<h4" | size }}{% endcapture %}
@@ -19,8 +13,8 @@ layout: default
         {% unless page.toc == false %}
         <div id="col-toc" class="col-lg-3 order-lg-1 sticky">
             {% if tocs != "3" %}
-            <div class="card py-4 px-5">
-                <h4 class="pb-3 mb-3 border-bottom border-1">In this article</h4>
+            <div class="card">
+                <h4 class="border-bottom border-1">In this article</h4>
                 {% include toc.html %}
             </div>
             {% endif %}
@@ -31,7 +25,7 @@ layout: default
         <div class="col-lg-9 order-lg-0">
             {% if page.default_header == true %}
             {% if page.icon %}
-            <div class="post-header mt-4">
+            <div class="post-header m-0">
                 <div class="d-flex flex-column justify-content-between">
                     <div class="d-flex flex-row">
                         <div class="col-2">
@@ -47,8 +41,8 @@ layout: default
                 </div>
             </div>
             {% else %}
-            <div class="post-header mt-4">
-                <h1 class="post-title-main ps-5">{{ page.title }}</h1>
+            <div class="post-header">
+                <h1 class="post-title-main ps-40 m-0">{{ page.title }}</h1>
             </div>
             {% endif %}
             {% endif %}
@@ -76,7 +70,7 @@ layout: default
             {% endif %}
 
             <div class="post-content">
-                <div {{cardclass}}>
+                <div>
                     {% if page.summary %}
                     <div class="summary">{{page.summary}}</div>
                     {% endif %}

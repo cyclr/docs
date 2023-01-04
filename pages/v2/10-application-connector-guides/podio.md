@@ -5,7 +5,7 @@ permalink: podio-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 ### Podio Interface
@@ -35,7 +35,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 ### Obtaining the App ID

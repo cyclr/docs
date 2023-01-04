@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Testing Steps
 
 You can test the steps in your template, by clicking their “play” button.
@@ -34,7 +34,7 @@ Notes:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Run a Template
 
 Once correctly setup  you can click the 'run' button for your template to make it live and ready to receive data. Normally when testing it is normal to use the 'run once' option.

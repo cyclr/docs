@@ -5,7 +5,7 @@ permalink: chargebee-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 ### Setting up your Account
@@ -20,7 +20,7 @@ For further information setting up API Keys, please see the [Official Chargebee 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Chargebee connector within Cyclr:
@@ -41,7 +41,7 @@ Your Chargebee Connector is now setup! You can test it by installing it in one o
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 ### Configuring Custom Fields

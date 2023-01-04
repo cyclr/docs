@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Bitrix24 setup
 
 The Bitrix24 connector uses Bitrix24's Inbound Webhooks feature to make API requests.
@@ -47,7 +47,7 @@ Under the **Assign permissions** heading, to add each permission:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup

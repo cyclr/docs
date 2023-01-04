@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 When integrating with a Cyclr Marketplace you can decide whether all users access it using the same built-in Account-level "API User" (**Account Marketplace** - this is the typical approach), or create separate users for each in the Cyclr Account (**User Marketplace**).
 
 To enable your users to view a Marketplace and install templates, you will need to have an "Integrations" button or link within your own application's interface.
@@ -21,7 +21,7 @@ For example:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account Marketplace
 
 When a user clicks the **Integrations** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/accounts/CYCLR_ACCOUNT_API_ID/marketplace` endpoint to obtain a **Marketplace URL**.  The user can then be directed to this URL in their web browser.
@@ -178,7 +178,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Marketplace
 
 When a user clicks the **Integrations** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/users/marketplace` endpoint to obtain a **Marketplace URL**.  The user can then be directed to this URL in their web browser.

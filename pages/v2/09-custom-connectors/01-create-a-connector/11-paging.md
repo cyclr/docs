@@ -10,7 +10,7 @@ menus:
         weight: 10
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Inbound and Outbound Paging
 
 So that Cyclr can retrieve more objects than a remote API may allow in one request (some restrict this to 100 objects, for example), it can take advantage of an API’s paging functionality. This is referred to as **Inbound Paging**. Cyclr will repeatedly request pages of objects until it has retrieved them all.
@@ -41,7 +41,7 @@ If values are not set at the method level they are inherited from those specifie
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Inbound Paging Control Variables
 
 When implementing inbound paging in Cyclr, use the following variables.
@@ -61,7 +61,7 @@ Note. These should be entered in the first available **Parameter Value** (see im
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Using Paging Variables
 
 ### Example 1 - API using page number and page size
@@ -119,7 +119,7 @@ If multiple response fields and query string parameters need to be matched, CYCL
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Outbound Paging Variables
 
 Outbound paging only requires one variable to locate the array in the request body. Cyclr identifies when it has “too much” data to pass in one request by comparing it to the **PageSizeOutbound** property. If it has more, it chops the data into multiple requests automatically.

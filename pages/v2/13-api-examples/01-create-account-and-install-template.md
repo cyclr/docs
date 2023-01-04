@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 This document describes how to approach the following use case via API calls 
 
 1. Creating an Account
@@ -24,7 +24,7 @@ If you are on the UK instance, this should be replaced with ```api.cyclr.uk```, 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 1. Create Account
 
 ```curl
@@ -38,7 +38,7 @@ See **Create Account** docs for more details: [Click Here](/create-account)
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 2. Install template into new account
 
 ```curl
@@ -52,7 +52,7 @@ See **Install a Template** docs for more details: [Click Here](/install-from-tem
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 3. Authenticate connector (OAuth)
 
 ### 3a. Get Sign-in Token
@@ -82,7 +82,7 @@ See our docs for more on authenticating via OAuth: [Click Here](/oauth-authentic
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 4. Set Step Field Mapping
 
 ```curl
@@ -99,7 +99,7 @@ See **Set Step Field Mapping** in our documentation for more details: [Click Her
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 5. Start Cycle
 
 ```curl

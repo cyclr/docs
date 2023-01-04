@@ -5,7 +5,7 @@ permalink: poweroffice-go-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 #### Retrieving application key and client key

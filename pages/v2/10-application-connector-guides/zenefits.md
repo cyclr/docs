@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Zenefits setup
 
 You need to register your application with Zenefits and request access to scopes before you can use the Zenefits connector. To authenticate your connector, you need the unique Client ID and Client Secret from your registered Oauth application. Refer to the [Zenefits documentation](https://developers.zenefits.com/docs/auth) for information on how to obtain credentials.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up the Zenefits connector in Cyclr, go to your Cyclr console:

@@ -5,7 +5,7 @@ permalink: sagecrm-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Sage setup
 
 ### Enabling Allow Web Service Access for SOAP methods
@@ -16,7 +16,7 @@ Some Sage CRM accounts may not have the ability to allow web service access. In 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 Setup your Sage CRM connector within Cyclr:
@@ -37,7 +37,7 @@ Your Sage CRM Connector is now setup! You can test it by installing it in one of
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional Information
 
 ### Custom Entity category

@@ -5,7 +5,7 @@ permalink: netsuite-suitetalk-rest-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## NetSuite Setup
 
 Firstly [log in](https://system.netsuite.com/pages/customerlogin.jsp) to your NetSuite account.
@@ -90,7 +90,7 @@ Make a note of the **Token ID** and **Token Secret**.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 1. Locate the Oracle NetSuite - SuiteTalk REST Web Services connector
@@ -107,7 +107,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Troubleshooting Authentication Errors
 
 The authentication error messages returned by NetSuite do not always give a full description of the error's details. To find more information you can view the "Login Audit Trail":

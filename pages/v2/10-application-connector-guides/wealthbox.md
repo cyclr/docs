@@ -5,7 +5,7 @@ permalink: wealthbox-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, [login](https://app.crmworkspace.com/users/login) to your existing Wealthbox account or [sign up for one.](https://www.wealthbox.com/)

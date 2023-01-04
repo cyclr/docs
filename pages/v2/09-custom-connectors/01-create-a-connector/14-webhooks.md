@@ -10,7 +10,7 @@ menus:
         weight: 13
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Automatically Installing Webhooks via API Calls
 
 When an API supports setting up a webhook, this is often the best option to choose, as it allows the user to create webhooks without having to leave Cyclr.

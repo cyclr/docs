@@ -6,7 +6,7 @@ keywords: gocardless
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Partner Setup
 
 To set up the GoCardless connector for your users, you will need a Client ID and a Client Secret.  You get these by creating a new application in GoCardless.  

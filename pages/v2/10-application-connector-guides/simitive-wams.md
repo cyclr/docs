@@ -5,7 +5,7 @@ permalink: simitive-wams-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Simitive WAMS setup
 
 You need the following information to setup the Simitive WAMS connector:
@@ -17,7 +17,7 @@ Your Simitive WAMS account manager/project manager should provide you with these
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Console setup

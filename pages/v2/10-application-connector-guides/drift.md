@@ -5,7 +5,7 @@ permalink: drift-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First you will need to create an oAuth application on the Drift [developer portal](https://dev.drift.com/apps)

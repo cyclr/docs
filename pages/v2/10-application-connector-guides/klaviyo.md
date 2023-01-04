@@ -5,7 +5,7 @@ permalink: klaviyo-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Klaviyo setup
 
 To set up the Klaviyo connector in Cyclr you need a [private API key](#get-a-private-api-key) for your Klaviyo account.
@@ -18,7 +18,7 @@ To see how to get a private API key, see [Klaviyo's guide](https://help.klaviyo.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 When you install the Klaviyo connector in an account, Cyclr asks you for authentication details:
@@ -29,7 +29,7 @@ When you install the Klaviyo connector in an account, Cyclr asks you for authent
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Profile custom properties

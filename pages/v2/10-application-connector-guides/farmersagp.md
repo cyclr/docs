@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Farmers AGP Setup
 To authenticate the Farmers AGP connector, you will need a valid `Vendor ID` and `Vendor Token`. You will also need a base `URL` for the instance.
 To authenticate the connector, please follow the steps below:

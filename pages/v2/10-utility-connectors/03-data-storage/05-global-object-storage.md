@@ -10,12 +10,12 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 
@@ -27,7 +27,7 @@ If you only wish to store a single value, you could instead use the **[Global *D
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Installation
 
 When installing this Connector, you're asked to provide a **Field List**.
@@ -40,7 +40,7 @@ If you wish to add additional Fields after you've installed the Connector, you c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Usage
 
 **Add/Update Entry** Method: either creates a new entry or updates an existing one using a unique Key and any values you've provided for the other Fields.
@@ -53,7 +53,7 @@ This Connector builds upon the features of the **Global Data Storage** Connector
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 * [Cycle Data Storage](./cycle-data-storage)

@@ -5,7 +5,7 @@ permalink: magento-2-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Magento 2 Setup
 
 <a name="api-key"></a>
@@ -26,7 +26,7 @@ To authenticate the connector, you need to create an API Key:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 Cyclr asks you for the below values when you install the Magento 2 connector into an account:
@@ -40,7 +40,7 @@ Cyclr asks you for the below values when you install the Magento 2 connector int
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Bulk endpoints

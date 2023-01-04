@@ -5,12 +5,12 @@ permalink: snowflake-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="snowflake-setup"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Snowflake setup
 
 You need the following information to set up the Snowflake connector in Cyclr:
@@ -22,7 +22,7 @@ You need the following information to set up the Snowflake connector in Cyclr:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating a security integration
 
 You need to create a security integration in Snowflake to [get the client ID and client secret](#getting-the-client-id-and-client-secret). You can find Snowflake's guide on creating a security integration in the Snowflake console [here](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration.html#snowflake-oauth). The following example creates a security integration called `cyclr_oauth` that issues a refresh token once per day:
@@ -45,7 +45,7 @@ create or replace security integration
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Getting the client ID and client secret
 
 You need a client ID and client secret to authenticate the Snowflake connector in Cyclr. Before you can get these you need to [create a security integration](#creating-a-secutiry-integration). You can find Snowflake's guide on getting the client ID and client secret in the Snowflake console [here](https://docs.snowflake.com/en/sql-reference/functions/system_show_oauth_client_secrets.html). The following example gets the client ID and client secret for the security integration created in the previous section:
@@ -60,7 +60,7 @@ select system$show_oauth_client_secrets('CYCLR_OAUTH');
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Getting the account identifier
 
 You need your account identifier to authenticate the Snowflake connector in Cyclr. Your account identifier is the subdomain in your Snowflake account URL provided on account creation. This is the same URL that you use to log in to Snowflake. For example, the account URL `https://AB12345.europe-west1.gcp.snowflakecomputing.com` has the account identifier `AB12345.europe-west1.gcp`.
@@ -69,14 +69,14 @@ You need your account identifier to authenticate the Snowflake connector in Cycl
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 <a name="console-setup"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Console setup
 
 To set up your Snowflake connector within your Cyclr console:
@@ -98,7 +98,7 @@ To set up your Snowflake connector within your Cyclr console:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account setup
 
 You will be asked for the following values when installing the Snowflake connector within an account:
@@ -118,14 +118,14 @@ You will be asked for the following values when installing the Snowflake connect
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 <a name="creating-custom-table-rows-objects"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating custom Table Rows objects
 
 You can create custom `Table Rows` objects to have methods specific to a Snowflake table. This will automatically populate request and response fields for methods within the custom object. To create a custom object:

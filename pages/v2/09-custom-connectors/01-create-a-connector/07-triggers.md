@@ -10,7 +10,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Triggers
 
 Triggers are used for dynamic lookups. For example, if you want to provide a lookup of 'Account IDs' you must have already defined a method in the connector to 'list accounts'.  The trigger will then use the method once the connector is authenticated to allow a look up and select.

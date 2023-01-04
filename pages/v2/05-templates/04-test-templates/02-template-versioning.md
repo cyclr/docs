@@ -12,7 +12,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To help you and your team organise and iterate your integrations we have introduced integration template versioning to the Cyclr Console.
 
 The new feature allows you to create Draft "releases" of an integration so you can build it out and test new additions, before locking it as a Live release. 

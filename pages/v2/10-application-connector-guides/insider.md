@@ -5,7 +5,7 @@ permalink: insider-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 To setup the connector you will need a **Partner Name** and **Request Token**, both of which should be provided by Insider.
@@ -20,7 +20,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 ### Unifier Field (Required)

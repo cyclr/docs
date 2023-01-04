@@ -5,7 +5,7 @@ permalink: okta-connector
 tags: [okta,connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To set up the Okta Connector, your user will need an **API token**.
 
 To create an API token they will need follow these steps:

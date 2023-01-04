@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 _**For connectors that use HTTP Basic authentication.**_
 
 Your user’s username and password will need to be collected by your application then passed to Cyclr as follows:

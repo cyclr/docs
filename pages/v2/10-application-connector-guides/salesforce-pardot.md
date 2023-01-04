@@ -5,7 +5,7 @@ permalink: salesforce-pardot-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 To authenticate the Salesforce Pardot connector you will need the **User Key**, **Email Address** and **Password** for the Pardot user account you will be interfacing with.

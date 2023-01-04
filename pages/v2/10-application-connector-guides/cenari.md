@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Cenari setup
 
 In order to authenticate your Cenari connector, you need to get the following information:
@@ -19,7 +19,7 @@ If you need more information, contact the Cenari support team.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 Cyclr asks you for the below values when you install the Cenari connector into an account:

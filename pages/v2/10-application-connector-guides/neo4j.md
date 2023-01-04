@@ -5,7 +5,7 @@ permalink: neo4j-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Neo4j Connector
 
 You need the following details to setup the **Neo4j** connector in Cyclr:

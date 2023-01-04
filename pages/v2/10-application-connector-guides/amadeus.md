@@ -5,7 +5,7 @@ permalink: amadeus-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Retrieving OAuth2 Details
 
 * Go to https://developers.amadeus.com/ and register. Once your account is verified then sign in and:

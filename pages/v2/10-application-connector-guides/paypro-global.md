@@ -5,12 +5,12 @@ permalink: paypro-global-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # PayPro Global
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 In order to install a PayPro Global Connector, you will need an API secret key, and your Vendor ID.

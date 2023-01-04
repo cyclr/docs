@@ -10,14 +10,14 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## What is a Partner Connector?
 
 Your Partner Connector is your application's connector. When installing Launch or Marketplace to a new account you can install your application's connector - the Partner Connector - into the account at the same time, so your users will not be expected to authenticate against your platform during the LAUNCH or Marketplace flow.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting up a Partner Connector
 
 First you will need to make sure that you have a partner connector set up.

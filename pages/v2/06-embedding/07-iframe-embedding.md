@@ -10,7 +10,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To embed Cyclr in an iframe within your own application, you will need to take the following steps:
 
 1. Obtain an Access Token that enables you to make calls against the Cyclr API

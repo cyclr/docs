@@ -5,7 +5,7 @@ permalink: tazworks-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Tazworks Setup
 ---------------
 For Cyclr to connect with the Taxworks

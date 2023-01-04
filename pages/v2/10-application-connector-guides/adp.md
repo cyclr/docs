@@ -5,7 +5,7 @@ permalink: adp-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 You will need to retrieve your client ID and secret. The client ID is set during account creation, and the secret is the password to the created account.

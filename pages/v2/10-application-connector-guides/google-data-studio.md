@@ -5,7 +5,7 @@ permalink: google-data-studio-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Google Data Studio
 
 Google Data Studio is designed to turn your data into interactive dashboards and informative reports.

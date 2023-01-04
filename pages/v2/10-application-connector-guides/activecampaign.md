@@ -5,12 +5,12 @@ permalink: activecampaign-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # ActiveCampaign
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the ActiveCampaign connector, you will need your API key.

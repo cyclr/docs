@@ -5,7 +5,6 @@ permalink: cyclr
 tags: [cyclr]
 layout: page
 toc: false
-singlecard: false
 menus:
   mainmenu:
     title: Cyclr
@@ -16,4 +15,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Cyclr" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categorydata = site.data.v2.categories.cyclr %}
 {% include v2/category/{{page.categorylayout}}.html identifier="managing-cyclr" intro=hubintro title=hubtitle text=hubtext %}

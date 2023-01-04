@@ -5,7 +5,7 @@ permalink: office-365-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Microsoft Office 365 uses OAuth 2.0. Please sign up for an application on Microsoft first and get an OAuth client ID, client secret.
 
 ### Azure Active Directory OAuth Application

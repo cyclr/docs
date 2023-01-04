@@ -5,7 +5,7 @@ permalink: google-calendar-workspace-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Account Level Setup
 
 ### Create Service Account with appropriate permissions
@@ -36,7 +36,7 @@ This action must be completed by a super admin of the Google Workspace account.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Google Calendar - Workspace App within Cyclr:

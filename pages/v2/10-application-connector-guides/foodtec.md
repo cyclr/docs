@@ -5,7 +5,7 @@ permalink: foodtec-solutions-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication Credentials
 
 To authenticate the FoodTec Solutions connector you will need the name of the chain you wish to interact with, and an API Key.
@@ -18,7 +18,7 @@ Your API Key (token) should be issued by FoodTec Solutions. Please contact your 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 1. Locate the FoodTec Solutions connector

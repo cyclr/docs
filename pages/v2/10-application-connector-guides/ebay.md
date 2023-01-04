@@ -5,12 +5,12 @@ permalink: ebay-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="ebay-setup"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## eBay setup
 
 You need the following to setup the eBay connector in Cyclr:
@@ -58,7 +58,7 @@ Once you have obtained your client ID and client secret, you need to create an a
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 <a name="sandbox-or-production"></a>

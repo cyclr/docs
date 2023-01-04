@@ -11,7 +11,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Manually Adding Custom Fields
 
 By default, connectors will only include the standard fields used by an application. Where you need to work with additional fields in the application you are connecting to, it is possible to add these using custom fields.
@@ -35,7 +35,7 @@ The following needs to be specified
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Example Field Locations
 
 If you only have a few fields, you may want to add them manually.
@@ -67,7 +67,7 @@ If you have a large number of fields to add, there is a more automated option as
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Adding Fields Using JSON Example
 
 If you have a JSON example of the request or response then this can be used to auto-add additional or custom fields.

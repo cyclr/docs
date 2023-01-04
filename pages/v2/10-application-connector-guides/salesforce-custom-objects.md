@@ -5,7 +5,7 @@ permalink: salesforce-custom-objects
 tags: [salesforce]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Accessing Custom Objects in Salesforce
 
 First you will need the API name of your object.  The process of finding this is slightly different depending upon whether you use Salesforce *Lightning Edition* or Salesforce *Classic*.

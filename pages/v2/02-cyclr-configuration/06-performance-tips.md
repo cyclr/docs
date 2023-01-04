@@ -10,7 +10,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 The following tips may improve the performance of your integrations:
 
 ### Disabling Collection Splitting (if not needed)

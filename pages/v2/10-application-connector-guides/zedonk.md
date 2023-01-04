@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Zedonk setup
 
 To authenticate your Zedonk account, you need to get the API key of your Zedonk application.
@@ -15,7 +15,7 @@ If you need help to get the API key, contact your Zedonk account manager.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup

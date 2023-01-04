@@ -5,7 +5,7 @@ permalink: authenticate-emarsys
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Emarsys setup
 
 <a href=#emarsys-credentials></a>
@@ -21,7 +21,7 @@ To obtain these credentials, you need to create an API user within Emarsys. You 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 Cyclr asks you for the below [credentials](#emarsys-credentials) when you install the Emarsys connector into an account:
@@ -33,7 +33,7 @@ Cyclr asks you for the below [credentials](#emarsys-credentials) when you instal
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional Information 
 
 <a href=#custom-fields></a>

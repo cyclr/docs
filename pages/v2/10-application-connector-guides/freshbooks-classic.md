@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Freshbooks Classic uses basic authentication.  For this, you will need your Authentication Token.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Finding your authentication token
 
 You can find your authentication token by:
@@ -24,7 +24,7 @@ You can find your authentication token by:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authenticating the connector
 
 You can then authenticate your connector by entering your Authentication Token in the "Username" field, and a single letter X in the Password field.

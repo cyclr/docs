@@ -5,7 +5,7 @@ permalink: google-classroom-workspace-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Google Workspace Setup
 
 > Note: Due to how Google Classroom authentication works, clients themselves will need to follow the Google Workspace setup process described below.
@@ -18,14 +18,14 @@ To allow the Google Classroom connector to manage Google classrooms within your 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Enabling the Google Classroom API
 
 To access the Google Classroom API endpoints, you need to enable the Google Classroom API within a project in your workspace. Google's documentation on how to do this can be found [here](https://support.google.com/googleapi/answer/6158841?hl=en).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating a service account
 
 A service account needs to be created to allow admin-level access to Google classrooms within your workspace. Google's documentation on how to do this can be found [here](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount). When creating the service account, set up the fields below as follows:
@@ -39,7 +39,7 @@ When adding the service account key, set the **Key type** to JSON, then open the
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Enabling domain-wide delegation for your service account
 
 Domain-wide delegation needs to be enabled for your service account to allow it to access user data on behalf of users in your workspace. You need to be a "super administrator" of the workspace to configure this. Google's documentation on how to do this can be found [here](https://developers.google.com/identity/protocols/oauth2/service-account#delegatingauthority). When enabling domain-wide delegation, set up the fields below as follows:
@@ -53,12 +53,12 @@ Domain-wide delegation needs to be enabled for your service account to allow it 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Client installation
 
 When using a template containing the Google Classroom connector, clients will be prompted for the following information from the previous sections:
@@ -70,7 +70,7 @@ When using a template containing the Google Classroom connector, clients will be
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner templates
 
 To setup the Google Classroom connector within a template:

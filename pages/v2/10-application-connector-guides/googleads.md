@@ -5,7 +5,7 @@ permalink: google-ads-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Google Ads set up
 
 You need to do the following to enable Google Ads access for the Google Ads connector:
@@ -37,7 +37,7 @@ You need the end user's **client customer ID** to set up the Google Ads connecto
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up
 
 ### Cyclr console

@@ -5,7 +5,7 @@ permalink: m3ter-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # M3ter setup
 
 You need to do the following to setup the M3ter connector:
@@ -15,26 +15,26 @@ You need to do the following to setup the M3ter connector:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Generate an API Key and Secret for a Service User
 
 Please see M3ter's documentation on how to generate an API Key and Secret for a Service User [here](https://www.m3ter.com/docs/guides/authenticating-with-the-service/service-authentication#generating-an-api-key-and-secret-for-a-service-user).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Get an organisation ID
 
 Please see M3ter's documentation on how to get an organisation ID [here](https://www.m3ter.com/docs/guides/managing-organization-and-users/viewing-and-editing-organization#viewing-details-and-editing-configuration).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Console setup
 
 To setup the M3ter connector within your Cyclr console:
@@ -58,7 +58,7 @@ To setup the M3ter connector within your Cyclr console:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account setup
 
 You will be asked for the following values when installing the M3ter connector within an account:

@@ -10,12 +10,12 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 Many integrations are triggered when details of an updated record in one application are sent to a second application to keep the data in sync.
@@ -27,7 +27,7 @@ The Cyclr **Cross Updating Preventer** (or "XUP" for short) is designed to avoid
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Overview
 
 ### Inbound or Outbound?
@@ -47,7 +47,7 @@ For systems where there isn't a shared and unique value, you could use a "concat
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Methods
 
 There are 4 main Methods on the Connector.  Their purpose is to check if data being sent from one system to the other is the result of a previous update so has been sent before, and if so to prevent it from continuing.
@@ -72,7 +72,7 @@ These store the data you map to them in the Cross Updating Preventer's internal 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## How it Works
 
 **Update OK (*Outbound*)** compares the values you map on it with values that have been stored by **Store Data (*Inbound*)** for a specific Common Key value.  If there is any difference between those values, the Transaction leaves the Step through the True Exit, meaning the update should continue.  If the values are all the same, then it leaves through the False Exit indicating this isn't a real update as the data hasn't changed since the last time it was seen.
@@ -93,7 +93,7 @@ And **Update OK (*Outbound*)** and **Store Data (*Inbound*)** must have the same
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cycle Setup
 
 The screenshot below shows how you might build 2 Cycles that synchronize Contacts between Salesforce and HubSpot.

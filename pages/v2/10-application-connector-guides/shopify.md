@@ -5,7 +5,7 @@ permalink: shopify
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Shopify
 
 This document explains how to set up Shopify and install the Shopify connector in Cyclr.
@@ -14,7 +14,7 @@ This document explains how to set up Shopify and install the Shopify connector i
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Shopify set up
 
 To authenticate the Shopify connector in Cyclr you need:
@@ -48,7 +48,7 @@ You can find the admin API access token in the newly created custom app under **
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up
 
 <a name="connector-set-up"></a>

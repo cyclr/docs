@@ -5,7 +5,7 @@ permalink: FIVECRM-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # FiveCRM Setup
 
 You need the following details to setup the **FIVE CRM** connector in Cyclr:

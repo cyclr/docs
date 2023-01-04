@@ -5,7 +5,7 @@ permalink: airtable-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Airtable setup
 
 You need an API key, Base ID and table name from Airtable to use the Airtable connector in Cyclr:
@@ -16,7 +16,7 @@ You need an API key, Base ID and table name from Airtable to use the Airtable co
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 Cyclr asks you for the below values when you install the <connector name> connector into an account:
@@ -31,7 +31,7 @@ You can test the connector in one of your Cyclr accounts if you call a method to
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Airtable custom objects

@@ -5,7 +5,7 @@ permalink: lizzy-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, login to your existing Lizzy account.

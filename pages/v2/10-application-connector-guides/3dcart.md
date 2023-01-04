@@ -5,7 +5,7 @@ permalink: 3DCart-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, login to your existing 3DCart Developer account or [sign up for one.](https://devportal.3dcart.com/login.asp)

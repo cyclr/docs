@@ -5,7 +5,7 @@ permalink: invenias-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, navigate to your Invenias Swagger definition at "https://**{{SubDomain}}**.invenias.com/api/swagger/index". Change the **{{SubDomain}}** to your Invenias subdomain. This is the first part of your portal URL, for example if you login to Invenias via "https://**company**.invenias.com" you should use "**company**".

@@ -10,7 +10,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ![Gravity Forms](https://cyclr.com/wp-content/uploads/2017/10/Gravity-Forms-259x300.png)
 
 #### Prerequisites

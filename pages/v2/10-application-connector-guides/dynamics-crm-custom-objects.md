@@ -5,7 +5,7 @@ permalink: dynamics-custom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Dynamics CRM Custom Objects Connector Setup
 
 This connector is designed to work with a single custom entity. When working with more than one, you must install a separate Dynamics CRM connector for each custom entity type.

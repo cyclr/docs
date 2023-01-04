@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Velocify uses basic authentication so all you need to do is to provide a valid username/password combination for your account.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating Leads in Velocify
 
 In order to create leads using the Velocify connector there are a few preliminary steps to be undertaken first:

@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up the Mindful Callback connector in Cyclr:
@@ -23,7 +23,7 @@ To set up the Mindful Callback connector in Cyclr:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional Information
 
 The **Create Callback** method allows you to send a `user_data` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:

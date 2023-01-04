@@ -11,7 +11,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Console Administrators
 
 Console Administrators have access to both the Cyclr Console and Cyclr Partner API.
@@ -19,7 +19,7 @@ The Console Administrators page is where you can invite or remove people as cons
  
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## IP Restrictions
 
 ### API and Console

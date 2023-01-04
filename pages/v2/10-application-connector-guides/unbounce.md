@@ -5,7 +5,7 @@ permalink: unbounce
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Retrieving API Key Details
 
 * Go to https://unbounce.com/product-selector/ and create an account. Once your account is verified then sign in and:

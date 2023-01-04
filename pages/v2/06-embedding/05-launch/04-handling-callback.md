@@ -10,7 +10,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 The final page of the LAUNCH flow is completely customizable and defined by the HTML &amp; JavaScript entered at:
 
 **Console > Settings > Customize Appearance > Launch Complete HTML**

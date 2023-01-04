@@ -5,7 +5,7 @@ permalink: caspio
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 ### Login / Sign Up
@@ -35,7 +35,7 @@ For further information, please see the [Official Caspio documentation](https://
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Caspio within Cyclr:
@@ -60,7 +60,7 @@ Your Caspio Connector is now set up! You can test it by installing it in one of 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Utilising Custom Object Categories
 
 The methods within some categories (like Tables) require you to create a custom object category. This is to create a clearer user experience when creating cycles.

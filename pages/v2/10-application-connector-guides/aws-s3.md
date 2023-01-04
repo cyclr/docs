@@ -6,14 +6,14 @@ keywords: s3
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Important Note about Bucket Names
 
 Due to limitations in the Amazon S3 API, it's not possible to access a bucket's contents if its name contains a period (.)
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, login to your existing AWS account or [sign up for one.](https://aws.amazon.com/)

@@ -11,12 +11,12 @@ menus:
         weight: 8
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 The following is a guide to the Data Types available at Request/Response body level, and those available when defining Connector Fields.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Request/Response Data Types
 
 These data types can be set to define the format of the entire request/response.
@@ -34,7 +34,7 @@ These data types can be set to define the format of the entire request/response.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Field formats
 
 These data types can be set to define the format of the individual fields in the request/response.

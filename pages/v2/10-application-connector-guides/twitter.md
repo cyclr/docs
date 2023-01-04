@@ -5,7 +5,7 @@ permalink: twitter-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Obtaining Authentication Credentials
 
 To authenticate the Twitter connector you will need a Twitter developer account and to have created a developer app.
@@ -30,7 +30,7 @@ To summarize:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 1. Locate the Twitter connector

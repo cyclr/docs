@@ -11,12 +11,12 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 The **Generic Webhook** Utility Connector provides the typical HTTP Methods - **DELETE** **GET** **PATCH** **POST** **PUT** - allowing you to make HTTP Requests towards remote systems.  We strongly recommend however that although these methods are available it is preferable to use a 'proper' fully featured Cyclr connector.
@@ -30,7 +30,7 @@ As with all connectors, the **Generic Webhook** Utility Connector can be added m
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Webhooks and Synchronous Webhooks
 
 When a Request is sent to a **Webhook** Step in a running Cycle, a Response is sent back straightaway confirming whether the Request was accepted or not.  If it was accepted, Cyclr will go on to run the Cycle using the data it was given, but you won't hear anything more about it.
@@ -48,7 +48,7 @@ We refer to this setup as **Synchronous Webhooks**.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Passing Control between Cycles
 
 The **Generic Webhook** Utility Connector can be used to link Cycles together.  For example, a step in Cycle 1 can make an HTTP POST to a Webhook that has been set up as a trigger to start Cycle 2.
@@ -66,7 +66,7 @@ In this example, 2 Cycles have been used but the same procedure can be set up to
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Mid-Cycle Webhooks
 
 Webhook Steps can be used as the *first* Step in a Cycle as a way to receive data for processing, but they can also be used *part-way through* a Cycle - or "Mid-Cycle" - as a way of holding a Transaction until ready to proceed.
@@ -81,7 +81,7 @@ Each time the mid-Cycle Webhook receives a Request, it will look for the most re
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 [How to add custom fields](./adding-custom-fields) 

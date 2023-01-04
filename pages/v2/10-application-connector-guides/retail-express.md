@@ -5,7 +5,7 @@ permalink: retail-express-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To access the API, you will need to contact support to request a client code (GUID) and unique URL. 

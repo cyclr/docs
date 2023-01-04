@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.
 
 ### API Location/Instance

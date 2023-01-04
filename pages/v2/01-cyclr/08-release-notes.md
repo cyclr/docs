@@ -10,7 +10,7 @@ menus:
         weight: 7
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## 2022
 
 ### 28th November 2022
@@ -131,7 +131,7 @@ menus:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 2021
 
 ### 29th November 2021
@@ -234,7 +234,7 @@ menus:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## 2021 and older
 
 For release notes before 23rd February 2021, please visit [the Cyclr website](https://cyclr.com/changelog){:target="_blank"}.

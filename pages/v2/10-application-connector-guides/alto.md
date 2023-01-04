@@ -5,7 +5,7 @@ permalink: alto-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 ### Setting up your Account
@@ -15,7 +15,7 @@ These should have been provided by Alto when you signed up - you can email their
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Alto connector within Cyclr:

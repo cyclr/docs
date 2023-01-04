@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Introduction
 
 In this guide, you will use the Cyclr API to call a connector method. Cyclr will act as a proxy and pass your request to the external application.

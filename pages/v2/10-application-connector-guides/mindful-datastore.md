@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Mindful Datastore setup
 
 To set up the Mindful Datastore connector to use in Cyclr, you need to get your API key. If you need more information, contact the Mindful support team.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up the Mindful Datastore connector in Cyclr:
@@ -32,7 +32,7 @@ To set up the Mindful Datastore connector in Cyclr:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Custom Fields

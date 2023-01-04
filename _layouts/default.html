@@ -36,9 +36,13 @@
     {% assign mainclass='container-fluid bg-dark pg-home m-0 px-0'%}
     {% assign topnavborderclass=' border-0'  %}
     {% else %}
-    {% assign containerclass='container '%}
-    {% assign mainclass=''%}
+    {% assign containerclass='container'%}
     {% assign topnavborderclass='' %}
+    {% if page.toc == true %}
+    {% assign mainclass='pg-doc'%}
+    {% else %}
+    {% assign mainclass='pg-category'%}
+    {% endif %}
     {% endif %}
 
 <body>

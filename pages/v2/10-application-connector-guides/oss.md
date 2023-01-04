@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # OSS setup
 To authenticate the OSS connector, you will need a valid `X-Token` and base `URL`.
 To obtain these, please follow the steps below:

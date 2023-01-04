@@ -5,10 +5,9 @@ permalink: indexpermalink
 tags: [indextags]
 layout: page
 toc: false
-singlecard: false
-categorylayout: [categorylayout]
-introtitle: [introtitle]
-introtext: [introtext]
+categorylayout: indexcategorylayout
+introtitle: indexintrotitle
+introtext: indexintrotext
 menus:
   indexmenuname:
     title: indexmenutitle
@@ -20,5 +19,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "indextitle" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign categorydata = site.data.v2.category.{{page.permalink}} %}
+{% assign categorydata = site.data.v2.categories.indexpermalink %}
 {% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=hubintro title=hubtitle text=hubtext %}

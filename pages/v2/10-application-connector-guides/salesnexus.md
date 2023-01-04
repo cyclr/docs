@@ -5,7 +5,7 @@ permalink: salesnexus-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 The SalesNexus connector is authenticated with an API Key (authorization token).

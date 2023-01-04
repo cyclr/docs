@@ -10,12 +10,12 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 To store some data in a Cycle and access it later in the same Cycle, you can use the **Cycle Data Storage** Connector.
@@ -30,14 +30,14 @@ If you wish to store more structured data or more than one value (perhaps the fi
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Usage
 
 [How To Use Cycle Data Storage](./data-storage-usage) 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 * [Cycle Object Storage](./cycle-object-storage)

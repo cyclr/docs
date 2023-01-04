@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Launch guides your users through setting up an integration between your app and third party apps, requiring them to provide only that information which cannot be included within your integration template.
 
 For example, the process of exporting contacts from your app to your user’s email marketing platform could largely be templated, but it may be desirable to allow your user to select the mailing list that contacts are added to.

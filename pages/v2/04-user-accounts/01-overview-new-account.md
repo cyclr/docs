@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 This article gives an overview on setting up a new Cyclr Account using the Cyclr API.
 
 Useful links:

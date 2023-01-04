@@ -12,7 +12,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 You can export templates from one Cyclr instance and import them to another. This allows you to keep templates in sync if you have Cyclr instances in multiple regions.
 
 For example, you build a template on the UK instance and want to use exactly the same template on the US instance. This can now be achieved using the template export import feature.

@@ -5,12 +5,12 @@ permalink: saashr-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="saashr-setup"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## SaaShr setup
 
 You will need the following to authenticate the SaaShr connector in an account:
@@ -33,7 +33,7 @@ When installing the SaaShr connector for the first time you need to enter an add
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 <a name="account-setup"></a>
@@ -53,12 +53,12 @@ You will be asked for the following values when installing the SaaShr connector 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Further information
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Custom field mapping
 In some cases, further field mapping is required on methods which accept key and value pairs in an array. This can be seen in the methods **Update Cost Center** and **Update Employee Pay Information**. To map fields, please follow these steps:
 

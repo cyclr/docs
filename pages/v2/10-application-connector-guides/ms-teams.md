@@ -5,7 +5,7 @@ permalink: microsoft-teams-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 **Many of the Microsoft Teams endpoints are protected, due to them handling sensitive data. This requires you to apply for permission to use them from Microsoft via [this request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). 

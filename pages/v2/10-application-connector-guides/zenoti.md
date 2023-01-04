@@ -5,14 +5,14 @@ permalink: zenoti-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a href="client-id">
 
 To authenticate your connector, you need to get the Client ID. You can find the Client ID in the login URL. For example, if the login URL is `https://mycompany.zenoti.com/SignIn.aspx` the Client ID is `mycompany`.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
   
 ### Console setup

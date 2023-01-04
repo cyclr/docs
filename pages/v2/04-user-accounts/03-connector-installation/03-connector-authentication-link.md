@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 If you require one of your clients to authenticate an account connector but they don't have access to Cyclr and don't wish to share their credentials with you, you can use a connector authentication link and token.
 
 This is an emailable link and token that allows your client to access Cyclr just to authenticate a particular account connector.

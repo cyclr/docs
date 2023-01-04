@@ -10,7 +10,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Marketplace Integration Packages are installed using the LAUNCH flow.  After installation is complete, LAUNCH will either redirect the user back to the Marketplace or display the LAUNCH complete page. If the Marketplace Integration Package is not set to redirect the user back to the Marketplace, then the final page of the LAUNCH flow can be customized by defining the HTML &amp; JavaScript at:
 
 **Console > Settings > Customize Appearance > Launch Complete HTML**

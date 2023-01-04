@@ -10,7 +10,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 _**Step Parameters are passed as a header or part of the URL (hostname, path, or query string parameters) to the third party API endpoint.**_
 
 For each Missing parameter mapping returned by the step prerequisites request in step 7:

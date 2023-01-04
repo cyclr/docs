@@ -5,7 +5,7 @@ permalink: waiverforever-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # WaiverForever setup
 
 To authenticate the WaiverForever connector, you will need a valid `API Key`.

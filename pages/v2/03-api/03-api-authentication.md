@@ -10,7 +10,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Cyclr API can be authenticated using the Client Credentials and Password flows. The [Password flow](./cyclr-api-authentication-password) will cease to be supported and stop functioning after May 2021. You should migrate to Client Credentials before then.
 
 This document is for authenticating with the Cyclr API using the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow.

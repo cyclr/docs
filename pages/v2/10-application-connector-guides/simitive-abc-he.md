@@ -5,7 +5,7 @@ permalink: simitive-abc-he-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Simitive ABC-HE setup
 
 You need the following information to setup the Simitive ABC-HE connector:
@@ -18,7 +18,7 @@ From within your Simitive ABC-HE account, navigate to the **API Keys** page. Her
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup
@@ -32,7 +32,7 @@ You will be asked for the following values when installing the Simitive ABC-HE c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Custom Object (Period Version)

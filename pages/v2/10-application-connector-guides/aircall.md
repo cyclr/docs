@@ -5,12 +5,12 @@ permalink: aircall-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Aircall
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the Aircall connector, you will need an ``api_id`` and an ``api_token``.

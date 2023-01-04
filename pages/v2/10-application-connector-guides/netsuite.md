@@ -5,7 +5,7 @@ permalink: netsuite-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## RESTlet Installation
 
 To enable REST APIs in NetSuite, a "RESTlet" file must be deployed in your NetSuite account.
@@ -58,7 +58,7 @@ Make a note of the token ID and token secret. Cyclr will ask for them when you i
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting select and multiselect Fields
 
 When setting `select` and `multiselect` fields in a create or update method, you can either provide its `internalid` (actual value in NetSuite) or `name` (UI display text in NetSuite).
@@ -101,7 +101,7 @@ If both `internalid` and `name` are provided, only the `internalid` will be used
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Filtering Objects 
 
 The "List" methods, which return multiple items when run, can be filtered to match specified criteria using the following Fields:
@@ -187,7 +187,7 @@ You can add any number of filter conditions using Script as you require.  Just b
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## NetSuite Saved Search to return 1000+ records
 
 To retrieve more than 1,000 records, you will need to create a **Saved Search** in NetSuite, and then use the appropriate **Run (object) Saved Search** Method in the NetSuite Connector for the type of data you're returning, e.g. **Run Contact Saved Search**.

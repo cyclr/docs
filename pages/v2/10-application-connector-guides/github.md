@@ -6,12 +6,12 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To use the GitHub connector you will need to set up an app within GitHub, to obtain a Client ID and Client Secret.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting up your GitHub app
 
 1. Go to your [GitHub user's **Developer Settings**](https://github.com/settings/developers) then **OAuth Apps** and create a new application.
@@ -26,7 +26,7 @@ To use the GitHub connector you will need to set up an app within GitHub, to obt
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authenticating your GitHub Cyclr Connector
 
 1. In your Console, access `Connectors` > `Application Connectors`

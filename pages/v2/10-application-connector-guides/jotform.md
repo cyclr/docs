@@ -5,7 +5,7 @@ permalink: jotform-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 To authenticate the JotForm connector you will need an API Key and the API Domain.

@@ -5,7 +5,7 @@ permalink: bronto-installation
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Bronto
 
 When installing the Bronto Connector, the following documentation describes how to create an API Key and set appropriate permissions within your Bronto account:

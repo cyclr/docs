@@ -11,7 +11,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Accounts
 
 Each of a Cyclr Partner's Customers will have an account in Cyclr.

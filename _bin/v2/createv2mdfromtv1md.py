@@ -24,9 +24,6 @@ sourcefolderfull = os.path.join(os.path.dirname(__file__), sourcefolder)
 targetfolderfull = os.path.join(os.path.dirname(__file__), targetfolder)
 templatemdfile = os.path.join(os.path.dirname(__file__), './assets/templatefrontmattermenus.md')
 templateindexfile = os.path.join(os.path.dirname(__file__), './assets/templateindex.md')
-# temp content for category pages
-# targethubfolder = '../../_data/v2/categoriesnew/'
-# targethubfolderfull = os.path.join(os.path.dirname(__file__), targethubfolder)
 # regex string for headings
 regexh1 = "^#[\s]"
 regexh2 = "^##[\s]"
@@ -58,8 +55,6 @@ jsonfilename_full = os.path.join(os.path.dirname(__file__), jsonfilename)
 # open and read json file
 with open(jsonfilename_full, 'r') as jsonfile:
     json_data = json.load(jsonfile)
-    # targethubymlfile = ''
-    # newhubfile = True
     pagewithsections = False
     for item in json_data:
         if item['v1md'] is None:
@@ -93,6 +88,21 @@ with open(jsonfilename_full, 'r') as jsonfile:
                                 newline = re.sub("indexmenutitle", item['menutitle'], indexline)
                             elif "indexmenuidentifier" in indexline:
                                 newline = re.sub("indexmenuidentifier", item['menuidentifier'], indexline)
+                            elif "indexcategorylayout" in indexline:
+                                if item['categorylayout'] is None:
+                                    addline = False
+                                else:
+                                    newline = re.sub("indexcategorylayout", item['categorylayout'], indexline)
+                            elif "indexintrotitle" in indexline:
+                                if item['introtitle'] is None:
+                                    addline = False
+                                else:
+                                    newline = re.sub("indexintrotitle", item['introtitle'], indexline)
+                            elif "indexintrotext" in indexline:
+                                if item['introtext'] is None:
+                                    addline = False
+                                else:
+                                    newline = re.sub("indexintrotext", item['introtext'], indexline)
                             elif "indexmenuicon" in indexline:
                                 if item['menuicon'] is None:
                                     addline = False
@@ -113,16 +123,7 @@ with open(jsonfilename_full, 'r') as jsonfile:
                             if addline == True:
                                 toindexfile.write(newline)
                         toindexfile.close()
-                    # add the target hub yml file
-                    # targethubymlfile=item['permalink']+".yml"
-                    # targetmdfilefull = os.path.join(os.path.dirname(__file__), targethubfolderfull, targethubymlfile)
-                    # if os.path.exists(targetmdfolderfull) == True:
-                    #    with open(targetmdfilefull,'w',encoding='utf-8') as tohubfile:
-                    #        tohubfile.write("title: "+item['menutitle']);
-                    #        tohubfile.write("\ntext: Placeholder content for category page");
-                    #        tohubfile.write("\nsections:\n");
-                    #    tohubfile.close()
-        elif item['v2folder'] is None:
+         elif item['v2folder'] is None:
             continue
         else:
             pagewithsections = True
@@ -158,11 +159,11 @@ with open(jsonfilename_full, 'r') as jsonfile:
                             elif firstcontentline == True:
                                 firstcontentline = False
                                 tofile.write('{::options parse_block_html="true" /}')
-                                tofile.write('\n<section class="card py-5 my-5">\n')
+                                tofile.write('\n<section class="card">\n')
                             elif firstcontentline == False:
                                 if bool(re.search(regexh1, line)) == True or bool(re.search(regexh2, line)) == True:
                                     tofile.write('\n</section>')
-                                    tofile.write('\n<section class="card py-5 my-5">\n')
+                                    tofile.write('\n<section class="card">\n')
                                 if bool(re.search(regexh1, line)) == True:
                                     mdline = re.sub("^#[\s]","## ",line)
                                     if (item['permalink']) is not None:

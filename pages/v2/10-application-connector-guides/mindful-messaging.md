@@ -5,7 +5,7 @@ permalink: mindful-messaging-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Mindful Messaging setup
 
 To install the Mindful Messaging connector within a Cyclr account you need an **API token** associated with your Mindful account.
@@ -18,7 +18,7 @@ You can find Mindful's documentation on how to get an API token for your Mindful
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr account setup
 
 Cyclr asks you for the below value when you install the Mindful Messaging connector into an account:

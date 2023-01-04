@@ -5,7 +5,7 @@ permalink: wordpress-connector.html
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Wordpress
 
 Wordpress Connector Setup
@@ -13,14 +13,14 @@ Wordpress Connector Setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## ⚠️ Read me ⚠️
 Make sure this is the right Wordpress connector you are after. This connector is used for self-hosted Wordpress sites.
 For Wordpress hosted sites view the Wordpress guide [here](https://docs.cyclr.com/wordpresscom-connector#wordpress-connector-setup).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 In order to allow Cyclr to connect to your WordPress site’s API, you must install the <a href="https://wordpress.org/plugins/rest-api-oauth1/" target="_blank">WordPress REST API – OAuth 1.0a Server</a>. This gives your site the ability to securely authenticate API use.
 

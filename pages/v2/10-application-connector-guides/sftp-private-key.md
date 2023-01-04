@@ -5,12 +5,12 @@ permalink: sftp-private-key
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 To authenticate the **SFTP Private Key** connector you will need to provide the following values:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Host URI
 
 The URI where the SFTP server is located.
@@ -21,7 +21,7 @@ sftp://example.com
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Name ## 
 
 The username to authenticate as with the SFTP server.
@@ -32,7 +32,7 @@ sftp_user
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Private Key
 
 The PKCS #1 RSA private key that the SFTP server knows as an _authorized_key_ for the username provided.
@@ -69,14 +69,14 @@ U+RfJn9l5kWbZLhVkb9AlVP8MA6VOM2U+LfW7Z/7gOslnoMMosk=
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Passphrase (Optional)
 
 If the private key requires a passphrase, provide it here.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Server Time Zone
 
 The timezone used by the SFTP server. If not set correctly the **List Updated Files** method will not function as expected.
@@ -87,7 +87,7 @@ Europe/London
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## IP Allowlist
 
 If the SFTP server is not publicly accessible, ensure you allow Cyclr to connect to it.

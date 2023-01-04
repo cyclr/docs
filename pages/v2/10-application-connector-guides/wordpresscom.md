@@ -5,7 +5,7 @@ permalink: wordpresscom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Wordpress.com
 
 Wordpress.com Connector Setup
@@ -13,14 +13,14 @@ Wordpress.com Connector Setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## ⚠️ Read me ⚠️
 Make sure this is the right Wordpress connector you are after. Wordpress.com uses authentication that doesnt require the use of 3rd party plugins and is primarily used for Wordpress hosted sites rather than self-hosted.
 For self-hosted sites view the Wordpress guide [here](https://docs.cyclr.com/wordpress-connector.html#wordpress-connector-setup).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 To set up authentication you will need to make an application within the applications manager located [here](https://developer.wordpress.com/apps/). 
 When filling in the fields make sure to put your Cyclr callback URL into the 'Redirect URLs' field.
@@ -30,7 +30,7 @@ Once created you will have access to your Client ID and Secret.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Wordpress.com connector within Cyclr:

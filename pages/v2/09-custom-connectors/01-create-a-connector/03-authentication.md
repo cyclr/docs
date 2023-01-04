@@ -10,7 +10,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication Types
 
 Cyclr supports various authentication types and, sometimes with the addition of scripting, it is possible to establish a connection with any API.
@@ -26,7 +26,7 @@ Cyclr supports various authentication types and, sometimes with the addition of 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## OAuth2Type
 
 These fields will only be used if the AuthType is OAuth2.
@@ -40,7 +40,7 @@ These fields will only be used if the AuthType is OAuth2.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Bearer Token
 
 If an API requires a Bearer Token to be sent, for example when the API Key is used, then you can add Script at the Connector-level to prepend it with "Bearer " and set it as the **Authorization** HTTP Header in all Requests like this:

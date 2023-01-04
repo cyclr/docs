@@ -5,7 +5,7 @@ permalink: quoraads-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 ### Setting up your Account
@@ -22,7 +22,7 @@ For further information setting up authentication, please see the [Official Quor
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Quora Ads within Cyclr:

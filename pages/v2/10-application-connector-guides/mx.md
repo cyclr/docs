@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## MX setup
 
 To authenticate the MX connector, you will need a valid `Client ID` and `API Key`.
@@ -28,7 +28,7 @@ Add the Cyclr servers IP to MX Whitelist. https://docs.cyclr.com/cyclr-ip-allowl
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authenticate the connector
 
 You can now use the `Client ID` and `API Key` to authenticate your MX connector. First select either the **Development URL** or **Production URL** depending on which environment you wish to authenticate. Click next. Then enter the corresponding `Client ID` and `API Key` and click next.
@@ -38,13 +38,13 @@ Your MX connector is now set up! You can test it by installing it to one of your
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating custom Institution objects
 
 Once the connector is authenticated, you can create custom `Institution` objects. This will automatically populate request and response fields for methods within the custom object. To create a custom object:

@@ -5,7 +5,7 @@ permalink: trustpilot-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating An App
 
 Follow the steps outlined in [this guide](https://support.trustpilot.com/hc/en-us/articles/207309867-Getting-started-with-Trustpilot-s-APIs#create-manage-applications-3) to create an application in the Trustpilot console.
@@ -14,7 +14,7 @@ Follow the steps outlined in [this guide](https://support.trustpilot.com/hc/en-u
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 1. In your Cyclr console, go to 'My Connectors' from the top right drop down menu.
@@ -40,7 +40,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User guide
 
 You will need a 'Business Unit ID' for most requests, without it you will receive a '403 - Forbidden' response. The recommended way of obtaining that is by using the 'Search For Business Units' method as the first step in your cycles.

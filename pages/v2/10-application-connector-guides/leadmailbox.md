@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Authentication with LeadMailbox is very simple.  When the connector is installed you will need to provide the name of your account only.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Post Leads Method
 
 When the Post Leads method is called additionally you will need to provide the name of the Campaign to which the lead should be added.  You can check these values by:

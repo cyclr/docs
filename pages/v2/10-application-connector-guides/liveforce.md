@@ -5,7 +5,7 @@ permalink: liveForce-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Retrieving OAuth2 Details
 
 *   To request access to LiveForce you will need to [e-mail](mailto:tech@liveforce.co) and request for **Client ID** and **Client secret**.

@@ -5,7 +5,7 @@ permalink: marketo-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 To get a **client ID** and **client secret** you must login to your Marketo installation as an admin.
@@ -36,7 +36,7 @@ Your Marketo Connector is now setup! You can test it by installing it in one of 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Bulk Import/Export
 
 The ability to import and export CSV, TSV or SSV files is supported with methods from the **Bulk Imports** and **Bulk Exports** categories.

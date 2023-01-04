@@ -5,12 +5,12 @@ permalink: twiliovoice
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Twilio Voice
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 This document will explain what is needed to setup access to Twilio Voice and install the connector.

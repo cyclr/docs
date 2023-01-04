@@ -5,7 +5,7 @@ permalink: eventbrite-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Eventbrite setup
 
 You need the following information to set up the Eventbrite connector:
@@ -30,7 +30,7 @@ Create an API key and client secret on the [API keys page](https://www.eventbrit
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up your Eventbrite connector within your Cyclr console:
@@ -48,7 +48,7 @@ Your Eventbrite connector is now set up! You can test it by installing it in one
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Event custom objects
 
 The Eventbrite connector uses Cyclr custom objects to make methods dynamic based on an event ID. Each event custom object requires its corresponding event ID to function. This enables custom fields to be automatically mapped for each event custom object created.

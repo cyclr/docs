@@ -5,7 +5,7 @@ permalink: bigquery
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Google BigQuery
 
 This document will explain what is needed to setup access to Google Big Query and install the connector.

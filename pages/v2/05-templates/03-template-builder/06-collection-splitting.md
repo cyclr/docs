@@ -11,7 +11,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Collection Splitting can be used when you don't want a list of data to move through your Cycle in a single Transaction.  If you do, then you can disable Collection Splitting.
 
 Splitting a list into separate items results in each item moving through a Cycle in its own Transaction.

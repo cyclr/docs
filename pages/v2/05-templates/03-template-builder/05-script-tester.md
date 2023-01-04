@@ -10,7 +10,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 If you need to test some javascript outside of your cycle, you can do so with the **Script Testing** Tool.
 
 This can be found in your **Console**, under the **Connectors** menu. 

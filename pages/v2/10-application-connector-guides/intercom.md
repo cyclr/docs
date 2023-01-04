@@ -5,7 +5,7 @@ permalink: intercom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Intercom setup
 
 Intercom uses OAuth 2 for remote API access. Register Cyclr within Intercom as your own app to get the OAuth Client ID and Client Secret values you need for Cyclr to authenticate with Intercom.
@@ -16,7 +16,7 @@ For more information, see the official Intercom documentation:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup
@@ -61,7 +61,7 @@ To find out which version your app is set to:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Use the Search Contacts method
 
 There are two processes for sending a search request in the Search Contacts method:

@@ -7,12 +7,12 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="rfms-set-up"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## RFMS set up
 
 You need the following information to set up the RFMS connector in Cyclr:
@@ -31,7 +31,7 @@ console [here](https://rfmsapps.zendesk.com/hc/en-us/articles/360015957574-RFMS-
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up
 
 <a name="console-setup"></a>

@@ -5,7 +5,7 @@ permalink: SproutSend-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, login to your existing Sprout Send account or [sign up for one.](https://myguestlist.com/mgl/contact_forms/covid-sprout/get_started.php)

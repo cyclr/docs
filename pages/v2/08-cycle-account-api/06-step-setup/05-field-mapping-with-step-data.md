@@ -10,7 +10,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 **_A Step Data mapping uses a value from a previous step response as the value for this steps request._**
 
 Cyclr provides an endpoint to discover valid field mapping options for a given step.

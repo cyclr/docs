@@ -10,14 +10,14 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 The **Generic File** Connector provides the **Create Delimited Text File** Method that creates delimited text content, for example Comma Separated Values (CSV) and Tab Separated Values text.  This content might then be sent to a remote FTP server as a new file using the **FTP Connector**.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Create Delimited Text File Method
 
 The Generic File Connector's **Create Delimited Text File** Method doesn't provide any initial "data fields" as it doesn't know the data you wish to use.  All it starts with are fields to define the structure of the content to be created: Delimiter and Include Header.

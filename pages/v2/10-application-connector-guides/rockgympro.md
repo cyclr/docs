@@ -5,7 +5,7 @@ permalink: rockgympro-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Rock Gym Pro uses Basic authentication. 

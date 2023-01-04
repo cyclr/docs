@@ -11,12 +11,12 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 When using an Action step, you will need to map its fields.  You can do this through the 'cog' icon on the step which gives access to the Step Setup functionality.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Field mapping example
 
 ![](./images/field-mapping-eg.png)
@@ -27,7 +27,7 @@ The **Source** for these fields, shown to the right, can be any preceding step o
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Field mapping sources
 
 Depending on the app you're connecting to and the field you are using, only some of these source types will be available.
@@ -43,14 +43,14 @@ Depending on the app you're connecting to and the field you are using, only some
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Configurable
 
 Setting the field to be **User Configurable** means that this mapping will be finalised by the user when the Template in installed into an Account.  For the purposes of testing a value may be provided but this value will NOT be copied over on Template installation.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## System mergefields
 
 You can use Cyclr system mergefields as the **Source** value in Field Mapping.

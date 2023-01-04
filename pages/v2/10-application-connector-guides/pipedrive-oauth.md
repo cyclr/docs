@@ -5,7 +5,7 @@ permalink: pipedrive-oauth-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Partner Setup
 -------------
 Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. You must register Cyclr within Pipedrive as its own App to receive a Client ID and Client Secret. This enables Cyclr to authenticate and connect with Pipedrive.
@@ -14,7 +14,7 @@ Cyclr requires Pipedrive to use OAuth 2.0 authentication for remote API access. 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Pipedrive Setup
 
 To obtain Client ID and Client Secret values from within Pipedrive:
@@ -39,7 +39,7 @@ Create a new App and obtain the Client ID and Client Secret using the steps belo
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Pipedrive Integration Workflow Building Examples
 -------------
 <h2>Automating Pipedrive</h2> 

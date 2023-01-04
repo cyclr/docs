@@ -87,7 +87,6 @@ defaults:
     show_disqus: false
     default_header: true
     toc: true
-    singlecard: true
     categorylayout: "category_default"
 # these are defaults used for the frontmatter for these file types
 

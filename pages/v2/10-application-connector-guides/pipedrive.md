@@ -5,7 +5,7 @@ permalink: pipedrive-connector.html
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Setting up the Connector
 To install the Pipedrive Connector, your **customer** will need to provide their API Key.
 
@@ -13,7 +13,7 @@ There's information on how to find your API key here: https://support.pipedrive.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Pipedrive Integration Workflow Building Examples
 -------------
 <h2>Automating Pipedrive</h2> 

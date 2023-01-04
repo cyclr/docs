@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Constant Contact Setup
 
 To use the Constant Contact connector, you will first need to setup an application within Constant Contact to obtain a `Key` and `Secret`.

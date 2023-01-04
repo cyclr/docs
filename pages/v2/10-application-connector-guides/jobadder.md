@@ -5,7 +5,7 @@ permalink: jobadder-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # JobAdder setup
 
 To authenticate the JobAdder connector, you will need the following pieces of information:

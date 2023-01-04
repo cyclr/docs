@@ -5,14 +5,14 @@ permalink: onelogin-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## OneLogin setup
 
 To authenticate this connector, you need a OneLogin credential pair of **Client ID** and **Client Secret**. Find more information on how to obtain these credentials in OneLogin's [Working with API credentials](https://developers.onelogin.com/api-docs/1/getting-started/working-with-api-credentials) documentation.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
@@ -31,7 +31,7 @@ To set up the OneLogin connector in Cyclr, go to your **Cyclr Console**.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Generate fields for the **Create App** method

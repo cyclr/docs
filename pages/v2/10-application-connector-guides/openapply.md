@@ -5,7 +5,7 @@ permalink: openapply-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 To authenticate the OpenApply connector you will need a Client ID, Client Secret and the name of you account.
@@ -38,7 +38,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 ### Custom Fields

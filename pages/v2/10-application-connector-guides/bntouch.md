@@ -5,7 +5,7 @@ permalink: bntouch-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 At setup you will be prompted to enter the ID and Name of your BNTouch account. These credentials should be issued by your BNTouch account manager.

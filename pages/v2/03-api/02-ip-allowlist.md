@@ -11,7 +11,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 If you are setting up a Connector that requires an IP to be allowed, you can find the addresses that Cyclr *sends* API requests from below.
 
 If your Cyclr Partner Console is hosted on one of our shared stacks, you should use the appropriate IP addresses from this list:

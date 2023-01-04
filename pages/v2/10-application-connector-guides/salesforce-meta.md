@@ -5,7 +5,7 @@ permalink: salesforce-metadata-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 When installing the **Salesforce Metadata** Connector you'll need to provide a Username and Password for the Salesforce account you wish to work with.
@@ -14,7 +14,7 @@ You can optionally enter an Account Type.  Possible values are "enterprise" or "
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Creating Custom Fields
 
 To create custom fields within Salesforce, there are three fundamental steps that must be carried out:

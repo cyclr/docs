@@ -5,7 +5,7 @@ permalink: mindful-api-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Mindful API setup
 
 You need the following details to install the Mindful API connector into a Cyclr account:
@@ -17,7 +17,7 @@ If you need help to obtain these values, contact the Mindful support team.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Console setup

@@ -5,7 +5,7 @@ permalink: drip-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Drip Setup
 ---------------
 In order to authenticate the connector, you will need your Client ID and Client Secret.  You get these by setting up an Application within Drip.

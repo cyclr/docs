@@ -11,7 +11,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Introduction
 
 Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
@@ -25,7 +25,7 @@ Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Decisions
 
 Decision steps can split the data in your cycle down a true or false branch.
@@ -64,7 +64,7 @@ To create more advanced logic, you can chain multiple Decision steps together.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Delays
 
 Delay steps added to a cycle, will execute without any scheduled delays. Connecting a Delay between two steps will allow you to set a fixed time that Cyclr should wait before it executes the next step.
@@ -79,7 +79,7 @@ You can also pause for a period based on a date field in your data. For example,
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Wait Until
 
 You can use a Wait Until step in two ways.
@@ -102,7 +102,7 @@ Select a step from the first dropdown, then a field from the second. The field s
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Wait All
 
 A **Wait All** Step waits for all Transactions running in a Cycle to complete before moving on and executing the Steps that appear after it.

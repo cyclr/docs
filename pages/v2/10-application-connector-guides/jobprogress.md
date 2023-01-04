@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # JobProgress setup
 
 To authenticate the JobProgress connector, you will need a valid `Access Token`, please follow the steps below:
@@ -18,12 +18,12 @@ To authenticate the JobProgress connector, you will need a valid `Access Token`,
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account Setup
 
 You can now use the `Access Token` to authenticate your JobProgress connector.

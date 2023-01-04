@@ -11,7 +11,7 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Integration Templates available in the LAUNCH flow are designed using the Cyclr drag-and-drop builder.
 
 Integration Name

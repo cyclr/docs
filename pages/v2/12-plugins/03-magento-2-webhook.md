@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Magento 2 does not include webhook functionality.
 
 We have created our Magento 2 extension to allow for easy integration with any of the [apps or services that Cyclr connects](https://cyclr.com/connectors).

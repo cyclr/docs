@@ -5,7 +5,7 @@ permalink: digital-humani
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 #### Login / Sign Up
@@ -23,7 +23,7 @@ For further information, please see the [Official Digital Humani documentation](
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 Setup your Digital Humani within Cyclr:

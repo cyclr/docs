@@ -6,19 +6,19 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Acculynx setup
 
 You will need to create or log in to an AccuLynx account and obtain an API Key from the Acculynx API page [here](https://my.acculynx.com/apikeys).
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account setup
 
 You will be asked for the following values when installing the AccuLynx connector within an account:

@@ -5,7 +5,7 @@ permalink: b2bwave-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 B2B Wave Setup
 ---------------
 In order to authenticate the connector, you will need your App Code and API Token.

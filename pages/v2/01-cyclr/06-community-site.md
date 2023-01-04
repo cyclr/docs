@@ -10,7 +10,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Accessing the Community Site
 
 To access the Community Site, go to your console and click the Community Site button:

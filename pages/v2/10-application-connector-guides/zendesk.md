@@ -5,7 +5,7 @@ permalink: zendesk-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Zendesk setup
 
 The Zendesk connector supports authentication with the following pairs of credentials:
@@ -19,7 +19,7 @@ To generate an API token for your Zendesk account, please see Zendesk's [API doc
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 There are two ways to install the connector into an account in Cyclr: with a password or with an API token.
@@ -46,7 +46,7 @@ Enter the following values when you install the Zendesk connector within an acco
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Use Webhooks

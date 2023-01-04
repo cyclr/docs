@@ -5,7 +5,7 @@ permalink: tiktok-for-business-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # TikTok for Business setup
 
 You need to do the following to setup the TikTok for Business connector:
@@ -38,7 +38,7 @@ Find your created app under the **My Apps** section of the TikTok for business w
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 The TikTok for Business connector can be used with two different authentication types: `Production Installation` or `Sandbox Installation`. The production installation should be used for live production accounts and the sandbox installation should be used for sandbox accounts. The `Advertisers` > `List Advertisers` method will not function when using the sandbox installation. Please see the additional information section for details on [TikTok for Business sandbox account setup](#tiktok-for-business-sandbox-account-setup).
@@ -81,7 +81,7 @@ You will be asked for the following values when installing the TikTok for Busine
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 <a name="tiktok-for-business-sandbox-account-setup"></a>

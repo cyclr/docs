@@ -5,12 +5,12 @@ permalink: bullhorn-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Bullhorn
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the Bullhorn connector you will need a Client ID and Client Secret.  If you do not already have these, you or a listed Account / Support Contact will need to get in touch with Bullhorn Support to have credentials set up.
@@ -25,7 +25,7 @@ Once you have your Client ID and Secret, you will be able to use these details t
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## FAQ
 
 ### Apache Tomcat Error
@@ -38,7 +38,7 @@ This is a known issue with Bullhorn. The solution is to clear the Bullhorn cooki
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 ### Retrieving Custom Objects

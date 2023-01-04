@@ -7,7 +7,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner setup
 
 This page explains how to setup access to Zoho so you can use the Zoho connector in Cyclr.
@@ -34,7 +34,7 @@ For more information, see [Zoho's documentation](https://www.zoho.com/accounts/p
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 Once you have your Client ID and Client Secret from Zoho, go to your Cyclr Console:
@@ -54,7 +54,7 @@ If you have a Zoho CRM Plus subscription, use the normal domain format `https://
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Scopes

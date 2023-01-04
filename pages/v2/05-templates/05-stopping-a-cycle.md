@@ -10,7 +10,7 @@ menus:
         weight: 5
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 _**This article refers to Cycles, but the same applies to Templates.**_
 
 When you stop a running Cycle you have two choices: **Stop**, or **Finish and Stop**

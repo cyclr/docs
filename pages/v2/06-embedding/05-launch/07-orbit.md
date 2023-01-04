@@ -10,7 +10,7 @@ menus:
         weight: 7
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ORBIT is LAUNCH’s companion, giving your users a screen where they can view their installed integrations as well as pause and delete them.
 
 As a prepackaged integration management solution, ORBIT is deployed in a similar fashion to LAUNCH, being made accessible to your users via a pop-up, modal or iframe.

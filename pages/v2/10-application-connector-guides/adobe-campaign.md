@@ -5,12 +5,12 @@ permalink: adobe-campaign-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Adobe Campaign
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the Adobe Campaign connector, you will need the following pieces of information:

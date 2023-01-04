@@ -10,12 +10,12 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 A Cycle is an instance of a template you install within an account.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Install a template with the Cyclr API
 
 Request:
@@ -71,7 +71,7 @@ Response:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related pages
 
 *  [How to Get Template Prerequisites](./get-cycle-prerequisites)

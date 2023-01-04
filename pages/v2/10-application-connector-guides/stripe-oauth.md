@@ -5,7 +5,7 @@ permalink: stripe-oauth-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Partner setup
 
 ### Retrieving client ID
@@ -30,7 +30,7 @@ From the [API settings](https://dashboard.stripe.com/apikeys) page of your Strip
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Console setup

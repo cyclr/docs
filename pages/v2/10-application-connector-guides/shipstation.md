@@ -5,7 +5,7 @@ permalink: shipstation-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To setup the ShipStation connector, you will need a ShipStation API Key, and API Secret.
@@ -23,7 +23,7 @@ To setup the ShipStation connector, you will need a ShipStation API Key, and API
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Setting up the ShipStation Connector
 
 You can now use the Key and Secret retrieved on the previous step, to authenticate the connector.  Enter the Key in the ``Username`` field, and the Secret in the ``Password`` field.

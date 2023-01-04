@@ -10,7 +10,7 @@ menus:
         weight: 7
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Using your own domain as a Cyclr Service Domain
 
 To use your own domain as Cyclr Service Domain, follow these steps:

@@ -5,7 +5,7 @@ permalink: clover-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Clover
 
 This guide is for setting up and installing the [Clover](https://cyclr.com/integrate/clover) connector.

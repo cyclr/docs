@@ -5,7 +5,7 @@ permalink: exact-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Exact Setup
 ---------------
 In order to authenticate the connector, you will need a **Client ID** and **Client Secret**.

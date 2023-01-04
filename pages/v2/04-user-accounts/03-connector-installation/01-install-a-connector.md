@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).
 
 ### Getting the connector ID

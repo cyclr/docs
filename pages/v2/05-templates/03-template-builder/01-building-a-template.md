@@ -11,7 +11,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Template Settings
 
 ### Settings Tab
@@ -32,7 +32,7 @@ You can set the period for which transaction and any error information is retain
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Trigger Step
 
 A trigger is the first step in your cycle; the event that causes the process to start.
@@ -58,7 +58,7 @@ Depending on the type of trigger you have used you will need to setup some of th
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Adding More Steps
 
 With a trigger now setup, you need to add an action: the step that will be taken after the first step runs.
@@ -77,7 +77,7 @@ Next, click-drag the dot on the right side of the trigger and drop it onto the d
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Field Mapping
 
 With the two steps joined, you should now click the button on your action and perform the setup and field mapping.

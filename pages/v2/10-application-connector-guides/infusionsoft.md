@@ -5,7 +5,7 @@ permalink: infusionsoft-connector
 tags: [Connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 ### Obtaining Authentication Credentials

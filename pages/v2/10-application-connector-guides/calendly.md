@@ -5,7 +5,7 @@ permalink: calendly-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Calendly setup
 
 Before you install the Calendly connector into a Cyclr account, you need to do the following:
@@ -29,7 +29,7 @@ You receive a client ID and client secret via email when you [register a Calendl
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr console setup
 
 To set up your Calendly connector, go to your Cyclr console:

@@ -5,7 +5,7 @@ permalink: moodle-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the Moodle connector you will need an `API Token`. This is obtained by setting up an application within your Moodle environment.

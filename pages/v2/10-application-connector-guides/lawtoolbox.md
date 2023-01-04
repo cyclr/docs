@@ -5,7 +5,7 @@ permalink: lawtoolbox-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # LawToolBox set up
 
 You need the following information to set up the LawToolBox connector in Cyclr:
@@ -14,7 +14,7 @@ You need the following information to set up the LawToolBox connector in Cyclr:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up
 
 ### Console set up

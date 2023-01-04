@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## What is a Cyclr custom connector?
 
 A custom connector allows you to integrate apps that aren’t in our [connector library](http://cyclr.com/connectors/). You can also use a custom connector to connect your own private apps and websites.
@@ -25,7 +25,7 @@ For both methods, you can add [scripts](connector-scripting) to further customis
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Create a connector in the console
 
 You can create a connector in the Cyclr console through a process of specification.

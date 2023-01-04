@@ -5,7 +5,7 @@ permalink: shireburn-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## API Keys
 
 The Shireburn connector is authenticated with two API Keys.
@@ -25,7 +25,7 @@ Once the state of your Payroll Standard subscription changes to 'Active' you wil
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authenticate The Connector
 
 1. Locate the Shireburn connector

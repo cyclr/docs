@@ -5,7 +5,7 @@ permalink: azure-ad-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 The Microsoft Azure Active Directory connector is authenticated with the OAuth2.0 protocol. You will need to register an application and provide the connector with that application's Client ID (Application ID) and Client Secret.

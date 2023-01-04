@@ -10,13 +10,13 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Cyclr Connector Standards Guide
 ---------------------------
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Details
 * Name should not include any version information
 * Version should be same as API version
@@ -26,13 +26,13 @@ Cyclr Connector Standards Guide
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 - Use OAuth where available
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Methods
 #### Naming Convention:
 - **Get**: Used when the method retrieves a single item
@@ -50,7 +50,7 @@ Cyclr Connector Standards Guide
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Fields & Parameters
 - Descriptions should end in "."
 - Should provide lookup/triggers for IDs where possible

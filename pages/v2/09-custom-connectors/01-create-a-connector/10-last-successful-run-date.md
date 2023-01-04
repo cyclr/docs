@@ -11,7 +11,7 @@ menus:
         weight: 9
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Last Successful Run Date
 
 If you have a need for a method that only pulls the latest information, you're going to want to use Cyclr's **Last Successful Run Date** functionality.

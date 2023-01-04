@@ -12,7 +12,7 @@ menus:
         weight: 7
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Scripting
 
 Cyclr supports Javascript as its scripting language, allowing you to manipulate data before it's sent as well as after it's been retrieved.  This can be useful when moving data between applications as what's valid in one, may not be valid in another.  

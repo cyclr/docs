@@ -5,12 +5,12 @@ permalink: surefirecrm
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Surefire CRM
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 This document will explain what is needed to setup access to Surefire CRM and install the connector.

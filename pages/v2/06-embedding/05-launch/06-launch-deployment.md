@@ -10,7 +10,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Overview
 
 When integrating with LAUNCH you can decide whether all users access it using the same built-in Account-level "API User" (**Account LAUNCH** - this is the typical approach), or create separate users for each in the Cyclr Account (**User LAUNCH**).
@@ -26,7 +26,7 @@ For example:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account LAUNCH
 
 When a user clicks the **Connect** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch` endpoint to obtain a **LAUNCH URL**.  The user can then be directed to this URL in their web browser.
@@ -217,7 +217,7 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User LAUNCH
 
 When a user clicks the **Connect** button, your application server should make a request towards the Cyclr REST API's _/v1.0/users/launch_ endpoint:

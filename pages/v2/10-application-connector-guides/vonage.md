@@ -5,14 +5,14 @@ permalink: vonage-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Setup
 
 To pair the Vonage connector with a Vonage application you will need an **Application ID**, **Private Key**, **API Key** and **API Secret**.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Vonage Credentials
 
 Sign in to the Vonage dashboard [here](https://dashboard.nexmo.com/sign-in) if you already have an account. If not create one [here](https://dashboard.nexmo.com/sign-up).
@@ -53,7 +53,7 @@ Sign in to the Vonage dashboard [here](https://dashboard.nexmo.com/sign-in) if y
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Connector Setup
 
 1. Locate the Vonage connector
@@ -68,7 +68,7 @@ The connector is now configured to interact with your Vonage application.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## User Guide
 
 When retrieving the information associated with a phone number, using the 'Get Number Details' method, you have the option to retrieve the contact name associated with that phone number. To do this set the **Cnam** query parameter to **true**.

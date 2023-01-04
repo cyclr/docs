@@ -5,12 +5,12 @@ permalink: fmx-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="fmx-set-up"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## FMX set up
 
 You need the following information to set up the FMX connector:
@@ -22,7 +22,7 @@ These are given/set on FMX account creation. Clients should ask their FMX accoun
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up
 
 To set up the FMX connector within Cyclr:
@@ -42,7 +42,7 @@ The FMX connector is now set up! You can test it by installing it in one of your
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## FMX custom objects
 
 The FMX connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
@@ -55,7 +55,7 @@ The FMX connector uses Cyclr custom objects to make methods dynamic based on mod
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Find the module name
 
 You need a module name to set up a custom object. To find a specific module name:
@@ -68,7 +68,7 @@ You need a module name to set up a custom object. To find a specific module name
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Find the request type ID
 
 You need a request type ID to set up a custom object. Before you can find the request type ID:
@@ -85,7 +85,7 @@ To find a specific request type ID:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Set up a custom object
 
 When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:

@@ -5,12 +5,12 @@ permalink: sap_successfactors
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 The SAP SuccessFactors connector is currently a beta connector.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 To authenticate the SAP SuccessFactors connector you will need the following:

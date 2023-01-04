@@ -10,7 +10,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 _**A static value can be set as the field mapping, a static value is a value that will never change.**_
 
 This value should be obtained from your user, or automatically assigned by your application, then provided to Cyclr like below:

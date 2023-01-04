@@ -10,7 +10,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Contact Form 7, a plugin for WordPress - does not include webhook functionality. This makes getting the data from form submissions difficult.
 
 We have created our Contact Form 7 plugin to allow for easy integration with any of the [apps or services that Cyclr connects](https://cyclr.com/connectors).

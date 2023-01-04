@@ -5,7 +5,7 @@ permalink: odoo-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Odoo setup
 
 You can find Odoo's documentation on how to configure your Odoo instance for API access [here](https://www.odoo.com/documentation/16.0/developer/api/external_api.html?highlight=pagination#configuration). Please contact your server administrator if you need help to obtain credentials.
@@ -18,7 +18,7 @@ To get database names on your Odoo instance, visit `{Server URL}/web/database/se
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 ### Account setup

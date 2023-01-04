@@ -5,7 +5,7 @@ permalink: cyance-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Partner Setup
 
 You need the following details to set up the Cyance connector within Cyclr:
@@ -18,7 +18,7 @@ You can request access to the Cyance API by contacting them [here](customerservi
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Setup
 
 To set up the Cyance connector within Cyclr:

@@ -5,7 +5,7 @@ permalink: mydocsafe-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Partner Setup
 
 Before setting up the **MyDocSafe** Connector, you will need to get an **application key** and an **application secret**.

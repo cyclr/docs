@@ -11,7 +11,7 @@ menus:
         weight: 6
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ### Terms and Conditions
 Cyclr's [Terms and Conditions](https://cyclr.com/terms-and-conditions)
 

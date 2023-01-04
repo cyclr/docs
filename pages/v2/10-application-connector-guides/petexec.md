@@ -5,7 +5,7 @@ permalink: petexec-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Setup
 
 To authenticate the PetExec connector you will need a Client ID, Client Secret and the name of your account.

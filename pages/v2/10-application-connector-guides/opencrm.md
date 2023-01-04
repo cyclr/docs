@@ -5,7 +5,7 @@ permalink: opencrm-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 To authenticate the OpenCRM connector you will need an **API Key**, **Pass Key** and your OpenCRM account name.
@@ -34,7 +34,7 @@ The connector is now authenticated and ready to use.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Adding Custom Fields
 
 Your records may contain custom fields which by standard are not mapped each method's request or response fields. The API field names for custom fields can be found in your custom field settings within OpenCRM. An example of a custom field API field name would be "cf_123".

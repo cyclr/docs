@@ -6,14 +6,14 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Korvue CRM setup
 
 Korvue CRM provides you with credentials and a base URL when you sign up for your account.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 1. To set up the Korvue CRM connector in Cyclr:

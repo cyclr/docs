@@ -5,7 +5,7 @@ permalink: hubspot-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## HubSpot setup
 
 To connect Cyclr with the HubSpot API, you need to create an app within HubSpot, as detailed below:
@@ -25,7 +25,7 @@ In order to use the Products and Line Items methods, you need to assign the user
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 You can install the connector with the credentials obtained in the above steps:
@@ -51,7 +51,7 @@ In this example, that would be the "Cyclr" account:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 ### Webhook setup

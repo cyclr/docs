@@ -11,7 +11,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 | Option | Documentation |
 | --- | --- |
 | Application Icon | Your application icon. Displayed in the navigation bar if Cyclr is used as a white-labelled service.  40x40 pixel PNG image with a transparent background. |

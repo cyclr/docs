@@ -5,7 +5,7 @@ permalink: orderbot-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 # Orderbot setup
 
 You need the following information to set up the Orderbot connector in Cyclr:
@@ -14,12 +14,12 @@ You need the following information to set up the Orderbot connector in Cyclr:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Account setup
 
 You will be asked for the following values when installing the Orderbot connector within an account:
@@ -31,12 +31,12 @@ You will be asked for the following values when installing the Orderbot connecto
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional information
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Mapping custom fields
 
 Methods in the `Products > Custom Fields` category dynamically return custom field data dependant on how custom fields are set up in the Orderbot UI. To map these fields within Cyclr:

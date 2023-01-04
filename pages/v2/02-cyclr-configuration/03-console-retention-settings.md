@@ -11,7 +11,7 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Data Retention 
 
 The data retention settings allow you to specify how long both successful transactions and transaction errors should be retained.

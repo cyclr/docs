@@ -6,12 +6,12 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="bluedolphin-set-up"></a>
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## BlueDolphin setup
 
 You need the following information to setup the BlueDolphin connector in Cyclr:
@@ -33,7 +33,7 @@ You can find BlueDolphin's guide on how to get an API key [here](https://develop
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr set up 
 
 <a name="console-setup"></a>

@@ -11,7 +11,7 @@ menus:
         weight: 1
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr Templates
 
 You can build Templated integrations in Cyclr that can then be either manually installed to your client's account or offered to clients for self-installation.
@@ -29,14 +29,14 @@ Once you have at least one Template built or in-progress then you will see these
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Tagging Templates
 
 You can add Tags to your Templates through the list view.  These Tags are used by LAUNCH to choose which Templates are presented to a specific client.  The LAUNCH API call can request that only Templates tagged in a particular way are presented for installation.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 [Template Versioning](./integration-template-versioning)

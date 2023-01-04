@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## ProfitWell
 
 This document will explain what is needed to setup access to ProfitWell and install the connector.

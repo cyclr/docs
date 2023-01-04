@@ -10,7 +10,7 @@ menus:
         weight: 4
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 To store some data in a Cycle in the form of one or more JSON objects and access that data later in the same Cycle, you can use the **Cycle Object Storage** Connector.
@@ -23,7 +23,7 @@ If you only wish to store a single value, you could instead use the **[Cycle *Da
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Installation
 
 When installing this Connector, you're asked to provide a **Field List**.
@@ -36,7 +36,7 @@ If you wish to add additional Fields after you've installed the Connector, you c
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Usage
 
 **Add/Update Entry** Method: either creates a new entry or updates an existing one using a unique Key and any values you've provided for the other Fields.
@@ -51,7 +51,7 @@ This Connector builds upon the features of the **Cycle Data Storage** Connector 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 * [Cycle Data Storage](./cycle-data-storage)

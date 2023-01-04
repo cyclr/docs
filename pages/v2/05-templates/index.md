@@ -5,7 +5,6 @@ permalink: templates
 tags: [templates]
 layout: page
 toc: false
-singlecard: false
 menus:
   mainmenu:
     title: Create cycle templates
@@ -16,4 +15,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Create cycle templates" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categorydata = site.data.v2.categories.templates %}
 {% include v2/category/{{page.categorylayout}}.html identifier="templates" intro=hubintro title=hubtitle text=hubtext %}

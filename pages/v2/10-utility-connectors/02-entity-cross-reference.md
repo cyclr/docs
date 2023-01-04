@@ -10,12 +10,12 @@ menus:
         weight: 2
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Entity Cross Reference storage use case
 
 Entity Cross Ref Storage is a built-in Cyclr connector that manages references across two systems for you.
@@ -24,7 +24,7 @@ A common use case for it is to synchronise entities in e.g. a CRM system and an 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Create Entity Cross Reference
 
 To create an Entity Cross Reference, the minimum values you should set are the IDs of Entity 1 and Entity 2 plus the name of the source application.
@@ -37,7 +37,7 @@ If you have additional shared information for both entities, it can be added as 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Custom Category Object  
 
 Categories can be copied to help organise references. References will be only accessible within the copied category.
@@ -46,7 +46,7 @@ In the builder, go to connector settings. Expand the table category and, at the 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Get Entity Cross Reference(s)
 
 There are three methods for getting Entity Cross Reference(s):
@@ -57,7 +57,7 @@ There are three methods for getting Entity Cross Reference(s):
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Update Entity Cross Reference
 
 You can update any entity (Entity 1 and Entity 2) and their shared information by providing the ID for one of the entities.
@@ -68,7 +68,7 @@ For example, if you want to update the Entity 1 Record count, you only need to s
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Delete Entity Cross Reference
 
 You can delete any entity (Entity 1 and Entity 2) and their shared information by providing the ID of one of the entities.

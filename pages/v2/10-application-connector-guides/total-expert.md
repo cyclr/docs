@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Interaction with the Total Expert API is protected with OAuth 2.0. In order to use the API, a client ID/secret pair is required. 

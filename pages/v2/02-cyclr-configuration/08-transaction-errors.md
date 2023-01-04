@@ -10,7 +10,7 @@ menus:
         weight: 8
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 Cyclr can be configured to make an HTTP Request if an error occurs in a running Cycle as a way of alerting you or your support staff.
 
 This is performed as an HTTP POST Request to a URL you specify and contains JSON structured data in its Request Body..

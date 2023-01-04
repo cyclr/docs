@@ -5,7 +5,6 @@ permalink: plugins
 tags: [plugins]
 layout: page
 toc: false
-singlecard: false
 menus:
   mainmenu:
     title: Connector plugins
@@ -16,4 +15,5 @@ menus:
 {% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign hubtitle = "Connector plugins" %}
 {% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categorydata = site.data.v2.categories.plugins %}
 {% include v2/category/{{page.categorylayout}}.html identifier="plugins" intro=hubintro title=hubtitle text=hubtext %}

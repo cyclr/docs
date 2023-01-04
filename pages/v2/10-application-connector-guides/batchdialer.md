@@ -5,7 +5,7 @@ permalink: batchdialer-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Obtaining your API Key
 
 To authenticate the BatchDialer connector you will need an API Key. To retrieve this:

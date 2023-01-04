@@ -5,11 +5,11 @@ permalink: bookeo-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 <a name="bookeo-setup"></a>
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Bookeo setup
 
 You need the following to set up the Bookeo connector in Cyclr:
@@ -29,7 +29,7 @@ Once you have created an application, use the **Authorisation URL** to allow cli
 <a name="client-setup"></a>
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Client setup
 
 <a name="getting-an-api-key"></a>
@@ -40,7 +40,7 @@ Clients install your Bookeo application to their account using the authorization
 <a name="cyclr-setup"></a>
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 <a name="console-setup"></a>

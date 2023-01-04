@@ -5,7 +5,7 @@ permalink: zoom-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner Setup
 
 First, [login](https://zoom.us/signin) to your Zoom account.

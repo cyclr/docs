@@ -5,19 +5,19 @@ permalink: salesforce-pardot-oauth-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 The Salesforce Pardot (OAuth) connector uses OAuth 2.0 for remote API access. Cyclr requires a Salesforce connected app with specific OAuth scopes to gain access to the Salesforce Pardot API.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Salesforce setup
 
 You need to do the following to setup Salesforce:
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Create a connected app
 
 You can find the Salesforce documentation on creating a connected app [here](https://help.salesforce.com/s/articleView?id=sf.connected_app_create.htm&type=5). You need to set up the connected app as follows:
@@ -35,7 +35,7 @@ You need to make note of the app's **Consumer Key** and **Consumer Secret** as t
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Obtain your Pardot Business Unit ID
 
 You can find your **Pardot Business Unit ID** as follows:
@@ -47,19 +47,19 @@ You need to make note of the **Pardot Business Unit ID**, it begins with "0Uv" a
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Authenticate Salesforce Pardot with a user that has single sign-on enabled
 
 To authenticate your Salesforce Pardot account, you need to log in at [pi.pardot.com](https://pi.pardot.com/) using the **Log In with Salesforce** button. This must be done by a user that has single sign-on enabled for their account.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Cyclr setup
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Client installation
 
 When using a template containing the Salesforce Pardot (OAuth) connector, clients will be prompted for the following information from previous sections:
@@ -70,7 +70,7 @@ When using a template containing the Salesforce Pardot (OAuth) connector, client
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Partner templates
 
 To set up the Salesforce Pardot (OAuth) connector within a template:

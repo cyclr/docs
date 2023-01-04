@@ -5,7 +5,7 @@ permalink: facebook-offline-conversions-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 In your Facebook Account navigate to Business Settings > System Users:
 
 - Select relevant System User 

@@ -5,7 +5,7 @@ permalink: box-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ## Authentication
 
 Box uses OAuth 2.0 for authentication. The following are the steps needed to give this connector authorization to Box applications:

@@ -10,12 +10,12 @@ menus:
         weight: 3
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 > **_PLEASE NOTE:_** Using Utility Connectors counts toward your overall task usage.
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Purpose
 
 To hold data permanently in a Cyclr Account you can use the Global Data Storage Connector.  
@@ -26,14 +26,14 @@ This data can be accessed in subsequent runs of this Cycle, or indeed _any_ Cycl
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Usage
 
 [How To Use Global Data Storage](./data-storage-usage) 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Related Topics
 
 * [Cycle Data Storage](./cycle-data-storage)

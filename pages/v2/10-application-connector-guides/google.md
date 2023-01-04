@@ -6,7 +6,7 @@ tags: [connector]
 
 ---
 {::options parse_block_html="true" /}
-<section class="card py-5 my-5">
+<section class="card">
 ##  Google Partner Setup
 
 Google makes use of OAuth 2.0 for remote API access. You must register Cyclr with Google as your own Project to receive OAuth Client ID and Client Secret values to enable Cyclr to authenticate with Google.
@@ -15,7 +15,7 @@ For your reference, here is a link to [Google’s own documentation](https://dev
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Before Starting
 
 You will need to provide your Cyclr Partner 'Service Domain' as part of the process of setting up access so best to have that information to hand before starting. This is specific to your instance of Cyclr and it can be found from the Cyclr Partner Console under:
@@ -25,7 +25,7 @@ Your Cyclr Partner will have been setup with a default Service Domain, but this 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Registering Your Application
 
 ### Create a Project
@@ -85,7 +85,7 @@ Step 5	- Click the **Create** button, you'll then be presented with your Google 
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Enable Google APIs
 
 Google's services (Sheets, Gmail, Calendar, etc) are offered as separate APIs which you must individually enable within the Google API Console for your Project.
@@ -116,7 +116,7 @@ Below are Cyclr Connectors that require multiple Google APIs to be fully functio
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ## Additional Setup for Google AdWords
 
 The Google AdWords connector requires [additional setup](https://developers.google.com/adwords/api/docs/guides/signup) before you can access its API.
@@ -146,7 +146,7 @@ Step 4 - Make note of the **client customer ID** for the client account, this is
 
 
 </section>
-<section class="card py-5 my-5">
+<section class="card">
 ##  Possible Issues with Refresh Tokens
 
 There are a few situations that can cause the following error to occur when Cyclr attempts to refresh its Connector authentication details with Google:
