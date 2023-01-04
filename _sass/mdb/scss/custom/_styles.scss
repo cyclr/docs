@@ -75,6 +75,11 @@
     &:focus {
         box-shadow: none;
     }
+    &-primary {
+        &:hover {
+            color: $white;
+        }
+    }
 }
 
 
@@ -148,8 +153,10 @@ a {
 }
 
 @each $sz, $gap in $flexgaps {
-    .colgap-#{$sz} {
-        column-gap: $gap;
+    @include media-breakpoint-up($sz) {
+        .colgap-#{$sz} {
+            column-gap: $gap;
+        }
     }
 }
 
@@ -2151,7 +2158,7 @@ footer {
     font-size: 12px;
     font-weight: 500;
     color: $grey-60;
-
+    padding: 32px 0;
     h3 {
         font-size: 13px;
         font-weight: 600;
@@ -2180,20 +2187,12 @@ footer {
     }
 
     .link-social {
-        margin: 0 20px 0 0;
+        margin: 0 20px;
         color: $grey-70;
 
         &:hover {
             color: $lime;
         }
-    }
-
-    .col-default {
-        flex: 0 1 179px;
-    }
-
-    .col-wide {
-        flex: 0 0 283px;
     }
 
     .row {
@@ -2207,6 +2206,19 @@ footer {
     }
 }
 
+@include media-breakpoint-up(lg) {
+
+    footer {
+        .col-lg-default {
+            flex: 0 1 179px;
+        }
+
+        .col-lg-wide {
+            flex: 0 0 283px;
+        }
+    }
+}
+
 .border-bottom {
-    border-color: $divider-color!important;
+    border-color: $divider-color !important;
 }

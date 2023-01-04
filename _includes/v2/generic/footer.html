@@ -14,11 +14,11 @@
 {% assign footerclass=' sb'%}
 {% endif %}
 <hr />
-<footer class="text-center text-lg-start{{footerclass}}{{pageclass}}">
-    <div class="container text-center text-md-start mt-5">
-        <div class="row colgap-md{{rowclass}}">
+<footer class="text-center {{footerclass}}{{pageclass}}">
+    <div class="container text-center text-md-start">
+        <div class="row justify-content-md-between colgap-lg colgap-xl{{rowclass}}">
             {% for col in footer.columns %}
-            <div id="{{col.name}}" class="col-{{col.type}}">
+            <div id="{{col.name}}" class="col col-12 {{col.class}}">
                 {% if col.heading %}
                 <h3 class="">{{col.heading}}</h3>
                 {% endif %}
@@ -59,9 +59,9 @@
                         <i class="fa fa-copyright"></i>{{item.text}}
                     </p>
                     {% elsif item.type == "social" %}
-                    <div class="d-flex footer-social">
+                    <div class="d-flex footer-social justify-content-center justify-content-md-start">
                         {% for social in item.items %}
-                        <a class="link-social" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
+                        <a class="link-social mx-20 ms-md-0 me-md-10" href="{{social.external_url}}" target="_blank" title="{{social.text}}">
                             <i class="fa fa-{{ social.icon }} fa-2x"></i>
                         </a>
                         {% endfor %}

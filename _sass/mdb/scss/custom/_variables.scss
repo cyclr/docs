@@ -58,7 +58,15 @@ $backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "
 $flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30));
 
 /* gap map */
-$flexgaps: ("sm": 20px, "md": 48px);
+$flexgaps: ("sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
+
+/* spacer classes */
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * 0.25, 2: $spacer * 0.5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, );
+$spacerpx: 10px;
+@for $i from 1 through 10 {
+    $spacers: map-merge($spacers, ($i*10: ($i*$spacerpx) ));
+}
 
 /* ----------------------------------------  
     Cyclr Typography

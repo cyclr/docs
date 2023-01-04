@@ -3,8 +3,8 @@
 ## For external_url, the build applies a different link base url.
 columns:
   - name: col1
-    type: default
     heading: Company
+    class: col-md-4 col-lg-default mb-20 mb-lg-0
     items:
       - type: link
         text: Company
@@ -39,8 +39,8 @@ columns:
         external_url: https://cyclr.com/
         active: true
   - name: col2
-    type: default
     heading: Legal
+    class: col-md-4 col-lg-default mb-20 mb-lg-0
     items:
       - type: link
         text: Website Terms
@@ -75,7 +75,7 @@ columns:
         external_url: https://cyclr.com/
         active: true
   - name: col3
-    type: default
+    class: col-md-4 col-lg-default mb-20 mb-lg-0
     items:
       - type: heading
         text: UK Office
@@ -88,7 +88,7 @@ columns:
         text: +1 (646) 585-2525
         active: true
   - name: col4
-    type: wide
+    class: col-md-12 col-lg-wide mb-40 my-lg-0
     items:
       - type: logo
         text: cyclr.com
