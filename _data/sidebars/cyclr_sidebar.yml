@@ -852,10 +852,6 @@ entries:
             url: /google-classroom-workspace-connector
             output: web, pdf
 
-          - title: Google Data Studio
-            url: /google-data-studio-connector
-            output: web, pdf
-
           - title: Google Maps
             url: /google-maps-connector
             output: web, pdf
@@ -998,6 +994,10 @@ entries:
 
           - title: Lizzy
             url: /lizzy-connector
+            output: web, pdf
+
+          - title: Looker Studio
+            url: /looker-studio-connector
             output: web, pdf
 
           - title: M3ter
