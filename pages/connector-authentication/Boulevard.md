@@ -11,7 +11,6 @@ To connect with Cyclr, you need a Boulevard app that is installed by a business 
 
 *  Business ID
 *  API Secret
-*  API Version
 *  Base URL
 *  API Key
 
@@ -19,12 +18,6 @@ To obtain these values, go to the **Manage Apps** page in the Boulevard develope
 
 >  **Note**: To gain access to a business's data, an admin at the business needs to install your application. To allow them to do this, you need to provide them with your **Application ID**. You can see your application ID on the **Manage Apps** page in the Boulevard developer portal.
 
-
-1.  Provide your **Application ID** to the business admin. 
-* The **Application ID** can be found on the **Manage Apps** section of the **Dev Portal**. Your business admin can then follow the steps below to install the application.
-* At the bottom of the page, in the **Custom Apps** section click on the **Install** button. This will open the **App installation** dialog.
-* After entering the provided **Application ID** (that can be found on the **Manage Apps** page on the **dev-portal**) and clicking on **Install**, you will be presented with a confirmation dialog that will display additional information about the Application.
-* Click **Confirm** to install the application and it will be listed in your **Custom Apps** section of the page.
 
 ## Cyclr setup
 
@@ -40,13 +33,10 @@ To set up the Boulevard connector in Cyclr, go to your Cyclr console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | **Username**   | The Boulevard API Key                            |
-   | **Password**   | You can leave this blank, or enter a value if your HTTP client requires it.                              |
    | **Business ID** | The Boulevard business ID. |
    | **API Secret** | The Boulevard account API secret. |
-   | **API Version** | The Boulevard API Key. |
    | **Base URL** | Either the Boulevard production URL or the sandbox URL. |
-   | **API Key** | The Boulevard API Key. |
+   | **API Key** | The Boulevard APP API Key. |
    
 5. Select **Save Changes**.
 
