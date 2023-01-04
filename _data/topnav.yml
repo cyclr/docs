@@ -17,7 +17,7 @@ items:
           active: true
     - title: Sign In
       active: true
-      class: btn-primary
+      class: btn-secondary
       items:
         - title: US
           external_url: https://my.cyclr.com

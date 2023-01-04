@@ -3,7 +3,7 @@
     {% capture currentsort %}menus.{{include.menuname}}.weight{% endcapture %}
     {% if include.overviewitemtitle %}
     <li class="sidenav-item item-{{include.overviewmenuitem}}">
-        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ include.overviewitemurl }}" title="{{ item.title }} overview">
+        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ include.overviewitemurl }}" title="{{ item.title }} overview" data-mdb-ripple-color="red">
             <span class="sidenav-link-title">Overview</spanclass="sidenav-link-title">
         </a>
     </li>
@@ -24,7 +24,7 @@
     {% endif %}
 <li class="sidenav-item{{include.itemclass}} item-{{menuitem}}">
     {% if item.name == "index.md" %}
-    <a class="sidenav-link sidenav-link-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
+    <a class="sidenav-link sidenav-link-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}" data-mdb-ripple-color="red">
         {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span><span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
     </a>
     {% capture overviewitemtitle %}{{item.title}}{% endcapture %}
@@ -38,11 +38,11 @@
     {% include v2/generic/menu.html menuname=submenuname menuid=submenuid menuclass=submenuclass currentclass=currentclass overviewitemtitle=overviewitemtitle overviewitemurl=overviewitemurl overviewmenuitem=overviewmenuitem %}
     {% else %}
     {% if item.externalurl %}
-    <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}">
+    <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}" data-mdb-ripple-color="red">
         {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span>
     </a>
     {% else %}
-    <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}">
+    <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}" data-mdb-ripple-color="red">
         {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span>
     </a>
     {% endif %}
