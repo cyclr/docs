@@ -5,21 +5,24 @@ permalink: Itris-connector
 tags: [connector]
 ---
 
-# Itris Setup
+## Itris setup
 
-The following details are required from  Itris to setup the **Itris** connector in Cyclr:
+The authentication values you need to set up the Itris connector in Cyclr are available when you open your Itris account:
 
-- Itris Base URL (It will be provided by Itris when opening your account).
-- Itris Username (It will be provided by Itris when opening your account).
-- Itris Password (It will be provided by Itris when opening your account).
+*  Base URL
+*  Username
+*  Password
 
+If you need for information on how to obtain these authentication details, contact your Itris account manager.
 
-### Cyclr Setup
+## Cyclr setup
 
-When installing an **Itris** Connector within Cyclr, enter the following values:
+Cyclr asks you for the below values when you install the Itris connector into an account:
 
-**Base Url**: The Itris account URL.
+   | Value              | Description                                 |
+   | :----------------- | :------------------------------------------ |
+   | **Base URL**   | The URL of the Itris account.                          |
+   | **Username**   | The Itris account username.                          |
+   | **Password**   | The Itris account password.                           |
 
-**Username**: The Itris username.
-
-**Password**: The Itris password.
+> **Note**: You can use different details for different accounts.
