@@ -17,7 +17,7 @@ To connect with Cyclr, you need a Boulevard app that is installed by a business 
 
 To obtain these values, go to the **Manage Apps** page in the Boulevard developer portal. For more information, contact your Boulevard account manager.
 
->  **Note**: To gain access to a business's data, an admin at the business needs to install your application. To allow them to do this, you need to provide them with your **Application ID**. You can see your application ID on the **Manage Appls** page in the Boulevard developer portal.
+>  **Note**: To gain access to a business's data, an admin at the business needs to install your application. To allow them to do this, you need to provide them with your **Application ID**. You can see your application ID on the **Manage Apps** page in the Boulevard developer portal.
 
 
 1.  Provide your **Application ID** to the business admin. 
