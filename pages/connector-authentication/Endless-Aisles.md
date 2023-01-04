@@ -1,21 +1,23 @@
 ---
 title: Endless Aisles
 sidebar: cyclr_sidebar
-permalink: Endless-Aisles-connector
+permalink: endless-aisles-connector
 tags: [connector]
 ---
 
-# Endless Aisles Setup
+## Endless Aisles setup
 
-You need the following details to setup the **Endless Aisles** connector in Cyclr:
+To connect with Cyclr, you need an Endless Aisles account and API Key.
 
-- A Endless Aisles Account
-- A Endless Aisles API key.
+To find your API Key, in your Endless Aisles account, go to **Admin** > **API Keys**.
 
-### Cyclr Setup
+For more information, see the Endless Aisles [API documentation](http://docs.endlessaisles.io/).
 
-When installing a **Endless Aisles** Connector within Cyclr, enter the following values:
 
-**API Key**: Your Endless Aisles API key.
+## Cyclr setup
+
+Cyclr asks you for the **API Key** when you install the Endless Aisles connector into an account.
+
+> **Note**: You can use different details for different accounts.
 
 
