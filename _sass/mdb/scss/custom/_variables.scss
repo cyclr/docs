@@ -7,7 +7,7 @@ $grey-15: #EDEFF1;
 $grey-20: #DBDCE0;
 $grey-30: #C4C4C4;
 $grey-40: #A3A4A4;
-$grey-50: #9DA3A7;
+$grey-50: #333B46;
 $grey-60: #777777;
 $grey-70: #37474F;
 $grey-80: #333333;
@@ -146,8 +146,8 @@ $badge-padding-y: 0.5rem;
     Material Variable Overrides
 -------------------------------------------  */
 // Theme colors
-$primary: $red;
-$secondary: $lime;
+$primary: $lime;
+$secondary: $red;
 $success: $green;
 $danger: $red;
 $light: $grey-30;
@@ -353,8 +353,9 @@ $sidenav-collapse-sidenav-link-padding-left: 1rem;
 $sidenav-collapse-sidenav-link-height: 3rem;
 $zindex-sidenav-backdrop: 1029;
 $sidenav-rotate-icon-margin-right: 12px;
-
-
+$sidenav-link-color: $grey-50;
+$sidenav-link-color-hover: $grey-50;
+$sidenav-link-color-active: $grey-50;
 //Toasts
 $toast-background-color: $grey-70;
 

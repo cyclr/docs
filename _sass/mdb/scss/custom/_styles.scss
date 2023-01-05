@@ -27,13 +27,16 @@
         @extend .fw-#{$fontsize};
     }
 }
-    
+
+html {
+    overscroll-behavior: contain;
+}
+
 .btn {
-    box-shadow: none
-    ;
-    text-transform: none
-    ;
+    box-shadow: none;
+    text-transform: none;
     margin: $btn-margin;
+
     &[class*='btn-outline-'] {
         border: 1px solid $grey-20;
 
@@ -75,6 +78,13 @@
     &:focus {
         box-shadow: none;
     }
+
+    &-primary {
+        &:hover {
+            color: $white;
+        }
+    }
+
     &-secondary {
         &:hover {
             color: $white;
@@ -120,9 +130,8 @@ a {
         }
 
         .icon {
-            width: 40px;
             height: auto;
-            padding: 0 12px 0 0;
+            padding: 0;
         }
     }
 
@@ -226,14 +235,23 @@ a {
     padding-bottom: 8px;
     min-width: 200px;
 
-    .dropdown-item {
+    a.dropdown-item {
         padding: 12px 15px;
         font-weight: 500;
         font-size: 12px;
         line-height: 17px;
-
+        &:link,
+        &:visited {
+            color: $grey-50;
+        }
         &:hover {
             background-color: $grey-10;
+        }
+        img.icon {
+            height: auto;
+            width: 24px;
+            margin: 0 16px 0 0;
+            padding: 0;
         }
     }
 }
@@ -288,21 +306,45 @@ a {
 //Sidenav
 .sidenav {
     width: $sidenav-width !important; //override mdb inline width
+    overscroll-behavior-y: contain;
+    overflow-y: auto;
 }
 
 .sidenav-item {
-    margin-left: 9.6px;
-    margin-right: 9.6px;
-    margin-bottom: 4px;
+    margin: 0
 
-    a {
-        padding: 11px 12px 12px 13px;
-    }
 }
 
-.sidenav-link {
+a.sidenav-link {
+    padding: 12px;
+    color: $sidenav-link-color;
     margin-bottom: 4px;
-    &[data-mdb-toggle="collapse"] {
+
+    &:link,
+    &:visited {
+        color: $sidenav-link-color;
+    }
+
+    &:hover {
+        color: $sidenav-link-color-hover;
+    }
+
+    &.active {
+        color: $sidenav-link-color-active;
+    }
+
+    .sidenav-collapse & {
+        height: auto;
+    }
+
+    i {
+        color: $sidenav-link-color;
+    }
+
+    .icon {
+        font-size: 16px;
+        padding: 0;
+        margin: 0 16px 0 0;
     }
 }
 
@@ -312,24 +354,10 @@ a {
     }
 }
 
-.sidenav-link i {
-    color: $grey-70;
-}
-
-.sidenav-link .icon {
-    font-size: 16px;
-}
-
 .sidenav-collapse {
-    padding-left: 33.82px;
-
-    .sidenav-item {
-        margin-left: 19.2px;
-        margin-left: 0;
-        margin-right: 0;
-
-        a {
-        }
+    padding-left: 36px;
+    .sidenav-collapse & {
+        padding-left: 16px;
     }
 }
 
@@ -350,21 +378,22 @@ a {
     }
 }
 
-.sidenav-primary .sidenav-link.current-page:hover,
-.sidenav-primary .sidenav-link.current-page:focus,
-.sidenav-primary .sidenav-link.current-page:active,
-.sidenav-primary .sidenav-link.current-page {
-    color: $white;
-    background-color: $red;
+.sidenav-primary {
+    .sidenav-link {
+        &.current-page {
+            color: $sidenav-link-color-active;
+            background-color: $primary;
 
-    .sidenav-toggle {
-        color: $white;
-        background-color: $red;
-    }
+            &:hover,
+            &:active,
+            &:focus {
+                color: $sidenav-link-color-active;
+            }
 
-    i {
-        color: $white;
-        transition: $sidenav-link-transition;
+            i {
+                color: $sidenav-link-color-active;
+            }
+        }
     }
 }
 
@@ -383,8 +412,15 @@ a {
     }
 }
 
-#sidebarMenu .fixed-bottom .sidenav-menu {
-    padding-bottom: 24px !important;
+.sidenav-menu {
+    padding: 0;
+    margin: 0;
+
+    &#sidenavfooter {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 //Form
@@ -581,13 +617,13 @@ Other
     max-height: calc(100vh - 60px);
 
     > ul {
-        padding-top: 32px;
+        padding: 32px 12px 24px;
     }
 }
 
 #sidebarMenu {
     font-size: $h5-font-size;
-    color: $grey-70;
+    color: $grey-50;
 
     a {
         text-decoration: none;
@@ -912,9 +948,9 @@ Cards
     box-shadow: none;
 
     #col-toc & {
-        @extend .pt-4;
         @extend .px-40;
-        @extend .pb-4;
+        padding-top: 16px;
+        padding-bottom: 24px;
     }
 
     .pg-category & {
@@ -1953,6 +1989,7 @@ section {
         img.icon {
             width: 24px;
             height: auto;
+
         }
     }
 }
@@ -2042,12 +2079,6 @@ section {
     }
 }
 
-#sidenavfooter {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 #pollform {
     .btn {
         color: $red;
@@ -2071,21 +2102,26 @@ section {
 #col-toc {
     @include sticky(90px);
 
+    h4 {
+        @extend .h5;
+        margin: 0 0 16px;
+        padding: 0 0 16px;
+    }
     ul {
         @include list-unstyled();
-
+        margin-bottom: 0;
         li {
             a {
                 color: $red;
                 font-size: 13px;
                 font-weight: 600;
                 line-height: 16px;
-                margin: 8px 0;
+                margin:0 0 16px;
                 display: block;
             }
 
             ul {
-                @extend .ps-2;
+                margin-left: 16px;
             }
         }
     }

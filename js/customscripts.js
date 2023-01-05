@@ -22,5 +22,8 @@ const setMode = (e) => {
 
 setMode();
 
+//Stop "Scroll Chaining" when using the Side Nav
+sidenavInstance._perfectScrollbar.settings.wheelPropagation = false;
+
 // Event listeners
 window.addEventListener("resize", setMode);
