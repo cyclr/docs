@@ -38,7 +38,7 @@ To set up the Boulevard connector in Cyclr, go to your Cyclr console:
    | **Base URL** | A dropdown box to select either the Boulevard production URL or the sandbox URL. |
    | **API Key** | The Boulevard app's API Key. |
    
-5. Select **Save Changes**.
+5. Select **Next**.
 
 > **Note**: To use different settings for different accounts, leave the value blank. This means Cyclr asks for the value when you install the connector into an account.
 
