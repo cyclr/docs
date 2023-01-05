@@ -1,0 +1,33 @@
+---
+title: Passare Authentication
+sidebar: cyclr_sidebar
+permalink: passare-connector
+tags: [connector]
+
+---
+
+# Passare setup
+
+Before installing your Passare Connector you will need to **Generate an API Key**. You can do this by contacting your Passare Support Team - [support@passare.com](mailto:support@passare.com)
+
+<a name="console-setup"></a>
+
+## Console setup
+
+To set up your Passare connector within your Cyclr console:
+
+1. Go to your **Cyclr Console**.
+2. Select **Connectors** > **Application Connector Library** at the top of the page.
+3. Use the search box to find the Passare connector.
+4. Select the **Setup Required** icon.
+5. Select **Save Changes**.
+
+<a name="account-setup"></a>
+
+## Account setup
+
+You will be asked for the following values when installing the Passare connector within an account:
+
+- **API Key**: The API Key of your Passare account.
+
+Your Passare connector is now set up! You can test it by executing one of the methods to confirm it returns data.
