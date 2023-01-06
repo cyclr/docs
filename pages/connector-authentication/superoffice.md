@@ -29,8 +29,8 @@ To set up the SuperOffice connector in Cyclr, go to your Cyclr console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | **Domain**   | The external web address for your SuperOffice API instance.                               |
-   | **User Name**   | The SuperOffice account username.                               |
+   | **Domain**   | The external web address for your SuperOffice API instance.    |
+   | **Username**   | The SuperOffice account username.                           |
    | **Password**| The SuperOffice account password.          |
 
 5. Select **Save Changes**.
