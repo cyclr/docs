@@ -21,7 +21,6 @@ $amber: #E79950;
 $lime: #D4D800;
 $blue: #1EAEFF;
 $light: $grey-10;
-$dark: #333b46;
 
 $background-color: $grey-10;
 
@@ -151,7 +150,7 @@ $secondary: $red;
 $success: $green;
 $danger: $red;
 $light: $grey-30;
-$dark: $grey-70;
+$dark: $grey-50;
 $info: $blue-20;
 
 $bg-opacity: 0.1;
@@ -339,9 +338,7 @@ $datepicker-header-background-color: $red;
 $datepicker-cell-selected-background-color: $red;
 $datepicker-cell-focused-selected-background-color: $red;
 $datepicker-footer-btn-color: $red;
-
 $datepicker-toggle-right: 0px;
-
 
 //Sidenav
 $sidenav-width: 295px;
@@ -356,9 +353,9 @@ $sidenav-rotate-icon-margin-right: 12px;
 $sidenav-link-color: $grey-50;
 $sidenav-link-color-hover: $grey-50;
 $sidenav-link-color-active: $grey-50;
+
 //Toasts
 $toast-background-color: $grey-70;
-
 
 //Progress
 $progress-bar-bg: $pink !default;
