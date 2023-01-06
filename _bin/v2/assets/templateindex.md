@@ -16,8 +16,8 @@ menus:
     toggleonly: indexmenutoggleonly
     weight: indexmenuweight
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "indextitle" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
+{% assign categoryintro = "indexintrotext" %}
+{% assign categorytitle = "indexintrotitle" %}
+{% assign categorytext = "indexintrotext" %}
 {% assign categorydata = site.data.v2.categories.indexpermalink %}
-{% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=categoryintro title=categorytitle text=categorytext %}

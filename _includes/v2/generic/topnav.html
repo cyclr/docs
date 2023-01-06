@@ -1,69 +1,89 @@
 <!-- Navigation -->
-<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark{{ topnavborderclass }}">
+{% if page.layout == "homepage" %}
+{% assign navclass = " pg-home" %}
+{% else %}
+{% assign navclass = "" %}
+{% endif %}
+<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark{{ topnavborderclass }}{{navclass}}">
     <div class="container-fluid p-0 m-0">
         <div class="d-flex flex-grow-0" id="toggleContainer">
+            {% if page.layout != "homepage" %}
             <button class="btn-menu" data-mdb-toggle="sidenav" data-mdb-target="#sidebarMenu" type="button" aria-expanded="true">
                 <i class="btn-menu__bars" aria-hidden="true"></i>
                 <span class="visually-hidden">Menu</span>
             </button>
+            {% endif %}
             <a class="navbar-brand p-0 me-2" href="index">
                 <img alt="Cyclr Docs" src="images/logo-cyclr-docs.png" style="max-height:30px;">
             </a>
         </div>
         <div class="collapse navbar-collapse container-fluid" id="navbarTop">
-                <div class="col-lg-9">
-                    {% unless page.hide_search %}
-                    <div class="d-flex flex-md-grow-1">
-                        {% include /v2/generic/search.html %}
-                    </div>
-                    {% endunless %}
+            <div class="col-lg-9">
+                {% unless page.hide_search %}
+                <div class="d-flex flex-md-grow-1">
+                    {% include /v2/generic/search.html %}
                 </div>
-                <div class="col-lg-3 justify-content-end d-flex">
+                {% endunless %}
+            </div>
+            <div class="col-lg-3 justify-content-end d-flex">
 
-                        {% assign topnav = site.data.topnav %}
-                        <!-- dropdown menus -->
-                        {% for item in topnav.items %}
-                        {% unless item.active == false %}
-                        {% assign itemid = item.title | slugify | remove: "-" %}
-                        {% if item.class %}
-                        {% assign itemclass = item.class %}
+                {% assign topnav = site.data.topnav %}
+                <!-- dropdown menus -->
+                {% for item in topnav.items %}
+                {% unless item.active == false %}
+                {% assign itemid = item.title | slugify | remove: "-" %}
+                {% if item.class %}
+                {% assign itemclass = item.class %}
+                {% else %}
+                {% assign itemclass = '' %}
+                {% endif %}
+                <div class="dropdown">
+                    <button class="btn my-0 me-0 dropdown-toggle {{itemclass}}"
+                            type="button"
+                            id="dropdown{{itemid}}"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                        {{ item.title }}
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown{{ itemid }}">
+                        {% for dditem in item.items %}
+                        {% if dditem.icon %}
+                        {% capture itemicon %}<img class="icon" src="images/{{ dditem.icon }}" />{% endcapture %}
                         {% else %}
-                        {% assign itemclass = '' %}
+                        {% capture itemicon %}{% endcapture %}
                         {% endif %}
-                        <div class="dropdown">
-                            <button class="btn my-0 me-0 dropdown-toggle {{itemclass}}"
-                                    type="button"
-                                    id="dropdown{{itemid}}"
-                                    data-mdb-toggle="dropdown"
-                                    aria-expanded="false">
-                                {{ item.title }}
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdown{{ itemid }}">
-                                {% for dditem in item.items %}
-                                {% if dditem.icon %}
-                                {% capture itemicon %}<img class="icon" src="images/{{ dditem.icon }}" />{% endcapture %}
-                                {% else %}
-                                {% capture itemicon %}{% endcapture %}
-                                {% endif %}
-                                {% if dditem.external_url %}
-                                <a class="dropdown-item" href="{{dditem.external_url}}" target="_blank" title="{{dditem.title}}">
-                                    {{ itemicon }}
-                                    {{dditem.title}}
-                                </a>
-                                {% elsif page.url contains dditem.url %}
-                                <a class="dropdown-item active" href="{{site.baseurl}}{{dditem.url |  remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
-                                {% else %}
-                                <a class="dropdown-item" href="{{site.baseurl}}{{dditem.url | remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
-                                {% endif %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                        {% endunless %}
+                        {% if dditem.external_url %}
+                        <a class="dropdown-item" href="{{dditem.external_url}}" target="_blank" title="{{dditem.title}}">
+                            {{ itemicon }}
+                            {{dditem.title}}
+                        </a>
+                        {% elsif page.url contains dditem.url %}
+                        <a class="dropdown-item active" href="{{site.baseurl}}{{dditem.url |  remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
+                        {% else %}
+                        <a class="dropdown-item" href="{{site.baseurl}}{{dditem.url | remove: "/"}}">{{ itemicon }}{{dditem.title}}</a>
+                        {% endif %}
                         {% endfor %}
-                        {% if site.feedback_disable == null or site.feedback_disable == false %}
-                        {% include feedback.html %}
-                        {% endif %}
+                    </div>
                 </div>
-         </div>
+                {% endunless %}
+                {% endfor %}
+                {% if site.feedback_disable == null or site.feedback_disable == false %}
+                {% include feedback.html %}
+                {% endif %}
+            </div>
+        </div>
     </div>
 </nav>
+{% if page.layout == "homepage" %}
+<section class="hero pg-home bg-dark d-flex">
+    <div class="container text-center p-0 w-auto d-flex flex-column">
+        <h1 class="font-hero text-light m-0 flex-grow-0 flex-shrink-1">{{ site.data.homepage.title }}</h1>
+        <p class="font-hero-text text-light m-0 p-0 flex-grow-0 flex-shrink-1">{{ site.data.homepage.text }}</p>
+        {% if site.data.homepage.herosearch %}
+        <div class="flex-grow-1 hero-search">
+            {% include v2/generic/search.html %}
+        </div>
+    </div>
+    {% endif %}
+</section>
+ {% endif %}

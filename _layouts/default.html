@@ -33,11 +33,13 @@
     {% endif %}
     {% if page.layout == "homepage" %}
     {% assign containerclass=''%}
+    {% assign pageclass='pg-home'%}
     {% assign mainclass='container-fluid bg-dark pg-home m-0 px-0'%}
     {% assign topnavborderclass=' border-0'  %}
     {% else %}
     {% assign containerclass='container'%}
     {% assign topnavborderclass='' %}
+    {% assign pageclass=''%}
     {% if page.toc == true %}
     {% assign mainclass='pg-doc'%}
     {% else %}
@@ -46,7 +48,7 @@
     {% endif %}
 
 <body>
-    <header>
+    <header class="{{ pageclass }}">
         {% unless page.hide_sidebar == true %}
         {% include v2/generic/sidebar.html %}
         {% endunless %}

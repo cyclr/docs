@@ -3,18 +3,23 @@
 {% assign containerclass='container '%}
 {% assign rowclass=' mx-auto'%}
 {% assign pageclass=' pg-home' %}
+{% assign marginclass=' m-0'%}
 {% else %}
 {% assign containerclass='container '%}
 {% assign rowclass=''%}
 {% assign pageclass='' %}
+{% if page.poll == true %}
+{% assign marginclass=' m-0'%}
+{% else %}
+{% assign marginclass=' mt-40 mb-0'%}
+{% endif %}
 {% endif %}
 {% if page.hide_sidebar == true %}
-{% assign footerclass=' m-0'%}
+{% assign sbclass=''%}
 {% else %}
-{% assign footerclass=' sb'%}
+{% assign sbclass=' sb'%}
 {% endif %}
-<hr />
-<footer class="text-center {{footerclass}}{{pageclass}}">
+<footer class="text-center border-top {{sbclass}}{{marginclass}}{{pageclass}}">
     <div class="container text-center text-md-start">
         <div class="row justify-content-md-between colgap-lg colgap-xl{{rowclass}}">
             {% for col in footer.columns %}

@@ -19,7 +19,8 @@
     {% assign menuitems = site.pages | where_exp: 'page', currentfilter | sort: currentsort %}
     {% for item in menuitems %}
     {% if item.menus[include.menuname].icon %}
-    {% capture itemicon %}<i class="icon icon-{{item.menus[include.menuname].icon}} fa-fw"></i>{% endcapture %}
+    {% capture itemicon %}
+    <i class="icon icon-{{item.menus[include.menuname].icon}} fa-fw"></i>{% endcapture %}
     {% else %}
     {% capture itemicon %}{% endcapture %}
     {% endif %}
@@ -29,10 +30,21 @@
     {% else %}
     {% capture currentpageclass %}{% endcapture %}
     {% endif %}
+    {% assign titlewords = item.title | split: ' ' %}
+    {% capture titleconverted %}
+    {% for word in titlewords %}
+    {% capture worducase %} {{ word | upcase }} {% endcapture %}
+    {% if word != worducase %}
+    {{ word | capitalize }}
+    {% else %}
+    {{ word }}
+    {% endif %}
+    {% endfor %}
+    {% endcapture %}
     <li class="sidenav-item{{include.itemclass}} item-{{menuitem}}">
         {% if item.name == "index.md" %}
-        <a class="sidenav-link sidenav-link-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ item.title }}">
-            {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span><span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
+        <a class="sidenav-link sidenav-link-toggle" href="#{{ item.title | slugify | downcase }}" title="{{ titleconverted }}">
+            {{ itemicon }}<span class="sidenav-link-title">{{ titleconverted }}</span><span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ titleconverted }}</span>
         </a>
         {% capture overviewitemtitle %}{{item.title}}{% endcapture %}
         {% capture overviewitemurl %}{{item.permalink}}{% endcapture %}
@@ -45,12 +57,12 @@
         {% include v2/generic/menu.html menuname=submenuname menuid=submenuid menuclass=submenuclass currentclass=currentclass overviewitemtitle=overviewitemtitle overviewitemurl=overviewitemurl overviewmenuitem=overviewmenuitem %}
         {% else %}
         {% if item.externalurl %}
-        <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}" data-mdb-ripple-color="red">
-            {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span>
+        <a class="sidenav-link{{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ titleconverted }}" data-mdb-ripple-color="red">
+            {{ itemicon }}<span class="sidenav-link-title">{{ titleconverted }}</span>
         </a>
         {% else %}
-        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}" data-mdb-ripple-color="red">
-            {{ itemicon }}<span class="sidenav-link-title">{{ item.title }}</span>
+        <a class="sidenav-link{{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ titleconverted }}" data-mdb-ripple-color="red">
+            {{ itemicon }}<span class="sidenav-link-title">{{ titleconverted }}</span>
         </a>
         {% endif %}
         {% endif %}
