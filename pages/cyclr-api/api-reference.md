@@ -1,7 +1,7 @@
 ---
-title: API endpoints
+title: API reference
 sidebar: cyclr_sidebar
-permalink: cyclr-api-endpoints
+permalink: cyclr-api-reference
 tags: [embedding]
 ---
 
