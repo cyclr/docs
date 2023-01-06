@@ -1,5 +1,5 @@
 ---
-title: Authenticate OAuth connectors (API)
+title: OAuth authentication link
 sidebar: cyclr_sidebar
 permalink: authenticate-link-api
 tags: [accounts]
@@ -48,7 +48,7 @@ To view your Partner Service Domain, go to the console **Settings** > **General 
 | **Parameter** | **Type** | **Description** |
 |:---|:---|:---|
 | `id` | integer | Enter the [`Id`](install-connector-api#example-response) of the installed connector you want the user to authenticate.  |
-| `toke`n | string | Enter the account sign in [`Token`](#response). |
+| `token` | string | Enter the account sign in [`Token`](#response). |
 | `targetOrigin` | string | Specify what the origin of the other window must be to dispatch the javascript callback. If the callback message is null we will redirect to the targetOrigin |
 | `callbackMessage` | string, optional | Write a callback message to send to the parent window. |
 

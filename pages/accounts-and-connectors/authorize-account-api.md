@@ -1,11 +1,11 @@
 ---
-title: Install account connectors (API)
+title: Authorize account API calls
 sidebar: cyclr_sidebar
-permalink: install-a-connector
+permalink: authorize-account-api
 tags: [accounts]
 ---
 
-You can install a connector into an account through the Cyclr API.
+You can use the Cyclr API to make calls within specific user accounts.
 
 For each call, replace `{YourCyclrDomain}` with your Cyclr api domain. You also need to include the following values in the header parameters:
 
