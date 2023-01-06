@@ -28,7 +28,7 @@ To set up the Kareo connector in Cyclr, go to your Cyclr console:
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
    | **Customer Key**   | The Kareo customer key.                            |
-   | **User Name**   | The Kareo account username.                               |
+   | **Username**   | The Kareo account username.                               |
    | **Password**| The Kareo account password.    |
 
 5. Select **Save Changes**.
