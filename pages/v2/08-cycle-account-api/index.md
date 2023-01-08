@@ -5,15 +5,15 @@ permalink: cycle-account-api
 tags: [cycle-account-api]
 layout: page
 toc: false
+intro: 
+introtitle: 
+introtext: 
 menus:
   mainmenu:
     title: Add cycles to accounts (API)
     identifier: cycle-account-api
-    icon: navsettings
+    icon: navaccount
     weight: 7
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Add cycles to accounts (API)" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.cycle-account-api %}
-{% include v2/category/{{page.categorylayout}}.html identifier="cycle-account-api" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="cycle-account-api" intro=page.intro title=page.introtitle text=page.introtext %}

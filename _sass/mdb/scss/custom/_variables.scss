@@ -59,6 +59,9 @@ $flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30
 /* gap map */
 $flexgaps: ("sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
 
+/* column gap map */
+$flexgaps-sz: ("10": 10px, "20": 20px, "30": 30px, "40": 40px);
+
 /* spacer classes */
 $spacer: 1rem;
 $spacers: ( 0: 0, 1: $spacer * 0.25, 2: $spacer * 0.5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, );

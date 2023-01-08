@@ -5,15 +5,16 @@ permalink: templates
 tags: [templates]
 layout: page
 toc: false
+intro: 
+introtitle: Create cycle templates
+introtext: >-
+    Create and configure reusable integrations as cycle templates which you build once and can deploy multiple times in order to scale your integrations.
 menus:
   mainmenu:
     title: Create cycle templates
     identifier: templates
-    icon: navsettings
+    icon: template
     weight: 5
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Create cycle templates" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.templates %}
-{% include v2/category/{{page.categorylayout}}.html identifier="templates" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="templates" intro=page.intro title=page.introtitle text=page.introtext %}

@@ -4,13 +4,12 @@
 {% capture listitemclass %}my-3 p-3 border rounded-5 bg-grey-20{% endcapture %}
 <section class="intro">
 	<div class="intro-text">
-		<p></p>
 	</div>
 </section>
-<section>
-	<div class="card py-4">
-		<h3 class="section-title border-bottom pb-3 mb-3">{{include.title}}</h3>
-		<div class="text">
+<section class="category-default">
+	<div class="card">
+		<h3 class="section-title border-bottom pb-20 mb-20">{{include.title}}</h3>
+		<div class="text mb-20">
 			{{include.text}}
 		</div>
 		{% include v2/category/category_default_list.html identifier=categoryidentifier title=categorytitle text=categorytext listitemclass=listitemclass %}

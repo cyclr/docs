@@ -5,14 +5,15 @@ permalink: launch
 tags: [launch]
 layout: page
 toc: false
+intro: 
+introtitle: LAUNCH
+introtext: >-
+    Embed LAUNCH into your application to deliver integrations to your users.
 menus:
   embedding:
     title: LAUNCH
     identifier: launch
     weight: 4
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "LAUNCH" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.launch %}
-{% include v2/category/{{page.categorylayout}}.html identifier="launch" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="launch" intro=page.intro title=page.introtitle text=page.introtext %}

@@ -5,14 +5,15 @@ permalink: template-builder
 tags: [template-builder]
 layout: page
 toc: false
+intro: 
+introtitle: Template Builder
+introtext: >-
+    Build integration templates in our low code, drag-and-drop integration builder.
 menus:
   templates:
     title: Template builder
     identifier: template-builder
     weight: 3
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Template builder" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.template-builder %}
-{% include v2/category/{{page.categorylayout}}.html identifier="template-builder" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="template-builder" intro=page.intro title=page.introtitle text=page.introtext %}

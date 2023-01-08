@@ -6,8 +6,10 @@ tags: [indextags]
 layout: page
 toc: false
 categorylayout: indexcategorylayout
+intro: indexintro
 introtitle: indexintrotitle
-introtext: indexintrotext
+introtext: >-
+    indexintrotext
 menus:
   indexmenuname:
     title: indexmenutitle
@@ -16,8 +18,5 @@ menus:
     toggleonly: indexmenutoggleonly
     weight: indexmenuweight
 ---
-{% assign categoryintro = "indexintrotext" %}
-{% assign categorytitle = "indexintrotitle" %}
-{% assign categorytext = "indexintrotext" %}
 {% assign categorydata = site.data.v2.categories.indexpermalink %}
-{% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=categoryintro title=categorytitle text=categorytext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=page.intro title=page.introtitle text=page.introtext %}

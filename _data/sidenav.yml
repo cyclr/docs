@@ -8,5 +8,5 @@ items:
       active: true
     - title: Help
       externalurl: https://cyclr.com/
-      icon: help
+      icon: helpoutline
       active: true

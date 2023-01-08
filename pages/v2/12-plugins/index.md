@@ -5,15 +5,15 @@ permalink: plugins
 tags: [plugins]
 layout: page
 toc: false
+intro: 
+introtitle: Connector Plugins
+introtext: Install and set up plugins for your application connectors.
 menus:
   mainmenu:
     title: Connector plugins
     identifier: plugins
-    icon: navsettings
+    icon: navconnectors
     weight: 11
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Connector plugins" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.plugins %}
-{% include v2/category/{{page.categorylayout}}.html identifier="plugins" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="plugins" intro=page.intro title=page.introtitle text=page.introtext %}

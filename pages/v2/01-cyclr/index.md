@@ -5,15 +5,16 @@ permalink: cyclr
 tags: [cyclr]
 layout: page
 toc: false
+intro: 
+introtitle: About Cyclr
+introtext: >-
+    Find all the information and resources that you need in order to use Cyclr.
 menus:
   mainmenu:
     title: Cyclr
     identifier: managing-cyclr
-    icon: navsettings
+    icon: navdocs
     weight: 1
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Cyclr" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.cyclr %}
-{% include v2/category/{{page.categorylayout}}.html identifier="managing-cyclr" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="managing-cyclr" intro=page.intro title=page.introtitle text=page.introtext %}

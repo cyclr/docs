@@ -5,6 +5,10 @@ permalink: cyclr-configuration
 tags: [cyclr-configuration]
 layout: page
 toc: false
+intro: 
+introtitle: Console configuration
+introtext: >-
+    Configure the look and feel of your Cyclr console, as well as important security, data and performance settings.
 menus:
   mainmenu:
     title: Cyclr console configuration
@@ -12,8 +16,5 @@ menus:
     icon: navsettings
     weight: 2
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Cyclr console configuration" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.cyclr-configuration %}
-{% include v2/category/{{page.categorylayout}}.html identifier="cyclr-configuration" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="cyclr-configuration" intro=page.intro title=page.introtitle text=page.introtext %}

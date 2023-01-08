@@ -5,15 +5,16 @@ permalink: custom-connectors
 tags: [custom-connectors]
 layout: page
 toc: false
+intro: 
+introtitle: Custom connectors
+introtext: >-
+    Learn about custom connectors and how to create one.
 menus:
   mainmenu:
     title: Create a custom connector
     identifier: custom-connectors
-    icon: navsettings
+    icon: navconnectors
     weight: 8
 ---
-{% assign hubintro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
-{% assign hubtitle = "Create a custom connector" %}
-{% assign hubtext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo." %}
 {% assign categorydata = site.data.v2.categories.custom-connectors %}
-{% include v2/category/{{page.categorylayout}}.html identifier="custom-connectors" intro=hubintro title=hubtitle text=hubtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="custom-connectors" intro=page.intro title=page.introtitle text=page.introtext %}

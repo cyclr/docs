@@ -168,6 +168,24 @@ a {
         }
     }
 }
+@each $sz, $gap in $flexgaps-sz {
+    @include media-breakpoint-up(sm) {
+        .colgap-sm-#{$sz} {
+            column-gap: $gap;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .colgap-md-#{$sz} {
+            column-gap: $gap;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        .colgap-lg--#{$sz} {
+            column-gap: $gap;
+        }
+    }
+}
 
 //Dropdown
 .dropdown-toggle {
@@ -957,7 +975,7 @@ Cards
         padding-bottom: 24px;
     }
 
-    .pg-category & {
+    .pg-category .category-default & {
         @extend .pt-4;
         @extend .px-40;
         @extend .pb-50;
@@ -1966,7 +1984,7 @@ section {
 
     &.hero {
         &.pg-home  {
-            padding-top: 60px;
+            margin-top: 60px;
             background-image: url('../images/banner-cyclr.png');
             background-position: top center;
             background-size: cover;
