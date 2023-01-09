@@ -5,86 +5,166 @@ permalink: fmx-connector
 tags: [connector]
 ---
 
-<a name="fmx-set-up"></a>
+## FMX setup
 
-# FMX set up
+To setup the FMX connector in Cyclr, you need:
 
-You need the following information to set up the FMX connector:
+*  Your [**FMX Subdomain**](#get-fmx-subdomain).
+*  Your FMX account **Username** and **Password**.
 
-1. The **FMX Subdomain** of the account. For example, an account under https://cyclrtesting.gofmx.com/ has an FMX subdomain of `cyclrtesting`.
-2. The **Username** and **Password** of the account.
+> **Note**: Contact your FMX account manager if you need more information on how to obtain the authentication values.
 
-These are given/set on FMX account creation. Clients should ask their FMX account manager if they require help obtaining these.
+<a name="get-fmx-subdomain"></a>
 
-# Cyclr set up
+### Get FMX subdomain
 
-To set up the FMX connector within Cyclr:
+Your FMX accounts exist under your FMX subdomain. Your FMX subdomain is part of the URL you use to access FMX. For example, if your FMX URL is `https://cyclrtesting.gofmx.com`, then your FMX subdomain is `cyclrtesting`.
 
-1. Go to your **Cyclr Console**.
-2. Select the **Connectors** dropdown menu at the top of the page.
-3. Select **Application Connector Library**.
-4. Use the search bar to find the FMX connector.
-5. Select the **Setup Required** button.
-6. Enter the following values from the previous section:
-    - **FMX Subdomain**: The FMX subdomain.
-    - **Username**: The FMX username.
-    - **Password**: The FMX password.
-7. Select **Next**.
+## Cyclr account setup
 
-The FMX connector is now set up! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+Cyclr asks you for the below values when you install the FMX connector into an account:
 
-# FMX custom objects
+| Value             | Description                                    |
+| :---------------- | :--------------------------------------------- |
+| **FMX Subdomain** | The subdomain you use to access your FMX account. |
+| **Username**      | The username of your FMX account.              |
+| **Password**      | The password of your FMX account.              |
 
-The FMX connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
 
--   [The module name](#find-the-module-name) that work requests are taken from.
--   [The request type ID](#find-the-request-type-id) of the request type that custom fields are taken from.
-    Note: Module names and request type IDs can be different for each client account.
+## Schedule Requests (Module) custom objects
 
-<a name="find-the-module-name"></a>
+Cyclr uses custom objects to dynamically create **Schedule Requests** method categories based on an FMX module. To create a `Schedule Requests (Module)` custom object:
 
-## Find the module name
+1. [Get the **Schedule Request** module](#get-schedule-request-module).
+2. [Create the Schedule Requests (Module) custom object](#create-schedule-requests-module-custom-object).
+3. If necessary, [rename the Schedule Requests (Module) custom object](#rename-custom-object).
 
-You need a module name to set up a custom object. To find a specific module name:
+<a name="get-schedule-request-module"></a>
 
-1. Log into your FMX account.
-2. In the left-hand navigation menu, locate the requests module that you want to use as a custom object.
-3. The URL to the page of this module contains the module name required to set up a custom object in the form `/<module name>-requests`. For example, the URL of **Maintenance Requests** is `https://cyclrtesting.gofmx.com/maintenance-requests` and the module name is `maintenance`.
+### Get Schedule Request module
 
-<a name="find-the-request-type-id"></a>
+To find the **Schedule Request** module name, from your FMX dashboard:
 
-## Find the request type ID
+1. In the left side menu, find the **Schedule Request** module you want to use as a custom object.
+2. Get the URL for the **Schedule Request** module. The URL format is `https://{FmxSubdomain}.gofmx.com/{ModuleName}/requests`.
+3. Get the **Schedule Request** `{ModuleName}` from the URL. For example, if the URL is `https://cyclrtesting.gofmx.com/scheduling/requests`, then module name is `scheduling`.
 
-You need a request type ID to set up a custom object. Before you can find the request type ID:
+<a name="create-schedule-requests-module-custom-object"></a>
 
--   [Install and authenticate the FMX connector](#fmx-set-up).
--   [Find the module name](#find-the-module-name).
+### Create the Schedule Requests (Module) custom object
 
-To find a specific request type ID:
+To create a **Schedule Request (Module)** custom object, from the FMX connector **Settings** page in Cyclr:
 
-1. Go to the FMX connector **Settings** page:
-    - For template connectors: **Cyclr Console** > **Templates** > **Template Connectors** > **FMX** > **Edit Connector**.
-    - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **FMX** > **Settings**.
-2. Run the **List Request Types** method under **Methods and Fields** > **Utilities** to return a list of request types and request type IDs. For example, the `Appliance` request type has a request type ID of `363065`.
+1. Under the **Methods & Fields** heading, select **Schedule Requests (Module)**.
+2. Select the pink **Copy this Category to create a Custom Object Category** icon.
+3. In the **Specify object name** field, enter the **Schedule Request** module name.
+4. Select **Copy**.
 
-## Set up a custom object
+## Work Requests (Custom Object) custom objects
 
-When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
+Cyclr uses custom objects to dynamically create **Work Request** method categories based on an FMX module and a **Work Request** type ID. To create a `Work Request (Custom Object)` custom object:
 
-1. Go to the FMX connector **Settings** page:
-    - For template connectors: **Cyclr Console** > **Templates** > **Template Connectors** > **FMX** > **Edit Connector**.
-    - For connectors within a cycle: **Cycle Builder** > **Application Connectors** > **FMX** > **Settings**.
-2. Under the **Methods and Fields** heading, expand the **Work Requests (Custom Object)** category.
-3. Select the red **Copy this Category to create a Custom Object Category** icon.
-4. Enter the module name, followed by a dot, and then the request type ID into **Specify object name**. For example, for the `maintenance` module and request type ID `363065`, enter `maintenance.363065`.
-5. Select **Copy**.
+1. [Get the **Work Request** module name](#get-work-request-module-custom-object).
+2. [Get the **Work Request type ID**](#get-work-request-type-id-custom-object).
+3. [Create the **Work Requests (Custom Object)** custom object](#create-work-requests-custom-object-custom-object).
+4. If necessary, [rename the Work Requests (Custom Object) custom object](#rename-custom-object).
 
-### Change a custom object display name
+<a name="get-work-request-module-custom-object"></a>
 
-To change the display name of a custom object method category:
+### Get the Work Request module
 
-1. Expand the method category by selecting the method category name.
-2. Select the **Edit this Custom Object Category** icon.
-3. Move the **Object Name** field to the **Object Value** field.
-4. Change the **Object Name** field as required. This does not require a specific format.
+To find the **Work Request** module name, from your FMX dashboard:
+
+1. In the left side menu, find the **Work Request** module you want to use as a custom object.
+2. Get the URL for the **Work Request** module. Th URL format is: `https://{FmxSubdomain}.gofmx.com/{ModuleName}-requests`.
+3. Get the **Work Request** {ModuleName} from the URL. For example, the **Maintenance Requests** module URL is `https://cyclrtesting.gofmx.com/maintenance-requests`, so the module name is `maintenance`.
+
+<a name="get-work-request-type-id-custom-object"></a>
+
+### Get the Work Request Type ID
+
+To find the **Work Request Type ID**, from the FMX connector **Settings** page in Cyclr:
+
+1. Under the **Methods & Fields** heading, select **Utilities**.
+2. Select **List Work Request Type IDs**.
+3. Select **Run**.
+4. Enter the work request module name.
+5. Get the **Work Request Type ID** from the return value of the **Request Type ID** field.
+
+<a name="create-work-requests-custom-object-custom-object"></a>
+
+### Create the Work Requests (Custom Object) custom object
+
+To create the `Work Requests (Custom Object)` custom object, from the FMX connector settings page in Cyclr:
+
+1. Under the **Methods & Fields** heading, select **Work Requests (Custom Object)**.
+2. Select the pink **Copy this Category to create a Custom Object Category** icon.
+3. In the **Specify object name** field, enter `{ModuleName}.{WorkRequestTypeId}`. For example, for the `maintenance` module with **Work Request Type ID** `363065`, enter `maintenance.363065`.
+4. Select **Copy**.
+
+## Work Requests (Module) custom object
+
+Cyclr uses custom objects to dynamically create **Work Request** method categories based on an FMX Module. To create a `Work Requests (Module)` custom object you need a Work Request Module.
+
+1. [Get a Work Request Module](#get-work-request-module-module).
+2. [Create a Work Requests (Module) custom object](#create-work-requests-module-custom-object).
+3. If necessary, [rename](#rename-custom-object) the **Work Requests (Module)** custom object.
+
+<a name="get-work-request-module-module"></a>
+
+### Get Work Request module
+
+To find a **Work Request** module, from your FMX dashboard:
+
+1. In the left side menu, find the **Work Request** module you want to use as a custom object.
+2. Get the URL for the **Work Request** module. Th URL format is: `https://{FmxSubdomain}.gofmx.com/{ModuleName}-requests`.
+3. Get the **Work Request** {ModuleName} from the URL. For example, the **Maintenance Requests** module URL is `https://cyclrtesting.gofmx.com/maintenance-requests`, so the module name is `maintenance`.
+
+<a name="create-work-requests-module-custom-object"></a>
+
+### Create the Work Requests (Module) custom object
+
+To create the `Work Request (Module)` custom object, from the FMX connector settings page in Cyclr:
+
+1. Under the **Methods & Fields** heading, select **Work Requests (Module)**.
+2. Select the pink **Copy this Category to create a Custom Object Category** icon.
+3. In the **Specify object name** field, enter the **Work Request** module name.
+4. Select **Copy**.
+
+<a name="rename-custom-object"></a>
+
+## Rename custom objects
+
+To rename a custom object, from the FMX connector **Settings** page in Cyclr:
+
+1. Under the **Methods & Fields** heading, select the custom object method category to rename.
+2. Select the pink **Edit this Custom Object Category** icon.
+3. Enter the value in the **Object Name** field into the **Object Value** field.
+4. Update the **Object Name** field.
 5. Select **Save**.
+
+## Manually map custom fields
+
+These method categories require you to manually map custom fields to use them:
+
+*  Schedule Requests
+*  Schedule Requests (Module)
+*  Work Requests
+*  Work Requests (Module)
+
+### Map the custom fields
+
+You can map request custom fields for create or update methods, or response custom fields for get or list methods.
+
+To map the fields, go to the FMX connector **Settings** page in Cyclr:
+
+1. Under the **Methods & Fields** heading, select the method category and then the method you want to map a request field for.
+2. Under the **Request Fields** or **Response fields** heading, select the pink **+** icon.
+3. Enter the fields below:
+   | **Field**              | **Description**                                                  |
+   | :----------------- | :----------------------------------------------------------- |
+   | **Field Location** | The field location of the custom field. If the field is a single value, use the format `customField.value.{CustomFieldId}`. If the field can contain multiple values, use the format `customField.values.[{customFieldId}]`. |
+   | **Display Name**   | **Optional**: the Cyclr UI display name of the custom field.     |
+   | **Description**    | **Optional**: the Cyclr UI description of the custom field.     |
+   | **Data Type**      | The data type of the custom field. Make sure this value matches the data type of the custom field within FMX. |
+4. Select **Create**. 
