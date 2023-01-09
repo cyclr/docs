@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Performance tips
         identifier: performance-tips
+        toggleonly: menutoggleonly
         weight: 6
 ---
 {::options parse_block_html="true" /}

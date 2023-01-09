@@ -10,10 +10,10 @@ sections:
     tiles: 
       - title: About Cyclr
         img: managing-cyclr.png
-        url: cyclr
+        url: about-cyclr
       - title: Community Site 
         img: community-site.png
-        externalurl: https://community.cyclr.com/
+        url: community-site
       - title: Configure  Cyclr 
         img: using-cyclr.png
         url: cyclr-configuration
@@ -21,11 +21,11 @@ sections:
     text: >-
         Cyclr is built to deliver integrations directly from within your application, so we have several ways you can surface and customize Cyclr and provide a consistent experience to your users.
     cta-text: Embedding Overview
-    cta-url: embed-integrations
+    cta-url: embed-cycles
     tiles: 
       - title: Custom UI
         img: custom-ui.png
-        url: cycle-account-api
+        url: embed-custom-ui
       - title: Marketplace 
         img: embedded-marketplace.png
         url: marketplace
@@ -51,10 +51,10 @@ sections:
     tiles: 
       - title: Cyclr API
         img: api-reference.png
-        url: /testing-cyclr-api
+        url: cyclr-api
       - title: API Examples 
         img: api-examples.png
-        url: cycle-account-api
+        url: api-examples
       - title: Data on Demand 
         img: data-on-demand.png
         url: data-on-demand 

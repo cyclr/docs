@@ -4,10 +4,11 @@ sidebar: cyclr_sidebar
 permalink: release-notes
 tags: [managing-cyclr]
 menus:
-    managing-cyclr:
+    about-cyclr:
         title: Release notes
         identifier: release-notes
-        weight: 7
+        toggleonly: menutoggleonly
+        weight: 8
 ---
 {::options parse_block_html="true" /}
 <section class="card">

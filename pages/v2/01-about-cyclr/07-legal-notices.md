@@ -5,10 +5,11 @@ permalink: legal-notices
 tags: [managing-cyclr]
 
 menus:
-    managing-cyclr:
+    about-cyclr:
         title: Legal notices
         identifier: legal-notices
-        weight: 6
+        toggleonly: menutoggleonly
+        weight: 7
 ---
 {::options parse_block_html="true" /}
 <section class="card">

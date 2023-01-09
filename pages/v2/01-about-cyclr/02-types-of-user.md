@@ -5,10 +5,11 @@ permalink: types-of-cyclr-user
 tags: [managing-cyclr]
 keywords: [users, console, admin, administrator, partner, account]
 menus:
-    managing-cyclr:
+    about-cyclr:
         title: Types of Cyclr user
         identifier: types-of-cyclr-user
-        weight: 8
+        toggleonly: menutoggleonly
+        weight: 2
 ---
 {::options parse_block_html="true" /}
 <section class="card">

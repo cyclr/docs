@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Handle transaction errors
         identifier: transaction-error-webhook
+        toggleonly: menutoggleonly
         weight: 8
 ---
 {::options parse_block_html="true" /}

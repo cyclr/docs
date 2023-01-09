@@ -1,17 +1,16 @@
 ---
-title: Cyclr console configuration
+title: Console configuration
 sidebar: cyclr_sidebar
 permalink: cyclr-configuration
 tags: [cyclr-configuration]
 layout: page
 toc: false
-intro: 
 introtitle: Console configuration
 introtext: >-
     Configure the look and feel of your Cyclr console, as well as important security, data and performance settings.
 menus:
   mainmenu:
-    title: Cyclr console configuration
+    title: Console configuration
     identifier: cyclr-configuration
     icon: navsettings
     weight: 2

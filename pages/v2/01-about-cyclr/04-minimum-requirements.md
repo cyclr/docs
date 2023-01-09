@@ -5,10 +5,11 @@ permalink: minimum-requirements
 tags: [managing-cyclr]
 
 menus:
-    managing-cyclr:
+    about-cyclr:
         title: Minimum requirements
         identifier: minimum-requirements
-        weight: 1
+        toggleonly: menutoggleonly
+        weight: 4
 ---
 {::options parse_block_html="true" /}
 <section class="card">

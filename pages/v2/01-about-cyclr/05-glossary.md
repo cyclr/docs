@@ -5,10 +5,11 @@ permalink: cyclr-glossary
 tags: [managing-cyclr]
 
 menus:
-    managing-cyclr:
+    about-cyclr:
         title: Glossary
         identifier: cyclr-glossary
-        weight: 2
+        toggleonly: menutoggleonly
+        weight: 5
 ---
 {::options parse_block_html="true" /}
 <section class="card">

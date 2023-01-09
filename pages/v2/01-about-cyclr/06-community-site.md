@@ -4,10 +4,11 @@ sidebar: cyclr_sidebar
 permalink: community-site
 tags: [community, managing-cyclr]
 menus:
-    managing-cyclr:
-        title: Community site
+    about-cyclr:
+        title: Resources
         identifier: community-site
-        weight: 3
+        toggleonly: menutoggleonly
+        weight: 6
 ---
 {::options parse_block_html="true" /}
 <section class="card">

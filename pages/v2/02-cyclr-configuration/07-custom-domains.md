@@ -7,6 +7,7 @@ menus:
     cyclr-configuration:
         title: Custom service domains
         identifier: custom-domains
+        toggleonly: menutoggleonly
         weight: 7
 ---
 {::options parse_block_html="true" /}

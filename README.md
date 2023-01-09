@@ -106,7 +106,6 @@ When the page md is defined to provide a submenu toggle
 | [parentmenuid] | child of the menus front matter item - this defines the immediate parent of this page |
 | title | The menu item text  |
 | identifier | this menu id - to be used as the [parentmenuid] in any child pages |
-| toggleonly | must be used to render a link with no href |
 | weight | can be used to control menu item order |
 
 
@@ -236,59 +235,6 @@ The ``md_dict`` is defined at the top of **portconnectormdtov2.py**.
 | Voucherify | voucherify |
 | Voyado | voyado |
 | xero_oauth20 | xero-oauth20 |
-
-#### V1 content causing build errors
-
-Various v1 md files ported for inclusion in the v2 connector pages resulted in Liquid error:
-
-``Liquid Exception: invalid byte sequence in UTF-8``
-
-- connector-asana
-- connector-bronto
-- connector-chargebee
-- connector-deltek-workbook
-- connector-drip
-- connector-facebook-marketing-api
-- connector-facebook-messenger
-- connector-fullcontact
-- connector-marketo
-- connector-optimizely
-- connector-pingone
-- connector-pipedrive
-- connector-sage-50
-- connector-salesforce
-- connector-sugarcrm
-- connector-woocommerce
-- connector-wordpress
-
-##### Manual amends to md files
-
-Manual amends to the ported md have resolved the liquid encoding errors for the connectors listed in the previous section.
-
-These included the issues described in the table :
-
-| v1 content | manual amend |
-| --- | --- | 
-| ul  |replaced asterisk with hyphen |
-| link | added full markdown for title and url |
-| single quotes | replaced with double quotes |
-| double quotes | replaced with markdown for bold text |
-| hyphen | replaced with colon or other |
-| headings using asterisks for bold text | changed to markdown \# characters |
-| md characters in content | add backslash to escape the relevant characters |
-
-**NB** Manually amended md files are backed up in ``_includes\v2\connector\v1content\bak``. 
-The md porting utility ``_bin\v2\portconnecormdtov2.py`` overwrites existing files in the target folder, so if there is a requirement to port the original content, make sure any manually amended  md files are backed up to provide the correct md.
-
-
-#### Connectors with no v1 content
-
-Content to be maintained manually, using the **\_data/connectors/contentdemo.json** as a template: the Documentation array includes HTML tags on the content.
-
-**TO DO**:
-- Add separate v2 content documentation folder for the manually maintained JSON 
-- Add corresponding code to parse and render the JSON, with relevant HTML tags and attributes 
-- Determine if preferable to use an HTML template and include HTML in the md where file exists
 
 #### Redundant v1 content
 Once new and consitent content is available and has been reviewed and signed off, remove the v1 content from **\_includes/v2/connector/v1content/**. As **portconnectormdtov2.py** provides the option to recover the v1 content at any time, it's not an issue if the content has been deleted but must be reinstated.  

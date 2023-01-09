@@ -108,11 +108,6 @@ with open(jsonfilename_full, 'r') as jsonfile:
                                     addline = False
                                 else:
                                     newline = re.sub("indexmenuicon", item['menuicon'], indexline)
-                            elif "indexmenutoggleonly" in indexline:
-                                if item['menutoggleonly'] is None:
-                                    addline = False
-                                else:
-                                    newline = re.sub("indexmenutoggleonly", item['menutoggleonly'], indexline)
                             elif "indexmenuweight" in indexline:
                                 if item['menuweight'] is None:
                                     addline = False
@@ -123,8 +118,8 @@ with open(jsonfilename_full, 'r') as jsonfile:
                             if addline == True:
                                 toindexfile.write(newline)
                         toindexfile.close()
-         elif item['v2folder'] is None:
-            continue
+            elif item['v2folder'] is None:
+                continue
         else:
             pagewithsections = True
             sourcemdfolder = item['v1folder']
@@ -196,11 +191,6 @@ with open(jsonfilename_full, 'r') as jsonfile:
                                             addline = False
                                         else:
                                             newline = re.sub("menuicon", item['menuicon'], menuline)
-                                    elif "menutoggleonly" in menuline:
-                                        if item['menutoggleonly'] is None:
-                                            addline = False
-                                        else:
-                                            newline = re.sub("menutoggleonly", item['menutoggleonly'], menuline)
                                     elif "menuweight" in menuline:
                                         if item['menuweight'] is None:
                                             addline = False

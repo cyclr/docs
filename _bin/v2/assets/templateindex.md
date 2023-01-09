@@ -6,7 +6,6 @@ tags: [indextags]
 layout: page
 toc: false
 categorylayout: indexcategorylayout
-intro: indexintro
 introtitle: indexintrotitle
 introtext: >-
     indexintrotext
@@ -15,7 +14,6 @@ menus:
     title: indexmenutitle
     identifier: indexmenuidentifier
     icon: indexmenuicon
-    toggleonly: indexmenutoggleonly
     weight: indexmenuweight
 ---
 {% assign categorydata = site.data.v2.categories.indexpermalink %}
