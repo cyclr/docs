@@ -50,6 +50,20 @@ Now you can retrieve your **Client ID** and **Client Secret** values by going to
 
 ![Slack - App Credentials](./images/slack-app-credentials.png)
 
+**Distribution (Optional)**:
+If you would like workspaces other than your own to use the app, slack now requires that public distribution be activated. The good news is that you've already completed most of the steps to accomplish this.
+
+Navigate to your **Basic Information** page, click the dropdown for **Manage Distribution** and click **Distribute App**. 
+
+![Slack - Manage Distribution](./images/slack-manage-distribution.png)
+
+From here, you can see that you already have features enabled and a redirect URL set up. 
+
+Follow the steps in **Remove Hard Coded Information** and ensure that **Use HTTPS For Your Features** is ticked.
+
+![Slack - Remove Hardcoding](./images/slack-remove-hardcoding.png)
+
+Click **Activate Public Distribution** and the app will be available to others, outside of your workspace.
 
 Finally, in your **Cyclr Console** go to the **Connectors** menu, then **Connector Library** and set those values from the padlock button next to Slack.
 
