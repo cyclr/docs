@@ -2,6 +2,7 @@
 $baseurl: "{{ site.baseurl }}";
 // Cyclr Colours
 $white: #FFFFFF;
+$white-rgb: 255,255,255;
 $grey-10: #F7F7F7;
 $grey-15: #EDEFF1;
 $grey-20: #DBDCE0;
@@ -23,7 +24,69 @@ $blue: #1EAEFF;
 $light: $grey-10;
 
 $background-color: $grey-10;
+$bg-input: #474f59;
 
+// bg light doc grey 10 #f7f7f7
+// text headings doc grey 50 #333b46
+// bg dark doc grey 50 __#333B46;
+// text white #fff
+
+/* ----------------------------------------  
+    Material Variable Overrides
+-------------------------------------------  */
+// Theme colors
+$primary: $lime;
+$secondary: $red;
+$success: $green;
+$danger: $red;
+$light: $white;
+$dark: $grey-50;
+$info: $blue-20;
+
+$bg-opacity: 0.1;
+
+/* ----------------------------------------  
+    Bootstrap Variable Overrides
+-------------------------------------------  */
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $background-color;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: 12px;
+$font-size-base: 1rem; // Normal browser default is typically `16px`
+$font-weight-normal: 500 !default;
+$body-font-size: 1.1666666667rem;
+$body-line-height: 1.5;
+$body-font-weight: 500;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 1.8333333333rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.3333333334rem;
+$h5-font-size: 1.1666666667rem;
+$h6-font-size: 1rem;
+// scss-docs-start font-sizes
+$font-sizes: ( 1: $h1-font-size, 2: $h2-font-size, 3: $h3-font-size, 4: $h4-font-size, 5: $h5-font-size, 6: $h6-font-size );
+
+
+// custom font size map
+$custom-font-sizes: ( "xl": 55px, "xxl": 80px, "hero": 44px, "hero-text": 16px, "label": 13px, "label-small": 10px, "note": 10px, "note-small": 9px, "section": 36px, "section-text": 14px, "tooltip": 12px);
+$custom-font-weights: ( "xl": 400, "xxl": 300, "hero": 600, "hero-text": 500, "label": 600, "label-small": 700, "note": 500, "note-small": 500, "section": 600, "section-text": 500, "tooltip": 600);
+
+$display-font-weight: 400 !default;
+
+
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark: $dark;
+$color-contrast-light: $white;
 :root {
     --c-white: $white;
     --c-grey-10: $grey-10;
@@ -42,10 +105,15 @@ $background-color: $grey-10;
     --c-amber: $amber;
     --c-background-colour: $background-color;
     --mdb-dark: $dark;
+    --mdb-light: $white;
+    --mdb-body-font-size: $body-font-size;
+    --mdb-body-font-weight: $body-font-weight;
+    --mdb-body-line-height: $body-line-height;
 }
 
 /* links map */
 $links: ( "link": $grey-60, "visited": $grey-60, "hover": $grey-60, "active": $grey-60);
+$mainlinks: ( "link": $red, "visited": $red, "hover": $red, "active": $red);
 
 /* colors map */
 $colors: ( "grey-50": $grey-50, "grey-60": $grey-60, "grey-70": $grey-70);
@@ -64,7 +132,7 @@ $flexgaps-sz: ("10": 10px, "20": 20px, "30": 30px, "40": 40px);
 
 /* spacer classes */
 $spacer: 1rem;
-$spacers: ( 0: 0, 1: $spacer * 0.25, 2: $spacer * 0.5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, );
+$spacers: ( 0: 0, 1: $spacer * 0.25, 2: $spacer * 0.5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 16: 16px );
 $spacerpx: 10px;
 @for $i from 1 through 10 {
     $spacers: map-merge($spacers, ($i*10: ($i*$spacerpx) ));
@@ -73,9 +141,23 @@ $spacerpx: 10px;
 /* ----------------------------------------  
     Cyclr Typography
 -------------------------------------------  */
+$heading-color: $grey-50;
+$h1-font-weight: 600;
+$h2-font-weight: 500;
+$h3-font-weight: 600;
+$h4-font-weight: 600;
+$h5-font-weight: 600;
+$h6-font-weight: 500;
 
-$h2-font-weight: 600;
-$h3-font-weight: 400;
+$h1-line-height: 1.2;
+$h2-line-height: 1.227272727;
+$h3-line-height: 1.222222222;
+$h4-line-height: 1.1875;
+$h5-line-height: 1.214285714;
+$h6-line-height: 1;
+
+$font-weights: ( 1: $h1-font-weight, 2: $h2-font-weight, 3: $h3-font-weight, 4: $h4-font-weight, 5: $h5-font-weight, 6: $h6-font-weight );
+$line-heights: ( 1: $h1-line-height, 2: $h2-line-height, 3: $h3-line-height, 4: $h4-line-height, 5: $h5-line-height, 6: $h6-line-height );
 
 $label-font-size: 1.0833333333333333rem;
 $label-font-weight: 600;
@@ -91,38 +173,6 @@ $label-small-font-weight: 700;
 
 $note-small-font-size: 0.75rem;
 $note-small-font-weight: 500;
-
-/* ----------------------------------------  
-    Bootstrap Variable Overrides
--------------------------------------------  */
-
-// Body
-//
-// Settings for the `<body>` element.
-$body-bg: $background-color !default;
-
-// Typography
-//
-// Font, line-height, and color for body text, headings, and more.
-
-// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
-// $font-size-base affects the font size of the body text
-$font-size-root: 12px;
-$font-size-base: 1rem; // Normal browser default is typically `16px`
-
-$font-weight-normal: 500 !default;
-
-$h1-font-size: $font-size-base * 3;
-$h2-font-size: $font-size-base * 2.5;
-$h3-font-size: $font-size-base * 2;
-$h4-font-size: $font-size-base * 1.6666666666666667;
-$h5-font-size: $font-size-base * 1.1666666666666667;
-
-// custom font size map
-$custom-font-sizes: ( "xl": 55px, "xxl": 80px, "hero": 44px, "hero-text": 16px, "label": 13px, "label-small": 10px, "note": 10px, "note-small": 9px, "section": 36px, "section-text": 14px, "tooltip": 12px);
-$custom-font-weights: ( "xl": 400, "xxl": 300, "hero": 600, "hero-text": 500, "label": 600, "label-small": 700, "note": 500, "note-small": 500, "section": 600, "section-text": 500, "tooltip": 600);
-
-$display-font-weight: 400 !default;
 
 //Navbar
 $navbar-light-color: $grey-70;
@@ -144,36 +194,20 @@ $nav-tabs-link-active-bg: transparent;
 $badge-padding-y: 0.5rem;
 
 
-/* ----------------------------------------  
-    Material Variable Overrides
--------------------------------------------  */
-// Theme colors
-$primary: $lime;
-$secondary: $red;
-$success: $green;
-$danger: $red;
-$light: $grey-30;
-$dark: $grey-50;
-$info: $blue-20;
 
-$bg-opacity: 0.1;
-
-// Customize the light and dark text colors for use in our color contrast function.
-$color-contrast-dark: $dark;
-$color-contrast-light: $white;
 
 
 // Body
 //
 // Settings for the `<body>` element.
-$body-color: $grey-70 !default;
+$body-color: $grey-60;
 
 
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-$font-family-inter: 'Inter', sans-serif !default;
-$font-family-base: $font-family-inter !default;
+$font-family-inter: 'Inter', sans-serif;
+$font-family-base: $font-family-inter;
 $code-font-size: 1rem;
 
 // Buttons
@@ -370,3 +404,4 @@ $container-width-max: 1240px;
 $container-width-max-homepage: 1240px;
 $footer-width-max: 973px;
 $footer-width-max-homepage: 973px;
+$page-spacer-bottom: 100px;

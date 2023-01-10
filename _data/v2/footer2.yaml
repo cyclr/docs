@@ -92,14 +92,14 @@ columns:
     items:
       - type: logo
         text: cyclr.com
-        img:  cyclr-logo-white.png
+        img:  cyclr-logo.svg
         show_icon: true
         external_url: https://cyclr.com
         active: true
       - type: text
         text: White labelled API integration framework for creating & managing in-app SaaS integrations.
       - type: copyright
-        text: 2022 Cyclr. All rights reserved.
+        text: 2023 Cyclr. All rights reserved.
       - type: social
         items:
           - icon: facebook

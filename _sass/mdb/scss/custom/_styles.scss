@@ -9,6 +9,19 @@
     }
 }
 
+@each $heading, $value in $font-weights {
+    h#{$heading}, .h#{$heading} {
+        font-weight: $value;
+        color: $heading-color;
+    }
+}
+
+@each $heading, $value in $line-heights {
+    h#{$heading}, .h#{$heading} {
+        line-height: $value;
+    }
+}
+
 @each $fontsize, $value in $custom-font-weights {
     .fw-#{$fontsize} {
         font-weight: $value;
@@ -30,6 +43,12 @@
 
 html {
     overscroll-behavior: contain;
+}
+
+body {
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
 }
 
 .btn {
@@ -137,6 +156,21 @@ a {
 
     &:hover {
         text-decoration: underline;
+    }
+
+    &:not(.btn) {
+        main & {
+            &:link,
+            &:visited,
+            &:hover,
+            &:active {
+                color: $red;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
@@ -613,13 +647,70 @@ a.sidenav-link {
     }
 }
 
+footer {
+    font-size: 12px;
+    font-weight: 500;
+    color: $grey-60;
+    padding: 32px 0;
+    margin-top: $page-spacer-bottom;
+
+    h3 {
+        font-size: 13px;
+        font-weight: 600;
+        color: $grey-70;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin-bottom: 0;
+
+        &.footer-text {
+            margin: 0 0 12px
+        }
+
+        &.footer-tel {
+            margin: 0 0 24px
+        }
+    }
+
+    .footer-link {
+        line-height: 27px;
+    }
+
+    .footer-social {
+        margin-top: 20px;
+    }
+
+    .link-social {
+        margin: 0 20px;
+        color: $grey-70;
+
+        &:hover {
+            color: $lime;
+        }
+    }
+
+    .row {
+        max-width: $footer-width-max;
+    }
+
+    &.pg-home {
+        margin-top: 0;
+
+        .row {
+            max-width: $footer-width-max-homepage;
+        }
+    }
+}
+
 /* ----------------------------------------  
 Other
 -------------------------------------------  */
 @media (min-width: 1400px) {
     main,
     header,
-    #main-navbar {
+    #main-navbar, 
+    footer {
         padding-left: 240px;
     }
     header.pg-home {
@@ -651,17 +742,6 @@ Other
     a {
         text-decoration: none;
     }
-    /*    .list-group-item {
-    border: 0;
-    border-radius: 4px;
-}
-
-.fa.pull-right,
-.fa.fa-pull-right,
-[class*=" fa-"].pull-right,
-[class*=" fa-"].fa-pull-right {
-    line-height: inherit;
-}*/
 }
 
 .accordion {
@@ -749,6 +829,17 @@ Base
     #main.builder {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    footer {
+        padding-right: 72px;
+        padding-left: 72px;
+
+        &.sb {
+            margin: $page-spacer-bottom 0 0 $sidenav-width;
+        }
+    }
+    .sidenav {
+        width: $sidenav-width !important; //override mdb inline width
     }
 }
 
@@ -971,12 +1062,12 @@ Cards
 
     #col-toc & {
         @extend .px-40;
-        padding-top: 16px;
+        @extend .pt-16;
         padding-bottom: 24px;
     }
 
     .pg-category .category-default & {
-        @extend .pt-4;
+        @extend .pt-16;
         @extend .px-40;
         @extend .pb-50;
         @extend .mt-20;
@@ -1223,17 +1314,18 @@ Tables
 -------------------------------------------------------------------------------- */
 
 .table {
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
 
     th {
-        font-size: $label-font-size;
-        font-weight: $label-font-weight;
+        font-size: $body-font-size;
+        font-weight: $body-font-weight;
         color: $grey-70;
     }
 
     td {
         color: $grey-70;
-        font-size: $font-size-base;
-        font-weight: 500;
+        font-weight: $body-font-weight;
     }
 
     .help-block {
@@ -1973,8 +2065,6 @@ html {
 section {
     .container {
         .pg-home & {
-            max-width: $container-width-max-homepage;
-
             .card {
                 width: 400px;
                 height: 375px;
@@ -1998,20 +2088,6 @@ section {
     }
 
     #navbarTop {
-    }
-}
-
-@media (min-width: 1366px) {
-    footer {
-        padding: 0 72px;
-
-        &.sb {
-            margin: 0 0 0 $sidenav-width;
-        }
-    }
-
-    .sidenav {
-        width: $sidenav-width !important; //override mdb inline width
     }
 }
 
@@ -2159,9 +2235,9 @@ section {
     }
 
     .doc-search-input {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: $bg-input;
         color: inherit;
-        border-color: rgba(255, 255, 255, 0.1);
+        border-color: $bg-input;
         padding-left: 2.5rem;
         color: $white;
     }
@@ -2188,7 +2264,6 @@ section {
 
         .doc-search-input {
             max-height: 50px;
-            font-size: 12px;
             line-height: 17px;
             padding: 16px 16px 17px 44px;
 
@@ -2214,6 +2289,9 @@ section {
     }
 }
 
+.post-header {
+}
+
 .post-content {
     img {
         max-width: 100%;
@@ -2221,13 +2299,8 @@ section {
     }
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-}
-
 #col-toc {
-    @include sticky(90px);
+    @include sticky(90);
 
     h4 {
         @extend .h5;
@@ -2294,20 +2367,11 @@ section {
 
     &.card {
 
-        h2 {
-            @extend .mt-2;
-            @extend .mb-3;
-        }
-
-        h3, h4, h5 {
-            @extend .mt-2;
-            @extend .mb-3;
-        }
-
         table {
             @extend .table;
-            @extend .mt-2;
-            @extend .mb-4;
+            @extend .mt-10;
+            @extend .mb-20;
+            table-layout: fixed;
         }
 
         .highlight {
@@ -2315,80 +2379,44 @@ section {
                 display: block;
                 max-height: 20em;
                 overflow-y: auto;
-                @extend .mt-2;
-                @extend .mb-4;
+                @extend .mt-10;
+                @extend .mb-20;
             }
         }
 
         .pg-doc & {
-            @extend .pt-4;
+            @extend .pt-16;
             @extend .px-40;
             @extend .pb-50;
             @extend .mt-20;
+
+            h2 {
+                border-bottom: 1px solid $grey-20;
+                margin: 0 0 16px;
+                padding: 0 0 16px;
+            }
         }
     }
 }
 
+.category-item {
+    h4 {
+        &.page-title {
+            font-weight: 500;
+        }
+    }
+}
 @include media-breakpoint-up(lg) {
     #col-toc {
-        margin-top: 63px;
-    }
-}
-
-
-footer {
-    font-size: 12px;
-    font-weight: 500;
-    color: $grey-60;
-    padding: 32px 0;
-    h3 {
-        font-size: 13px;
-        font-weight: 600;
-        color: $grey-70;
-        margin-bottom: 8px;
-    }
-
-    p {
-        margin-bottom: 0;
-
-        &.footer-text {
-            margin: 0 0 12px
-        }
-
-        &.footer-tel {
-            margin: 0 0 24px
-        }
-    }
-
-    .footer-link {
-        line-height: 27px;
-    }
-
-    .footer-social {
-        margin-top: 20px;
-    }
-
-    .link-social {
-        margin: 0 20px;
-        color: $grey-70;
-
-        &:hover {
-            color: $lime;
-        }
-    }
-
-    .row {
-        max-width: $footer-width-max;
-    }
-
-    &.pg-home {
-        .row {
-            max-width: $footer-width-max-homepage;
-        }
+        margin-top: 56px;
     }
 }
 
 @include media-breakpoint-up(lg) {
+
+    .pg-home section .container {
+        max-width: $container-width-max-homepage;
+    }
 
     footer {
         .col-lg-default {

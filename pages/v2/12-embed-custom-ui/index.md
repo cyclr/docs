@@ -7,7 +7,7 @@ layout: page
 toc: false
 introtitle: Embed with custom UI
 introtext: >-
-    Use the API to install and set up cycles, so you can fully customize the way you deploy your integrations for your users.integrations directly to your usersâ€™ accounts.
+    Use the API to install and set up cycles, so you can fully customize the way you deploy your integrations directly to your users' accounts.
 menus:
   mainmenu:
     title: Embed with custom UI

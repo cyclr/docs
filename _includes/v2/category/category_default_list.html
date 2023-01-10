@@ -1,15 +1,15 @@
-<ul class="list-unstyled {{include.listclass}}" id="list-{{include.identifier}}">
+<ul class="list-unstyled category-list {{include.listclass}}" id="list-{{include.identifier}}">
     {% capture currentfilter %}page.menus.{{include.identifier}}{% endcapture %}
     {% capture currentsort %}menus.{{include.identifier}}.weight{% endcapture %}
     {% assign items = site.pages | where_exp: 'page', currentfilter | sort: currentsort %}
     {% for item in items %}
     {% capture menuitem %}{{item.menus[include.identifier].identifier}}{% endcapture %}
-    <li class="d-flex flex-wrap {{include.listitemclass}} position-relative">
-        <h4 class="h6 flex-sm-25 lh-base m-0"><strong>{{ item.title }}</strong></h4>
-        <p class="flex-grow-1 pe-5">{{ item.text }}</p>
+    <li class="category-item d-flex flex-wrap {{include.listitemclass}} position-relative">
+        <h4 class="page-title flex-grow-1 flex-sm-25 lh-base m-0"><strong>{{ item.title }}</strong></h4>
+        <p class="flex-shrink-1 pe-5">{{ item.text }}</p>
         <div class="ps-5">
             {% if item.name == "index.md" %}
-            <a class="stretched-link"
+            <a class="stretched-link text-dark"
                data-mdb-toggle="collapse"
                href="#collapse-{{ menuitem }}"
                role="button"
@@ -18,7 +18,7 @@
                 <i class="icon icon-nextchevron fa-2x"></i>
             </a>
             {% else %}
-            <a class="stretched-link"
+            <a class="stretched-link text-dark"
                href="{{ menuitem }}">
                 <i class="icon icon-nextchevron fa-2x"></i>
             </a>
@@ -33,7 +33,7 @@
         {% capture categorytitle %}{{item.title}}{% endcapture %}
         {% capture categorytext %}{{item.text}}{% endcapture %}
         {% capture categorylistclass %}flex-xs-100{% endcapture %}
-        {% capture categorylistitemclass %}my-3 ps-3 pe-0 py-0{% endcapture %}
+        {% capture categorylistitemclass %}my-0 ps-20 pe-0 py-16 {% endcapture %}
         <div class="collapse flex-xs-100" id="collapse-{{ menuitem }}">
             {% include v2/category/category_default_list.html identifier=menuitem title=categorytitle text=categorytext listclass=categorylistclass listitemclass=categorylistitemclass %}
         </div>
