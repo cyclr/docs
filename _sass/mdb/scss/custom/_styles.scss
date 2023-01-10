@@ -2300,7 +2300,7 @@ section {
 }
 
 #col-toc {
-    @include sticky(90);
+    @include sticky(90px);
 
     h4 {
         @extend .h5;
