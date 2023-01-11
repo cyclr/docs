@@ -51,6 +51,83 @@ body {
     line-height: $body-line-height;
 }
 
+// Links
+a {
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &.inline-link {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &[role=button], &.btn, &.dropdown-item {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        .icon {
+            height: auto;
+            padding: 0;
+        }
+    }
+}
+
+@each $state, $color in $links {
+    a:#{$state}:not(.btn) {
+        color: $color;
+    }
+}
+
+@each $bg, $color in $backgrounds {
+    .bg-#{$bg} {
+        background-color: $color;
+    }
+}
+
+@each $breakpoint, $width in $flexwidths {
+
+    @include media-breakpoint-up($breakpoint) {
+        .flex-#{$breakpoint}-#{$width} {
+            flex: 0 0 percentage($width / 100);
+        }
+    }
+}
+
+@each $sz, $gap in $flexgaps {
+    @include media-breakpoint-up($sz) {
+        .colgap-#{$sz} {
+            column-gap: $gap;
+        }
+    }
+}
+@each $sz, $gap in $flexgaps-sz {
+    @include media-breakpoint-up(sm) {
+        .colgap-sm-#{$sz} {
+            column-gap: $gap;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .colgap-md-#{$sz} {
+            column-gap: $gap;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        .colgap-lg--#{$sz} {
+            column-gap: $gap;
+        }
+    }
+}
+
 .btn {
     box-shadow: none;
     text-transform: none;
@@ -111,7 +188,6 @@ body {
     }
 }
 
-
 //
 // (Button) Floating option
 //
@@ -126,84 +202,6 @@ body {
 
 .input-group > .btn[class*='btn-outline-'] {
     padding-top: $btn-outline-padding-top;
-}
-
-
-// Links
-a {
-    text-decoration: underline;
-
-    &:hover {
-        text-decoration: none;
-    }
-
-    &.inline-link {
-        text-decoration: underline;
-
-        &:hover {
-            text-decoration: none;
-        }
-    }
-
-    &[role=button], &.btn, &.dropdown-item {
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: none;
-        }
-
-        .icon {
-            height: auto;
-            padding: 0;
-        }
-    }
-}
-
-@each $state, $color in $links {
-    a:#{$state} {
-        color: $color;
-    }
-}
-
-@each $bg, $color in $backgrounds {
-    .bg-#{$bg} {
-        background-color: $color;
-    }
-}
-
-@each $breakpoint, $width in $flexwidths {
-
-    @include media-breakpoint-up($breakpoint) {
-        .flex-#{$breakpoint}-#{$width} {
-            flex: 0 0 percentage($width / 100);
-        }
-    }
-}
-
-@each $sz, $gap in $flexgaps {
-    @include media-breakpoint-up($sz) {
-        .colgap-#{$sz} {
-            column-gap: $gap;
-        }
-    }
-}
-@each $sz, $gap in $flexgaps-sz {
-    @include media-breakpoint-up(sm) {
-        .colgap-sm-#{$sz} {
-            column-gap: $gap;
-        }
-    }
-
-    @include media-breakpoint-up(md) {
-        .colgap-md-#{$sz} {
-            column-gap: $gap;
-        }
-    }
-    @include media-breakpoint-up(lg) {
-        .colgap-lg--#{$sz} {
-            column-gap: $gap;
-        }
-    }
 }
 
 //Dropdown
@@ -241,27 +239,7 @@ a {
         }
     }
 }
-/* 
-.navbar-dark {
-    .nav-link {
-        &.dropdown-toggle {
-            &:hover,
-            &.show {
-                background-color: rgba($grey-10, 0.1);
-                color: $white;
-            }
-        }
 
-        .notification-bell {
-            color: $grey-50;
-
-            &:hover {
-                color: $grey-50;
-            }
-        }
-    }
-}
-*/
 .navbar-nav .dropdown-menu,
 .dropdown-menu {
     background: $white;
@@ -292,7 +270,6 @@ a {
         }
     }
 }
-
 
 //Navbar
 .navbar {
@@ -333,12 +310,6 @@ a {
             border-bottom: 1px solid $grey-20;
         }
     }
-}
-
-
-//Date Time Picker
-.buttons-container {
-    background-color: $red;
 }
 
 //Sidenav
@@ -662,6 +633,11 @@ footer {
         line-height: 27px;
         color: $grey-60;
         text-decoration: none;
+        &:link,
+        &:visited,
+        &:active {
+            color: $grey-60;
+        }
 
         &:hover {
             text-decoration: underline;
@@ -754,17 +730,6 @@ Other
     word-break: break-all;
 }
 
-.search-control {
-    font-size: 12px;
-    line-height: 1.4166666666666667rem !important;
-    color: $grey-70;
-    padding: .709rem 1.3333333333rem;
-
-    &:active,
-    &:focus {
-        border-color: $blue-10;
-    }
-}
 
 .hidden {
     display: none;
@@ -1173,117 +1138,6 @@ Cards
             height: 100%;
         }
     }
-}
-/* -------------------------------------------------------------------------------- 
-Buttons
--------------------------------------------------------------------------------- */
-
-.c-btn {
-    border-radius: 4px;
-    font-size: $h5-font-size;
-    padding: 5px 10px;
-    min-height: 36px;
-    font-weight: 500;
-
-    .fa {
-        margin-right: 5px;
-    }
-}
-
-.c-btn-primary {
-    background: $red;
-    border: none;
-    color: $white;
-
-    &:not([disabled]):hover {
-        opacity: 0.9;
-    }
-
-    &:disabled {
-        background: $grey-30;
-        color: $grey-50;
-    }
-}
-
-.c-btn-secondary, .c-btn-icon {
-    background: $white;
-    border: 1px solid $grey-20;
-    color: $red;
-
-    &:not([disabled]):hover {
-        border: 1px solid $red;
-    }
-
-    &:disabled {
-        background: $white;
-        color: $grey-50;
-    }
-}
-
-.c-btn-icon {
-    padding: 0px;
-    width: 36px;
-    height: 36px;
-
-    .fa {
-        margin-right: 0px;
-    }
-}
-
-.c-link {
-    color: $red;
-    text-decoration: underline;
-
-    &:not(.disabled):hover {
-        color: $red;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    &.disabled {
-        color: $grey-50;
-        cursor: default;
-    }
-}
-
-.c-btn-help {
-    background: $red;
-    border: none;
-    border-radius: 90px;
-    color: $white;
-    padding: 5px 20px;
-    min-height: 46px;
-
-    &:not([disabled]):hover {
-        opacity: 0.9;
-    }
-
-    &:disabled {
-        background: $grey-30;
-        color: $grey-50;
-    }
-}
-
-.c-btn-more {
-    background-color: $white;
-    border: 1px solid $grey-30;
-    color: $grey-70;
-    font-size: $font-size-base;
-    line-height: $font-size-base;
-    padding: 0px 10px;
-    min-height: 21px;
-}
-
-.c-btn-add {
-    background-color: $green;
-    border: none;
-    color: $white;
-    font-size: $font-size-base;
-    padding: 5px 10px;
-}
-
-.btn > .spinner-border {
-    margin-right: 8px;
 }
 
 .btn-toggle {
