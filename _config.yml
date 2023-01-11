@@ -1,4 +1,4 @@
-repository: cyclr/docs-v2
+repository: cyclr/docs
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,7 +12,7 @@ site_title: Cyclr Documentation
 company_name: Cyclr
 # this appears in the footer
 
-github_editme_path: cyclr/docs-v2/blob/master/
+github_editme_path: cyclr/docs/blob/master/
 # github_editme_path: cyclr/docs/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
@@ -32,10 +32,7 @@ exclude:
   - .vs/
   - .idea/
   - .gitignore
-  - pages/tags/
   - pages/v1/
-  - pages/v2-old/
-  - indexold.md
 
 # these are the files and directories that jekyll will exclude from the build
 
@@ -121,10 +118,9 @@ plugins:
 
 # needed for sitemap.xml file only
 # url: https://docs.cyclr.com
-# dev build - override baseurl required for github pages cyclr.github.io/docs-v2/
+# dev build - override baseurl required for github pages?
 # prod build: confirm baseurl requirement 
-# local build: override the baseurl, eg bundle exec jekyll serve --livereload --baseurl="/"
-baseurl: "/docs-v2/"
+# local build: override the baseurl if required, eg bundle exec jekyll serve --livereload --baseurl="/"
 
 # algolia search debug
 search_debug: true
