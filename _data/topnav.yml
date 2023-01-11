@@ -4,7 +4,7 @@ items:
       class: btn-dark
       items:
         - title: API Reference
-          url: /testing-cyclr-api
+          external_url: https://cyclr.com/developers/api-reference
           active: true
         - title: Connector Library
           external_url: https://cyclr.com/connectors

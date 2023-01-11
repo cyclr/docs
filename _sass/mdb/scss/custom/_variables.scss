@@ -73,9 +73,9 @@ $h3-font-size: 1.5rem;
 $h4-font-size: 1.3333333334rem;
 $h5-font-size: 1.1666666667rem;
 $h6-font-size: 1rem;
+
 // scss-docs-start font-sizes
 $font-sizes: ( 1: $h1-font-size, 2: $h2-font-size, 3: $h3-font-size, 4: $h4-font-size, 5: $h5-font-size, 6: $h6-font-size );
-
 
 // custom font size map
 $custom-font-sizes: ( "xl": 55px, "xxl": 80px, "hero": 44px, "hero-text": 16px, "label": 13px, "label-small": 10px, "note": 10px, "note-small": 9px, "section": 36px, "section-text": 14px, "tooltip": 12px);
@@ -83,6 +83,15 @@ $custom-font-weights: ( "xl": 400, "xxl": 300, "hero": 600, "hero-text": 500, "l
 
 $display-font-weight: 400 !default;
 
+// Links
+//
+// Style anchor elements.
+
+$link-color: $red;
+$link-decoration: underline;
+$link-shade-percentage: 0%;
+$link-hover-color: $red;
+$link-hover-decoration: none;
 
 // Customize the light and dark text colors for use in our color contrast function.
 $color-contrast-dark: $dark;
@@ -112,8 +121,8 @@ $color-contrast-light: $white;
 }
 
 /* links map */
-$links: ( "link": $grey-60, "visited": $grey-60, "hover": $grey-60, "active": $grey-60);
-$mainlinks: ( "link": $red, "visited": $red, "hover": $red, "active": $red);
+$links: ( "link": $link-color, "visited": $link-color, "hover": $link-hover-color, "active": $link-color);
+$mainlinks: ( "link": $link-color, "visited": $link-color, "hover": $link-hover-color, "active": $link-color);
 
 /* colors map */
 $colors: ( "grey-50": $grey-50, "grey-60": $grey-60, "grey-70": $grey-70);
@@ -178,24 +187,9 @@ $note-small-font-weight: 500;
 $navbar-light-color: $grey-70;
 $navbar-dark-color: $white;
 
-// Components
-//
-// Define common padding and border radius sizes and more.
-$caret-width: 0.3em !default;
-$caret-vertical-align: $caret-width * 0.55 !default;
-
-
 //Navs
 $nav-tabs-link-active-color: $grey-60 !default;
 $nav-tabs-link-active-bg: transparent;
-
-
-//Badge
-$badge-padding-y: 0.5rem;
-
-
-
-
 
 // Body
 //
@@ -339,43 +333,21 @@ $form-check-input-border-color: $grey-20 !default;
 // Table
 $table-hover-bg: $grey-10 !default;
 
-
 // Navbar
 $navbar-box-shadow: none !default;
-
 
 // Accordion
 $accordion-color: $body-color !default;
 $accordion-bg: $white !default;
-
 $accordion-icon-width: 1rem !default;
 $accordion-icon-color: $grey-70 !default;
 $accordion-icon-active-color: $grey-70 !default;
-
 
 // Select
 $form-outline-select-arrow-color: $grey-70 !default;
 $form-outline-select-lg-arrow-top: 21px !default;
 $form-outline-select-arrow-right: 16px !default;
 $form-outline-select-input-focused-arrow-color: $blue-10 !default;
-
-
-//Datepicker/Timepicker
-$timepicker-head-background-color: $red;
-$timepicker-button-color: $red;
-$timepicker-time-tips-inner-active-background-color: $red;
-$timepicker-item-middle-dot-background-color: $red;
-$timepicker-hand-pointer-background-color: $red;
-$timepicker-circle-border-color: $red;
-$timepicker-input-color: $red;
-$timepicker-btn-icon-hover-color: $red;
-$timepicker-btn-icon-focus-color: $red;
-$datepicker-toggle-focus-color: $red;
-$datepicker-header-background-color: $red;
-$datepicker-cell-selected-background-color: $red;
-$datepicker-cell-focused-selected-background-color: $red;
-$datepicker-footer-btn-color: $red;
-$datepicker-toggle-right: 0px;
 
 //Sidenav
 $sidenav-width: 295px;
@@ -390,12 +362,6 @@ $sidenav-rotate-icon-margin-right: 12px;
 $sidenav-link-color: $grey-50;
 $sidenav-link-color-hover: $grey-50;
 $sidenav-link-color-active: $grey-50;
-
-//Toasts
-$toast-background-color: $grey-70;
-
-//Progress
-$progress-bar-bg: $pink !default;
 
 $divider-color: $grey-20;
 

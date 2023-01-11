@@ -131,7 +131,11 @@ body {
 
 // Links
 a {
-    text-decoration: none;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
 
     &.inline-link {
         text-decoration: underline;
@@ -151,25 +155,6 @@ a {
         .icon {
             height: auto;
             padding: 0;
-        }
-    }
-
-    &:hover {
-        text-decoration: underline;
-    }
-
-    &:not(.btn) {
-        main & {
-            &:link,
-            &:visited,
-            &:hover,
-            &:active {
-                color: $red;
-            }
-
-            &:hover {
-                text-decoration: underline;
-            }
         }
     }
 }
@@ -673,8 +658,14 @@ footer {
         }
     }
 
-    .footer-link {
+    a.footer-link {
         line-height: 27px;
+        color: $grey-60;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     .footer-social {
@@ -1760,110 +1751,6 @@ Tables
     content: "\e966";
 }
 
-
-
-
-
-/*.icon-branch:before {
-content: "\62";
-}
-
-.icon-cycle:before {
-content: "\63";
-}
-
-.icon-delay:before {
-content: "\65";
-}
-
-.icon-wait-until:before {
-content: "\66";
-}
-
-.icon-wait-all:before {
-content: "\67";
-}
-
-.icon-boolean:before {
-content: "\68";
-}
-
-.icon-params:before {
-content: "\69";
-}
-
-.icon-study:before {
-content: "\6c";
-}
-
-.icon-templates:before {
-content: "\64";
-}
-
-.icon-infinity:before {
-content: "\6a";
-}*/
-
-/* -------------------------------------------------------------------------------- 
-	Callouts
--------------------------------------------------------------------------------- */
-
-.callout-container {
-    margin-bottom: 20px;
-}
-
-.callout {
-    border-radius: 8px;
-    height: 190px;
-
-    .row div:first-child {
-        padding: 24px 0px 24px 32px;
-    }
-
-    .row div:last-child {
-        padding: 24px 32px 24px 0px;
-    }
-
-    &.callout-grey {
-        background-color: #343C45;
-        color: $white;
-    }
-
-    &.callout-red {
-        background-color: $red;
-        color: $white;
-    }
-
-    img {
-        max-width: 285px;
-        max-height: 100%;
-    }
-}
-
-.callout-link {
-
-    .callout {
-        transition: .2s ease;
-        opacity: 1;
-    }
-
-    &:hover .callout {
-        opacity: 0.9;
-    }
-
-
-    .callout-arrow {
-        opacity: 0;
-        transition: .2s ease;
-        padding-right: 10px;
-    }
-
-    &:hover .callout-arrow {
-        opacity: 1;
-        padding-right: 0px;
-    }
-}
-
 /* -------------------------------------------------------------------------------- 
 	Code Blocks
 -------------------------------------------------------------------------------- */
@@ -2318,6 +2205,10 @@ section {
                 line-height: 16px;
                 margin:0 0 16px;
                 display: block;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             ul {
@@ -2361,6 +2252,7 @@ section {
         .card-link {
             @extend .font-section-text;
             color: $grey-70;
+            text-decoration: none;
         }
     }
 
