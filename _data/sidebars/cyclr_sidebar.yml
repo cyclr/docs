@@ -85,20 +85,11 @@ entries:
       - title: User accounts
         output: web, pdf
         folderitems:
-          - title: User accounts overview
-            url: /overview-new-account
-            output: web, pdf
 
           - title: Sub accounts
             url: /sub-accounts
             output: web, pdf
             subfolders:
-              - title: Connector installation (API)
-                output: web, pdf
-                subfolderitems:
-                  - title: Install connectors into an account
-                    url: /install-a-connector
-                    output: web, pdf
 
           - title: Connector authentication link
             url: /connector-authentication-link
@@ -180,7 +171,7 @@ entries:
             output: web, pdf
 
           - title: API Endpoints
-            url: /cyclr-api-endpoints
+            url: /api-reference
             output: web, pdf
 
           - title: Install a partner connector
