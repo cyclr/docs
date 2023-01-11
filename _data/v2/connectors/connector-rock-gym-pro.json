@@ -1,0 +1,85 @@
+{
+    "Description": "Powerful member management software built for high-volume facilities like yours.",
+    "Id": 8843,
+    "Name": "Rock Gym Pro",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8843",
+    "Categories": [
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "List Bookings",
+                    "Description": "Get bookings for a specific facility",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Bookings",
+                    "Description": "Get all bookings added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Booking",
+                    "Description": "Get booking details by ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Invoices",
+                    "Description": "Get invoices for a specific facility",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Invoices",
+                    "Description": "Get invoices added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Invoice",
+                    "Description": "Get invoice details by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a single customer's details by GUID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Multiple Customers",
+                    "Description": "Get one or more customers by GUID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Facilities",
+            "Methods": [
+                {
+                    "Name": "List Facilities",
+                    "Description": "Get all available facilities",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/rockgympro-connector"
+}

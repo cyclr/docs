@@ -1,0 +1,146 @@
+{
+    "Description": "Willo is a global on-demand virtual video interviewing software, communication and recruitment platform.",
+    "Id": 14354,
+    "Name": "Willo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14354",
+    "Categories": [
+        "Collaboration",
+        "Chat"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Stage Changes",
+            "Methods": [
+                {
+                    "Name": "Get Most Recent Stage Change",
+                    "Description": "Returns the most recent interview stage change within your account. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invitations",
+            "Methods": [
+                {
+                    "Name": "Create Invitation",
+                    "Description": "Creates a new invitation.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Responses",
+            "Methods": [
+                {
+                    "Name": "List Responses",
+                    "Description": "Returns all interview responses within your account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Most Recent Response",
+                    "Description": "Returns the most recent interview response within your account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a new company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Returns a list of companies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Industries",
+            "Methods": [
+                {
+                    "Name": "List Industries",
+                    "Description": "Returns a list of industries.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Interviews",
+            "Methods": [
+                {
+                    "Name": "Create Interview",
+                    "Description": "Creates a new interview.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Interviews",
+                    "Description": "Returns a list of interviews (jobs).",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Create New Response Webhook",
+                    "Description": "Subscribes a webhook to the \"New Response\" event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Stage Change",
+                    "Description": "Triggered when an interview's stage changes.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "New Response",
+                    "Description": "Triggered when an interview receives a new response.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Stage Change Webhook",
+                    "Description": "Subscribes a webhook to the \"Stage Change\" event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Stage Change - To Review",
+                    "Description": "Triggered when any interview's stage changes to \"To Review\".",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Stage Change - All",
+                    "Description": "Triggered when any interview's stage changes.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Stage Change - Reject",
+                    "Description": "Triggered when any interview's stage changes to \"Reject\".",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "New Response",
+                    "Description": "Triggered when any interview receives a new response.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Stage Change - Accept",
+                    "Description": "Triggered when any interview's stage changes to \"Accept\".",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,50 @@
+{
+    "Description": "Look after your people and your time, with the most cost-effective HR software on the market.",
+    "Id": 12263,
+    "Name": "Breathe HR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12263",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "List Employees",
+                    "Description": "List employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Employees",
+                    "Description": "List new employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Employees",
+                    "Description": "List updatd employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee",
+                    "Description": "Create an employee.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/breathehr"
+}

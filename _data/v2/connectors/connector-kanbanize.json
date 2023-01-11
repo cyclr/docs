@@ -1,0 +1,162 @@
+{
+    "Description": "Kanban Software for Lean Management See your department and company workflows at a glance. Visualize dependencies. Make your work flow.",
+    "Id": 7390,
+    "Name": "Kanbanize",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7390",
+    "Categories": [
+        "Product Management",
+        "Collaboration",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Time",
+            "Methods": [
+                {
+                    "Name": "Log Time",
+                    "Description": "This method allows you to log time to a Task.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Get Projects",
+                    "Description": "This method allows you to get the details of all Projects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "List Tasks",
+                    "Description": "This method will return all tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "This method will return details of the requested Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Task",
+                    "Description": "This method will allow you to update the details of a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Task",
+                    "Description": "This method will allow you to create a new task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Task",
+                    "Description": "This method will delete a Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Move Task",
+                    "Description": "This method will move a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Archive Task",
+                    "Description": "This method will archive a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Block Task",
+                    "Description": "This method will block a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unblock Task",
+                    "Description": "This method will unblock a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Task Comment",
+                    "Description": "This method will add a comment to a task.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subtasks",
+            "Methods": [
+                {
+                    "Name": "Add Subtask",
+                    "Description": "This method will add a subtask.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Subtask",
+                    "Description": "This method will update a subtask.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Boards",
+            "Methods": [
+                {
+                    "Name": "Get Board Settings",
+                    "Description": "This method will get settings of a Board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board Structure Full",
+                    "Description": "This method will get full structure pf a Board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Board Activities",
+                    "Description": "This method will get activities associated with a Board.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Links",
+            "Methods": [
+                {
+                    "Name": "Get Board Links",
+                    "Description": "This method will return links for a board.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Edit Link",
+                    "Description": "This method will edit a link.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task Links",
+                    "Description": "This method will return links for a task.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "Edit Custom Field",
+                    "Description": "This allows you to edit a Custom Field.  The Custom Field must already exist.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

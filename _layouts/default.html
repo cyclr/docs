@@ -2,56 +2,8 @@
 <html>
 
 <head>
-    {% include head.html %}
+    {% include v2/generic/head.html %}
     {% seo %}
-    <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
-
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', false);
-            });
-
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', true);
-            });
-
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#tg-sb-link").click(function() {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
-        });
-    </script>
     {% if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
@@ -74,37 +26,47 @@
     {% endif %}
 
 </head>
+    {% if page.hide_sidebar == true %}
+    {% assign sbclass='no-sb'%}
+    {% else %}
+    {% assign sbclass='sb'%}
+    {% endif %}
+    {% if page.layout == "homepage" %}
+    {% assign containerclass=''%}
+    {% assign pageclass='pg-home'%}
+    {% assign mainclass='container-fluid bg-dark pg-home m-0 px-0'%}
+    {% assign topnavborderclass=' border-0'  %}
+    {% else %}
+    {% assign containerclass='container'%}
+    {% assign topnavborderclass='' %}
+    {% assign pageclass=''%}
+    {% if page.toc == true %}
+    {% assign mainclass='pg-doc'%}
+    {% else %}
+    {% assign mainclass='pg-category'%}
+    {% endif %}
+    {% endif %}
 
 <body>
-    {% include topnav.html %}
-    <!-- Page Content -->
-    <div class="container">
-        <div id="main">
-            <!-- Content Row -->
-            <div class="row">
-                {% assign content_col_size = "col-md-12" %}
-                {% unless page.hide_sidebar %}
-                <!-- Sidebar Column -->
-                <div class="col-md-3" id="tg-sb-sidebar">
-                    {% include sidebar.html %}
-                </div>
-                {% assign content_col_size = "col-md-9" %}
-                {% endunless %}
-
-                <!-- Content Column -->
-                <div class="{{content_col_size}}" id="tg-sb-content">
-                    {{content}}
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
+    <header class="{{ pageclass }}">
+        {% unless page.hide_sidebar == true %}
+        {% include v2/generic/sidebar.html %}
+        {% endunless %}
+        {% include v2/generic/topnav.html %}
+    </header>
+    <main id="main" class="{{ mainclass }}">
+        <!-- Page Content -->
+        <div id="main-container">
+            {{content}}
         </div>
-        <!-- /#main -->
-    </div>
-
+    </main>
+    {% include v2/generic/footer.html %}
 </body>
+<script type="text/javascript" src="{{ "js/mdb/mdb.min.js" }}"></script>
+<script type="module" src="{{ "js/customscripts.js" }}"></script>
+
 {% if site.google_analytics %}
-{% include google_analytics.html %}
+{% include v2/generic/google_analytics.html %}
 {% endif %}
 
 </html>

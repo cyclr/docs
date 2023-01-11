@@ -1,0 +1,57 @@
+{
+    "Description": "Leading email marketing and cross-channel orchestration solution.",
+    "Id": 17229,
+    "Name": "Oracle Responsys",
+    "Version": "v1.3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17229",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Profile List Recipients",
+            "Methods": [
+                {
+                    "Name": "Get List Recipient By Email",
+                    "Description": "Retrieve List Recipient using query attribute.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Merge member and Trigger Email",
+                    "Description": "Merge Members to a Profile List and Send Responsys Email Campaigns to them.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Merge List Recipient",
+                    "Description": "New members can be added to an existing profile list and existing members in a profile list can be updated.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "Get Campaigns List",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Profile Lists",
+            "Methods": [
+                {
+                    "Name": "Get Profile Lists",
+                    "Description": "Fetch all profile lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

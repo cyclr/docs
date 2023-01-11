@@ -1,5 +1,6 @@
 services:
   jekyll:
+    command: ["jekyll", "serve", "--incremental", "--watch", "--verbose", "--force_polling" ]
     build: .
     ports:
       - "4000:4000"

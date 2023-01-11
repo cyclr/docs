@@ -1,0 +1,30 @@
+{
+    "Description": "Create a highly converting, professional landing page within AdPage's powerful page builder.",
+    "Id": 11818,
+    "Name": "AdPage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11818",
+    "Categories": [
+        "Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Submission Notification",
+                    "Description": "Form Submitted Notification",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

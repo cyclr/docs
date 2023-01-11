@@ -1,0 +1,50 @@
+{
+    "Description": "Freelancing, contracting, or running a small business? We can help with accounting, insurance, mortgages, pensions and much more.",
+    "Id": 12769,
+    "Name": "Crunch",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12769",
+    "Categories": [
+        "Accounting"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Expenses",
+            "Methods": [
+                {
+                    "Name": "List Expenses",
+                    "Description": "Get a list of the expenses",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Expense",
+                    "Description": "Add a new expense to the Crunch account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Accounts By Type",
+                    "Description": "Gets accounts of type",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Accounts",
+                    "Description": "Gets the accounts",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

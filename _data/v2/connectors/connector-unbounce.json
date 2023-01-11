@@ -1,0 +1,56 @@
+{
+    "Description": "The leading landing page platform that helps you convert more of your visitors into leads, sales, and customers with conversion intelligence.",
+    "Id": 15491,
+    "Name": "Unbounce",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15491",
+    "Categories": [
+        "Marketing",
+        "Forms"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Lead",
+                    "Description": "Retrieves a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Page Leads",
+                    "Description": "Retrieves all leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Page Lead",
+                    "Description": "Retrieves Information of a single lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pages",
+            "Methods": [
+                {
+                    "Name": "List Pages",
+                    "Description": "Retrieves all pages.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/unbounce"
+}

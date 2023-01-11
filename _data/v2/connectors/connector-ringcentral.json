@@ -1,0 +1,151 @@
+{
+    "Description": "Increase productivity while decreasing management complexity with a global communications solution.",
+    "Id": 16429,
+    "Name": "RingCentral",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16429",
+    "Categories": [
+        "Collaboration",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Call Log",
+            "Methods": [
+                {
+                    "Name": "Get New User Call Log Records",
+                    "Description": "Returns new call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Company Call Log Records, Detailed View",
+                    "Description": "Returns new call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Call Log Records, Detailed View",
+                    "Description": "Returns filtered call log records.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Call Log Record",
+                    "Description": "Returns individual call log record by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Company Call Log Records",
+                    "Description": "Returns new call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Call Log",
+                    "Description": "Returns filtered call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Call Log Records",
+                    "Description": "Returns filtered call log records.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Call Log Record",
+                    "Description": "Returns individual call log record by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Call Log",
+                    "Description": "Returns filtered call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Call Log Record",
+                    "Description": "Returns individual call log record by ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Company Call Log Records",
+                    "Description": "Returns new call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Call Log",
+                    "Description": "Returns filtered call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New User Call Log Records",
+                    "Description": "Returns new call log records",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Call Log Record",
+                    "Description": "Returns individual call log record by ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Push Notifications",
+            "Methods": [
+                {
+                    "Name": "Account Telephony Sessions Event",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Subscriptions",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Extension Presence",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Renew Event Subscription",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Account Presence",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "User Presence",
+            "Methods": [
+                {
+                    "Name": "Get User Status",
+                    "Description": "Returns presence status of an extension",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account",
+            "Methods": [
+                {
+                    "Name": "Get Extensions",
+                    "Description": "Gets extensions for the account",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Info",
+                    "Description": "Returns basic information about a particular RingCentral customer account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Phone Numbers",
+                    "Description": "Gets the phone numbers for an extension",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/RingCentral"
+}

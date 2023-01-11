@@ -1,0 +1,490 @@
+{
+    "Description": "Zendesk makes it easy to support customers when they need your help.",
+    "Id": 16810,
+    "Name": "Zendesk",
+    "Version": "v2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16810",
+    "Categories": [
+        "Chat",
+        "CRMs",
+        "Sales",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Tickets",
+            "Methods": [
+                {
+                    "Name": "Search Ticket By ID",
+                    "Description": "Search for tickets by ticket ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Tickets by Email",
+                    "Description": "Search for tickets submitted by a specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Closed Tickets",
+                    "Description": "Search for tickets that are closed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Solved Tickets",
+                    "Description": "Search for tickets that have been solved.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Tickets",
+                    "Description": "Search for tickets that are new.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pending Tickets",
+                    "Description": "Search for tickets that are pending.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Open Tickets",
+                    "Description": "Search for tickets that are open.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Ticket",
+                    "Description": "Deletes a Zendesk ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Import Ticket",
+                    "Description": "Import a ticket into Zendesk.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List On Hold Tickets",
+                    "Description": "Search for tickets that are on hold.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Multiple Tickets",
+                    "Description": "Bulk import tickets into Zendesk.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Updates Tickets",
+                    "Description": "To make the same change to multiple tickets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Batch Updates Tickets",
+                    "Description": "To make different changes to multiple tickets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Show Ticket",
+                    "Description": "Returns a number of ticket properties though not the ticket comments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tickets",
+                    "Description": "Get a List of All Tickets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ticket",
+                    "Description": "Get a ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ticket",
+                    "Description": "Creates a Zendesk ticket. Any new custom fields options will be added to Zendesk. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Ticket",
+                    "Description": "Updates a Zendesk ticket. Any new custom fields options will be added to Zendesk.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Tickets",
+                    "Description": "Search for tickets using your own criteria. Returns a maximum of 1,000 matching tickets.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Groups",
+                    "Description": "Get a list of all groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Assignable Groups",
+                    "Description": "Get a list of all groups that can have members assigned.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Group",
+                    "Description": "Update an existing group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Group",
+                    "Description": "Create a new group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Group",
+                    "Description": "Get a group by its group ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Group",
+                    "Description": "Delete a group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Groups Count",
+                    "Description": "Get the number of groups.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ticket Comments",
+            "Methods": [
+                {
+                    "Name": "List Ticket Comments",
+                    "Description": "Get a List of Comments for the Specified Ticket.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Apps",
+            "Methods": [
+                {
+                    "Name": "Get App Installation",
+                    "Description": "Retrieves information about the specified app installation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update App",
+                    "Description": "Adds a build of an existing app to the job queue.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upload App Package",
+                    "Description": "Uploads a new app package to Zendesk Support.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Requirements Install Status",
+                    "Description": "Returns the status of the requirements installation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete App Installation",
+                    "Description": "Removes an installed app.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Requirements",
+                    "Description": "Lists all app requirements for an installation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List App Installations",
+                    "Description": "List all apps installed in the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete App",
+                    "Description": "Delete the specified app and remove it from the My Apps page in Zendesk Support.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Install App",
+                    "Description": "Install an app in the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create App",
+                    "Description": "Adds a build of a new app to the job queue.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Notification to App",
+                    "Description": "Sends messages to currently open instances of a Zendesk Apps framework (ZAF) app. The messages cause an event to fire in the app.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get App Information",
+                    "Description": "Retrieves information about the specified app accessible to the current user and account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update App Installation",
+                    "Description": "Updates the specified installation.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Owned Apps",
+                    "Description": "List all apps owned by the current account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get a User by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert User",
+                    "Description": "Create or Update a User.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Get a List of All Users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Ticket Assigned to User(s) (trigger)",
+                    "Description": "Triggered when a ticket is assigned to specific user(s).",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Ticket Created (trigger)",
+                    "Description": "Triggered when a ticket is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List Triggers",
+                    "Description": "Get a list of all triggers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Webhook And Trigger - Manual",
+                    "Description": "Delete a webhook and trigger",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Ticket Closed or Solved (trigger)",
+                    "Description": "Triggered when a ticket is closed or solved by a user.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Ticket Assigned to Group (trigger)",
+                    "Description": "Triggered when a ticket is assigned to a specific group.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List Webhooks",
+                    "Description": "Get a list of all webhooks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Ticket Updated (trigger)",
+                    "Description": "Triggered when a ticket is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Delete Target And Trigger",
+                    "Description": "Delete a target and trigger for webhooks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Ticket Updated",
+                    "Description": "Triggered when a ticket is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Ticket Created",
+                    "Description": "Triggered when a ticket is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Ticket Closed or Solved",
+                    "Description": "Triggered when a ticket is closed or solved by a user.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Sessions",
+            "Methods": [
+                {
+                    "Name": "Show Session",
+                    "Description": "Show a specific session for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Sessions",
+                    "Description": "Delete the authenticated session.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sessions",
+                    "Description": "Get a list of all the accounts sessions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Session",
+                    "Description": "Delete a specific session for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Renew Current Session",
+                    "Description": "Renew the currently authenticated session.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current Session",
+                    "Description": "Show the currently authenticated session.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Delete Sessions",
+                    "Description": "Delete all the sessions for a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Audit Logs",
+            "Methods": [
+                {
+                    "Name": "Get Audit Log",
+                    "Description": "Get a single audit log by it's ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Export Audit Logs",
+                    "Description": "Export the audit logs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Audit Logs",
+                    "Description": "Get a list of all audit logs.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "Get Organization",
+                    "Description": "Get an Organization by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations",
+                    "Description": "Get a List of All Organizations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Organization",
+                    "Description": "Create or Update an Organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Organizations",
+                    "Description": "Search for an organization.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Attachments",
+            "Methods": [
+                {
+                    "Name": "Upload Files",
+                    "Description": "Uploads a file that can be attached to a ticket comment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Satisfaction Ratings",
+            "Methods": [
+                {
+                    "Name": "Get Ticket Rating",
+                    "Description": "Gets the satisfaction rating for a specific ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Satisfaction Rating",
+                    "Description": "Create the satisfaction rating for a solved ticket, or one that was solved and then re-opened.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Satisfaction Ratings",
+                    "Description": "Get all received satisfaction ratings for an account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ticket Fields",
+            "Methods": [
+                {
+                    "Name": "Create Ticket Field",
+                    "Description": "Create a Zendesk ticket field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ticket Field",
+                    "Description": "Get a Ticket Field by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ticket Fields",
+                    "Description": "Get a List of All Ticket Fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ticket Field Options",
+                    "Description": "Create Zendesk ticket field options.",
+                    "MethodType": "Action",
+                    "Subcategory": "Options"
+                },
+                {
+                    "Name": "List Ticket Field Options",
+                    "Description": "Get Zendesk ticket field options.",
+                    "MethodType": "Action",
+                    "Subcategory": "Options"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "Get Job Status",
+                    "Description": "Get Job.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Zendesk Integration - Support Automation - Cyclr",
+    "MetaDescription": "Integrate your Zendesk support system to all aspects of your business to provide more accurate, timely & effective support. Build your own automation workflows with Cyclr's builder.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/zendesk",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/zendesk-connector"
+}

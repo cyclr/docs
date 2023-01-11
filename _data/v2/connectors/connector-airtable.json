@@ -1,0 +1,56 @@
+{
+    "Description": "Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes.",
+    "Id": 15136,
+    "Name": "Airtable",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15136",
+    "Categories": [
+        "Collaboration",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Records",
+            "Methods": [
+                {
+                    "Name": "Get Record",
+                    "Description": "Get a record in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Records",
+                    "Description": "Updates records in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Records",
+                    "Description": "Create records in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Record",
+                    "Description": "Deletes record in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Records",
+                    "Description": "List all records in a table created since last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Records",
+                    "Description": "List all records in a table.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/airtable-connector"
+}

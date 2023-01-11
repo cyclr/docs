@@ -1,0 +1,148 @@
+{
+    "Description": "Wholesale e-commerce platform for those that want to roll their orders fast!",
+    "Id": 12261,
+    "Name": "B2B Wave",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12261",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Get Order",
+                    "Description": "Get order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Orders",
+                    "Description": "List orders by search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order Status",
+                    "Description": "Update the status of an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "List orders with details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Create an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "List orders created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "List orders updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get customer by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Customers",
+                    "Description": "List all customers returned by a search.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Update a customer record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By Email",
+                    "Description": "Get customer details from an email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer By ID",
+                    "Description": "Get customer by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List customers added since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List customers updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Create a customer record.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product",
+                    "Description": "Get product by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Products",
+                    "Description": "List products by search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update a Product within B2B Wave",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List all products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Products",
+                    "Description": "List products created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products",
+                    "Description": "List products updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a Product within B2B Wave",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/b2bwave-connector"
+}

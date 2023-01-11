@@ -1,0 +1,32 @@
+{
+    "Description": "The All-In-One Customer Communication Hub",
+    "Id": 8005,
+    "Name": "Brandbot",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8005",
+    "Categories": [
+        "Marketing",
+        "CRMs",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Create Contact",
+                    "Description": "Create a new contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

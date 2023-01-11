@@ -1,0 +1,40 @@
+{
+    "Description": "Get items from RSS feeds",
+    "Id": 5448,
+    "Name": "RSS Reader",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5448",
+    "Categories": [
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Feeds",
+            "Methods": [
+                {
+                    "Name": "Get Feed",
+                    "Description": "Gets an RSS feed",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Feed Items",
+                    "Description": "Gets the new items from an RSS feed",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Last 3 Items",
+                    "Description": "Gets the 3 most recent items from an RSS Feed.  Returns them as a single object rather than a list.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,51 @@
+{
+    "Description": "Search Console tools and reports help you measure your site's Search traffic and performance, fix issues and make your site shine in Google Search results.",
+    "Id": 16768,
+    "Name": "Google Search Console",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16768",
+    "Categories": [
+        "Analytics",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Sites",
+            "Methods": [
+                {
+                    "Name": "Get Site",
+                    "Description": "Get a Search Console site.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sites",
+                    "Description": "Lists the user's Search Console sites.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Search Analytics",
+            "Methods": [
+                {
+                    "Name": "Search Analytics (URL-Prefix Property)",
+                    "Description": "Query your search traffic data with filters and parameters that you define.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Analytics (Domain Property)",
+                    "Description": "Query your search traffic data with filters and parameters that you define.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

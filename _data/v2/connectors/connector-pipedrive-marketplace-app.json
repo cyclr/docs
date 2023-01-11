@@ -1,0 +1,281 @@
+{
+    "Description": "Sales CRM for small teams with big ambitions.",
+    "Id": 5376,
+    "Name": "Pipedrive Marketplace App",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5376",
+    "Categories": [
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "Add Organization",
+                    "Description": "Adds a new organization ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organization",
+                    "Description": "Update details of an existing organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Organization",
+                    "Description": "Update details of an existing organization ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organization",
+                    "Description": "Gets details of an organization",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organizations",
+                    "Description": "Gets a list of organizations",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Get Person",
+                    "Description": "Gets all the details of a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Person",
+                    "Description": "Adds a new person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "Updates a person's details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "Deletes a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People",
+                    "Description": "Returns a list of people.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get People by Email Address",
+                    "Description": "Returns a list of people matching the email address provided.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "Add Activity",
+                    "Description": "Adds an activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Activity",
+                    "Description": "Modifies an activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Activity",
+                    "Description": "Deletes an activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Activities",
+                    "Description": "Get the details of all Activities",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Activity",
+                    "Description": "Get the details of an Activity",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "List Deals",
+                    "Description": "Returns all deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal",
+                    "Description": "Returns details of a specific deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Deal",
+                    "Description": "Adds a new deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal",
+                    "Description": "Updates the details of a deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal",
+                    "Description": "Marks a deal as deleted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Participants",
+                    "Description": "Lists participants associated with a deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deals by Stage",
+                    "Description": "Lists deals in a specific stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Updated Deal",
+                    "Description": "Triggered when a deal has been edited.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Stages",
+            "Methods": [
+                {
+                    "Name": "List Stages",
+                    "Description": "Returns data about all stages in all Pipelines.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Stage",
+                    "Description": "Returns data about a specific stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Stage",
+                    "Description": "Adds a new stage, returns the ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Stage",
+                    "Description": "Update the properties of a stage.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Stage",
+                    "Description": "Marks a stage as deleted.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pipelines",
+            "Methods": [
+                {
+                    "Name": "Add Pipeline",
+                    "Description": "Adds a Pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Pipeline",
+                    "Description": "Update the properties of a pipeline.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pipelines",
+                    "Description": "Returns data about all pipelines.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Pipeline",
+                    "Description": "Returns data about a specific pipeline.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Returns data about all users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Fields",
+            "Methods": [
+                {
+                    "Name": "List Deal Fields",
+                    "Description": "Returns all deal fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Field",
+                    "Description": "Returns details of a specific deal field.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notes",
+            "Methods": [
+                {
+                    "Name": "Get All Notes",
+                    "Description": "Returns all notes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Notes",
+                    "Description": "Returns all new notes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get One Note",
+                    "Description": "Returns a specific note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add a Note",
+                    "Description": "Adds a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Note",
+                    "Description": "Updates a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Note",
+                    "Description": "Deletes a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Note Added",
+                    "Description": "Triggered when a new note is added in pipedrive",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

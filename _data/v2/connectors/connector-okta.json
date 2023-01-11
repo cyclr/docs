@@ -1,0 +1,129 @@
+{
+    "Description": "Okta provides operations to manage users in your organization.",
+    "Id": 17135,
+    "Name": "Okta",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17135",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Suspend User",
+                    "Description": "Suspend a users account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Get a list of all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reset User Password",
+                    "Description": "Reset a users password.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Change User Recovery Question",
+                    "Description": "Change a users recovery question.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unlock User",
+                    "Description": "Unlock a users account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Clear User Sessions",
+                    "Description": "Clear user sessions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current User",
+                    "Description": "Get user records of the current account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Reset User Factors",
+                    "Description": "Reset factors.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unsuspend User",
+                    "Description": "Unsuspend a users account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Forgot User Password",
+                    "Description": "Forgot password (Validate Security Answer).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Deactivate User",
+                    "Description": "Deactivate a users account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create User with Password & Recovery Question.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Get a single user record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Activate User",
+                    "Description": "Activate a users account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Expire User Password",
+                    "Description": "Expire a users password.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Groups For User",
+                    "Description": "Get details of groups a user is a part of.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Users",
+                    "Description": "Get a list of users created or updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Change User Password",
+                    "Description": "Change a users password.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Set User Password",
+                    "Description": "Set a password for a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Type",
+                    "Description": "Get a single user type by ID. Use the special identifier \"default\" to fetch the default User Type.",
+                    "MethodType": "Action",
+                    "Subcategory": "User Types"
+                },
+                {
+                    "Name": "List User Types",
+                    "Description": "Get a list of all user types.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/okta-connector"
+}

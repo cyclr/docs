@@ -1,0 +1,175 @@
+{
+    "Description": "Cloud Accounts and Payroll Software for small businesses and Accountants.",
+    "Id": 11835,
+    "Name": "Surf Accounts",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11835",
+    "Categories": [
+        "Accounting"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Retrieving Contact Data",
+                    "Description": "Retrieve a Contact's Data (Customer or Supplier) by Name or Code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Insert Contact Data",
+                    "Description": "Insert a Contact's Data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Retrieving Product Data",
+                    "Description": "Retrieve Product Data by Product Name or Product Code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Product Data",
+                    "Description": "Insert Product Data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ledgers",
+            "Methods": [
+                {
+                    "Name": "Retrieving Nominal Ledger Information",
+                    "Description": "Retrieve Nominal Ledger Information.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Businesses",
+            "Methods": [
+                {
+                    "Name": "Retrieving Business information",
+                    "Description": "Retrieve specific Business Information (ID & Locale) by Business Name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Business Information",
+                    "Description": "Retrieves All Business Information.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Validation",
+            "Methods": [
+                {
+                    "Name": "User Validation",
+                    "Description": "Retrieves ID for Valid User.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "Inserting Sales Invoice/Sales Credit Note",
+                    "Description": "Insert a Sales Invoice/Sales Credit Note With Product Information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Purchase Invoice/Purchase Credit Note",
+                    "Description": "Insert a Purchase Invoice or Purchase Credit Note With Product Information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Sales Invoice/Sales Credit Note (Without Product Information)",
+                    "Description": "Inserting a Sales Invoice or Sales Credit Note Without Product Information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Purchase Invoice/Purchase Credit Note (Without Product Information)",
+                    "Description": "Insert a Purchase Invoice or Purchase Credit Note Without Product Information.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Receipts",
+            "Methods": [
+                {
+                    "Name": "Inserting Receipt",
+                    "Description": "Insert a Receipt.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Non-Customer/Supplier Receipt",
+                    "Description": "Insert a Non-Customer Receipt.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payments",
+            "Methods": [
+                {
+                    "Name": "Inserting Payment",
+                    "Description": "Insert a Payment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Non-Supplier Payment",
+                    "Description": "Inserting a Non-Supplier Payment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Journals",
+            "Methods": [
+                {
+                    "Name": "Inserting Nominal Journal",
+                    "Description": "Insert a Nominal Journal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Inserting Sales Quote/Sales Order (With Product Information)",
+                    "Description": "Insert a Sales Quote or Sales Order With Product Information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inserting Purchase Order (With Product Information)",
+                    "Description": "Insert a Purchase Order With Product Information.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "VAT",
+            "Methods": [
+                {
+                    "Name": "Inserting VAT",
+                    "Description": "Insert VAT Information.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

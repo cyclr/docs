@@ -1,0 +1,185 @@
+{
+    "Description": null,
+    "Id": 12359,
+    "Name": "Administrate",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12359",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets details of the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a Contact in the CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a Contact in the CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Contacts by Email",
+                    "Description": "Returns a list of contacts searching by Email Address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Contacts by Last Name",
+                    "Description": "Returns a list of contacts searching by Last Name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Contacts For Account",
+                    "Description": "Returns a list of contacts for the specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Gets a list of contacts from the CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new Contact in the CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets the specified Account from the CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Gets a list of Accounts from the CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Gets details of an Administrate Users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Gets a list of Administrate Users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Get Company",
+                    "Description": "Gets details of the specified Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Gets a list of Companies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enquiries",
+            "Methods": [
+                {
+                    "Name": "Get Enquiry",
+                    "Description": "Gets details of the specified Enquiry from the CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Enquiries",
+                    "Description": "Gets a list of Enquiries from the CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Activities",
+            "Methods": [
+                {
+                    "Name": "Get Marketing Activity",
+                    "Description": "Gets the specified Marketing Activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Marketing Activities",
+                    "Description": "Gets a list of Leads.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Campaigns",
+            "Methods": [
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets a specified Marketing Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Gets a list of Campaigns.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "Get Tasks For Contact",
+                    "Description": "Gets Tasks associated to the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "Gets Details of the specified Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tasks",
+                    "Description": "Gets a list of Tasks.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Lists",
+            "Methods": [
+                {
+                    "Name": "Create Marketing Lists",
+                    "Description": "Creates a new Marketing List.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/administrate-connector"
+}

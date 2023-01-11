@@ -1,0 +1,426 @@
+{
+    "Description": "Reach out to prospects at the right moment and engage them across every channel. Zoho CRM helps businesses of all sizes close more deals the smarter way.",
+    "Id": 16355,
+    "Name": "Zoho CRM",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16355",
+    "Categories": [
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "Get roles from Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Potentials",
+            "Methods": [
+                {
+                    "Name": "Get Potential",
+                    "Description": "Get a potential from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Potential",
+                    "Description": "Create a potential in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Potentials",
+                    "Description": "Get potentials from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New/Updated Potentials",
+                    "Description": "Get potentials from Zoho CRM that have recently been created or updated.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Potential",
+                    "Description": "Update a potential in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Potential",
+                    "Description": "Create a potential in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Get a campaign from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Create a campaign in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign",
+                    "Description": "Delete a campaign in Zoho CRM, please note this does not permanently delete the campaign, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaigns",
+                    "Description": "Get campaigns from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign",
+                    "Description": "Update a campaign in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Products",
+                    "Description": "List products from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a product in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update a product in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get a product from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New and Updated Products",
+                    "Description": "List products from Zoho CRM that have been created/updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Delete a product in Zoho CRM, please note this does not permanently delete the product, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Vendors",
+            "Methods": [
+                {
+                    "Name": "Update Vendor",
+                    "Description": "Update a vendor in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Vendor",
+                    "Description": "Create a vendor in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Vendor",
+                    "Description": "Get a vendor from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New and Updated Vendors",
+                    "Description": "List vendors in Zoho CRM that have been created/updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Vendors",
+                    "Description": "List vendors in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "This method returns a list of users",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "This method gets details of the specified user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "Create Task",
+                    "Description": "Create a task in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Task",
+                    "Description": "Delete a task from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "Get a task from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tasks",
+                    "Description": "Get tasks from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Task",
+                    "Description": "Update a task in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Get details of a single account from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Account",
+                    "Description": "Delete an account from Zoho CRM, please note this does not permanently delete the account, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Accounts",
+                    "Description": "Get accounts from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Account",
+                    "Description": "Create a new account inside Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account",
+                    "Description": "Update an account in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Search Contacts",
+                    "Description": "Get contacts from Zoho CRM that match the search criteria.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete a contact from Zoho CRM, please note this does not permanently delete the contact, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Contact to Campaign",
+                    "Description": "Associate a contact to Campaign in Zoho CRM, ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Get contacts from Zoho CRM that have recently been created or updated.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts by Campaign",
+                    "Description": "Get contacts by campaign from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts by Email Address",
+                    "Description": "Finds contacts in Zoho CRM by email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Create a contact in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Gets the details of a specific contact identified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Associated Contact from Campaign",
+                    "Description": "Delete a contact from Campaign in Zoho CRM, Please note this does not permanently delete the contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deleted Contacts",
+                    "Description": "List all contacts deleted since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deleted Contacts",
+                    "Description": "List all deleted contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update a contact in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts",
+                    "Description": "Get contacts from Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Get Event",
+                    "Description": "Get an event from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Event",
+                    "Description": "Update an event in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Event",
+                    "Description": "Delete an event from Zoho CRM, please note this does not permanently delete the event, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Events",
+                    "Description": "Get events from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event",
+                    "Description": "Create an event in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cases",
+            "Methods": [
+                {
+                    "Name": "Get Cases",
+                    "Description": "Get a case from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Case",
+                    "Description": "Delete a case from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Case",
+                    "Description": "Get a case from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Case",
+                    "Description": "Create a case in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Case",
+                    "Description": "Update a case in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "List Organizations",
+                    "Description": "Get organizations from Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a lead in Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deleted Leads",
+                    "Description": "List all deleted leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deleted Leads",
+                    "Description": "List all leads deleted since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Delete a lead from Zoho CRM, please note this does not permanently delete the lead, it just moves it to the recycle bin.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Leads",
+                    "Description": "Get leads from Zoho CRM that match the search criteria.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads",
+                    "Description": "Get leads from Zoho CRM.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New/Updated Leads",
+                    "Description": "Get a leads from Zoho CRM that have recently been created or updated. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads by Email",
+                    "Description": "Finds leads in Zoho CRM by email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Update a lead in Zoho CRM.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/zoho"
+}

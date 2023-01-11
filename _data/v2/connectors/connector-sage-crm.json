@@ -1,0 +1,253 @@
+{
+    "Description": "Gives businesses the information, insight and tools they need to succeed today.",
+    "Id": 17198,
+    "Name": "Sage CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17198",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List New Leads",
+                    "Description": "Gets a list of leads created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a lead in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Email",
+                    "Description": "Gets a list of leads with matching email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Gets a list of leads modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Update a lead in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Gets a lead By ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Gets a list of all leads.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Email",
+            "Methods": [
+                {
+                    "Name": "List A Persons Email Addresses",
+                    "Description": "Gets a list of all email addresses for a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List A Companies Email Addresses",
+                    "Description": "Gets a list of all Emails for a company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "List New Companies",
+                    "Description": "Gets a list of all companies created since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Gets a list of all companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Companies",
+                    "Description": "Gets a list of all companies modified since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "Gets a company by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Phone",
+            "Methods": [
+                {
+                    "Name": "List A Companies Phone Numbers",
+                    "Description": "Gets a list of all phone numbers for a company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List A Persons Phone Numbers",
+                    "Description": "Gets a list of all phone numbers for a person.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Gets a opportunity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunities By Company",
+                    "Description": "Gets a list of all opportunities for a company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "Gets a list of all opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "Gets a list of all opportunities created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity",
+                    "Description": "Create a opportunity in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities by Person ID",
+                    "Description": "Gets a list of all opportunities associated with a Person ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "Update a opportunity in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunities",
+                    "Description": "Gets a list of all opportunities updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunities By Email",
+                    "Description": "Gets a list of all opportunities with matching email address.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Experimental",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account",
+                    "Description": "Get an account by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Entity",
+            "Methods": [
+                {
+                    "Name": "Search Custom Entity Objects",
+                    "Description": "Search Custom Entity Objects by a given parameter",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Custom Entity Objects",
+                    "Description": "Gets a list of all the objects in a custom entity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Custom Entity Object",
+                    "Description": "Get a singular custom entity object.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Addresses",
+            "Methods": [
+                {
+                    "Name": "List A Companies Addresses",
+                    "Description": "Gets a list of all addresses for a company",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List A Persons Addresses",
+                    "Description": "Gets a list of all addresses for a person.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Get Person",
+                    "Description": "Gets person by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "Updates a person in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People",
+                    "Description": "Gets a list of all people.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated People",
+                    "Description": "Gets a list of all people updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "Create a person in the CRM system.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People By Company",
+                    "Description": "Gets a list of all people for a company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New People",
+                    "Description": "Gets a list of all people created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/sagecrm-connector"
+}

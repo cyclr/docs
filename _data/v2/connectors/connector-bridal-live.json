@@ -1,0 +1,90 @@
+{
+    "Description": "Bridal shops run better  with the #1 cloud-based bridal shop software.",
+    "Id": 14361,
+    "Name": "Bridal Live",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14361",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Purchase Orders",
+            "Methods": [
+                {
+                    "Name": "List Purchase Orders",
+                    "Description": "List all purchase orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Purchase Order",
+                    "Description": "Get a purchase order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Purchase Orders",
+                    "Description": "List all new purchase orders made since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Purchase Orders",
+                    "Description": "List all updated purchase orders made since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Appointments",
+            "Methods": [
+                {
+                    "Name": "List Appointments",
+                    "Description": "List all appointments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Appointments",
+                    "Description": "List all updated appointments made since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Appointments",
+                    "Description": "List all new appointments made since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Appointment",
+                    "Description": "Get an appointment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Authentication",
+            "Methods": [
+                {
+                    "Name": "Authentication",
+                    "Description": "Authentication.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Get a contact specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/bridal-live-connector"
+}

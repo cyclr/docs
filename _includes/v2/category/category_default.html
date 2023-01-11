@@ -1,0 +1,9 @@
+{% capture categoryidentifier %}{{include.identifier}}{% endcapture %}
+{% capture categorytitle %}{% endcapture %}
+{% capture categorytext %}{% endcapture %}
+{% capture listitemclass %}mb-0 mt-20 ps-20 pe-0 py-16 border rounded-5 bg-grey-20{% endcapture %}
+<section class="category-default">
+	<div class="card">
+		{% include v2/category/category_default_list.html identifier=categoryidentifier title=categorytitle text=categorytext listitemclass=listitemclass %}
+	</div>
+</section>

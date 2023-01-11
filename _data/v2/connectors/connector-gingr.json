@@ -1,0 +1,45 @@
+{
+    "Description": "Online scheduling software for dog daycare, boarding, training and grooming businesses.",
+    "Id": 12957,
+    "Name": "Gingr",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12957",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Reservations",
+            "Methods": [
+                {
+                    "Name": "List Reservations By Owner",
+                    "Description": "List all reservations within a given date range or all currently checked in reservations of an owner.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Reservations",
+                    "Description": "List all reservations within a given date range or all currently checked in reservations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "List Transactions",
+                    "Description": "List all transactions.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/gingr-connector"
+}

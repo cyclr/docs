@@ -1,0 +1,32 @@
+{
+    "Description": "Skyrocket your sales with our marketing automation CRM platform, for sales agents nationwide.",
+    "Id": 8006,
+    "Name": "iSalesCRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8006",
+    "Categories": [
+        "Marketing",
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Create Lead",
+                    "Description": "Create a new lead.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

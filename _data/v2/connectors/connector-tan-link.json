@@ -1,0 +1,52 @@
+{
+    "Description": "From customer engagement, marketing, sales, employee engagement, selling and tracking memberships, collecting past due through fully automated system, fully integrated online store, automated account handling and much more, Tan-Link is all about getting the last dollar of profit out of your business.",
+    "Id": 8123,
+    "Name": "Tan-Link",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8123",
+    "Categories": [
+        "HR/Payroll",
+        "CRMs",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Total Revenue",
+            "Methods": [
+                {
+                    "Name": "List Client Total Revenue",
+                    "Description": "List Client Total",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Client Total Revenue",
+                    "Description": "Gets Client Total Since Last Run",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "New Revenue",
+            "Methods": [
+                {
+                    "Name": "List \"New Revenue\"",
+                    "Description": "List new revenue.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New \"New Revenue\"",
+                    "Description": "Get records since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

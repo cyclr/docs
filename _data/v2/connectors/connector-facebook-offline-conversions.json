@@ -1,0 +1,35 @@
+{
+    "Description": "Track when transactions occur in your offline channels after people see or engage with your Facebook ads.",
+    "Id": 15039,
+    "Name": "Facebook Offline Conversions",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15039",
+    "Categories": [
+        "Social Media"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Offline Conversions",
+            "Methods": [
+                {
+                    "Name": "Share Event Set",
+                    "Description": "Share the event set with your client's Business Manager - your client can use the event set for ads tracking.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upload Offline Events",
+                    "Description": "Upload the offline conversion data.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/facebook-offline-conversions-connector"
+}

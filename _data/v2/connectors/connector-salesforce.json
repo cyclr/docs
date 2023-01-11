@@ -1,0 +1,1633 @@
+{
+    "Description": "Salesforce CRM automates the sales process with an array of cloud-based tools.",
+    "Id": 17159,
+    "Name": "Salesforce",
+    "Version": "v43.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17159",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Contact Updated",
+                    "Description": "Triggered when a contact is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Created",
+                    "Description": "Triggered when a lead is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Updated",
+                    "Description": "Triggered when a lead is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Created",
+                    "Description": "Triggered when an opportunity is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Updated",
+                    "Description": "Triggered when an opportunity is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Created",
+                    "Description": "Triggered when a contact is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Created (legacy)",
+                    "Description": "Triggered when a contact is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Updated (legacy)",
+                    "Description": "Triggered when a lead is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Lead Created (legacy)",
+                    "Description": "Triggered when a lead is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Updated (legacy)",
+                    "Description": "Triggered when a contact is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Created (legacy)",
+                    "Description": "Triggered when an opportunity is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Opportunity Updated (legacy)",
+                    "Description": "Triggered when an opportunity is updated.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Notes",
+            "Methods": [
+                {
+                    "Name": "Update Note",
+                    "Description": "Updates a note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Note",
+                    "Description": "Gets a note by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Notes",
+                    "Description": "Lists notes created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Notes",
+                    "Description": "Lists notes from this Salesforce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Note",
+                    "Description": "Creates a new note.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Notes",
+                    "Description": "Lists notes created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Note",
+                    "Description": "Deletes a note.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Event Relations",
+            "Methods": [
+                {
+                    "Name": "List Events Relations",
+                    "Description": "Lists event attendees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Undecided Event Relations",
+                    "Description": "Lists undecided event attendees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Declined Event Relations",
+                    "Description": "Lists declined event attendees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accepted Event Relations",
+                    "Description": "Lists accepted event attendees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event Relation",
+                    "Description": "Create a new event relation",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact\\Lead Event Relations",
+                    "Description": "Lists event contact and lead attendees. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enhanced Notes",
+            "Methods": [
+                {
+                    "Name": "Create Enhanced Note",
+                    "Description": "Creates an \"enhanced\" note as displayed by the \"Notes\" Related List in Salesforce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "List Task Statuses",
+                    "Description": "Lists the options for task statuses.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Tasks",
+                    "Description": "Lists tasks created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tasks",
+                    "Description": "Lists all tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Task Priorities",
+                    "Description": "Lists the options for task priorities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Tasks",
+                    "Description": "Lists tasks created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "Gets a task by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Task",
+                    "Description": "Creates a new task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Task",
+                    "Description": "Updates a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Task",
+                    "Description": "Deletes a task.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Currency Type",
+            "Methods": [
+                {
+                    "Name": "List Corporate Currencies",
+                    "Description": "Lists the currencies used by an organization for which the multicurrency feature is enabled.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Update Order",
+                    "Description": "Update an existing order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "Lists orders from Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Gets an order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "Lists orders created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Lists orders created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Add a new order",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Create Opportunity",
+                    "Description": "Creates an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "Updates information about an opportunity which would represent a sale or pending deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Opportunity",
+                    "Description": "Deletes an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "Lists the opportunities created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "Lists all opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Stages",
+                    "Description": "Lists the possible stages for an opportunity in Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Opportunity",
+                    "Description": "Creates a new opportunity or updates an existing opportunity based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity And List Line Items",
+                    "Description": "Composite request. Updates an opportunity and returns it's line items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity's Activity History",
+                    "Description": "Retrieves activity history for the specified opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "Gets an opportunity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunities",
+                    "Description": "Lists the opportunities created or modified since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Divisions",
+            "Methods": [
+                {
+                    "Name": "List Divisions",
+                    "Description": "Lists divisions from Salesforce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Metrics",
+            "Methods": [
+                {
+                    "Name": "List Active Feature License Metrics",
+                    "Description": "Lists the number of active, assigned, and purchased feature licenses in the organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Mobile Security User Metrics",
+                    "Description": "Lists the metrics for users who have Enhanced Mobile Security policies enforced.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Group Members",
+                    "Description": "Lists group members from Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Groups",
+                    "Description": "List groups from Salesforce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List New Campaigns",
+                    "Description": "Lists campaigns created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign",
+                    "Description": "Updates a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Creates a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets a campaign by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign By Name",
+                    "Description": "Gets a campaign by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Lists campaigns.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign",
+                    "Description": "Deletes a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Campaign",
+                    "Description": "Creates a new campaign or updates an existing campaign based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Campaigns",
+                    "Description": "Lists campaigns created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "If Exists: Campaign",
+                    "Description": "Gets a campaign by ID and returns along a true path if it exists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Login History",
+            "Methods": [
+                {
+                    "Name": "List Login History",
+                    "Description": "Lists all login sessions.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Outbound Messages",
+            "Methods": [
+                {
+                    "Name": "Outbound Message Response",
+                    "Description": "Send a response to an outbound message from Salesforce.  Set Result to \"true\"/\"false\" to send a success/failure response back to SF.",
+                    "MethodType": "WebhookResponse"
+                }
+            ]
+        },
+        {
+            "Category": "Assets",
+            "Methods": [
+                {
+                    "Name": "List Assets",
+                    "Description": "List assets from Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Asset",
+                    "Description": "Creates a new asset. An asset represents an item of commercial value, such as a product sold by your company or a competitor, that a customer has purchased.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Asset",
+                    "Description": "Creates a new asset or updates an existing asset based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Locations",
+            "Methods": [
+                {
+                    "Name": "Get Location",
+                    "Description": "Gets a location by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Documents",
+            "Methods": [
+                {
+                    "Name": "List Content Documents",
+                    "Description": "Retrieve a list of all content documents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Content Document Data (CSV)",
+                    "Description": "Return the contents of a CSV content document.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Content Version",
+                    "Description": "Retrieve the content version ID of a given content document.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Record Types",
+            "Methods": [
+                {
+                    "Name": "Get Record Type",
+                    "Description": "Gets an record type by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cases",
+            "Methods": [
+                {
+                    "Name": "List New Cases",
+                    "Description": "Lists cases created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Case",
+                    "Description": "Deletes a case.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Case",
+                    "Description": "Updates a case.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Case",
+                    "Description": "Creates a new case which represents a customer issue or problem.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Case",
+                    "Description": "Creates a new case or updates an existing case based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Cases",
+                    "Description": "Lists all cases.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Case",
+                    "Description": "Gets a case by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Cases",
+                    "Description": "Lists cases created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Case Comments",
+                    "Description": "Lists the comments of all cases.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case Comments By Case ID",
+                    "Description": "Lists the comments of the specified case created since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List Updated Case Comments By Case ID",
+                    "Description": "Lists the comments of the specified case updated since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List Updated Case Comments",
+                    "Description": "Lists the comments of all cases updated since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case Comments",
+                    "Description": "Lists the comments of all cases created since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List New Case Feed By Case ID",
+                    "Description": "Lists the feed of the specified case created since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                },
+                {
+                    "Name": "List Updated Case Feed",
+                    "Description": "Lists the feed of all cases updated since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                },
+                {
+                    "Name": "List Case Feed By Case ID",
+                    "Description": "Lists the feed of the specified case.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                },
+                {
+                    "Name": "List New Case Feed",
+                    "Description": "Lists the feed of all cases created since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                },
+                {
+                    "Name": "List Case Comments By Case ID",
+                    "Description": "Lists the comments of the specified case.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Comments"
+                },
+                {
+                    "Name": "List Case Feed",
+                    "Description": "Lists the feed of all cases.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                },
+                {
+                    "Name": "List Case History By Case ID",
+                    "Description": "Lists the history of the specified case.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case History"
+                },
+                {
+                    "Name": "List New Case History",
+                    "Description": "Lists the history of all cases since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case History"
+                },
+                {
+                    "Name": "List New Case History By Case ID",
+                    "Description": "Lists the history of the specified case since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case History"
+                },
+                {
+                    "Name": "List Case History",
+                    "Description": "Lists the history of all cases.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case History"
+                },
+                {
+                    "Name": "List Updated Case Feed By Case ID",
+                    "Description": "Lists the feed of the specified case updated since the last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Case Feed"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product",
+                    "Description": "Gets a Product. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Returns a list of Products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Products",
+                    "Description": "Lists the Products created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Returns a list of Products that have been updated since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Roles",
+            "Methods": [
+                {
+                    "Name": "Delete User Role",
+                    "Description": "Deletes a user role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Roles",
+                    "Description": "Lists all user roles.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Role",
+                    "Description": "Gets a user role by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User Role",
+                    "Description": "Creates a new user role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User Role",
+                    "Description": "Updates an existing user role.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reports",
+            "Methods": [
+                {
+                    "Name": "Get Report Instance (Tabular)",
+                    "Description": "Retrieves the specified report instance. Response fields must be added as custom fields with the Field Location [].<FieldName> (example: [].CreatedDate). Use Get Report Fields to find all available fields for the report.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Generate Report Instance",
+                    "Description": "Generates an instance of the specified report which can then be retrieved with the Get Report Instance method.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Reports",
+                    "Description": "Retrieves all reports.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Report Fields",
+                    "Description": "Retrieves all fields/columns from the specified report.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Report Instances",
+                    "Description": "Retrieves all instances of the specified report.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaign Members",
+            "Methods": [
+                {
+                    "Name": "Get Campaign Member",
+                    "Description": "Gets a campaign member by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Campaign Member",
+                    "Description": "Creates a new campaign member or updates an existing campaign member based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign Member",
+                    "Description": "Creates a new campaign member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaign Members",
+                    "Description": "Lists campaign members.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign Member",
+                    "Description": "Updates a campaign member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign Member",
+                    "Description": "Deletes a campaign member.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunity Line Items",
+            "Methods": [
+                {
+                    "Name": "Create Line Item",
+                    "Description": "Creates a new opportunity line item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Line Items",
+                    "Description": "Lists opportunity line items created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Line Items",
+                    "Description": "Lists opportunity line items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Line Item",
+                    "Description": "Deletes an opportunity line item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Line Items",
+                    "Description": "Lists opportunity line items created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Line Item",
+                    "Description": "Updates an opportunity line item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Line Item",
+                    "Description": "Get line item for an opportunity by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bulk Operations",
+            "Methods": [
+                {
+                    "Name": "Get Job",
+                    "Description": "Retrieves detailed information about a job.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Job",
+                    "Description": "Deletes a job. To be deleted, a job must have a state of UploadComplete, JobComplete, Aborted, or Failed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Abort Job",
+                    "Description": "Aborts a job. If you abort a job, the job does not get queued or processed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upload CSV Data",
+                    "Description": "Uploads data for a job using CSV data you provide.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Jobs",
+                    "Description": "Retrieves all jobs in the organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Insert Job",
+                    "Description": "Creates a job, which represents a bulk operation (and associated data) that is sent to Salesforce for asynchronous processing.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Close Job",
+                    "Description": "Closes a job. If you close a job, Salesforce queues the job and uploaded data for processing, and you can\u2019t add any additional job data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "SOQL Query",
+            "Methods": [
+                {
+                    "Name": "Execute SOQL Query",
+                    "Description": "This method allows user the capability to query any data in SalesForce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Bulk Update Contacts",
+                    "Description": "Updates a batch of contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact(s) By Mobile Number",
+                    "Description": "Gets the contact(s) with the specified mobile number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Create Contacts",
+                    "Description": "Creates a batch of new contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "Creates a new contact or updates an existing contact based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Contact Exists For ID",
+                    "Description": "Checks if a contact exists with the specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Contact Exists For Email Address",
+                    "Description": "Checks whether any contacts exist for the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets the contact with the specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Lists contacts created, modified or deleted since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact(s) By Email",
+                    "Description": "Gets the contact(s) with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Lists contacts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact ID",
+                    "Description": "Gets the Contact ID associated with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact's details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Owner ID",
+                    "Description": "Lists all contacts by owner ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts by Owner ID",
+                    "Description": "Lists contacts created since the last run filtered by Owner ID. (Do not use Additional Custom Conditions as they are solved in script for this method).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Lists all contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pricebooks",
+            "Methods": [
+                {
+                    "Name": "Get Pricebook Entry",
+                    "Description": "Gets a pricebook entry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pricebook Entries",
+                    "Description": "Lists entries to a specified pricebook.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pricebooks",
+                    "Description": "Lists all pricebooks.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Accounts By Custom Field",
+                    "Description": "Lists accounts by a custom field, where <Field> equals <Criteria>.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Accounts",
+                    "Description": "Lists accounts created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Account",
+                    "Description": "Creates a new account or updates an existing account based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Lists accounts from Salesforce.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Accounts",
+                    "Description": "Lists accounts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Account",
+                    "Description": "Deletes an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account",
+                    "Description": "Updates an account. An account represents an organization or person involved with your business such as customers, competitors, and partners.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Account",
+                    "Description": "Creates a new account. An account represents an organization or person involved with your business such as customers, competitors, and partners.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Daily Activity History",
+                    "Description": "Retrieves activity history of the previous date for the specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Account's Activity History",
+                    "Description": "Retrieves activity history for the specified account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets an account by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts By PersonEmail",
+                    "Description": "Lists accounts by PersonEmail. This call will fail if Person Account types are not setup.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Events",
+                    "Description": "Lists events from this Salesforce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Events",
+                    "Description": "Lists events created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Event",
+                    "Description": "Deletes an event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Event",
+                    "Description": "Updates an existing event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event",
+                    "Description": "Creates a new event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event",
+                    "Description": "Gets an event by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Events",
+                    "Description": "Lists events created or modified since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunity Contact Roles",
+            "Methods": [
+                {
+                    "Name": "Delete Opportunity Role",
+                    "Description": "Deletes an opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Roles By Opportunity",
+                    "Description": "Lists opportunity contact roles for a specified opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunity Roles",
+                    "Description": "Lists opportunity contact roles created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity Role",
+                    "Description": "Gets an opportunity contact role by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact To Opportunity",
+                    "Description": "Adds an existing contact to an opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Opportunity Role",
+                    "Description": "Creates a new opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Roles",
+                    "Description": "Lists opportunity contact roles.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity Role",
+                    "Description": "Updates an opportunity contact role.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Primary Opportunity Role",
+                    "Description": "Gets the primary contact role for an opportunity. If no primary contact role is set, returns the first contact role if any were found.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunity Roles",
+                    "Description": "Lists opportunity contact roles created or modified since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaign Member Status",
+            "Methods": [
+                {
+                    "Name": "Update Campaign Member Status",
+                    "Description": "Updates a campaign member status. Only allows for the order of the status to be changed in the picklist.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign Member Status",
+                    "Description": "Deletes a campaign member status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign Member Status",
+                    "Description": "Creates a campaign member status.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaign Member Statuses",
+                    "Description": "Lists campaign member statuses.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Attachments",
+            "Methods": [
+                {
+                    "Name": "List Updated Attachments",
+                    "Description": "Lists attachments created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Attachments",
+                    "Description": "Lists attachments created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Attachment",
+                    "Description": "Gets an attachment by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Attachments",
+                    "Description": "Lists attachments from this Salesforce account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Attachment",
+                    "Description": "Updates an attachment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Attachment",
+                    "Description": "Deletes an attachment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Attachment",
+                    "Description": "Creates a new attachment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List Leads By Email",
+                    "Description": "Lists leads with the specified email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Lead",
+                    "Description": "Creates a new lead or updates an existing lead based on an external ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Leads",
+                    "Description": "Lists leads created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "Lists leads created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads",
+                    "Description": "Lists all leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "Deletes a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "Updates an existing lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "Creates a new lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Gets a lead by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads By Owner ID",
+                    "Description": "Lists leads created or modified since the last run for a specific owner account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enhanced Objects",
+            "Methods": [
+                {
+                    "Name": "Update Multiple Records",
+                    "Description": "Updates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Records",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Multiple Records",
+                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Record",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Record",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Record By ID",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Record",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Records",
+                    "Description": "Retrieves all records updated since the last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Records",
+                    "Description": "Retrieves all records created since the last successful run date.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Search",
+            "Methods": [
+                {
+                    "Name": "Search ",
+                    "Description": "Execute a SOSL search on all requested data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Order Items",
+            "Methods": [
+                {
+                    "Name": "List New Order Items",
+                    "Description": "Lists order items created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Item",
+                    "Description": "Gets an order item by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Order Items",
+                    "Description": "Lists order items created or modified since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Order Items",
+                    "Description": "Lists order items from Salesforce.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Create User",
+                    "Description": "Creates a new user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User By Name",
+                    "Description": "Gets a user by FullName.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Lists all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Zone Options",
+                    "Description": "Describes the options for the TimeZoneSid.",
+                    "MethodType": "Action",
+                    "Subcategory": "Picklists"
+                },
+                {
+                    "Name": "List Locale Options",
+                    "Description": "Describes the options for the LocaleSidKey.",
+                    "MethodType": "Action",
+                    "Subcategory": "Picklists"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Gets a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Profile ID By Name",
+                    "Description": "Gets a profile by name.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "List Profiles",
+                    "Description": "Lists all profiles.",
+                    "MethodType": "Action",
+                    "Subcategory": "Profiles"
+                },
+                {
+                    "Name": "List User Licenses",
+                    "Description": "Lists the currently defined user licenses in your organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User License By Name",
+                    "Description": "Get the details of the User License specified by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Language Options",
+                    "Description": "Describes the options for the LanguageLocaleKey.",
+                    "MethodType": "Action",
+                    "Subcategory": "Picklists"
+                },
+                {
+                    "Name": "Get Self",
+                    "Description": "Gets the current user's profile information.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Deletes a User.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Encoding Options",
+                    "Description": "Describes the options for the EmailEncodingKey.",
+                    "MethodType": "Action",
+                    "Subcategory": "Picklists"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Objects",
+            "Methods": [
+                {
+                    "Name": "Create Record 1",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "List Updated Records 1",
+                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "List New Records 1",
+                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Get External ID Field 2",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get Record By ID 2",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Create Multiple Records 1",
+                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Get Record By Custom Condition 1",
+                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Update Record 1",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Get Record By Custom Condition 3",
+                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Get Record By ID 3",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Create Record 3",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Upsert Record  3",
+                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Get External ID Field 3",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List New Records 3",
+                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List Records 3",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Update Record 3",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Create Multiple Records 3",
+                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "List Updated Records 3",
+                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Delete Record 3",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 3"
+                },
+                {
+                    "Name": "Get External ID Field 1",
+                    "Description": "Retrieves the field set as the External ID for the specified object, if an External ID has been configured.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Get Record By ID 1",
+                    "Description": "Retrieves the specified record from the specified object. Custom response fields must be added to retrieve more than just the Record ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Delete Record 1",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "List Records 1",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "Upsert Record  1",
+                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 1"
+                },
+                {
+                    "Name": "List New Records 2",
+                    "Description": "Retrieves the specified object's records created since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Create Multiple Records 2",
+                    "Description": "Creates multiple records. Custom request fields must be added for the properties of the record with the syntax [records].PropertyName (eg. [records].hairColour).",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Upsert Record 2",
+                    "Description": "Creates a new record or updates an existing record based on an External ID. Setup is required, details can be found @ docs.cyclr.com/salesforce-upsert-setup. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "List Updated Records 2",
+                    "Description": "Retrieves the specified object's records updated since the last time this action was executed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "List Records 2",
+                    "Description": "Retrieves all records from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Delete Record 2",
+                    "Description": "Deletes the specified record from the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Create Record 2",
+                    "Description": "Creates a new record in the specified object. (eg. a new Account record in the Accounts object). Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Update Record 2",
+                    "Description": "Updates the specified record in the specified object. Custom request fields must be added for the properties of the record.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "Get Record By Custom Condition 2",
+                    "Description": "Retrieves a single record from the specified object based on a custom condition. If multiple matching records are found, only the first is returned.",
+                    "MethodType": "Action",
+                    "Subcategory": "Object 2"
+                },
+                {
+                    "Name": "List Object Fields",
+                    "Description": "Retrieves all field names for the specified object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Utilities"
+                },
+                {
+                    "Name": "Describe Object",
+                    "Description": "Completely describes the individual metadata at all levels for the object.",
+                    "MethodType": "Action",
+                    "Subcategory": "Utilities"
+                },
+                {
+                    "Name": "List Objects",
+                    "Description": "Retrieves all objects within your Salesforce account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Utilities"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Integrate with Salesforce | CRM Automation | Cyclr",
+    "MetaDescription": "Create unique Salesforce Integrations with Cyclr's easy to use, drag & drop automation workflow builder, and let your users benefit from process automation. ",
+    "Screenshot": "data:image/png;base64,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",
+    "Content": "<p>Cyclr\u2019s integration platform, with easy to use drag and drop builder, allows you to create integration with Salesforce that lets your users make most of their CRM customer data; automatically streamline business processes in no time.</p> <p>Let your users integrate their Salesforce data with their favourite web apps to automate marketing, create bespoke sales workflows and manage contact integrity with less resources and time.  </p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/salesforce",
+    "DocumentationUrl": "https://help.salesforce.com",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/salesforce-connector"
+}

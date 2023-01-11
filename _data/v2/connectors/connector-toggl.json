@@ -1,0 +1,92 @@
+{
+    "Description": "Turn your team on to productivity with Toggl the time tracker. Break down your hours by projects, clients and tasks to see what\u2019s making you money.",
+    "Id": 12431,
+    "Name": "Toggl",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12431",
+    "Categories": [
+        "Product Management",
+        "Analytics",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "Get Client",
+                    "Description": "Gets the details of the specified Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clients",
+                    "Description": "Returns a list of Clients",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Client",
+                    "Description": "Creates a new Client.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Time Entries",
+            "Methods": [
+                {
+                    "Name": "Get Time Entry",
+                    "Description": "Get the details of the specified Time Entry.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Time Entries",
+                    "Description": "Returns a list of Time Entries for the specified time period.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Time Entry",
+                    "Description": "Create a Time Entry.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Get Project",
+                    "Description": "Gets the details of the specified Project",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Admin",
+            "Methods": [
+                {
+                    "Name": "Info",
+                    "Description": "Gets information about 'me'.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Workspaces",
+            "Methods": [
+                {
+                    "Name": "List Workspaces",
+                    "Description": "Returns a list of Workspaces",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

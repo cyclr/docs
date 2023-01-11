@@ -1,0 +1,305 @@
+{
+    "Description": "The software platform for managing and monetizing music assets Synchtank is an all-in-one cloud software platform that allows you to securely manage, market, pitch, sell and distribute your catalogue with ease.",
+    "Id": 12338,
+    "Name": "Synchtank",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12338",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Organization Contacts",
+            "Methods": [
+                {
+                    "Name": "List Organization Contacts",
+                    "Description": "List of organization contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Organization Contact",
+                    "Description": "Get organization contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organization Contact",
+                    "Description": "Update organization contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Organization Contact",
+                    "Description": "Delete organization contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Organization Contact",
+                    "Description": "Create new organization contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Web Organization Contact",
+                    "Description": "Create new web organization contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Organization Contacts",
+                    "Description": "List of new organization contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "List projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Get project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Project",
+                    "Description": "Update project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "Delete project by id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Project",
+                    "Description": "Create new project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Projects",
+                    "Description": "List new projects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "Get Organization",
+                    "Description": "Get organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Organization",
+                    "Description": "Delete organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations",
+                    "Description": "List of organizations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Organizations",
+                    "Description": "List of new organizations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Productions",
+            "Methods": [
+                {
+                    "Name": "Get Production",
+                    "Description": "Get production.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Production",
+                    "Description": "Update production.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Production",
+                    "Description": "Delete production.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Productions",
+                    "Description": "List of productions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Production",
+                    "Description": "Create new production.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Productions",
+                    "Description": "List of new productions.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Delete user by id.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "List users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create new user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Users",
+                    "Description": "List new users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clearance Requests",
+            "Methods": [
+                {
+                    "Name": "List Clearance Request Messages",
+                    "Description": "List clearance request messages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clearance Requests",
+                    "Description": "List clearance requests.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clearance Request",
+                    "Description": "Get clearance request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Clearance Request",
+                    "Description": "Update clearance request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Clearance Request",
+                    "Description": "Delete clearance request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Clearance Request Message",
+                    "Description": "Send clearance request message.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Clearance Request",
+                    "Description": "Create new clearance request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Clearance Request Messages",
+                    "Description": "List new clearance request messages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Clearance Requests",
+                    "Description": "List new clearance requests.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tracks",
+            "Methods": [
+                {
+                    "Name": "Get Track",
+                    "Description": "Get track.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Track",
+                    "Description": "Delete track.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tracks",
+                    "Description": "List tracks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Tracks",
+                    "Description": "List new tracks.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Playlist",
+            "Methods": [
+                {
+                    "Name": "List Playlists",
+                    "Description": "List of playlists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Playlists",
+                    "Description": "List of new playlists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Playlists",
+                    "Description": "List of updated playlists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Web Tracks",
+            "Methods": [
+                {
+                    "Name": "Get Web Track",
+                    "Description": "Get web track.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Web Tracks",
+                    "Description": "List web tracks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Web Tracks",
+                    "Description": "List new web tracks.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/synchtank"
+}

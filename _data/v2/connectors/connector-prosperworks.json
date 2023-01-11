@@ -1,0 +1,160 @@
+{
+    "Description": "ProsperWorks is the #1 CRM for G Suite. It is embedded into Gmail so you can update opportunities, add contacts, and manage your pipeline right from your inbox.",
+    "Id": 8503,
+    "Name": "Prosperworks",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8503",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Update Person",
+                    "Description": "This method allows you to update a People.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "This method allows you to delete a Person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person By Id",
+                    "Description": "This method allows you to get the details of a single Person by specifying a Person ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "This method allows you to add a Person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person By Email",
+                    "Description": "This method allows you to get the details of a single Person by specifying a Person Email Address",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get People",
+                    "Description": "This method allows you to get the details of all People.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Update Company",
+                    "Description": "This method allows you to update a Companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Company",
+                    "Description": "This method allows you to delete a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "This method allows you to get the details of a single Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Companies",
+                    "Description": "This method allows you to get the details of all Companies.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "This method allows you to update a Opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Opportunity",
+                    "Description": "This method allows you to delete a Opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "This method allows you to get the details of a single Opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunities",
+                    "Description": "This method allows you to get the details of all Opportunities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Update Project",
+                    "Description": "This method allows you to update a Projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "This method allows you to delete a Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "This method allows you to get the details of a single Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Projects",
+                    "Description": "This method allows you to get the details of all Projects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "Update Task",
+                    "Description": "This method allows you to update a Tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Task",
+                    "Description": "This method allows you to delete a Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "This method allows you to get the details of a single Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Task",
+                    "Description": "This method allows you to add a Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tasks",
+                    "Description": "This method allows you to get the details of all Tasks.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

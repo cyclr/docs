@@ -1,0 +1,96 @@
+{
+    "Description": "Add chat to any app with SDKs for mobile and web.",
+    "Id": 2569,
+    "Name": "Twilio Chat",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/2569",
+    "Categories": [
+        "Marketing",
+        "Chat",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Services",
+            "Methods": [
+                {
+                    "Name": "Get Services",
+                    "Description": "Gets all the chat services in the account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Messages",
+            "Methods": [
+                {
+                    "Name": "Message Sent",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Message Removed",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Message Updated",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Channels",
+            "Methods": [
+                {
+                    "Name": "Channel Added",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Channel Destroyed",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Channel Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List all Channels",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Channel",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Channel Members",
+            "Methods": [
+                {
+                    "Name": "Member Added",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Member Removed",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "User Updated",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Twilio Chat Integration | Chat Messaging Automation | Cyclr",
+    "MetaDescription": "Integrate your application with Twilio Chat to build your own automated chat services",
+    "Screenshot": null,
+    "Content": "<p>Create integrations between your application, Twilio Chat and any of our other connectors to create advanced automated chat services for your business and your users' businesses.</p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/twilio-chat",
+    "DocumentationUrl": "https://www.twilio.com/docs/api/chat",
+    "PartnerSetupGuideUrl": null
+}

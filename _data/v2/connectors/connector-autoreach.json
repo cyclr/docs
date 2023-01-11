@@ -1,0 +1,58 @@
+{
+    "Description": null,
+    "Id": 16861,
+    "Name": "AutoReach",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16861",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "List People",
+                    "Description": "Lists people",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "Updates a person",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "Creates a person",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Batch Upsert People",
+                    "Description": "Batch create or update people.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "Deletes a person",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List Custom Fields",
+                    "Description": "Lists custom fields",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

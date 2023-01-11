@@ -1,0 +1,30 @@
+<section class="intro">
+    <div class="intro-text">
+        <p>{{hubdata.text}}</p>
+    </div>
+</section>
+{% for section in hubdata.sections %}
+{% if section.display == true %}
+<section>
+    <div class="card py-4">
+        <h3 class="section-title border-bottom pb-3 mb-3">{{section.title}}</h3>
+        <div class="text">
+            {{section.text}}
+        </div>
+        <ul class="list-unstyled" id="list-{{section.title | slugify}}">
+            {% for  item in section.items %}
+            <li class="d-flex my-3 p-3 border rounded-5 bg-grey-20 position-relative">
+                <h4 class="h6 flex-sm-25 lh-base m-0"><strong>{{ item.title }}</strong></h4>
+                <p class="flex-grow-1 pe-5">{{ item.text }}</p>
+                <div class="ps-5">
+                    <a class="stretched-link" href="{{ item.url }}">
+                        <i class="icon icon-nextchevron fa-2x"></i>
+                    </a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+{% endfor %}

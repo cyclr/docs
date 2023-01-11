@@ -1,0 +1,237 @@
+{
+    "Description": "Pizza & Delivery POS that knows your business.",
+    "Id": 6719,
+    "Name": "Thr!ve",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6719",
+    "Categories": [
+        "POS",
+        "Billing/Payment",
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "List Employees",
+                    "Description": "Returns all employees of  a location.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee Report",
+                    "Description": "Gets all employee records from the past 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee Report Between Dates",
+                    "Description": "Gets all employee records between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee Record.",
+                    "Description": "Get a single employee record.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Get Order Summary Report",
+                    "Description": "Gets summary of orders for each hour within the last 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Report",
+                    "Description": "Gets all order events from the past 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Report Between Dates",
+                    "Description": "Gets all order events between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Summary Report Between Dates",
+                    "Description": "Gets summary of orders for each hour between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Event",
+                    "Description": "Gets a single order event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales",
+            "Methods": [
+                {
+                    "Name": "Get Sales Summary Report",
+                    "Description": "Get the days sales summary report.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sales Summary Report Between Dates",
+                    "Description": "Gets the summary of daily sales between the given dates.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "End of Day Deposit",
+            "Methods": [
+                {
+                    "Name": "Get End Of Day Deposit Report",
+                    "Description": "Gets all end of day deposit messages in the last 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get End Of Day Deposit Report Between Dates",
+                    "Description": "Gets all end of day deposit messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get End Of Day Deposit Event",
+                    "Description": "Gets a end of day deposit event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Drivers",
+            "Methods": [
+                {
+                    "Name": "Get Driver Close Report",
+                    "Description": "Gets all driver close messages from the past 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Driver Dispatch Report",
+                    "Description": "Gets all driver dispatch messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Driver Close Report Between Dates",
+                    "Description": "Gets all driver close messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Driver Dispatch Report Between Dates",
+                    "Description": "Gets all driver dispatch messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Driver Close Event",
+                    "Description": "Gets a single driver close message.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Driver Dispatch Event",
+                    "Description": "Gets a single driver dispatch event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cash Transfers",
+            "Methods": [
+                {
+                    "Name": "Get Cash Transfer Report",
+                    "Description": "Gets all cash transfer messages in the last 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Cash Transfer Report Between Dates",
+                    "Description": "Gets all cash transfer messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Cash Transfer Event",
+                    "Description": "Gets a single cash transfer message.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Servers",
+            "Methods": [
+                {
+                    "Name": "Get Server Close Report",
+                    "Description": "Gets all server close events from the past 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Server Close Report Between Dates",
+                    "Description": "Gets all server close events between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Server Close Event",
+                    "Description": "Gets a single server close event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Labor",
+            "Methods": [
+                {
+                    "Name": "Get Clock-In Report",
+                    "Description": "Gets all clock-in messages from the past 24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clock-Out Report",
+                    "Description": "Gets all clock-out messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Labor Report",
+                    "Description": "Gets all time clock events for the last  24 hours.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clock-In Report Between Dates",
+                    "Description": "Gets all clock-in messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clock-Out Report Between Dates",
+                    "Description": "Gets all clock-out messages between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Labor Report Between Dates",
+                    "Description": "Gets all time clock events between the given dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clock-In Event",
+                    "Description": "Get a single clock-in event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Clock-Out Event",
+                    "Description": "Gets a single clock-out event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Labor Event",
+                    "Description": "Gets a single time clock event.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

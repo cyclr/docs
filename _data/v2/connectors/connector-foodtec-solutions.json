@@ -1,0 +1,36 @@
+{
+    "Description": "Integrated Point of Sale (POS) Solutions for the Restaurant & Pizza Industry. Tap into our experience and transform your Restaurant Business Today!",
+    "Id": 14225,
+    "Name": "FoodTec Solutions",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14225",
+    "Categories": [
+        "Miscellaneous",
+        "POS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Lists a store's orders on a specified date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Lists a store's orders since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/foodtec-solutions-connector"
+}

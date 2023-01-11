@@ -1,0 +1,92 @@
+{
+    "Description": "Spa & Salon Management that takes care of the booking, payment, customer management, and marketing...  so you can take care of your customers.",
+    "Id": 7998,
+    "Name": "Booker",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7998",
+    "Categories": [
+        "CRMs",
+        "Calendars",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Get a list of all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Get a list of all customers created since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Get a list of all modified customers since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Customer(s)",
+                    "Description": "Get a list of all customers matching search criteria.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a list of customers by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Get a list of all orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get an order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Get a list of all orders created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "Get a list of all orders updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Locations",
+            "Methods": [
+                {
+                    "Name": "List All Locations",
+                    "Description": "Get a list of all locations.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find Location",
+                    "Description": "Get a location.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

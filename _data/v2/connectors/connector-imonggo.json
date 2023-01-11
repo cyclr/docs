@@ -1,0 +1,35 @@
+{
+    "Description": "Imonggo is the first free cloud-based POS retail management solution for SMB and SME. Begin managing your store or restaurant effortlessly!",
+    "Id": 14317,
+    "Name": "Imonggo",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14317",
+    "Categories": [
+        "POS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Invoices",
+            "Methods": [
+                {
+                    "Name": "List Updated Invoices",
+                    "Description": "List all invoices updated since Last Successful Run Date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Invoices",
+                    "Description": "List all invoices.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

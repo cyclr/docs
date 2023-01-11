@@ -1,0 +1,77 @@
+{
+    "Description": "Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.",
+    "Id": 17052,
+    "Name": "Google Analytics",
+    "Version": "V3",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17052",
+    "Categories": [
+        "Marketing",
+        "Analytics",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "User Activity",
+            "Methods": [
+                {
+                    "Name": "List User Activity Sessions",
+                    "Description": "List all activity sessions of a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Views (Profiles)",
+            "Methods": [
+                {
+                    "Name": "List Views (Profiles)",
+                    "Description": "Lists views (profiles) to which the user has access.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Properties",
+            "Methods": [
+                {
+                    "Name": "Get Property",
+                    "Description": "Get property by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Properties",
+                    "Description": "Lists properties to which the user has access.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reporting",
+            "Methods": [
+                {
+                    "Name": "List Core Metrics by Source - v3",
+                    "Description": "Retrieves core metrics by Source/Medium value. Includes: Users, Sessions, Goal Completions, Page Views Per Session, Average Session Duration, Bounce Rate, Goal Conversion Rate. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Metrics - v3",
+                    "Description": "Retrieves the given metric. Go to the following link for a comprehensive list of Dimensions & Metrics; https://ga-dev-tools.web.app/dimensions-metrics-explorer/",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Metrics - v4",
+                    "Description": "Retrieves the given metric. Go to the following link for a comprehensive list of Dimensions & Metrics; https://ga-dev-tools.web.app/dimensions-metrics-explorer/",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-authentication"
+}

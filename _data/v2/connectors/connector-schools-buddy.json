@@ -1,0 +1,30 @@
+{
+    "Description": "SchoolsBuddy's school software system combines activities management, online payments, parent communications, school bookings, and more.",
+    "Id": 12199,
+    "Name": "Schools Buddy",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12199",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Meetings",
+            "Methods": [
+                {
+                    "Name": "Meeting Webhook",
+                    "Description": "Receives a collection of meetings.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

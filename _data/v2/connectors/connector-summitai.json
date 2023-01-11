@@ -1,0 +1,56 @@
+{
+    "Description": "An AI-driven IT and Enterprise Service Management Suite",
+    "Id": 12578,
+    "Name": "SummitAI",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12578",
+    "Categories": [
+        "Chat",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Incidents",
+            "Methods": [
+                {
+                    "Name": "List Incidents",
+                    "Description": "Retrieve the incident list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Incident",
+                    "Description": "Create and log a new incident. To create custom fields these must be added in the format objCommonParameters.incidentParamsJSON.IncidentContainerJsonObj.CustomFields.<Group name__Name>.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Incidents",
+                    "Description": "Retrieve the list of new incidents since last successful run date.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Incident",
+                    "Description": "Update and incident. To update custom fields these must be added in the format objCommonParameters.incidentParamsJSON.IncidentContainerJsonObj.CustomFields.<Group name__Name>.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Download File",
+                    "Description": "Download a file.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

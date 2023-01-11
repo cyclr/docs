@@ -1,0 +1,140 @@
+{
+    "Description": "Promotion Management System for Digital Teams - launch contextual coupon, referral, discount, and loyalty campaigns faster.",
+    "Id": 12384,
+    "Name": "Voucherify",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12384",
+    "Categories": [
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Vouchers",
+            "Methods": [
+                {
+                    "Name": "Get Voucher",
+                    "Description": "Get voucher by code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Vouchers",
+                    "Description": "List all vouchers",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Voucher",
+                    "Description": "Create a Voucher.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Vouchers",
+                    "Description": "List all vouchers created since last cycle run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Vouchers",
+                    "Description": "List all vouchers updated since last cycle run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Import Vouchers",
+                    "Description": "Create vouchers using arrays of data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List all customers created since last cycle run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Create a new customer. To add metadata add a customfield with the format \"metadata.mycustfield\" to the request fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List SKU'S",
+                    "Description": "List all SUK's.",
+                    "MethodType": "Action",
+                    "Subcategory": "SKUS"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List all products",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get SKU",
+                    "Description": "Get SKU details.",
+                    "MethodType": "Action",
+                    "Subcategory": "SKUS"
+                },
+                {
+                    "Name": "Create SKU",
+                    "Description": "Create a new SKU. To add metadata add a custom field with the format \"metadata.mycustfield\" to the request fields.",
+                    "MethodType": "Action",
+                    "Subcategory": "SKUS"
+                },
+                {
+                    "Name": "Update SKU",
+                    "Description": "Update a SKU.",
+                    "MethodType": "Action",
+                    "Subcategory": "SKUS"
+                },
+                {
+                    "Name": "Delete SKU",
+                    "Description": "Delete a SKU.",
+                    "MethodType": "Action",
+                    "Subcategory": "SKUS"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product",
+                    "Description": "Delete a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update a product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a new product.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/voucherify-connector"
+}

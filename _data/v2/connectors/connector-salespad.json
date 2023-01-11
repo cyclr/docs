@@ -1,0 +1,174 @@
+{
+    "Description": "SalesPad was designed by distributors with day-to-day operations in mind. Gone are the days of ERP that catered solely to the accounting crowd.",
+    "Id": 16110,
+    "Name": "SalesPad",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16110",
+    "Categories": [
+        "ERP",
+        "Billing/Payment",
+        "CRMs",
+        "Ecommerce",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Search Customers by Name",
+                    "Description": "Get a list of customer records with match by name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer And Address",
+                    "Description": "Create a customer with address in Salespad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Create a customer in Salespad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "Returns a list of customers that have been modified since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get Customer By Customer Number.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Customers",
+                    "Description": "Search customer records using OData filtering.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Get a list of customer records.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer Number",
+                    "Description": "Create a new unique Customer Number for a new Customer based on their name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Update a SalesPad customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customer Addresses",
+            "Methods": [
+                {
+                    "Name": "Find Addresses  by Zip Code",
+                    "Description": "Finds Addresses matching the supplied Zip Code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Address Codes",
+                    "Description": "Get Customer Address Codes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer Address",
+                    "Description": "Get a customers address record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Addresses",
+                    "Description": "Search address records using OData filtering.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer Address",
+                    "Description": "Update a customer address.  Add custom fields in the following format: userfields.fieldname - for example userfields.XDealerCode",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer Address",
+                    "Description": "Creates a customer address. Add custom fields in the following format: userfields.fieldname - for example userfields.XDealerCode",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Items",
+            "Methods": [
+                {
+                    "Name": "Copy Item",
+                    "Description": "Copy existing Item to new Item and update from ItemMaster body before saving.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Item",
+                    "Description": "Creates an item record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Item",
+                    "Description": "Updates an item record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Items",
+                    "Description": "Get item records.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Item",
+                    "Description": "Get an item record.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales Documents",
+            "Methods": [
+                {
+                    "Name": "List Sales Documents",
+                    "Description": "List sales documents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales Document",
+                    "Description": "Creates a sales document record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sales Document",
+                    "Description": "Get the requested sales documents.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sales Document",
+                    "Description": "Updates a sales document record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales Line Item",
+                    "Description": "Creates a sales line item record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales Document Payment",
+                    "Description": "Creates a sales document payment record.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

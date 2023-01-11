@@ -1,0 +1,19 @@
+title: Community Site
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+tiles: 
+    - title: Forum
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      faicon: stack-exchange
+      url: /community-forum
+    - title: Chat
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      faicon: comment
+      url: /community-chat
+    - title: Links
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      faicon: link
+      url: /community-links
+    - title: Blog
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      faicon: blog
+      externalurl: https://cyclr.com/blog

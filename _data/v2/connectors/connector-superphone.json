@@ -1,0 +1,40 @@
+{
+    "Description": "SuperPhone is a powerful, scalable, 1-to-1 text marketing platform that helps you build deeper relationships by keeping you top of mind.",
+    "Id": 8652,
+    "Name": "SuperPhone",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8652",
+    "Categories": [
+        "Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Contacts",
+                    "Description": "Lists all contacts for this SuperPhone account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets a single contact by ID, phone number or email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Lists contacts created since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/superphone-connector"
+}

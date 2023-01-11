@@ -1,0 +1,167 @@
+{
+    "Description": "Azure DevOps helps you plan your project with Agile tools, manages your code using Git, and deploys your code.",
+    "Id": 14919,
+    "Name": "Microsoft Azure DevOps",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14919",
+    "Categories": [
+        "Databases",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Audit Logs",
+            "Methods": [
+                {
+                    "Name": "List Audit Logs",
+                    "Description": "Gets a list of all audit logs.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Work Item Metadata",
+            "Methods": [
+                {
+                    "Name": "List Work Item Types",
+                    "Description": "Gets a list of all work item types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Work Item Fields.",
+                    "Description": "Gets a list of all fields for a work item.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Work Items",
+            "Methods": [
+                {
+                    "Name": "List Work Item IDs",
+                    "Description": "Gets a list of all work item IDs in a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Work Items Batch",
+                    "Description": "Gets a list of all work items in a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Work Item IDs",
+                    "Description": "Gets a list of all updated work item IDs in a project since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Work Item",
+                    "Description": "Deletes a work item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Work Item",
+                    "Description": "Creates a work item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Work Item IDs",
+                    "Description": "Gets a list of all new work item IDs in a project since last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Work Item",
+                    "Description": "Updates a work item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Work Item",
+                    "Description": "Gets a work item.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Accounts",
+                    "Description": "Gets a list of all accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Gets a list of all users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Recycle Bin",
+            "Methods": [
+                {
+                    "Name": "List Work Items in Recycle Bin",
+                    "Description": "Gets a list of all work items in the recycle bin.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "Gets a list of all projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Get project by ID or name.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "Get Project ID",
+                    "Description": "Get project by ID or name.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Work Item Updated",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Work Items"
+                },
+                {
+                    "Name": "Work Item Deleted",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Work Items"
+                },
+                {
+                    "Name": "Work Item Created",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Work Items"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/azure-devops-connector"
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "Description": "3D Cart makes it easy to build the perfect website for your business and start selling your products or services online.",
+    "Id": 15811,
+    "Name": "3D Cart",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15811",
+    "Categories": [
+      "Ecommerce"
+    ]
+  },
+  {
+    "Description": "CRM & Marketing Automation built for small & midsized business success.",
+    "Id": 15578,
+    "Name": "Act!",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15578",
+    "Categories": [
+      "CRMs",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "Active Campaign is a powerful email marketing platform.",
+    "Id": 12608,
+    "Name": "ActiveCampaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12608",
+    "Categories": [
+      "CRMs",
+      "Email Marketing",
+      "Sales",
+      "SMS"
+    ]
+  },
+  {
+    "Description": null,
+    "Id": 12359,
+    "Name": "Administrate",
+    "Version": "v2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12359",
+    "Categories": [
+      "CRMs"
+    ]
+  },
+  {
+    "Description": "A set of solutions that help you personalize and deliver campaigns across all of your online and offline channels.",
+    "Id": 12363,
+    "Name": "Adobe Campaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12363",
+    "Categories": [
+      "Customer Experience",
+      "Email Marketing"
+    ]
+  },
+  {
+    "Description": "ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.",
+    "Id": 14066,
+    "Name": "ADP",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14066",
+    "Categories": [
+      "HR/Payroll"
+    ]
+  },
+  {
+    "Description": "Create a highly converting, professional landing page within AdPage's powerful page builder.",
+    "Id": 11818,
+    "Name": "AdPage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11818",
+    "Categories": [
+      "Marketing"
+    ]
+  },
+  {
+    "Description": "Aesthetic Record helps you run your entire clinic from any computer, taking care of all business aspects, from anywhere in the world.",
+    "Id": 8271,
+    "Name": "Aesthetic Record",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8271",
+    "Categories": [
+      "CRMs",
+      "Healthcare/Wellness"
+    ]
+  },
+  {
+    "Description": "Aircall empowers teams to ace every call with a phone system specifically built for their favorite business tools.",
+    "Id": 12369,
+    "Name": "Aircall",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12369",
+    "Categories": [
+      "Chat",
+      "Customer Experience",
+      "Ecommerce",
+      "Sales",
+      "SMS",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Airship helps to acquire new customer through mobile first experiences and messaging at each stage of the customer lifecycle.",
+    "Id": 14161,
+    "Name": "Airship",
+    "Version": null,
+    "Status": "Planned",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14161",
+    "Categories": [
+      "Customer Experience",
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes.",
+    "Id": 15136,
+    "Name": "Airtable",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15136",
+    "Categories": [
+      "Collaboration",
+      "Developer Tools"
+    ]
+  },
+  {
+    "Description": "Our technology powers the travel industry. We help connect over 1.5 billion people a year to local travel providers in over 190 countries.",
+    "Id": 15466,
+    "Name": "Amadeus",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15466",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Amadeus provides the technology which keep the travel sector moving. ",
+    "Id": 11855,
+    "Name": "Amadeus Sandbox",
+    "Version": "1.2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11855",
+    "Categories": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "Description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.",
+    "Id": 11435,
+    "Name": "Amazon EC2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11435",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Help you with Backup, Archive, Big Data Analytics, Disaster Recovery, and much more.",
+    "Id": 16113,
+    "Name": "Amazon S3",
+    "Version": "2006-03-01",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16113",
+    "Categories": [
+      "Analytics",
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "The Answerbase Q&A Platform facilitates users being able to ask questions, browse Q&A content, and receive quality answers.",
+    "Id": 7384,
+    "Name": "Answerbase",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7384",
+    "Categories": [
+      "Customer Experience",
+      "Developer Tools",
+      "Support"
+    ]
+  },
+  {
+    "Description": "Our library is ever growing. However, our team can accelerate the development of a particular Connector you require. We will liaise with you over your requirements, discuss any associated fee and agree the specification prior to build.",
+    "Id": 6624,
+    "Name": "Any Other Application",
+    "Version": null,
+    "Status": "Planned",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6624",
+    "Categories": [
+      "HR/Payroll",
+      "ERP",
+      "Marketing",
+      "Product Management",
+      "POS",
+      "Collaboration",
+      "Dashboarding",
+      "Accounting",
+      "Analytics",
+      "Billing/Payment",
+      "Blogs",
+      "Chat",
+      "CRMs",
+      "Customer Experience",
+      "Databases",
+      "Data Tools",
+      "Developer Tools",
+      "Ecommerce",
+      "Email Marketing",
+      "Forms",
+      "Project Management",
+      "Sales",
+      "SMS",
+      "Social Media",
+      "Support",
+      "Surveys",
+      "Calendars",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "APPX is the premier development and run-time environment for business application software.",
+    "Id": 741,
+    "Name": "Appx",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/741",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  },
+  {
+    "Description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work.",
+    "Id": 15982,
+    "Name": "Asana",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15982",
+    "Categories": [
+      "Product Management",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Automated dialer to help your sales team close more deals.",
+    "Id": 15050,
+    "Name": "AutoReach",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15050",
+    "Categories": [
+      "Sales"
+    ]
+  },
+  {
+    "Description": "Datto’s Autotask Professional Services Automation (PSA) is a powerful and intuitive cloud-based PSA platform providing a singular view of the entire business - enabling MSPs to centralize business operations and make data-driven decisions to improve service, productivity and profitability.",
+    "Id": 12859,
+    "Name": "Autotask",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12859",
+    "Categories": [
+      "Dashboarding",
+      "Data Tools",
+      "Project Management"
+    ]
+  },
+  {
+    "Description": "Centrally manage and automate backups across AWS services.",
+    "Id": 12043,
+    "Name": "AWS Backup",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12043",
+    "Categories": [
+      "Developer Tools",
+      "DevOps"
+    ]
+  }
+]

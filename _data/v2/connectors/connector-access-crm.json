@@ -1,0 +1,370 @@
+{
+    "Description": "Access helps customers transform the way their business software is used, giving every employee the freedom to do more of what\u2019s important.",
+    "Id": 17131,
+    "Name": "Access CRM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17131",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User By ID",
+                    "Description": "Retrieves the user specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "List Clients",
+                    "Description": "Retrieves all clients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client Custom Fields",
+                    "Description": "Retrieves the custom fields for the specified client. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: clientCustomField.clientID or Field Location: clientCustomField.clientURN)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clients Custom Fields",
+                    "Description": "Retrieves all the clients custom fields. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: [clientCustomField].clientURN or Field Location: [clientCustomField].engagementType).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Clients",
+                    "Description": "Retrieves clients that have been created or updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Clients",
+                    "Description": "Retrieves clients created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client By ID",
+                    "Description": "Retrieves the client specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client Custom Fields",
+                    "Description": "Updates the given applicant client Fields value. The custom fields you wish to update must be added to the request mappings with the key as the Field Location. (example: Field Location: client.clientURN or Field Location: client.sageRef).",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Consultant Users",
+            "Methods": [
+                {
+                    "Name": "Get Contact Consultant User By Contact ID",
+                    "Description": "Retrieves a contact consultant user by contact ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Consultant Users",
+                    "Description": "Retrieves all contact consultant users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sectors",
+            "Methods": [
+                {
+                    "Name": "Get Sector By ID",
+                    "Description": "Retrieves the sector specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sectors",
+                    "Description": "Retrieves all sectors.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Applicants",
+            "Methods": [
+                {
+                    "Name": "Get Applicant By ID",
+                    "Description": "Retrieves the applicant specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Applicants",
+                    "Description": "Retrieves applicants updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Applicant Stored Docs",
+                    "Description": "Retrieves all applicant stored docs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Applicants",
+                    "Description": "Retrieves applicants created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Applicant By Email Address",
+                    "Description": "Retrieves the applicant specified by primary email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Applicant Custom Fields",
+                    "Description": "Retrieves the custom fields for the specified applicant. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: bonus_paid or Field Location: cVProvided)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Applicants",
+                    "Description": "Retrieves all applicants.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Applicant Custom Fields",
+                    "Description": "Updates the given applicant Custom Fields value. The custom fields you wish to update must be added to the request mappings with the key as the Field Location. (example: Field Location: applicant.candidate_discipline_sought or Field Location: applicant.leadScore).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Applicants Custom Fields",
+                    "Description": "Retrieves all the applicants custom fields. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: [applicant].personID or Field Location: [applicant].applicantName).",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Saved Tag File Lists",
+            "Methods": [
+                {
+                    "Name": "List Saved Tag File List Contents By Client ID",
+                    "Description": "Retrieves the contents of saved tag file lists related to the specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Saved Tag File Lists",
+                    "Description": "Retrieves all saved tag file lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Saved Tag File List Contents By Applicant ID",
+                    "Description": "Retrieves the contents of saved tag file lists related to the specified applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Saved Tag File List Contents",
+                    "Description": "Retrieves the contents of all saved tag file lists.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "Get Person By ID",
+                    "Description": "Retrieves the person specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "List Values",
+            "Methods": [
+                {
+                    "Name": "Get List Value",
+                    "Description": "Retrieves the list value specified by ID. For example to retrieve the properties of a title object by Title Value ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Attributes",
+            "Methods": [
+                {
+                    "Name": "List Contact Attributes By Applicant ID",
+                    "Description": "Retrieves all contact attributes for the specified applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Attributes By Contact ID",
+                    "Description": "Retrieves all contact attributes for the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Attributes",
+                    "Description": "Retrieves all contact attributes.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Update Contact Custom Fields",
+                    "Description": "Updates the given contact client Fields value. The custom fields you wish to update must be added to the request mappings with the key as the Field Location. (example: Field Location: contact.leadScoreContact or Field Location: contact.activityLinkContact).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Retrieves the contact specified by ID. Custom Fields can be added to the response field mappings with a Field Location of customFields.<someField> eg. customFields.myCustomField",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Retrieves all contacts. Custom Fields can be added to the response field mappings with a Field Location of [contact].customFields.<someField> eg. [contact].customFields.myCustomField",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Retrieves contacts updated since the last time this action was executed. Custom Fields can be added to the response field mappings with a Field Location of [contact].customFields.<someField> eg. [contact].customFields.myCustomField",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By Email Address",
+                    "Description": "Retrieves the contact specified by primary email address. Custom Fields can be added to the response field mappings with a Field Location of customFields.<someField> eg. customFields.myCustomField",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Type",
+                    "Description": "Retrieves the contact type specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Retrieves contacts created since the last time this action was executed. Custom Fields can be added to the response field mappings with a Field Location of [contact].customFields.<someField> eg. [contact].customFields.myCustomField",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Custom Fields",
+                    "Description": "Retrieves the custom fields for the specified contact. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: leadScoreContact or Field Location: sMSStatusContact)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts Custom Fields",
+                    "Description": "Retrieves all the Contacts custom fields. The custom fields you wish to retrieve must be added to the response mappings with the key as the Field Location. (example: Field Location: [contactCustomField].leadScoreContact or Field Location: [contactCustomField].sMSStatusContact)",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Jobs",
+            "Methods": [
+                {
+                    "Name": "List Jobs By Client",
+                    "Description": "Retrieves jobs for the specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Jobs By Contact",
+                    "Description": "Retrieves jobs for the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job",
+                    "Description": "Retrieves the job specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Nationalities",
+            "Methods": [
+                {
+                    "Name": "List Nationalities",
+                    "Description": "Retrieves all nationalities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Nationality",
+                    "Description": "Retrieves the nationality specified by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Placements",
+            "Methods": [
+                {
+                    "Name": "List Permanent Placements By Client",
+                    "Description": "Retrieves permanent placements for the specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Placements By Applicant",
+                    "Description": "Retrieves placements for the specified applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Permanent Placements",
+                    "Description": "Retrieves all permanent placements.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Permanent Placements By Contact",
+                    "Description": "Retrieves permanent placements for the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Permanent Placements By Applicant",
+                    "Description": "Retrieves permanent placements for the specified applicant.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Timesheets",
+            "Methods": [
+                {
+                    "Name": "List Timesheets By Applicant",
+                    "Description": "Retrieves timesheets for the specified applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Timesheet",
+                    "Description": "Retrieves the timesheet specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Timesheets By Placement",
+                    "Description": "Retrieves timesheets for the specified placement.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Timesheets",
+                    "Description": "Retrieves timesheets created since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Timesheets",
+                    "Description": "Retrieves all timesheets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Timesheets By Client",
+                    "Description": "Retrieves timesheets for the specified client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Timesheets",
+                    "Description": "Retrieves timesheets updated since the last time this action was executed.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/access-crm-connector"
+}

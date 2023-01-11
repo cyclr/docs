@@ -1,0 +1,95 @@
+{
+    "Description": "Use Infusionsoft to automate your small business sales and marketing, while combining your CRM, email marketing, lead capture and e-commerce in one place.",
+    "Id": 12547,
+    "Name": "Infusionsoft",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12547",
+    "Categories": [
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Retrieves the details of the specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Lists all contacts, optionally filtered by email, first name or last name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Lists contacts updated since the last run, optionally filtered by email, first name or last name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "A duplicate check will be performed. If a matching email address is found, the existing contact will be updated. If no match is found, a new contact will be created.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Appointments",
+            "Methods": [
+                {
+                    "Name": "List New Appointments",
+                    "Description": "Retrieves appointments for the authenticated user since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Appointments",
+                    "Description": "Retrieves appointments for the authenticated user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "Add Tag To Contacts",
+                    "Description": "Apply a tag to a list of contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Tag From Contact",
+                    "Description": "Remove a tag from a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tags",
+                    "Description": "Retrieve a list of tags defined in the application.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Account Profile",
+                    "Description": "Retrieves the details of the account profile.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/infusionsoft-connector"
+}

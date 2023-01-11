@@ -1,0 +1,101 @@
+{
+    "Description": "A set of solutions that help you personalize and deliver campaigns across all of your online and offline channels.",
+    "Id": 12363,
+    "Name": "Adobe Campaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12363",
+    "Categories": [
+        "Customer Experience",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Profiles",
+            "Methods": [
+                {
+                    "Name": "Update Profile",
+                    "Description": "Updates a Profile.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Profile",
+                    "Description": "Gets a Profile.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Profile",
+                    "Description": "Deletes a Profile.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Profile",
+                    "Description": "Create a Profile.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Profiles",
+                    "Description": "Gets a List of All Profiles.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "List Profile Subscriptions",
+                    "Description": "Get a Profile's Subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete a Service Subscription",
+                    "Description": "Delete a Profile's Service Subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete a Profile Subscription",
+                    "Description": "Delete a Profile's Subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Service Subscription",
+                    "Description": "Add a Subscription to a Profile for a given Service.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List All Subscribed Profiles",
+                    "Description": "Get a List of Profiles Subscribed to a Service.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "History",
+            "Methods": [
+                {
+                    "Name": "Get Profile History",
+                    "Description": "Get a Profile's Marketing History.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Get Profile Events",
+                    "Description": "Get a List of Events for a Profile.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/adobe-campaign-connector"
+}

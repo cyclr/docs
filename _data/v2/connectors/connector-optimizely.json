@@ -1,0 +1,501 @@
+{
+    "Description": "Optimizely is the world's leading progressive delivery & experimentation platform. Empowering engineering, product & marketing teams ship high-quality code & experiences faster & with data-driven confidence in the results.",
+    "Id": 12024,
+    "Name": "Optimizely",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12024",
+    "Categories": [
+        "Marketing",
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Attributes",
+            "Methods": [
+                {
+                    "Name": "List Attributes",
+                    "Description": "List Attributes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Attribute",
+                    "Description": "Delete an Attribute.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Attribute",
+                    "Description": "Read an Attribute.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Attribute",
+                    "Description": "Update an Attribute.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Audiences",
+            "Methods": [
+                {
+                    "Name": "List Audiences",
+                    "Description": "List Audiences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Audience",
+                    "Description": "Read an Audience.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Audience",
+                    "Description": "Update an Audience.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Audience",
+                    "Description": "Create an Audience.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Impressions Usage",
+            "Methods": [
+                {
+                    "Name": "List Impression Usage Request",
+                    "Description": "List Impressions Usages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Impressions Usage Summary Request",
+                    "Description": "Get Impressions Usage Summary.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "List Campaigns.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Create a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Campaign",
+                    "Description": "Delete a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Read a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Campaign",
+                    "Description": "Update a Campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign Results",
+                    "Description": "Get Campaign results.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Change History",
+            "Methods": [
+                {
+                    "Name": "List Change History",
+                    "Description": "Retrieve changes for a project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Environments",
+            "Methods": [
+                {
+                    "Name": "List Environments",
+                    "Description": "Get Environments by Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Environment",
+                    "Description": "Archive an Environment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Environment",
+                    "Description": "Read an Environment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Environment",
+                    "Description": "Update an Environment",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Datafile",
+                    "Description": "Read the datafile of an Environment. Requires custom fields to map the datafiles data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Environment",
+                    "Description": "Create an Environment.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Events",
+                    "Description": "List all Events.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event",
+                    "Description": "Get Event by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create In-Page Event",
+                    "Description": "Create an In-Page Event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete In-Page Event",
+                    "Description": "Delete an In-Page Event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update In-Page Event",
+                    "Description": "Update an In-Page Event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Custom Event",
+                    "Description": "Create a Custom Event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Custom Event",
+                    "Description": "Delete a Custom Event.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Custom Event",
+                    "Description": "Update a Custom Event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Experiments",
+            "Methods": [
+                {
+                    "Name": "List Experiments",
+                    "Description": "List Experiments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Experiment",
+                    "Description": "Create an Experiment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Experiment",
+                    "Description": "Delete an Experiment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Experiment",
+                    "Description": "Read an Experiment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Experiment",
+                    "Description": "Update an Experiment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Experiment Results",
+                    "Description": "Get Experiment results.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Experiment Time Series",
+                    "Description": "Get Experiment results time series.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "get_experiment_results_csv",
+                    "Description": "Get Experiment results as a CSV",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sections",
+            "Methods": [
+                {
+                    "Name": "List Experiment Sections",
+                    "Description": "Read all the Sections in a Multivariate Test.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Section",
+                    "Description": "Create a new Section in a Multivariate Test.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Section",
+                    "Description": "Archive a Section by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Section",
+                    "Description": "Read a Section of a Multivariate Test",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Section",
+                    "Description": "Update a Section by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Export Credentials",
+            "Methods": [
+                {
+                    "Name": "Get Enriched Events Export Credentials",
+                    "Description": "Get AWS credentials to access enriched events dataset.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Extensions",
+            "Methods": [
+                {
+                    "Name": "List Extensions",
+                    "Description": "List Extensions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Extension",
+                    "Description": "Archive an Extension",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Extension",
+                    "Description": "Get an Extension.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Extension",
+                    "Description": "Update an Extension.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Extension",
+                    "Description": "Create an Extension.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Features",
+            "Methods": [
+                {
+                    "Name": "List Features",
+                    "Description": "Get Features by Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Feature",
+                    "Description": "Archive a Feature.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Feature",
+                    "Description": "Read a Feature.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Feature",
+                    "Description": "Update a Feature.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Feature",
+                    "Description": "Create a Feature.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Groups",
+                    "Description": "List Exclusion Groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Group",
+                    "Description": "Archive an Exclusion Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Group",
+                    "Description": "Get an Exclusion Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Group",
+                    "Description": "Update an Exclusion Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Group",
+                    "Description": "Create an Exclusion Group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "List Attributes",
+            "Methods": [
+                {
+                    "Name": "List \"List Attributes\"",
+                    "Description": "Get list attributes by project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete List Attribute",
+                    "Description": "Archive a List Attribute",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List Attribute",
+                    "Description": "Read a List Attribute.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update List Attribute",
+                    "Description": "Update a List Attribute.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List Attribute",
+                    "Description": "Create a List Attribute.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pages",
+            "Methods": [
+                {
+                    "Name": "List Pages",
+                    "Description": "List Pages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Page",
+                    "Description": "Delete a Page.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Page",
+                    "Description": "Read a Page.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Page",
+                    "Description": "Update a Page.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Page",
+                    "Description": "Create a Page.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "List Projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Read a Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Project",
+                    "Description": "Update a Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Project",
+                    "Description": "Create a Project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subject Access Requests",
+            "Methods": [
+                {
+                    "Name": "List Subject Access Requests By Account",
+                    "Description": "List Subject Access Requests.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subject Access Request",
+                    "Description": "Get Subject Access Request",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subject Access Request",
+                    "Description": "Create a Subject Access Request",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Plan",
+            "Methods": [
+                {
+                    "Name": "Get Plan",
+                    "Description": "Get Plan & Usage information for all products.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/optimizely-connector"
+}

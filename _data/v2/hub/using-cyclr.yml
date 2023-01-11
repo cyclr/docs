@@ -1,0 +1,76 @@
+title: Using Cyclr
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+sections: 
+  - title: Templates 
+    text: Text for the templates section here
+    display: true
+    items: 
+    - title: Template Basics
+      url: /template-basics
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connectors
+      url: /connectors
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Building a Template
+      url: /building-a-template
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Field Mapping
+      url: /field-mapping
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Adding Custom Fields
+      url: /adding-custom-fields
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Testing a Template
+      url: /testing-a-template
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Logic Tools
+      url: /logic-tools
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Integration Template Versioning
+      url: /integration-template-versioning
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Template Export Import
+      url: /template-export-import
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Building Integration Templates
+      url: /building-integration-templates
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+  - title: Custom Connector Creation 
+    display: true
+    items: 
+    - title: Connector Introduction
+      url: /connector-introduction
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Settings
+      url: /connector-settings
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Authentication
+      url: /connector-authentication
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Rate Limits
+      url: /connector-rate-limits
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Methods
+      url: /connector-methods
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Parameters
+      url: /connector-parameters
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Triggers
+      url: /connector-triggers
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Scripting
+      url: /connector-scripting
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Connector Paging
+      url: /connector-paging
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Auto Installing Webhooks
+      url: /auto-installing-webhooks
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Dynamic Custom Fields
+      url: /dynamic-custom-fields
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Enhanced Objects
+      url: /enhanced-objects
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.

@@ -1,0 +1,75 @@
+{
+    "Description": "Google Groups allows you to create and participate in online forums and email-based groups with a rich experience for community conversations.",
+    "Id": 4891,
+    "Name": "Google Groups",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/4891",
+    "Categories": [
+        "Collaboration"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Group Members",
+            "Methods": [
+                {
+                    "Name": "Add Member To Group",
+                    "Description": "Add a member to a group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Member From Group",
+                    "Description": "Deletes a member from a group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve All Group Members",
+                    "Description": "Gets all of the groups members",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Group Membership",
+                    "Description": "Updates a group membership",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "Retrieve All Groups",
+                    "Description": "Gets all of the groups",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve A Group",
+                    "Description": "Gets a group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create A Group",
+                    "Description": "Creates a new group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update A Group",
+                    "Description": "Updates a group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete A Group",
+                    "Description": "Deletes a group",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Google Groups Integration - Cyclr",
+    "MetaDescription": "Automatically create and manage your Google Groups with triggers from the cloud apps you use the most.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/google-groups",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/google"
+}

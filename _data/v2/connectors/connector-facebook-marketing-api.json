@@ -1,0 +1,209 @@
+{
+    "Description": "Build marketing automation with Facebook's advertising platform.",
+    "Id": 17208,
+    "Name": "Facebook Marketing API",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17208",
+    "Categories": [
+        "Social Media"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "Get Campaign Insights",
+                    "Description": "Gets a campaign's statistics.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Campaign",
+                    "Description": "Create a campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Gets the ad campaigns of an ad account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pages",
+            "Methods": [
+                {
+                    "Name": "List My Pages",
+                    "Description": "Gets the Facebook pages to which you have access.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ad Accounts",
+            "Methods": [
+                {
+                    "Name": "List My Permissions",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List My Ad Accounts",
+                    "Description": "Gets the advertising accounts to which you have access.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ads",
+            "Methods": [
+                {
+                    "Name": "List Ads By Ad Set",
+                    "Description": "Gets a list of ads for the specified ad set.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Ad's Creative",
+                    "Description": "Updates the ad creative details for the specified ad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": " Get Ad",
+                    "Description": "Gets a Ad by its ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ad",
+                    "Description": "Create an ad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Ads",
+                    "Description": "Gets a list of Ad for the Ad Account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List My Accounts",
+                    "Description": "Gets the accounts to which you have access.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Offline Conversions",
+            "Methods": [
+                {
+                    "Name": "List Offline Conversion Data Sets",
+                    "Description": "List of Offline Conversion Data Sets available for this Ad Account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Leads By Ad ID and Time Created",
+                    "Description": "Returns leads associated with the specified ad, created since the provided datetime.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Ad ID and Last Run",
+                    "Description": "Returns leads associated with the specified ad, created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Leads By Form",
+                    "Description": "Returns leads associated with the specified form. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead By ID",
+                    "Description": "Returns the specified lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Ad ID",
+                    "Description": "Returns leads associated with the specified ad.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Form ID and Last Run",
+                    "Description": "Returns leads associated with the specified form, created since the last run. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Leads By Form ID and Time Created",
+                    "Description": "Returns leads associated with the specified form, created since the provided datetime. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ad Sets",
+            "Methods": [
+                {
+                    "Name": "List Ad Sets By Campaign",
+                    "Description": "Returns ad sets for the specified campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ad Set",
+                    "Description": "Creates an ad set.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ad Creatives",
+            "Methods": [
+                {
+                    "Name": " Get Ad Creative",
+                    "Description": "Gets an ad creative by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ad Creative",
+                    "Description": "Create an ad creative.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "List Forms",
+                    "Description": "List Forms for Account ID",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Form",
+                    "Description": "Get Form by its ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Posts",
+            "Methods": [
+                {
+                    "Name": "List Posts",
+                    "Description": "Gets the posts that were published by a page.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://cyclr.com/docs/connector-authentication/facebook-marketing"
+}

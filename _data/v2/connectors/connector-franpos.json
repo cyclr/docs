@@ -1,0 +1,61 @@
+{
+    "Description": "Franpos #POS is the one and only #pointofsale platform exclusively designed for #Franchises in #retail #salon and #quickservice #fastcasual industries.",
+    "Id": 6849,
+    "Name": "Franpos",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6849",
+    "Categories": [
+        "POS",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "Get all the customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "Get all the customers since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer by ID",
+                    "Description": "Get customer by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Get all orders within set time frame.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "Get all orders since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order by ID",
+                    "Description": "Get order by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

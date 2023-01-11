@@ -1,0 +1,885 @@
+{
+    "Description": "We build cloud business software for SMEs and accountants.",
+    "Id": 11815,
+    "Name": "Exact",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11815",
+    "Categories": [
+        "HR/Payroll",
+        "ERP",
+        "Accounting"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Sales Invoices",
+            "Methods": [
+                {
+                    "Name": "Get Sales Invoice",
+                    "Description": "Retrieve a sales invoice by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Sales Invoice",
+                    "Description": "Delete an existing sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Sales Invoice",
+                    "Description": "Update an existing sales invoice.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales Invoices",
+                    "Description": "Retrieve a list of existing sales invoices.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Sales Invoices",
+                    "Description": "Retrieve a list of sales invoices created or updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Sales Invoice",
+                    "Description": "Create a new sales invoice.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Internal",
+            "Methods": [
+                {
+                    "Name": "Get Division",
+                    "Description": "Retrieve the current division.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Sales Items",
+                    "Description": "Retrieve a list of existing sales items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Supplier Accounts",
+                    "Description": "Retrieve a list of existing supplier accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "CRM",
+            "Methods": [
+                {
+                    "Name": "Get Customer Account",
+                    "Description": "Retrieve an existing customer account by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Delete Customer Account",
+                    "Description": "Delete an existing customer account by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Update Customer Account",
+                    "Description": "Update an existing customer account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update an existing contact.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Delete an existing contact.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Retrieve a contact by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                },
+                {
+                    "Name": "List Customer Accounts",
+                    "Description": "Retrieve a list of existing customer accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "List all contact records.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "List all contact records created or modified since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                },
+                {
+                    "Name": "List Updated Customer Accounts",
+                    "Description": "Retrieve a list of customer accounts created or modified since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Create Customer Account",
+                    "Description": "Create a new customer account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Accounts"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Add a contact person to an existing customer account.",
+                    "MethodType": "Action",
+                    "Subcategory": "Contacts"
+                }
+            ]
+        },
+        {
+            "Category": "Financial",
+            "Methods": [
+                {
+                    "Name": "Get Journal",
+                    "Description": "Retrieve an existing journal by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "Delete Journal",
+                    "Description": "Delete an existing journal.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "Update Journal",
+                    "Description": "Update an existing journal.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "Get G/L Account",
+                    "Description": "Retrieve an existing general ledger account.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "Update G/L Account",
+                    "Description": "Update an existing general ledger account.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "Delete G/L Account",
+                    "Description": "Delete an existing general ledger account.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "List G/L Classifications",
+                    "Description": "G/L Classifications are used to group G/L account balances in p&l and balance sheet. Use this endpoint to retrieve information about the G/L classifications available.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Classifications"
+                },
+                {
+                    "Name": "Get G/L Classification",
+                    "Description": "G/L Classifications are used to group G/L account balances in p&l and balance sheet. Use this endpoint to retrieve information about the G/L classifications available.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Classifications"
+                },
+                {
+                    "Name": "Get G/L Scheme",
+                    "Description": "Use this endpoint to retrieve the G/L schemes used in an administration. Depending on package used, there is one or more scheme (e.g. RGS in different versions) available.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Schemes"
+                },
+                {
+                    "Name": "Get G/L Transaction Source",
+                    "Description": "Use this endpoint to retrieve all transaction sources. Transaction sources are used in financial entries and provide insight in how an entry is created.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Transaction Sources"
+                },
+                {
+                    "Name": "Get G/L Transaction Type",
+                    "Description": "Retrieve an existing transaction type. Financial entries are created as specific types, some are created based on journals, like sales or purchase, other are created automatically, like from the revaluation process.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Transaction Types"
+                },
+                {
+                    "Name": "Get Journal Status List",
+                    "Description": "This resource will provide you information on the status of a Journal in a certain period.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "CurrentYear/AfterEntry",
+                    "Description": "This service returns opening balance amounts for G/L accounts. Only balance sheet accounts with amounts other than zero are returned. See also service Financial/ReportingBalance to get debit and credit amounts by period. CurrentYear/AfterEntry considers all entries for the current year, if you only want to get final processed entries use CurrentYear/Processed instead.",
+                    "MethodType": "Action",
+                    "Subcategory": "Opening Balance"
+                },
+                {
+                    "Name": "CurrentYear/Processed",
+                    "Description": "This service returns opening balance amounts for G/L accounts. Only balance sheet accounts with amounts other than zero are returned. See also service Financial/ReportingBalance to get debit and credit amounts by period. CurrentYear/Processed considers only processed entries for the current year, if you want to get all the entries use CurrentYear/AfterEntry instead.",
+                    "MethodType": "Action",
+                    "Subcategory": "Opening Balance"
+                },
+                {
+                    "Name": "PreviousYear/AfterEntry",
+                    "Description": "This service returns opening balance amounts for G/L accounts. Only balance sheet accounts with amounts other than zero are returned. See also service Financial/ReportingBalance to get debit and credit amounts by period. PreviousYear/AfterEntry considers all entries for the previous year, if you only want to get final processed entries use PreviousYear/Processed instead.",
+                    "MethodType": "Action",
+                    "Subcategory": "Opening Balance"
+                },
+                {
+                    "Name": "PreviousYear/Processed",
+                    "Description": "This service returns opening balance amounts for G/L accounts. Only balance sheet accounts with amounts other than zero are returned. See also service Financial/ReportingBalance to get debit and credit amounts by period. PreviousYear/Processed considers only processed entries for the previous year, if you want to get all the entries use PreviousYear/AfterEntry instead.",
+                    "MethodType": "Action",
+                    "Subcategory": "Opening Balance"
+                },
+                {
+                    "Name": "Get G/L Acct Class. Mapping",
+                    "Description": "Retrieve a specific general ledger account classification mapping.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Acct Class. Mappings"
+                },
+                {
+                    "Name": "Delete G/L Acct Class. Mapping",
+                    "Description": "Delete a specific general ledger account classification mapping.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Acct Class. Mappings"
+                },
+                {
+                    "Name": "Get General Journal Entry",
+                    "Description": "Retrieve a specific general journal entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "Create General Journal Entry",
+                    "Description": "Create a new general journal entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "Get General Journal Entry Line",
+                    "Description": "Retrieve a specific general journal entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "Update G/L Acct Class. Mapping",
+                    "Description": "Update an existing general ledger account classification mapping.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Acct Class. Mappings"
+                },
+                {
+                    "Name": "Create General Journal Entry Line",
+                    "Description": "Create a new general journal entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "List Journals",
+                    "Description": "Retrieve a list of existing journals.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "List Updated Journals",
+                    "Description": "Retrieve a list of journals created or updated since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "List G/L Accounts",
+                    "Description": "Retrieve a list of existing general ledger accounts.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "List Updated G/L Accounts",
+                    "Description": "Retrieve a list of general ledger accounts created or updated since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "List G/L Schemes",
+                    "Description": "Use this endpoint to retrieve the G/L schemes used in an administration. Depending on package used, there is one or more scheme (e.g. RGS in different versions) available.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Schemes"
+                },
+                {
+                    "Name": "List G/L Transaction Sources",
+                    "Description": "Use this endpoint to retrieve all transaction sources. Transaction sources are used in financial entries and provide insight in how an entry is created.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Transaction Sources"
+                },
+                {
+                    "Name": "List G/L Transaction Types",
+                    "Description": "Use this endpoint to retrieve all transaction types. Financial entries are created as specific types, some are created based on journals, like sales or purchase, other are created automatically, like from the revaluation process.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Transaction Types"
+                },
+                {
+                    "Name": "List G/L Acct Class. Mappings",
+                    "Description": "Retrieve a list of existing general ledger account classification mappings",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Acct Class. Mappings"
+                },
+                {
+                    "Name": "List General Journal Entries",
+                    "Description": "Retrieve a list of general journal entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "List Updated General Journal Entries",
+                    "Description": "Retrieve a list of general journal entries created or updated since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "List General Journal Entry Lines",
+                    "Description": "Retrieve a list of general journal entry lines.",
+                    "MethodType": "Action",
+                    "Subcategory": "General Journal Entries"
+                },
+                {
+                    "Name": "Create Journal",
+                    "Description": "Create a new journal.",
+                    "MethodType": "Action",
+                    "Subcategory": "Journals"
+                },
+                {
+                    "Name": "Create G/L Account",
+                    "Description": "Create a new general ledger account.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Accounts"
+                },
+                {
+                    "Name": "Create G/L Acct Class. Mapping",
+                    "Description": "Create a general ledger account classification mapping.",
+                    "MethodType": "Action",
+                    "Subcategory": "G/L Acct Class. Mappings"
+                }
+            ]
+        },
+        {
+            "Category": "Sales Entry",
+            "Methods": [
+                {
+                    "Name": "Get Sales Entry Line",
+                    "Description": "Retrieve an existing sales entry line by GUID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entry Lines"
+                },
+                {
+                    "Name": "Get Sales Entry",
+                    "Description": "Retrieve a sales entry by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "Update Sales Entry",
+                    "Description": "Update an existing sales entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "Delete Sales Entry",
+                    "Description": "Delete an existing sales entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "List Sales Entry Lines",
+                    "Description": "Retrieve details for all lines on a sales entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entry Lines"
+                },
+                {
+                    "Name": "Update Sales Entry Line",
+                    "Description": "Update an existing sales entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entry Lines"
+                },
+                {
+                    "Name": "Delete Sales Entry Line",
+                    "Description": "Delete an existing sales entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entry Lines"
+                },
+                {
+                    "Name": "List Sales Entries",
+                    "Description": "Retrieve a list of existing sales entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "List Updated Sales Entries",
+                    "Description": "Retrieve a list of sales entries created or modified since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "Create Sales Entry",
+                    "Description": "Create a new sales entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entries"
+                },
+                {
+                    "Name": "Create Sales Entry Line",
+                    "Description": "Create a new sales entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Sales Entry Lines"
+                }
+            ]
+        },
+        {
+            "Category": "Purchase Entry",
+            "Methods": [
+                {
+                    "Name": "Delete Purchase Entry",
+                    "Description": "Delete an existing purchase entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "Get Purchase Entry",
+                    "Description": "Retrieve a purchase entry by ID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "Update Purchase Entry",
+                    "Description": "Update an existing purchase entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "Update Purchase Entry Line",
+                    "Description": "Update an existing purchase entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entry Lines"
+                },
+                {
+                    "Name": "Get Purchase Entry Line",
+                    "Description": "Retrieve an existing purchase entry line by GUID.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entry Lines"
+                },
+                {
+                    "Name": "List Purchase Entry Lines",
+                    "Description": "Retrieve details for all lines on a purchase entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entry Lines"
+                },
+                {
+                    "Name": "Delete Purchase Entry Line",
+                    "Description": "Delete an existing purchase entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entry Lines"
+                },
+                {
+                    "Name": "List Purchase Entries",
+                    "Description": "Retrieve a list of existing purchase entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "List Updated Purchase Entries",
+                    "Description": "Retrieve a list of purchase entries created or modified since last run.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "Create Purchase Entry",
+                    "Description": "Create a new purchase entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entries"
+                },
+                {
+                    "Name": "Create Purchase Entry Line",
+                    "Description": "Create a new purchase entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Purchase Entry Lines"
+                }
+            ]
+        },
+        {
+            "Category": "HRM",
+            "Methods": [
+                {
+                    "Name": "Get Department",
+                    "Description": "Retrieve an existing department.",
+                    "MethodType": "Action",
+                    "Subcategory": "Departments"
+                },
+                {
+                    "Name": "Get Division Class",
+                    "Description": "Returns the possible choices per classification for a given company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "Get Division Class Name",
+                    "Description": "Company classifications can be used to search for or filter on a specific company. This end point returns a list of those classifications.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "Get Division Class Value",
+                    "Description": "This end point returns the values as used per company classification for a given company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "Get Cost Center",
+                    "Description": "Retrieve details of a specific cost center.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Centers"
+                },
+                {
+                    "Name": "Delete Cost Center",
+                    "Description": "Delete a specific cost center.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Centers"
+                },
+                {
+                    "Name": "Get Cost Unit",
+                    "Description": "Retrieve a specific cost unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Units"
+                },
+                {
+                    "Name": "Delete Cost Unit",
+                    "Description": "Delete a specific cost unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Units"
+                },
+                {
+                    "Name": "Update Cost Center",
+                    "Description": "Update an existing cost center.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Centers"
+                },
+                {
+                    "Name": "Update Cost Unit",
+                    "Description": "Update an existing cost unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Units"
+                },
+                {
+                    "Name": "List Departments",
+                    "Description": "Retrieve a list of departments.",
+                    "MethodType": "Action",
+                    "Subcategory": "Departments"
+                },
+                {
+                    "Name": "List Division Classes",
+                    "Description": "Returns the possible choices per classification for a given company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "List Division Class Names",
+                    "Description": "Company classifications can be used to search for or filter on a specific company. This end point returns a list of those classifications.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "List Division Class Values",
+                    "Description": "This end point returns the values as used per company classification for a given company.",
+                    "MethodType": "Action",
+                    "Subcategory": "Division Classes"
+                },
+                {
+                    "Name": "List Cost Centers",
+                    "Description": "Retrieve a list of cost centers.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Centers"
+                },
+                {
+                    "Name": "List Cost Units",
+                    "Description": "Retrieve a list of cost units.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Units"
+                },
+                {
+                    "Name": "Create Cost Center",
+                    "Description": "Create a new cost center.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Centers"
+                },
+                {
+                    "Name": "Create Cost Unit",
+                    "Description": "Create a new cost unit.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cost Units"
+                }
+            ]
+        },
+        {
+            "Category": "Documents",
+            "Methods": [
+                {
+                    "Name": "Get Document Type",
+                    "Description": "Retrieve an existing document type",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Types"
+                },
+                {
+                    "Name": "Get Document Type Category",
+                    "Description": "Retrieve an existing document type category",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Types"
+                },
+                {
+                    "Name": "Get Document Category",
+                    "Description": "Retrieve an existing document category",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Categories"
+                },
+                {
+                    "Name": "Get Document",
+                    "Description": "Use this endpoint to retrieve a specific document",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "Update Document",
+                    "Description": "Update an existing document.",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "Delete Document",
+                    "Description": "Delete a specific document.",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "Get Document Attachment",
+                    "Description": "Use this endpoint to retrieve a specific document attachment",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Attachments"
+                },
+                {
+                    "Name": "Get Document Folder",
+                    "Description": "Use this endpoint to retrieve a specific document folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Folders"
+                },
+                {
+                    "Name": "Update Document Folder",
+                    "Description": "Update an existing document folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Folders"
+                },
+                {
+                    "Name": "Delete Document Folder",
+                    "Description": "Delete a specific document folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Folders"
+                },
+                {
+                    "Name": "Get Document Type Folder",
+                    "Description": "Use this endpoint to retrieve a specific document type folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Type Folders"
+                },
+                {
+                    "Name": "Delete Document Type Folder",
+                    "Description": "Delete a specific document type folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Type Folders"
+                },
+                {
+                    "Name": "Update Document Type Folder",
+                    "Description": "Update an existing document type folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Type Folders"
+                },
+                {
+                    "Name": "List Document Types",
+                    "Description": "Use this endpoint to retrieve a list of document types",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Types"
+                },
+                {
+                    "Name": "List Document Type Categories",
+                    "Description": "Use this endpoint to retrieve a list of document type categories",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Types"
+                },
+                {
+                    "Name": "List Document Categories",
+                    "Description": "Use this endpoint to retrieve a list of document categories",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Categories"
+                },
+                {
+                    "Name": "List Documents",
+                    "Description": "Use this endpoint to retrieve a list of documents",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "List Updated Documents",
+                    "Description": "Use this endpoint to retrieve a list of documents created or updated since last run",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "List Document Attachments",
+                    "Description": "Use this endpoint to retrieve a list of document attachments",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Attachments"
+                },
+                {
+                    "Name": "List Document Folders",
+                    "Description": "Use this endpoint to retrieve a list of document folders",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Folders"
+                },
+                {
+                    "Name": "List Document Type Folders",
+                    "Description": "Use this endpoint to retrieve a list of document type folders",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Type Folders"
+                },
+                {
+                    "Name": "Create Document",
+                    "Description": "Create a new document",
+                    "MethodType": "Action",
+                    "Subcategory": "Documents"
+                },
+                {
+                    "Name": "Create Document Folder",
+                    "Description": "Create a new document folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Folders"
+                },
+                {
+                    "Name": "Create Document Type Folder",
+                    "Description": "Create a new document type folder",
+                    "MethodType": "Action",
+                    "Subcategory": "Document Type Folders"
+                }
+            ]
+        },
+        {
+            "Category": "Financial Transaction",
+            "Methods": [
+                {
+                    "Name": "Get Transaction Line",
+                    "Description": "Retrieve a specific transaction line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Transaction Lines"
+                },
+                {
+                    "Name": "Get Bank Entry",
+                    "Description": "Retrieve a specific bank entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "Get Bank Entry Line",
+                    "Description": "Retrieve a specific bank entry line",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "Get Cash Entry Line",
+                    "Description": "Retrieve a specific cash entry line",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                },
+                {
+                    "Name": "Get Cash Entry",
+                    "Description": "Retrieve a specific cash entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                },
+                {
+                    "Name": "List Transaction Lines",
+                    "Description": "Retrieve a list of transaction lines.",
+                    "MethodType": "Action",
+                    "Subcategory": "Transaction Lines"
+                },
+                {
+                    "Name": "List Bank Entries",
+                    "Description": "Retrieve a list of bank entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "List Bank Entry Lines",
+                    "Description": "Retrieve a list of bank entry lines.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "Create Bank Entry Line",
+                    "Description": "Create a new bank entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "Create Bank Entry",
+                    "Description": "Create a new bank entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Bank Entries"
+                },
+                {
+                    "Name": "List Cash Entry Lines",
+                    "Description": "Retrieve a list of cash entry lines.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                },
+                {
+                    "Name": "Create Cash Entry Line",
+                    "Description": "Create a new cash entry line.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                },
+                {
+                    "Name": "Create Cash Entry",
+                    "Description": "Create a new cash entry.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                },
+                {
+                    "Name": "List Cash Entries",
+                    "Description": "Retrieve a list of cash entries.",
+                    "MethodType": "Action",
+                    "Subcategory": "Cash Entries"
+                }
+            ]
+        },
+        {
+            "Category": "General",
+            "Methods": [
+                {
+                    "Name": "List Currencies",
+                    "Description": "Use this endpoint to get all the enabled currencies.",
+                    "MethodType": "Action",
+                    "Subcategory": "Currencies"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/exact-connector"
+}

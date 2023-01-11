@@ -1,0 +1,57 @@
+{
+    "Description": "Create, manage and analyze your contracts - all from one beautifully built, powerful, award-winning platform",
+    "Id": 12507,
+    "Name": "SpotDraft",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12507",
+    "Categories": [
+        "Miscellaneous",
+        "Collaboration",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contracts",
+            "Methods": [
+                {
+                    "Name": "Download Contract",
+                    "Description": "Returns a copy of the contract.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contract Download Link",
+                    "Description": "Returns a link for the copy of the contract.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contract Status",
+                    "Description": "Get the status for the requested contract.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contract",
+                    "Description": "Creates a new contract.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roles",
+            "Methods": [
+                {
+                    "Name": "List Roles",
+                    "Description": "List all roles.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/spotdraft-connector"
+}

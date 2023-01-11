@@ -1,0 +1,75 @@
+{
+    "Description": "Digital Humani - RaaS (Reforestation as a Service) solution, a free tree Planting API run by volunteers in this non-profit.",
+    "Id": 16101,
+    "Name": "Digital Humani",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16101",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Tree",
+            "Methods": [
+                {
+                    "Name": "Plant Tree",
+                    "Description": "Sends a request to plant one or many trees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tree Details by User",
+                    "Description": "Sends a request to plant one or many trees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tree Details",
+                    "Description": "Get the details of a single request to plant trees.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Enterprise",
+            "Methods": [
+                {
+                    "Name": "Get Enterprise Monthly Tree Count",
+                    "Description": "Gets the number of trees planted by an enterprise in specified month.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Enterprise",
+                    "Description": "Get the details of your enterprise.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Enterprise Tree Count",
+                    "Description": "Gets the number of trees planted by an enterprise in date range.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Get Project",
+                    "Description": "Gets the details of a reforestation project by a specified ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Projects",
+                    "Description": "Lists all the reforestation projects available.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/digital-humani"
+}

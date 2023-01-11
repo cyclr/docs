@@ -1,0 +1,176 @@
+{
+    "Description": "Retail express is an intuitive, powerful cloud POS, inventory and eCommerce software.",
+    "Id": 12834,
+    "Name": "Retail Express",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12834",
+    "Categories": [
+        "POS",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customer Loyalty Balances",
+                    "Description": "List all updated customer loyalty balances since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Loyalty Transactions",
+                    "Description": "List all customer loyalty transactions between two dates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List all updated customers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Loyalty Balances",
+                    "Description": "List all customer loyalty balances.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List all new customers since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Customer",
+                    "Description": "Create or update a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Expiring Customer Loyalty Balances",
+                    "Description": "List all customer loyalty balances that are going to expire within a certain amount of time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customer Loyalty Transactions",
+                    "Description": "List all new customer loyalty transactions since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Create Order By Channel",
+                    "Description": "Create an order by channel.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Payment For Order",
+                    "Description": "Create a payment for an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Order",
+                    "Description": "Cancel an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order Delivery",
+                    "Description": "Update an order delivery.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order History By Channel",
+                    "Description": "Get an order's history by channel.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Order Customer Details",
+                    "Description": "Update an order's customer details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product Stock Pricing Details By Channel",
+                    "Description": "Get a product's stock pricing details by channel.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product ETA Date By Channel",
+                    "Description": "Get a product's ETA date by channel.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products By Channel",
+                    "Description": "List all products by channel which have been updated since last run. Exists false path if no results returned.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products By Channel",
+                    "Description": "List all products by channel.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Voucher",
+            "Methods": [
+                {
+                    "Name": "Get Voucher Balance",
+                    "Description": "Get a vouchers balance.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Outlets",
+            "Methods": [
+                {
+                    "Name": "List Outlets By Channel",
+                    "Description": "List all outlets of a channel.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Web Order",
+            "Methods": [
+                {
+                    "Name": "List Web Order Fulfillments By Channel",
+                    "Description": "List all web order fulfillments by channel.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payment Methods",
+            "Methods": [
+                {
+                    "Name": "List Payment Methods By Channel",
+                    "Description": "List all payment methods by channel.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/retail-express-connector"
+}

@@ -1,0 +1,30 @@
+{
+    "Description": "Global technology company providing IT solutions to airlines, hotels, agencies, corporate customers & the travel industry. Follow us for insights & tech trends.",
+    "Id": 13354,
+    "Name": "Sabre",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13354",
+    "Categories": [
+        "Miscellaneous",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "Get Booking",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

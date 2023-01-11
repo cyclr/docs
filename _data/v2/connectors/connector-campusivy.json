@@ -1,0 +1,140 @@
+{
+    "Description": "Financial aid management and compliance delivered your way. Helping you stay compliant while you focus on students.",
+    "Id": 15239,
+    "Name": "CampusIvy",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15239",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Net Price Calculator",
+            "Methods": [
+                {
+                    "Name": "Get Net Price Calculator",
+                    "Description": "Retrieves the awards granted to the students",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "FA Progression",
+            "Methods": [
+                {
+                    "Name": "List Student FA Progression",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Import Institution",
+            "Methods": [
+                {
+                    "Name": "Get Institution Import",
+                    "Description": "Retrieves information about an institution import.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Institution",
+            "Methods": [
+                {
+                    "Name": "Create Institution",
+                    "Description": "Creates an institution.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Packaging",
+            "Methods": [
+                {
+                    "Name": "Get Packaging",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Packaging",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Student Selected ISIR",
+            "Methods": [
+                {
+                    "Name": "Get Student Selected ISIR",
+                    "Description": "Retrieves the Selected ISIR granted to the students.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Student R2T4",
+            "Methods": [
+                {
+                    "Name": "Get Student R2T4",
+                    "Description": "Retrieves the R2T4 granted to the students.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Service Type",
+            "Methods": [
+                {
+                    "Name": "List Service Type",
+                    "Description": "Retrieves the collection of service types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Student Awards",
+            "Methods": [
+                {
+                    "Name": "List Student Awards",
+                    "Description": "Retrieves the awards granted to the students.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Student Documents",
+            "Methods": [
+                {
+                    "Name": "List Student Documents",
+                    "Description": "Retrieves the awards granted to the students.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Student ISIR",
+            "Methods": [
+                {
+                    "Name": "Get Student ISIR",
+                    "Description": "Retrieves the ISIR granted to the students.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Disbursement Batch Details",
+            "Methods": [
+                {
+                    "Name": "Get Disbursement Batch Detail",
+                    "Description": "Generates disbursement batch details for students. Pass in batch IDs and/or date ranges to pull historic disbursement batches.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/campusIvy"
+}

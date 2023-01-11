@@ -1,0 +1,117 @@
+{
+    "Description": "ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.",
+    "Id": 14066,
+    "Name": "ADP",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/14066",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Workers",
+            "Methods": [
+                {
+                    "Name": "Delete Worker Personal Landline",
+                    "Description": "Delete a personal landline of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Landline"
+                },
+                {
+                    "Name": "Create Worker",
+                    "Description": "Hire a new worker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Worker Personal Email",
+                    "Description": "Update a personal email to a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Email"
+                },
+                {
+                    "Name": "Create Worker Personal Email",
+                    "Description": "Add a new personal email to a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Email"
+                },
+                {
+                    "Name": "Update Worker Personal Address",
+                    "Description": "Update the personal address of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Personal Address"
+                },
+                {
+                    "Name": "Create Worker Legal Address",
+                    "Description": "Add a new legal address to a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Legal Address"
+                },
+                {
+                    "Name": "Update Worker Personal Landline",
+                    "Description": "Update a personal landline of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Landline"
+                },
+                {
+                    "Name": "Update Worker Legal Address",
+                    "Description": "Update a legal address of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Legal Address"
+                },
+                {
+                    "Name": "Re-hire Worker",
+                    "Description": "Re-hire a worker.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Worker Personal Mobile",
+                    "Description": "Add a new personal mobile to a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Mobile"
+                },
+                {
+                    "Name": "Create Worker Personal Landline",
+                    "Description": "Add a new personal landline to a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Landline"
+                },
+                {
+                    "Name": "Update Worker Personal Mobile",
+                    "Description": "Update a personal mobile of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Mobile"
+                },
+                {
+                    "Name": "Delete Worker Personal Email",
+                    "Description": "Delete a personal email of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Email"
+                },
+                {
+                    "Name": "Delete Worker Personal Mobile",
+                    "Description": "Delete a personal mobile of a worker.",
+                    "MethodType": "Action",
+                    "Subcategory": "Mobile"
+                }
+            ]
+        },
+        {
+            "Category": "Workers V2",
+            "Methods": [
+                {
+                    "Name": "List Workers",
+                    "Description": "Request the list of all available workers that the requester is authorized to view.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/adp-connector"
+}

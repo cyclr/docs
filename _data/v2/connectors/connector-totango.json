@@ -1,0 +1,48 @@
+{
+    "Description": "Run any customer journey, easily and at scale. Everything you need to accelerate your customer success with the most widely adopted all-in-one Customer OS.",
+    "Id": 15762,
+    "Name": "Totango",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15762",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Get Plan Summary for Account",
+                    "Description": "Returns the Plan Summary for a specific Account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Account(s)",
+                    "Description": "Create or update accounts along with their attributes and tags.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Returns all Accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Upsert User(s)",
+                    "Description": "Create or update account users along with their attributes and tags.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

@@ -1,0 +1,66 @@
+{
+    "Description": "Manage the complete project lifecycle and increase profitability with a unified ERP system for ambitious project-centric firms.",
+    "Id": 5287,
+    "Name": "Deltek Vision",
+    "Version": "7.6",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/5287",
+    "Categories": [
+        "ERP",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get New Contacts",
+                    "Description": "Get new contacts since the last run time. Custom fields can be added to the response body with the Field Location: RECS.[REC].ContactCustomTabFields.ROW.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact",
+                    "Description": "Adds a contact with the specified attributes to the database. Custom fields can be added to the request body with the Field Location: CustomDataIn.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact from the database by its ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New And Updated Contacts",
+                    "Description": "Get new and updated contacts since the last run time. Custom fields can be added to the response body with the Field Location: RECS.[REC].ContactCustomTabFields.ROW.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets a single contact by its Contact ID. Custom fields can be added to the response body with the Field Location: RECS.[REC].ContactCustomTabFields.ROW.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update an existing contact in the database. Custom fields can be added to the request body with the Field Location: CustomDataIn.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add/Update Contact",
+                    "Description": "Adds or updates a contact with the specified attributes to the database. Custom fields can be added to the request body with the Field Location: CustomDataIn.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By Email",
+                    "Description": "Gets a single contact by its email address. Custom fields can be added to the response body with the Field Location: RECS.[REC].ContactCustomTabFields.ROW.<FIELD_NAME> where FIELD_NAME is the field name in the ContactCustomTabFields table.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

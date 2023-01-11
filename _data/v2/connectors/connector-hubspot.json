@@ -1,0 +1,814 @@
+{
+    "Description": "HubSpot is an inbound marketing and sales platform that helps companies attract visitors, convert leads, and close customers.",
+    "Id": 17273,
+    "Name": "HubSpot",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17273",
+    "Categories": [
+        "CRMs",
+        "Email Marketing",
+        "Support"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Company Members",
+            "Methods": [
+                {
+                    "Name": "Associate Contact With Company",
+                    "Description": "Associates a Contact with a Company. If a Contact is already associated with a different Company, the Contact will be added to the new Company. A Contact can only be associated with one Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Disassociate Contact From Company",
+                    "Description": "Removes the association between a Contact and a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Association For Contact",
+                    "Description": "Checks which Company (if any) is associated with a Contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Owners",
+            "Methods": [
+                {
+                    "Name": "Get Owner",
+                    "Description": "Get an owner by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Owners",
+                    "Description": "Get all the owners from this HubSpot portal since last ran.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Owners",
+                    "Description": "List all the owners from this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Owners",
+                    "Description": "Get all the owners from this HubSpot portal since last ran.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Owner by Email",
+                    "Description": "Get an owner by Email.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Product",
+                    "Description": "Get the details of a Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "Lists all Products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update the details of a Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a new Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product For Deal",
+                    "Description": "Get a product from HubSpot as it existed when added to deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Associations",
+            "Methods": [
+                {
+                    "Name": "Create Batch Association",
+                    "Description": "Create a batch association.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact By User Token",
+                    "Description": "Get a contact by its user token.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts By Owner ID",
+                    "Description": "Gets a list of Contacts specific to an Owner ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Gets a list of recently updated or created Contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Gets a list of newly created Contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes an existing contact from a particular HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Gets a list of all Contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contact",
+                    "Description": "Creates or updates a Contact. If the email address supplied is a duplicate it will update the Contact, otherwise it will create a new one.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By Email",
+                    "Description": "Gets a Contact by email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upsert Contacts",
+                    "Description": "Batch create or update a contact inside HubSpot. If email or visitor ID match then the Contact will be updated.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts By Owner ID",
+                    "Description": "Gets a list of newly created Contacts specific to an Owner ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Gets a Contact by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Contacts",
+                    "Description": "Gets all the Contacts matching the search term. Searches on email address, first and last name, phone number, or company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Blogs",
+            "Methods": [
+                {
+                    "Name": "List Blog Posts",
+                    "Description": "Lists all blog posts for a HubSpot account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Blogs",
+                    "Description": "Lists all of the blogs for an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Blog By ID",
+                    "Description": "Gets a blog by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Blog Post By ID",
+                    "Description": "Gets a blog post by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Lists",
+            "Methods": [
+                {
+                    "Name": "Get Contact List",
+                    "Description": "Gets the details of a single Contact List from the supplied ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Static Contact List",
+                    "Description": "Creates a new Static Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact List",
+                    "Description": "Delete a list in a given HubSpot account, identified by its unique ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Filters To List",
+                    "Description": "Adds filters to a Contact List, used to define which Contacts are included in the list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contacts To List",
+                    "Description": "Adds one or more Contacts to a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Contacts From List",
+                    "Description": "Removes one or more Contacts from a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Dynamic Contact List",
+                    "Description": "Creates a new Dynamic Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Lists",
+                    "Description": "Gets all Contact Lists from this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact List Members",
+                    "Description": "Gets the members of a Contact List.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contact List Members",
+                    "Description": "Gets the members of a Contact List added since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Line Items",
+            "Methods": [
+                {
+                    "Name": "List Line Items",
+                    "Description": "Returns a list of line items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Line Item With Deal",
+                    "Description": "Associate a Line Item with a Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Line Item",
+                    "Description": "Returns details of the specified Line Item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Line Items For Deal",
+                    "Description": "Returns a list Line Items for the specified Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Line Item",
+                    "Description": "Create a Line Item.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets the details for the current HubSpot account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Properties",
+            "Methods": [
+                {
+                    "Name": "List Contact Properties",
+                    "Description": "Lists contact properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact Property",
+                    "Description": "Deletes a contact property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact Property",
+                    "Description": "Creates a contact property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact Property",
+                    "Description": "Updates a contact property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Custom Properties",
+                    "Description": "Lists contact custom  properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Property",
+                    "Description": "Gets a contact property.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "List Forms",
+                    "Description": "Returns a list of all forms.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Submissions",
+                    "Description": "Returns a list of submissions for the specified form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Fields",
+                    "Description": "Returns a list of fields for the specified form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Submissions Since Last Run",
+                    "Description": "Returns a list of submissions for the specified form since the last successful run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Company Properties",
+            "Methods": [
+                {
+                    "Name": "Create Company Property",
+                    "Description": "Creates a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Properties",
+                    "Description": "Lists company properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Property",
+                    "Description": "Gets a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Property Groups",
+                    "Description": "Lists company property groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company Property",
+                    "Description": "Updates a company property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Custom Properties",
+                    "Description": "Lists company custom properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Company Property",
+                    "Description": "Deletes a company property.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "List Updated Deals",
+                    "Description": "List modified deals from HubSpot since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal",
+                    "Description": "Update the details of a Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal",
+                    "Description": "Get the details of the specified Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal",
+                    "Description": "Create a deal inside HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deals",
+                    "Description": "List all deals that have been created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deals",
+                    "Description": "Returns a list of Deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Deals",
+                    "Description": "Returns a list of Deals that match the name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Deal With Contact",
+                    "Description": "Associate a Deal with a Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Deals V3",
+                    "Description": "Search through deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Associate Deal With Company",
+                    "Description": "Associate a Deal with a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal",
+                    "Description": "Delete a Deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company's Associated Deals",
+                    "Description": "Lists all deals associated with the specified company. Only the Deal ID's are returned, use the Get Deal method to retrieve the full deal details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tickets",
+            "Methods": [
+                {
+                    "Name": "Delete Ticket",
+                    "Description": "Delete a Ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Ticket",
+                    "Description": "Update a Ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tickets",
+                    "Description": "Returns a list of all Tickets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ticket",
+                    "Description": "Get the details of a Ticket.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Ticket",
+                    "Description": "Create a new Ticket.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Properties",
+            "Methods": [
+                {
+                    "Name": "List Product Property Groups",
+                    "Description": "Lists product property groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Property",
+                    "Description": "Gets a product property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Property",
+                    "Description": "Deletes a product property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Properties",
+                    "Description": "Lists product properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product Property",
+                    "Description": "Creates a product property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Product Custom Properties",
+                    "Description": "Lists product custom properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product Property Group",
+                    "Description": "Creates a product property group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product Property",
+                    "Description": "Updates a product property.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Engagements",
+            "Methods": [
+                {
+                    "Name": "Create Task Engagement",
+                    "Description": "Create Task engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Engagements",
+                    "Description": "List newly created engagements.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Note Engagement",
+                    "Description": "Update Note engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Meeting Engagement",
+                    "Description": "Create Meeting engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Engagement",
+                    "Description": "Get the engagement from this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Meeting Engagement",
+                    "Description": "Update Meeting engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Call Dispositions",
+                    "Description": "List the possible dispositions (outcomes) for engagements (sales calls).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Engagements",
+                    "Description": "List all the Engagements from this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Engagement",
+                    "Description": "Delete an existing Engagement from a particular HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Email Engagement",
+                    "Description": "Update Email engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Task Engagement",
+                    "Description": "Update Task engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Engagements",
+                    "Description": "Get updated Engagements.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Email Engagement",
+                    "Description": "Create Email engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Call Engagement",
+                    "Description": "Update Call engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Call Engagement",
+                    "Description": "Create Call engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Note Engagement",
+                    "Description": "Create Note engagement in this HubSpot portal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Objects",
+            "Methods": [
+                {
+                    "Name": "Create Custom Object",
+                    "Description": "Create a custom object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Custom Object Schema",
+                    "Description": "Get a custom object schema.",
+                    "MethodType": "Action",
+                    "Subcategory": "Schema"
+                },
+                {
+                    "Name": "Create Custom Object Schema",
+                    "Description": "Create a custom object schema.",
+                    "MethodType": "Action",
+                    "Subcategory": "Schema"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Contact Deleted",
+                    "Description": "Webhook that listens for when a contact is deleted in Hubspot.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Created",
+                    "Description": "Webhook that listens for when a contact is created in Hubspot.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Delete Company",
+                    "Description": "Deletes a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "Returns details of the specifed Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company By Domain",
+                    "Description": "Gets a company by domain.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Companies",
+                    "Description": "Returns companies that matches the search name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a new Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "Updates a company in HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company Contacts",
+                    "Description": "Returns a list of contacts from the specified Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Companies",
+                    "Description": "List companies created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "Returns a list of all Companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Companies",
+                    "Description": "List all companies created or modified since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pipelines",
+            "Methods": [
+                {
+                    "Name": "List Ticket Pipelines",
+                    "Description": "Get ticket Pipelines from HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Pipelines",
+                    "Description": "Get deal pipelines from HubSpot.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Pipeline Stages",
+                    "Description": "List the Stages of a particular Deal Pipeline",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns With Recent Activity",
+                    "Description": "For a given portal, return all email campaign IDs sorted by recent activity associated with the portal. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Campaigns",
+                    "Description": "For a given portal, return all email campaign IDs associated with the portal. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Gets the details of the specified Campaign.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Properties",
+            "Methods": [
+                {
+                    "Name": "List Deal Property Groups",
+                    "Description": "Returns all of the deal property groups for a given portal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal Property",
+                    "Description": "Create a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal Property",
+                    "Description": "Delete a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal Property",
+                    "Description": "Update a deal property.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Custom Properties",
+                    "Description": "List deal custom properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Properties",
+                    "Description": "List deal properties.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Property",
+                    "Description": "Get a deal property.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Timeline",
+            "Methods": [
+                {
+                    "Name": "UPSERT Event",
+                    "Description": "Create a new event, or update an existing event.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Integrate Hubspot | Connect Your CRM & Marketing System To Your App | Cyclr",
+    "MetaDescription": "Integrate Hubspot to your business apps & systems with Cyclr's drag and drop automation workflow builder.",
+    "Screenshot": "data:image/png;base64,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BIgAESACRIAIEAEi4CYELl++DF9fX0RHR7uJxWRmTydAwldPvwLIfyJABIgAESACRIAIEAEiQASIABEgAmYIlJaW8uT3hYWFGDt2LE9uT40IuAMBEr7cYZfIRiJABIgAESACRIAIEAEiQASIABEgAk4ksGfPHpw6dQr+/v7o378/z/HF/psaEXB1AiR8ufoOkX1EgAgQASJABIgAESACRIAIEAEiQAScTOD8+fPYvHkzL1QQGhqKBx98kKK+nLwntLxlBEj4sowT9SICRIAIEAEiQASIABEgAkSACBABItBjCbCjjuvWrUNISAgXveRyeY9lQY67FwESvtxrv8haIkAEiAARIAJEgAgQASJABIgAESACDidQW1uLb775Bg8//DC8vb0dvj4tSAS6SoCEr66So3H/v717j86qutM4/rzX5H0TcuFiAG8gQUCQO6IiiKIolEtoQK1apzrtastMW6djZ7WzVmd11nRmWu1US1tn1FotolABqYiiAqIMY1RQUEQuQVAIARJIQu7v9czaB0kjkMsBou8J370WK7xh7332+fxe/nnWPvsggAACCCCAAAIIIIAAAgggcI4IHDx4UEePHtWAAQPOkTvmNjuLAMFXZ6kk94EAAggggAACCCCAAAIIIIBABwmYM7569Oih7t27d9AVmBaBjhEg+OoYV2ZFAAEEEEAAAQQQQAABBBBAoNMIvPnmmxo7dqx8Pl+nuSdu5NwQIPg6N+rMXSKAAAIIIIAAAggggAACCCBwWgJ1dXXasWOHRo4c2a7xB2oSsixLPcIeeT3tGkInFwp4vV77LZ+p3gi+Ur1CrA8BBBBAAAEEEEAAAQQQQACBL1Fg//79amhoUH5+fpuriMfjuvSxRrtf0V0ZystI/WCkzZuiwykFTK1N8/v9KS1E8JXS5WFxCCCAAAIIIIAAAggggAACCHy5Au093yuZTNoB2eXzLYKvL7dkX8jVzU5A00KhkMzur1RtBF+pWhnWhQACCCCAAAIIIIAAAggggEAKCGzYsEGDBw9WOBxudTVmB1B1dbVG/zlI8JUCdevoJVRUVNiXyMrKSuldXwRfHf1NYH4EEEAAAQQQQAABBBBAAAEEXCywbt06TZgwoc07iMViOnr0qK5YnO6a4KuhsVF+n0+BQED1DQ1KT0v73O6l2to61dTWqlfPvKb7r6urVyweV2ZGhvz+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",
+    "Content": "<p>Integrate HubSpot\u2019s powerful sales and marketing platform with your business\u2019 application. Connect HubSpot to your email marketing platform, billing system, existing business applications and much more. </p>        <p>Create automation workflows with Cyclr\u2019s drag and drop integration builder to refine, automate and speed up regular data management tasks.</p> ",
+    "WebsiteUrl": "https://cyclr.com/integrate/hubspot",
+    "DocumentationUrl": "https://developers.hubspot.com/",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/hubspot-connector"
+}

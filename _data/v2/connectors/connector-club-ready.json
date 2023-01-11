@@ -1,0 +1,78 @@
+{
+    "Description": "Web-based fitness and gym management platform, branded for you. From leads through member retention, you'll have what you need to run your business, your way.",
+    "Id": 12269,
+    "Name": "Club Ready",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12269",
+    "Categories": [
+        "Billing/Payment",
+        "CRMs",
+        "Sales",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "User",
+            "Methods": [
+                {
+                    "Name": "List Active Users",
+                    "Description": "Gets a list of active users by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Find a User.",
+                    "Description": "Find a member using search criteria.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User",
+                    "Description": "Gets a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Updates Users Details.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users ",
+                    "Description": "Get a list of users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Visit History",
+                    "Description": "Gets a users visit history.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Users for Club",
+                    "Description": "Gets a users for a club.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Users for Club",
+                    "Description": "Gets a users for a club.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create a Prospect",
+                    "Description": "Create a Prospect.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Active Users ",
+                    "Description": "Lists members who have been active since last run. Note this method returns results to the day, not time.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/clubready-connector"
+}

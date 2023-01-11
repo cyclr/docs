@@ -1,0 +1,71 @@
+{
+    "Description": "Share, review, and approve all your files in one place and enjoy a faster, more productive approval process.",
+    "Id": 13790,
+    "Name": "Filestage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13790",
+    "Categories": [
+        "Collaboration",
+        "Project Management"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Review Status Changed",
+                    "Description": "A notification that the status of a Review Request has changed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Review Submitted",
+                    "Description": "Notification that a review has been submitted.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Get File",
+                    "Description": "Returns details of a File.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Comments",
+            "Methods": [
+                {
+                    "Name": "Get Comments",
+                    "Description": "Returns comments posted to a version.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "Returns a list of Projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Returns details of a Project.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

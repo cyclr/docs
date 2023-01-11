@@ -1,0 +1,68 @@
+{
+    "Description": "Gym and studio management software",
+    "Id": 3597,
+    "Name": "Club OS",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/3597",
+    "Categories": [
+        "Marketing",
+        "POS",
+        "Sales",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Lookup",
+            "Methods": [
+                {
+                    "Name": "Get Locations",
+                    "Description": "Gets the list of locations that your account can access.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Services",
+                    "Description": "Gets the list of locations that your account can access.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Email Match",
+                    "Description": "Gets the Club OS unique id for a member given an email address. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Prospects",
+            "Methods": [
+                {
+                    "Name": "Get Prospect",
+                    "Description": "Verifies that the given prospect userId exists in Club OS and you have access to it.  ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Prospect",
+                    "Description": "Add a prospect to the system. Prospect home phone number. Email or 1 phone number is required.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Prospect",
+                    "Description": "Update an existing prospect.  The prospect will be looked up by name, email and phone number(s).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Referral",
+                    "Description": "Add a referrals to the system.  Referrals will only be added if they are not already in the system.  We match based on email or phone number.    The memberEmail must be attached to a member within a club in which you are authorized.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

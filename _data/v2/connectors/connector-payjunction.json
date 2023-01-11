@@ -1,0 +1,81 @@
+{
+    "Description": "Accept payments anywhere, manage all activity in the cloud and receive award-winning service.",
+    "Id": 8377,
+    "Name": "PayJunction",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8377",
+    "Categories": [
+        "POS",
+        "Billing/Payment"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "List all customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List all new customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List all updated customers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deposits",
+            "Methods": [
+                {
+                    "Name": "List Deposits",
+                    "Description": "List all deposits.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deposit",
+                    "Description": "Get a deposit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deposits",
+                    "Description": "List all new deposits.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "Get Transaction",
+                    "Description": "Get a transaction.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Transaction Webhook",
+                    "Description": "Get details of a transaction immediately after it has been processed. ",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/payjunction"
+}

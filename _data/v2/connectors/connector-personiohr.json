@@ -1,0 +1,100 @@
+{
+    "Description": "A holistic HR and applicant management software for 10 to 1000 employees.",
+    "Id": 16161,
+    "Name": "PersonioHR",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16161",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Attendances",
+            "Methods": [
+                {
+                    "Name": "Delete Attendance",
+                    "Description": "Delete attendance data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Attendances",
+                    "Description": "Create attendances for company employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Attendances",
+                    "Description": "Get a list of company employee attendances.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Attendances",
+                    "Description": "Update an attendance period. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Absences",
+            "Methods": [
+                {
+                    "Name": "List Absence Types",
+                    "Description": "Get a list of available absence types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Absences",
+                    "Description": "Get a list of company employee absences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Absence",
+                    "Description": "Create an absence for company employee.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employees",
+            "Methods": [
+                {
+                    "Name": "List Updated Employees",
+                    "Description": "Gets a list of employees since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Gets an employee by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employees",
+                    "Description": "Gets a list of employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": " List New Employees",
+                    "Description": "Gets a list of employees created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee",
+                    "Description": "Create an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Birthday Employees",
+                    "Description": "Gets a list of employees whose birthday is the current date, or between two provided dates.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

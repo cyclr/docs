@@ -1,0 +1,42 @@
+{
+    "Description": "Spark Membership is an online CRM and marketing automation platform for Martial Arts, Kickboxing, Gyms and MMA studios.",
+    "Id": 16091,
+    "Name": "Spark Membership",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16091",
+    "Categories": [
+        "Marketing",
+        "CRMs",
+        "Healthcare/Wellness"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Retrieves contacts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Retrieves the contact specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Retrieves all contacts.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

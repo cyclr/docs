@@ -1,0 +1,92 @@
+{
+    "Description": "Match real customer form fills and phone calls against the marketing campaign and keyword from which it was generated.",
+    "Id": 6850,
+    "Name": "Ruler",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/6850",
+    "Categories": [
+        "Marketing",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Revenue",
+            "Methods": [
+                {
+                    "Name": "Add Revenue",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Cost",
+            "Methods": [
+                {
+                    "Name": "Add Cost",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "GA",
+            "Methods": [
+                {
+                    "Name": "Add GA",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunity",
+            "Methods": [
+                {
+                    "Name": "Add Opportunity",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Visit",
+            "Methods": [
+                {
+                    "Name": "Add Visitor",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Conversion",
+            "Methods": [
+                {
+                    "Name": "Add Conversion",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Attribution",
+            "Methods": [
+                {
+                    "Name": "Get Attribution",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Methods": [
+                {
+                    "Name": "Get webhook fields",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

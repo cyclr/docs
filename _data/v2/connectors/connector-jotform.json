@@ -1,0 +1,96 @@
+{
+    "Description": "JotForm helps you create online forms and collect data, all without needing to write a single line of code.",
+    "Id": 13403,
+    "Name": "JotForm",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13403",
+    "Categories": [
+        "Forms",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Download File",
+                    "Description": "Retrieves the specified file.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Uploads",
+                    "Description": "Retrieves a list of all files uploaded on the specified form.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User",
+                    "Description": "Get user account details for this JotForm user. Including user account type, avatar URL, name, email, website URL and account limits.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User History",
+                    "Description": "User activity log about things like forms created/modified/deleted, account logins and other operations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Forms",
+            "Methods": [
+                {
+                    "Name": "List Form Questions",
+                    "Description": "Retrieves all questions for the specified form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Forms",
+                    "Description": "Retrieves all forms for this account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Submissions",
+            "Methods": [
+                {
+                    "Name": "Get Submission",
+                    "Description": "Retrieves the specified submission.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Form Submissions",
+                    "Description": "Retrieves all responses to the specified form.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New User Submissions",
+                    "Description": "Retrieves submissions for all forms on this account submitted since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Form Submissions",
+                    "Description": "Retrieves responses to the specified form submitted since the last time this action was executed.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List User Submissions",
+                    "Description": "Retrieves all submissions for all forms on this account.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/jotform-connector"
+}

@@ -1,0 +1,172 @@
+{
+    "Description": "Send personalised emails at the perfect moment or activity. Increase returning traffic with individualised notifications. Store organised knowledge for your team and customers.",
+    "Id": 8794,
+    "Name": "User.com",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8794",
+    "Categories": [
+        "Marketing",
+        "Analytics",
+        "Chat"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Events",
+                    "Description": "Retrieves all events.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Event",
+                    "Description": "Retrieves an event by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Event",
+                    "Description": "Creates an event.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "List Companies",
+                    "Description": "Retrieves all companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Company",
+                    "Description": "Deletes a company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "Retrieves a company by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "Updates an existing company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "Get Deal",
+                    "Description": "Retrieves a deal by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Loss Reasons",
+                    "Description": "Retrieves all deal loss reasons.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Stages",
+                    "Description": "Retrieves all deal stages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deals",
+                    "Description": "Retrieves all deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pipelines",
+                    "Description": "Retrieves all pipelines.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal",
+                    "Description": "Updates an existing deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal",
+                    "Description": "Creates a deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Retrieves all users.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete User",
+                    "Description": "Deletes a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User By ID",
+                    "Description": "Retrieves a user by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User By Email",
+                    "Description": "Retrieves a user by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Updates an existing user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Creates a new user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Application",
+            "Methods": [
+                {
+                    "Name": "Get App Information",
+                    "Description": "Retrieves the information associated with your application.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "User Created",
+                    "Description": "Triggered upon the creation of a new user.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Note Added To User",
+                    "Description": "Triggered upon the addition of a note to a user's profile.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/userdotcom-connector"
+}

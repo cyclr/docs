@@ -1,0 +1,321 @@
+{
+    "Description": "FastSpring is the trusted ecommerce partner for software companies around the world. ",
+    "Id": 7593,
+    "Name": "FastSpring",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7593",
+    "Categories": [
+        "Billing/Payment",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List All Accounts",
+                    "Description": "Get a List of All Account IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Account",
+                    "Description": "Create a New Account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account by ID",
+                    "Description": "Get an Account by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account",
+                    "Description": "Update an Account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account by Email",
+                    "Description": "Get an Account by Email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account by Parameter",
+                    "Description": "Get an Account by Listed Parameter.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Coupons",
+            "Methods": [
+                {
+                    "Name": "Create Coupon",
+                    "Description": "Create a New Coupon.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Coupon",
+                    "Description": "Get a Coupon by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Coupons",
+                    "Description": "Get a List of All Coupon IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Coupon Codes",
+                    "Description": "Get Codes Assigned to a Coupon.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Coupon Code",
+                    "Description": "Add Code to a Coupon.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Coupon Codes",
+                    "Description": "Delete Codes Assigned to a Coupon.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Coupon",
+                    "Description": "Update a Coupon.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "Get a List of All Order IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get Orders by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Create a New Order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders by Parameter",
+                    "Description": "Get a List of All Orders by Listed Parameter.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Products",
+                    "Description": "Get a List of All Products IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get Products by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Product",
+                    "Description": "Create a New Product.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Product",
+                    "Description": "Update a Product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Returns",
+            "Methods": [
+                {
+                    "Name": "Get Return",
+                    "Description": "Get Returns by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "List Subscriptions",
+                    "Description": "Get a List of All subscription IDs.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription",
+                    "Description": "Get Subscriptions by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Subscription Instance Entries",
+                    "Description": "Get a Subscription's Instance Entries. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Subscription",
+                    "Description": "Update a Subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Subscription(s)",
+                    "Description": "Cancel Subscriptions by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Uncancel Subscription",
+                    "Description": "Uncancel a Cancelled Subscription Instance prior to deactivation.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "List Processed Events",
+                    "Description": "Get a List of all Processed Events.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Unprocessed Events",
+                    "Description": "Get a List of all Unprocessed Events.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Account Created",
+                    "Description": "Webhook notification that an Account has been created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Activated",
+                    "Description": "Webhook notification that a Subscription has been activated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Cancelled",
+                    "Description": "Webhook notification that a Subscription has been cancelled.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Charge Completed",
+                    "Description": "Webhook notification that a charge to a Subscription has been completed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Charge Failed",
+                    "Description": "Webhook notification that a Subscription Charge has failed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Deactivated",
+                    "Description": "Webhook notification that a Subscription has been deactivated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Payment Overdue",
+                    "Description": "Wedbhook notification that a Subscription Payment is overdue.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Payment Reminder",
+                    "Description": "Webhook notificaiton that a Subscription Payment reminder is due.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Trial Reminder",
+                    "Description": "Webhook notification that a trial periood of a Subscription has ended.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Subscription Updated",
+                    "Description": "Webhook notification that a Subscription has been updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Fulfilment Failed",
+                    "Description": "Webhook notification that one of more actions failed during Order fulfilment. ",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Mailing List Entry Removed",
+                    "Description": "Webhook notification that an entry is expected to be removed from a mailing list",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Mailing List Entry Updated",
+                    "Description": "Webhook notification that there is an updated entry in a Mailing List.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Approval Pending",
+                    "Description": "Webhook notification that approval is required before an order can be completed. ",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Cancelled",
+                    "Description": "Webhook notification that an order has been cancelled.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Completed",
+                    "Description": "Webhook notification that an order has been completed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Failed",
+                    "Description": "Webhook notification that an Order has failed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Order Payment Pending",
+                    "Description": "Webhook notificaiton that an Order payment is pending.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Payout Entry Created",
+                    "Description": "Webhook notificaiton that a payout event has been created - e.g. for an order, split pay rule, return etc.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Return Created",
+                    "Description": "Webhook notification that a refund or a return has been created.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Sessions",
+            "Methods": [
+                {
+                    "Name": "Create Session",
+                    "Description": "Create a New Session.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

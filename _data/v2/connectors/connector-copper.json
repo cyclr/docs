@@ -1,0 +1,469 @@
+{
+    "Description": "Copper is the #1 CRM for G Suite. It is embedded into Gmail so you can update opportunities, add contacts, and manage your pipeline right from your inbox.",
+    "Id": 16836,
+    "Name": "Copper",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16836",
+    "Categories": [
+        "Marketing",
+        "CRMs"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Activities",
+            "Methods": [
+                {
+                    "Name": "Create Activity",
+                    "Description": "Create a new activity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Company Activities ",
+                    "Description": "Returns a list of company activities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Activity Types",
+                    "Description": "List Activity types within your account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Activities",
+                    "Description": "Returns a list of activities for a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Project Activities",
+                    "Description": "Returns a list of activities for a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Task Activities",
+                    "Description": "Returns a list of activities for a task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Activities ",
+                    "Description": "Returns a list of activities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Person Activities",
+                    "Description": "Returns a list of activities for a person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Activity",
+                    "Description": "Fetch an Activity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunity Activities",
+                    "Description": "Returns a list of activities for a opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update an Activity",
+                    "Description": "Update an Activity by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Activity",
+                    "Description": "Delete an Activity.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "List Updated People ",
+                    "Description": "List all updated people since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person By Email",
+                    "Description": "This method allows you to get the details of a single Person by specifying a Person Email Address",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People",
+                    "Description": "This method allows you to get the details of all People.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Person",
+                    "Description": "This method allows you to update a Person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Person",
+                    "Description": "This method allows you to add a Person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New People",
+                    "Description": "List new people since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search People by Created Date",
+                    "Description": "Search all people by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Person",
+                    "Description": "This method allows you to delete a Person.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Person By ID",
+                    "Description": "This method allows you to get the details of a single Person by specifying a Person ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Update Project",
+                    "Description": "This method allows you to update a Projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Projects",
+                    "Description": "This method allows you to get the details of all Projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "This method allows you to get the details of a single Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Projects by Created Date",
+                    "Description": "Search all projects by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Projects",
+                    "Description": "List new projects since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Project",
+                    "Description": "This method allows you to delete a Project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Projects ",
+                    "Description": "List all updated projects since last successful run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tasks",
+            "Methods": [
+                {
+                    "Name": "Delete Task",
+                    "Description": "This method allows you to delete a Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Task",
+                    "Description": "This method allows you to update a Tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Tasks",
+                    "Description": "This method allows you to get the details of all Tasks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Tasks by Created Date",
+                    "Description": "Search all tasks by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Tasks",
+                    "Description": "List all updated tasks since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Task",
+                    "Description": "This method allows you to get the details of a single Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Task",
+                    "Description": "This method allows you to add a Task.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Tasks",
+                    "Description": "List new tasks since last successful run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Delete Company",
+                    "Description": "This method allows you to delete a Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Companies",
+                    "Description": "This method allows you to get the details of all Companies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Companies by Created Date",
+                    "Description": "Search all companies by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Companies",
+                    "Description": "List all updated companies since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "This method allows you to get the details of a single Company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Companies",
+                    "Description": "List new companies since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "This method allows you to update a Company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "List Leads",
+                    "Description": "This method allows you to get the details of all Leads.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead By Email",
+                    "Description": "This method allows you to search on a lead by email.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Lead",
+                    "Description": "This method allows you to update a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "This method allows you to get the details of a single lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Convert Lead",
+                    "Description": "Converts a lead to a person record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Leads",
+                    "Description": "This method allows you to get the details of all Leads created since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Leads",
+                    "Description": "List all updated Leads since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Lead",
+                    "Description": "This method allows you to add a Lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Lead",
+                    "Description": "This method allows you to delete a lead.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Leads by Created Date",
+                    "Description": "Search all activities by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Lead Statuses",
+                    "Description": "This method allows you to get the details of all lead statuses.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Opportunities",
+            "Methods": [
+                {
+                    "Name": "Delete Opportunity",
+                    "Description": "This method allows you to delete a Opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Opportunity",
+                    "Description": "This method allows you to update a Opportunities.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Opportunities",
+                    "Description": "List all updated opportunities since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Opportunities by Created Date",
+                    "Description": "Search all opportunities by date range.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Opportunity",
+                    "Description": "This method allows you to get the details of a single Opportunity.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Opportunities",
+                    "Description": "List new opportunities since last successful run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Opportunities",
+                    "Description": "This method allows you to get the details of all Opportunities.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "This method allows you to get the details of all Users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account and Users",
+            "Methods": [
+                {
+                    "Name": "Get Account",
+                    "Description": "Gets details for the current logged in account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customer Sources",
+            "Methods": [
+                {
+                    "Name": "List Customer Sources",
+                    "Description": "This method allows you to get the details of all customer sources.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Add Subscription",
+                    "Description": "Create a webhook subscription",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions",
+                    "Description": "Returns a linting of all Webhoook Subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Subscription",
+                    "Description": "Removes a Webhook Subscription.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Types",
+            "Methods": [
+                {
+                    "Name": "List Contact Types",
+                    "Description": "This method gets a list of contact types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List Custom Fields",
+                    "Description": "This Lists Custom Fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Pipelines",
+            "Methods": [
+                {
+                    "Name": "List Pipelines Stages",
+                    "Description": "This method gets a list ofpipeline stages.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pipelines",
+                    "Description": "This method gets a list ofpipelines.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Person Updated",
+                    "Description": "Notification that a Person's details have been updated.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "People"
+                },
+                {
+                    "Name": "Person Added",
+                    "Description": "Notification that a new Person has been added.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "People"
+                },
+                {
+                    "Name": "Person Deleted",
+                    "Description": "Notification that a Person has been deleted.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "People"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/copper"
+}

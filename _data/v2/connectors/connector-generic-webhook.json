@@ -1,0 +1,67 @@
+{
+    "Description": "Connect to any form with our Webhook connector",
+    "Id": 8752,
+    "Name": "Generic Webhook",
+    "Version": "1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8752",
+    "Categories": [
+        "Utility Connectors",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "HTTP Methods",
+            "Methods": [
+                {
+                    "Name": "DELETE",
+                    "Description": "Send a DELETE request to another endpoint.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "POST",
+                    "Description": "POST JSON to another endpoint. Add custom fields to this method as request body data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "GET",
+                    "Description": "GET JSON from another endpoint. Add custom fields to this method as request body data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "PUT",
+                    "Description": "PUT JSON on another endpoint. Add custom fields to this method as request body data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "PATCH",
+                    "Description": "PATCH JSON on another endpoint. Add custom fields to this method as request body data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Webhook",
+                    "Description": "Add fields to this connector to interact with a Webhook. Accepts JSON, XML, or form encoded data.  Specify which in the \"Content-Type\" HTTP Header of a Request.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Synchronous Response",
+                    "Description": "Add fields to this connector to respond to a Webhook. Returns JSON, XML, or form encoded data. Specify which using the \"Accept\"  HTTP Header of a Request.",
+                    "MethodType": "WebhookResponse"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Generic Webhook Integration - Automatically Sync Website Data - Cyclr",
+    "MetaDescription": "Connect your website or application to your business systems through Cyclr's Webhook integration, passing your data to where you need it.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/generic-webhook",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/generic-webhook"
+}

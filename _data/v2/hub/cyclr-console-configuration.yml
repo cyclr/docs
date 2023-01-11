@@ -1,0 +1,27 @@
+title: Cyclr console configuration
+text: Learn how to configure the Cyclr console for success.
+sections: 
+  - title: Content
+    display: true
+    items: 
+    - title: Appearance settings
+      url: /console-appearance-settings
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: General settings
+      url: /console-general-settings
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Data retention settings
+      url: /console-data-retention-settings
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Security settings
+      url: /console-security
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Custom service domains
+      url: /custom-domains
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Performance tips
+      url: /performance-tips
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.
+    - title: Handle transaction errors
+      url: /transaction-error-webhook
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor aliquam convallis leo.

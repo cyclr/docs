@@ -1,0 +1,78 @@
+{
+    "Description": "Guestline are the experts in cloud-based property management, distribution and digital marketing technologies for the hospitality.",
+    "Id": 15739,
+    "Name": "Guestline",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15739",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "Search Bookings",
+                    "Description": "Search for and list bookings.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Movements",
+            "Methods": [
+                {
+                    "Name": "List Movements",
+                    "Description": "List all movements.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Profile Summaries",
+            "Methods": [
+                {
+                    "Name": "Get Profile Summary With Stays",
+                    "Description": "Get a profile summary with stays.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Profile Summary With Attributes",
+                    "Description": "Get a profile summary with attributes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Profile Summary",
+                    "Description": "Get a profile summary.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Departures",
+            "Methods": [
+                {
+                    "Name": "List Departures",
+                    "Description": "List all departures.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Arrivals",
+            "Methods": [
+                {
+                    "Name": "List Arrivals",
+                    "Description": "List all arrivals.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/guestline-connector"
+}

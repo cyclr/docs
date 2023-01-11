@@ -1,0 +1,345 @@
+{
+    "Description": "This connector brings webhooks to Shopify.",
+    "Id": 17199,
+    "Name": "Shopify",
+    "Version": "1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17199",
+    "Categories": [
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Meta Fields",
+            "Methods": [
+                {
+                    "Name": "Get Metafields (Beta)",
+                    "Description": "Get Meta Fields, Transforms response to key value pairs. You will need to add custom response fields to map from. format \"metafields.<fieldkey>\" e.g. metafields.mytextbox1",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Meta Fields(Beta)",
+                    "Description": "List Meta Fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Gift Cards",
+            "Methods": [
+                {
+                    "Name": "Get Gift Card Count",
+                    "Description": "Get a count of gift cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Gift Cards",
+                    "Description": "Returns gift cards that match a supplied query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Disable Gift Card",
+                    "Description": "Disables a gift card. Disabling a gift card can't be undone.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Gift Cards",
+                    "Description": "Lists all gift cards.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Gift Card",
+                    "Description": "Creates a gift card.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Gift Card",
+                    "Description": "Get a gift card, specified by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Gift Card",
+                    "Description": "Updates an existing gift card.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Refunds",
+            "Methods": [
+                {
+                    "Name": "Get Order Refund",
+                    "Description": "Retrieves a specific refund for an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Refund Created",
+                    "Description": "This webhook is triggered when a refund is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List Order Refunds",
+                    "Description": "Retrieves a list of refunds for an order.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Inventory Levels",
+            "Methods": [
+                {
+                    "Name": "Update Inventory Level",
+                    "Description": "Updates the inventory level of an inventory item.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Inventory Levels",
+                    "Description": "List inventory levels.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Locations",
+            "Methods": [
+                {
+                    "Name": "List Locations",
+                    "Description": "List locations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Checkout",
+            "Methods": [
+                {
+                    "Name": "Checkout Created",
+                    "Description": "This webhook is triggered when a checkout is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Checkout Updated",
+                    "Description": "This webhook is triggered when a checkout is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Checkout Deleted",
+                    "Description": "This webhook is triggered when a checkout is deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Checkouts Count",
+                    "Description": "Gets the amount of checkouts from the past 90 days",
+                    "MethodType": "Action",
+                    "Subcategory": "Management"
+                },
+                {
+                    "Name": "List Abandoned Checkouts",
+                    "Description": "List Abandoned Checkouts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Order Fulfillments",
+                    "Description": "Retrieves a list of fulfillments for a specific order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Fulfillment",
+                    "Description": "Retrieve a specific fulfillment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get order by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Fulfillment Tracking Information",
+                    "Description": "Updates the tracking information for a fulfillment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order Fulfillment",
+                    "Description": "Create a fulfillment for the specified order and line items.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Order",
+            "Methods": [
+                {
+                    "Name": "List New Orders",
+                    "Description": "List orders created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "List orders updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "List orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Order",
+                    "Description": "Creates an order. By default, product inventory is not claimed.",
+                    "MethodType": "Action",
+                    "Subcategory": "Management"
+                },
+                {
+                    "Name": "Order Deletion",
+                    "Description": "This webhook is triggered when a order is deleted.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Order Fulfillment",
+                    "Description": "This webhook is triggered when a order is fulfilled.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Order Cancellation",
+                    "Description": "This webhook is triggered when a order is cancelled.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Order Payment",
+                    "Description": "This webhook is triggered when a order is paid for.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Order Updated",
+                    "Description": "This webhook is triggered when a order is updated.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Order Created",
+                    "Description": "This webhook is triggered when a order is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Product Created",
+                    "Description": "This webhook is triggered when a product is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Product Updated",
+                    "Description": "This webhook is triggered when a product is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Get Product Variant Using SKU",
+                    "Description": "Get a product variant using an SKU filter.",
+                    "MethodType": "Action",
+                    "Subcategory": "Variants"
+                },
+                {
+                    "Name": "Update Product Variant",
+                    "Description": "Update a product variant.",
+                    "MethodType": "Action",
+                    "Subcategory": "Variants"
+                },
+                {
+                    "Name": "List Product Variants",
+                    "Description": "List product variants.",
+                    "MethodType": "Action",
+                    "Subcategory": "Variants"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Get a product.",
+                    "MethodType": "Action",
+                    "Subcategory": "Manage"
+                },
+                {
+                    "Name": "List Products",
+                    "Description": "List products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Product Deleted",
+                    "Description": "This webhook is triggered when a product is deleted.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customer Orders",
+                    "Description": "List orders for specified Customer ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Customer Deleted",
+                    "Description": "This webhook is triggered when a customer is deleted.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Updated",
+                    "Description": "This webhook is triggered when a customer is updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Customer Created",
+                    "Description": "This webhook is triggered when a customer is created.",
+                    "MethodType": "Webhook",
+                    "Subcategory": "Webhooks"
+                },
+                {
+                    "Name": "Search Customers",
+                    "Description": "Searches for customers that match a supplied query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "List customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Update a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List customers created since lastrun.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Customers",
+                    "Description": "List customers updated since lastrun.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "Shopify Integration | eCommerce Automation | Cyclr",
+    "MetaDescription": "Automate your users' monotonous eCommerce admin tasks by integrating Shopify and your business app with Cyclr's automation workflow builder.",
+    "Screenshot": null,
+    "Content": "<p>Shopify\u2019s powerful eCommerce platform creates flexible and beautiful online stores that can be set up in no time.  </p> <p>Cyclr allows you to integrate Shopify with a wide range of Cloud business apps, including your own application, so you can create your own time-saving automation workflows, enhancing marketing, customer data management, support, billing and much more!</p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/shopify",
+    "DocumentationUrl": "https://developers.shopify.com/",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/shopify"
+}

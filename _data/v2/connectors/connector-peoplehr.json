@@ -1,0 +1,201 @@
+{
+    "Description": "People HR is a reliable human resources management solution built for small and medium businesses.",
+    "Id": 17079,
+    "Name": "PeopleHR",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17079",
+    "Categories": [
+        "HR/Payroll"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Sick Absence Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Sick  Absence Created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Employee Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Maternity/Paternity Absence Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Holiday Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Employee Created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Holiday Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Maternity/Paternity Absence Created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Sick Absence Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Holiday Created",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Employee Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Maternity/Paternity Absence Deleted",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Late Absence Created/Updated",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Late Absence Deleted",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Vacancy",
+            "Methods": [
+                {
+                    "Name": "List Vacancies",
+                    "Description": "List all vacancies.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Vacancy",
+                    "Description": "Create a vacancy.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Vacancy",
+                    "Description": "Get vacancy details.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Holiday Entitlement",
+            "Methods": [
+                {
+                    "Name": "Update Next Year Holiday Entitlement",
+                    "Description": "Update next year holiday entitlement.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Holiday Entitlement",
+                    "Description": "Get holiday entitlements.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Next Holiday Entitlement",
+                    "Description": "Get next holiday entitlement.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Holiday Entitlement",
+                    "Description": "Update holiday entitlement.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee Timesheet",
+            "Methods": [
+                {
+                    "Name": "Update Employee Timesheet",
+                    "Description": "Update an employee timesheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employee Timesheets",
+                    "Description": "List employee timesheets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee Timesheet",
+                    "Description": "Create an employee timesheet.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Timesheet",
+                    "Description": "Delete an employee timesheet.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee Absence",
+            "Methods": [
+                {
+                    "Name": "List Employees Absences",
+                    "Description": "List absences.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Employee Absence",
+                    "Description": "Delete an absence.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employee",
+            "Methods": [
+                {
+                    "Name": "List Employees",
+                    "Description": "List employees.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee As Leaver",
+                    "Description": "Update an employee as a leaver.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Employee",
+                    "Description": "Create an employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Employee",
+                    "Description": "Get employee.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee ID",
+                    "Description": "Update an employees ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Employee",
+                    "Description": "Update employee.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/peoplehr"
+}

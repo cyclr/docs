@@ -1,0 +1,31 @@
+{
+    "Description": "SMS marketing and messaging that grows your ecommerce business.",
+    "Id": 7877,
+    "Name": "Voyage",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7877",
+    "Categories": [
+        "Ecommerce",
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Audience/List Building",
+            "Methods": [
+                {
+                    "Name": "Custom Keyed Entry",
+                    "Description": "To send a phone number to the Voyage system, you can call this method with the user\u2019s phone number and your campaign ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

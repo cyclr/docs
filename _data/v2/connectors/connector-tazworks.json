@@ -1,0 +1,133 @@
+{
+    "Description": "Providing a total solution for simple, powerful, and user-friendly background screening software.",
+    "Id": 12045,
+    "Name": "TazWorks",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12045",
+    "Categories": [
+        "HR/Payroll",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Applicants",
+            "Methods": [
+                {
+                    "Name": "Get Applicant",
+                    "Description": "Get an applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Applicant",
+                    "Description": "Update an applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Applicant",
+                    "Description": "Delete an applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Applicants",
+                    "Description": "List all applicants.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Applicant",
+                    "Description": "Create a new applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Applicants",
+                    "Description": "List all applicants updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Employments",
+            "Methods": [
+                {
+                    "Name": "Create Employment",
+                    "Description": "Create a new employment for applicant.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Employments",
+                    "Description": "List applicants employments.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Addresses",
+            "Methods": [
+                {
+                    "Name": "Create Address",
+                    "Description": "Create a new address for applicant.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Education",
+            "Methods": [
+                {
+                    "Name": "Create Education",
+                    "Description": "Create a new education for applicant.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Reference",
+            "Methods": [
+                {
+                    "Name": "Create Reference",
+                    "Description": "Create a new reference for applicant.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "List Orders",
+                    "Description": "List all orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order Status",
+                    "Description": "Get status for an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clients For Order",
+                    "Description": "List all clients for order.",
+                    "MethodType": "Action",
+                    "Subcategory": "Clients"
+                },
+                {
+                    "Name": "List Products For Order",
+                    "Description": "List all products for order.",
+                    "MethodType": "Action",
+                    "Subcategory": "Products"
+                },
+                {
+                    "Name": "Submit Order",
+                    "Description": "Submit order.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/tazworks-connector"
+}

@@ -1,0 +1,272 @@
+{
+    "Description": "Point of sale for iPad, Mac and PC.",
+    "Id": 12577,
+    "Name": "Vend",
+    "Version": "2.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12577",
+    "Categories": [
+        "POS",
+        "Billing/Payment",
+        "Ecommerce"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "List Customers",
+                    "Description": "List customers.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Get a single customer by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Customers",
+                    "Description": "List new customers since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Updates an existing customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer",
+                    "Description": "Delete a customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customers By Customer Code",
+                    "Description": "Gets customers with a specified Customer Code.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer",
+                    "Description": "Creates a new customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Sales",
+            "Methods": [
+                {
+                    "Name": "List Sales",
+                    "Description": "List sales.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Sale",
+                    "Description": "Get a single sale by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Sales",
+                    "Description": "List new sales since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customer Groups",
+            "Methods": [
+                {
+                    "Name": "List Customer Groups",
+                    "Description": "List customer groups.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer Group",
+                    "Description": "Get a single customer group by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer Group",
+                    "Description": "Updates an existing customer group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Customer Group",
+                    "Description": "Get a single customer group by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customer Group Members",
+                    "Description": "Returns a list of Customers for the given Customer Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Customers to Group",
+                    "Description": "Associates one or more Customers with the given Customer Group",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Customers from Group",
+                    "Description": "Deletes the given Customers from the Customer Group.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer Group",
+                    "Description": "Creates a new customer group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "List Products",
+                    "Description": "Returns a paginated list of products.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Returns a single product object with a given ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Inventory Data",
+                    "Description": "Returns inventory data for a single product in all the outlets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Price Books",
+                    "Description": "This end point returns the list of Price Books the given product is in.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Upload Product Image",
+                    "Description": "Upload a binary file with an image to be used for a product. This request should be encoded as multipart/form-data.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Products",
+                    "Description": "Returns a paginated list of products updated since last cycle.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Types",
+            "Methods": [
+                {
+                    "Name": "List Product Types",
+                    "Description": "Returns a paginated list of product types.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product Type",
+                    "Description": "Returns a single product type with a given ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Product Images",
+            "Methods": [
+                {
+                    "Name": "Get Product Image Data",
+                    "Description": "Returns the metadata for a single product image with a given ID. This method is useful for checking the status of an image after it was uploaded.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Set Image Position",
+                    "Description": "Allows for changing the image position in the list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Product Image",
+                    "Description": "Deletes the product_image with the requested ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Outlets",
+            "Methods": [
+                {
+                    "Name": "List Outlets",
+                    "Description": "Returns a collection of outlets.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Outlet",
+                    "Description": "Returns a single outlet with the requested ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Registers",
+            "Methods": [
+                {
+                    "Name": "List Registers",
+                    "Description": "Retrieves all registers.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "Retrieves all users.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Taxes",
+            "Methods": [
+                {
+                    "Name": "List Taxes",
+                    "Description": "Retrieves all taxes.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payment Types",
+            "Methods": [
+                {
+                    "Name": "List Payment Types",
+                    "Description": "Retrieves all payment types.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Retailers",
+            "Methods": [
+                {
+                    "Name": "Get Retailer",
+                    "Description": "Retrieves information about the retailer associated with the authenticated user/application.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Register Sales",
+            "Methods": [
+                {
+                    "Name": "Create Register Sale",
+                    "Description": "Create a register sale object.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/vend-connector"
+}

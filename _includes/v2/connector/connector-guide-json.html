@@ -1,0 +1,39 @@
+<div class="d-flex flex-row flex-wrap mt-5 mb-1">
+
+	<div class="text-center col-2">
+		<img class="img-fluid" src="{{ connectordata[0].Icon }}" alt="{{ connectordata[0].Name }} icon"/>
+	</div>
+	<div class="text-left offset-1 col-9">
+		<h1>{{ connectordata[0].Name }}</h1>
+		<h2>{{ connectordata[0].Version }}</h2>
+		<p>{{ connectordata[0].Description }}</p>
+	</div>
+</div>
+<div class="d-flex flex-row flex-wrap">
+	<div class="col-12">
+		{% if connectordata[0].PartnerSetup %}
+		<div class="section">
+			<h2 class="card-title">Partner Setup</h2>
+			<div class="connector">
+				{{ connectordata[0].PartnerSetup | markdownify }}
+			</div>
+		</div>
+		{% endif %}
+		{% if connectordata[0].ApiKey %}
+		<div class="section">
+			<h2 class="card-title">API Key</h2>
+			<div class="connector">
+				{{ connectordata[0].ApiKey | markdownify }}
+			</div>
+		</div>
+		{% endif %}
+		{% if connectordata[0].CyclrSetup %}
+		<div class="section">
+			<h2 class="card-title">Cyclr Setup</h2>
+			<div class="connector">
+				{{ connectordata[0].CyclrSetup | markdownify }}
+			</div>
+		</div>
+		{% endif %}
+	</div>
+</div>

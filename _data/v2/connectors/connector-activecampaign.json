@@ -1,0 +1,553 @@
+{
+    "Description": "Active Campaign is a powerful email marketing platform.",
+    "Id": 16956,
+    "Name": "ActiveCampaign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16956",
+    "Categories": [
+        "CRMs",
+        "Email Marketing",
+        "Sales",
+        "SMS"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contact Custom Field Values",
+            "Methods": [
+                {
+                    "Name": "Get Contact Custom Field Value",
+                    "Description": "Get a contact custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact Custom Field Value",
+                    "Description": "Update a contact custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contact Custom Field Values",
+                    "Description": "List updated contact custom field values.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Custom Field Values",
+                    "Description": "List contact custom field values.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contact Custom Field Values",
+                    "Description": "List new contact custom field values.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Set Custom Field Value",
+                    "Description": "Set a contact custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact Custom Field Value",
+                    "Description": "Delete a contact custom field value.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Stages",
+            "Methods": [
+                {
+                    "Name": "List Deal Stages",
+                    "Description": "Retrieve all existing stages",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Automations",
+            "Methods": [
+                {
+                    "Name": "List Automations",
+                    "Description": "List all of your automations.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "List all ActiveCampaign Users attached to site",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Custom Fields",
+            "Methods": [
+                {
+                    "Name": "Get Contact Custom Field",
+                    "Description": "Get a contact custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contact Custom Fields",
+                    "Description": "List contact custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact Custom Field",
+                    "Description": "Update a contact custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contact Custom Fields",
+                    "Description": "List updated contact custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact Custom Field",
+                    "Description": "Delete a contact custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact Custom Field",
+                    "Description": "Create a custom field for contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contact Custom Fields",
+                    "Description": "List new contact custom fields.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals Custom Field Values",
+            "Methods": [
+                {
+                    "Name": "Set Deal Custom Field Value",
+                    "Description": "Set a deal custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal Custom Field Value",
+                    "Description": "Delete a deal custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Custom Field Value",
+                    "Description": "Get a deal custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Custom Field Values",
+                    "Description": "List deal custom field values.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal Custom Field Value",
+                    "Description": "Update a deal custom field value.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deal Custom Field Values",
+                    "Description": "List new deal custom field values.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Deal Custom Field Values",
+                    "Description": "List updated deal custom field values.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contact Tags",
+            "Methods": [
+                {
+                    "Name": "List Contact Tags",
+                    "Description": "List all Tags attached to a Contact",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Tag To Contact",
+                    "Description": "Create a contact tag object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact Tag",
+                    "Description": "Remove a tag from a contact",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact Tag",
+                    "Description": "Retrieve a Tag by ID",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Account Notes",
+            "Methods": [
+                {
+                    "Name": "Create Account Note",
+                    "Description": "Add a note to an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account Note",
+                    "Description": "Update a note's content.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account Notes",
+                    "Description": "List all Notes attached to an Account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals",
+            "Methods": [
+                {
+                    "Name": "Update Deal",
+                    "Description": "Update an existing deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deals",
+                    "Description": "Get all existing deals.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal",
+                    "Description": "Create a new deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Deals",
+                    "Description": "Get updated/modified deals since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Pipelines",
+                    "Description": "Retrieve all existing pipelines.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deals",
+                    "Description": "Get new deals since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal",
+                    "Description": "Get a single deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal",
+                    "Description": "Delete an existing deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Groups",
+            "Methods": [
+                {
+                    "Name": "List User Groups",
+                    "Description": "Retrieve all existing groups.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Notifications",
+            "Methods": [
+                {
+                    "Name": "Contact Updated",
+                    "Description": "Event fired when contact updated.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Unsubscribed",
+                    "Description": "Event fired when contact unsubscribed.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Contact Added",
+                    "Description": "Event fired when new contact detected.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Email Bounced",
+                    "Description": "Event fired when email bounces.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "List Tags",
+                    "Description": "List all available Tags",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deal Notes",
+            "Methods": [
+                {
+                    "Name": "Create Deal Note",
+                    "Description": "Create a new note for a deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Notes",
+                    "Description": "Get all Notes attached to a deal",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal Note",
+                    "Description": "Update an existing note for a deal.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Webhooks",
+            "Methods": [
+                {
+                    "Name": "Create a \"Contact Updated\" Webhook",
+                    "Description": "Create a new \"contact updated\" webhook",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create a \"Contact Unsubscribed\" Webhook",
+                    "Description": "Create a new \"contact unsubscribed\" webhook",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Webhooks",
+                    "Description": "List all existing webhooks",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create a \"Contact Added\" Webhook",
+                    "Description": "Create a new \"contact added\" webhook",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create an \"Email Bounced\" Webhook",
+                    "Description": "Create a new \"email bounced\" webhook",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "List Lists",
+                    "Description": "Gets all Lists",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete List",
+                    "Description": "Deletes a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List Group Permission",
+                    "Description": "Associate a list with a group permission.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List By Name",
+                    "Description": "Get a List by it's name.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create List",
+                    "Description": "Create a new list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get List by ID",
+                    "Description": "Retrieves a list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact Subscription Status",
+                    "Description": "Subscribe a contact to a list or unsubscribe a contact from a list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Deals Custom Fields",
+            "Methods": [
+                {
+                    "Name": "List New Custom Fields for Specific Deal",
+                    "Description": "List new custom fields for a specific deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Deal Custom Field",
+                    "Description": "Update a deal custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Custom Fields for Specific Deal",
+                    "Description": "List custom fields for a specific deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Custom Fields for Specific Deal",
+                    "Description": "List updated custom fields for a specific deal.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Deal Custom Fields",
+                    "Description": "List updated deal custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Deal Custom Fields",
+                    "Description": "List new deal custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Deal Custom Field",
+                    "Description": "Create a deal custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deal Custom Fields",
+                    "Description": "List deal custom fields.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Deal Custom Field",
+                    "Description": "Get a deal custom field.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Deal Custom Field",
+                    "Description": "Delete a deal custom field.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Campaigns",
+            "Methods": [
+                {
+                    "Name": "List Campaigns",
+                    "Description": "Get all existing campaigns.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Create Contact",
+                    "Description": "Add a new Contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Contacts",
+                    "Description": "Get updated contacts since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact by Email",
+                    "Description": "Gets a contact by their email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Gets a single contact",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact record",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Gets all Contacts",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "UPSERT Contact",
+                    "Description": "Adds or Updates a Contact Record",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Contacts",
+                    "Description": "Get new contacts since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "Delete Account",
+                    "Description": "Delete an existing account",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Account",
+                    "Description": "Update an existing account",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Account",
+                    "Description": "Create a new account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Account",
+                    "Description": "Retrieve an existing account",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Get all existing accounts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Accounts",
+                    "Description": "Get new accounts since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Accounts",
+                    "Description": "Get updated accounts since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "ActiveCampaign Connector | Email Marketing Connector | Cyclr",
+    "MetaDescription": "Connect ActiveCampaign to your essential business applications or integrate it with your own application, within your own interface",
+    "Screenshot": "data:image/png;base64,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",
+    "Content": "<p>ActiveCampaign is an advanced email marketing platform with flexible marketing automation functionality.</p><p>Integrate ActiveCampaign with your own application and give your users advanced automations that can be installed in a couple of clicks!</p>",
+    "WebsiteUrl": "https://cyclr.com/integrate/activecampaign",
+    "DocumentationUrl": "https://www.activecampaign.com/support/",
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/activecampaign-connector"
+}

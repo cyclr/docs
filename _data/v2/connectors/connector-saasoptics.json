@@ -1,0 +1,46 @@
+{
+    "Description": null,
+    "Id": 15329,
+    "Name": "SaaSOptics",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15329",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Transactions",
+            "Methods": [
+                {
+                    "Name": "List Transactions",
+                    "Description": "Outputs a list of all Transaction Objects that currently exist in your SaaSOptics account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contracts",
+            "Methods": [
+                {
+                    "Name": "List Contracts",
+                    "Description": "Outputs a list of all Contract Objects that currently exist in your SaaSOptics account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contract Analytics",
+                    "Description": "Shows some calculated fields for a Contract instance.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contract (Partial)",
+                    "Description": "Modify some fields on a Contract instance based on data provided in a JSON payload.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Retrieve Contract",
+                    "Description": "Outputs detailed field information for a specific Contract Object.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "Description": "Electronically sign, and now prepare, act on, and manage agreements to deliver great experiences for your customers and employees.",
+    "Id": 15101,
+    "Name": "DocuSign",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/15101",
+    "Categories": [
+        "Miscellaneous",
+        "Collaboration",
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Templates",
+            "Methods": [
+                {
+                    "Name": "Get Templates",
+                    "Description": "Returns all Templates attached to account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get User Info",
+                    "Description": "Returns account information and the base_uri needed to interact with the core DocuSign API service.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Users",
+                    "Description": "Returns all users for the specified account",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Envelopes",
+            "Methods": [
+                {
+                    "Name": "List New Envelope Status Changes",
+                    "Description": "Retrieves a list of envelopes that match your request whose status has changed since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Envelope Status Changes",
+                    "Description": "Retrieves a list of envelopes that match your request. You must include one or more of the following parameters: From Date, Envelope ID's, Transaction ID's.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Send Envelope",
+                    "Description": "Creates and sends an envelope from a template created on the docusign website.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Envelope",
+                    "Description": "Retrieves the overall status for the specified envelope.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Groups",
+            "Methods": [
+                {
+                    "Name": "List Groups",
+                    "Description": "Returns all groups for an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Group Users",
+                    "Description": "Retrieves a list of users in a group.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Organizations",
+            "Methods": [
+                {
+                    "Name": "List Organizations Users",
+                    "Description": "Returns all users in the organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organizations",
+                    "Description": "Returns all Organizations",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/docusign-connector"
+}

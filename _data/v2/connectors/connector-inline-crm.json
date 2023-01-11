@@ -1,0 +1,37 @@
+{
+    "Description": "Inline Data Systems specializes in deep data insight, key integrations, and a multi-tier marketing platform using a powerful CRM for vehicle service contracts sales fulfillment. Inline CRM is able to give clients drilled down reporting with matched graphs and customizable metrics suited to clients\u2019 needs.",
+    "Id": 7388,
+    "Name": "Inline CRM",
+    "Version": "2.3.2",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/7388",
+    "Categories": [
+        "Marketing",
+        "CRMs",
+        "Sales"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get New Leads",
+                    "Description": "Gets new leads since the last run time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Lead",
+                    "Description": "Gets details of a lead",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

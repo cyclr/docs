@@ -1,0 +1,61 @@
+{
+    "Description": "Commerce marketing automation provider, enabling retailers to drive revenue through their email, mobile and social campaigns.",
+    "Id": 11838,
+    "Name": "Bronto",
+    "Version": "v4",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11838",
+    "Categories": [
+        "CRMs",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contacts",
+                    "Description": "Return contacts that match the given filter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add or Update Contacts",
+                    "Description": "Add a new contact, or update an existing contact. You can also add or update data associated with the contact, such as field data and list membership.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add or Update Contacts Incremental",
+                    "Description": "Add a new contact or update data associated with an existing contact without replacing the existing contact\u2019s list membership. Custom field locations should be as follows: SOAP-ENV:Envelope.customFields.yourfieldnamehere",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update Contacts allows you to update contact(s) and associated data.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Lists",
+            "Methods": [
+                {
+                    "Name": "Get Lists",
+                    "Description": "Return lists that match the given filter.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contacts to List",
+                    "Description": "This function allows you to add one or more contacts to a list. You are limited to adding 5k contacts per call.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

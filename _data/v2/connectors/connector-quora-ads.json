@@ -1,0 +1,75 @@
+{
+    "Description": "A place to share knowledge and better understand the world.",
+    "Id": 16364,
+    "Name": "Quora Ads",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16364",
+    "Categories": [
+        "Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Leads",
+            "Methods": [
+                {
+                    "Name": "Get Account Lead Gen Forms",
+                    "Description": "Get the Lead Gen forms from an account ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Recent Leads",
+                    "Description": "Get the recent leads collected for a lead gen form.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Accounts",
+            "Methods": [
+                {
+                    "Name": "List Account Data",
+                    "Description": "List all data for a specific account ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Current User",
+                    "Description": "Get name of current user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Accounts",
+                    "Description": "Lists all account names & ID's on the Quora Ad account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ads",
+            "Methods": [
+                {
+                    "Name": "Get Campaign",
+                    "Description": "Get campaign data by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad Set",
+                    "Description": "Get Ad Set by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ad",
+                    "Description": "Get Ad by ID.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/quoraads-connector"
+}

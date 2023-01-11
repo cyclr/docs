@@ -1,0 +1,311 @@
+{
+    "Description": "ProdPad is product management software that helps product managers develop product strategy.",
+    "Id": 16071,
+    "Name": "ProdPad",
+    "Version": "v1.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16071",
+    "Categories": [
+        "Product Management",
+        "Collaboration"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Companies",
+            "Methods": [
+                {
+                    "Name": "Create Company",
+                    "Description": "Creates a new company.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company",
+                    "Description": "Get a company by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Companies",
+                    "Description": "Fetches a list of companies associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Companies",
+                    "Description": "Fetches a list of companies associated to the account created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Company List",
+                    "Description": "Fetches a list of companies associated to the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Company",
+                    "Description": "Updates a company.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "User Stories",
+            "Methods": [
+                {
+                    "Name": "Get User Story ",
+                    "Description": "Get user story by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated User Stories",
+                    "Description": "Gets list of updated user stories since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New User Stories",
+                    "Description": "Gets list of new user stories since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Stories By Idea",
+                    "Description": "Gets a list of user stories by Idea ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get User Stories List",
+                    "Description": "Gets a list of user stories.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Personas",
+            "Methods": [
+                {
+                    "Name": "Get Persona List",
+                    "Description": "Fetches a list of personas associated to the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Personas",
+                    "Description": "Fetches a list of personas associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Personas",
+                    "Description": "Fetches a list of personas associated to the account created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "Get New Tags",
+                    "Description": "Fetches a list of tags associated to the account created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Tags",
+                    "Description": "Fetches a list of tags associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tag List",
+                    "Description": "Fetches a list of tags associated to the account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Votes",
+            "Methods": [
+                {
+                    "Name": "Get Votes List",
+                    "Description": "Fetches a list of votes associated to the account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ideas",
+            "Methods": [
+                {
+                    "Name": "Get Updated Ideas",
+                    "Description": "Retrieves a list of ideas associated to an account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Idea",
+                    "Description": "Retrieves an  ideas by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Idea",
+                    "Description": "Update an idea.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Ideas List",
+                    "Description": "Retrieves a list of ideas associated to an account. ",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Ideas",
+                    "Description": "Retrieves a list of ideas associated to an account since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Idea",
+                    "Description": "Creates an idea.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Job Roles",
+            "Methods": [
+                {
+                    "Name": "Get Updated Job Roles",
+                    "Description": "Fetches a list of job roles associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Job Roles",
+                    "Description": "Fetches a list of job roles associated to the account created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Job Roles List",
+                    "Description": "Fetches a list of job roles associated to the account.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "Get Users List",
+                    "Description": "Fetches a list of users associated to the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Creates a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Statuses",
+            "Methods": [
+                {
+                    "Name": "Get Status List",
+                    "Description": "Fetches a list of statuses associated to the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Statuses",
+                    "Description": "Fetches a list of statuses associated to the account created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Statuses",
+                    "Description": "Fetches a list of statuses associated to the account updated since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Products",
+            "Methods": [
+                {
+                    "Name": "Get Updated Products",
+                    "Description": "Fetches a list of products associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Products List",
+                    "Description": "Fetches a list of products associated to the account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Product",
+                    "Description": "Fetches a product by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Products",
+                    "Description": "Fetches a list of products associated to the account created since last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Roadmaps",
+            "Methods": [
+                {
+                    "Name": "Get Roadmap",
+                    "Description": "Fetches a roadmap by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Roadmaps",
+                    "Description": "Fetches a list of roadmaps associated to the account that have been created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Roadmaps List",
+                    "Description": "Fetches a list of roadmaps associated to the account",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Roadmaps By Product",
+                    "Description": "Fetches a list of roadmaps associated to the product.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contact",
+                    "Description": "Fetches a contact by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Update a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Udated Contacts",
+                    "Description": "Fetches a list of Contacts associated to the account updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Contacts",
+                    "Description": "Fetches a list of Contacts associated to the account created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contacts List",
+                    "Description": "Fetches a list of Contacts associated to the account",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

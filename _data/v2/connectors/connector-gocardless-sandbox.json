@@ -1,0 +1,253 @@
+{
+    "Description": "GoCardless makes collecting money by Direct Debit easy for everyone from individuals to multi-national corporations. This is for sandbox access only.",
+    "Id": 13148,
+    "Name": "GoCardless Sandbox",
+    "Version": "v1.1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/13148",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Bank Accounts",
+            "Methods": [
+                {
+                    "Name": "Disable Bank Account",
+                    "Description": "Disables a customer bank account which immediately cancels all associated mandates and cancellable payments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Bank Accounts (Customer)",
+                    "Description": "Returns a list of all bank accounts for the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Bank Account",
+                    "Description": "Returns the details of a specific bank account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Bank Account",
+                    "Description": "Creates a new corporate customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Bank Accounts (All)",
+                    "Description": "Returns a list of all bank accounts.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscriptions",
+            "Methods": [
+                {
+                    "Name": "Cancel Subscription",
+                    "Description": "Cancels a subscription.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Subscription",
+                    "Description": "Creates a subscription which is a schedule of payments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions (All)",
+                    "Description": "Lists all subscriptions.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Subscriptions (Customer)",
+                    "Description": "Lists all subscriptions for the specified customer.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payments",
+            "Methods": [
+                {
+                    "Name": "List Payments (All)",
+                    "Description": "Lists all payments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Payment",
+                    "Description": "Cancels a payment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Payments (Customer)",
+                    "Description": "Lists all payments for the specified customer created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Payments (Customer)",
+                    "Description": "Lists all payments for the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Payments (All)",
+                    "Description": "Lists all payments created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Payment",
+                    "Description": "Gets details of a payment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Payment",
+                    "Description": "Creates a new payment object. Payments can be created against 'pending submission' and 'submitted' as well as 'active' mandates.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Customers",
+            "Methods": [
+                {
+                    "Name": "Create Customer (Company)",
+                    "Description": "Creates a new corporate customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Customer (Individual)",
+                    "Description": "Creates a new private individual customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Customers",
+                    "Description": "Updates details on the Customer record.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Customer",
+                    "Description": "Returns details about a single Customer .",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Customer",
+                    "Description": "Updates details on the Customer record.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Mandates",
+            "Methods": [
+                {
+                    "Name": "Get Mandate",
+                    "Description": "Gets details of a Mandate.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Mandates (Customer)",
+                    "Description": "Lists all Mandates for the specified customer.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Mandates (All)",
+                    "Description": "Lists all Mandates.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Mandate",
+                    "Description": "Cancels a Mandate.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Mandate",
+                    "Description": "Creates a new mandate.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Mandate Created",
+                    "Description": "Triggers when a mandate is created.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "New Event",
+                    "Description": "Reports when an event occurs to a mandate or payment.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Payment Created",
+                    "Description": "Triggers when a payment is created.",
+                    "MethodType": "Webhook"
+                }
+            ]
+        },
+        {
+            "Category": "Refunds",
+            "Methods": [
+                {
+                    "Name": "List New Refunds",
+                    "Description": "Lists refunds created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Refund",
+                    "Description": "Updates the metadata fields (custom fields) of a refund. Request fields must be added as custom fields with the field location refunds.metadata.<key> (example: refunds.metadata.myField).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Refund",
+                    "Description": "Retrieves the details of the specified refund.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Refund",
+                    "Description": "Creates a new refund object.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Refunds",
+                    "Description": "Lists all refunds.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Payouts",
+            "Methods": [
+                {
+                    "Name": "List Payout Items",
+                    "Description": "Lists all payout items for the specified payout.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Payouts",
+                    "Description": "Lists all payouts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Payouts",
+                    "Description": "Lists all payouts created since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Payout",
+                    "Description": "Updates the metadata fields (custom fields) of a payout. Request fields must be added as custom fields with the field location payouts.metadata.<key> (example: payouts.metadata.myField).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Payout",
+                    "Description": "Retrieves the details of the specified payout.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": "GoCardless Sandbox Integration - Billing Automation - Cyclr",
+    "MetaDescription": "Pass and sync your GoCardless test environment data to your business applications, letting you set up business automation workflows to streamline your billing cycle.",
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": "https://cyclr.com/integrate/gocardless",
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

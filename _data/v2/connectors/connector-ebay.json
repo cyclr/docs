@@ -1,0 +1,68 @@
+{
+    "Description": "eBay Inc. is a global commerce leader that connects millions of buyers and sellers in more than 190 markets around the world. We exist to enable economic opportunity for individuals, entrepreneurs, businesses and organizations of all sizes.",
+    "Id": 17387,
+    "Name": "eBay",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17387",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Orders",
+            "Methods": [
+                {
+                    "Name": "Issue Refund",
+                    "Description": "Issue a refund.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Orders",
+                    "Description": "List all orders updated since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Order",
+                    "Description": "Get an order.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Orders",
+                    "Description": "List all orders.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Orders",
+                    "Description": "List all orders created since the last run.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Fulfilment",
+            "Methods": [
+                {
+                    "Name": "List Shipping Fulfillments",
+                    "Description": "List all shipping fulfillments.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Shipping Fulfillment",
+                    "Description": "Get a shipping fulfillment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Shipping Fulfillment",
+                    "Description": "Create a shipping fulfillment.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

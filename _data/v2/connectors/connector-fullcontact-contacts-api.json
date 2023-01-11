@@ -1,0 +1,103 @@
+{
+    "Description": "Integrate with FullContact contact management services such as reading, updating and searching user's contact information.",
+    "Id": 12275,
+    "Name": "FullContact Contacts API",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12275",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Contacts",
+                    "Description": "Fetches all contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Contacts",
+                    "Description": "Fetches contacts by search query.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By ID",
+                    "Description": "Fetches a contact by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates a new contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Tag Contact",
+                    "Description": "Tags a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Untag Contact",
+                    "Description": "Untags a contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates a contact. Any fields not mapped will have any existing values in FullContact cleared.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tags",
+            "Methods": [
+                {
+                    "Name": "Get Tags",
+                    "Description": "Fetches tags for an account.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Tag By ID",
+                    "Description": "Fetches a tag by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Tag",
+                    "Description": "Creates a single tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Tag",
+                    "Description": "Deletes a tag.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Tag",
+                    "Description": "Updates a tag.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teams",
+            "Methods": [
+                {
+                    "Name": "Get Teams",
+                    "Description": "Fetches information about one or more teams.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/fullcontact-connector"
+}

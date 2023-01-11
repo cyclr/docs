@@ -1,0 +1,67 @@
+{
+    "Description": "Most popular open-source relational database management system (RDBMS).",
+    "Id": 11828,
+    "Name": "MySQL",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11828",
+    "Categories": [
+        "Databases",
+        "Data Tools",
+        "Developer Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Rows",
+            "Methods": [
+                {
+                    "Name": "Add Row",
+                    "Description": "Adds a new row.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Rows",
+                    "Description": "Get rows in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Single Row",
+                    "Description": "Get a single row in a table.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Row",
+                    "Description": "Updates a existing row.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Row",
+                    "Description": "Deletes an existing row.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete All Rows",
+                    "Description": "Deletes all rows.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Tables",
+            "Methods": [
+                {
+                    "Name": "Get Tables",
+                    "Description": "Gets all tables.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

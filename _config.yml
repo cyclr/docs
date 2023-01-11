@@ -13,13 +13,14 @@ company_name: Cyclr
 # this appears in the footer
 
 github_editme_path: cyclr/docs/blob/master/
+# github_editme_path: cyclr/docs/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname:
+disqus_shortname: 
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 google_analytics: UA-67609083-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
+# if you have google-ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
 # the preview server used. Leave as is.
@@ -28,8 +29,11 @@ port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
+  - .vs/
   - .idea/
   - .gitignore
+  - pages/v1/
+
 # these are the files and directories that jekyll will exclude from the build
 
 incremental: false
@@ -67,29 +71,56 @@ collections:
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: cyclr_sidebar
-      topnav: topnav
-
+- scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "page"
+    comments: true
+    search: true
+    sidebar: cyclr_sidebar
+    topnav: topnav
+    show_editme_path: false
+    show_tags: false
+    show_disqus: false
+    default_header: true
+    toc: true
+    poll: false
+    categorylayout: "category_default"
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
   - cyclr_sidebar
 
+sass:
+  style: compressed
+
+# _config.yml
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  toc_class: toc_list
+  sublist_class: toc_sublist
+
 description: "Documentation for Cyclr."
 # the description is used in the feed.xml file
+
 
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-toc
+  - jekyll-menus
+
 # plugin to add metadata tags for search engines and social networks to better index and display site's content
 
 # needed for sitemap.xml file only
 # url: https://docs.cyclr.com
-# baseurl: /docs
+# dev build - override baseurl required for github pages?
+# prod build: confirm baseurl requirement 
+# local build: override the baseurl if required, eg bundle exec jekyll serve --livereload --baseurl="/"
+
+# algolia search debug
+search_debug: false

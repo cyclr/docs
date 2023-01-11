@@ -1,0 +1,179 @@
+{
+    "Description": null,
+    "Id": 16268,
+    "Name": "BookingBug",
+    "Version": "v1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16268",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Services",
+            "Methods": [
+                {
+                    "Name": "Service Availability",
+                    "Description": "Get the Availability of the Specified Service.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Services",
+                    "Description": "Get a List of All Services. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "People",
+            "Methods": [
+                {
+                    "Name": "List Resources (Admin)",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List People (Admin)",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Queues",
+            "Methods": [
+                {
+                    "Name": "List Client Queues",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Departments",
+            "Methods": [
+                {
+                    "Name": "List Departments",
+                    "Description": "Get a List of All Departments. ",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Resources",
+            "Methods": [
+                {
+                    "Name": "List Resources",
+                    "Description": "Get a List of All Resources.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Resource",
+                    "Description": "Create a New Resource.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Booking Items",
+            "Methods": [
+                {
+                    "Name": "List Bookable Items",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bookings",
+            "Methods": [
+                {
+                    "Name": "Booking Webhook",
+                    "Description": "Receives web hook event for a booking when created or updated. The URL for this web hook needs to be entered in the Booking Bug portal.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "List New Bookings",
+                    "Description": "Get a List of All New Bookings Since the Last Run Time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Bookings",
+                    "Description": "Get a List of All Bookings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Bookings",
+                    "Description": "Get a List of All Updated Bookings Since the Last Run Time.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Bookings - Cancelled",
+            "Methods": [
+                {
+                    "Name": "List Cancelled Bookings",
+                    "Description": "Get a List of All Cancelled Bookings.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List New Cancelled Bookings",
+                    "Description": "Get a List of All New Cancelled Bookings Since the Last Run Time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Updated Cancelled Bookings",
+                    "Description": "Get a List of All Updated Cancelled Bookings Since the Last Run Time.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Cancel Booking",
+                    "Description": "Cancel a Booking.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Clients",
+            "Methods": [
+                {
+                    "Name": "Get Client by Email",
+                    "Description": "Get a Client by Email Address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Clients",
+                    "Description": "Get a List of All Clients.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Client Webhook",
+                    "Description": "Receives a web hook event when customer is created or updated. The URL needs to be entered in the Booking Bug portal.",
+                    "MethodType": "Webhook"
+                },
+                {
+                    "Name": "Create Client",
+                    "Description": "Create a New Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Client",
+                    "Description": "Delete a Client.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Client",
+                    "Description": "Get a Client by ID.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Client",
+                    "Description": "Update a Client.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

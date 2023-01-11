@@ -1,0 +1,123 @@
+{
+    "Description": "The experts at Liana Technologies would be happy to tell you more about marketing automation and figure out how you could nurture leads, win customer loyalty or create a steady flow of inbounds.",
+    "Id": 16952,
+    "Name": "LianaCEM",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16952",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Database - Search",
+            "Methods": [
+                {
+                    "Name": "Search Result - Contacts",
+                    "Description": "Fetch unique Contact search results of a finished request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Ready",
+                    "Description": "Check if a requested database search has completed. If it has leave through the True Exit, otherwise leave through the False Exit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Result",
+                    "Description": "Fetch search results of a finished request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Request",
+                    "Description": "Make a database search request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Request - Get New Data",
+                    "Description": "Make a database search request for new data since the last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Search Result - Events",
+                    "Description": "Fetch unique Event search results of a finished request.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Import",
+            "Methods": [
+                {
+                    "Name": "Import Data",
+                    "Description": "Bring data to LianaCEM from external systems. Field locations for custom fields begin with [data].[events].items for example [data].[events].items.customfield1",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Ping",
+            "Methods": [
+                {
+                    "Name": "Ping",
+                    "Description": "Test connection.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Database - Delete",
+            "Methods": [
+                {
+                    "Name": "Delete Ready",
+                    "Description": "Check if a delete request has finished. If it has leave through the True Exit, otherwise leave through the False Exit.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Request",
+                    "Description": "Request data to be deleted from database.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Result",
+                    "Description": "Returns CEM system ID of the deleted items.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Segments",
+            "Methods": [
+                {
+                    "Name": "List Segments",
+                    "Description": "List Segments",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Export",
+            "Methods": [
+                {
+                    "Name": "Export Result",
+                    "Description": "Export results of a finished export request.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Export Request",
+                    "Description": "Make a request to export the contents of a given segment.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Export Ready",
+                    "Description": "Check if an export request is ready.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/lianacem-connector"
+}

@@ -1,0 +1,70 @@
+{
+    "Description": "memoQ provides a first-class translation technology for enterprises, translation companies and individual translators.",
+    "Id": 12766,
+    "Name": "MemoQ",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/12766",
+    "Categories": [
+        "Miscellaneous"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Files",
+            "Methods": [
+                {
+                    "Name": "Upload File",
+                    "Description": "Create a new file and upload it to the MemoQ server.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Download File",
+                    "Description": "Download a file from the server (It cannot be inside a project).",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Import File",
+                    "Description": "Import the file form the server into a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Export File",
+                    "Description": "Export the file from a project to a server ready for download.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "List Projects",
+                    "Description": "List all projects.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Project",
+                    "Description": "Create a new project.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Translation",
+            "Methods": [
+                {
+                    "Name": "Pretranslate Documents",
+                    "Description": "Set the documents for automatic translation.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

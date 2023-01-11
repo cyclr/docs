@@ -1,0 +1,78 @@
+{
+    "Description": "Keen IO is a set of powerful APIs that allow you to stream, compute, and visualize events from anything connected to the internet.",
+    "Id": 8530,
+    "Name": "Keen IO",
+    "Version": "v3.0",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/8530",
+    "Categories": [
+        "Dashboarding",
+        "Analytics",
+        "Databases",
+        "Data Tools"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Projects",
+            "Methods": [
+                {
+                    "Name": "Get Projects",
+                    "Description": "Returns information about all projects for the given organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Project",
+                    "Description": "Returns information about a project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Project",
+                    "Description": "Create a new project in the organization.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Project",
+                    "Description": "Create a new project in the organization.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Events",
+            "Methods": [
+                {
+                    "Name": "Record Multiple Events",
+                    "Description": "Records multiple events",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Record A Single Event",
+                    "Description": "Records a single event",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Collections",
+            "Methods": [
+                {
+                    "Name": "Inspect All Collections",
+                    "Description": "Return schema information for all the event collections in a given project.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Inspect A Single Collection",
+                    "Description": "Return schema information for a single event collection.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

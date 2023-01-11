@@ -1,0 +1,176 @@
+{
+    "Description": "Marketing Automation made easy with Force24",
+    "Id": 11620,
+    "Name": "Force24 v2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11620",
+    "Categories": [
+        "Marketing",
+        "Email Marketing"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "List Changed Contacts",
+                    "Description": "Gets a list of contacts who have been recently changed or newly added.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact",
+                    "Description": "Returns details of a specified contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Contact By Email",
+                    "Description": "Get contact details by their email address.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Or Update Contact",
+                    "Description": "Allows partial create/update on a batch of records based on Force24 Id, EmailAddress or ExternalId.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Deleted Contacts",
+                    "Description": "Gets a list of contacts who have been recently deleted.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes a specified contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Contacts",
+            "Methods": [
+                {
+                    "Name": "Get Recent Marketing Contacts",
+                    "Description": "Gets a list of client contacts that were recently added to the specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Add Contact To Marketing List",
+                    "Description": "Add a contact to the specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Remove Contact From Marketing List",
+                    "Description": "Remove a contact from the specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Removed Marketing Contacts",
+                    "Description": "Gets a list of client contacts that were recently removed from the specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Add Contacts To Marketing List",
+                    "Description": " Add a list of contacts to the specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Bulk Remove Contacts From Marketing List",
+                    "Description": " Remove a list of contacts from the specified marketing list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Marketing Lists",
+            "Methods": [
+                {
+                    "Name": "List Marketing Lists",
+                    "Description": "Returns all client marketing lists.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Marketing List",
+                    "Description": "Delete a specified marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Marketing List",
+                    "Description": "Create a new marketing list.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Marketing List",
+                    "Description": "Returns details for a specific marketing list.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Schema",
+            "Methods": [
+                {
+                    "Name": "List Object Fields",
+                    "Description": "List the fields for the specified objectId. Passing a non-existant Object ID will return an empty array.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Account Objects",
+                    "Description": "List the available account objects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Emails",
+            "Methods": [
+                {
+                    "Name": "List Sent Items",
+                    "Description": "Lists email sent items.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Email Campaign",
+                    "Description": "Returns details of a specified email campaign.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Opens",
+                    "Description": "List email opens.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Clicks",
+                    "Description": "List email clicks.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Unsubscribes",
+                    "Description": "List email unsubscribes.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Email Bounces",
+                    "Description": "List email bounces.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Subscription Preferences",
+            "Methods": [
+                {
+                    "Name": "List Subscription Preferences",
+                    "Description": "Returns a list of client subscription preferences.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}

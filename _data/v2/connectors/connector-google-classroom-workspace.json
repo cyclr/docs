@@ -1,0 +1,143 @@
+{
+    "Description": "Google Classroom is a free blended learning platform developed by Google for educational institutions that aims to simplify creating, distributing, and grading assignments",
+    "Id": 16908,
+    "Name": "Google Classroom - Workspace",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/16908",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Teachers",
+            "Methods": [
+                {
+                    "Name": "Get Teacher",
+                    "Description": "Get teacher of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Teacher",
+                    "Description": "Remove a teacher from a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Teacher",
+                    "Description": "Create a teacher of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Teachers",
+                    "Description": "List all teachers of a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Students",
+            "Methods": [
+                {
+                    "Name": "List Students",
+                    "Description": "List all students of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Student",
+                    "Description": "Add a student to a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Student",
+                    "Description": "Remove a student from a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Student",
+                    "Description": "Get student of a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Coursework",
+            "Methods": [
+                {
+                    "Name": "Get Coursework",
+                    "Description": "Get coursework of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Coursework",
+                    "Description": "List all coursework of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Student Submission",
+                    "Description": "Get a student submission of a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Student Submissions",
+                    "Description": "List all student submissions of a course.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Users",
+            "Methods": [
+                {
+                    "Name": "List Users",
+                    "Description": "List all users in an organization. Search possible with additional query terms.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update User",
+                    "Description": "Update a user.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create User",
+                    "Description": "Create a user.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Courses",
+            "Methods": [
+                {
+                    "Name": "Get Course",
+                    "Description": "Get a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Course",
+                    "Description": "Update one or more fields in a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Course",
+                    "Description": "Create a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Delete Course",
+                    "Description": "Delete a course.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Courses",
+                    "Description": "List all courses under this Google Classroom.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/google-classroom-workspace-connector"
+}

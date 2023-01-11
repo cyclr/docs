@@ -1,0 +1,58 @@
+{
+    "Description": "Lower your compliance risk and improve customer experience through faster and more secure client onboarding process.",
+    "Id": 17321,
+    "Name": "MyDocSafe",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/17321",
+    "Categories": [],
+    "MethodCategories": [
+        {
+            "Category": "Contacts",
+            "Methods": [
+                {
+                    "Name": "Delete Contact",
+                    "Description": "Deletes individual contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Contact",
+                    "Description": "Creates individual contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Contacts",
+                    "Description": "Get list of individual contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Contact",
+                    "Description": "Updates individual contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Update Organisation Contact",
+                    "Description": "Updates organisation contact.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Organisation Contacts",
+                    "Description": "Get list of organisation contacts.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Organisation Contact",
+                    "Description": "Creates organisation contact.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/mydocsafe-connector"
+}

@@ -1,0 +1,51 @@
+{
+    "Description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.",
+    "Id": 11435,
+    "Name": "Amazon EC2",
+    "Version": null,
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11435",
+    "Categories": [
+        "Developer Tools",
+        "DevOps"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Instances",
+            "Methods": [
+                {
+                    "Name": "List Instances",
+                    "Description": "List all EC2 instances.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Instance",
+                    "Description": "Get the details of an EC2 instance.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Monitor Instance",
+                    "Description": "Enables detailed monitoring for a running instance. Otherwise, basic monitoring is enabled.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Unmonitor Instance",
+                    "Description": "Disables detailed monitoring for a running instance.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "List Instance Types",
+                    "Description": "List all EC2 instance types that are offered in a location.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": "https://docs.cyclr.com/ec2-connector"
+}

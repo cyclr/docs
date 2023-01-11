@@ -1,0 +1,112 @@
+{
+    "Description": "A next generation flexible workspace management solution, beautiful members portal and mobile app, connected into one platform.",
+    "Id": 11869,
+    "Name": "OfficeR&D",
+    "Version": "V1",
+    "Status": "Approved",
+    "Icon": "https://my.cyclr.com/api/ConnectorIcon/11869",
+    "Categories": [
+        "Miscellaneous",
+        "CRMs",
+        "Customer Experience"
+    ],
+    "MethodCategories": [
+        {
+            "Category": "Memberships",
+            "Methods": [
+                {
+                    "Name": "Get Membershps List",
+                    "Description": "Retrieve all memberships.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Membershp",
+                    "Description": "Retrieve individual membership.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Membershps",
+                    "Description": "Retrieve all memberships updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Membershps",
+                    "Description": "Retrieve all memberships created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create Membershps",
+                    "Description": "Add multiple membership objects.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Members",
+            "Methods": [
+                {
+                    "Name": "Get Members List",
+                    "Description": "Retrieve all members.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Member",
+                    "Description": "Retrieve an individual member.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get Updated Members",
+                    "Description": "Retrieve all members updated since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Get New Members",
+                    "Description": "Retrieve all members created since last run.",
+                    "MethodType": "Action"
+                },
+                {
+                    "Name": "Create New Member",
+                    "Description": "Add a new member.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Offices",
+            "Methods": [
+                {
+                    "Name": "Get Offices List",
+                    "Description": "Retrieve all locations in the space.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Plans",
+            "Methods": [
+                {
+                    "Name": "Get Plans List",
+                    "Description": "Retrieve all plans.",
+                    "MethodType": "Action"
+                }
+            ]
+        },
+        {
+            "Category": "Teams",
+            "Methods": [
+                {
+                    "Name": "Get Teams List",
+                    "Description": "Retrieve all teams.",
+                    "MethodType": "Action"
+                }
+            ]
+        }
+    ],
+    "MetaTile": null,
+    "MetaDescription": null,
+    "Screenshot": null,
+    "Content": null,
+    "WebsiteUrl": null,
+    "DocumentationUrl": null,
+    "PartnerSetupGuideUrl": null
+}
