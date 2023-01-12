@@ -10,7 +10,7 @@ introtext: >-
     Learn about the different options and settings you have when you create a custom connector.
 menus:
   custom-connectors:
-    title: Create a connector via API
+    title: Create a connector
     identifier: create-a-connector
     weight: 4
 ---
