@@ -35,12 +35,12 @@ To set up the Miva connector in Cyclr, go to your console:
 
 4. Enter the below values:
 
-   | Value              | Description                                 |
-   | :----------------- | :------------------------------------------ |
-   | **Signature** | A Miva-generated private key, used in authentication. |
-   | **Domain** | The domain URL of the store you would like to access. |
-   | **Folder** | The folder in the instance you are trying to access. |
-   | **Store Code** | The code of the store you would like to access. To be used in request body. |
+| Value              | Description                                 |
+| :----------------- | :------------------------------------------ |
+| **Signature** | A Miva-generated private key, used in authentication. |
+| **Domain** | The domain URL of the store you would like to access. |
+| **Folder** | The folder in the instance you are trying to access. |
+| **Store Code** | The code of the store you would like to access. To be used in request body. |
 
 5. Select **Next**.
 
