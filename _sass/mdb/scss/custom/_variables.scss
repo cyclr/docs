@@ -1,0 +1,374 @@
+// Cyclr baseurl
+$baseurl: "{{ site.baseurl }}";
+// Cyclr Colours
+$white: #FFFFFF;
+$white-rgb: 255,255,255;
+$grey-10: #F7F7F7;
+$grey-15: #EDEFF1;
+$grey-20: #DBDCE0;
+$grey-30: #C4C4C4;
+$grey-40: #A3A4A4;
+$grey-50: #333B46;
+$grey-60: #777777;
+$grey-70: #37474F;
+$grey-80: #333333;
+$blue-10: #77ADE4;
+$blue-20: #416F8C;
+$blue-30: #2290D6;
+$pink: #FA3572;
+$red: #C63943;
+$green: #74B665;
+$amber: #E79950;
+$lime: #D4D800;
+$blue: #1EAEFF;
+$light: $grey-10;
+
+$background-color: $grey-10;
+$bg-input: #474f59;
+
+// bg light doc grey 10 #f7f7f7
+// text headings doc grey 50 #333b46
+// bg dark doc grey 50 __#333B46;
+// text white #fff
+
+/* ----------------------------------------  
+    Material Variable Overrides
+-------------------------------------------  */
+// Theme colors
+$primary: $lime;
+$secondary: $red;
+$success: $green;
+$danger: $red;
+$light: $white;
+$dark: $grey-50;
+$info: $blue-20;
+
+$bg-opacity: 0.1;
+
+/* ----------------------------------------  
+    Bootstrap Variable Overrides
+-------------------------------------------  */
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $background-color;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: 12px;
+$font-size-base: 1rem; // Normal browser default is typically `16px`
+$font-weight-normal: 500 !default;
+$body-font-size: 1.1666666667rem;
+$body-line-height: 1.5;
+$body-font-weight: 500;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 1.8333333333rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.3333333334rem;
+$h5-font-size: 1.1666666667rem;
+$h6-font-size: 1rem;
+
+// scss-docs-start font-sizes
+$font-sizes: ( 1: $h1-font-size, 2: $h2-font-size, 3: $h3-font-size, 4: $h4-font-size, 5: $h5-font-size, 6: $h6-font-size );
+
+// custom font size map
+$custom-font-sizes: ( "xl": 55px, "xxl": 80px, "hero": 44px, "hero-text": 16px, "label": 13px, "label-small": 10px, "note": 10px, "note-small": 9px, "section": 36px, "section-text": 14px, "tooltip": 12px);
+$custom-font-weights: ( "xl": 400, "xxl": 300, "hero": 600, "hero-text": 500, "label": 600, "label-small": 700, "note": 500, "note-small": 500, "section": 600, "section-text": 500, "tooltip": 600);
+
+$display-font-weight: 400 !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $red;
+$link-decoration: underline;
+$link-shade-percentage: 0%;
+$link-hover-color: $red;
+$link-hover-decoration: none;
+
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark: $dark;
+$color-contrast-light: $white;
+:root {
+    --c-white: $white;
+    --c-grey-10: $grey-10;
+    --c-grey-20: $grey-20;
+    --c-grey-30: $grey-30;
+    --c-grey-40: $grey-40;
+    --c-grey-50: $grey-50;
+    --c-grey-60: $grey-60;
+    --c-grey-70: $grey-70;
+    --c-grey-80: $grey-80;
+    --c-blue-10: $blue-10;
+    --c-blue-20: $blue-20;
+    --c-pink: $pink;
+    --c-red: $red;
+    --c-green: $green;
+    --c-amber: $amber;
+    --c-background-colour: $background-color;
+    --mdb-dark: $dark;
+    --mdb-light: $white;
+    --mdb-body-font-size: $body-font-size;
+    --mdb-body-font-weight: $body-font-weight;
+    --mdb-body-line-height: $body-line-height;
+}
+
+/* links map */
+$links: ( "link": $link-color, "visited": $link-color, "hover": $link-hover-color, "active": $link-color);
+$mainlinks: ( "link": $link-color, "visited": $link-color, "hover": $link-hover-color, "active": $link-color);
+
+/* colors map */
+$colors: ( "grey-50": $grey-50, "grey-60": $grey-60, "grey-70": $grey-70);
+
+/* backgrounds map */
+$backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "grey-40": $grey-40, "grey-50": $grey-50);
+
+/* flex width map */
+$flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30));
+
+/* gap map */
+$flexgaps: ("sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
+
+/* column gap map */
+$flexgaps-sz: ("10": 10px, "20": 20px, "30": 30px, "40": 40px);
+
+/* spacer classes */
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * 0.25, 2: $spacer * 0.5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 16: 16px );
+$spacerpx: 10px;
+@for $i from 1 through 10 {
+    $spacers: map-merge($spacers, ($i*10: ($i*$spacerpx) ));
+}
+
+/* ----------------------------------------  
+    Cyclr Typography
+-------------------------------------------  */
+$heading-color: $grey-50;
+$h1-font-weight: 600;
+$h2-font-weight: 500;
+$h3-font-weight: 600;
+$h4-font-weight: 600;
+$h5-font-weight: 600;
+$h6-font-weight: 500;
+
+$h1-line-height: 1.2;
+$h2-line-height: 1.227272727;
+$h3-line-height: 1.222222222;
+$h4-line-height: 1.1875;
+$h5-line-height: 1.214285714;
+$h6-line-height: 1;
+
+$font-weights: ( 1: $h1-font-weight, 2: $h2-font-weight, 3: $h3-font-weight, 4: $h4-font-weight, 5: $h5-font-weight, 6: $h6-font-weight );
+$line-heights: ( 1: $h1-line-height, 2: $h2-line-height, 3: $h3-line-height, 4: $h4-line-height, 5: $h5-line-height, 6: $h6-line-height );
+
+$label-font-size: 1.0833333333333333rem;
+$label-font-weight: 600;
+
+$tooltip-font-size: 1rem;
+$tooltip-font-weight: 600;
+
+$note-font-size: 0.8333333333333334rem;
+$note-font-weight: 500;
+
+$label-small-font-size: 0.8333333333333334rem;
+$label-small-font-weight: 700;
+
+$note-small-font-size: 0.75rem;
+$note-small-font-weight: 500;
+
+//Navbar
+$navbar-light-color: $grey-70;
+$navbar-dark-color: $white;
+
+//Navs
+$nav-tabs-link-active-color: $grey-60 !default;
+$nav-tabs-link-active-bg: transparent;
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-color: $grey-60;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-inter: 'Inter', sans-serif;
+$font-family-base: $font-family-inter;
+$code-font-size: 1rem;
+
+// Buttons
+//
+// For each of MDB's buttons, define text, background, and border color.
+$btn-line-height: 1.4166666666666667rem !default;
+$btn-padding-top: 0.7916666666666666rem !default;
+$btn-padding-bottom: 0.7916666666666666rem !default;
+$btn-font-size: 1.1666666666666667rem !default;
+$btn-padding-left: 0.8333333333333334rem !default;
+$btn-padding-right: 0.8333333333333334rem !default;
+
+$btn-outline-padding-top: 0.7087rem !default;
+$btn-outline-padding-bottom: 0.7087rem !default;
+$btn-outline-padding-left: 0.70rem !default;
+$btn-outline-padding-right: 0.70rem !default;
+
+$btn-outline-padding-top-sm: 0.041666666666666664rem !default;
+$btn-outline-padding-bottom-sm: 0.041666666666666664rem !default;
+
+$btn-line-height-lg: 1.6666666666666667rem !default;
+$btn-font-size-lg: 1.1666666666666667rem !default;
+$btn-padding-top-lg: 1.0833333333333333rem !default;
+$btn-padding-bottom-lg: 1.0833333333333333rem!default;
+$btn-padding-right-lg: 1.75rem !default;
+$btn-padding-left-lg: 1.75rem !default;
+
+$btn-font-size-sm: 1rem !default;
+
+$btn-floating-border-radius: 5px !default;
+
+$btn-floating-width: 3rem !default;
+$btn-floating-height: 3rem !default;
+$btn-floating-icon-width: 3rem !default;
+$btn-floating-icon-line-height: 3rem !default;
+
+$btn-margin-top: 12px;
+$btn-margin-right: 12px;
+$btn-margin-bottom: 12px;
+$btn-margin-left: 12px;
+
+$btn-margin: $btn-margin-top $btn-margin-right $btn-margin-bottom $btn-margin-left;
+
+$btn-hover-bg-shade-amount: 10%;
+$btn-hover-bg-tint-amount: 10%;
+$btn-hover-border-shade-amount: 10%;
+$btn-hover-border-tint-amount: 10%;
+
+// Forms
+//
+// Material styling for outline forms border, label, size
+$form-label-left: 1.3rem !default;
+$input-border-color: $grey-20;
+$input-focus-border-color: $blue-10;
+$input-focus-label-color: $blue-10;
+$input-group-lg-height: 4.666666666666667rem;
+$input-group-lg-font-size: 1.1666666666666667rem;
+$input-group-focus-border-color: $blue-10 !default;
+$input-group-focus-box-shadow: inset 0 0 0 1px $blue-10 !default;
+$input-padding-x-lg: 1.3333333333333333rem;
+$input-disabled-background-color: transparent;
+$input-placeholder-color: $white;
+$input-padding-top: 1.393em !default;
+$input-padding-bottom: $input-padding-top !default;
+
+$form-label-padding-top-lg: 1.2em;
+$form-label-color: $grey-60;
+
+$input-padding-left-lg: 1.3333333333333333rem !default;
+$input-padding-right-lg: $input-padding-left-lg !default;
+$input-font-size-lg: 1.1666666666666667rem !default;
+$input-line-height-lg: 1.4166666666666667rem !default;
+$input-focus-active-label-transform-lg: translateY(-2rem) translateY(0.1rem) scale(0.8);
+$form-outline-select-lg-label-active-transform: translateY(-2rem) translateY(0.1rem) scale(0.8);
+
+$form-notch-div-border-color: #bdbdbd !default;
+$form-notch-leading-width: 12px;
+$form-outline-select-notch-border-color: $blue-10;
+$form-outline-select-label-color: $blue-10;
+
+//Shadow
+$box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.15);
+$box-shadow-soft: 0px 4px 12px 0px rgba(0,0,0,0.5);
+$box-shadow-sm: 0 4px 6px 0px #000;
+$box-shadow-lg: 0 4px 16px 0px #000;
+$box-shadow-inset: inset 0 1px 2px #000;
+$image-hover-shadow-box-shadow: $box-shadow;
+$image-hover-shadow-box-shadow-soft: $box-shadow-soft;
+$card-opacity-hover: 0.85;
+//Checkbox
+
+$form-switch-form-check-input-width: 34px;
+$form-switch-form-check-input-height: 14px;
+$form-switch-form-check-input-border-radius: 7px;
+$form-switch-form-check-input-after-width: 20px !default;
+$form-switch-form-check-input-after-height: $form-switch-form-check-input-after-width !default;
+$form-switch-form-check-input-focus-after-width: 20px !default;
+$form-switch-form-check-input-focus-after-height: $form-switch-form-check-input-focus-after-width !default;
+$form-switch-form-check-input-checked-checkbox-after-width: 20px !default;
+$form-switch-form-check-input-checked-checkbox-after-height: 20px !default;
+$form-switch-form-check-input-after-margin-top: -3px;
+$form-switch-form-check-input-background-color: rgba(33, 33, 33, 0.08);
+$form-switch-form-check-input-checked-checkbox-after-background-color: $primary;
+$form-switch-form-check-input-after-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+$form-switch-form-check-input-checked-checkbox-after-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+$form-switch-form-check-input-checked-checkbox-after-margin-left: 14px;
+$form-switch-form-check-input-focus-before-box-shadow: 0px 0px 0px 13px rgba(0, 0, 0, 0.6);
+$form-switch-form-check-input-checked-focus-before-box-shadow: 0px 0px 0px 13px $primary !default;
+$form-switch-form-check-input-checked-focus-before-margin-left: 14px;
+
+$form-check-input-width-md: 24px;
+$form-check-input-height: $form-check-input-width-md !default;
+$form-check-input-checkbox-checked-after-width: 9.01px;
+$form-check-input-checkbox-checked-after-border-width: 3.6px;
+$form-check-input-checkbox-checked-after-height: 16.22px;
+$form-check-input-checkbox-checked-after-margin-left: 6px;
+$form-check-input-checkbox-checked-after-margin-top: 1px;
+$form-check-input-before-width: 21px;
+$form-check-input-before-height: $form-check-input-before-width;
+$form-check-input-checkbox-focus-after-width: 21px;
+$form-check-input-checkbox-focus-after-height: $form-check-input-checkbox-focus-after-width;
+$form-check-input-checkbox-checked-background-color: $blue-20 !default;
+$form-check-input-checkbox-checked-focus-background-color: $blue-20 !default;
+$form-check-input-checked-border-color: $blue-20;
+$form-check-input-checked-focus-border-color: $blue-20;
+$form-check-input-checked-focus-before-box-shadow: 0px 0px 0px 13px $blue-20;
+$form-check-input-border-color: $grey-20 !default;
+
+
+// Table
+$table-hover-bg: $grey-10 !default;
+
+// Navbar
+$navbar-box-shadow: none !default;
+
+// Accordion
+$accordion-color: $body-color !default;
+$accordion-bg: $white !default;
+$accordion-icon-width: 1rem !default;
+$accordion-icon-color: $grey-70 !default;
+$accordion-icon-active-color: $grey-70 !default;
+
+// Select
+$form-outline-select-arrow-color: $grey-70 !default;
+$form-outline-select-lg-arrow-top: 21px !default;
+$form-outline-select-arrow-right: 16px !default;
+$form-outline-select-input-focused-arrow-color: $blue-10 !default;
+
+//Sidenav
+$sidenav-width: 295px;
+$sidenav-link-height: 3.3333333333333335rem;
+$sidenav-box-shadow: none;
+$sidenav-link-font-size: $h5-font-size;
+$sidenav-collapse-sidenav-link-font-size: $font-size-base;
+$sidenav-collapse-sidenav-link-padding-left: 1rem;
+$sidenav-collapse-sidenav-link-height: 3rem;
+$zindex-sidenav-backdrop: 1029;
+$sidenav-rotate-icon-margin-right: 12px;
+$sidenav-link-color: $grey-50;
+$sidenav-link-color-hover: $grey-50;
+$sidenav-link-color-active: $grey-50;
+
+$divider-color: $grey-20;
+
+// custom
+$container-width-max: 1240px;
+$container-width-max-homepage: 1240px;
+$footer-width-max: 973px;
+$footer-width-max-homepage: 973px;
+$page-spacer-bottom: 100px;

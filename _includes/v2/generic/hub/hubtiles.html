@@ -1,0 +1,27 @@
+<section class="intro">
+	<div class="intro-text">
+		<p>{{hubdata.text}}</p>
+	</div>
+</section>
+<section class="tiles mx-n4">
+<div class="d-flex flex-row flex-wrap my-0 mx-n4 p-0 justify-content-start align-items-stretch">
+{% for tile in hubdata.tiles %}
+	<div class="hub-link card text-left p-0 m-4">
+		<div class="card-body">
+			<div class="d-flex flex-column justify-content-start align-items-start ">
+				<a href="{{tile.url | slugify | downcase}}" class="p-0 mt-0 mx-0 mb-3 btn btn-icon btn-primary">
+					{% if tile.faicon %}
+					<i class="fa fa-solid fa-{{ tile.faicon }}"></i>
+					{% else %}
+					<img class="img-icon" src="/assets/icons/{{ tile.icon }}.png" alt="{{ tile.title }} icon"/>
+					{% endif  %}
+				</a>
+				<h3 class="card-title my-3 p-0">{{ tile.title  }}</h3>
+				<p class="p-0 m-0">{{ tile.text }}</p>
+			</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
+</section>
+`

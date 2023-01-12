@@ -1,0 +1,43 @@
+<ul class="list-unstyled category-list {{include.listclass}}" id="list-{{include.identifier}}">
+    {% capture currentfilter %}page.menus.{{include.identifier}}{% endcapture %}
+    {% capture currentsort %}menus.{{include.identifier}}.weight{% endcapture %}
+    {% assign items = site.pages | where_exp: 'page', currentfilter | sort: currentsort %}
+    {% for item in items %}
+    {% capture menuitem %}{{item.menus[include.identifier].identifier}}{% endcapture %}
+    <li class="category-item d-flex flex-wrap {{include.listitemclass}} position-relative">
+        <h4 class="page-title flex-grow-1 flex-sm-25 lh-base m-0"><strong>{{ item.title }}</strong></h4>
+        <p class="flex-shrink-1 pe-5">{{ item.text }}</p>
+        <div class="ps-5">
+            {% if item.name == "index.md" %}
+            <a class="stretched-link text-dark"
+               data-mdb-toggle="collapse"
+               href="#collapse-{{ menuitem }}"
+               role="button"
+               aria-expanded="false"
+               aria-controls="collapseExample">
+                <i class="icon icon-nextchevron fa-2x"></i>
+            </a>
+            {% else %}
+            <a class="stretched-link text-dark"
+               href="{{ menuitem }}">
+                <i class="icon icon-nextchevron fa-2x"></i>
+            </a>
+            {% endif %}
+        </div>
+        {% if include.text %}
+        <div class="flex-xs-100">
+            {{include.text}}
+        </div>
+        {% endif %}
+        {% if item.name == "index.md" %}
+        {% capture categorytitle %}{{item.title}}{% endcapture %}
+        {% capture categorytext %}{{item.text}}{% endcapture %}
+        {% capture categorylistclass %}flex-xs-100{% endcapture %}
+        {% capture categorylistitemclass %}my-0 ps-20 pe-0 py-16 {% endcapture %}
+        <div class="collapse flex-xs-100" id="collapse-{{ menuitem }}">
+            {% include v2/category/category_default_list.html identifier=menuitem title=categorytitle text=categorytext listclass=categorylistclass listitemclass=categorylistitemclass %}
+        </div>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

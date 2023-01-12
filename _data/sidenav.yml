@@ -1,0 +1,12 @@
+## Sidenav links
+## These are displayed asa a separate menu at the foot of the sidenav
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+items:
+    - title: Community Site
+      externalurl: https://community.cyclr.com/
+      icon: navcommunity
+      active: true
+    - title: Help
+      externalurl: https://cyclr.com/
+      icon: helpoutline
+      active: true

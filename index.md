@@ -1,11 +1,8 @@
 ---
 title: Cyclr Documentation
-last_updated: March 5, 2019
-summary: "This is the documentation for creating, managing and publishing integrations using the Cyclr platform."
-permalink: index.html
 toc: false
+layout: homepage
 hide_sidebar: true
-folder: cyclrdoc
+hide_search: true
 ---
-
-{% include shuffle.html %}
+{% include v2/cyclrdocs.html %}					
