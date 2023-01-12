@@ -14,5 +14,5 @@ menus:
     identifier: data-storage
     weight: 3
 ---
-{% assign categorydata = site.data.v2.categories.data-storage %}
+{% assign categorydata = site.data.categories.data-storage %}
 {% include v2/category/{{page.categorylayout}}.html identifier="data-storage" intro=page.intro title=page.introtitle text=page.introtext %}

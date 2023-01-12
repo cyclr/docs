@@ -283,13 +283,14 @@ $form-outline-select-notch-border-color: $blue-10;
 $form-outline-select-label-color: $blue-10;
 
 //Shadow
-$box-shadow: 0px 4px 12px 0px #000;
+$box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.15);
 $box-shadow-soft: 0px 4px 12px 0px rgba(0,0,0,0.5);
 $box-shadow-sm: 0 4px 6px 0px #000;
 $box-shadow-lg: 0 4px 16px 0px #000;
 $box-shadow-inset: inset 0 1px 2px #000;
 $image-hover-shadow-box-shadow: $box-shadow;
 $image-hover-shadow-box-shadow-soft: $box-shadow-soft;
+$card-opacity-hover: 0.85;
 //Checkbox
 
 $form-switch-form-check-input-width: 34px;

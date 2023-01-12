@@ -15,5 +15,5 @@ menus:
     icon: navconnectors
     weight: 6
 ---
-{% assign categorydata = site.data.v2.categories.plugins %}
+{% assign categorydata = site.data.categories.plugins %}
 {% include v2/category/{{page.categorylayout}}.html identifier="plugins" intro=page.intro title=page.introtitle text=page.introtext %}

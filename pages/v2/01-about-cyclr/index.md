@@ -15,5 +15,5 @@ menus:
     icon: navdocs
     weight: 1
 ---
-{% assign categorydata = site.data.v2.categories.about-cyclr %}
+{% assign categorydata = site.data.categories.about-cyclr %}
 {% include v2/category/{{page.categorylayout}}.html identifier="about-cyclr" intro=page.intro title=page.introtitle text=page.introtext %}

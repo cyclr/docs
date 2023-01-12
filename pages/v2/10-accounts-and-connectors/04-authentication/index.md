@@ -14,5 +14,5 @@ menus:
     identifier: account-connector-authentication
     weight: 4
 ---
-{% assign categorydata = site.data.v2.categories.account-connector-authentication %}
+{% assign categorydata = site.data.categories.account-connector-authentication %}
 {% include v2/category/{{page.categorylayout}}.html identifier="account-connector-authentication" intro=page.intro title=page.introtitle text=page.introtext %}

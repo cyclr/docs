@@ -1035,6 +1035,12 @@ Cards
         @extend .pb-50;
         @extend .mt-20;
     }
+
+    &.hover-shadow {
+        &:hover {
+            opacity: $card-opacity-hover;
+        }
+    }
 }
 
 .card-header {

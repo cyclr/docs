@@ -15,5 +15,5 @@ menus:
     icon: navconnectors
     weight: 7
 ---
-{% assign categorydata = site.data.v2.categories.utility-connectors %}
+{% assign categorydata = site.data.categories.utility-connectors %}
 {% include v2/category/{{page.categorylayout}}.html identifier="utility-connectors" intro=page.intro title=page.introtitle text=page.introtext %}

@@ -15,5 +15,5 @@ menus:
     icon: template
     weight: 3
 ---
-{% assign categorydata = site.data.v2.categories.cycle-templates %}
+{% assign categorydata = site.data.categories.cycle-templates %}
 {% include v2/category/{{page.categorylayout}}.html identifier="cycle-templates" intro=page.intro title=page.introtitle text=page.introtext %}

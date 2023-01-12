@@ -14,5 +14,5 @@ menus:
     identifier: user-accounts
     weight: 9
 ---
-{% assign categorydata = site.data.v2.categories.user-accounts %}
+{% assign categorydata = site.data.categories.user-accounts %}
 {% include v2/category/{{page.categorylayout}}.html identifier="user-accounts" intro=page.intro title=page.introtitle text=page.introtext %}

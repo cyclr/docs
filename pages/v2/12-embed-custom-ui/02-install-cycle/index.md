@@ -14,5 +14,5 @@ menus:
     identifier: install-cycle
     weight: 2
 ---
-{% assign categorydata = site.data.v2.categories.install-cycle %}
+{% assign categorydata = site.data.categories.install-cycle %}
 {% include v2/category/{{page.categorylayout}}.html identifier="install-cycle" intro=page.intro title=page.introtitle text=page.introtext %}

@@ -15,5 +15,5 @@ menus:
     icon: embedding
     weight: 4
 ---
-{% assign categorydata = site.data.v2.categories.embed-cycles %}
+{% assign categorydata = site.data.categories.embed-cycles %}
 {% include v2/category/{{page.categorylayout}}.html identifier="embedding" intro=page.intro title=page.introtitle text=page.introtext %}

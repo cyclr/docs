@@ -14,5 +14,5 @@ menus:
     identifier: api-examples
     weight: 6
 ---
-{% assign categorydata = site.data.v2.categories.api-examples %}
+{% assign categorydata = site.data.categories.api-examples %}
 {% include v2/category/{{page.categorylayout}}.html identifier="api-examples" intro=page.intro title=page.introtitle text=page.introtext %}

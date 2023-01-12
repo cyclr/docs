@@ -14,5 +14,5 @@ menus:
     identifier: step-setup
     weight: 3
 ---
-{% assign categorydata = site.data.v2.categories.step-setup %}
+{% assign categorydata = site.data.categories.step-setup %}
 {% include v2/category/{{page.categorylayout}}.html identifier="step-setup" intro=page.intro title=page.introtitle text=page.introtext %}

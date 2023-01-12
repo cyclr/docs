@@ -14,5 +14,5 @@ menus:
     identifier: launch
     weight: 4
 ---
-{% assign categorydata = site.data.v2.categories.launch %}
+{% assign categorydata = site.data.categories.launch %}
 {% include v2/category/{{page.categorylayout}}.html identifier="launch" intro=page.intro title=page.introtitle text=page.introtext %}

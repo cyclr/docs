@@ -14,5 +14,5 @@ menus:
     identifier: create-a-connector
     weight: 4
 ---
-{% assign categorydata = site.data.v2.categories.create-a-connector %}
+{% assign categorydata = site.data.categories.create-a-connector %}
 {% include v2/category/{{page.categorylayout}}.html identifier="create-a-connector" intro=page.intro title=page.introtitle text=page.introtext %}
