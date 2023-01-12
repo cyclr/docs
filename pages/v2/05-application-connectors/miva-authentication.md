@@ -4,11 +4,26 @@ sidebar: cyclr_sidebar
 permalink: miva-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card">
+
+## Miva setup
+
+To authenticate your connector, you need to get these authentication details. Select the links to view the relevant Miva documentation. 
+
+*  [Signature](https://docs.miva.com/json-api/#hmac-signature)
+*  Store [URL domain](https://docs.miva.com/json-api/#api-endpoint)
+*  [Folder](https://docs.miva.com/json-api/#api-endpoint)
+*  Store Code
+*  API access token
+
+For more information on how to obtain these details, either view the Miva [API documentation](https://docs.miva.com/json-api/#api-endpoint) or contact your Miva account manager.
+
+
+</section>
+<section class="card">
 
 ## Cyclr setup
-Includes anything the partner needs to do in the Cyclr console and accounts in order to use the connector.
-
-### Console setup
 
 To set up the Miva connector in Cyclr, go to your console:
 
@@ -31,7 +46,7 @@ To set up the Miva connector in Cyclr, go to your console:
 
 6. Enter the **API Access Token** provided to you and select **Save**.
 
-## Additional information
-### Documentation
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
 
-Documentation of the Miva API can be found here: https://docs.miva.com/json-api/#api-endpoint
+
+</section>
