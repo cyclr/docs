@@ -1,5 +1,5 @@
 ---
-title: Create a connector via API
+title: Create a connector
 sidebar: cyclr_sidebar
 permalink: create-a-connector
 tags: [create-a-connector]
