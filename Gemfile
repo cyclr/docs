@@ -15,6 +15,8 @@ gem 'jekyll-toc'
 
 gem 'markdown_helper'
 
+# jekyll-menus is not compatible with GitHub Actions workflow. 
+# Custom functionality builds the sidebar menu from the md files' frontmatter: the jekyll-menus plugin is not required.
 group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.7.1"
   gem 'jekyll-redirect-from', '~> 0.16.0'

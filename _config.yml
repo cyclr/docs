@@ -107,14 +107,15 @@ toc:
 description: "Documentation for Cyclr."
 # the description is used in the feed.xml file
 
-
+# plugin to add metadata tags for search engines and social networks to better index and display site's content
+# jekyll-menus is not compatible with GitHub Actions workflow. 
+# Custom functionality builds the sidebar menu from the md files' frontmatter: the jekyll-menus plugin is not required.
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-toc
 #  - jekyll-menus
 
-# plugin to add metadata tags for search engines and social networks to better index and display site's content
 
 # needed for sitemap.xml file only
 # url: https://docs.cyclr.com

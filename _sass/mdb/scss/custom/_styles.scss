@@ -2133,13 +2133,27 @@ section {
             table-layout: fixed;
         }
 
+        pre {
+            white-space: pre-wrap;
+        }
+
         .highlight {
             code {
                 display: block;
                 max-height: 20em;
                 overflow-y: auto;
+                @extend .code-block;
                 @extend .mt-10;
                 @extend .mb-20;
+            }
+        }
+
+        .overflow-visible {
+            .highlight {
+                code {
+                    overflow: visible;
+                    max-height: none;
+                }
             }
         }
 

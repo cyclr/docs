@@ -9,10 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
-    ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
-    ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -32,8 +29,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-menus (0.6.1)
-      jekyll (>= 3.6, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -59,10 +54,6 @@ GEM
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.10-x64-mingw32)
-      racc (~> 1.4)
-    nokogiri (1.13.10-x86_64-linux)
-      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.0)
@@ -76,8 +67,6 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     set (1.0.3)
     sorted_set (1.0.3)
       rbtree
@@ -89,12 +78,9 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x64-mingw32
-  x86_64-linux-musl
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
-  jekyll-menus (~> 0.6.1)
   jekyll-redirect-from (~> 0.16.0)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-toc
@@ -103,4 +89,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.13
+   2.3.26

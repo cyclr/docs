@@ -3,14 +3,13 @@ title: Cyclr Documentation README
 permalink: README
 sidebar: cyclr_sidebar
 ---
-
 {::options parse_block_html="true" /}
 <section class="card">
 ## Doc amends
 
 Use the [editor on GitHub](https://github.com/cyclr/docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-The docs repo is configured to run the GitHub Actions workflow when a pull request to the master branch is made. The workflow rebuilds and deploys the master branch to the live site.
+When a change is pushed to the docs repo master branch, the GitHub Actions workflow executes. The workflow rebuilds and deploys the master branch to the live site.
 
 </section>
 
@@ -29,45 +28,17 @@ See the [Kramdown documentation for more info](https://kramdown.gettalong.org/in
 
 #### HTML parsing
 
-Add this option to the md file to enable HTML parsing.  
+Cyclr Docs uses the [kramdown option](https://kramdown.gettalong.org/options.html) to process block HTML tags.
+
+
 ``
 {::options parse_block_html="true" /}
 ``
 
-See the [Kramdown documentation for more info](https://kramdown.gettalong.org/parser/kramdown.html).
+By default, the Kramdown parser does not convert HTML tags to native representation. Enabling this option means we can use HTML tags in the md. 
 
-By default, the Kramdown parser does not convert HTML tags to native representation. Enabling this option means we can use HTML tags in the md. This is useful to provide container or content elements with attributes (class,id) in order to implement the required style and UX.
+Each md file includes the option as the first item after the front matter, to add html tags with attributes (e.g. class,id). These are essential implement the required Cyclr Docs style and UX.
 
-Amend v1 markdown to include the relevant html eg:
-- The 'Required' sections : green left border, grey background with drop shadow, exclamation mark icon 
-- The code sections : dark grey left border, grey background with drop shadow, 'C' icon 
-
-### h3 heading
-</section>
-
-<section class="card">
-
-
-## Local site 
-
-To set up a local site:
-
-1. If you don't have Docker installed, install [Docker](https://docs.docker.com/install/).
-2. Open the terminal.
-3. On your local computer, clone the Git repository for Cyclr Documentation:
-```Shell
-$ git clone https://github.com/cyclr/docs.git
-```
-4. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-5. Run bundle install to install all dependencies
-6. Start up the application:
-```Shell
-$ docker-compose up
-```
-
-### Gems and plugins
-See the Gemfile and \_config.yml for plugins.
- 
 </section>
 
 <section class="card">
@@ -76,53 +47,130 @@ See the Gemfile and \_config.yml for plugins.
 
 All Cyclr Docs v2 pages are defined in the pages/v2 folder.
 
-The folder and subfolder structure reflects the menu organisation and provides logical grouping of the pages.
+The folder and subfolder structure reflects the menu organisation and provides logical grouping of the pages. 
 
-NB: the menu front matter alone determines where the page is displayed in the menu.
+### Menu front matter
 
-This allows for the displayed menu options to be managed via front matter:
-- menu text
-- menu option behaviour: toggle submenu or page link
-- link type: same browser window or new window
+The front matter **menus:** section defines where the page is displayed in the menu. 
 
-The numeric prefix is used to control the order in which the options are displayed. The jekyll-menus plugin builds the data object from the md front matter, appending the relevant data from each file to its arrays. Amend the numeric prefixes to achieve the required menu option order.
+Connector guide pages do not include the menus section: they are not listed in the sidebar menu.
 
-### Sidebar Menu
+#### Example: Top level menu item
 
-The sidebar menu requires the front matter used by jekyll-menus plugin. 
+``` 
+---
+title: Cycle templates
+sidebar: cyclr_sidebar
+permalink: cycle-templates
+tags: [cycle-templates]
+layout: page
+toc: false
+introtitle: Create cycle templates
+introtext: >-
+    Create and configure reusable integrations as cycle templates which you build once and can deploy multiple times in order to scale your integrations.
+menus:
+  mainmenu:
+    title: Cycle templates
+    identifier: cycle-templates
+    icon: template
+    weight: 3
+---
+```
+{: .overflow-visible}
 
-The jekyll-menus plugin works on local sites, however it is not compatible with the GitHub Actions workflow. Custom functionality using the same front matter builds the menu. 
+#### Example: Nested menu item
 
-Pages without required front matter are omitted from the menu. Connector pages are not included in the menu.
+```
+---
+title: Stop a cycle
+sidebar: cyclr_sidebar
+permalink: stopping-a-cycle
+tags: [templates]
+menus:
+    cycle-templates:
+        title: Stop a cycle
+        identifier: stopping-a-cycle
+        weight: 5
+---
+```
+{: .overflow-visible}
 
-See https://github.com/forestryio/jekyll-menus for details.
 
-This implementation includes customisations :
 
-| customisation | where | description |
-| --- | --- | --- |
-| externalurl | front matter | Use externalurl instead of url to open the page in a new tab or window |
+| Menu variable | Description |
+| --- | --- |
+| parentmenuid | The parent menu for this item, cycle-templates in example above. Top level parentmenuid is **mainmenu** |
+| title | The menu item text  |
+| identifier | This menu id: can be the parentmenuid for nested menu items |
+| icon | Cyclr 2 font icon displayed in the sidebar menu **NB: for top level menu items only** |
+| weight | The ordinal position of this item in the menu |
 
-### Omit page from menu
-To prevent a page appearing as a menu item, remove the 'menus' item and its children from the front matter. 
+
+#### Sidebar Menu
+
+The sidebar menu uses the front matter used by [jekyll-menus plugin] (https://github.com/forestryio/jekyll-menus). 
+
+The jekyll-menus plugin works on local sites. At present it is not compatible with the GitHub Actions workflow. 
+
+Custom functionality using the same front matter builds the menu, and does not reqire the jekyll-menus plugin.
+
+The sidebar menu is rendered using  _includes/v2/generic/menu.html, which is recursive to support nested menus.
+
 
 ### Category page
-The index.md file in each pages/v2 folder provides the front matter and markdown for the site's category pages.
 
-The front matter defines how the category is displayed in the sidebar menu, and the category menu id provides the parent menu id to include in all the category's doc pages 
+The index.md file in each pages/v2 folder provides the front matter and markdown for category pages.
 
+Category page front matter includes additional custom variables.
 
-| item | description |
+```
+---
+title: Cycle templates
+sidebar: cyclr_sidebar
+permalink: cycle-templates
+tags: [cycle-templates]
+layout: page
+toc: false
+introtitle: Create cycle templates
+introtext: >-
+    Create and configure reusable integrations as cycle templates which you build once and can deploy multiple times in order to scale your integrations.
+menus:
+  mainmenu:
+    title: Cycle templates
+    identifier: cycle-templates
+    icon: template
+    weight: 3
+---
+```
+{: .overflow-visible}
+
+| Custom variable | Description |
 | --- | --- |
-| [parentmenuid] | child of the menus front matter item - this defines the immediate parent of this page |
-| title | The menu item text  |
-| identifier | this menu id - to be used as the [parentmenuid] in any child pages |
-| weight | can be used to control menu item order |
+| introtitle | Not used at present |
+| introtext | Displayed on the category page before the page content |
 
 #### Default category
 
+Displays a list of all pages in this category.
+
+The build identifies each files which use the category's identifier for the parent menu id and adds a link to that page.
+
+Collapsible menus display nested items.
 
 #### Search category
+
+Displays the search box, same style and functionality as the homepage search. 
+
+Aslo displays cards with links to other pages: the card content is defined in _data/categories/[category-page-permalink].yml. The yml is defined manually.
+
+At present the [Application connectors](https://docs.cyclr.com/connector-guides) is the only category page of this type. 
+
+#### Doc page
+
+| Custom variable | Description |
+| --- | --- | --- |
+| externalurl |To open the page in a new tab or window |
+
 
 </section>
 
@@ -144,4 +192,33 @@ The **assets/css/style.scss** uses @import directives to include the required st
 
 ### JavaScript
 
+JS libraries are in the js folder:
+
+* native mdb and boostrap js provide the UI for various mdb and bs components, such as the sidebar menu toggle, top nav dropdown menus
+* toc.js provides the UI for the table of contents displayed on all pages except homepage and category pages
+* customscripts.js includes functionality for the nested menu in the sidebar 
+
+</section>
+
+<section class="card">
+## Local site 
+
+To set up a local site:
+
+1. If you don't have Docker installed, install [Docker](https://docs.docker.com/install/).
+2. Open the terminal.
+3. On your local computer, clone the Git repository for Cyclr Documentation:
+```Shell
+$ git clone https://github.com/cyclr/docs.git
+```
+4. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+5. Run bundle install to install all dependencies
+6. Start up the application:
+```Shell
+$ docker-compose up
+```
+
+### Gems and plugins
+See the Gemfile and \_config.yml for plugins.
+ 
 </section>
