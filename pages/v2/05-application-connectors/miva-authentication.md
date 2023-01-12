@@ -1,5 +1,5 @@
 ---
-title: Miva Authentication
+title: Miva authentication
 sidebar: cyclr_sidebar
 permalink: miva-connector
 tags: [connector]
