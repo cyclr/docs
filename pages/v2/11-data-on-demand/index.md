@@ -15,5 +15,5 @@ menus:
     icon: report
     weight: 11
 ---
-{% assign categorydata = site.data.v2.categories.data-on-demand %}
+{% assign categorydata = site.data.categories.data-on-demand %}
 {% include v2/category/{{page.categorylayout}}.html identifier="data-on-demand" intro=page.intro title=page.introtitle text=page.introtext %}

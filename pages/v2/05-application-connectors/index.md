@@ -16,5 +16,5 @@ menus:
     icon: navconnectors
     weight: 5
 ---
-{% assign categorydata = site.data.v2.categories.connector-guides %}
+{% assign categorydata = site.data.categories.connector-guides %}
 {% include v2/category/{{page.categorylayout}}.html identifier="connector-authentication" intro=page.intro title=page.introtitle text=page.introtext %}

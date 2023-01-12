@@ -16,5 +16,5 @@ menus:
     icon: indexmenuicon
     weight: indexmenuweight
 ---
-{% assign categorydata = site.data.v2.categories.indexpermalink %}
+{% assign categorydata = site.data.categories.indexpermalink %}
 {% include v2/category/{{page.categorylayout}}.html identifier="indexmenuidentifier" intro=page.intro title=page.introtitle text=page.introtext %}

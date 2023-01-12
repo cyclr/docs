@@ -14,5 +14,5 @@ menus:
     identifier: install-connectors
     weight: 3
 ---
-{% assign categorydata = site.data.v2.categories.install-connectors %}
+{% assign categorydata = site.data.categories.install-connectors %}
 {% include v2/category/{{page.categorylayout}}.html identifier="install-connectors" intro=page.intro title=page.introtitle text=page.introtext %}

@@ -15,5 +15,5 @@ menus:
     icon: navsettings
     weight: 2
 ---
-{% assign categorydata = site.data.v2.categories.cyclr-configuration %}
+{% assign categorydata = site.data.categories.cyclr-configuration %}
 {% include v2/category/{{page.categorylayout}}.html identifier="cyclr-configuration" intro=page.intro title=page.introtitle text=page.introtext %}

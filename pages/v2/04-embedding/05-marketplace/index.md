@@ -14,5 +14,5 @@ menus:
     identifier: marketplace
     weight: 5
 ---
-{% assign categorydata = site.data.v2.categories.marketplace %}
+{% assign categorydata = site.data.categories.marketplace %}
 {% include v2/category/{{page.categorylayout}}.html identifier="marketplace" intro=page.intro title=page.introtitle text=page.introtext %}

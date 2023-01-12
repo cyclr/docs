@@ -11,6 +11,6 @@ menus:
     title: categoryname
     url: /categoryslug
 ---
-{% assign hubdata = site.data.v2.categories.categoryslug %}
+{% assign hubdata = site.data.categories.categoryslug %}
 {% include v2/generic/icontiles.html %}	
 {% include v2/generic/iconblocks.html %}	

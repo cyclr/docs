@@ -15,5 +15,5 @@ menus:
     icon: embedding
     weight: 12
 ---
-{% assign categorydata = site.data.v2.categories.embed-custom-ui %}
+{% assign categorydata = site.data.categories.embed-custom-ui %}
 {% include v2/category/{{page.categorylayout}}.html identifier="embed-custom-ui" intro=page.intro title=page.introtitle text=page.introtext %}
