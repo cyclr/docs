@@ -64,6 +64,8 @@ Response:
     "Shareable": false,
     "ContinueOnStepError": true,
     "LogStepDataRequests": true,
+    "StepDataSuccessRetentionHours": null,
+    "StepDataErroredRetentionHours": null,
     "TemplateId": "7ad2265e-2ff0-477b-b913-cae1dfde2ea8"
 }
 ```
