@@ -169,7 +169,7 @@ If a menu item links to another site, include this variable. The link is rendere
 
 Each index.md page in a subfolder is rendered as a category page, and must have the ``menus:`` front matter.
 
-The `icon`` front matter variable is defined only for top level (``mainmenu``) category pages.
+The ``icon`` front matter variable is defined only for top level (``mainmenu``) category pages.
 
 These front matter value are used to determine page layout or as content :
 * categorylayout
