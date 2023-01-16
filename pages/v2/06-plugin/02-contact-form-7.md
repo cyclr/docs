@@ -46,7 +46,7 @@ Once you have [installed our Contact Form 7](https://intercom.help/cyclr/contac
 
 *   In Contact Form 7, open your form for editing
 *   Add a new hidden field named url to your form
-*   In the window that creates your new field, set the value for this new field to be [https://yourcyclrwebhook](https://yourcyclrwebhook/)
+*   In the window that creates your new field, set the value for this new field to be `https://{yourcyclrwebhook}`
 
 #### Set up custom fields in Cyclr
 

@@ -12,11 +12,11 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](obtain-account-authorization-token).
+This article will guide you through installing a connector into an account. You must already have an [OAuth Access Token](connector-authentication-link).
 
 ### Getting the connector ID
 
-You need the ID of a connector before you can install it. You can find a connector by calling the /v1.0/connectors endpoint, this will show the connectors that are available to the account.
+You need the ID of a connector before you can install it. You can find a connector by calling the `/v1.0/connectors` endpoint, this will show the connectors that are available to the account.
 
 #### Request
 

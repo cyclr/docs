@@ -134,5 +134,5 @@ This response can then be used to present the user with valid options.
 
 In this example there is a single value to present to the user, Newsletter Subscribers, with a corresponding value to pass to Cyclr as the parameter value, a78f86e7d7.
 
-[How to Set Field Mapping](./listing-field-mappings)
+[How to Set Field Mapping](set-step-field-mapping)
 </section>

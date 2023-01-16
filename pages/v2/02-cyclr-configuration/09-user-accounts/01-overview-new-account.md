@@ -15,7 +15,7 @@ menus:
 This article gives an overview on setting up a new Cyclr Account using the Cyclr API.
 
 Useful links:
-* [Cyclr Concepts article](./cyclr-concepts) for an explanation of some of the terms used here.
+* [Cyclr Concepts article](cyclr-glossary) for an explanation of some of the terms used here.
 * [Cyclr **Interactive API Reference** links](./testing-cyclr-api) for all available endpoints.  Also enables you to make calls.
 
 

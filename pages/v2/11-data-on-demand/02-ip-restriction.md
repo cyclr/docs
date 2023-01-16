@@ -37,6 +37,6 @@ To get your IP address approved, you can contact the Cyclr support team through 
 <section class="card">
 ## Related page
 
-*  [API authentication](api-authentication)
+*  [API authentication](cyclr-api-authentication)
 
 </section>

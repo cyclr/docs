@@ -21,6 +21,6 @@ For each call, replace `{YourCyclrDomain}` with your Cyclr api domain. You also 
 | `Authorization`   | Your Cyclr access token. Use the format: `Bearer {access_token}`.      |
 | `X-Cyclr-Account` | The `{AccountID}` of the account you want to install a connector into. |
 
->  **Note**: For information on how to obtain these values, see the [Cyclr authentication](api-authentication) page.
+>  **Note**: For information on how to obtain these values, see the [Cyclr authentication](cyclr-api-authentication) page.
 
 </section>

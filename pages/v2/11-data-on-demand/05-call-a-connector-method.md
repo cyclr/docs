@@ -12,7 +12,7 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-You can use the [`MethodUniqueIdentifier`](get-connector-methods) and the [account ID](api-authentication) to call a connector method and get the response from a third-party application.
+You can use the [`MethodUniqueIdentifier`](get-connector-methods) and the [account ID](cyclr-api-authentication) to call a connector method and get the response from a third-party application.
 
 
 >  **Note**: Some Connector Methods alter the format of the response returned by the third-party API to improve how it works with Cyclr.

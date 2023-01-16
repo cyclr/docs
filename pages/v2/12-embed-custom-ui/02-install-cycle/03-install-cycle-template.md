@@ -77,7 +77,7 @@ Response:
 <section class="card">
 ## Related pages
 
-*  [How to Get Template Prerequisites](./get-cycle-prerequisites)
-*  [Template Installation](./template-installation)
+*  [Get cycle prerequisites](./get-cycle-prerequisites)
+*  [List available templates](list-available-templates)
 
 </section>
