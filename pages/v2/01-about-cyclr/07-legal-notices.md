@@ -214,7 +214,7 @@ The software provided by the Cyclr service may contain software available under 
 | Spin.js | [https://github.com/fgnass/spin.js/blob/master/LICENSE.md](https://github.com/fgnass/spin.js/blob/master/LICENSE.md) |
 | SSH.NET | [https://github.com/sshnet/SSH.NET/blob/master/LICENSE](https://github.com/sshnet/SSH.NET/blob/master/LICENSE) |
 | StackExchange.Redis | [https://raw.github.com/StackExchange/StackExchange.Redis/master/LICENSE](https://raw.github.com/StackExchange/StackExchange.Redis/master/LICENSE) |
-| SweetAlert.Base | [https://github.com/t4t5/sweetalert/blob/master/LICENSE](https://github.com/t4t5/sweetalert/blob/master/LICENSE) |
+| SweetAlert.Base | [https://github.com/t4t5/sweetalert/blob/master/LICENSE.md](https://github.com/t4t5/sweetalert/blob/master/LICENSE.md |
 | System.Buffers | [https://github.com/dotnet/corefx/blob/master/LICENSE.TXT](https://github.com/dotnet/corefx/blob/master/LICENSE.TXT) |
 | System.Collections | [http://go.microsoft.com/fwlink/?LinkId=329770](http://go.microsoft.com/fwlink/?LinkId=329770) |
 | System.Collections.Immutable | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |
@@ -276,6 +276,6 @@ The software provided by the Cyclr service may contain software available under 
 | WebActivatorEx | [http://opensource.org/licenses/Apache-2.0](http://opensource.org/licenses/Apache-2.0) |
 | WebGrease | [http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm](http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_ENU.htm) |
 | WireMock.Net | [https://licenses.nuget.org/Apache-2.0](https://licenses.nuget.org/Apache-2.0) |
-| YamlDotNet | [https://github.com/aaubry/YamlDotNet/blob/master/LICENSE](https://github.com/aaubry/YamlDotNet/blob/master/LICENSE) |
+| YamlDotNet | [https://github.com/aaubry/YamlDotNet/blob/master/LICENSE.txt](https://github.com/aaubry/YamlDotNet/blob/master/LICENSE.txt |
 
 </section>

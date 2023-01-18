@@ -3,18 +3,20 @@
 {% assign sidenavfooter = site.data.sidenav %}
 <!-- Sidenav -->
 <nav id="sidebarMenu"
-    class="sidenav sidenav-primary"
-    data-mdb-color="primary"
-    data-mdb-close-on-esc="false"
-    data-mdb-hidden="false"
-    data-mdb-scroll-container="#scrollContainer">
-    {% include v2/generic/menu.html menuname="mainmenu" menuid="scrollContainer" menuclass="sidenav-menu" overviewitem=""%}
+     class="sidenav sidenav-primary"
+     data-mdb-color="primary"
+     data-mdb-close-on-esc="false"
+     data-mdb-hidden="false"
+     data-mdb-scroll-container="#scrollContainer">
+    {% include v2/generic/accordionmenu.html parentid="scrollContainer" collapseclass="show" expanded="false" menuclass="mainmenu accordion" menuname="mainmenu" overviewitem=""%}
     {% include /v2/generic/sidenavfootermenu.html %}
 </nav>
-<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<!-- Highlights the active parent class in sidebar and expands collapsed menu on page load
+     This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.
+-->
 <script type="text/javascript">
     $(document).ready(function () {
-        $('a.active').parents('li.sidenav-item').toggleClass("active");
+        $('a.current-page').parentsUntil('#scrollContainer','div.accordion-collapse.collapse').toggleClass("hide").toggleClass("show");
     }
     );
 </script>

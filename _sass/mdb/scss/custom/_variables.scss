@@ -338,11 +338,11 @@ $table-hover-bg: $grey-10 !default;
 $navbar-box-shadow: none !default;
 
 // Accordion
-$accordion-color: $body-color !default;
-$accordion-bg: $white !default;
+$accordion-color: $grey-50;
+$accordion-bg: transparent;
 $accordion-icon-width: 1rem !default;
-$accordion-icon-color: $grey-70 !default;
-$accordion-icon-active-color: $grey-70 !default;
+$accordion-icon-color: $grey-50;
+$accordion-icon-active-color: $grey-50 ;
 
 // Select
 $form-outline-select-arrow-color: $grey-70 !default;
