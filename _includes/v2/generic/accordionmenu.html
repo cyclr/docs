@@ -1,0 +1,86 @@
+<ul id="{{include.parentid}}" class="sidenav-menu {{include.menuclass}}">
+    {% capture currentfilter %}page.menus.{{include.menuname}}{% endcapture %}
+    {% capture currentsort %}menus.{{include.menuname}}.weight{% endcapture %}
+    {% if include.menuname == "mainmenu" %}
+    <li class="accordion-item" id="item-home">
+        <div class="accordion-item-header" id="header-home">
+            <a class="btn ripple-surface primary accordion-link  d-flex" 
+                    href="index" 
+                    title="{{ site.data.strings.home }}" 
+                    data-mdb-ripple-color="primary">
+                <i class="icon icon-navhome fa-fw me-3"></i>
+                <span class="accordion-link-title">{{ site.data.strings.home }}</span>
+            </a>
+        </div>
+    </li>
+    {% endif %}
+    {% if include.overviewitemtitle %}
+    <li class="accordion-item" id="item-{{include.overviewitemurl}}">
+        <div class="accordion-item-header" id="header-{{include.overviewitemurl}}">
+            <a class="btn ripple-surface primary accordion-link  d-flex {{currentpageclass}}"
+               href="{{site.baseurl}}{{ include.overviewitemurl }}"
+               data-mdb-ripple-color="primary"
+               title="{{ item.title }} overview">
+                <span class="accordion-link-title">Overview</span>
+            </a>
+        </div>
+    </li>
+    {% endif %}
+    {% assign menuitems = site.pages | where_exp: 'page', currentfilter | sort: currentsort %}
+    {% for item in menuitems %}
+    {% if item.menus[include.menuname].icon %}
+    {% capture itemicon %}
+    <i class="icon icon-{{item.menus[include.menuname].icon}} fa-fw"></i>{% endcapture %}
+    {% else %}
+    {% capture itemicon %}{% endcapture %}
+    {% endif %}
+    {% capture menuitem %}{{item.menus[include.menuname].identifier}}{% endcapture %}
+    {% if page.url == item.url %}
+    {% capture currentpageclass %} current-page{% endcapture %}
+    {% else %}
+    {% capture currentpageclass %}{% endcapture %}
+    {% endif %}
+    {% if item.name == "index.md" %}
+    {% capture overviewitemtitle %}{{item.title}}{% endcapture %}
+    {% capture overviewitemurl %}{{item.permalink}}{% endcapture %}
+    {% capture overviewmenuitem %}{{menuitem}}{% endcapture %}
+    {% capture currentclass %}{{currentpageclass}}{% endcapture %}
+    {% capture submenuname %}{{menuitem}}{% endcapture %}
+    {% capture submenuid %}{{item.title | slugify | downcase}}{% endcapture %}
+    {% capture parentmenuid %}{{menuitem}}{% endcapture %}
+    <li class="accordion-item" id="item-{{menuitem}}">
+        <div class="accordion-item-header" id="header-{{menuitem}}">
+            <button class="btn ripple-surface primary accordion-button accordion-link  d-flex accordion-toggle"
+                    type="button"
+                    title="{{ item.title }}"
+                    data-mdb-ripple-color="primary"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#child-{{menuitem}}"
+                    aria-expanded="{{include.expanded}}"
+                    aria-controls="child-{{menuitem}}">
+                {{ itemicon }}
+                <span class="accordion-link-title">{{ item.title }}</span>
+                <span class="visually-hidden">{{ site.data.strings.togglemenu}} {{ item.title }}</span>
+            </button>
+        </div>
+        <div id="child-{{menuitem}}" class="accordion-collapse collapse" aria-labelledby="header-{{menuitem}}" data-mdb-parent="#{{include.parentid}}">
+            {% include v2/generic/accordionmenu.html parentid=parentmenuid collapseclass="hide" expanded="false" menuclass="submenu" menuname=submenuname currentclass=currentclass overviewitemtitle=overviewitemtitle overviewitemurl=overviewitemurl overviewmenuitem=overviewmenuitem %}
+        </div>
+    </li>
+    {% else %}
+    {% if item.externalurl %}
+    <li class="accordion-item" id="item-{{menuitem}}">
+        <a class="btn ripple-surface primary accordion-link  d-flex {{currentpageclass}}" target="_blank" href="{{ item.externalurl }}" title="{{ item.title }}" data-mdb-ripple-color="primary">
+            {{ itemicon }}<span class="accordion-link-title">{{ item.title }}</span>
+        </a>
+    </li>
+    {% else %}
+    <li class="accordion-item" id="item-{{menuitem}}">
+        <a class="btn ripple-surface primary accordion-link d-flex {{currentpageclass}}" href="{{site.baseurl}}{{ menuitem }}" title="{{ item.title }}" data-mdb-ripple-color="primary">
+            {{ itemicon }}<span class="accordion-link-title">{{ item.title }}</span>
+        </a>
+    </li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</ul>
