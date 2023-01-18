@@ -16,14 +16,20 @@ Contact Form 7, a plugin for WordPress - does not include webhook functionality.
 
 We have created our Contact Form 7 plugin to allow for easy integration with any of the [apps or services that Cyclr connects](https://cyclr.com/connectors).
 
-#### Prerequisites
+</section>
+<section class="card">
+
+## Prerequisites
 
 *   WordPress with admin access
 *   [Contact Form 7](https://contactform7.com/) installed
 *   [Contact Form 7 Modules](https://en-gb.wordpress.org/plugins/contact-form-7-modules/) installed (required for hidden fields)
 *   Cyclr account
 
-#### Plugin installation
+</section>
+<section class="card">
+
+## Plugin installation
 
 If you have completed the prerequisites:
 
@@ -36,19 +42,28 @@ Once those steps are complete, you are ready to set up the plugin.
 
 Once you have [installed our Contact Form 7](https://intercom.help/cyclr/contact-form-7-plugin/installation) plugin, you are ready to set up webhooks on your forms.
 
-#### Get your webhook’s URL from Cyclr
+</section>
+<section class="card">
+
+## Get your webhook’s URL from Cyclr
 
 *   Create a cycle and install the Contact Form 7 Plugin connector
 *   Click/drag the Form Entry step into the builder
 *   Click the cog icon on the step and copy the webhook’s URL to your clipboard.
 
-#### Set up Contact Form 7
+</section>
+<section class="card">
+
+## Set up Contact Form 7
 
 *   In Contact Form 7, open your form for editing
 *   Add a new hidden field named url to your form
 *   In the window that creates your new field, set the value for this new field to be `https://{yourcyclrwebhook}`
 
-#### Set up custom fields in Cyclr
+</section>
+<section class="card">
+
+## Set up custom fields in Cyclr
 
 Cyclr will not know about the fields you’ve added to your form by default. You will need to add these.
 

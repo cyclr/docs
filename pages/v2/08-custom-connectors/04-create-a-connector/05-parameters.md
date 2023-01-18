@@ -91,13 +91,4 @@ The resulting call would look like this:
 
 Cyclr filter field (can set a date field as FilterField to filter new objects) 
 
-### ResponseField
-
-Response field
-
-### Script
-
-### Index
-
-
 </section>

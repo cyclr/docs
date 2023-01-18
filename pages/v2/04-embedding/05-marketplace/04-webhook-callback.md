@@ -21,8 +21,6 @@ When integrating with a Cyclr Marketplace you can specify a Webhook URL for Cycl
 
 In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. Set the Marketplace Notification URL to the location where Cyclr should send notifications.
 
-![Marketplace Notification URL](/images/marketplace_notification_url.png)
-
 
 </section>
 <section class="card">

@@ -14,9 +14,14 @@ menus:
 <section class="card">
 _**Step Parameters are passed as a header or part of the URL (hostname, path, or query string parameters) to the third party API endpoint.**_
 
-For each Missing parameter mapping returned by the step prerequisites request in step 7:
+</section>
+<section class="card">
 
-Request:
+## Get parameter details
+
+For each Missing parameter mapping returned by the [step prerequisites](get-cycle-prerequisites) request:
+
+### Request:
 
 ```html
     GET /v1.0/steps/{Step ID}/parameters/{Parameter ID}
@@ -24,7 +29,7 @@ Request:
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
 
-Response:
+### Response:
 
 ```json
     {
@@ -61,9 +66,14 @@ In the example above, the Triggers array provides directions as to the source of
 
 In this example the method 36666 of Account Connector 36329 should be called, with the [lists].name values presented to the user for selection and the [lists].id value used as the actual parameter value.
 
+</section>
+<section class="card">
+
+## Retrieve values
+
 Values can be retrieved from the trigger by calling the identified trigger method like below:
 
-Request:
+### Request:
 
 ```html
     GET /v1.0/account/connectors/36329/methods/36666
@@ -71,7 +81,7 @@ Request:
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
 
-Response:
+### Response:
 
 ```json
     {
@@ -133,6 +143,11 @@ Response:
 This response can then be used to present the user with valid options.
 
 In this example there is a single value to present to the user, Newsletter Subscribers, with a corresponding value to pass to Cyclr as the parameter value, a78f86e7d7.
+
+</section>
+<section class="card">
+
+## Related page
 
 [How to Set Field Mapping](set-step-field-mapping)
 </section>

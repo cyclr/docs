@@ -22,7 +22,10 @@ Cyclr supports three types of connector authentication:
 
 For each connector requiring authentication, take your user through the appropriate flow.
 
-### Checking the required Authentication Type
+</section>
+<section class="card">
+
+## Checking the required Authentication Type
 
 To check the authentication type that the installed Account Connector requires, make the following call:
 
@@ -65,7 +68,10 @@ In this example, the AuthType for this Account Connector is ApiKey.
 
 The response also confirms that the Account Connector is not yet authenticated (“Authenticated”: false).
 
-### Account Connector Properties
+</section>
+<section class="card">
+
+## Account Connector Properties
 Before beginning the authentication process, you should set the values of any Parameters on the Account Connector that aren't marked as Optional.
 
 To identify what these Parameters are, look in the `Connector` section you receive when making the Cyclr API call above for Parameters with `IsAccountConnectorProperty`:`true` and `IsOptional`:`false`.

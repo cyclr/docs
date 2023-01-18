@@ -16,13 +16,19 @@ Magento 2 does not include webhook functionality.
 
 We have created our Magento 2 extension to allow for easy integration with any of the [apps or services that Cyclr connects](https://cyclr.com/connectors).
 
-#### Prerequisites
+</section>
+<section class="card">
+
+## Prerequisites
 
 *   Magento with admin access
 
 *   Cyclr account
 
-#### Extension installation
+</section>
+<section class="card">
+
+## Extension installation
 
 If you have completed the prerequisites:
 
@@ -45,7 +51,10 @@ php bin/magento cache:clean
 
 Once those steps are complete, you are ready to install the Magento 2 Webhook connector in Cyclr. The Magento 2 Webhook connector will automatically create / delete webhooks in your Magento instance when you start / stop a cycle.
 
-#### Extension setup
+</section>
+<section class="card">
+
+## Extension setup
 
 *   The webhooks will be processed once per minute. If you wish to change this setting, you can visit *System -> System Settings -> Cron (Scheduled Tasks) -> webhooks*
 
