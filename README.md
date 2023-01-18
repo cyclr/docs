@@ -10,8 +10,9 @@ sidebar: cyclr_sidebar
 
 Use the [editor on GitHub](https://github.com/cyclr/docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-The docs repo is configured to run the GitHub Actions workflow when a pull request to the master branch is made. The workflow rebuilds and deploys the master branch to the live site.
+The docs repo runs the GitHub Actions workflow when you push commits to the master branch. The workflow rebuilds and deploys the master branch to the live site.
 
+Part of this workflow involves checks. If not successful, the commits page shows a red cross symbol next to the commit. You can select the cross and then select **details** in order to find more details/re-run the failed jobs.
 </section>
 
 <section class="card">
@@ -29,7 +30,7 @@ See the [Kramdown documentation for more info](https://kramdown.gettalong.org/in
 
 #### HTML parsing
 
-Add this option to the md file to enable HTML parsing.  
+Add this option to the first line in the md file after the header content to enable HTML parsing.  
 ``
 {::options parse_block_html="true" /}
 ``
@@ -50,7 +51,7 @@ Amend v1 markdown to include the relevant html eg:
 
 ## Local site 
 
-To set up a local site:
+To set up for a local site:
 
 1. If you don't have Docker installed, install [Docker](https://docs.docker.com/install/).
 2. Open the terminal.
@@ -59,11 +60,17 @@ To set up a local site:
 $ git clone https://github.com/cyclr/docs.git
 ```
 4. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-5. Run bundle install to install all dependencies
-6. Start up the application:
-```Shell
-$ docker-compose up
-```
+5. Open the command line at the root of your Github repository and run `bundle install` to install all dependencies.
+    *  If `bundle install` is unsuccessful, you can delete the `gemfile.lock` file and retry.
+
+To build the local site:
+
+1. Open  the command line at the root of your Github repository.
+2. Run `bundle exec jekyll serve`
+3. Go to http://127.0.0.1:4000/ in order to view your local site.
+    *  You can also go to a specific file in the `...GitHub\docs\_site` folder to view it as a webpage.
+
+> **Note**: If there is an error, append `--trace` to the serve command to provide more information. Check the formatting of the documents changed.
 
 ### Gems and plugins
 See the Gemfile and \_config.yml for plugins.
@@ -78,14 +85,18 @@ All Cyclr Docs v2 pages are defined in the pages/v2 folder.
 
 The folder and subfolder structure reflects the menu organisation and provides logical grouping of the pages.
 
-NB: the menu front matter alone determines where the page is displayed in the menu.
+> **Note**: The menu front matter alone determines where the page is displayed in the menu.
 
 This allows for the displayed menu options to be managed via front matter:
 - menu text
 - menu option behaviour: toggle submenu or page link
 - link type: same browser window or new window
+- order the file appears in the sidebar
 
-The numeric prefix is used to control the order in which the options are displayed. The jekyll-menus plugin builds the data object from the md front matter, appending the relevant data from each file to its arrays. Amend the numeric prefixes to achieve the required menu option order.
+
+The numeric value for `weight` in the front matter determines the order that the page appears within that sidebar category (1 being the highest position).
+
+> **Note**: Connector docs don't require the second section of front matter (see the `\GitHub\docs\_templates` folder for examples).
 
 ### Sidebar Menu
 
@@ -118,11 +129,6 @@ The front matter defines how the category is displayed in the sidebar menu, and 
 | title | The menu item text  |
 | identifier | this menu id - to be used as the [parentmenuid] in any child pages |
 | weight | can be used to control menu item order |
-
-#### Default category
-
-
-#### Search category
 
 </section>
 
