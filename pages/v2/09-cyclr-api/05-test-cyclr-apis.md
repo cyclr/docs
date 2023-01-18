@@ -14,7 +14,10 @@ menus:
 <section class="card">
 Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.
 
-### API Location/Instance
+</section>
+<section class="card">
+
+## API Location/Instance
 
 Depending on where your Cyclr Console is hosted, you'll need to use the appropriate API Domain when making Requests:
 
@@ -25,21 +28,22 @@ my.cyclr.uk | https://api.cyclr.uk | [UK API Reference](https://api.cyclr.uk/doc
 eu.cyclr.com | https://api.eu.cyclr.com | [EU API Reference](https://api.eu.cyclr.com/docs/index)
 apac.cyclr.com | https://api.apac.cyclr.com | [APAC API Reference](https://api.apac.cyclr.com/docs/index)
 
-### API Reference Authorization
+</section>
+<section class="card">
 
-Use your Cyclr account details to authenticate and work with all API endpoints directly within the API reference documentation.
+## API Reference Authorization
 
-To authenticate, expand any endpoint and click the "OFF" slider, then enter your details:
+You can use your Cyclr account details to authenticate and work with all API endpoints directly within the API reference documentation.
 
-![](./images/testing-cyclrs-apis-auth_2020-11.png)
+1.  Expand the endpoint and select the **OFF** slider. 
+2.  In the new window, select either **Basic auth** or **Request body** from the dropdown.
+3.  Enter the **ClientID** and **Secret** that you want to use to authenticate.
+4.  Select **Authorize**.
 
 <br/>
 
-Cyclr supports 2 of the OAuth 2.0 authentication flows:
+Cyclr supports OAuth authentication. For more information, see the [API authentication](./cyclr-api-authentication) documentation.
 
-* [Client Credentials](./cyclr-api-authentication)
-
-
-The Cyclr API is divided into two parts, the Partner Level and the Account Level, you can use the same OAuth token for both but account level methods require that the **X-Cyclr-Account** header is included with the request.
+> **Note**: The Cyclr API is divided into two parts, the Partner Level and the Account Level, you can use the same OAuth token for both but account level methods require that the account ID header is included with the request.
 
 </section>
