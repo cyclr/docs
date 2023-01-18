@@ -20,7 +20,7 @@ When using an Action step, you will need to map its fields.  You can do this thr
 <section class="card">
 ## Field mapping example
 
-![](./images/field-mapping-eg.png)
+![An example of the Step Setup window where you can map fields.](./images/field-mapping-eg.png)
 
 The left most column is the **Destination** (the app you are connecting to). Some of these fields may be required.
 

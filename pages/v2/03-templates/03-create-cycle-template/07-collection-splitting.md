@@ -19,8 +19,10 @@ Splitting a list into separate items results in each item moving through a Cycle
 
 This can be beneficial in situations where you're retrieving further lists of data for each item in an initial list, to avoid the data becoming too complex and difficult to process.
 
+</section>
+<section class="card">
 
-### Configuring Collection Splitting
+## Configuring Collection Splitting
 
 There are 2 locations Collection Splitting can be set:
 
@@ -29,8 +31,10 @@ There are 2 locations Collection Splitting can be set:
 
 The option on a Step will always override the Cycle __Settings__ option.
 
+</section>
+<section class="card">
 
-### Cycle Collection Splitting
+## Cycle Collection Splitting
 
 Clicking the __Settings__ button along the top of the Cycle Builder shows the current Cycle-level splitting:
 
@@ -40,8 +44,10 @@ Clicking the __Settings__ button along the top of the Cycle Builder shows the cu
 | All Steps | Splits collections of data on all Steps. |
 | None | Doesn't perform any splitting. |
 
+</section>
+<section class="card">
 
-### Collection Splitting Requirements
+## Collection Splitting Requirements
 
 Cyclr isn't always able to split a list of data, even when it's been configured to do this.
 
@@ -51,8 +57,10 @@ For Collection Splitting to be possible, the Response Fields on a Method must de
 
 If multiple lists are defined by Response Fields at the same "depth" in the Response data, splitting will not be possible.
 
+</section>
+<section class="card">
 
-### Mapping from Multiple Lists
+## Mapping from Multiple Lists
 
 If mapping from more than one list of data on a Step, Cyclr may automatically display the following dropdowns beneath the standard Mappings area in Step Step:
 

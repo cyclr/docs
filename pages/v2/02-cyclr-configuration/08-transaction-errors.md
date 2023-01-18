@@ -20,7 +20,10 @@ The URL could be for an external system, or for a Webhook Step in a Template or 
 
 If you choose to use a Template or Cycle for this, you should install the **Error Webhook** Connector which knows the structure of the Request Body so is simpler to setup than using a standard **Generic Webhook** Connector's **Webhook** Method.
 
-### Handling these Errors within Cyclr
+</section>
+<section class="card">
+
+## Handling these Errors within Cyclr
 
 1. We'd recommend creating a separate Folder perhaps called "Monitoring" to put your Template or Cycle into.  It's up to you whether you do this in your Cyclr Console as a Template or create a new Account dedicated to these sorts of tasks.
 2. Install the **Error Webhook** Connector - it has a **Webhook** Method which knows the structure of Cyclr's error Requests.
@@ -43,7 +46,10 @@ If you wish, you can choose to handle errors in particular Cyclr Accounts differ
 
 In your Cyclr Console, go to the Accounts menu then Account Management, click Settings for the Account you wish to set this for and use the **Transaction Error Webhook** options.
 
-### Example Transaction Error Webhook Payload
+</section>
+<section class="card">
+
+## Example Transaction Error Webhook Payload
 
 The information in the **Detail** property will contain the Response that was received.
 

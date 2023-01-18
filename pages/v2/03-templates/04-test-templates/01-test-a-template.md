@@ -18,15 +18,13 @@ You can test the steps in your template, by clicking their “play” button.
 
 ### Test an Action Step
 
-To test an action step, Cyclr will generate a form with the necessary fields. Add some test data and then hit the run button to see the result.
+To test a step, you need to map it's required fields and then select the **Test Step** icon. This opens a window where you can enter some test data. Select **Run** in order to see the test output.
 
-![](./images/test-action-step.gif)
+![A screenshot of the step testing window. ](./images/test-action-step.png)
 
 ### Test a Get Step
 
-To test a Get step, click its play button. It will then connect to their app and attempt to get some data.
-
-![](./images/test-get-step.gif)
+To test a trigger step, map the required fields and select the **Test Step** icon to test whether the step can retrieve the right data from the application.
 
 Notes:
 

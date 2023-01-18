@@ -19,13 +19,6 @@ When integrating with LAUNCH you can decide whether all users access it using th
 
 To enable your users to add an integration, present a "Connect" button or link within your application's interface.
 
-For example:
-
-![Generic Host Application](./images/generic-host-app.png)
-
-
-
-
 </section>
 <section class="card">
 ## Account LAUNCH

@@ -16,11 +16,6 @@ When integrating with a Cyclr Marketplace you can decide whether all users acces
 
 To enable your users to view a Marketplace and install templates, you will need to have an "Integrations" button or link within your own application's interface.
 
-For example:
-
-![Generic Host Application](./images/generic-host-app-connected-v2.png)
-
-
 </section>
 <section class="card">
 ## Account Marketplace
