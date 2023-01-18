@@ -19,19 +19,28 @@ This article provides a broad overview of how Cyclr works with your app:
 3.  User interface
 4.  Hosted or self hosted
 
-### 1. Connect your API
+</section>
+<section class="card">
+
+## 1. Connect your API
 
 Our connectivity framework makes it very easy to add a platform connector for your app to Cyclr. With your API connected, you have instantly unlocked [100+ other integrations](http://cyclr.com/connectors).
 
 Importing an API can be done automatically (if your API docs are hosted by Swagger, Apiary, etc) or semi-manually by using simple JSON to map to your API's methods. Once you have a Cyclr account, you can access tools to import your API.
 
-### 2. Create integrations
+</section>
+<section class="card">
+
+## 2. Create integrations
 
 Integrations are pre-made connections between your app and another app, which are then accessed by your users. For example, you may need to connect your app to MailChimp to sync contacts.  Integrations take the form of templates which can be made available either to all users or published for a specific user only.
 
 In either case, these integrations are created by your team (or us, if you wish) using our [design tools](http://cyclr.com/design-tools). Having created and tested this integration in Cyclr's drag and drop builder, you then publish it to your app.
 
-### 3. User interface
+</section>
+<section class="card">
+
+## 3. User interface
 
 Cyclr is used by SaaS and app vendors in various ways, with users never seeing the integrations right up to a full integration marketplace with tools built on our API and served up in your app's UI.
 
@@ -56,7 +65,10 @@ The table below outlines some scenarios that are possible.
     </tr>
 </table>
 
-### 4. Hosted or self hosted
+</section>
+<section class="card">
+
+## 4. Hosted or self hosted
 
 Cyclr provides hosting for your integrations, allowing you to get started quickly and have us take care of scaling, maintenance, and security.
 
