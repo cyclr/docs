@@ -12,7 +12,7 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-### Using your own domain as a Cyclr Service Domain
+## Using your own domain as a Cyclr Service Domain
 
 To use your own domain as Cyclr Service Domain, follow these steps:
 
@@ -21,17 +21,19 @@ To use your own domain as Cyclr Service Domain, follow these steps:
 * Contact Cyclr Support once the above tasks have been completed and we'll perform some setup on your Cyclr Console.
 * You will need to provide details of a new SSL certificate before the existing one expires (we plan to make this less manual in future).
 
-***IMPORTANT: Changing your Service Domain will require you to update any referenced Webhook or App Callback/Redirect URLs.***
+> **Warning**: Changing your Service Domain will require you to update any referenced Webhook or App Callback/Redirect URLs.
 
+</section>
+<section class="card">
 
-### Reasons to do this
+## Benefits of a custom service domain
 
-#### Removes "cyclr" from Webhook and Redirect URLs
+### Removes "cyclr" from Webhook and Redirect URLs
 The domain set as your Cyclr Console's Service Domain is used for Webhook URLs as well as Redirect URLs for Connectors using OAuth authentication.  It may therefore be seen by your own users.  Because of this you may wish to change it to your own domain to remove mentions of Cyclr.
 
 **If you have already created Cycles using Webhooks or setup third party Apps, you will need to update them to use your new Service Domain.**
 
-#### Avoids issues with how some web browsers handle third party cookies
+### Avoids issues with how some web browsers handle third party cookies
 The Safari web browser and Chrome Incognito windows restrict access to third party cookies, causing errors when displaying Cyclr in an iframe to your users.
 
 You can avoid these by using a Service Domain which is a subdomain of the domain hosting your web application.
