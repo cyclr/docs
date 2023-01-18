@@ -13,7 +13,7 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-### Last Successful Run Date
+## Last Successful Run Date
 
 If you have a need for a method that only pulls the latest information, you're going to want to use Cyclr's **Last Successful Run Date** functionality.
 
@@ -45,7 +45,7 @@ The next full run of the Cycle will pick up any new data since the *first* run, 
 
 Clicking Step Test will use whatever date is in the picker, so 1970-01-01T00:00:00 if the cycle has never been run, and no value has been given.
 
-#### Accessing Last Successful Run Date in script
+### Accessing Last Successful Run Date in script
 
 Last Successful Run Date can be accessed in ``before_action`` functions by making reference to ``last_successful_run_date``.
 
