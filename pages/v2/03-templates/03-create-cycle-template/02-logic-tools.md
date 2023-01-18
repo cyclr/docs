@@ -1,12 +1,12 @@
 ---
-title: Logic Tools
+title: Tools
 sidebar: cyclr_sidebar
 permalink: logic-tools
 tags: [templates]
 
 menus:
     create-cycle-templates:
-        title: Logic Tools
+        title: Tools
         identifier: logic-tools
         toggleonly: menutoggleonly
         weight: 2
@@ -23,6 +23,7 @@ Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
 | Delays | Allows a pause to be added to the flow. |
 | Wait Until | Allows you to hold processing until a specific data/time has been reached. |
 | Wait All | Allows you to add closing steps to a process when the integraton has been processing an array of transations in parallel. |
+| Annotation | Allows you to annotate and make notes as part of the cycle. |
 
 
 </section>
@@ -31,25 +32,23 @@ Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
 
 Decision steps can split the data in your cycle down a true or false branch.
 
-![](./images/decision-example.png)
+![An example of a decision step that determines where to record data.](./images/decision-example.png)
 
 ### Setting up a Decision step
 
-Your cycle must contain at least one Get (green) or Webhook (grey) step so you have some data to work with.
+Decisions work by comparing a **Left Operand** to a **Right Operand**; in other words, it looks for a value in your data and compares it - using a condition you specify - to another value.
+
+To set up a decision step, your cycle must contain at least one Get (green) or Webhook (grey) step so you have some data to work with.
 
 Click and drag a Decision Step into your cycle and connect it where you wish to split the data, then click its cog Step Setup button.
 
-![](./images/decision.png)
-
-Decisions work by comparing a "Left Operand" to a "Right Operand"; in other words, it looks for a value in your data and compares it - using a condition you specify - to another value.
-
 From within the Decision Step's Step Setup:
 
-*   Choose a previous step and one of its fields; this is your Left Operand.
-*   Choose a Condition, e.g. _Exists, Not Exists, Equals, Not Equals_.
-*   Choose your Right Operand. This can the value of a previous step's field or you can type in a value.
+*   Choose a previous step and one of its fields; this is your **Left Operand**.
+*   Choose a **Condition** from the dropdown, such as: `Exists`, `Not Exists`, `Equals`, `Not Equals`.
+*   Choose your **Right Operand**. This can be the value of a previous step's field or a value you enter.
 
-The result of the screenshot example is that contacts with the last name of “Smith” are routed down the true branch; all other contacts will go down the false branch.
+In the screenshot example, the fields would be **Left Operand**: `Name`, **Condition**: `Equals`, **Right Operand** `Smith`. The result is that contacts with the last name of “Smith” are routed down the true branch, and all other contacts will go down the false branch.
 
 To create more advanced logic, you can chain multiple Decision steps together.
 
@@ -68,15 +67,22 @@ To create more advanced logic, you can chain multiple Decision steps together.
 <section class="card">
 ## Delays
 
-Delay steps added to a cycle, will execute without any scheduled delays. Connecting a Delay between two steps will allow you to set a fixed time that Cyclr should wait before it executes the next step.
+**Delay** steps added to a cycle, will execute without any scheduled delays. Connecting a Delay between two steps will allow you to set a fixed time that Cyclr should wait before it executes the next step.
 
-![](./images/delay.png)
+To set up a **Delay** step: 
 
-Click-drag a Delay from the logic section of the builder’s right sidebar.
+1. Click-drag a **Delay** from the logic section of the builder’s right sidebar.
+2. Connect the **Delay** step between two steps.
+3. Select the **Step setup** icon, enter an integer, and select a unit of time from the dropdown. The options available are:
 
-Once the Delay s on the build canvas, connect it between two steps and click the setup cog in order to set the length of the delay.
+    * Seconds
+    * Minutes
+    * Hours
+    * Days
+    * Weeks
 
-You can also pause for a period based on a date field in your data. For example, when a contact’s subscription is due for renewal. To do this, you should use a Wait Until step.
+
+> **Note**: You can also pause for a period based on a date field in your data. For example, when a contact’s subscription is due for renewal. To do this, you should use a Wait Until step.
 
 
 </section>
@@ -87,19 +93,15 @@ You can use a Wait Until step in two ways.
 
 ### Wait for a specific date
 
-For example, the date of an event or webinar you are running.
+For example, you can set a step to wait until the date of an event or webinar you are running.
 
-![](./images/wait-until-fixed-date.png)
-
-Select the Type a Value option and choose a date/time using the calendar and dropdown combos.
+In the **Step Setup** window, select the **Type a Value** option and choose a date/time using the calendar and dropdown combination.
 
 ### Wait until dynamic date in your data
 
-For example, a contact’s subscription renewal date.
+For example, you can set it to a variable such as a contact’s subscription renewal date.
 
-![](./images/wait-until-dynamic-date.png)
-
-Select a step from the first dropdown, then a field from the second. The field should be a date.
+In the **Step Setup** window, select a step from the first dropdown, then a field from the second. The field should be a date.
 
 
 </section>
@@ -112,7 +114,7 @@ This can be useful when working with Collection Splitting where multiple Transac
 
 Shortly after all "In Progress" Transactions have completed in a Cycle, a single new Transaction is created on the Wait All Step to execute any remaining Steps placed after it.
 
-![](./images/wait-all-example.png)
+![An example of a **Wait All** step that posts a slack message when all transactions are complete.](./images/wait-all-example.png)
 
 In the example above, contacts from Salesforce will be split into individual Transactions. Each Transaction contains one contact and will be created in either List A or B in MailChimp depending on the Decision step result.
 

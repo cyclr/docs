@@ -18,7 +18,10 @@ As a prepackaged integration management solution, ORBIT is deployed in a similar
 
 ORBIT’s styling and layout can also be customised from within the Cyclr Console. You can set your own custom HTML and CSS in **Settings > Appearance Settings**
 
-### Deploying ORBIT
+</section>
+<section class="card">
+
+## Deploying ORBIT
 
 You should use a non-account restricted OAuth token as the Authorization for this request.
 
@@ -32,7 +35,10 @@ curl -X POST
 -d '{}' "https://yourCyclrInstance/v1.0/accounts/{AccountId}/orbit"
 ```
 
-### ORBIT Response
+</section>
+<section class="card">
+
+## ORBIT Response
 
 JSON response from API, using the OrbitUrl will signin the user to the account and goto orbit view.
 

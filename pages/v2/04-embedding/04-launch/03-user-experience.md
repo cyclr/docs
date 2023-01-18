@@ -16,58 +16,44 @@ Launch guides your users through setting up an integration between your app and 
 
 For example, the process of exporting contacts from your app to your user’s email marketing platform could largely be templated, but it may be desirable to allow your user to select the mailing list that contacts are added to.
 
-Indicate intent to integrate with a 3rd party app
--------------------------------------------------
+</section>
+<section class="card">
 
-Your user is presented with the option to install an integration. This could be as simple as an intuitively labelled “Connect” button or link within your app:
+## Indicate intent to integrate with a 3rd party app
 
-![Generic Host Application](./images/generic-host-app.png)
+Your user is presented with the option to install an integration. This could be as simple as an intuitively labelled “Connect” button or link within your app.
 
-Select integration to install
------------------------------
+</section>
+<section class="card">
+
+## Select integration to install
 
 Upon clicking the button or link within your app, a browser popup opens. Your user is presented with a list of valid integrations that could be installed.
 
-  
 ![Select Integration](./images/select-integration.png)
-
- 
 
 This screen is bypassed in the event that a single integration template matches the intent indicated by the end user.
 
-Authenticate third party connectors
------------------------------------
+</section>
+<section class="card">
 
-The user is stepped through authenticating each third party connector used within the selected integration template, where that third party connector.
+## Authenticate third party connectors
 
-For connectors using OAuth:
+The user is stepped through authenticating each third party connector used within the selected integration template, depending on the type of authentication:
 
-  
-![oAuth Setup](./images/auth-oauth.png)
-
-  
-For connectors requiring an API key:
-
-  
-![API Key authorisation setup](./images/auth-apikey.png)
-
-  
-For connectors requiring a username and password:
-
-  
-![Basic Authentication setup](./images/auth-basic.png)
+![Three types of authentication.](./images/auth-launch.png)
 
   
 For third party connectors that have previously been authenticated by the same user – e.g. during the installation of other integration templates – the user will not be asked to re-authenticate.
 
-Step setup
-----------
+</section>
+<section class="card">
+
+## Step setup
 
 For each step within the selected integration template that requires parameters to be selected, the user will be presented with a screen.
-
   
 ![Field Mapping](./images/launch-field-mapping.png)
-
   
 Sometimes, your user will be asked to select from a list of values obtained from within an authenticated connector involved in the template – for example, a list of “Mailing Lists” from within their email marketing platform.
 
@@ -75,22 +61,18 @@ Other times, your user will be asked to select from a predetermined list of vali
 
 Finally, there may be occasions where your user needs to provide free-form text for complete flexibility. The source of an email lead, for example.
 
-Return to host app
-------------------
+</section>
+<section class="card">
+
+## Return to host app
 
 Upon completing the setup of their integration, your user will be presented with a customizable screen:
-
   
 ![Completed Integration Installation](./images/completed-installation.png)
 
-  
 This screen can be completely customised to include your own HTML and JavaScript.
 
-They will most likely then be returned to your application:
-
-  
-![Generic Host Application - Connected](./images/generic-host-app-connected.png)
-
+They will most likely then be returned to your application.
   
 We provide response values that enable you to update your UI to indicate success, or instigate a backend process to make use of the newly installed Cyclr (for example, start a data export process).
 

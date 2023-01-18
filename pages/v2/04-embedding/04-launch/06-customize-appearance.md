@@ -12,7 +12,7 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-To view an instance of LAUNCH from within the Cyclr Console, go to:
+To view an instance of LAUNCH from within the Cyclr Console:
 
 Click **Guide** > Click the **Show** button under Integrate with your App > Click the **Try LAUNCH** button for an instance to appear as a pop up with any integration templates you’ve published.
 
@@ -22,7 +22,10 @@ In the Console, click **Settings** and then **Appearance Settings**.
 
 This screen will present you with several areas where you can paste code.
 
-### Available CSS Classes
+</section>
+<section class="card">
+
+## Available CSS Classes
 
 To restyle the LAUNCH layout add CSS to “**Application Custom CSS**”
 
@@ -73,7 +76,10 @@ Here are some of the available elements within LAUNCH you may want to customise.
     }
 ```
 
-### Adding a Custom Header and Footer to LAUNCH
+</section>
+<section class="card">
+
+## Adding a Custom Header and Footer to LAUNCH
 
 You can further customise your LAUNCH instance by creating your own custom header and footer using HTML.
 
@@ -101,7 +107,10 @@ By wrapping your message in a custom Div you can add stylings to the “**Applic
     }
 ```
 
-### LAUNCH Complete HTML
+</section>
+<section class="card">
+
+## LAUNCH Complete HTML
 
 This section allows you to display a message to your user once they have successfully installed an integration template.
 

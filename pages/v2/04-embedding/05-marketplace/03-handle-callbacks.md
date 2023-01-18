@@ -16,9 +16,12 @@ Marketplace Integration Packages are installed using the LAUNCH flow.  After ins
 
 **Console > Settings > Customize Appearance > Launch Complete HTML**
 
-### Example Launch Complete HTML
+</section>
+<section class="card">
 
-#### Plain HTML Message
+## Example Launch Complete HTML
+
+### Plain HTML Message
 
 The most basic example is to simply display a completed message.
 
@@ -26,7 +29,7 @@ The most basic example is to simply display a completed message.
 <h1>Congrats - you're connected!</h1>
 ```
 
-#### Integration Package Message
+### Integration Package Message
 
 If the Marketplace Integration Package includes an install complete message, you can display custom messages for each Integration Package by using the InstallCompleteMessage mergefield.
 
@@ -34,7 +37,7 @@ If the Marketplace Integration Package includes an install complete message, you
 <h1>{% raw %}{{InstallCompleteMessage}}{% endraw %}</h1>
 ```
 
-#### JavaScript postMessage
+### JavaScript postMessage
 
 If the Marketplace was opened in a popup, you can use JavaScript to send the "result" of the installation back to your application.  If a popup wasn't used, then the **result** object is available straightaway.  The example below displays a message to the user with a close button.  When the user clicks the button, the **result** object is sent using a JavaScript **postMessage** and the popup window is closed.
 
@@ -70,15 +73,18 @@ A JavaScript **result** object is made available to the window on the final page
 | cycles.webhooks.url | URL of the webhook | https://my.cyclr.com/api/webhook/abcdefg123 |
 | errors | An array of error messages when Cyclr activates the newly installed Marketplace Integration Package. | ["Please set up all the steps correctly before starting the cycle."] |
 
-### Cross domain issue in IE10
+</section>
+<section class="card">
+
+## Cross domain issue in IE10
 
 Internet Explorer 10 does not allow window.opener.postMessage() to be used from a page on a different domain to the opener. There are ways around this to enable the result of the Marketplace LAUNCH flow to be posted back to your application.
 
-#### Proxy iFrame
+### Proxy iFrame
 
 Instead of creating a popup to the Marketplace URL directly, you should create a popup to a page on your own domain, with the Marketplace URL embedded as an iFrame. Your JavaScript on the LAUNCH Complete page then posts to window.parent.postMessage() – which is supported across domains in IE – with the proxy page passing the data back to your app, either directly on the backend or using window.opener.postMessage().
 
-#### Redirect after LAUNCH Complete page
+### Redirect after LAUNCH Complete page
 
 JavaScript in the LAUNCH Complete page redirects your user to a page on your domain, passing in the result of the LAUNCH flow. That page then handles the details on your backend before closing the popup.
 

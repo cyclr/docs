@@ -12,9 +12,8 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-![Gravity Forms](https://cyclr.com/wp-content/uploads/2017/10/Gravity-Forms-259x300.png)
 
-#### Prerequisites
+## Prerequisites
 
 Please ensure you have the following things in place before you begin.
 
@@ -23,13 +22,16 @@ Please ensure you have the following things in place before you begin.
 *   A Cyclr account
 *   Cyclr [Gravity Forms Plugin](https://cyclr.com/integrate/gravity-forms-plugin) connector installed
 
-#### Download
+</section>
+<section class="card">
+
+## Download
 
 Once you have confirmed the above, you can download our Gravity Forms plugin.
 
 [Download Cyclr Gravity Forms Plugin](http://files.cyclr.com/cyclr-plugins/cyclr-webhooks.zip)
 
-#### Installation
+### Installation
 
 1.  In WordPress, click Plugins and then Add New
 2.  On the Add Plugins page, click Upload Plugin
@@ -37,13 +39,19 @@ Once you have confirmed the above, you can download our Gravity Forms plugin.
 
 Once those steps are complete, you are ready to setup the plugin.
 
-#### Get your webhook’s URL from Cyclr
+</section>
+<section class="card">
+
+## Get your webhook’s URL from Cyclr
 
 *   Create a cycle and install the Gravity Forms Plugin connector
 *   Click/drag the Form Entry step into the builder
 *   Click the cog icon on the step and copy the webhook’s URL to your clipboard; this is where your form will post its data
 
-#### Set up Gravity Forms
+</section>
+<section class="card">
+
+## Set up Gravity Forms
 
 *   In Gravity Forms, open your form for editing
 *   Add a new hidden field to your form named **WebhookUrl**
@@ -51,7 +59,10 @@ Once those steps are complete, you are ready to setup the plugin.
 
 **Note**: If you are using Conditional Logic to show/hide fields, make sure you added the hidden field **WebhookUrl **above all fields which have Conditional Logic. It is recommended to add **WebhookUrl **to the very top of your form.
 
-#### Set up custom fields in Cyclr
+</section>
+<section class="card">
+
+## Set up custom fields in Cyclr
 
 Cyclr will not know about the fields you’ve added to your form by default. You will need to add these in Cyclr.
 

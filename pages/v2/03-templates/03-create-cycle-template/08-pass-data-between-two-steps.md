@@ -14,7 +14,7 @@ menus:
 <section class="card">
 If you need to access information from a previous step in *script*, and you don't want to use Cyclr storage, one option is to pass the data via mapping.
 
-### Passing a single value
+## Passing a single value
 
 Passing a single value to make it accessible in script can be as simple as mapping it to an available field.
 
@@ -38,11 +38,14 @@ If there isn't an appropriate field, you can add one:([https://docs.cyclr.com/ad
 
 You will likely still want to delete the field after you use it, as above.
 
-### Passing multiple values
+</section>
+<section class="card">
+
+## Passing multiple values
 
 If you have more information to pass across, it may make sense to add multiple custom fields.  If there are a lot of fields however (an array perhaps), you have another option - passing all the values as one long string.
 
-#### Part 1 - Stringify the values in Step A
+### Part 1 - Stringify the values in Step A
 
 In the response from Step A, you'll need to stringify the value(s) you need and add this to the response. 
 
@@ -55,7 +58,7 @@ function after_action_paging(){
 
 You will need to add a custom field to the response of Step A to hold this string.  In the example above, the field location of this custom field would be ``string_of_fields``.
 
-#### Part 2 - Parse the values in Step B script
+### Part 2 - Parse the values in Step B script
 
 First, map the value to a field in Step B.  As above, you may need to create a field to temporarily hold this value (in the example below, I've named this field ``string_from_step_A``)
 

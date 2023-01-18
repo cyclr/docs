@@ -14,7 +14,12 @@ menus:
 <section class="card">
 **_Fields within a step may contain a set of pre-defined values that can be selected from, returned in the “Values” array below:_**
 
-Request:
+</section>
+<section class="card">
+
+## Get field values
+
+### Request:
 
 ```html
     GET /v1.0/steps/{Step ID}/fieldmappings/{Field ID}
@@ -22,7 +27,7 @@ Request:
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
 
-Response:
+### Response:
 
 ```json
     {
@@ -50,7 +55,14 @@ Response:
     }
 ```
 
-For these steps, the list of valid values should be presented to your user for them to make a selection. Their selection should then be used to update the field value:
+</section>
+<section class="card">
+
+## Update field values
+
+For these steps, the list of valid values should be presented to your user for them to make a selection. Their selection should then be used to update the field value.
+
+### Request:
 
 ```html
     POST /v1.0/steps/{Step ID}/fieldmappings/{Field ID} 
@@ -63,7 +75,7 @@ For these steps, the list of valid values should be presented to your user for t
     }
 ```
 
-Response:
+### Response:
 
 ```json
     {
@@ -86,6 +98,10 @@ Response:
       "Value": "List Option 1" 
     }
 ```
+</section>
+<section class="card">
+
+## Related pages
 
 [Static Value Field Mapping](./static-value-mapping)  
 [Field Mapping with Step Data](./field-mapping-with-step-data)  

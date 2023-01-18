@@ -28,14 +28,15 @@ If the connector you wish to set as your partner connector is not in the list of
 
 Once the connector in the list of installed application connectors, toggle the *Standard* button so that it says *Native*.
 
-![Generic Host Application](./images/partner_connector_standard.png)
-
-![Generic Host Application](./images/partner_connector_native.png)
+![An example of connectors set to standard and native.](./images/partner-connector-standard-native.png)
 
 Your Partner Connector is now set up.
 
-Fetch the Required Fields
----
+</section>
+<section class="card">
+
+## Fetch the Required Fields
+
 To install the Partner Connector via Launch or Marketplace you will first need to fetch the prerequisite fields:
 
 - Name
