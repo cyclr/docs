@@ -24,7 +24,9 @@ There are two ways to do this:
 
 </section>
 <section class="card">
-## <a name="Enhanced">1. Enhanced Dynamic Custom Fields</a>
+
+<a name="Enhanced"></a>
+## Enhanced Dynamic Custom Fields
 
 1\. Identify the method within the API that will return the metadata for your object. You will then need to [create this method within the connector](./connector-methods).<br><br>
 
@@ -157,7 +159,8 @@ function select_dt(item) {
 
 8\. Cyclr should now automatically map any custom fields for this method once it is installed.
 
-### <a name="systemfields"></a>Table of System Fields
+<a name="systemfields"></a>
+### Table of System Fields
 
 | System Field           | Description                                                                                                                                              |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -195,7 +198,9 @@ Or just a list of the values
 
 </section>
 <section class="card">
-## <a name="Basic">2. Basic Dynamic Custom Fields</a>
+
+<a name="Basic"></a>
+## Basic Dynamic Custom Fields
 
 1\. Select a method which is able to be called without any field or parameter values being set. This will be your "Source" method.
 
