@@ -134,7 +134,7 @@ $backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "
 $flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30));
 
 /* gap map */
-$flexgaps: ("sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
+$flexgaps: ("xs": 12px, "sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
 
 /* column gap map */
 $flexgaps-sz: ("10": 10px, "20": 20px, "30": 30px, "40": 40px);
