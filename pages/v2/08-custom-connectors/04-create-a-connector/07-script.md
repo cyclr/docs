@@ -121,7 +121,7 @@ All other events (such as after_action):
 
 Called when a webook request has been received and before anything else is done. Method is used to decide if the request should be continued or return a custom message to the caller.
 
-### Global objects
+#### Global objects
 
 *   **method_endpoint**: The webhook request URL
 *   **method_request_headers**: The webhook request headers
@@ -135,7 +135,7 @@ Called when a webook request has been received and before anything else is done.
 
 Called immediately after a Request to a Webook has been received, whether the Cycle is currently running or stopped.
 
-### Global object
+#### Global objects
 
 *   **method_response**: object that was POSTed to the Cyclr webhook
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
@@ -151,7 +151,7 @@ Called before Cyclr makes a request to an external API.
 
 If a Method uses Paging, this function is called before each page is retrieved.
 
-### Global objects
+#### Global objects
 
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request_parameters**: Querystring parameters for the request
@@ -172,7 +172,7 @@ Function is called when Cyclr has a response from an external API.
 
 If a Method uses Paging, this function is called after each page is retrieved.
 
-### Global object
+#### Global objects
 
 *   **method_endpoint**: The URL of the original request
 *   **method_request**: object that was posted to the third party API
@@ -193,7 +193,7 @@ If this function is provided, it is called once after all pages of data have bee
 
 > The Paging referred to here is **Inbound**.  This function doesn't wait for **Outbound** paging to complete.
 
-### Global object
+#### Global objects
 
 *   **method_request_headers**: The response headers for the request
 *   **method_request_parameters**: parameters for the request
@@ -212,7 +212,7 @@ If this function is provided, it is called once after all pages of data have bee
 
 Function is called when Cyclr received an error from an external API.
 
-### Global object
+#### Global objects
 
 *   **method_error**: Details of the error, see: **Handle Errors from Third Party APIs** further down for more information on handling errors
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
@@ -227,7 +227,7 @@ Function is called when Cyclr received an error from an external API.
 
 Function is used to essentially combine a Method with a Decision Step, allowing a test to be performed that directs a Transaction down either the True or False exit points.  If this function is included in a method, Cyclr will add True and False exit points. See [example code](#action-condition) for more information.
 
-### Global object
+#### Global objects
 
 *   **method_response**: object that was received from the third party API.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
@@ -242,7 +242,7 @@ Function is used to essentially combine a Method with a Decision Step, allowing 
 
 Function is called before Cyclr makes an OAuth 2 authorise request.
 
-### Global object
+#### Global objects
 
 *   **method_endpoint**: URL for the OAuth authorise endpoint
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
@@ -252,7 +252,7 @@ Function is called before Cyclr makes an OAuth 2 authorise request.
 
 Called before Cyclr makes an OAuth 2 access token request.
 
-### Global object
+#### Global objects
 
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request**: Object that is going to be sent to the OAuth 2 access token endpoint
@@ -263,7 +263,7 @@ Called before Cyclr makes an OAuth 2 access token request.
 
 Called after Cyclr makes an OAuth 2 access token request.
 
-### Global object
+#### Global objects
 
 *   **method_response**: response object that was received from the OAuth 2 access token request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
@@ -273,7 +273,7 @@ Called after Cyclr makes an OAuth 2 access token request.
 
 Called before Cyclr makes an OAuth 2 refresh token request.
 
-### Global object
+#### Global objects
 
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request**: request object that is going to be sent to the OAuth 2 refresh token request
@@ -284,7 +284,7 @@ Called before Cyclr makes an OAuth 2 refresh token request.
 
 Called after Cyclr makes an OAuth 2 refresh token request.
 
-### Global object
+#### Global objects
 
 *   **method_response**: response object that was received from the OAuth 2 refresh token request.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
