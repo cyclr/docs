@@ -150,9 +150,7 @@ function select_dt(item) {
 5\. You should now update the response fields, to look similar to this example:
 ![](./images/basic-mappings-with-dt.png)
 
-6\. Ensure that the **For Enhanced Custom Fields** option has been checked:
-![](./images/for-enhanced-custom-fields.png)
-
+6\. Ensure that the **For Enhanced Custom Fields** option has been checked.
 7\. Now all you need to do is go to the method where you want to pick up custom fields, and select this method from the **Custom Fields Lookup Method** dropdown menu. You can do this for the Request, the Response, or both as required:
 
 ![](./images/dynamic_custom_fields_image_2.png)

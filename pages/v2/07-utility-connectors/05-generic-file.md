@@ -21,9 +21,7 @@ The **Generic File** Connector provides the **Create Delimited Text File** Metho
 <section class="card">
 ## Create Delimited Text File Method
 
-The Generic File Connector's **Create Delimited Text File** Method doesn't provide any initial "data fields" as it doesn't know the data you wish to use.  All it starts with are fields to define the structure of the content to be created: Delimiter and Include Header.
-
-![Create Delimited Text File Method - Step Setup](./images/generic-file_create-delimited-text-file_step-setup.png)
+The Generic File Connector's **Create Delimited Text File** Method doesn't provide any initial "data fields" as it doesn't know the data you wish to use.  The only default fields are are fields to define the structure of the content to be created: **Delimiter** and **Include Header**.
 
 You must therefore [add custom Request Fields](./adding-custom-fields) for the values you want to bring in as the "columns" of your data using Field Locations in this format:
 
@@ -31,7 +29,7 @@ You must therefore [add custom Request Fields](./adding-custom-fields) for the v
 [].FieldName
 ```
 
-![Create Delimited Text File Method - Request Fields](./images/generic-file_create-delimited-text-file_request-fields.png)
+![Create Delimited Text File Method - Request Fields](./images/generic-file.png)
 
 
 You'll then be able to map to these Fields in the Builder from a previous Step that retrieves a list of data you wish to convert into delimited text content.
