@@ -15,7 +15,7 @@ tags: [connector]
 
 To authenticate your connector, you need to get the authentication details. 
 
-Go to the [Manage API tokens for your Atlassian account](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) page and follow the instructions under the **Create an API token** heading to create an API token for your Jira account. This will be used in place of your Jira account password when you setup your Jira account in Cyclr.
+To create an API token for your Jira account, go to the [Manage API tokens for your Atlassian account](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) page of the Atlassian documentation and follow the instructions under the **Create an API token** heading. Use the API token in place of your Jira account password when you setup your Jira account in Cyclr.
 
 </section>
 
@@ -46,8 +46,8 @@ Cyclr asks you for the below values when you install the Jira connector into an 
 
 You need to add a custom field location to map an issue property field in a cycle. Do this in the following order:
 
-1. [Map Update Issue Property](#map-update-issue-property)
-2. [Map Get Issue Properties](#map-get-issue-properties)
+1. [Map Update Issue Property](#map-update-issue-property).
+2. [Map Get Issue Properties](#map-get-issue-properties).
 
 <a link="map-update-issue-property">
 
