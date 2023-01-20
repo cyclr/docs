@@ -99,7 +99,7 @@ And **Update OK (*Outbound*)** and **Store Data (*Inbound*)** must have the same
 
 The screenshot below shows how you might build 2 Cycles that synchronize Contacts between Salesforce and HubSpot.
 
-![](./images/cross-updating-preventer-2-cycles.png)
+![A screenshot that highlights how the cross updating preventer works between two cycles.](./images/cross-updating-preventer-2-cycles.png)
 
 Here we've arbitrarily decided that Salesforce is the "main" system so changes passing from there to HubSpot are considered "Outbound" with changes coming back from HubSpot to Salesforce as "Inbound".
 
