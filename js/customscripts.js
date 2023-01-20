@@ -26,10 +26,9 @@ function backToTop() {
 
 const setMode = (e) => {
   // Check necessary for Android devices
-  if (window.innerWidth === innerWidth) {
+  if (window.innerWidth === innerWidth || !sidenav) {
     return;
   }
-
   innerWidth = window.innerWidth;
 
   if (window.innerWidth < 1400) {
@@ -44,7 +43,9 @@ const setMode = (e) => {
 setMode();
 
 //Stop "Scroll Chaining" when using the Side Nav
-sidenavInstance._perfectScrollbar.settings.wheelPropagation = false;
+if (sidenav) {
+    sidenavInstance._perfectScrollbar.settings.wheelPropagation = false;
+}
 
 // Event listeners
 window.addEventListener("resize", setMode);
