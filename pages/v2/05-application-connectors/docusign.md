@@ -13,8 +13,8 @@ To use Cyclr to connect with the DocuSign API, you need to create an Application
   > **Note**: A partner only has to create the application once. The client/customer doesn't need their own separate application within DocuSign.
 
 1. Login to your DocuSign Portal.
-2. Go to **Settings** > **Intergrations** > **Apps and Keys**.
-3. Select the **ADD APP AND INTERGRATION KEY** button.
+2. Go to **Settings** > **Integrations** > **Apps and Keys**.
+3. Select the **ADD APP AND INTEGRATION KEY** button.
 4. Enter a name for your app.
 5. Select **Authorization Code Grant**.
 6. Add a secret key and copy this for later.
@@ -41,7 +41,7 @@ To set up the DocuSign connector in Cyclr, go to your Cyclr console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | **Client ID**   | The DocuSign `Intergration Key`.               |
+   | **Client ID**   | The DocuSign `Integration Key`.               |
    | **Client Secret**   | The DocuSign `Secret Key`.                 |
    | **Callback URL** | Cyclr fills this field by default.          |
    | **Scopes** | **Optional**: You can leave this blank or you can reduce the scopes depending on the methods you require for interactions. This field is a space-separated list. Full list of scopes are [here](https://developers.docusign.com/platform/auth/reference/scopes/).          |
