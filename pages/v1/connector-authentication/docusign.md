@@ -1,28 +1,30 @@
 ---
-title: Docusign Connector Guide
+title: DocuSign Connector Guide
 sidebar: cyclr_sidebar
 permalink: docusign-connector
 tags: [connector]
 ---
 
-Docusign Setup
+DocuSign Setup
 ---------------
 
-For Cyclr to connect with the Docusign API you will need to create an "Application" in the Docusign account, as detailed below:
+For Cyclr to connect with the DocuSign API you will need to create an "Application" in the DocuSign account, as detailed below:
 
-  > NB. This part is completed once, by a Partner.  The client/customer does not need their own separate application within Docusign.
+  > NB. This part is completed once, by a Cyclr Partner.  Your customer does not need their own separate application within DocuSign.
 
-1. Login to your Docusign Portal
-2. Follow the Docusign [documentation](https://developers.docusign.com/platform/auth/authcode/authcode-get-token/) to create an oAuth application
-3. Go to Settings > Intergrations > Apps and Keys 
-4. Use the ADD APP AND INTERGRATION KEY button
-5. Enter a name for your app
-6. Make sure "Authorization Code Grant" is selected
-7. Add a secret key and copy this for later
-8. Add a "Redirect URI", this is  {% raw %}https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}
-9. Enter a link to your privacy policy
-10. Save the application
-11. The intergration key will be needed in the steps below.
+
+The following steps take you through DocuSign's setup, as [documented here](https://developers.docusign.com/platform/auth/authcode/authcode-get-token/).
+
+1. Login to your DocuSign Portal
+2. Go to Settings > Integrations > Apps and Keys 
+3. Use the ADD APP AND INTEGRATION KEY button
+4. Enter a name for your app
+5. Make sure "Authorization Code Grant" is selected
+6. Add a secret key and copy this for later
+7. Add a "Redirect URI", this is  `https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback`
+8. Enter a link to your privacy policy
+9. Save the application
+10. The integration key will be needed in the steps below.
  
 
 Connector Setup
@@ -30,10 +32,11 @@ Connector Setup
 
 The Connector now can be installed using the credentials obtained in the above steps:
 
-**Client ID**: `Intergtation Key`
+**Client ID**: `Integration Key`
 
 **Secret**: `Secret Key`
-**Domain**: Sandbox Domain is "account-d.docusign.com" | Production Domain is "account.docusign.com"
-**Scopes** (This is optional) Leave blank or you can reduce the scopes depending on the methods you require for interations. A space-separated list. Full list of scopes are [here](https://developers.docusign.com/platform/auth/reference/scopes/):  
 
-You will then be prompted to log in, select your Hubspot and authorize access to the connector.
+**Domain**: Sandbox Domain is "account-d.docusign.com" | Production Domain is "account.docusign.com"
+
+**Scopes** (optional) Leave blank or you can reduce the scopes depending on the methods you require for interactions. Specified as a space-separated list. A full list of scopes can be found in [DocuSign's documentation](https://developers.docusign.com/platform/auth/reference/scopes/).
+
