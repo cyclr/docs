@@ -23,14 +23,16 @@ Export Template
 
 Template releases can be exported within your Cyclr Console. Once you select Export, the template will be exported to a JSON file for downloading. Be aware of the limitations in the popup. See screenshot below for how to find the export button in Cyclr.
 
-![](./images/templates/template-export.png)
+![A screenshot of the template release screen with the import and export buttons highlighted.](./images/template-export.png)
 
 
 Import Templates
 ----------------
 
-A template release JSON file can be imported as a new template (see screenshot below), or into an existing template as a new release (see screenshot above). You will see an error message if there are any compatibility issues, e.g. method not found on the current instance.
+A template release JSON file can be imported as a new template, or into an existing template as a new release (see screenshot above). 
 
-![](./images/templates/template-import.png)
+To import a new template from a JSON file, go to **Templates** > **Template Library** in the console and select the **Import Template** button.
+
+You will see an error message if there are any compatibility issues, e.g. method not found on the current instance.
 
 </section>
