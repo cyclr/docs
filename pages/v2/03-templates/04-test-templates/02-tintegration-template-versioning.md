@@ -29,16 +29,16 @@ Combining this with our audit trail features, your whole team are able to build 
 
 ![Annotated screenshot of the template release screen.](./images/Template-Release-Screen.png)
 
-1.  Title of the template you are working on
-2.  Status of the template release
-3.  Release notes for template release (click on text to add/edit)
-4.  Audit trail (see who created the release and when)
-5.  The Connectors used in the template release
-6.  Promote Draft release to Live
-7.  Edit template release in the workflow builder
-8.  Run or Pause the template release
-9.  View template release Report
-10. Copy template release (you can then choose whether to create a new Draft within the template, copy it to another template, or create a completely new template)
+1.  Status of the template release
+2.  Release notes for template release (click on text to add/edit)
+3.  Audit trail (see who created the release and when)
+4.  The icons of the connectors used in the template release
+5.  Promote Draft release to Live
+6.  Edit template release in the workflow builder
+7.  Run or Pause the template release
+8.  View template release Report
+9. Copy template release (you can then choose whether to create a new Draft within the template, copy it to another template, or create a completely new template)
+10. Export the release
 11. Delete template release
 12. View template release in the workflow builder (Live and Deprecated releases are readonly) 
 
