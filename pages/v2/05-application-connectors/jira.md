@@ -53,7 +53,7 @@ You need to add a custom field location to map an issue property field in a cycl
 
 #### Map Update Issue Property
 
-To add a custom request field location for the `Issues > Issue Properties > Update Issue Property` method:
+To add a custom request field location for the **Issues** > **Issue Properties** > **Update Issue Property** method:
 
 1. Go to the **Edit Connector** page of your Jira connector.
 2. Under the **Methods & Fields** heading, select **Issues > Properties > Update Issue Property**.
