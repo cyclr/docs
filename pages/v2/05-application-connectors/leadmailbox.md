@@ -14,7 +14,8 @@ Authentication with LeadMailbox is very simple.  When the connector is installed
 
 </section>
 <section class="card">
-## Post Leads Method
+
+## Additional information
 
 When the Post Leads method is called additionally you will need to provide the name of the Campaign to which the lead should be added.  You can check these values by:
 

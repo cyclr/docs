@@ -24,6 +24,11 @@ This document will explain what is needed to setup access to Device Pilot and in
 
 In the connector setup enter the full API Key in the API Key textbox.
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Updating and Inserting Device Data
 
 DevicePilot allows users to submit any data that is relevant to their devices. Because of this, Cyclr lets you choose your own fields that you want to submit. This is done by creating request "custom fields".

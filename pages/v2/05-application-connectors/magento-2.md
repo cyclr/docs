@@ -41,6 +41,7 @@ Cyclr asks you for the below values when you install the Magento 2 connector int
 
 </section>
 <section class="card">
+
 ## Additional information
 
 ### Bulk endpoints

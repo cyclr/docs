@@ -24,8 +24,12 @@ Clicking on this field will copy it to your clipboard, navigate back to the conn
 
 The connector is now authenticated and ready to use.
 
-Retrieving Campaign IDs
------------------------
+</section>
+<section class="card">
+
+## Additional information
+
+### Retrieving Campaign IDs
 
 The methods under `Subscriptions` require a Campaign ID, there is no way to retrieve these via the API. the Campaign ID is obtained via the Optimail portal. 
 

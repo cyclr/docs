@@ -12,7 +12,7 @@ tags: [connector]
 
 ### Cyclr Setup
 
-Setup your LiveForce Connecector within Cyclr:
+Setup your LiveForce Connector within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top

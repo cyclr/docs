@@ -35,7 +35,10 @@ The connector is now authenticated and ready to use.
 
 </section>
 <section class="card">
-## Adding Custom Fields
+
+## Additional information
+
+### Adding Custom Fields
 
 Your records may contain custom fields which by standard are not mapped each method's request or response fields. The API field names for custom fields can be found in your custom field settings within OpenCRM. An example of a custom field API field name would be "cf_123".
 

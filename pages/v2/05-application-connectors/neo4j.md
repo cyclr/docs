@@ -29,6 +29,11 @@ A **Neo4j** Connector within Cyclr required the following values during the setu
 
 _You can connect 1 Database to a neo4j connector. If you wish to use multiple databases, you will need to install multiple connectors._
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Using Custom Object Categories
 
 Your connector can now utilise all methods within the 'Custom Object (Node)' category on all Node types in your database.

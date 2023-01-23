@@ -62,7 +62,10 @@ To find out which version your app is set to:
 
 </section>
 <section class="card">
-## Use the Search Contacts method
+
+## Additional information
+
+### Use the Search Contacts method
 
 There are two processes for sending a search request in the Search Contacts method:
 

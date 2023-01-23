@@ -21,7 +21,8 @@ The connector is now authenticated and ready to use.
 
 </section>
 <section class="card">
-## User Guide
+
+## Additional information
 
 ### Unifier Field (Required)
 

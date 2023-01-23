@@ -24,7 +24,10 @@ When installing a **FIVE CRM** Connector within Cyclr, enter the following value
 
 **Hash Code**: Your FiveCRM Hash Code generated from your username.
 
-### Connector Notes
+</section>
+<section class="card">
+
+## Additional information
 
 This connector has some unique functionality:
 

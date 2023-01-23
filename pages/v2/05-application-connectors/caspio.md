@@ -61,7 +61,10 @@ Your Caspio Connector is now set up! You can test it by installing it in one of 
 
 </section>
 <section class="card">
-## Utilising Custom Object Categories
+
+## Additional information
+
+### Utilising Custom Object Categories
 
 The methods within some categories (like Tables) require you to create a custom object category. This is to create a clearer user experience when creating cycles.
 
