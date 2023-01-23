@@ -4,10 +4,10 @@
     {% if include.menuname == "mainmenu" %}
     <li class="accordion-item" id="item-home">
         <div class="accordion-item-header" id="header-home">
-            <a class="btn ripple-surface primary accordion-link  d-flex" 
-                    href="index" 
-                    title="{{ site.data.strings.home }}" 
-                    data-mdb-ripple-color="primary">
+            <a class="btn ripple-surface primary accordion-link  d-flex"
+               href="index"
+               title="{{ site.data.strings.home }}"
+               data-mdb-ripple-color="primary">
                 <i class="icon icon-navhome fa-fw me-3"></i>
                 <span class="accordion-link-title">{{ site.data.strings.home }}</span>
             </a>
@@ -21,7 +21,7 @@
                href="{{site.baseurl}}{{ include.overviewitemurl }}"
                data-mdb-ripple-color="primary"
                title="{{ item.title }} overview">
-                <span class="accordion-link-title">Overview</span>
+                <span class="accordion-link-title">{{include.overviewitemtitle}}</span>
             </a>
         </div>
     </li>
@@ -41,7 +41,11 @@
     {% capture currentpageclass %}{% endcapture %}
     {% endif %}
     {% if item.name == "index.md" %}
-    {% capture overviewitemtitle %}{{item.title}}{% endcapture %}
+    {% if item.menus[include.menuname].overview %}
+    {% capture overviewitemtitle %}{{item.menus[include.menuname].overview}}{% endcapture %}
+    {% else %}
+    {% capture overviewitemtitle %}{{site.data.strings.overview}}{% endcapture %}
+    {% endif %}
     {% capture overviewitemurl %}{{item.permalink}}{% endcapture %}
     {% capture overviewmenuitem %}{{menuitem}}{% endcapture %}
     {% capture currentclass %}{{currentpageclass}}{% endcapture %}
