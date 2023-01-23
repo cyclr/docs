@@ -39,9 +39,12 @@ Enter the following values:
 
 Your SPS Commerce Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
-### Setup Methods
+</section>
+<section class="card">
 
-#### Get JSON Transaction
+## Additional information
+
+### Get JSON Transaction
 
 This method requires you to add your own custom response fields. This can be accomplished in the connector editor by clicking the
 "+" button under the **Response Fields** area.

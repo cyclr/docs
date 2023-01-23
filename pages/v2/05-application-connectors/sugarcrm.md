@@ -82,6 +82,11 @@ curl -X POST
 
 Same as the OAuth Redirect flow, call _/UpdateAccountConnectorOAuth_ with a one-time token. If the Domain, Username and Password are all correctly set up, your end-user will simply be redirected back to your application.
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Applying Filters To Calls
 
 The following methods support the use of additional filters to refine your request:

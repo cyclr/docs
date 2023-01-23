@@ -65,6 +65,11 @@ Click "Setup" and then enter "Client ID", "Client Secret", "Project ID", "Table 
 
 The connector is now setup.
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Allowing Other Users Access To a Dataset
 
 This section is for reference if another user is needed to access the dataset.

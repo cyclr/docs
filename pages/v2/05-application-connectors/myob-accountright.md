@@ -44,6 +44,10 @@ Your end users will now be able to install the Connector into their Cyclr Accoun
 
 For Cyclr to be able to access a user's MYOB Company File, **the default Administrator user must exist with a blank password**.  *If this isn't the case, then Cyclr won't be able to access it.*
 
+</section>
+<section class="card">
+
+## Additional information
 
 ### Selecting an MYOB Company File
 

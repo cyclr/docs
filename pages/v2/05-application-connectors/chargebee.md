@@ -42,7 +42,8 @@ Your Chargebee Connector is now setup! You can test it by installing it in one o
 
 </section>
 <section class="card">
-## User Guide
+
+## Additional information
 
 ### Configuring Custom Fields
 

@@ -18,6 +18,11 @@ When setting up the connector you will also have to enter the names of the custo
 
 ![](../images/dynamics_custom_objects_updated_1.png)
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Find the Entity Name
 
 If you don't know the names of the custom entity set or custom entity type to work with, you can install the Connector then run some of the Methods to view the entities.  You can then install a new Connector with the entity's name as it _must be provided during installation_ for the Methods to work correctly.

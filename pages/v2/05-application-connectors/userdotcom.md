@@ -52,10 +52,12 @@ To authenticate the User<span></span>.com connector you will need your applicati
 
 The connector is now authenticated and ready to use.
 
-
 </section>
 <section class="card">
-## Webhooks
+
+## Additional information
+
+### Webhooks
 
 You have the ability to configure webhooks, triggered upon the completion of specified events.
 

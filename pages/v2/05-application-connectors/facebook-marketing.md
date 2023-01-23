@@ -64,7 +64,10 @@ Official Facebook Documentation
 
 </section>
 <section class="card">
-## Create Ad Set "Promoted Object"
+
+## Additional information
+
+### Create Ad Set "Promoted Object"
 
 The "Promoted Object" is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.
 

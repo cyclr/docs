@@ -14,7 +14,10 @@ Velocify uses basic authentication so all you need to do is to provide a valid u
 
 </section>
 <section class="card">
-## Creating Leads in Velocify
+
+## Additional information
+
+### Creating Leads in Velocify
 
 In order to create leads using the Velocify connector there are a few preliminary steps to be undertaken first:
 
