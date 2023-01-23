@@ -18,16 +18,19 @@ You can export templates from one Cyclr instance and import them to another. Thi
 
 For example, you build a template on the UK instance and want to use exactly the same template on the US instance. This can now be achieved using the template export import feature.
 
-Export Template
----------------
+</section>
+<section class="card">
+
+## Export Template
 
 Template releases can be exported within your Cyclr Console. Once you select Export, the template will be exported to a JSON file for downloading. Be aware of the limitations in the popup. See screenshot below for how to find the export button in Cyclr.
 
 ![A screenshot of the template release screen with the import and export buttons highlighted.](./images/template-export.png)
 
+</section>
+<section class="card">
 
-Import Templates
-----------------
+## Import Templates
 
 A template release JSON file can be imported as a new template, or into an existing template as a new release (see screenshot above). 
 
