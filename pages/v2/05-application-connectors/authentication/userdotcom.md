@@ -3,6 +3,7 @@ title: User.com Connector Guide
 sidebar: cyclr_sidebar
 permalink: userdotcom-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

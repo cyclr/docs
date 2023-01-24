@@ -3,10 +3,10 @@ title: Trustpilot Connector Guide
 sidebar: cyclr_sidebar
 permalink: trustpilot-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 You will need a 'Business Unit ID' for most requests, without it you will receive a '403 - Forbidden' response. The recommended way of obtaining that is by using the 'Search For Business Units' method as the first step in your cycles.
 

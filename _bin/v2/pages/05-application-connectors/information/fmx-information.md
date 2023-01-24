@@ -3,10 +3,10 @@ title: FMX Information
 sidebar: cyclr_sidebar
 permalink: fmx-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Schedule Requests (Module) custom objects
 

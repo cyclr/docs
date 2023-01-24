@@ -3,10 +3,10 @@ title: BigChange JobWatch
 sidebar: cyclr_sidebar
 permalink: bigchange-jobwatch-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 
 </section>

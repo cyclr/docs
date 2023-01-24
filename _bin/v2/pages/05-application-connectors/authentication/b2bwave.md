@@ -3,6 +3,7 @@ title: B2B Wave Connector
 sidebar: cyclr_sidebar
 permalink: b2bwave-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

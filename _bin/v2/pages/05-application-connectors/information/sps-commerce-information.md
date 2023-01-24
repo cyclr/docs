@@ -3,10 +3,10 @@ title: SPS Commerce Information
 sidebar: cyclr_sidebar
 permalink: sps-commerce-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Get JSON Transaction
 

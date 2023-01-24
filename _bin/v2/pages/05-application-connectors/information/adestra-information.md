@@ -4,10 +4,10 @@ sidebar: cyclr_sidebar
 permalink: authenticate-adestra
 tags: [connector]
 
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 The Adestra system has the concept of tables some method calls require a table ID. You can call the List Core, and List Data table methods to find the ID.
 

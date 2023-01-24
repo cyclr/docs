@@ -4,10 +4,10 @@ sidebar: cyclr_sidebar
 permalink: authenticate-leadmailbox
 tags: [connector]
 
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 When the Post Leads method is called additionally you will need to provide the name of the Campaign to which the lead should be added.  You can check these values by:
 

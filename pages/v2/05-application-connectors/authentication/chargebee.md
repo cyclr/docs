@@ -3,6 +3,7 @@ title: Chargebee
 sidebar: cyclr_sidebar
 permalink: chargebee-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

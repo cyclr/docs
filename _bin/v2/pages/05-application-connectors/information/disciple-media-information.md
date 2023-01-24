@@ -3,10 +3,10 @@ title: Disciple Media Information
 sidebar: cyclr_sidebar
 permalink: disciple-media-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Using Webhooks
 

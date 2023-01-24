@@ -3,10 +3,10 @@ title: Klaviyo Information
 sidebar: cyclr_sidebar
 permalink: klaviyo-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Profile custom properties
 

@@ -3,10 +3,10 @@ title: Magento 2 Connector
 sidebar: cyclr_sidebar
 permalink: magento-2-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Bulk endpoints
 

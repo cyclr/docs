@@ -3,10 +3,10 @@ title: Snowflake Information
 sidebar: cyclr_sidebar
 permalink: snowflake-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 <a name="creating-custom-table-rows-objects"></a>
 

@@ -3,10 +3,10 @@ title: Salesforce Information
 sidebar: cyclr_sidebar
 permalink: salesforce-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Webhook Setup
 #### Add Webhook class to SalesForce account

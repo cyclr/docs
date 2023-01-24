@@ -3,6 +3,7 @@ title: Intercom Authentication
 sidebar: cyclr_sidebar
 permalink: intercom-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

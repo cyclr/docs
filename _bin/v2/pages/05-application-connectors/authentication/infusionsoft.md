@@ -3,6 +3,7 @@ title: Infusionsoft Connector Guide
 sidebar: cyclr_sidebar
 permalink: infusionsoft-connector
 tags: [Connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

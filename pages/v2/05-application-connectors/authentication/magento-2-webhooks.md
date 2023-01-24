@@ -3,6 +3,7 @@ title: Magento 2 Webhooks Connector
 sidebar: cyclr_sidebar
 permalink: magento-2-webhooks-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

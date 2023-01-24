@@ -3,6 +3,7 @@ title: FIVE CRM
 sidebar: cyclr_sidebar
 permalink: FIVECRM-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

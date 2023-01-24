@@ -3,10 +3,10 @@ title: Airtable Information
 sidebar: cyclr_sidebar
 permalink: airtable-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Airtable custom objects
 

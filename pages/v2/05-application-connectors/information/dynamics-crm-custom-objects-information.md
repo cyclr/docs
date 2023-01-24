@@ -3,10 +3,10 @@ title: Microsoft Dynamics Custom Objects
 sidebar: cyclr_sidebar
 permalink: dynamics-custom-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Find the Entity Name
 

@@ -3,10 +3,10 @@ title: Emarsys Information
 sidebar: cyclr_sidebar
 permalink: authenticate-emarsys
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional Information 
 
 <a href=#custom-fields></a>
 

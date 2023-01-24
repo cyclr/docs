@@ -3,10 +3,10 @@ title: Jira Information
 sidebar: cyclr_sidebar
 permalink: jira-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Map Issue Properties
 

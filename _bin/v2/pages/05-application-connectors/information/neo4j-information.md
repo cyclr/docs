@@ -3,10 +3,10 @@ title: Neo4j Connector Guide
 sidebar: cyclr_sidebar
 permalink: neo4j-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Using Custom Object Categories
 

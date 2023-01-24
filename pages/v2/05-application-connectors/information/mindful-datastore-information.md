@@ -4,10 +4,10 @@ sidebar: cyclr_sidebar
 permalink: mindful-datastore-information
 tags: [connector]
 
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Custom Fields
 The **Upsert Data Set** method allows you to send a `data_values` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:

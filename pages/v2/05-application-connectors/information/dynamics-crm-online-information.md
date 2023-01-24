@@ -3,10 +3,10 @@ title: Microsoft Dynamics
 sidebar: cyclr_sidebar
 permalink: dynamics-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Additional Filter Condition
 

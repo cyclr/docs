@@ -3,10 +3,10 @@ title: OneLogin Information
 sidebar: cyclr_sidebar
 permalink: onelogin-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Generate fields for the **Create App** method
 

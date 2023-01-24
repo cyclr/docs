@@ -4,10 +4,10 @@ sidebar: cyclr_sidebar
 permalink: mx-information
 tags: [connector]
 
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Creating custom Institution objects
 

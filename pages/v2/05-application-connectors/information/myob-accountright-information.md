@@ -3,10 +3,10 @@ title: MYOB AccountRight Live
 sidebar: cyclr_sidebar
 permalink: myob-accountright-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Selecting an MYOB Company File
 

@@ -3,10 +3,10 @@ title: Pipedrive Connector Guide
 sidebar: cyclr_sidebar
 permalink: pipedrive-information.html
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Pipedrive Integration Workflow Building Examples
 

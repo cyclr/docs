@@ -3,10 +3,10 @@ title: Less Annoying CRM Connector Guide
 sidebar: cyclr_sidebar
 permalink: less-annoying-crm-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 Within the three Pipeline methods (List, List New and List Updated) you have access to our lookup feature for each of the request fields.
 

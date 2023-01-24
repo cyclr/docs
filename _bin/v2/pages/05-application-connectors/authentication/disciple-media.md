@@ -3,6 +3,7 @@ title: Disciple Media Authentication
 sidebar: cyclr_sidebar
 permalink: disciple-media-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

@@ -3,6 +3,7 @@ title: Airtable Authentication
 sidebar: cyclr_sidebar
 permalink: airtable-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

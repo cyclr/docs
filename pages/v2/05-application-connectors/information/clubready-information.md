@@ -3,10 +3,10 @@ title: Club Ready Connector
 sidebar: cyclr_sidebar
 permalink: clubready-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 A list of some of the basic terms used within the ClubReady API.
 

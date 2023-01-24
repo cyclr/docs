@@ -3,6 +3,7 @@ title: TikTok for Business Authentication
 sidebar: cyclr_sidebar
 permalink: tiktok-for-business-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

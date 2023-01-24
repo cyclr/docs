@@ -3,10 +3,10 @@ title: Chargebee
 sidebar: cyclr_sidebar
 permalink: chargebee-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Configuring Custom Fields
 
@@ -46,9 +46,9 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
 4. The following needs to be specified:
 
-   - **Field Location** - These need to be named exactly the same as in ChargeBee, with the format "`API_Name`" e.g. "cf_plan_id".
+   - **Field Location** - These need to be named exactly the same as in ChargeBee, with the format "`API_Name`" e.g. “cf_plan_id”.
 
-   - **Display Name** - This is the "friendly" name as it will be shown in the user interface.
+   - **Display Name** - This is the “friendly” name as it will be shown in the user interface.
 
    - **Description** - You can optionally describe the field and provide documentation, for example how it is used.
 
@@ -98,7 +98,7 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
    - **Field Location** - Needs to be in this format "meta_data.`key`". This supports nested objects.
 
-   - **Display Name** - This is the "friendly" name as it will be shown in the user interface.
+   - **Display Name** - This is the “friendly” name as it will be shown in the user interface.
 
    - **Description** - You can optionally describe the field and provide documentation, for example how it is used.
 

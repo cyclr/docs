@@ -3,10 +3,10 @@ title: Simitive ABC-HE Information
 sidebar: cyclr_sidebar
 permalink: simitive-abc-he-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Custom Object (Period Version)
 

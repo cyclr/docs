@@ -3,6 +3,7 @@ title: Caspio Authentication
 sidebar: cyclr_sidebar
 permalink: caspio
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

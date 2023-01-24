@@ -3,6 +3,7 @@ title: Facebook Messenger Authentication
 sidebar: cyclr_sidebar
 permalink: facebook-messenger-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

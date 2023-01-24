@@ -3,10 +3,10 @@ title: Salesforce Marketing Cloud
 sidebar: cyclr_sidebar
 permalink: salesforce-marketing-cloud-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Upsert Custom Data Extension Rows
 

@@ -3,6 +3,7 @@ title: DevicePilot Authentication
 sidebar: cyclr_sidebar
 permalink: devicepilot
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

@@ -3,6 +3,7 @@ title: Simitive ABC-HE Authentication
 sidebar: cyclr_sidebar
 permalink: simitive-abc-he-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">

@@ -3,10 +3,10 @@ title: SaaShr Information
 sidebar: cyclr_sidebar
 permalink: saashr-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Custom field mapping
 In some cases, further field mapping is required on methods which accept key and value pairs in an array. This can be seen in the methods **Update Cost Center** and **Update Employee Pay Information**. To map fields, please follow these steps:

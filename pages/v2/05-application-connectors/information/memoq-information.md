@@ -3,10 +3,10 @@ title: MemoQ Information
 sidebar: cyclr_sidebar
 permalink: MemoQ-information
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Additional information
 
 ### Setting Up a Translation
 
