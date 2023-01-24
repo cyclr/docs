@@ -34,9 +34,12 @@ The Connector now can be installed using the credentials obtained in the above s
 
 **API Key**: _Vincere API Key_
 
+</section>
+<section class="card">
 
-Using Custom Fields
--------------------
+## Additional information
+
+### Using Custom Fields
 
 When using custom fields, the mapping of the Field Location will vary based on the custom field's "type".
 

@@ -26,9 +26,7 @@ Once you have your Client ID and Secret, you will be able to use these details t
 
 </section>
 <section class="card">
-## FAQ
-
-### Apache Tomcat Error
+## Apache Tomcat Error
 
 After you are redirected to Bullhorn during the authentication process, sometimes Bullhorn displays an Apache Tomcat error like this:
 
@@ -39,7 +37,8 @@ This is a known issue with Bullhorn. The solution is to clear the Bullhorn cooki
 
 </section>
 <section class="card">
-## User Guide
+
+## Additional information
 
 ### Retrieving Custom Objects
 

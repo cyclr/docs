@@ -30,8 +30,11 @@ The Connector can be installed using the credentials obtained in the above steps
 
 **Chain ID**: `your_chain_key`
 
-Basic Terms
----------------
+</section>
+<section class="card">
+
+## Additional information
+
 A list of some of the basic terms used within the ClubReady API.
 
 * **Chain/Corp** - A corporate entity that typically will have more than one Store/Club in ClubReady.

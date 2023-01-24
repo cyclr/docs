@@ -33,10 +33,10 @@ The connector is now authenticated and ready to use.
 
 > It may be the case that you require access to multiple Apps within one Podio account. Our tests have shown that authenticating the connector with one Client ID and Client Secret should give full functionality to the connector across all methods.
 
-
 </section>
 <section class="card">
-## User Guide
+
+## Additional information
 
 ### Obtaining the App ID
 

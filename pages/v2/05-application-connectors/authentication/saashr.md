@@ -54,12 +54,9 @@ You will be asked for the following values when installing the SaaShr connector 
 
 </section>
 <section class="card">
-## Further information
+## Additional information
 
-
-</section>
-<section class="card">
-## Custom field mapping
+### Custom field mapping
 In some cases, further field mapping is required on methods which accept key and value pairs in an array. This can be seen in the methods **Update Cost Center** and **Update Employee Pay Information**. To map fields, please follow these steps:
 
 1. Go to the **Edit Connector** page for the SaaShr connector.

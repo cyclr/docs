@@ -8,7 +8,7 @@ tags: [connector]
 <section class="card">
 ## Partner Setup
 
-#### Retrieving client ID and secret
+### Retrieving client ID and secret
 *   Login to your Listrak front-end, and navigate to the **Integrations Page** by clicking **Manage** -> **Integrations**.
 *   Create a new integration. The integration type should be set to **Email**.
 *   Set the scope as **Contact** and **List** if you want to use all the methods in the connector. 

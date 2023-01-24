@@ -99,11 +99,18 @@ Enter the following values:
 
 Your Salesforce Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+### Expired access/refresh token errors
+
+Salesforce only allows up to five unique access/refresh token pairs to be issued for each user in a Connected App. Older tokens will be automatically revoked by Salesforce.  [More information](https://help.salesforce.com/articleView?id=remoteaccess_request_manage.htm).
+
 
 </section>
 <section class="card">
-## Webhook Setup
-### Add Webhook class to SalesForce account
+
+## Additional information
+
+### Webhook Setup
+#### Add Webhook class to SalesForce account
 * Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
 * Navigate to the left panel, scroll down and click **Custom Code**, then click **Apex Classes**
 * Create a new **Apex Class** by clicking **New**
@@ -159,7 +166,7 @@ Your Salesforce Connector is now setup! You can test it by installing it in one 
 
 }
 ```
-###  Add Service Domain
+####  Add Service Domain
 * Go to your Cyclr console, click **Setings** and **General Settings**
 * Copy your **Service Domain**  
 * Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
@@ -168,11 +175,7 @@ Your Salesforce Connector is now setup! You can test it by installing it in one 
 
 Now your account is set and ready to use webhooks in your account.
 
-
-
-</section>
-<section class="card">
-## Enduser Salesforce Account Setup
+### Enduser Salesforce Account Setup
 
 For the best experience when using the Salesforce Connector, and to reduce the frequency at which Cyclr must obtain a new Access Token and avoid some connection issues, ensure the following Session Settings have been set:
 
@@ -184,17 +187,6 @@ Under **Session Timeout**
 
 Under **Session Settings**
 *  Lock sessions to the IP address from which they originated: disable this.
-
-
-
-
-</section>
-<section class="card">
-## FAQ
-
-### Expired access/refresh token errors
-
-Salesforce only allows up to five unique access/refresh token pairs to be issued for each user in a Connected App. Older tokens will be automatically revoked by Salesforce.  [More information](https://help.salesforce.com/articleView?id=remoteaccess_request_manage.htm).
 
 ### Disabling Assignment Rules
 

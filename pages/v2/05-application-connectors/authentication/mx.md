@@ -41,11 +41,7 @@ Your MX connector is now set up! You can test it by installing it to one of your
 <section class="card">
 ## Additional information
 
-
-
-</section>
-<section class="card">
-## Creating custom Institution objects
+### Creating custom Institution objects
 
 Once the connector is authenticated, you can create custom `Institution` objects. This will automatically populate request and response fields for methods within the custom object. To create a custom object:
 

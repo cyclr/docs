@@ -26,10 +26,12 @@ When the connector is setup on an account you will need to provide:
 * **API Key**: See above steps on where this can be found.
 
 
-
 </section>
 <section class="card">
-## Webhooks
+
+## Additional information
+
+### Webhooks
 
 If you wish to set up a **Ticket Closed** webhook step, you will first need to add it to your cycle.
 

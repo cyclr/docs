@@ -6,8 +6,8 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-B2B Wave Setup
----------------
+## B2B Wave Setup
+
 In order to authenticate the connector, you will need your App Code and API Token.
 
 **How to find your App Code and API Token**
@@ -20,16 +20,22 @@ In order to authenticate the connector, you will need your App Code and API Toke
 * Your App Code and API Token should be listed.  Make a note of these.
   ![](./images/b2bwave-unpw.png)
 
-Connector Setup
----------------
+</section>
+<section class="card">
+
+## Connector Setup
+
 The Connector can be installed using the credentials obtained in the above steps:
 
 **Username**: `Your App Code`
 
 **Password**: `Your API Token`
 
-Methods
----------------
+</section>
+<section class="card">
+
+## Additional information
+
 A list of the methods available within the B2B Wave Connector.
 
 * **Customers**

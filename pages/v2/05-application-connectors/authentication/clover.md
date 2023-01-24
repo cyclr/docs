@@ -32,12 +32,16 @@ If you don't need to use webhooks, login to your Cyclr Console and in the top me
 *   Click the sign in button
 *   If required in the popup, install the application, then close the popup and the sign in button again.
 
-#### Webhooks
+</section>
+<section class="card">
+
+## Additional information
+
+### Webhooks
 
 Clover only supports sending webhooks to one webhook step per Clover application. To use webhooks with Cyclr you will need to create a separate Application in [clover.com/developers](https://www.clover.com/developers/) for each connector install.
 
-Setup Webhook
--------------
+## Setup Webhook
 
 1.  Add the Clover Event Webhook step to the cycle
 2.  Run the cycle

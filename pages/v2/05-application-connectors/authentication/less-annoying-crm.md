@@ -32,7 +32,10 @@ To summarize:
 
 The connector is now authenticated and ready to use.
 
-### User Guide
+</section>
+<section class="card">
+
+## Additional information
 
 Within the three Pipeline methods (List, List New and List Updated) you have access to our lookup feature for each of the request fields.
 

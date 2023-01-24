@@ -74,8 +74,10 @@ curl -X POST
 
 After successfully creating the Account Connector Property, you can get a one-time sign-in token and call _/UpdateAccountConnectorOAuth_ to complete the user challenge.
 
-FAQ
----
+</section>
+<section class="card">
+
+## Errors
 
 ### Error: AADSTS500011
 
@@ -91,6 +93,11 @@ Follow the below step if you are getting the error *AADSTS65001: The user or adm
 
 1.  In your _customer's_ Microsoft Azure portal, go to Azure Active Directory -> App registrations -> Your App name -> API permissions
 2.  Click the "Grant admin consent for ..." button to allow the app to be installed into their directory.  If the button is greyed out, the user you are logged in as doesn't have the appropriate permission - you may require an administrator to do this.
+
+</section>
+<section class="card">
+
+## Additional information
 
 ### Additional Filter Condition
 

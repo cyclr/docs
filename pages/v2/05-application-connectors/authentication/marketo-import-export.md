@@ -37,7 +37,10 @@ Your Marketo Connector is now setup! You can test it by installing it in one of 
 
 </section>
 <section class="card">
-## Bulk Import/Export
+
+## Additional information
+
+### Bulk Import/Export
 
 The ability to import and export CSV, TSV or SSV files is supported with methods from the **Bulk Imports** and **Bulk Exports** categories.
 

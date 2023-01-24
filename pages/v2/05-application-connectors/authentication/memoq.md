@@ -32,9 +32,14 @@ Enter the following values:
 
 Your MemoQ Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
+</section>
+<section class="card">
+
+## Additional information
+
 ### Setting Up a Translation
 
-in order to set up a translation, the best workflow to follow within cyclr would be as follows.
+In order to set up a translation, the best workflow to follow within cyclr would be as follows.
 
 (./images/MemoQ1.png)
 

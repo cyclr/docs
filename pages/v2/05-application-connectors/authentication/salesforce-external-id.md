@@ -56,7 +56,10 @@ Setting up the method will be a slightly different process depending upon whethe
 
 </section>
 <section class="card">
-## Using the Upsert Methods
+
+## Additional information
+
+### Using the Upsert Methods
  
 Once you have setup your External ID field you are ready to use the corresponding Upsert method.
 
