@@ -12,10 +12,3 @@ If you are using a **demo** account with Idio, enter **demo** when prompted duri
 
 
 </section>
-<section class="card">
-
-## Additional information
-
-You will need to provide a **Delivery Key** for each call you make.
-
-</section>

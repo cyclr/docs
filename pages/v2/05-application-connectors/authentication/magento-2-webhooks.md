@@ -36,29 +36,3 @@ Now that you have your Access token go to the `Connector Setup` page in Cyclr.
 3. Your connector is now setup and ready to go!
 
 </section>
-<section class="card">
-
-## Additional information
-
-> **Note**: Depending on your firewall settings you may need to manually enable DELETE commands.
-
-### Available Webhooks
-
-* Customer
-    * New Customer
-    * Customer Updated
-    * Customer Deleted
-* Product
-    * New Product
-    * Product Updated
-    * Product Deleted
-* Order
-    * New Order
-    * Order Updated
-* Subscriber
-    * Subscriber Saved
-
-
-
-
-</section>

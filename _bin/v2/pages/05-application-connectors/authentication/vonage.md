@@ -68,13 +68,3 @@ The connector is now configured to interact with your Vonage application.
 
 
 </section>
-<section class="card">
-## User Guide
-
-When retrieving the information associated with a phone number, using the 'Get Number Details' method, you have the option to retrieve the contact name associated with that phone number. To do this set the **Cnam** query parameter to **true**.
-
-> Note: The Cnam functionality is only applicable to US phone numbers.
-
-![vonage dashboard](./images/vonage_dashboard_8.png)
-
-</section>

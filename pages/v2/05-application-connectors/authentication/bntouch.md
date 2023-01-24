@@ -19,14 +19,3 @@ If you require any further assistance obtaining these credentials please contact
 - +1 888 971 1117
 
 </section>
-<section class="card">
-
-## Additional information
-
-### Creating a Lead
-
-When creating a Lead you are required to enter the ID of the schema you will be using. This again should be provided by your BNTouch account manager. The schema specifies how the data will be posted to the BNTouch API.
-
-Although all request fields are marked as optional, at least one field must be populated for the request to succeed. Upon successful submission of a Lead you will receive a status of 'ACCEPTED'.
-
-</section>

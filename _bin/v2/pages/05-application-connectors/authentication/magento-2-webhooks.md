@@ -35,25 +35,4 @@ Now that you have your Access token go to the `Connector Setup` page in Cyclr.
 2. Paste your `Access Token` into the `API Key` field and click `Next`.  (Be sure to enter your **Access Token** and not your **Consumer Key**).
 3. Your connector is now setup and ready to go!
 
-> Depending on your firewall settings you may need to manually enable DELETE commands.
-
-### Available Webhooks
-
-* Customer
-    * New Customer
-    * Customer Updated
-    * Customer Deleted
-* Product
-    * New Product
-    * Product Updated
-    * Product Deleted
-* Order
-    * New Order
-    * Order Updated
-* Subscriber
-    * Subscriber Saved
-
-
-
-
 </section>

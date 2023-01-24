@@ -20,10 +20,3 @@ The account, username and password will be required to authenticate the connecto
 *Password:* password of the API user
 
 </section>
-<section class="card">
-## Notes
-The Adestra system has the concept of tables some method calls require a table ID. You can call the List Core, and List Data table methods to find the ID.
-
-The contact methods have the default ID and Email specified; you can add custom fields as specified on the method for the required table. The table definition can be downloaded from the Adestra portal or via the connector table methods.
-
-</section>

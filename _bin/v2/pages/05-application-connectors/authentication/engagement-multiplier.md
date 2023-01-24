@@ -54,9 +54,5 @@ The Engagement Multiplier connector is authenticated with OAuth2.0, as a result 
 Upon successful authorization you will be redirected to Cyclr. The connector is now authenticated and ready to use.
 
 
-</section>
-<section class="card">
-## User Guide
-
-If you are unable to locate your Company ID, you can use the method 'Get Authenticated User'. It will retrieve among other things, the Company ID for the currently authenticated user.
+> **Note**: If you are unable to locate your Company ID, you can use the method 'Get Authenticated User'. It will retrieve among other things, the Company ID for the currently authenticated user.
 </section>
