@@ -20,7 +20,7 @@ We have created our Contact Form 7 plugin to allow for easy integration with any
 
 If you have completed the prerequisites:
 
-*   [Download our Contact Form 7 plugin](http://files.cyclr.com/cyclr-plugins/cyclr-webhooks.zip)
+*   [Download our Contact Form 7 plugin](https://files.cyclr.com/cyclr-plugins/cyclr-webhooks.zip)
 *   In WordPress, click Plugins and then Add New
 *   On the Add Plugins page, click Upload Plugin
 *   Locate the zip file for the plugin on your computer and upload it
