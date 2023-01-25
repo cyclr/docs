@@ -10,10 +10,10 @@ layout: default
 {% else %}
 {% if page.permalink contains '-information' %}
 {% capture connectorpagelink %}{{page.permalink | replace: "-information", "-connector"}}{% endcapture %}
-{% capture connectorpagelinktext %}Authentiction guide{% endcapture %}
+{% capture connectorpagelinktext %}{{site.data.strings.pagelink_auth}}{% endcapture %}
 {% else %}
 {% capture connectorpagelink %}{{page.permalink | replace: "-connector", "-information"}}{% endcapture %}
-{% capture connectorpagelinktext %}Additional information{% endcapture %}
+{% capture connectorpagelinktext %}{{site.data.strings.pagelink_info}}{% endcapture %}
 {% endif %}
 {% endif %}
 {% if page.linkedpage == true %}

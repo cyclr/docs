@@ -6,13 +6,15 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Bulk Import/Export
+<section class="card">
+## Bulk Import/Export
 
 The ability to import and export CSV, TSV or SSV files is supported with methods from the **Bulk Imports** and **Bulk Exports** categories.
 
-### Import
+</section>
+<section class="card">
+## Import
 
 To import data as a CSV or TSV file you will first need to add custom fields for the column headers that are to be created to the method **Create Import Job**.
 
@@ -28,7 +30,9 @@ Your custom request fields should be created as:
 
 The request fields are now configured and ready to be mapped.
 
-### Export
+</section>
+<section class="card">
+## Export
 
 > Note: The following example shows the process for an export of type "leads". The process for activities is identical but with export type changed to "activities".
 

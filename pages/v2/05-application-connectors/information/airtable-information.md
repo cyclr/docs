@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Airtable custom objects
+## Airtable custom objects
 
 The Airtable connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:
 
@@ -17,7 +16,7 @@ The Airtable connector uses Cyclr custom objects to make methods dynamic based o
 
 > **Note**: The BaseID and table name can be different for each client account.
 
-#### Set up a custom object
+### Set up a custom object
 
 If you set up a custom object, you create a new method category with the parameters you enter. To set up a custom object:
 

@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Map Issue Properties
+## Map Issue Properties
 
 You need to add a custom field location to map an issue property field in a cycle. Do this in the following order:
 
@@ -17,7 +16,7 @@ You need to add a custom field location to map an issue property field in a cycl
 
 <a link="map-update-issue-property">
 
-#### Map Update Issue Property
+### Map Update Issue Property
 
 To add a custom request field location for the **Issues** > **Issue Properties** > **Update Issue Property** method:
 
@@ -35,7 +34,7 @@ To add a custom request field location for the **Issues** > **Issue Properties**
 
 <a link="map-get-issue-properties">
 
-#### Map Get Issue Properties
+### Map Get Issue Properties
 
 To add a custom response field location for the `Issues > Issue Properties > Get Issue Properties` method:
 

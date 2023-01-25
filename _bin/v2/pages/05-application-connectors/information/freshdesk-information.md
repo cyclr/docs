@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Webhooks
+## Webhooks
 
 If you wish to set up a **Ticket Closed** webhook step, you will first need to add it to your cycle.
 

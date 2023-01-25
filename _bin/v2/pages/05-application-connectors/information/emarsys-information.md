@@ -1,7 +1,7 @@
 ---
 title: Emarsys Information
 sidebar: cyclr_sidebar
-permalink: authenticate-emarsys
+permalink: authenticate-emarsys-information
 tags: [connector]
 linkedpage: true
 ---
@@ -10,13 +10,15 @@ linkedpage: true
 
 <a href=#custom-fields></a>
 
-### Custom Fields
+</section>
+<section class="card">
+## Custom Fields
 
 In the Emarsys connector, some methods use custom fields that you need to map manually:
 
-####  Contacts > Get Contact Data
+###  Contacts > Get Contact Data
 
-####  Contact Lists > List Contact Data In A Contact List
+###  Contact Lists > List Contact Data In A Contact List
 
 When you enter the **Fields** request parameter, the method responds with equivalent response fields. You need to map these fields manually. 
 
@@ -35,7 +37,7 @@ From the **Edit Connector** page of the Emarsys connector:
 
 4. Select **Create**.
 
-#### External Content > Request External Content For Personalisation
+### External Content > Request External Content For Personalisation
 
 This method allows you to use an external API to personalize content in messages. You need to map custom parameters and response fields.
 

@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Setting select and multiselect Fields
+## Setting select and multiselect Fields
 
 When setting `select` and `multiselect` fields in a create or update method, you can either provide its `internalid` (actual value in NetSuite) or `name` (UI display text in NetSuite).
 
@@ -48,7 +47,9 @@ Examples:
 
 If both `internalid` and `name` are provided, only the `internalid` will be used in the RESTlet.
 
-### Filtering Objects 
+</section>
+<section class="card">
+## Filtering Objects 
 
 The "List" methods, which return multiple items when run, can be filtered to match specified criteria using the following Fields:
 
@@ -56,7 +57,7 @@ The "List" methods, which return multiple items when run, can be filtered to mat
 - `Operator` \*required: is the operation you wish to run against the field e.g. "is", "greaterthan", "contains". See the table below for an extensive list of operators and field types against which they can be used.
 - `Value` \*optional: is the value against which the fields will be compared using the Operator value.
 
-#### Multiple Filter Conditions
+### Multiple Filter Conditions
 
 Sometimes you may need to use more than one filter condition.  To do this you'll need to use some Script in the NetSuite Step to add them in.  In the Builder, click the `Step Setup` button on the NetSuite Step, then choose `Advanced Settings` and enter Script similar to this:
 
@@ -88,7 +89,7 @@ You can add any number of filter conditions using Script as you require.  Just b
 
 *NOTE:* In the "List" methods you can opt to skip the filters in the connector parameters and simply define all of your filters in script. To do this you will need to start the script parameters from "..._1" e.g. `method_request_parameters.filter_field_1`. However, the "Get New/Updated" methods' script parameters must always be set from "..._2", as the first set are already defined by the step itself.
 
-#### Operators and Valid Field Types
+### Operators and Valid Field Types
 
 |Search Operator|List/Record|Currency, Decimal Number, Time of Day|Date|Check Box|Document, Image|Email Address, Free-Form Text, Long Text, Password, Percent, Phone Number, Rich Text, Text Area,|Multi Select|
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -131,7 +132,9 @@ You can add any number of filter conditions using Script as you require.  Just b
 |startswith||||||X||
 |within|||X|||||
 
-### NetSuite Saved Search to return 1000+ records
+</section>
+<section class="card">
+## NetSuite Saved Search to return 1000+ records
 
 To retrieve more than 1,000 records, you will need to create a **Saved Search** in NetSuite, and then use the appropriate **Run (object) Saved Search** Method in the NetSuite Connector for the type of data you're returning, e.g. **Run Contact Saved Search**.
 

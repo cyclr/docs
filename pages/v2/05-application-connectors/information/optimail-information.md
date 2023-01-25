@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Retrieving Campaign IDs
+## Retrieving Campaign IDs
 
 The methods under `Subscriptions` require a Campaign ID, there is no way to retrieve these via the API. the Campaign ID is obtained via the Optimail portal. 
 

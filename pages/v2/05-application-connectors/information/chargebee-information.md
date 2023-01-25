@@ -7,12 +7,13 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Configuring Custom Fields
+## Configuring Custom Fields
 
 To setup custom fields within Chargebee use the steps below, you can find the official Chargebee documentation [here](https://www.chargebee.com/docs/2.0/custom_fields.html).
 
-### Setup your Custom Fields within Chargebee:
+</section>
+<section class="card">
+## Setup your Custom Fields within Chargebee:
 
 1. Go to your **Chargebee Site**
 2. Click **Settings** in the left side menu
@@ -25,14 +26,18 @@ To setup custom fields within Chargebee use the steps below, you can find the of
 
 The custom fields are considered 'active', and will now be available only on the test site. You need to publish the fields to your live site to include custom field information in the invoices that you send to your customers, or in the hosted pages viewed by them. Ensure that you check how the fields work for all your use cases before pushing it to your live site.
 
-### Publish Custom Field to Live Site within Chargebee:
+</section>
+<section class="card">
+## Publish Custom Field to Live Site within Chargebee:
 
 1. In the **Custom Fields main page**, click Publish to Live and confirm changes.
 2. The custom fields will now be available on your **LIVE** site.
 
 If you're using In-app Checkout, navigate to **Settings > Configure Chargebee > Custom Fields** to make further changes in the **LIVE** site.
 
-### Manually Adding Custom Fields within Cyclr:
+</section>
+<section class="card">
+## Manually Adding Custom Fields within Cyclr:
 
 To setup custom fields within Cyclr use the steps below, you can find the official Cyclr documentation [here](https://docs.cyclr.com/adding-custom-fields#example-field-locations).
 
@@ -78,11 +83,13 @@ Make sure to add these fields to all required methods e.g GET & UPDATE.
 
 Your Custom fields are now setup!
 
-### Configuring Meta Data
+</section>
+<section class="card">
+## Configuring Meta Data
 
 For more information on Meta Data, you can find the official Chargebee documentation [here](https://www.chargebee.com/docs/2.0/metadata.html).
 
-#### Manually Adding Meta Data Custom Fields within Cyclr:
+### Manually Adding Meta Data Custom Fields within Cyclr:
 
 To setup Meta Data custom fields within Cyclr use the steps below, you can find the official Cyclr documentation [here](https://docs.cyclr.com/adding-custom-fields#example-field-locations).
 

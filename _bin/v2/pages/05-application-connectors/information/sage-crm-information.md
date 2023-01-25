@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Custom Entity category
+## Custom Entity category
 
 You can create custom object categories that allow you to access custom object data. To do this:
 

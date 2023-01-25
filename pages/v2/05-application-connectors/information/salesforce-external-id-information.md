@@ -1,14 +1,13 @@
 ---
 title: Salesforce Upsert Setup
 sidebar: cyclr_sidebar
-permalink: salesforce-upsert-setup
+permalink: salesforce-upsert-setup-information
 tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Using the Upsert Methods
+## Using the Upsert Methods
  
 Once you have setup your External ID field you are ready to use the corresponding Upsert method.
 

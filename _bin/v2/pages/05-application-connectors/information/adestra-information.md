@@ -1,7 +1,7 @@
 ---
 title: Upland Adestra Information
 sidebar: cyclr_sidebar
-permalink: authenticate-adestra
+permalink: authenticate-adestra-information
 tags: [connector]
 
 linkedpage: true

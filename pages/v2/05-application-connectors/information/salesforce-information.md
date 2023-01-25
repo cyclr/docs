@@ -7,9 +7,8 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Webhook Setup
-#### Add Webhook class to SalesForce account
+## Webhook Setup
+### Add Webhook class to SalesForce account
 * Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
 * Navigate to the left panel, scroll down and click **Custom Code**, then click **Apex Classes**
 * Create a new **Apex Class** by clicking **New**
@@ -65,7 +64,7 @@ linkedpage: true
 
 }
 ```
-####  Add Service Domain
+###  Add Service Domain
 * Go to your Cyclr console, click **Setings** and **General Settings**
 * Copy your **Service Domain**  
 * Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
@@ -74,7 +73,9 @@ linkedpage: true
 
 Now your account is set and ready to use webhooks in your account.
 
-### Enduser Salesforce Account Setup
+</section>
+<section class="card">
+## Enduser Salesforce Account Setup
 
 For the best experience when using the Salesforce Connector, and to reduce the frequency at which Cyclr must obtain a new Access Token and avoid some connection issues, ensure the following Session Settings have been set:
 
@@ -87,7 +88,9 @@ Under **Session Timeout**
 Under **Session Settings**
 *  Lock sessions to the IP address from which they originated: disable this.
 
-### Disabling Assignment Rules
+</section>
+<section class="card">
+## Disabling Assignment Rules
 
 When creating Accounts, Cases, or Leads in Salesforce, it may be desirable to prevent Salesforce's "active assignment rules" from being applied.  This very much depends on what assignment rules have been setup within Salesforce so will depend on the enduser's requirements.
 
@@ -103,7 +106,9 @@ function before_action() {
 ```
 [More information](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/headers_autoassign.htm)
 
-### Working with CSV documents
+</section>
+<section class="card">
+## Working with CSV documents
 
 To retrieve the contents of a CSV document, you will need to take the following steps:
 

@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Upsert Custom Data Extension Rows
+## Upsert Custom Data Extension Rows
 
 The Salesforce Marketing Cloud connector gives you have the ability to Upsert (create or update) a batch of data extension rows.
 

@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Obtaining the App ID
+## Obtaining the App ID
 
 The connector includes a method 'List Apps' which you can use to find the ID of the App you wish to interact with. If the App in question is not listed, you can find the ID manually in the following way:
 
@@ -20,7 +19,9 @@ The connector includes a method 'List Apps' which you can use to find the ID of 
 
 4. 'App ID for (App Name)' will be listed on the next page
 
-### Rate-Limits
+</section>
+<section class="card">
+## Rate-Limits
 
 For most of the actions included in this connector Podio imposes a rate limit of 250 calls per hour. As a result calls (including each page request) are staggered at 15 second intervals.
 

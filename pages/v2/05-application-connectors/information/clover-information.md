@@ -7,11 +7,12 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Webhooks
+## Webhooks
 
 Clover only supports sending webhooks to one webhook step per Clover application. To use webhooks with Cyclr you will need to create a separate Application in [clover.com/developers](https://www.clover.com/developers/) for each connector install.
 
+</section>
+<section class="card">
 ## Setup Webhook
 
 1.  Add the Clover Event Webhook step to the cycle

@@ -8,8 +8,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Creating custom Institution objects
+## Creating custom Institution objects
 
 Once the connector is authenticated, you can create custom `Institution` objects. This will automatically populate request and response fields for methods within the custom object. To create a custom object:
 

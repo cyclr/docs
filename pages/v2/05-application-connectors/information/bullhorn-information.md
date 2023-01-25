@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Retrieving Custom Objects
+<section class="card">
+## Retrieving Custom Objects
 
 > Note: This currently only applies to the Job Order methods
 

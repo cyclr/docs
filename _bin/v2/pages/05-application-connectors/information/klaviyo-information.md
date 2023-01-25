@@ -7,12 +7,11 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Profile custom properties
+## Profile custom properties
 
 Each Klaviyo profile can have custom properties associated with it. Within Cyclr, you can add additional method fields to create, update, or map custom properties. If you update a custom property that doesn't exist, it creates that property.
 
-#### Add Create Profile custom properties
+### Add Create Profile custom properties
 
 1. Go to the **Edit Connector** page.
 2. Under the **Methods & Fields** heading, go to **Profiles > Create Profile**.
@@ -28,7 +27,7 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
 
 5. Select **Create**.
 
-#### Add Update Profile custom properties
+### Add Update Profile custom properties
 
 1. Go to the **Edit Connector** page.
 2. Under the **Methods & Fields** heading, go to **Profiles > Update Profile**.
@@ -44,7 +43,7 @@ Each Klaviyo profile can have custom properties associated with it. Within Cyclr
 
 5. Select **Create**.
 
-#### Map Get Profile custom properties
+### Map Get Profile custom properties
 
 1. Go to the **Edit Connector** page.
 2. Under the **Methods & Fields** heading, go to **Profiles > Get Profile**.

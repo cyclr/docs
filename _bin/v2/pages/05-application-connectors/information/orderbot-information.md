@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Mapping custom fields
+## Mapping custom fields
 
 Methods in the `Products > Custom Fields` category dynamically return custom field data dependant on how custom fields are set up in the Orderbot UI. To map these fields within Cyclr:
 

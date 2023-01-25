@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Using Custom Fields
+<section class="card">
+## Using Custom Fields
 
 When using custom fields, the mapping of the Field Location will vary based on the custom field's "type".
 

@@ -7,12 +7,11 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Custom Object (Period Version)
+## Custom Object (Period Version)
 
 Use custom objects to set the Simitive ABC-HE period version per group of methods. Multiple custom objects allow multiple period versions to be set per connector installation.
 
-#### Set up a custom object
+### Set up a custom object
 
 This will create a new method category. Inside this category, all methods will have the same period version. To set up a custom object:
 
@@ -24,7 +23,7 @@ This will create a new method category. Inside this category, all methods will h
 4. Enter the period version into **Specify object name**.
 5. Select **Copy**.
 
-#### Rename a custom object
+### Rename a custom object
 
 To change the display name of a custom object method category:
 

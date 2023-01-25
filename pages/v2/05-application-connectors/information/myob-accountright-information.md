@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Selecting an MYOB Company File
+## Selecting an MYOB Company File
 
 Once the Connector has been installed, the Company File is selected through a Step's Setup popup in the Cycle Builder.
 

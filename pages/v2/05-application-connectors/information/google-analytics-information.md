@@ -1,18 +1,17 @@
 ---
 title: Google Analytics Connector User Guide
 sidebar: cyclr_sidebar
-permalink: google-analytics-information-user-guide
+permalink: google-analytics-information-user-guide-information
 tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### List Metrics Method
+## List Metrics Method
 
 This method uses [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/), which is a tool that lets you interact with the [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), by building queries to get data from your Google Analytics views (profiles). You can use these queries in any of the client libraries to build your own tools.
 
-#### Request Fields Setup
+### Request Fields Setup
 
 There are four required fields:
 
@@ -31,12 +30,16 @@ Then select the desired Profile ID.
 - Metrics: A list of comma-separated metrics, ie. users,sessions. For a comprehensive list of Metrics option go to [UA Dimensions & Metrics Explorer](https://ga-dev-tools.web.app/dimensions-metrics-explorer/)
 
 
-### Custom Method Setup
+</section>
+<section class="card">
+## Custom Method Setup
 
 [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) is a tool to produce custom reports, because of this, a method that would fit every type of report would not be feasible to implement. With each method in a connector you have the option of adding custom fields. Please follow the instructions in our guide [Adding Custom Fields](https://docs.cyclr.com/adding-custom-fields) to implement this functionality.
 
 
-### Producing a [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) Report
+</section>
+<section class="card">
+## Producing a [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) Report
 
 The fields we are focusing on this section are "Metrics" and "Dimensions". For every "Metrics" and "Dimensions" field we use in our report, a custom field must be added to the method with the format: [rows].fieldName, ie. [rows].users (add the field name without "ga:").
 

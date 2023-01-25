@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Custom Fields
+## Custom Fields
 
 Student and Parent objects support the use of custom fields.
 

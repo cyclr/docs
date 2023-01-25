@@ -7,15 +7,16 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Use the Search Contacts method
+## Use the Search Contacts method
 
 There are two processes for sending a search request in the Search Contacts method:
 
 *  Basic search: This allows you to use an operator to search for values within a single field. 
 *  Multiple filters: This allows you to use multiple operators to search for values in multiple fields.
 
-### Basic search
+</section>
+<section class="card">
+## Basic search
 
 Use the first three fields to send a basic search:
 
@@ -25,7 +26,9 @@ Use the first three fields to send a basic search:
 
 > **Note**: You can search for multiple values in a comma separated list if you use an 'IN' or 'NIN' operator.
 
-### Multiple filters
+</section>
+<section class="card">
+## Multiple filters
 
 You can use multiple filters for a search:
 
@@ -35,7 +38,7 @@ You can use multiple filters for a search:
 4.  Enter the field(s) in the **Multiple Filters Field** field.
 5.  Enter the value(s) in the **Multiple Filters Value** field.
 
-#### Search for a single value
+### Search for a single value
 
 To use multiple operators or multiple fields to search for a single value, repeat the value in the **Multiple Filters Value** field to match the number of filters.
 
@@ -68,7 +71,7 @@ The above fields produce the following request:
     }
 }
 ```
-#### Search for multiple values
+### Search for multiple values
 
 To search for multiple values with multiple operators or multiple fields, specify the operator or field for each value in a comma separated list. 
 

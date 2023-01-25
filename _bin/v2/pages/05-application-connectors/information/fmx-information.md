@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Schedule Requests (Module) custom objects
+<section class="card">
+## Schedule Requests (Module) custom objects
 
 Cyclr uses custom objects to dynamically create **Schedule Requests** method categories based on an FMX module. To create a `Schedule Requests (Module)` custom object:
 
@@ -18,7 +18,7 @@ Cyclr uses custom objects to dynamically create **Schedule Requests** method cat
 
 <a name="get-schedule-request-module"></a>
 
-#### Get Schedule Request module
+### Get Schedule Request module
 
 To find the **Schedule Request** module name, from your FMX dashboard:
 
@@ -28,7 +28,7 @@ To find the **Schedule Request** module name, from your FMX dashboard:
 
 <a name="create-schedule-requests-module-custom-object"></a>
 
-#### Create the Schedule Requests (Module) custom object
+### Create the Schedule Requests (Module) custom object
 
 To create a **Schedule Request (Module)** custom object, from the FMX connector **Settings** page in Cyclr:
 
@@ -37,7 +37,9 @@ To create a **Schedule Request (Module)** custom object, from the FMX connector 
 3. In the **Specify object name** field, enter the **Schedule Request** module name.
 4. Select **Copy**.
 
-### Work Requests (Custom Object) custom objects
+</section>
+<section class="card">
+## Work Requests (Custom Object) custom objects
 
 Cyclr uses custom objects to dynamically create **Work Request** method categories based on an FMX module and a **Work Request** type ID. To create a `Work Request (Custom Object)` custom object:
 
@@ -48,7 +50,7 @@ Cyclr uses custom objects to dynamically create **Work Request** method categori
 
 <a name="get-work-request-module-custom-object"></a>
 
-#### Get the Work Request module
+### Get the Work Request module
 
 To find the **Work Request** module name, from your FMX dashboard:
 
@@ -58,7 +60,7 @@ To find the **Work Request** module name, from your FMX dashboard:
 
 <a name="get-work-request-type-id-custom-object"></a>
 
-#### Get the Work Request Type ID
+### Get the Work Request Type ID
 
 To find the **Work Request Type ID**, from the FMX connector **Settings** page in Cyclr:
 
@@ -70,7 +72,7 @@ To find the **Work Request Type ID**, from the FMX connector **Settings** page i
 
 <a name="create-work-requests-custom-object-custom-object"></a>
 
-#### Create the Work Requests (Custom Object) custom object
+### Create the Work Requests (Custom Object) custom object
 
 To create the `Work Requests (Custom Object)` custom object, from the FMX connector settings page in Cyclr:
 
@@ -79,7 +81,9 @@ To create the `Work Requests (Custom Object)` custom object, from the FMX connec
 3. In the **Specify object name** field, enter `{ModuleName}.{WorkRequestTypeId}`. For example, for the `maintenance` module with **Work Request Type ID** `363065`, enter `maintenance.363065`.
 4. Select **Copy**.
 
-### Work Requests (Module) custom object
+</section>
+<section class="card">
+## Work Requests (Module) custom object
 
 Cyclr uses custom objects to dynamically create **Work Request** method categories based on an FMX Module. To create a `Work Requests (Module)` custom object you need a Work Request Module.
 
@@ -89,7 +93,7 @@ Cyclr uses custom objects to dynamically create **Work Request** method categori
 
 <a name="get-work-request-module-module"></a>
 
-#### Get Work Request module
+### Get Work Request module
 
 To find a **Work Request** module, from your FMX dashboard:
 
@@ -99,7 +103,7 @@ To find a **Work Request** module, from your FMX dashboard:
 
 <a name="create-work-requests-module-custom-object"></a>
 
-#### Create the Work Requests (Module) custom object
+### Create the Work Requests (Module) custom object
 
 To create the `Work Request (Module)` custom object, from the FMX connector settings page in Cyclr:
 
@@ -110,7 +114,9 @@ To create the `Work Request (Module)` custom object, from the FMX connector sett
 
 <a name="rename-custom-object"></a>
 
-### Rename custom objects
+</section>
+<section class="card">
+## Rename custom objects
 
 To rename a custom object, from the FMX connector **Settings** page in Cyclr:
 
@@ -120,7 +126,9 @@ To rename a custom object, from the FMX connector **Settings** page in Cyclr:
 4. Update the **Object Name** field.
 5. Select **Save**.
 
-### Manually map custom fields
+</section>
+<section class="card">
+## Manually map custom fields
 
 These method categories require you to manually map custom fields to use them:
 
@@ -129,7 +137,7 @@ These method categories require you to manually map custom fields to use them:
 *  Work Requests
 *  Work Requests (Module)
 
-#### Map the custom fields
+### Map the custom fields
 
 You can map request custom fields for create or update methods, or response custom fields for get or list methods.
 

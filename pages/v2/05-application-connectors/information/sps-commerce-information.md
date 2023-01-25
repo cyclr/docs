@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Get JSON Transaction
+<section class="card">
+## Get JSON Transaction
 
 This method requires you to add your own custom response fields. This can be accomplished in the connector editor by clicking the
 "+" button under the **Response Fields** area.

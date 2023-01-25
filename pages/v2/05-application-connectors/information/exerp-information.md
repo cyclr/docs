@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Mapping extended attribute fields
+<section class="card">
+## Mapping extended attribute fields
 
 The methods `Centers > Get Center` and `People > Get Person` dynamically return extended attribute fields. To map these fields within Cyclr:
 

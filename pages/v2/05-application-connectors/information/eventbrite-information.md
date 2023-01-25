@@ -6,13 +6,13 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Event custom objects
+<section class="card">
+## Event custom objects
 
 The Eventbrite connector uses Cyclr custom objects to make methods dynamic based on an event ID. Each event custom object requires its corresponding event ID to function. This enables custom fields to be automatically mapped for each event custom object created.
 
-#### Find the event ID
+### Find the event ID
 
 You need an event ID to set up a custom object. To find a specific event ID:
 
@@ -21,7 +21,7 @@ You need an event ID to set up a custom object. To find a specific event ID:
 3. Select the event you want to create a custom object for.
 4. The URL to the page of this event contains the event ID required to set up a custom object in the form `?eid=<event ID>`. For example, if the URL of an event is `https://www.eventbrite.co.uk/myevent?eid=328737431507` then the module name is `328737431507`.
 
-#### Set up a custom object
+### Set up a custom object
 
 When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
 
@@ -33,7 +33,7 @@ When you set up a custom object it creates a new method category with the parame
 4. Enter the event ID into **Specify object name**.
 5. Select **Copy**.
 
-#### Change the custom object display name
+### Change the custom object display name
 
 To change the display name of a custom object method category:
 

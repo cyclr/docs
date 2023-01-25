@@ -1,15 +1,14 @@
 ---
 title: Velocify Information
 sidebar: cyclr_sidebar
-permalink: authenticate-velocify
+permalink: authenticate-velocify-information
 tags: [connector]
 
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Creating Leads in Velocify
+## Creating Leads in Velocify
 
 In order to create leads using the Velocify connector there are a few preliminary steps to be undertaken first:
 

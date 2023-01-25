@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Setting Up a Translation
+## Setting Up a Translation
 
 In order to set up a translation, the best workflow to follow within cyclr would be as follows.
 

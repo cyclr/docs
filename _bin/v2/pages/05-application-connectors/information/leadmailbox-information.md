@@ -1,7 +1,7 @@
 ---
 title: LeadMailbox Information
 sidebar: cyclr_sidebar
-permalink: authenticate-leadmailbox
+permalink: authenticate-leadmailbox-information
 tags: [connector]
 
 linkedpage: true

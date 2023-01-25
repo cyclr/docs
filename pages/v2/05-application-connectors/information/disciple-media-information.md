@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Using Webhooks
+## Using Webhooks
 
 Webhook requests undergo a validation check before being accepted. Make sure you have provided a secret for the webhook in Disciple Media (https://<span>{AccountSubdomain}.</span>disciplemedia.com/admin/webhooks/) and entered that secret at connector setup. If no secret is provided or the secret does not match the webhook will be rejected.
 

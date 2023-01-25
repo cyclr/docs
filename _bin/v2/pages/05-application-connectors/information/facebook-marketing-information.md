@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Create Ad Set "Promoted Object"
+## Create Ad Set "Promoted Object"
 
 The "Promoted Object" is required for certain campaign objectives. The below table outlines the required Promoted Object fields based on the Optimization Goal.
 

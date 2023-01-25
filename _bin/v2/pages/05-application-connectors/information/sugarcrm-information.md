@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Applying Filters To Calls
+<section class="card">
+## Applying Filters To Calls
 
 The following methods support the use of additional filters to refine your request:
 

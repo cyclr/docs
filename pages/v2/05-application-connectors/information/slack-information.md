@@ -6,13 +6,13 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Webhook setup
+<section class="card">
+## Webhook setup
 
 The Slack Connector has webhooks so you can subscribe to **File Created** and **File Shared** Slack events. Both of these events can use Cyclr's partner-level single URL webhook target. You can implement either of these into your cycles.
 
-#### Retrieve the partner level webhook URL
+### Retrieve the partner level webhook URL
 
 In your Cyclr console:
 
@@ -22,7 +22,7 @@ In your Cyclr console:
 4. Click the **Setup Required** padlock icon.
 5. Make a note of the **Webhook URL**. This is your partner-level webhook URL for the Slack Connector.
 
-#### Setup events in Slack
+### Setup events in Slack
 
 On the [Slack API App page](https://api.slack.com/apps/) for your Slack App. You can find Slack's documentation on this [here](https://api.slack.com/apis/connections/events-api):
 
@@ -37,7 +37,7 @@ On the [Slack API App page](https://api.slack.com/apps/) for your Slack App. You
 
 7. Select **Save Changes** at the bottom of the page. Any scopes missing from your Slack App are automatically added based on the events you entered.
 
-#### Setup the webhook in a cycle
+### Setup the webhook in a cycle
 
 In the cycle where you want to add the webhook, drag the **File Created** or **File Shared** Slack webhook onto the cycle builder and connect as normal.
 

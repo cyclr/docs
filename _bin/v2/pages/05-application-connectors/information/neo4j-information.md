@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Using Custom Object Categories
+## Using Custom Object Categories
 
 Your connector can now utilise all methods within the 'Custom Object (Node)' category on all Node types in your database.
 
@@ -20,7 +19,9 @@ Once you click 'Copy', a new category will be created. The category will have a 
 
 Any of the methods within this category will apply to that node type, and generate custom request and response fields from that Node type. For instance, under the 'Create Node' method, Cyclr will automatically generate the available Node properties you can submit, with the correct Data Types.
 
-### Adding Additional Properties
+</section>
+<section class="card">
+## Adding Additional Properties
 
 If you wish to add additional properties to your objects, you can do this directly within the connector setup page.
 
@@ -40,7 +41,9 @@ Once the field has been added, create or update 1 node, by calling the method, w
 Now, in all your other methods, the response & request fields should automatically map this new property.
 _You may need to refresh the page for this to load._
 
-### Creating Brand New Node Types
+</section>
+<section class="card">
+## Creating Brand New Node Types
 
 You can create a brand new Node type in Cyclr.
 

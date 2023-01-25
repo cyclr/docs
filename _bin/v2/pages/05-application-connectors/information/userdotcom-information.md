@@ -7,8 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Webhooks
+## Webhooks
 
 You have the ability to configure webhooks, triggered upon the completion of specified events.
 

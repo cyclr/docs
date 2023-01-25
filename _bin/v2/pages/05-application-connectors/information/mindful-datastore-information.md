@@ -8,8 +8,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Custom Fields
+## Custom Fields
 The **Upsert Data Set** method allows you to send a `data_values` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:
 
 1. Go to the **Edit Connector** page for the Mindful Dataset connector.
@@ -23,11 +22,15 @@ The **Upsert Data Set** method allows you to send a `data_values` object with th
 
 The makes the field available in steps that use the **Upsert Data Set** method. The value you assign to the field is stored and sent in the `data_values` object against the specified key name. You can repeat this process for any key and value pair you want to add to the `data_values` object.
 
-### Custom objects
+</section>
+<section class="card">
+## Custom objects
 
 The **Get Data Set** method uses Cyclr custom objects to map possible dataset fields dynamically based on the specified customer contact number. 
 
-### Set up a custom object
+</section>
+<section class="card">
+## Set up a custom object
 
 When you set up a custom object it creates a new method category with the parameters you enter. To set up a custom object:
 

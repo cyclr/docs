@@ -1,14 +1,13 @@
 ---
 title: Pipedrive Connector Guide
 sidebar: cyclr_sidebar
-permalink: pipedrive-information.html
+permalink: pipedrive-information.html-information
 tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Pipedrive Integration Workflow Building Examples
+## Pipedrive Integration Workflow Building Examples
 
 <h2>Automating Pipedrive</h2> 
 <h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-left">Example uses:</p><ul><li>Sync new deals with another system</li><li>Trigger time-based actions for deals stuck at a certain stage</li><li>At key deal stages, add the associated contacts to a marketing system</li><li>Automate internal Pipedrive deals, e.g. when a deal hits a certain stage move it to a different pipeline</li></ul><h4 class="intercom-align-left">Deal stage lookups</h4><p class="intercom-align-left">One of the keys to using Pipedrive’s deals is working with the Stage ID in a Cyclr Decision step. In doing this, you can then trigger the next appropriate action – either in Pipedrive or in another app.</p><div class="intercom-container intercom-align-left"><img src="https://downloads.intercomcdn.com/i/o/29084048/e84a2753288301ecbc2bb070/pipedrive-deal-lookup.gif"></div><h3 id="forms" class="intercom-align-left">Forms</h3><p class="intercom-align-left">With Cyclr, you can integrate Pipedrive with a number of form building apps including:</p><ul><li>Contact Form 7</li><li>Gravity Forms</li><li>Typeform</li><li>SurveyMonkey</li></ul>

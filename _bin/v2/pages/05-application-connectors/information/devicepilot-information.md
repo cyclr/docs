@@ -1,18 +1,19 @@
 ---
 title: DevicePilot Information
 sidebar: cyclr_sidebar
-permalink: devicepilot
+permalink: devicepilot-information
 tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-
-### Updating and Inserting Device Data
+## Updating and Inserting Device Data
 
 DevicePilot allows users to submit any data that is relevant to their devices. Because of this, Cyclr lets you choose your own fields that you want to submit. This is done by creating request "custom fields".
 
-### Webhook Support
+</section>
+<section class="card">
+## Webhook Support
 
 Webhooks are managed by DevicePilot, so will need to be setup through the admin portal. To do this:
 

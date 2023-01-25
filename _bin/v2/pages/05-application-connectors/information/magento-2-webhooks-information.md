@@ -10,7 +10,9 @@ linkedpage: true
 
 > **Note**: Depending on your firewall settings you may need to manually enable DELETE commands.
 
-### Available Webhooks
+</section>
+<section class="card">
+## Available Webhooks
 
 * Customer
     * New Customer

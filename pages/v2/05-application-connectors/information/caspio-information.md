@@ -1,14 +1,14 @@
 ---
 title: Caspio Information
 sidebar: cyclr_sidebar
-permalink: caspio
+permalink: caspio-information
 tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Utilising Custom Object Categories
+<section class="card">
+## Utilising Custom Object Categories
 
 The methods within some categories (like Tables) require you to create a custom object category. This is to create a clearer user experience when creating cycles.
 

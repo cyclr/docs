@@ -6,9 +6,9 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
-<section class="card">
 
-### Unifier Field (Required)
+<section class="card">
+## Unifier Field (Required)
 
 In order to send data to Insider, you must first define a Unifier Field:
 
@@ -26,7 +26,9 @@ In order to send data to Insider, you must first define a Unifier Field:
 
 This is what will be referenced by **Identifier Type** in the Cyclr methods which is a required field.
 
-### Sending Custom Data (Optional)
+</section>
+<section class="card">
+## Sending Custom Data (Optional)
 
 In order for Insider to accept your custom attribute fields they must first be defined in the InOne console.
 
