@@ -13,40 +13,49 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Last Successful Run Date
 
-If you have a need for a method that only pulls the latest information, you're going to want to use Cyclr's **Last Successful Run Date** functionality.
+If you need a method that only pulls data generated after a specific time/date, you can use Cyclr's **Last Successful Run Date** functionality.
 
-You may for instance want **List New Contacts** or **List Updated Accounts** methods.
+Multiple methods use the **Last Successful Run Date** function, for example, the **List New Contacts** and **List Updated Accounts** methods.
 
-Where a particular endpoint accepts a date as a parameter, you can enter the Last Successful Run Date as a mergefield.
+## Add Last Successful Run Date
 
-See the example API call below:
+If particular endpoint accepts a date as a parameter, you can enter the **Last Successful Run Date** as a mergefield. See the example API call below:
 
-* ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge **2021-11-02T14:32:02Z**
+    `ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge {2021-11-02T14:32:02Z}`
 
-You can add the **Last Successful Run Date** mergefield directly to the endpoint in your connector like so:
+You can add the **Last Successful Run Date** mergefield directly to the endpoint in your connector:
 
-* ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge **\{\{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ\}\}**
+    `ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge \{\{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ\}\}`
 
-Now every time a step uses this method, it will pull all contacts since *the last time this step successfully ran*.
+If you add this method to a step, the step pulls all of the contacts that were added after the last time the step successfully ran.
 
-> It's important to note that **Last Successful Run Date** always refers to the last time a particular **Step** successfully ran, not a **Cycle**.
+> **Note**: **Last Successful Run Date** refers to the last time a particular **Step** successfully ran, not a **Cycle**.
 
-If you want to tell a step to use a particular date, you can use the Date Picker.
+## Use Last Successful Run Date
 
-This can be found by going into Step Setup > Advanced Settings:
+### Select a specific date
+
+If you want a step to use a specific date, you can use the Date Picker. To use the date picker, go to **Step Setup** > **Advanced Settings**:
 
 ![Date Picker](./images/datepicker.png)
 
-If this is left unchanged, a live run of the Cycle will set this value to the current time, and retrieve nothing.
+### Test steps
 
-The next full run of the Cycle will pick up any new data since the *first* run, and so on.
+If you select **Test Step**, the step uses the **Last Successful Run Date** value set on the Step, but doesn't update the value afterwards. If you've never run the step before, and haven't given a value, the default date is `1970-01-01T00:00:00`.
 
-Clicking Step Test will use whatever date is in the picker, so 1970-01-01T00:00:00 if the cycle has never been run, and no value has been given.
+`1970-01-01T00:00:00Z` (the UNIX Epoch), in Cyclr, indicates that no date/time value is set on a step. 
 
-### Accessing Last Successful Run Date in script
+### Run steps
 
-Last Successful Run Date can be accessed in ``before_action`` functions by making reference to ``last_successful_run_date``.
+When you run a cycle, Cyclr uses the **Last Successful Run Date** value set on the step. If the value is `1970-01-01T00:00:00Z`, however, Cyclr updates the **Last Successful Run Date** value to the current date/time. This behavior prevents the step from trying to retrieve all existing data on the first run of a cycle.
+
+> **Note**: If you do need to retrieve historical date on the first run of a step, you can use script on the step to have the first run start from a date in the past.
+
+## Access Last Successful Run Date in script
+
+The **Last Successful Run Date** function can be accessed in ``before_action`` functions by making reference to ``last_successful_run_date``.
 
 </section>
