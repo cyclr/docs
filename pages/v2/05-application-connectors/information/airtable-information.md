@@ -1,5 +1,5 @@
 ---
-title: Airtable Information
+title: Airtable information
 sidebar: cyclr_sidebar
 permalink: airtable-information
 tags: [connector]
@@ -7,6 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Airtable custom objects
 
 The Airtable connector uses Cyclr custom objects to make methods dynamic based on module names. Each custom object name requires:

@@ -1,5 +1,5 @@
 ---
-title: Eventbrite Information
+title: Eventbrite information
 sidebar: cyclr_sidebar
 permalink: eventbrite-information
 tags: [connector]
@@ -8,9 +8,10 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
+
 ## Event custom objects
 
-The Eventbrite connector uses Cyclr custom objects to make methods dynamic based on an event ID. Each event custom object requires its corresponding event ID to function. This enables custom fields to be automatically mapped for each event custom object created.
+The Eventbrite connector uses Cyclr custom objects to make methods dynamic based on an event ID. Each event custom object requires its corresponding event ID to function. This enables  Cyclr to automatically map custom fields for each event custom object you create.
 
 ### Find the event ID
 

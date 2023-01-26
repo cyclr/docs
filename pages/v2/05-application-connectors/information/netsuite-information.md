@@ -1,5 +1,5 @@
 ---
-title: Oracle NetSuite Connector Guide
+title: Oracle NetSuite information
 sidebar: cyclr_sidebar
 permalink: netsuite-information
 tags: [connector]
@@ -7,11 +7,12 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Setting select and multiselect Fields
 
-When setting `select` and `multiselect` fields in a create or update method, you can either provide its `internalid` (actual value in NetSuite) or `name` (UI display text in NetSuite).
+## Set select and multiselect fields
 
-Examples:
+When you set select` and `multiselect` fields in a create or update method, you can either provide its `internalid` (actual value in NetSuite) or `name` (UI display text in NetSuite).
+
+### Examples
 
 ```json
 {
@@ -45,21 +46,22 @@ Examples:
 }
 ```
 
-If both `internalid` and `name` are provided, only the `internalid` will be used in the RESTlet.
+If both the `internalid` and `name` are provided, Cyclr only uses the `internalid` in the RESTlet.
 
 </section>
 <section class="card">
-## Filtering Objects 
 
-The "List" methods, which return multiple items when run, can be filtered to match specified criteria using the following Fields:
+## Filter Objects 
 
-- `Field` \*required: is the field in the NetSuite object you wish to filter on for example "name".
-- `Operator` \*required: is the operation you wish to run against the field e.g. "is", "greaterthan", "contains". See the table below for an extensive list of operators and field types against which they can be used.
-- `Value` \*optional: is the value against which the fields will be compared using the Operator value.
+The **List** methods return multiple items when you run them and you can filter the items to match specified criteria using the following fields:
+
+- `Field`: (**Required**) The field in the NetSuite object you want to filter. For example, `name`.
+- `Operator`: (**Required**) The operation you want to run against the field. For example, `is`, `greaterthan`, `contains`. See the table below for an extensive list of operators and the field types you can use them with.
+- `Value`: (**Optional**) The value you want to compare the fields against with the Operator value.
 
 ### Multiple Filter Conditions
 
-Sometimes you may need to use more than one filter condition.  To do this you'll need to use some Script in the NetSuite Step to add them in.  In the Builder, click the `Step Setup` button on the NetSuite Step, then choose `Advanced Settings` and enter Script similar to this:
+To use more than one filter condition, you need to use some Script in the NetSuite Step to add the conditions.  In the cycle builder, select the **Step Setup** button on the NetSuite Step, select **Advanced Settings**, and enter your script in the following format.
 
 ```javascript
 function before_action() {
@@ -85,9 +87,13 @@ method_request_parameters.filter_op_X
 method_request_parameters.filter_val_X
 ```
 
-You can add any number of filter conditions using Script as you require.  Just be sure that the numbers on the end of the properties are consecutive, without any breaks.  If you add properties for "..._2", "..._3", skip 4 and add them for "..._5", your fifth condition will be ignored.
+> **Note**: With script, you can add as many filter conditions as you need. For the script to work correctly, make sure that the numbers on the end of the properties are consecutive, without any breaks. If you add properties for `{...}_2`, `{...}_3`, skip 4 and add them for `{...}_5`, Cyclr ignores the fifth condition.
 
-*NOTE:* In the "List" methods you can opt to skip the filters in the connector parameters and simply define all of your filters in script. To do this you will need to start the script parameters from "..._1" e.g. `method_request_parameters.filter_field_1`. However, the "Get New/Updated" methods' script parameters must always be set from "..._2", as the first set are already defined by the step itself.
+### Define filters in script
+
+In the **List** methods you can skip the filters in the connector parameters and define all of your filters in script instead. To do this you need to start the script parameters from `..._1`. For example, `method_request_parameters.filter_field_1`. 
+
+> **Note**: You need to set the **Get New/Updated** methods' script parameters from `{...}_2`, because the step defined the first set of parameters itself.
 
 ### Operators and Valid Field Types
 
@@ -134,11 +140,12 @@ You can add any number of filter conditions using Script as you require.  Just b
 
 </section>
 <section class="card">
+
 ## NetSuite Saved Search to return 1000+ records
 
-To retrieve more than 1,000 records, you will need to create a **Saved Search** in NetSuite, and then use the appropriate **Run (object) Saved Search** Method in the NetSuite Connector for the type of data you're returning, e.g. **Run Contact Saved Search**.
+To retrieve more than 1,000 records, you need to create a **Saved Search** in NetSuite and use the appropriate **Run (object) Saved Search** method in the NetSuite Connector for the type of data you're returning. For example, to return contacts, you can use the **Run Contact Saved Search** method.
 
-Your Saved Search should have criteria set for what you wish to retrieve and return only the ID values of the objects.  The RESTlet will then retrieve the full objects for them before returning that data when called by Cyclr.
+Set your **Saved Search** criteria to the data you want to receive so it only returns the ID values of the objects. When Cyclr calls the search, RESTlet retrieves the full objects for the objects before it returns the data.
 
 You can find instructions for setting up a Saved Search in the [NetSuite Documentation](https://docs.oracle.com/cloud/latest/netsuitecs_gs/NSSRC/NSSRC.pdf#%5B%7B%22num%22%3A1548%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C90%2C723.6%2Cnull%5D).
 

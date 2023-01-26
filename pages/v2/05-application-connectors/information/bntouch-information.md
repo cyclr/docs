@@ -1,5 +1,5 @@
 ---
-title: BNTouch Connector Guide
+title: BNTouch information
 sidebar: cyclr_sidebar
 permalink: bntouch-information
 tags: [connector]
@@ -7,10 +7,11 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Creating a Lead
 
-When creating a Lead you are required to enter the ID of the schema you will be using. This again should be provided by your BNTouch account manager. The schema specifies how the data will be posted to the BNTouch API.
+## Create a Lead
 
-Although all request fields are marked as optional, at least one field must be populated for the request to succeed. Upon successful submission of a Lead you will receive a status of 'ACCEPTED'.
+When you create a Lead, you need to enter the ID of the schema that you use. The schema specifies how the data will be posted to the BNTouch API. For more information on where to find the schema, contact your BNTouch account manager. 
+
+Although all request fields are marked as optional, you need to populate at least one field for the request to succeed. When you successfully submit a Lead, you receive a status of 'ACCEPTED'.
 
 </section>

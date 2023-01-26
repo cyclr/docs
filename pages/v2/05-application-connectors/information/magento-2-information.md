@@ -1,5 +1,5 @@
 ---
-title: Magento 2 Connector
+title: Magento 2 information
 sidebar: cyclr_sidebar
 permalink: magento-2-information
 tags: [connector]
@@ -7,21 +7,24 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Bulk endpoints
 
-To use bulk methods such as Bulk Update Product, you need to enable/install asynchronous functionality and RabbitMQ on your Magento 2 instance. For more information, see the Magento documentation on [bulk endpoints](https://devdocs.magento.com/guides/v2.4/rest/bulk-endpoints.html).
+To use bulk methods such as **Bulk Update Product**, you need to enable/install asynchronous functionality and RabbitMQ on your Magento 2 instance. For more information, see the Magento documentation on [bulk endpoints](https://devdocs.magento.com/guides/v2.4/rest/bulk-endpoints.html).
 
 </section>
 <section class="card">
+
 ## Custom Methods
 
 The Magento 2 connector allows you to create custom methods for custom endpoints. You can create these methods with the custom objects in the **Custom Method** category.
 
 </section>
 <section class="card">
+
 ## Set up a custom object
 
-When you set up a custom object it creates a new method category with the endpoint you enter. To set up a custom object:
+When you set up a custom object, Cyclr creates a new method category with the endpoint you enter. To set up a custom object:
 
 1. Go to the **Magento 2** connector's **Settings** page.
 2. Under the **Methods and Fields** heading, expand the **Custom Methods** category.
@@ -33,9 +36,10 @@ This creates a new custom object category with the specified method endpoint. Yo
 
 </section>
 <section class="card">
+
 ## Webhooks
 
-If you want to use webhooks with **Magento 2**, we have a dedicated **Magento 2 Webhooks** Connector and a plugin that you can install in your Magento 2 instance.
+If you want to use webhooks with **Magento 2**, Cyclr has a dedicated **Magento 2 Webhooks** connector and a plugin that you can install in your Magento 2 instance.
 
 For more information, see our [Magento 2 Webhooks connector](https://docs.cyclr.com/magento-2-webhooks-connector#magento-2-webhooks-setup) documentation.
 

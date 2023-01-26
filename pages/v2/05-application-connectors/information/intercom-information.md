@@ -1,5 +1,5 @@
 ---
-title: Intercom Information
+title: Intercom information
 sidebar: cyclr_sidebar
 permalink: intercom-information
 tags: [connector]
@@ -7,6 +7,7 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Use the Search Contacts method
 
 There are two processes for sending a search request in the Search Contacts method:
@@ -16,6 +17,7 @@ There are two processes for sending a search request in the Search Contacts meth
 
 </section>
 <section class="card">
+
 ## Basic search
 
 Use the first three fields to send a basic search:
@@ -28,6 +30,7 @@ Use the first three fields to send a basic search:
 
 </section>
 <section class="card">
+
 ## Multiple filters
 
 You can use multiple filters for a search:

@@ -1,5 +1,5 @@
 ---
-title: Salesforce Marketing Cloud
+title: Salesforce Marketing Cloud information
 sidebar: cyclr_sidebar
 permalink: salesforce-marketing-cloud-information
 tags: [connector]
@@ -7,49 +7,48 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Upsert Custom Data Extension Rows
 
-The Salesforce Marketing Cloud connector gives you have the ability to Upsert (create or update) a batch of data extension rows.
+## Upsert custom data extension rows
 
-When using the method 'Upsert Custom Data Extension Rows', custom fields must be provided for both the request and response objects.
+The Salesforce Marketing Cloud connector gives you have the ability to Upsert (create or update) a batch of data extension rows. When you use the **Upsert Custom Data Extension Rows** method, you need to provide custom fields for both the request and response objects.
 
-You can do this is one of two ways:
+You can provide custom fields either manually or with JSON script.
 
-If you have a sample of the JSON that will be posted you can:
+If you have a sample of the JSON that you want to post, you can generate the fields:
 
-1. Click the magnifying glass icon
+1. Select the magnifying glass icon.
 
    ![monday dot com api token](./images/sf_marketing_cloud_1.png)
 
-2. Paste in the sample JSON
+2. Paste in the sample JSON.
 
    ![monday dot com api token](./images/sf_marketing_cloud_2.png)
 
-3. Click 'Generate'
+3. Select **Generate**.
 
-Or you can add the fields manually:
+You can also add the fields manually:
 
-1. Click the plus icon
+1. Select the plus icon.
 
    ![monday dot com api token](./images/sf_marketing_cloud_3.png)
 
-2. Enter the Field Location, Display Name, Data Type and (optionally) a Description
+2. Enter the **Field Location**, **Display Name**, **Data Type** and, optionally, a **Description**.
 
    ![monday dot com api token](./images/sf_marketing_cloud_4.png)
 
-3. Click 'Create'
+3. Select **Create**.
 
-Your custom fields will be created. This process should be carried out for both the request and response fields.
+
+> **Note**: You need to create fields for both the request and response fields.
 
 ![monday dot com api token](./images/sf_marketing_cloud_5.png)
 
-**Important**
+### Request object requirements
 
-1. Your request object must include the property 'keys'. This is assigned an object containing the primary key you will be using to upsert the data
+* You need to include the property `keys` in your request object. Assign the property `keys` an object containing the primary key that you use to upsert the data.
+* You need to start your mappings with an array. The endpoint expects an array of objects, even if the array only contains one item.
 
-2. Your mappings must start with an array. This endpoint expects an array of objects, even if that array only contains one item
-
-For example, if generating fields from sample JSON:
+For example, if you generate fields from sample JSON:
 
 ```json
 Invalid - no keys property
@@ -92,7 +91,7 @@ Valid - keys property and parent array
 ]
 ```
 
-If adding fields manually, for Field Location:
+If you add the fields manually, for `Field Location`:
 
 **Invalid** - no parent array
 

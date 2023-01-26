@@ -1,5 +1,5 @@
 ---
-title: Vincere Connector Guide
+title: Vincere information
 sidebar: cyclr_sidebar
 permalink: vincere-information
 tags: [connector]
@@ -8,16 +8,17 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-## Using Custom Fields
 
-When using custom fields, the mapping of the Field Location will vary based on the custom field's "type".
+## Use Custom Fields
 
-For example when using Candidate custom fields:
+When you use custom fields, the Field Location mapping varies based on the custom field type.
 
-1. Run the method "Get Candidate Custom Fields" to list the available custom fields
-2. Pay close attention to the "Key" and "Type" fields in the response
+For example, to use Candidate custom fields:
 
-If we now want to add a custom field to "Get Candidate" the Field Location, depending on the custom field's type, would be as follows:
+1. Run the **Get Candidate Custom Fields** method to list the available custom fields.
+2. Make note of the `Key` and `Type` fields in the response
+
+If you want to add a custom field to **Get Candidate**, the table below shows the **Field Location** you need to use depending on the field type.
 
 | Custom Field Type  | Field Location                                | Example                |
 | :----------------- | :-------------------------------------------- | :--------------------- |
@@ -30,10 +31,10 @@ If we now want to add a custom field to "Get Candidate" the Field Location, depe
 
    ![custom fields for get methods](./images/vincere_custom_fields_1.png)
 
-When using List methods such as "List New Candidate Records", make sure to include the correct parent array. For example **[items]**.
+When you use List methods, such as **List New Candidate Records**, make sure to include the correct parent array. For example `[items]`.
 
    ![custom fields for list methods](./images/vincere_custom_fields_2.png)
    
-A guide for adding custom fields to a method can be found [here](https://docs.cyclr.com/adding-custom-fields).
+For more information, see the Cyckr documentation on how to [add custom fields to a method](https://docs.cyclr.com/adding-custom-fields).
 
 </section>

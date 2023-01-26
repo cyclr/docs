@@ -1,5 +1,5 @@
 ---
-title: Jira Information
+title: Jira information
 sidebar: cyclr_sidebar
 permalink: jira-information
 tags: [connector]
@@ -7,12 +7,13 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Map Issue Properties
 
-You need to add a custom field location to map an issue property field in a cycle. Do this in the following order:
+## Map issue properties
 
-1. [Map Update Issue Property](#map-update-issue-property).
-2. [Map Get Issue Properties](#map-get-issue-properties).
+To map an issue property field in a cycle, you need to add a custom field location:
+
+1. [Map the Update Issue Property](#map-update-issue-property).
+2. [Map the Get Issue Properties](#map-get-issue-properties).
 
 <a link="map-update-issue-property">
 

@@ -1,5 +1,5 @@
 ---
-title: Idio Connector Guide
+title: Idio information
 sidebar: cyclr_sidebar
 permalink: idio-information
 tags: [connector]
@@ -8,6 +8,8 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-You will need to provide a **Delivery Key** for each call you make.
+## Delivery key
+
+You need to provide a **Delivery Key** for every call you make with the Idio connector.
 
 </section>

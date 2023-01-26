@@ -1,5 +1,5 @@
 ---
-title: SugarCRM Information
+title: SugarCRM information
 sidebar: cyclr_sidebar
 permalink: sugarcrm-information
 tags: [connector]
@@ -8,17 +8,15 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-## Applying Filters To Calls
+## Apply filters to calls
 
 The following methods support the use of additional filters to refine your request:
 
-- Get New And Updated Opportunities
+- **Get New And Updated Opportunities**
+- **Search Opportunities**
+- **Search Custom Objects**
 
-- Search Opportunities
-
-- Search Custom Objects
-
-To apply an additional filter you should add a custom field to the request with a Field Location in the format of <em>field.operator</em> (example: campaign_name.$contains). You can then supply a value for that field when making your requests (example: 'Leads').
+To apply an additional filte, you can add a custom field to the request with a** Field Location** in the format: `field.operator`, for example, `campaign_name.$contains`. You can then supply a value for that field when you make your requests, such as `Leads`.
 
 The supported filter operators are as follows:
 
@@ -38,6 +36,6 @@ The supported filter operators are as follows:
 | $gt         | Matches when the field is greater than the value.                                       |
 | $gte        | Matches when the field is greater than or equal to the value.                           |
 
-More information on adding custom fields can be found [here](https://docs.cyclr.com/adding-custom-fields).
+For more information, see the Cyclr documentation on how to [add custom fields]](https://docs.cyclr.com/adding-custom-fields).
 
 </section>

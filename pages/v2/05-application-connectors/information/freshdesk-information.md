@@ -1,5 +1,5 @@
 ---
-title: Freshdesk Connector
+title: Freshdesk information
 sidebar: cyclr_sidebar
 permalink: freshdesk-information
 tags: [connector]
@@ -7,33 +7,29 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Webhooks
 
-If you wish to set up a **Ticket Closed** webhook step, you will first need to add it to your cycle.
-
-Then open the Freshdesk dashboard, and follow these steps:
+If you want to set up a **Ticket Closed** webhook step, you heed need to add it to your cycle, and then open the Freshdesk dashboard:
 
 
-1. Click the **Admin** cog on the left hand side navigation bar.
+1. Select the **Admin** cog on the left hand side navigation bar.
     
     ![Admin cog](./images/cog.png)
 2. Scroll down to the **Helpdesk Productivity** Section, and select **Automations**.
 
     ![Automations](./images/automations.png)
-3. Choose **Rules that run on: Ticket Updates**.
-4. Click **New rule**.
-5. Set **Rule name** and **Involves any of these events** as follows:
+3. Choose **Rules that run on: Ticket Updates** and select **New rule**.
+4. Set **Rule name** and **Involves any of these events** as follows:
 
     ![Rule settings](./images/rule_settings.png)
-6. You can leave **On tickets with these properties** as it is.
-9. Under Perform these actions, set **Choose Action** to **Trigger Webhook**.
-10. Set Request Type to **POST**.
-11. For the **URL**, you will need to go back to your Cyclr workflow, and copy the address from the webhook step.  You can find it by clicking the step's settings cog.
-12. Leave the other fields as they are, and under Content, select **Advanced**.
-13. The section should now look like this:
+5. Set Request Type to **POST**.
+6. For the **URL**, you need to go back to your Cyclr workflow, and copy the address from the **settings** in the webhook step.
+7. Leave the other fields as they are, and under Content, select **Advanced**.
+	* The section should now look like this:
 
     ![Rule settings 2](./images/rule_settings2.png)
-13. In the **Write custom API request** text box, paste the following template:
+8. In the **Write custom API request** text box, paste the following template:
 <!-- {% raw %} -->
 ```handlebars
 {
@@ -84,12 +80,13 @@ Then open the Freshdesk dashboard, and follow these steps:
 }
 ```
 <!-- {% endraw %} -->
-14. Click **Preview and save**.
-15. Check that the summary looks like this:
+9. Select **Preview and save**.
+
+To make sure you set the webhook up correctly, check that the summary looks like this:
     ![Summary](./images/summary.png)
 
-16. Save and enable.  Your webhook step should now be fully usable.
+To use your webhook, save and enable it.
 
-> NB. If you accidentally delete the webhook step and need a new one, you can simply edit the rule and update the URL with that of the new step.
+> **Note**: If you accidentally delete the webhook step and need a new one, you can simply edit the rule and update the URL with that of the new step.
 
 </section>

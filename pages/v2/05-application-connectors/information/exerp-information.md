@@ -1,5 +1,5 @@
 ---
-title: Exerp Information
+title: Exerp information
 sidebar: cyclr_sidebar
 permalink: exerp-information
 tags: [connector]
@@ -8,7 +8,8 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-## Mapping extended attribute fields
+
+## Map extended attribute fields
 
 The methods `Centers > Get Center` and `People > Get Person` dynamically return extended attribute fields. To map these fields within Cyclr:
 

@@ -1,5 +1,5 @@
 ---
-title: BigChange JobWatch
+title: BigChange JobWatch information
 sidebar: cyclr_sidebar
 permalink: bigchange-jobwatch-information
 tags: [connector]
@@ -11,9 +11,10 @@ linkedpage: true
 
 </section>
 <section class="card">
-## Mapping custom fields
 
-The BigChange JobWatch connector has custom field support for several methods. You can find a list of compatiable methods [here](#custom-field-compatiable-methods). To add a custom field to a method:
+## Map custom fields
+
+The BigChange JobWatch connector has custom field support for several methods. For more information, see the  find a [list of compatible methods](#custom-field-compatiable-methods). To add a custom field to a method:
 
 1. Go to the **Edit Connector** page for the BigChange JobWatch connector.
 2. Under the **Methods & Fields** heading, locate the required method by expanding out the categories and method name.
@@ -34,7 +35,8 @@ The BigChange JobWatch connector has custom field support for several methods. Y
 
 </section>
 <section class="card">
-## Custom field compatiable methods
+
+## Custom field compatible methods
 
 You can add custom fields for contacts, contact notes, and jobs in the following methods:
 

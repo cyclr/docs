@@ -1,5 +1,5 @@
 ---
-title: Pipedrive (OAuth2.0) Connector Guide
+title: Pipedrive (OAuth2.0) information
 sidebar: cyclr_sidebar
 permalink: pipedrive-oauth-information
 tags: [connector]
@@ -7,9 +7,10 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Pipedrive Integration Workflow Building Examples
 
-<h2>Automating Pipedrive</h2> 
+## Pipedrive integration building examples
+
+<h2>Automate Pipedrive</h2> 
 <h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-left">Example uses:</p><ul><li>Sync new deals with another system</li><li>Trigger time-based actions for deals stuck at a certain stage</li><li>At key deal stages, add the associated contacts to a marketing system</li><li>Automate internal Pipedrive deals, e.g. when a deal hits a certain stage move it to a different pipeline</li></ul><h4 class="intercom-align-left">Deal stage lookups</h4><p class="intercom-align-left">One of the keys to using Pipedrive’s deals is working with the Stage ID in a Cyclr Decision step. In doing this, you can then trigger the next appropriate action – either in Pipedrive or in another app.</p><div class="intercom-container intercom-align-left"><img src="https://downloads.intercomcdn.com/i/o/29084048/e84a2753288301ecbc2bb070/pipedrive-deal-lookup.gif"></div><h3 id="forms" class="intercom-align-left">Forms</h3><p class="intercom-align-left">With Cyclr, you can integrate Pipedrive with a number of form building apps including:</p><ul><li>Contact Form 7</li><li>Gravity Forms</li><li>Typeform</li><li>SurveyMonkey</li></ul>
 
 <h3>Automate Your Sales Pipeline</h3><p>Cyclr lets you automate your sales process by using webhooks and triggers based on movements between pipeline stages.</p><p>Example uses:</p><ul><li>Send deals to separate pipelines for other teams to complete work on</li><li>Automatically assign reminders for yourself or team members based on deal stages</li><li>Trigger external application events when a deal reaches a chosen stage</li><li>Automatically send emails and messages when a deal hits a particular stage</li></ul><h2>Automation Implementation</h2><p>Follow our below video guide to get you started with Pipedrive Automation.</p><p></p><center><iframe width="500" height="281" src="https://www.youtube.com/embed/GTBgHGIh_Mo?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center><p></p>

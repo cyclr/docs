@@ -1,5 +1,5 @@
 ---
-title: Slack Information
+title: Slack information
 sidebar: cyclr_sidebar
 permalink: slack-information
 tags: [connector]
@@ -8,6 +8,7 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
+
 ## Webhook setup
 
 The Slack Connector has webhooks so you can subscribe to **File Created** and **File Shared** Slack events. Both of these events can use Cyclr's partner-level single URL webhook target. You can implement either of these into your cycles.

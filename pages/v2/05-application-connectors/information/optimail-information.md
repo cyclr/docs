@@ -1,5 +1,5 @@
 ---
-title: Optimail Connector Guide
+title: Optimail information
 sidebar: cyclr_sidebar
 permalink: optimail-information
 tags: [connector]
@@ -7,14 +7,14 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Retrieving Campaign IDs
 
-The methods under `Subscriptions` require a Campaign ID, there is no way to retrieve these via the API. the Campaign ID is obtained via the Optimail portal. 
+## Retrieve Campaign IDs
 
-Within the Optimail portal:
-  * Select `Campaigns` in the page header.
-  * Select the campaign for which you wish to retrieve the ID.
-  * On the campaign page you will see `CAMPAIGN API ID` field in the bottom left of the page.
+The methods under **Subscriptions** require a Campaign ID. You can't obtain the Campaign ID through an API call, so you need to go to the Optimail portal: 
+
+1. Select **Campaigns** in the page header.
+2. Select the campaign you need the ID for.
+3. Copy the `CAMPAIGN API ID` field in the bottom left of the Campaign page.
   
-![](./images/optimail_campaign_id.png)
+![A screenshot of the campaign ID page.](./images/optimail_campaign_id.png)
 </section>

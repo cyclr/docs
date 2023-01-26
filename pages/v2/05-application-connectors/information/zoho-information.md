@@ -1,5 +1,5 @@
 ---
-title: Zoho
+title: Zoho information
 sidebar: cyclr_sidebar
 permalink: zoho-information
 tags: [connector]
@@ -10,6 +10,7 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
+
 ## Scopes
 
 The scopes default to `ZohoCRM.modules.ALL,ZohoCRM.users.ALL,ZohoCRM.org.ALL,ZohoCRM.settings.roles.ALL`, but you can enter your own scopes if you want to restrict the connector's access further.
@@ -18,6 +19,7 @@ For more information, see Zoho's documentation on [available scopes](https://www
 
 </section>
 <section class="card">
+
 ## List New/Updated Contacts By Page (incrementally)
 
 To use this method, follow these steps to set up your cycle: 

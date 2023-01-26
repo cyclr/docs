@@ -1,5 +1,5 @@
 ---
-title: Emarsys Information
+title: Emarsys information
 sidebar: cyclr_sidebar
 permalink: authenticate-emarsys-information
 tags: [connector]
@@ -12,13 +12,13 @@ linkedpage: true
 
 </section>
 <section class="card">
-## Custom Fields
+
+## Custom fields
 
 In the Emarsys connector, some methods use custom fields that you need to map manually:
 
-###  Contacts > Get Contact Data
-
-###  Contact Lists > List Contact Data In A Contact List
+* Contacts > Get Contact Data
+* Contact Lists > List Contact Data In A Contact List
 
 When you enter the **Fields** request parameter, the method responds with equivalent response fields. You need to map these fields manually. 
 

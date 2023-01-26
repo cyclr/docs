@@ -1,5 +1,5 @@
 ---
-title: OneLogin Information
+title: OneLogin information
 sidebar: cyclr_sidebar
 permalink: onelogin-information
 tags: [connector]
@@ -8,7 +8,8 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-## Generate fields for the **Create App** method
+
+## Generate fields for the Create App method
 
 The **Create App** method accepts a wide range of possible request parameters beyond what's mapped as standard in Cyclr. You can map these fields manually, or you can generate the fields based on an existing application. To generate fields:
 
@@ -24,7 +25,8 @@ The **Create App** method accepts a wide range of possible request parameters be
 This process maps the possible request fields so they're ready to use when you create a new application.
 
 </section>
-<section class="card">
+<section class="card">'
+
 ## Map custom fields for the **List Users** and **Get User** methods
 
 The **List Users** and **Get User** methods can return custom attributes if the're available. To map these in the response, map a custom field to the attribute's location:

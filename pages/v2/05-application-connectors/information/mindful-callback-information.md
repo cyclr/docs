@@ -1,5 +1,5 @@
 ---
-title: Mindful Callback Information
+title: Mindful Callback information
 sidebar: cyclr_sidebar
 permalink: mindful-callback-information
 tags: [connector]
@@ -8,6 +8,8 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
+## Create Callback method
 
 The **Create Callback** method allows you to send a `user_data` object with the request. This object can contain any number of key and value pairs. To send a key and value pair:
 

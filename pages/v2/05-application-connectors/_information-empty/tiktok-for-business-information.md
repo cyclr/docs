@@ -1,7 +1,7 @@
 ---
-title: Twilio Connector Guide
+title: TikTok for Business Information
 sidebar: cyclr_sidebar
-permalink: twilio-information.html
+permalink: tiktok-for-business-information
 tags: [connector]
 ---
 {::options parse_block_html="true" /}

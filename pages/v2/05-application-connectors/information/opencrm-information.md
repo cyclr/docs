@@ -1,5 +1,5 @@
 ---
-title: OpenCRM Connector Guide
+title: OpenCRM information
 sidebar: cyclr_sidebar
 permalink: opencrm-information
 tags: [connector]
@@ -7,15 +7,16 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Adding Custom Fields
 
-Your records may contain custom fields which by standard are not mapped each method's request or response fields. The API field names for custom fields can be found in your custom field settings within OpenCRM. An example of a custom field API field name would be "cf_123".
+## Add custom fields
 
-Once you have identified the custom field you want to add mappings for these can be added following the steps from this guide: https://docs.cyclr.com/adding-custom-fields
+Your records may contain custom fields which aren't mapped for each method's request or response fields. You can find the API field names for custom fields in your custom field settings within OpenCRM. An example of a custom field API field name is `cf_123`.
 
-Most importantly, the API field name is what should be provided for the Field Location of the custom field.
+To add mappings  for a custom field, you can follow the steps in the Cyclr documentation on how to [Add custom fields](adding-custom-fields/
 
-The format varies slightly depending on whether the field is for a singular or plural method. ie. Get Contact or List Contacts.
+To add a custom field, you need to provide the API field name for the **Field Location** of the custom field.
+
+The format varies slightly depending on whether the field is for a singular or plural method, such as **Get Contact** or **List Contacts**.
 
 | Method Name           | Response/Request Field | Field Location           | Example   |
 | :-------------------- | :--------------------- | :----------------------- | :-------- |

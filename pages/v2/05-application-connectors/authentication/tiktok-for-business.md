@@ -80,5 +80,12 @@ You will be asked for the following values when installing the TikTok for Busine
 | **Environment** | The environment to install the TikTok for Business connector in. Select **Sandbox**. |
 | **API Key**     | The access token of your TikTok for Business app sandbox ad account.                 |
 
+</section>
+<section class="card">
 
+<a name="tiktok-for-business-sandbox-account-setup"></a>
+
+## TikTok for Business sandbox account setup
+
+TikTok for business has sandbox account functionality for testing. For more information on how to set up the sandbox account, see the [TikTok for Business guide](https://ads.tiktok.com/marketing_api/docs?id=1738855331457026). Make note of the **Access Token** you generate when you set it up as you need it to install the sandbox installation version of the connector.
 </section>

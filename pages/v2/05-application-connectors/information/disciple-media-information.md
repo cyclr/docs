@@ -7,9 +7,10 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Using Webhooks
 
-Webhook requests undergo a validation check before being accepted. Make sure you have provided a secret for the webhook in Disciple Media (https://<span>{AccountSubdomain}.</span>disciplemedia.com/admin/webhooks/) and entered that secret at connector setup. If no secret is provided or the secret does not match the webhook will be rejected.
+## Use webhooks
+
+Webhook requests undergo a validation check before being accepted. Make sure you provide a secret for the webhook in Disciple Media: `(`https://<span>{AccountSubdomain}.</span>disciplemedia.com/admin/webhooks/`. You also need to enter the secret at connector setup. If you don't provide the secret, or the secret doesn't match the webhook, it rejects the webhook.
 
 ![disciple webhook setup](./images/disciple_webhook_1.png)
 

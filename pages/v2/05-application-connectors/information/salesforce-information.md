@@ -1,5 +1,5 @@
 ---
-title: Salesforce Information
+title: Salesforce information
 sidebar: cyclr_sidebar
 permalink: salesforce-information
 tags: [connector]
@@ -7,12 +7,14 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Webhook Setup
+
 ### Add Webhook class to SalesForce account
-* Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
-* Navigate to the left panel, scroll down and click **Custom Code**, then click **Apex Classes**
-* Create a new **Apex Class** by clicking **New**
-* Name it **Webhook** and paste the following code snippet:
+1. Log in into your Salesforce Account, navigate to the top right corner, select the **Clog** icon, and select **Setup**.
+2. Navigate to the left panel, scroll down and select **Custom Code**, and then **Apex Classes**
+3. Select **New** to create a new **Apex Class**.
+4. Name the class **Webhook** and paste the following code snippet:
 
 ```javascript
   public class Webhook implements HttpCalloutMock {
@@ -64,37 +66,40 @@ linkedpage: true
 
 }
 ```
-###  Add Service Domain
-* Go to your Cyclr console, click **Setings** and **General Settings**
-* Copy your **Service Domain**  
-* Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
-* Navigate to the left panel, scroll down and click **Security**, then click **Remote Site Settings**
-* Click **New Remote Site** and give it a name and add your **Service Domain** from the second step.
+###  Add service domain
 
-Now your account is set and ready to use webhooks in your account.
+To add a service domain, go to your Cyclr console:
+
+1. Go to **Settings** > **General Settings**
+2. Copy your **Service Domain**.  
+3. Login into your Salesforce Account, navigate to the top right corner and click the **Clog** icon, then click **Setup**.
+4. Navigate to the left panel, scroll down and click **Security**, then click **Remote Site Settings**
+5. Select **New Remote Site**, enter a name and add your **Service Domain** from step 2.
 
 </section>
 <section class="card">
-## Enduser Salesforce Account Setup
 
-For the best experience when using the Salesforce Connector, and to reduce the frequency at which Cyclr must obtain a new Access Token and avoid some connection issues, ensure the following Session Settings have been set:
+## End user Salesforce Account Setup
 
-Log in to the Salesforce organization, go to Setup, then use the Search to find "Session Settings".
+For the best experience when using the Salesforce Connector, and to reduce the frequency at which Cyclr must obtain a new Access Token and avoid some connection issues, you need to set specific session settings.
+
+Log in to the Salesforce organization, go to **Setup**, then use the Search to find **Session Settings**.
 
 Under **Session Timeout**
-*  Timeout Value: set this for as long as possible, e.g. 24 hours.
-*  Force logout on session timeout: disable this.
+*  **Timeout Value**: Set this for as long as possible, for example, 24 hours.
+*  **Force logout on session timeout**: Disable this setting.
 
 Under **Session Settings**
-*  Lock sessions to the IP address from which they originated: disable this.
+*  **Lock sessions to the IP address from which they originated**: Disable this setting.
 
 </section>
 <section class="card">
-## Disabling Assignment Rules
 
-When creating Accounts, Cases, or Leads in Salesforce, it may be desirable to prevent Salesforce's "active assignment rules" from being applied.  This very much depends on what assignment rules have been setup within Salesforce so will depend on the enduser's requirements.
+## Disable assignment rules
 
-To prevent assignment rules from being applied, add this Script to a Salesforce step in the Cycle Builder:
+When you create **Accounts**, **Cases**, or **Leads** in Salesforce, you can prevent the application of Salesforce's **active assignment** rules. This depends on what assignment rules are setup within Salesforce and the enduser's requirements.
+
+To prevent the application of assignment rules, add this Script to a Salesforce step in the Cycle Builder:
 
 ```javascript
 function before_action() {
@@ -108,13 +113,14 @@ function before_action() {
 
 </section>
 <section class="card">
-## Working with CSV documents
 
-To retrieve the contents of a CSV document, you will need to take the following steps:
+## Work with CSV documents
 
-1. Find the Document ID.  This can be found in the response you recieved when you made the file, or by running "List Content Documents".
-2. Use this ID in a "Get Content Version" call to get the Content Version ID.
-3. Enter the Content Version ID in a "Get Content Document Data (CSV)" call.
-4. You will need to add the fields within connector settings so that you can map them.  The field location will be '[].yourcolumname' without quotes.
+You can use Cyclr to retrieve the contents of CSV documents:
+
+1. Find the Document ID in the response you recieve when you make the file, or by run **List Content Documents** to retrieve the Document ID.
+2. Use the Document ID in a **Get Content Version** call to get the Content Version ID.
+3. Enter the Content Version ID in a **Get Content Document Data (CSV)** call.
+4. Add the fields within connector settings so that you can map them. Enter the field location in the format `[].{yourcolumname}`
 
 </section>

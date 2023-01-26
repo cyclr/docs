@@ -1,5 +1,5 @@
 ---
-title: LeadMailbox Information
+title: LeadMailbox information
 sidebar: cyclr_sidebar
 permalink: authenticate-leadmailbox-information
 tags: [connector]
@@ -9,14 +9,16 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-When the Post Leads method is called additionally you will need to provide the name of the Campaign to which the lead should be added.  You can check these values by:
+## Post Leads method
 
-From the LeadMailbox dashboard, click 
+When you call the Post Leads method, you need to provide the name of the Campaign you want to add the Lead to.
+
+You can find these values from the LeadMailbox dashboard:
 1. ``Settings``
 2. ``Campaigns``
 3. [``The Name of your Campaign``]
 4. ``Show Post Url``
 
-This shows the values to be used for both the Account Name and the Campaign Name.
+This shows the values you can use for both the **Account Name** and the **Campaign Name**.
 
 </section>

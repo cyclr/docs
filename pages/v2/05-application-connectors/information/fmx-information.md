@@ -1,5 +1,5 @@
 ---
-title: FMX Information
+title: FMX information
 sidebar: cyclr_sidebar
 permalink: fmx-information
 tags: [connector]
@@ -8,6 +8,7 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
+
 ## Schedule Requests (Module) custom objects
 
 Cyclr uses custom objects to dynamically create **Schedule Requests** method categories based on an FMX module. To create a `Schedule Requests (Module)` custom object:
@@ -83,6 +84,7 @@ To create the `Work Requests (Custom Object)` custom object, from the FMX connec
 
 </section>
 <section class="card">
+
 ## Work Requests (Module) custom object
 
 Cyclr uses custom objects to dynamically create **Work Request** method categories based on an FMX Module. To create a `Work Requests (Module)` custom object you need a Work Request Module.

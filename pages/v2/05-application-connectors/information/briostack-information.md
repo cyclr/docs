@@ -1,5 +1,5 @@
 ---
-title: Briostack Connector
+title: Briostack information
 sidebar: cyclr_sidebar
 permalink: briostack-information
 tags: [connector]
@@ -8,14 +8,16 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-## Sales Methods
 
-Within the Sales methods, you can select a category, to return only those sales which fall within it, or return all sales by leaving the field blank.
+## Sales methods
+
+Within the **Sales** methods, you can either select a category to retrieve only the sales within that category, or leave the field black to return the complete list of sales.
 
 </section>
 <section class="card">
+
 ## Customers
 
-It is not currently possible to filter the customers by business sector, so for most use cases, "List Customers" would not be a practical method.  As a result, Get Customer has been provided for returning individual customer records.
+It is not currently possible to filter the customers by business sector, so for most cases, **List Customers** isn't practical. Instead, you can use **Get Customer** to return individual customer records.
 
 </section>

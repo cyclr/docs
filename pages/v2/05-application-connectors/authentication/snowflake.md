@@ -115,7 +115,4 @@ You will be asked for the following values when installing the Snowflake connect
 
 **Note**: You can install the connector without providing a warehouse, database, and schema and use methods in the `Utilities` category to list accessible warehouses, databases, and schemas.
 
-<a name="additional-information"></a>
-
-
 </section>

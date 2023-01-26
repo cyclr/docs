@@ -1,5 +1,5 @@
 ---
-title: Snowflake Information
+title: Snowflake information
 sidebar: cyclr_sidebar
 permalink: snowflake-information
 tags: [connector]
@@ -8,14 +8,9 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-<a name="creating-custom-table-rows-objects"></a>
+## Create custom Table Rows objects
 
-
-</section>
-<section class="card">
-## Creating custom Table Rows objects
-
-You can create custom `Table Rows` objects to have methods specific to a Snowflake table. This will automatically populate request and response fields for methods within the custom object. To create a custom object:
+You can create custom **Table Rows** objects to have methods specific to a Snowflake table. These objects can automatically populate request and response fields for methods within the custom object. To create a custom object:
 
 1. Go to the **Edit Connector** page for the Snowflake connector.
 2. Under the **Methods & Fields** heading, locate the **Table Rows** category and select it to expand.

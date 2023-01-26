@@ -8,10 +8,13 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-> **Note**: Depending on your firewall settings you may need to manually enable DELETE commands.
+## DELETE commands
+
+Depending on your firewall settings you may need to manually enable DELETE commands.
 
 </section>
 <section class="card">
+
 ## Available Webhooks
 
 * Customer
@@ -27,8 +30,5 @@ linkedpage: true
     * Order Updated
 * Subscriber
     * Subscriber Saved
-
-
-
 
 </section>

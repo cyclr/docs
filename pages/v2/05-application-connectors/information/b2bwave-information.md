@@ -1,5 +1,5 @@
 ---
-title: B2B Wave Connector
+title: B2B Wave information
 sidebar: cyclr_sidebar
 permalink: b2bwave-information
 tags: [connector]
@@ -8,7 +8,9 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-A list of the methods available within the B2B Wave Connector.
+## Available methods
+
+A list of the methods available within the B2B Wave connector:
 
 * **Customers**
   * **Create Customer** - Create a Customer Record

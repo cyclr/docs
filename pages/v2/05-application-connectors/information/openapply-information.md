@@ -1,5 +1,5 @@
 ---
-title: OpenApply Connector Guide
+title: OpenApply information
 sidebar: cyclr_sidebar
 permalink: openapply-information
 tags: [connector]
@@ -7,11 +7,12 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Custom Fields
+
+## Custom fields
 
 Student and Parent objects support the use of custom fields.
 
-The "Field Location" format for each of the supported methods is as follows:
+The correct **Field Location** format for each of the supported methods is as follows:
 
 | Method Name                     | Field Location                              | Example                            |
 | :------------------------------ | :------------------------------------------ | :--------------------------------- |
@@ -26,6 +27,6 @@ The "Field Location" format for each of the supported methods is as follows:
 | Search Students By Student Slug | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
 | Search Students By Tag          | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
 
-The following is a guide for adding custom fields to a method: [adding custom fields](https://docs.cyclr.com/adding-custom-fields).
+For more information, see the Cyclr documentation on how to [add custom fields to a method](https://docs.cyclr.com/adding-custom-fields).
 
 </section>
