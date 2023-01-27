@@ -52,6 +52,7 @@ If you select the **Request Format** tab, the **Default Value** column shows the
 1. In the Cyclr console, go to **Templates** > **Template Connectors** and select **Edit** on the connector you want to use.
 2. Find the category you enabled customization for, and select the **Copy this Category to create a Custom Object Category** button.
     > **Note**: The copy button is only available for categories with the [**Category Customisation Enabled**](#enable-category-customization) toggle on.
+    
 3. Select an **Object** from the dropdown or and enter a name for the custom object. Cyclr uses the **Object Name** you enter as name of the copied category.
 4. If you want to use a different mergefield value to the **Object Name**, you can enter an **Object Value**. 
 5. Select **Copy**.
