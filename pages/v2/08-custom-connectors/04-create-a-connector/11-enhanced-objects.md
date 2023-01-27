@@ -73,6 +73,6 @@ In the template builder, under **Application Connectors** in the sidebar, Cyclr 
     ![Category List](./images/enhanced_objects_8.png)
 
 
-When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps or custom fields specify ???with this account connector category. The only change to use the copied category is that you need to include the additional id when you work with a method.
+When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps or custom fields with this account connector category. The only change to use the copied category is that you need to include the additional id when you work with a method.
 
 </section>
