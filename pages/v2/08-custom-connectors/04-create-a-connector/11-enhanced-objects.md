@@ -38,7 +38,7 @@ To use a custom object in connector method calls, such as in the method endpoint
 
     ![Example EndPoint: {{instanceURL}}/services/data/{{ApiVersion}}/objects/{{CyclrObjectName}}/describe/.](./images/enhanced_objects_2.png)
 
-If you select the **Request Format** tab, the **Default Value** column shows the `CyclrObjectName` mergefield. (column of which field???)
+If you select the **Request Format** tab, the **Default Value** column shows the `CyclrObjectName` mergefield.
 
     ![Object Name Mergefield 2](./images/enhanced_objects_3.png)
 
