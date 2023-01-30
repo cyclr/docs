@@ -1,7 +1,0 @@
----
-title: Salesloft Information
-sidebar: cyclr_sidebar
-permalink: Salesloft-information
-tags: [connector]
----
-{::options parse_block_html="true" /}

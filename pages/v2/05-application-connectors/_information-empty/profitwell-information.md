@@ -1,8 +1,0 @@
----
-title: ProfitWell Information
-sidebar: cyclr_sidebar
-permalink: profitwell
-tags: [connector]
-
----
-{::options parse_block_html="true" /}

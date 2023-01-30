@@ -2,14 +2,9 @@
 ## 
 search_placeholder_text: Search for documentation...
 category_search_placeholder_text: Search for connector...
-connector_authentication_search: Search for connector authentication...
-connector_information_search: Search for connector information...
 hidden: Hidden
 togglemenu: Toggle menu
 home: Home
 toctitle: In This Article
 polltitle: Did this help?
 backtotop: Back to top
-overview: Overview
-pagelink_auth: Authentication guide
-pagelink_info: Additional information
