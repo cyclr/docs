@@ -39,7 +39,7 @@ To use a custom object in connector method calls, such as in the method endpoint
 
     ![Example EndPoint: {{instanceURL}}/services/data/{{ApiVersion}}/objects/{{CyclrObjectName}}/describe/.](./images/enhanced_objects_2.png)
 
-If you select the **Request Format** tab, the **Default Value** column shows the `CyclrObjectName` mergefield. (column of which field???)
+If you select the **Request Format** tab, the **Default Value** column shows the `CyclrObjectName` mergefield.
 
     ![Object Name Mergefield 2](./images/enhanced_objects_3.png)
 
@@ -55,6 +55,7 @@ To enable field auto-discovery, go to the **Request Format** tab and select a me
 1. In the Cyclr console, go to **Templates** > **Template Connectors** and select **Edit** on the connector you want to use.
 2. Find the category you enabled customization for, and select the **Copy this Category to create a Custom Object Category** button.
     > **Note**: The copy button is only available for categories with the [**Category Customisation Enabled**](#enable-category-customization) toggle on.
+    
 3. Select an **Object** from the dropdown or and enter a name for the custom object. Cyclr uses the **Object Name** you enter as name of the copied category.
 4. If you want to use a different mergefield value to the **Object Name**, you can enter an **Object Value**. 
 5. Select **Copy**.
@@ -75,6 +76,6 @@ In the template builder, under **Application Connectors** in the sidebar, Cyclr 
     ![Category List](./images/enhanced_objects_8.png)
 
 
-When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps or custom fields specify ???with this account connector category. The only change to use the copied category is that you need to include the additional id when you work with a method.
+When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps or custom fields with this account connector category. The only change to use the copied category is that you need to include the additional id when you work with a method.
 
 </section>
