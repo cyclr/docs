@@ -22,7 +22,8 @@ To create custom objects, you need to copy a category to use for the custom obje
 1. Go to **Connectors** > **Custom Connectors** in the console, and select the **Releases** button for the connector you want to use.
 2. Select the **Edit** button on release you want to use, and go to the **Methods** tab. 
 3. Expand the category that you want to use, and select **Edit Category**.
-4. Turn on the **Category Customisation Enabled** toggle and select an appropriate trigger from the **Object Lookup Trigger** dropdown.
+4. Turn on the **Category Customisation Enabled** toggle.
+5. **Optional**: Select an appropriate trigger from the **Object Lookup Trigger** dropdown.
 
     ![Object Lookup Trigger](./images/enhanced_objects_1.png)
 
@@ -34,7 +35,7 @@ To create custom objects, you need to copy a category to use for the custom obje
 To use a custom object in connector method calls, such as in the method endpoint URL or the request body, you can use the system mergefield `CyclrObjectName`. Cyclr populates the `CyclrObjectName` mergefield with the name or value of the category.
 
 1. Select the **Edit** button for the method you want to use, and make sure the **Method Type** is correct.
-2. Add the`CyclrObjectName` mergefield to the **EndPoint** URL and select **Save**.
+2. Add the `CyclrObjectName` mergefield to the **EndPoint** URL and select **Save**.
 
     ![Example EndPoint: {{instanceURL}}/services/data/{{ApiVersion}}/objects/{{CyclrObjectName}}/describe/.](./images/enhanced_objects_2.png)
 
@@ -42,7 +43,9 @@ If you select the **Request Format** tab, the **Default Value** column shows the
 
     ![Object Name Mergefield 2](./images/enhanced_objects_3.png)
 
-3. To enable field auto-discovery, go to the **Request Format** tab and select a method from the **Custom Fields Lookup Method** dropdown. The field auto discovery method can use the `CyclrObjectName` system mergefield, but dynamic field discovery uses the copied category so that the auto discovery method to be called can be located in any category.
+### Enable field auto-discovery
+
+To enable field auto-discovery, go to the **Request Format** tab and select a method from the **Custom Fields Lookup Method** dropdown. The field auto discovery method can use the `CyclrObjectName` system mergefield, but dynamic field discovery uses the copied category so that the auto discovery method to be called can be located in any category.
 
 </section>
 <section class="card">
@@ -60,7 +63,7 @@ If you select the **Request Format** tab, the **Default Value** column shows the
 
 To identify the copied categories, the category list displays the new category with a copy symbol. Categories that you create are sorted alphabetically below the original category. Copied categories have a **Delete** button, and if you don't select a pre-existing **Object**, the category also has an **Edit** button.
 
-If you enabled [field auto-discovery](#set-up-the-connector-method-category), you can select a method from the copied category to invoke the field auto-discovery. You can also **Add Fields** or **Generate Fields** manually if you expand the method, and the fields remain associated with the copied category.
+If you enabled [field auto-discovery](#enable-field-auto-discovery), you can select a method from the copied category to invoke the field auto-discovery. You can also **Add Fields** or **Generate Fields** manually if you expand the method, and the fields remain associated with the copied category.
 
 </section>
 <section class="card">
