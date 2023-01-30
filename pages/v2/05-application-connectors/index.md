@@ -6,12 +6,14 @@ tags: [connector-guides]
 layout: page
 toc: false
 categorylayout: category_search
-introtitle: Application connector guides
+searchtext: connector_authentication_search
+introtitle: Application connector authentication
 introtext: >-
-    Search for specific application connectors in order to find their authentication guides and other additional information, or browse the available application connectors on the Cyclr website.
+    Search for a specific application connector in order to find the authentication guide on how to set up the connector with Cyclr. For other information on the connector, see [Application connector information](additional-information).
 menus:
   mainmenu:
     title: Application connectors
+    overview: Connector authentication
     identifier: connector-authentication
     icon: navconnectors
     weight: 5

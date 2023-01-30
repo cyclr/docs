@@ -2261,6 +2261,9 @@ section {
 @include media-breakpoint-up(lg) {
     #col-toc {
         margin-top: 56px;
+        &.linkedpage {
+            margin-top: 77px;
+        }
     }
 }
 
