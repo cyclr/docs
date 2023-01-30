@@ -29,7 +29,7 @@ Please ensure you have the following things in place before you begin.
 
 Once you have confirmed the above, you can download our Gravity Forms plugin.
 
-[Download Cyclr Gravity Forms Plugin](http://files.cyclr.com/cyclr-plugins/cyclr-webhooks.zip)
+[Download Cyclr Gravity Forms Plugin](https://files.cyclr.com/cyclr-plugins/cyclr-webhooks.zip)
 
 ### Installation
 

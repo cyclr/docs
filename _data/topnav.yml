@@ -9,8 +9,8 @@ items:
         - title: Connector Library
           external_url: https://cyclr.com/connectors
           active: true
-        - title: Changelog
-          external_url: https://cyclr.com/changelog
+        - title: Release notes
+          external_url: https://docs.cyclr.com/release-notes
           active: false
         - title: Blog
           external_url: https://cyclr.com/blog
