@@ -1,7 +1,0 @@
----
-title: WebEOC Information
-sidebar: cyclr_sidebar
-permalink: webeoc-information
-tags: [connector]
----
-{::options parse_block_html="true" /}
