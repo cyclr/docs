@@ -185,6 +185,8 @@ If a Method uses Paging, this function is called after each page is retrieved.
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **statusCode**: The response status code.
+*   **reasonPhrase*: The response reason phrase.
 *   **return**: true
 
 ### after_action_paging
