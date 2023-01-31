@@ -1,54 +1,53 @@
-$('#mysidebar').height($(".nav").height());
+const sidenav = document.getElementById("sidebarMenu");
+const sidenavInstance = mdb.Sidenav.getInstance(sidenav);
+let btnbacktotop = document.getElementById("btn-back-to-top");
+let innerWidth = null;
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction();
+};
 
-$(document).ready(function () {
-
-    //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
-    // position as your scroll. if you have a lot of nav items, this height may not work for you.
-    var h = $(window).height();
-    //console.log (h);
-    if (h > 800) {
-        $("#mysidebar").attr("class", "nav affix");
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        btnbacktotop.style.display = "block";
+    } else {
+        btnbacktotop.style.display = "none";
     }
-    // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
-    $('[data-toggle="tooltip"]').tooltip({
-        placement: 'top'
-    });
+}
 
-    /**
-     * AnchorJS
-     */
-    anchors.add('h2,h3,h4,h5');
+function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
-});
+const setMode = (e) => {
+  // Check necessary for Android devices
+  if (window.innerWidth === innerWidth || !sidenav) {
+    return;
+  }
+  innerWidth = window.innerWidth;
 
-// needed for nav tabs on pages. See Formatting > Nav tabs for more details.
-// script from http://stackoverflow.com/questions/10523433/how-do-i-keep-the-current-tab-active-with-twitter-bootstrap-after-a-page-reload
-$(function () {
-    var json, tabsState;
-    $('a[data-toggle="pill"], a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        var href, json, parentId, tabsState;
+  if (window.innerWidth < 1400) {
+    sidenavInstance.changeMode("over");
+    sidenavInstance.hide();
+  } else {
+    sidenavInstance.changeMode("side");
+    sidenavInstance.show();
+  }
+};
 
-        tabsState = localStorage.getItem("tabs-state");
-        json = JSON.parse(tabsState || "{}");
-        parentId = $(e.target).parents("ul.nav.nav-pills, ul.nav.nav-tabs").attr("id");
-        href = $(e.target).attr('href');
-        json[parentId] = href;
+setMode();
 
-        return localStorage.setItem("tabs-state", JSON.stringify(json));
-    });
+//Stop "Scroll Chaining" when using the Side Nav
+if (sidenav) {
+    sidenavInstance._perfectScrollbar.settings.wheelPropagation = false;
+}
 
-    tabsState = localStorage.getItem("tabs-state");
-    json = JSON.parse(tabsState || "{}");
+// Event listeners
+window.addEventListener("resize", setMode);
+btnbacktotop.addEventListener("click", backToTop);
 
-    $.each(json, function (containerId, href) {
-        return $("#" + containerId + " a[href=" + href + "]").tab('show');
-    });
-
-    $("ul.nav.nav-pills, ul.nav.nav-tabs").each(function () {
-        var $this = $(this);
-        if (!json[$this.attr("id")]) {
-            return $this.find("a[data-toggle=tab]:first, a[data-toggle=pill]:first").tab("show");
-        }
-    });
-});

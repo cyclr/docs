@@ -1,0 +1,17 @@
+---
+title: Passare Authentication
+sidebar: cyclr_sidebar
+permalink: passare-connector
+tags: [connector]
+
+---
+
+## Passare setup
+
+Before you install your Passare Connector, you need to generate an API Key for your Passare account. For more information on how to get the API Key, contact your Passare Support Team: [support@passare.com](mailto:support@passare.com).
+
+## Cyclr setup 
+
+Cyclr asks for the Passare account's **API Key** when you install the Passare connector into an account.
+
+> **Note**: You can use different authentication details for different accounts.

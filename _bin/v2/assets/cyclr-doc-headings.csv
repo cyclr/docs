@@ -1,0 +1,689 @@
+3DCart.md,h2, Partner Setup
+3DCart.md,h4, Retrieving OAuth2 Details
+3DCart.md,h3, Cyclr Setup
+Amadeus.md,h3,Retrieving OAuth2 Details
+Amadeus.md,h3,Cyclr Setup
+CampusIvy.md,h2, Partner Setup
+CampusIvy.md,h4, Retrieving OAuth2 Details
+CampusIvy.md,h3, Cyclr Setup
+Cardpointe.md,h2, Partner Setup
+Cardpointe.md,h4, Retrieving Login Details
+Cardpointe.md,h3, Cyclr Setup
+Cavelo.md,h2, Partner Setup
+Cavelo.md,h3, Cyclr Setup
+CoinGecko.md,h2, Partner Setup
+FluentCommerce.md,h2, Partner Setup
+FluentCommerce.md,h3, Cyclr Setup
+Follow-Up-Boss.md,h2, Partner Setup
+Follow-Up-Boss.md,h4, Retrieving public and private key
+Follow-Up-Boss.md,h3, Cyclr Setup
+GoCardless.md,h3, Partner Setup
+GoCardless.md,h3, Preparation 
+GoCardless.md,h3, Creating a oAuth App
+GoCardless.md,h3, Cyclr Setup
+GoDaddy.md,h2, Partner Setup
+GoDaddy.md,h4, Retrieving API Key and Secret
+GoDaddy.md,h3, Cyclr Setup
+Google_Analytics.md,h2, Authentication
+Google_Analytics.md,h2, List Metrics Method
+Google_Analytics.md,h3, Request Fields Setup
+Google_Analytics.md,h2, Custom Method Setup
+Google_Analytics.md,h2, Producing a [UA Query Explorer](https://ga-dev-tools.web.app/query-explorer/) Report
+High Level.md,h2, Partner Setup
+High Level.md,h4, Retrieving API key
+High Level.md,h3, Cyclr Setup
+Imonggo.md,h2, Partner Setup
+Imonggo.md,h4, Retrieving Auth Details
+Imonggo.md,h3, Cyclr Setup
+JobNimbus.md,h2, Partner Setup
+JobNimbus.md,h4, Login / Sign Up
+JobNimbus.md,h4, Retrieving API Key Details
+JobNimbus.md,h3, Cyclr Setup
+LiveForce.md,h3, Retrieving OAuth2 Details
+LiveForce.md,h3, Cyclr Setup
+Mailkit.md,h2, Partner Setup
+Mailkit.md,h3, Retrieving Authentication Details
+Mailkit.md,h3, Cyclr Setup
+Mailkit.md,h3, Partner Level
+Mailkit.md,h3, Account Level
+Marketron.md,h2, Partner Setup
+Marketron.md,h4, Retrieving Auth Details
+Marketron.md,h3, Cyclr Setup
+MemoQ.md,h2, Partner Setup
+MemoQ.md,h4, Retrieving OAuth2 Details
+MemoQ.md,h3, Cyclr Setup
+MemoQ.md,h3, Setting Up a Translation
+PhoneBurner.md,h2, Partner Setup
+PhoneBurner.md,h4, Retrieving public and private key
+PhoneBurner.md,h3, Cyclr Setup
+ProfitWell.md,h2, ProfitWell
+ProfitWell.md,h3, ProfitWell Authentication Setup 
+ProfitWell.md,h3, Connector Setup 
+Salesforce_External_ID_Setup.md,h1, Salesforce Upsert Methods Setup
+Salesforce_External_ID_Setup.md,h2, External ID Creation - Salesforce Classic
+Salesforce_External_ID_Setup.md,h2, External ID Creation - Lightning Experience
+Salesforce_External_ID_Setup.md,h2, Using the Upsert Methods
+Salesloft.md,h2, Partner Setup
+Salesloft.md,h4, Retrieving OAuth2 Details
+Salesloft.md,h3, Cyclr Setup
+SproutSend.md,h2, Partner Setup
+SproutSend.md,h4, Retrieving OAuth2 Details
+SproutSend.md,h3, Cyclr Setup
+Tenstreet.md,h2, Cyclr Setup
+Tenstreet.md,h3, Partner Setup
+Totango.md,h2, Partner Setup
+Totango.md,h4, Retrieving OAuth2 Details
+Totango.md,h3, Cyclr Setup
+Unbounce.md,h3, Retrieving API Key Details
+Unbounce.md,h3, Cyclr Setup
+Velocify.md,h2, Authentication 
+Velocify.md,h2, Creating Leads in Velocify
+Voucherify.md,h2, Partner Setup
+Voucherify.md,h4, Retrieving OAuth2 Details
+Voucherify.md,h3, Cyclr Setup
+Voyado.md,h2, Partner Setup
+Voyado.md,h3, Cyclr Setup
+access_crm_setup.md,h2, Setup
+access_crm_setup.md,h3, Connector Setup
+access_crm_setup.md,h2, User Guide
+access_crm_setup.md,h3, Handling Calculated Fields
+act.md,h1, Act!
+act.md,h2, Partner Setup
+activecampaign.md,h1, ActiveCampaign
+activecampaign.md,h2, Partner Setup
+adestra_setup.md,h2, API user 
+adestra_setup.md,h2, Authenticating the connector
+adestra_setup.md,h2, Notes
+administrate.md,h1, Administrate
+administrate.md,h2, Partner Setup
+adobe-campaign.md,h1, Adobe Campaign
+adobe-campaign.md,h2, Partner Setup
+adobe-campaign.md,h3, 1. Create a project in Adobe Developer Console
+adobe-campaign.md,h3, 2. Add an API to your project using Service Account authentication
+adobe-campaign.md,h3, 3. Tenant ID
+adobe-campaign.md,h3, 4. Authenticate your connector
+adp.md,h2, Partner Setup
+adp.md,h3, Cyclr Setup
+aircall.md,h1, Aircall
+aircall.md,h2, Partner Setup
+airtable.md,h2, Partner Setup
+airtable.md,h4, Retrieving API Key
+airtable.md,h4, Retrieving Base ID and Table Name
+airtable.md,h3, Cyclr Setup
+appdirect-connector.md,h1, App Direct
+appdirect-connector.md,h2, Setup
+appdirect-connector.md,h3, Preparation 
+appdirect-connector.md,h3, Creating a oAuth App
+appdirect-connector.md,h3, Cyclr Setup
+asana.md,h2, Partner Setup
+asana.md,h3, oAuth Application Creation
+asana.md,h3, Cyclr Setup
+aws-backup.md,h2, Partner Setup
+aws-backup.md,h4, Retrieving API Details
+aws-backup.md,h3, Connector Setup
+aws-ec2.md,h2, Partner Setup
+aws-ec2.md,h4, Retrieving API Details
+aws-ec2.md,h3, Connector Setup
+aws-s3.md,h3, Important Note about Bucket Names
+aws-s3.md,h2, Partner Setup
+aws-s3.md,h4, Retrieving API Details
+aws-s3.md,h3, Connector Setup
+azure-devops-connector.md,h2, Preparation
+azure-devops-connector.md,h2, Registering an Application
+azure-devops-connector.md,h2, Partner Setup
+azure-devops-connector.md,h2, Connector Setup
+azure-devops-connector.md,h2, Setting Scopes/InvalidScope Error
+azure_ad_connector_docs.md,h2, Authentication
+azure_ad_connector_docs.md,h3, Connector Setup
+bamboohr_setup.md,h2, Setup
+bamboohr_setup.md,h3, Company Subdomain
+bamboohr_setup.md,h3, API Key
+bamboohr_setup.md,h3, Connector Authentication
+bigquery.md,h2, Google BigQuery 
+bigquery.md,h3, Setup Google OAuth2 Credentials 
+bigquery.md,h3, Google Big Query Settings 
+bigquery.md,h3, Connector Setup 
+bigquery.md,h3, Allowing Other Users Access To a Dataset 
+blackcurve.md,h2, Partner Setup
+blackcurve.md,h4, Retrieving Client Key and Secret
+blackcurve.md,h3, Cyclr Setup
+bntouch_docs.md,h2, Setup
+bntouch_docs.md,h3, Creating a Lead
+box.md,h2, Authentication
+box.md,h3, Box Console
+box.md,h3, Cyclr Console
+breathehr.md,h2, Breathe HR 
+breathehr.md,h3, How to obtain an API key in BreatheHR
+breathehr.md,h3, Connector Setup 
+bridal-live.md,h2, Partner Setup
+bridal-live.md,h4, Retrieving Retailer ID and API Key
+bridal-live.md,h3, Cyclr Setup
+brightspace.md,h2, Partner Setup
+brightspace.md,h4, Retrieving Client ID and Secret
+brightspace.md,h3, Cyclr Setup
+bullhorn.md,h1, Bullhorn
+bullhorn.md,h2, Partner Setup
+bullhorn.md,h2, FAQ
+bullhorn.md,h3, Apache Tomcat Error
+bullhorn.md,h2, User Guide
+bullhorn.md,h3, Retrieving Custom Objects
+calendly_setup.md,h2, Setup
+calendly_setup.md,h3, Connector Setup
+canvas.md,h2, Partner Setup 
+canvas.md,h3, Instructure Canvas OAuth 
+canvas.md,h3, Instructure Canvas Access Token 
+canvas.md,h3, Connector Setup 
+capsule-v2.md,h1, Capsule v2
+casavi_setup.md,h2, Casavi
+casavi_setup.md,h3, How to obtain an API key in Casavi
+casavi_setup.md,h3, Connector Setup
+caspio.md,h2, Partner Setup
+caspio.md,h3, Login / Sign Up
+caspio.md,h3, Setting up your Account
+caspio.md,h2, Cyclr Setup
+caspio.md,h2, Utilising Custom Object Categories
+chargifyadmin.md,h2, Partner Setup
+chargifyadmin.md,h4, Connector Setup
+clicksend.md,h2, Partner Setup
+clicksend.md,h3, Access Token
+clicksend.md,h3, Connector Setup
+clover.md,h1, Clover
+clover.md,h4, Setup in Clover
+clover.md,h4, Setup in Cyclr
+clover.md,h4, Install/Authenticate a connector
+clover.md,h4, Webhooks
+connectwise-manage.md,h2, Partner Setup
+connectwise-manage.md,h4, Retrieving public and private key
+connectwise-manage.md,h4, Retrieving Client ID
+connectwise-manage.md,h3, Cyclr Setup
+constant-contact.md,h2, Constant Contact Setup
+constant-contact.md,h3, Setting up an application in Constant Contact
+constant-contact.md,h3, Setting up your Constant Contact Connector
+copper.md,h2, API Key
+counterpoint.md,h2, Counterpoint
+counterpoint.md,h3, Authentication Details Setup
+counterpoint.md,h3, Connector Setup
+cyance.md,h2, Partner Setup
+cyance.md,h4, Retrieving Auth Details
+cyance.md,h3, Cyclr Setup
+devicepilot.md,h1, Device Pilot
+devicepilot.md,h2, Partner Setup
+devicepilot.md,h3, API Key Setup
+devicepilot.md,h3, Connector Setup
+devicepilot.md,h3, Updating and Inserting Device Data
+devicepilot.md,h3, Webhook Support
+digital-humani.md,h2, Partner Setup
+digital-humani.md,h4, Login / Sign Up
+digital-humani.md,h4, Setting up your Account
+digital-humani.md,h2, Cyclr Setup
+disciple_media.md,h2, Partner Setup
+disciple_media.md,h4, Retrieving OAuth2 Details
+disciple_media.md,h3, Cyclr Setup
+disciple_media.md,h3, Using Webhooks
+dixa.md,h2, Partner Setup
+dixa.md,h4, Retrieving API Key
+dixa.md,h3, Cyclr Setup
+doc_360_readme.md,h2, Authentication
+doc_360_readme.md,h3, Document360 Console
+doc_360_readme.md,h3, Cyclr Console
+drift.md,h2, Partner Setup
+drift.md,h4, Retrieving OAuth2 Details
+drift.md,h3, Cyclr Setup
+dropbox.md,h2, Partner Setup
+dropbox.md,h4, Retrieving Client ID and Client Secret
+dropbox.md,h3, Cyclr Setup
+dynamics-crm-custom-objects.md,h1, Dynamics CRM Custom Objects Connector Setup
+dynamics-crm-custom-objects.md,h3, Installation
+dynamics-crm-custom-objects.md,h3, Find the Entity Name
+dynamics-crm-online.md,h1, Dynamics CRM
+dynamics-crm-online.md,h3, Error: AADSTS500011
+dynamics-crm-online.md,h3, Error: AADSTS65001
+dynamics-crm-online.md,h3, Additional Filter Condition
+dynamics-crm-online.md,h3, Additional Fields To Return
+emarsys.md,h2, Authentication
+engagement_multiplier_docs.md,h2, Authentication Credentials
+engagement_multiplier_docs.md,h2, Authenticate The Connector
+engagement_multiplier_docs.md,h2, User Guide
+envision.md,h2, Envision
+envision.md,h3, API Key and login details
+envision.md,h3, Connector Setup
+facebook-marketing.md,h1, Facebook Marketing API
+facebook-marketing.md,h2, Create Ad Set "Promoted Object"
+facebook-messenger.md,h1, Facebook Messenger API
+foodtec_docs.md,h2, Authentication Credentials
+foodtec_docs.md,h2, Connector Setup
+franconnect.md,h2, FranConnect
+franconnect.md,h3, Authentication Details Setup
+franconnect.md,h3, Connector Setup
+freshbooks-classic.md,h2, Authentication
+freshbooks-classic.md,h2, Finding your authentication token
+freshbooks-classic.md,h2, Authenticating the connector
+freshdesk-messaging.md,h2, Partner Setup
+freshdesk-messaging.md,h3, Retrieving API Key
+freshdesk-messaging.md,h3, Cyclr Setup
+freshdesk.md,h2, Webhooks
+fullcontact.md,h1, FullContact
+gingr.md,h2, Partner Setup
+gingr.md,h4, Retrieving API key
+gingr.md,h3, Cyclr Setup
+github.md,h2, Setting up your GitHub app
+github.md,h2, Authenticating your GitHub Cyclr Connector
+google-authentication.md,h2,  Google Partner Setup
+google-authentication.md,h2, Before Starting
+google-authentication.md,h2, Registering Your Application
+google-authentication.md,h3, Create a Project
+google-authentication.md,h3, Setting up Application Details
+google-authentication.md,h3, Creating Google Credentials
+google-authentication.md,h2, Enable Google APIs
+google-authentication.md,h2, Additional Setup for Google AdWords
+google-authentication.md,h2,  Possible Issues with Refresh Tokens
+google-calendar-workspace.md,h2, Account Level Setup
+google-calendar-workspace.md,h4, Create Service Account with appropriate permissions
+google-calendar-workspace.md,h4, Enable domain-wide delegation
+google-calendar-workspace.md,h4, Grant access to the service account
+google-calendar-workspace.md,h3, Cyclr Setup
+google-data-studio.md,h2, Google Data Studio
+google-data-studio.md,h3, Apps Script Setup
+google-data-studio.md,h3, Data Source Configuration
+google-data-studio.md,h3, Data Source Fields
+google-data-studio.md,h3, Apps Script Customisation
+guestline.md,h2, Partner Setup
+guestline.md,h4, Retrieving API details
+guestline.md,h3, Cyclr Setup
+gym_sales.md,h3, Cyclr Setup
+heartland.md,h1, Heartland
+heartland.md,h2, Partner Setup
+heartland.md,h3, API Key Setup
+heartland.md,h3, Connector Setup 
+hubspot.md,h3, HubSpot Setup
+hubspot.md,h3, Scopes
+hubspot.md,h4, IMPORTANT NOTE (November 2021)
+hubspot.md,h3, Permissions
+hubspot.md,h3, Connector Setup
+hubspot.md,h3, Account Selection
+hubspot.md,h3, Connector Parameters 
+hubspot.md,h3, Webhook Setup
+ibexa.md,h2, Partner Setup
+ibexa.md,h3, Cyclr Setup
+idio.md,h2, Connector Setup
+idio.md,h2, Using the Connector
+infusionsoft_docs.md,h2, Connector Setup
+infusionsoft_docs.md,h3, Obtaining Authentication Credentials
+infusionsoft_docs.md,h4, Client ID And Client Secret
+infusionsoft_docs.md,h3, Authenticate The Connector
+infusionsoft_docs.md,h3, User Guide
+ingenious-vendor.md,h2, Partner Setup
+ingenious-vendor.md,h4, Setting the correct API key 
+ingenious-vendor.md,h3, Cyclr Setup
+insellerate.md,h2, Authentication
+insider_docs.md,h2, Connector Setup
+insider_docs.md,h2, User Guide
+insider_docs.md,h3, Unifier Field (Required)
+insider_docs.md,h3, Sending Custom Data (Optional)
+installing-bronto.md,h1, Bronto
+instantco.md,h2, Partner Setup
+instantco.md,h4, Retrieving API Key
+instantco.md,h3, Cyclr Setup
+intelliflo_setup_guide.md,h2, Authentication
+intelliflo_setup_guide.md,h3, App Setup
+intelliflo_setup_guide.md,h3, Obtaining Credentials
+intelliflo_setup_guide.md,h3, Connector Setup
+intercom.md,h1, Intercom
+invenias.md,h2, Partner Setup
+invenias.md,h4, Retrieving Client ID and Secret
+invenias.md,h3, Cyclr Setup
+jobnimbus-authentication.md,h2, Partner Setup
+jobnimbus-authentication.md,h4, Login / Sign Up
+jobnimbus-authentication.md,h4, Retrieving API Key Details
+jobnimbus-authentication.md,h3, Cyclr Setup
+jotform_setup.md,h2, Setup
+jotform_setup.md,h3, API Key
+jotform_setup.md,h3, API Domain
+jotform_setup.md,h3, File Access
+jotform_setup.md,h3, Connector Setup
+leadmailbox.md,h2, Authentication
+leadmailbox.md,h2, Post Leads Method
+less_annoying_crm_docs.md,h2, Connector Setup
+less_annoying_crm_docs.md,h3, Obtaining Authentication Credentials
+less_annoying_crm_docs.md,h3, Authenticate The Connector
+less_annoying_crm_docs.md,h3, User Guide
+liana_cms_docs.md,h2, Connector Setup
+liana_cms_docs.md,h3, API Key
+liana_cms_docs.md,h3, Authenticate The Connector
+lianacem.md,h1, LianaCEM
+listrak-rest.md,h2, Partner Setup
+listrak-rest.md,h4, Retrieving client ID and secret
+listrak-rest.md,h3, Cyclr Setup
+lizzy.md,h2, Partner Setup
+lizzy.md,h4, API Key
+lizzy.md,h3, Cyclr Setup
+magento-2.md,h3, Bulk Endpoints
+magento-2.md,h3, Webhooks
+magento_2_webhooks.md,h3, Available Webhooks
+mailchimp.md,h2, Partner Setup
+mailchimp.md,h3, Setting up an application in Mailchimp
+managebac.md,h2, Partner Setup
+managebac.md,h4, Retrieving an API Key
+managebac.md,h3, Cyclr Setup
+marketo_import_export.md,h2, Authentication
+marketo_import_export.md,h3, Cyclr Setup
+marketo_import_export.md,h2, Bulk Import/Export
+marketo_import_export.md,h3, Import
+marketo_import_export.md,h3, Export
+matchcraft.md,h2, Partner Setup
+merecatch.md,h2, Partner Setup
+merecatch.md,h3, Cyclr Setup
+microsoft_education.md,h3, Azure Active Directory OAuth Application
+microsoft_education.md,h3, Permissions
+microsoft_education.md,h3, Connector Setup
+mondaydotcom_setup.md,h2, Authentication
+mondaydotcom_setup.md,h3, API Key
+mondaydotcom_setup.md,h3, Board ID
+mondaydotcom_setup.md,h3, Connector Setup
+moodle.md,h2, Partner Setup
+moodle.md,h3, Setting up an application in Moodle
+mri.md,h2, Partner Setup
+mri.md,h3, Retrieving Username
+mri.md,h3, Cyclr Setup
+ms-teams.md,h2, Partner Setup
+ms-teams.md,h3, Azure Active Directory OAuth Application
+ms-teams.md,h3, Permissions
+ms-teams.md,h3, Cyclr Setup
+myob-accountright.md,h3, Register with MYOB
+myob-accountright.md,h3, Creating an MYOB App
+myob-accountright.md,h3, Requirements
+myob-accountright.md,h3, Selecting an MYOB Company File
+netsuite.md,h2, RESTlet Installation
+netsuite.md,h3, Locating your NetSuite Account ID
+netsuite.md,h3, Upload the RESTlet script to NetSuite
+netsuite.md,h3, Deploy the RESTlet script
+netsuite.md,h3, Create an integration in NetSuite
+netsuite.md,h3, Create an access token
+netsuite.md,h2, Setting select and multiselect Fields
+netsuite.md,h2, Filtering Objects 
+netsuite.md,h3, Multiple Filter Conditions
+netsuite.md,h3, Operators and Valid Field Types
+netsuite.md,h2, NetSuite Saved Search to return 1000+ records
+netsuite_suitetalk_rest_setup.md,h2, NetSuite Setup
+netsuite_suitetalk_rest_setup.md,h3, Create An Integration
+netsuite_suitetalk_rest_setup.md,h3, Finding Your Account ID
+netsuite_suitetalk_rest_setup.md,h3, Enable Features
+netsuite_suitetalk_rest_setup.md,h3, Create A Role
+netsuite_suitetalk_rest_setup.md,h3, Assign Role To User
+netsuite_suitetalk_rest_setup.md,h3, Create An Access Token
+netsuite_suitetalk_rest_setup.md,h2, Connector Setup
+netsuite_suitetalk_rest_setup.md,h2, Troubleshooting Authentication Errors
+notion.md,h2, Partner Setup
+notion.md,h3, Creating OAuth2 Application
+notion.md,h3, Cyclr Setup
+novadine.md,h2, Client Setup
+novadine.md,h3, Cyclr Setup
+office-365.md,h3, Azure Active Directory OAuth Application
+office-365.md,h3, Permissions
+office-365.md,h3, Connector Setup
+oncehub.md,h2, Partner Setup
+oncehub.md,h4, Retrieving API key
+oncehub.md,h3, Cyclr Setup
+openapply_setup.md,h2, Setup
+openapply_setup.md,h3, Client ID & Client Secret
+openapply_setup.md,h3, OpenApply Account (name)
+openapply_setup.md,h3, Connector Setup
+openapply_setup.md,h2, User Guide
+openapply_setup.md,h3, Custom Fields
+opencrm_setup.md,h2, Authentication
+opencrm_setup.md,h3, API Key and Pass Key
+opencrm_setup.md,h3, OpenCRM Account
+opencrm_setup.md,h3, Connector Setup
+opencrm_setup.md,h2, Adding Custom Fields
+optimizely.md,h2, Partner Setup
+optimizely.md,h4, Retrieving OAuth2 Details
+optimizely.md,h3, Cyclr Setup
+payjunction.md,h2, Partner Setup
+payjunction.md,h3, PayJunction Details
+payjunction.md,h3, Connector Setup
+paypro-global.md,h1, PayPro Global
+paypro-global.md,h2, Setup
+paytrace.md,h2, Partner Setup
+paytrace.md,h4, Login / Sign Up
+paytrace.md,h4, Setting up your Account
+paytrace.md,h3, Cyclr Setup
+peoplehr.md,h2, Partner Setup
+peoplehr.md,h3, PeopleHR API key
+peoplehr.md,h3, Connector Setup 
+petexec_setup.md,h2, Setup
+petexec_setup.md,h3, Client ID & Client Secret
+petexec_setup.md,h3, Account Name
+petexec_setup.md,h3, Connector Setup
+pingone.md,h1, Partner Setup
+pingone.md,h2, PingOne Setup – Register Your Application
+pingone.md,h2, Cyclr Setup
+pipedrive.md,h1, Pipedrive Integration Workflow Building Examples
+podio_docs.md,h2, Authentication
+podio_docs.md,h3, Podio Interface
+podio_docs.md,h3, Cyclr Interface
+podio_docs.md,h2, User Guide
+podio_docs.md,h3, Obtaining the App ID
+podio_docs.md,h3, Rate-Limits
+pomelo-pay.md,h2, Partner Setup
+pomelo-pay.md,h4, Retrieving API Key
+pomelo-pay.md,h3, Cyclr Setup
+poweroffice-go.md,h2, Partner Setup
+poweroffice-go.md,h4, Retrieving application key and client key
+poweroffice-go.md,h3, Cyclr Setup
+purple.md,h2, Partner Setup
+purple.md,h4, Retrieving public and private key
+purple.md,h3, Cyclr Setup
+quickbooks.md,h3, Creating an App
+quickbooks.md,h3, Setting up the connector
+qwary.md,h2, Partner Setup
+qwary.md,h3, Qwary Setup
+qwary.md,h3, Cyclr Setup
+retail_express.md,h2, Partner Setup
+retail_express.md,h4, Retrieving Authentication Details
+retail_express.md,h3, Cyclr Setup
+ringcentral.md,h2, Partner Setup
+ringcentral.md,h3, Sandbox Warning
+rockgympro.md,h2, Authentication
+rockgympro.md,h3, Finding your API username and password
+rybbon_setup_docs.md,h2, Connector Setup
+rybbon_setup_docs.md,h3, Obtaining Authentication Credentials
+rybbon_setup_docs.md,h3, Authenticate The Connector
+sage50.md,h2, Partner Setup
+sage50.md,h4, Retrieving OAuth2 Details
+sage50.md,h3, Cyclr Setup
+sage50cloud.md,h2, Client Setup
+sage50cloud.md,h3, Setup SDATA
+sage50cloud.md,h5, User Setup
+sage50cloud.md,h5, Enable SDATA
+sage50cloud.md,h3, Allow Cyclr access to your application
+sage50cloud.md,h5, Strengthen security
+sage50cloud.md,h3, Cyclr Setup
+salesforce-custom-objects.md,h2, Accessing Custom Objects in Salesforce
+salesforce-custom-objects.md,h4, Finding the API name in Salesforce (Lightning)
+salesforce-custom-objects.md,h4, Finding the API name in Salesforce (Classic)
+salesforce-custom-objects.md,h4, Using the Custom Object within Cyclr
+salesforce.md,h1, Partner Setup
+salesforce.md,h2, Salesforce Setup – Register Your Application
+salesforce.md,h3, Introduction
+salesforce.md,h3, Create your App within Salesforce
+salesforce.md,h4, Basic Information
+salesforce.md,h4, API (Enable OAuth Settings)
+salesforce.md,h3, Cyclr Setup
+salesforce.md,h2, Enduser Salesforce Account Setup
+salesforce.md,h2, FAQ
+salesforce.md,h3, Expired access/refresh token errors
+salesforce.md,h3, Disabling Assignment Rules
+salesforce.md,h3, Working with CSV documents
+salesforceSoap.md,h2, Partner Setup
+salesforceSoap.md,h4, Retrieving Details
+salesforceSoap.md,h3, Cyclr Setup
+salesforce_chatter.md,h1, Salesforce Chatter
+salesforce_chatter.md,h3, **Introduction**
+salesforce_chatter.md,h3, **Create your App within Salesforce:**
+salesforce_chatter.md,h4, **Basic Information**
+salesforce_chatter.md,h4, **API (Enable OAuth Settings)**
+salesforce_chatter.md,h3, Expired access/refresh token errors
+salesforce_marketing_cloud.md,h2, Authentication
+salesforce_marketing_cloud.md,h2, Upsert Custom Data Extension Rows
+salesforce_meta_setup.md,h2, Authentication
+salesforce_meta_setup.md,h2, Creating Custom Fields
+salesforce_meta_setup.md,h3, Create the custom field
+salesforce_meta_setup.md,h3, Set the field level security for the field
+salesforce_meta_setup.md,h3, Add the field to a layout
+salesforce_pardot.md,h2, Authentication
+salesforce_pardot.md,h3, Connector Setup
+salesnexus_docs.md,h2, Connector Setup
+salesnexus_docs.md,h3, Authenticate the connector
+sap_successfactors.md,h2, Partner Setup
+sap_successfactors.md,h3, Setting up an application in SAP SuccessFactors
+sap_successfactors.md,h3, Cyclr Setup
+scoro.md,h2, Partner Setup
+scoro.md,h4, Retrieving User Auth Details
+scoro.md,h3, Cyclr Setup
+scoro.md,h4, User Auth:
+scoro.md,h4, API Key:
+selligent.md,h1, Selligent
+selligent.md,h2, Partner Setup
+selligent.md,h3, Username & Password
+sendgrid.md,h2, Partner Setup
+service_monster_setup.md,h2, Setup
+service_monster_setup.md,h3, Authentication Credentials
+service_monster_setup.md,h3, Authenticate the Connector
+service_now_docs.md,h2, Setup
+service_now_docs.md,h3, Authentication Credentials
+service_now_docs.md,h3, Authentication
+servicefusion.md,h1, Partner Setup
+servicefusion.md,h3, Cyclr Setup
+serviceminder.md,h2, Partner Setup
+serviceminder.md,h3, Cyclr Setup
+servsuite.md,h2, ServSuite
+servsuite.md,h3, Important Note about Date Ranges
+sftp-private-key.md,h2, Host URI
+sftp-private-key.md,h2, User Name 
+sftp-private-key.md,h2, Private Key
+sftp-private-key.md,h2, Passphrase (Optional)
+sftp-private-key.md,h2, Server Time Zone
+sftp-private-key.md,h2, IP Allowlist
+shibumi.md,h2, Partner Setup
+shibumi.md,h4, Retrieving Client ID and Secret
+shibumi.md,h4, Retrieving Username and Password
+shibumi.md,h3, Cyclr Setup
+shipstation.md,h2, Partner Setup
+shipstation.md,h3, Generating a ShipStation API Key and Secret
+shipstation.md,h2, Setting up the ShipStation Connector
+shireburn_docs.md,h2, API Keys
+shireburn_docs.md,h3, Open API Key
+shireburn_docs.md,h3, Azure API Key
+shireburn_docs.md,h2, Authenticate The Connector
+shireburn_docs.md,h3, How to find your Company Code
+shopify.md,h2, Shopify
+shopify.md,h3, Setup Shopify Credentials
+shopify.md,h3, Connector Setup
+shopify_oauth.md,h2, Shopify (oAuth)
+shopify_oauth.md,h3, Setup Shopify oAuth Application
+shopify_oauth.md,h3, Connector Setup
+slack.md,h2, Partner Setup
+spark_connector_setup.md,h2, Setup
+spark_connector_setup.md,h3, Connector Setup
+spotdraft.md,h2, Partner Setup
+spotdraft.md,h3, Cyclr Setup
+spotme_docs.md,h1, Setup
+spotme_docs.md,h2, Authentication Credentials
+spotme_docs.md,h3, Workspace ID
+spotme_docs.md,h3, API Key
+spotme_docs.md,h2, Connector Setup
+sps-commerce.md,h2, Partner Setup
+sps-commerce.md,h4, Retrieving OAuth2 Details
+sps-commerce.md,h3, Cyclr Setup
+sps-commerce.md,h3, Setup Methods
+sps-commerce.md,h4, Get JSON Transaction
+squarespace.md,h2, Partner Setup
+squarespace.md,h4, API Key
+squarespace.md,h3, Cyclr Setup
+stripe_oauth.md,h2, Partner Setup
+stripe_oauth.md,h3, Retrieving Client ID
+stripe_oauth.md,h2, End-user Setup
+stripe_oauth.md,h3, Retrieving API Key
+stripe_oauth.md,h2, Cyclr Setup
+sugarcrm.md,h1, SugarCRM
+sugarcrm.md,h3, __Before you start__
+sugarcrm.md,h3, Registering a New SugarCRM "Platform" Value
+sugarcrm.md,h3, __Authentication using Cyclr's API__
+sugarcrm.md,h3, Applying Filters To Calls
+suitecrm.md,h2, Authentication
+suitecrm.md,h2, Note about Contact methods
+superphone_docs.md,h1, Setup
+superphone_docs.md,h2, API Key
+superphone_docs.md,h2, Connector Setup
+surefirecrm.md,h1, Surefire CRM
+surefirecrm.md,h2, Partner Setup
+surefirecrm.md,h3, API Key Setup
+surefirecrm.md,h3, Connector Setup
+sweap.md,h3, Sweap
+sweap.md,h3, Cyclr Setup
+synchtank.md,h1, Synchtank
+synchtank.md,h2, Partner Setup
+synchtank.md,h3, Username and Password Setup
+total-expert.md,h2, Authentication
+trustpilot_readme.md,h2, Creating An App
+trustpilot_readme.md,h2, Authentication
+trustpilot_readme.md,h2, User guide
+twilio.md,h1, Twilio Connector Guide Setup
+twiliovoice.md,h1, Twilio Voice
+twiliovoice.md,h2, Partner Setup
+twiliovoice.md,h3, Credentials Setup
+twiliovoice.md,h3, Connector Setup
+twiliovoice.md,h3, Webhook Setup
+userdotcom_docs.md,h2, Authentication
+userdotcom_docs.md,h3, Obtaining Your Authentication Credentials
+userdotcom_docs.md,h3, Connector Setup
+userdotcom_docs.md,h2, Webhooks
+vend.md,h2, Authentication
+vend.md,h3, Vend Setup
+vend.md,h3, Cyclr Setup
+vitari.md,h2, Partner Setup
+vitari.md,h3, Cyclr Setup
+vonage_docs.md,h1, Setup
+vonage_docs.md,h2, Vonage Credentials
+vonage_docs.md,h3, Application ID and Private Key
+vonage_docs.md,h3, API Key and API Secret
+vonage_docs.md,h2, Connector Setup
+vonage_docs.md,h2, User Guide
+wealthbox.md,h2, Partner Setup
+wealthbox.md,h4, Retrieving an Access Token.
+wealthbox.md,h3, Cyclr Setup
+webeoc.md,h2, Partner Setup
+webeoc.md,h3, Cyclr Setup
+wix.md,h2, Partner Setup
+wix.md,h4, Retrieving public and private key
+wix.md,h3, Cyclr Setup
+woocommerce.md,h2, Partner Setup
+woocommerce.md,h3, Before you start
+woocommerce.md,h3, Authenticating the Connector
+wordpress.md,h1, Wordpress
+wordpress.md,h2, Authentication
+wordpress.md,h3, Register Cyclr as an application
+wordpress.md,h3, Authenticate WordPress in Cyclr
+xero.md,h1, Xero Private Instance
+xero_oauth20.md,h1, Xero (OAuth2.0)
+xero_oauth20.md,h2, Partner Setup
+xero_oauth20.md,h3, Preparation 
+xero_oauth20.md,h3, Creating a Xero App
+xero_oauth20.md,h3, Finding your Client ID and Client Secret
+xero_oauth20.md,h3, Cyclr Setup
+xero_oauth20.md,h3, Payroll Sections
+xledger.md,h2, Partner Setup
+xledger.md,h4, Retrieving Certificate
+xledger.md,h4, Converting Certificate
+xledger.md,h3, Cyclr Setup
+zendesk-sell.md,h2, Partner Setup
+zendesk-sell.md,h4, Retrieving public and private key
+zendesk-sell.md,h3, Cyclr Setup
+zendesk.md,h1, Zendesk
+zoho.md,h2, Partner Setup
+zoho.md,h3, OAuth Setup
+zoho.md,h3, Connector Setup
+zoho.md,h2, Scopes
+zoom.md,h2, Partner Setup
+zoom.md,h4, Retrieving OAuth2 Details
+zoom.md,h3, Cyclr Setup

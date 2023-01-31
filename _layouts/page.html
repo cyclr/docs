@@ -1,67 +1,116 @@
 ---
 layout: default
 ---
+{% capture toc2 %}{{ content | split: "<h2" | size }}{% endcapture %}
+{% capture toc3 %}{{ content | split: "<h3" | size }}{% endcapture %}
+{% capture toc4 %}{{ content | split: "<h4" | size }}{% endcapture %}
+{% capture tocs %}{{ toc2 | plus: toc3 | plus: toc4  }}{% endcapture %}
 
-<div class="post-header">
-    <h1 class="post-title-main">{{ page.title }}</h1>
-</div>
+<div class="container p-0">
 
-{% if page.simple_map == true %}
+    <div class="row align-items-start">
+        {% if page.default_header == true %}
+        {% unless page.toc == false %}
+        <div id="col-toc" class="col-lg-3 order-lg-1 mb-40">
+            {% if tocs != "3" %}
+            <div class="card">
+                <h4 class="border-bottom border-1">{{site.data.strings.toctitle}}</h4>
+                {% include toc.html %}
+            </div>
+            {% endif %}
+        </div>
+        {% endunless %}
+        {% endif %}
+        <div class="col-lg-9 order-lg-0">
+            {% if page.default_header == true %}
+            {% if page.icon %}
+            <div class="post-header m-0">
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-row">
+                        <div class="col-2">
+                            <img class="img-fluid" src="{{ page.icon }}" alt="{{ page.title }} icon" />
+                        </div>
+                        <div class="col-10">
+                            <h1 class="post-title-main">{{ page.title }}</h1>
+                            {% if page.description %}
+                            <p>{{ page.description }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="post-header">
+                <h1 class="post-title-main m-0">{{ page.title }}</h1>
+                {% if page.introtext %}
+                <div class="post-intro my-20">
+                    {{ page.introtext }}
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+            {% endif %}
 
-<script>
+            {% if page.simple_map == true %}
+
+            <script>
     $(document).ready(function () {
         $('.box{{page.box_number}}').addClass('active');
     });
-</script>
+            </script>
 
-{% include custom/{{page.map_name}}.html %}
+            {% include custom/{{page.map_name}}.html %}
 
-{% elsif page.complex_map == true %}
+            {% elsif page.complex_map == true %}
 
-<script>
+            <script>
     $(document).ready(function () {
         $('.modalButton{{page.box_number}}').addClass('active');
     });
-</script>
+            </script>
 
-{% include custom/{{page.map_name}}.html %}
+            {% include custom/{{page.map_name}}.html %}
 
-{% endif %}
+            {% endif %}
 
-<div class="post-content">
+            <div class="post-content">
+                <div>
+                    {% if page.summary %}
+                    <div class="summary">{{page.summary}}</div>
+                    {% endif %}
 
-    {% if page.summary %}
-    <div class="summary">{{page.summary}}</div>
-    {% endif %}
+                    {{content}}
 
-    {% unless page.toc == false %}
-    {% include toc.html %}
-    {% endunless %}
+                    {% unless page.show_tags == false %}
+                    <div class="tags">
+                        {% if page.tags != null %}
+                        <b>Tags: </b>
+                        {% assign projectTags = site.data.tags.allowed-tags %}
+                        {% for tag in page.tags %}
+                        {% if projectTags contains tag %}
+                        <a href="{{ "tag_" | append: tag }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    {% endunless %}
 
-    {{content}}
+                    {% unless page.show_editme_path == false %}
+                    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+                    {% endunless %}
 
-    <div class="tags">
-        {% if page.tags != null %}
-        <b>Tags: </b>
-        {% assign projectTags = site.data.tags.allowed-tags %}
-        {% for tag in page.tags %}
-        {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+                    {% unless page.show_disqus == false %}
+                    {% include disqus.html %}
+                    {% endunless %}
+                </div>
+            </div>
+
+            {{site.data.alerts.hr_shaded}}
+        </div>
     </div>
 
-    {% if site.github_editme_path %}
-
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
+    {% if page.poll == true %}
+    {% include v2/generic/poll.html %}
     {% endif %}
 
-    {% include disqus.html %}
-
 </div>
-
-{{site.data.alerts.hr_shaded}}
-
-{% include footer.html %}

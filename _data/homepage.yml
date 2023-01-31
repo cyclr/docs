@@ -1,0 +1,64 @@
+# Cyclr doc tiles
+title: Create integration solutions effectively with Cyclr
+text: For developers and teams
+herosearch: true
+navsearch: false
+sections:
+  - title: Getting started with Cyclr
+    text: >-
+        Learn about how Cyclr works, the assets available to you, and the initial configuration settings to get started with Cyclr so you can create your own integrations.
+    tiles: 
+      - title: About Cyclr
+        img: managing-cyclr.png
+        url: about-cyclr
+      - title: Community Site 
+        img: community-site.png
+        url: community-site
+      - title: Configure  Cyclr 
+        img: using-cyclr.png
+        url: cyclr-configuration
+  - title: Embedding Cyclr
+    text: >-
+        Cyclr is built to deliver integrations directly from within your application, so we have several ways you can surface and customize Cyclr and provide a consistent experience to your users.
+    cta-text: Embedding Overview
+    cta-url: embed-cycles
+    tiles: 
+      - title: Custom UI
+        img: custom-ui.png
+        url: embed-custom-ui
+      - title: Marketplace 
+        img: embedded-marketplace.png
+        url: marketplace
+      - title: LAUNCH 
+        img: launch.png
+        url: launch
+  - title: Connectors
+    text: >-
+        Cyclr's connectors allow you to create integrations with your application in our low-code environment. Every connector is different, with some requiring particular steps to set up. which is why we have a full range of setup guides to help you on your integration journey. 
+    tiles: 
+      - title: Application Connector Guides
+        img: application-connector-guides.png
+        url: connector-guides
+      - title: Utility Connectors 
+        img: utility-connectors.png
+        url: utility-connectors
+      - title: Plugins 
+        img: plugins.png
+        url: plugins
+  - title: The Cyclr APIs
+    text: >-
+        Cyclr can be driven completely via our API so developers have a consistent way of working with hundreds of applications, regardless of their individual differences and standards. You can use the Cyclr API to bring external data into your application or to provide new, bespoke ways to deploy integrations for your users.
+    tiles: 
+      - title: Cyclr API
+        img: api-reference.png
+        url: cyclr-api
+      - title: API Examples 
+        img: api-examples.png
+        url: api-examples
+      - title: Data on Demand 
+        img: data-on-demand.png
+        url: data-on-demand 
+
+
+
+

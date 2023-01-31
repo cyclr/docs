@@ -1,0 +1,43 @@
+
+{% include toc.html %}
+
+<section>
+<h2>Connectors with v1 content</h2>
+<table>
+  <thead>
+  	<th>Connector</th>
+    <th>Slug</th>
+    <th>V1 content</th>
+  </thead>
+  <tbody>
+	{% for key_value in summarydata.v1content %}
+    <tr>
+      <td>{{ key_value[0] }}</td>
+      <td><a href="{{ key_value[1] }}-connector">{{ key_value[1] }}</a></td>
+      <td><i class="fa-solid fa-check"></i></td>
+    </tr>
+	{% endfor %}
+  </tbody>
+</table> 
+</section>
+
+<section>
+<h2>Connectors with no v1 content</h2>
+<table>
+  <thead>
+  	<th>Connector</th>
+  	<th>Slug</th>
+    <th>V1 content</th>
+  </thead>
+  <tbody>
+	{% for key_value in summarydata.nocontent %}
+    <tr>
+      <td>{{ key_value[0] }}</td>
+      <td><a href="{{ key_value[1] }}-connector">{{ key_value[1] }}</a></td>
+      <td><i class="fa-solid fa-xmark"></i></td>
+    </tr>
+	{% endfor %}
+  </tbody>
+</table> 
+</section>
+

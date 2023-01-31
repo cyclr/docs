@@ -1,0 +1,28 @@
+title: Page title
+text: This is the content for the hub page
+icon: fa icon name
+sections: 
+  - title: Section 1 
+    items: 
+      - text: content line 1 this can contain markdown
+      - text: content **line 2 ** with bold text
+    display: true
+  - title: Section 2
+    items:
+      - text: Whatever section 2 content there is
+    display: true
+  - title: Section 3
+    items:
+      - text: Whatever section 3 content there is
+    display: true
+  - title: Section 4
+    items:
+      - text: This content includes a bulleted list
+      - text: |
+          * using the markdownify function to render
+          * this content 
+          * as an unordered list
+          * for all content
+          * this md preserves the newlines
+          * as they are in the yml file
+    display: true
