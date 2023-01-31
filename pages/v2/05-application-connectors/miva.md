@@ -75,11 +75,11 @@ If step script is used with a `before_action` function to modify the body of a r
 
 ```javascript
 function before_action() {
-	if (method_request != null && method_request.fields == null) {
-		method_request.fields = ['id', 'first_name', 'last_name'];
-	}
+    if (method_request != null && method_request.fields == null) {
+	method_request.fields = ['id', 'first_name', 'last_name'];
+    }
 	
-	RegenerateHmacSignature(); /* Regenerate HMAC signature. */
+    RegenerateHmacSignature(); /* Regenerate HMAC signature. */
     return true;
 }
 ```
