@@ -1,5 +1,5 @@
 ---
-title: Miva authentication
+title: Miva Authentication
 sidebar: cyclr_sidebar
 permalink: miva-connector
 tags: [connector]
@@ -9,44 +9,79 @@ tags: [connector]
 
 ## Miva setup
 
-To authenticate your connector, you need to get these authentication details. Select the links to view the relevant Miva documentation. 
+### Get authentication details
 
-*  [Signature](https://docs.miva.com/json-api/#hmac-signature)
-*  Store [URL domain](https://docs.miva.com/json-api/#api-endpoint)
-*  [Folder](https://docs.miva.com/json-api/#api-endpoint)
-*  Store Code
-*  API access token
+To authenticate your connector, get the following details:
 
-For more information on how to obtain these details, either view the Miva [API documentation](https://docs.miva.com/json-api/#api-endpoint) or contact your Miva account manager.
+<a link="get-store-domain"></a>
 
+#### Get store domain
+
+The domain of your store is included in your store URL. For example, if your store URL is `https://mydomain.mivamerchantdev.com/` then the store domain is `mydomain.mivamerchantdev.com` .
+
+<a link="get-store-folder"></a>
+
+#### Get store folder
+
+The folder of your store is included in the admin URL of your store. For example, if the admin URL of your store is `https://mydomain.mivamerchantdev.com/mm5/admin.mvc` then the store folder is `mm5`. See [Miva's documentation on API Endpoints](https://docs.miva.com/json-api/#api-endpoint) for more information.
+
+<a link="get-store-code"></a>
+
+#### Get store code
+
+The store code of your store is included in your store URL. For example, if your store URL is `https://mydomain.mivamerchantdev.com/` then the store code is `mydomain`.
+
+<a link="generate-signature"></a>
+
+#### Generate signature
+
+You can generate a signature from the Miva admin page of your store under **Users > API tokens**. See [Miva's documentation on Authentication](https://docs.miva.com/json-api/#authentication) for more information.
+
+<a link="generate-access-token"></a>
+
+#### Generate access token
+
+You can generate an access token from the Miva admin page of your store under **Users > API tokens**. See [Miva's documentation on Authentication](https://docs.miva.com/json-api/#authentication) for more information.
 
 </section>
 <section class="card">
-
+  
 ## Cyclr setup
 
-To set up the Miva connector in Cyclr, go to your console:
+### Account setup
 
-1. Go to **Connectors** > **Application Connector Library**.
+Cyclr asks you for the below values when you install the Miva connector into an account:
 
-2. Use the search box to find the Miva connector.
+| Value            | Description                                                  |
+| :--------------- | :----------------------------------------------------------- |
+| **Domain**      | The [domain](#get-store-domain) of the store to access.      |
+| **Folder**       | The [folder](#get-store-folder) of the store to access.      |
+| **Store Code**   | The [store code](#get-store-code) of the store to access.    |
+| **Signature**    | The [HMAC-SHA256 signature](#generate-signature) to use for authentication. |
+| **Access Token** | The [access token](#generate-access-token) to use for authentication. |
 
-3. Select the **Setup Required** icon.
+> Note: You can use different details for different accounts.
 
-4. Enter the below values:
+</section>
+<section class="card">
+  
+## Additional information
 
-| Value              | Description                                 |
-| :----------------- | :------------------------------------------ |
-| **Signature** | A Miva-generated private key, used in authentication. |
-| **Domain** | The domain URL of the store you would like to access. |
-| **Folder** | The folder in the instance you are trying to access. |
-| **Store Code** | The code of the store you would like to access. To be used in request body. |
+### Generate HMAC when using a step script
 
-5. Select **Next**.
+All Miva API requests require a HMAC signature to be sent with every request. The connector automatically generates an HMAC signature before every request and uses the request body as part of the encoding when generating this.
 
-6. Enter the **API Access Token** provided to you and select **Save**.
+If step script is used with a `before_action` function to modify the body of a request, this causes a mismatch between the generated HMAC signature and the request body. You need to manually regenerate the HMAC signature in this case by inserting a `RegenerateHmacSignature()` call before the final `return true`. For example:
 
-> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
-
+```javascript
+function before_action() {
+	if (method_request != null && method_request.fields == null) {
+		method_request.fields = ['id', 'first_name', 'last_name'];
+	}
+	
+	RegenerateHmacSignature(); /* Regenerate HMAC signature. */
+    return true;
+}
+```
 
 </section>
