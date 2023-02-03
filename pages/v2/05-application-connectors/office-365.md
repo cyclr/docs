@@ -72,5 +72,8 @@ Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Applicati
 
 You are now ready to install the Connector.  When you do so you will need the **Tenant ID**.  This is the Directory ID found below the **Client ID** in the portal.
 
-
+During installation you will also see 2 authorization types: **Common** and **Organization**.
+Selecting **Common** will allow work/organization accounts and personal Microsoft accounts to be used, during authentication.
+Selecting **Organization** will only allow work/organization accounts to be used, during authentication.
+   
 </section>
