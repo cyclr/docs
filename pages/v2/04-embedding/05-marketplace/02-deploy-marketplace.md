@@ -86,7 +86,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </thead>
     <tr>
         <td>[ConnectorAuthentications]</td>
-        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
+        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
         <td></td>
     </tr>
     <tr>
@@ -262,7 +262,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </thead>
     <tr>
         <td>[ConnectorAuthentications]</td>
-        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
+        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
         <td></td>
     </tr>
     <tr>
