@@ -107,7 +107,7 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </tr>
     <tr>
         <td>[ConnectorAuthentications].AuthenticationId</td>
-        <td>The ID of the authentication method you want this instance of your Connector to use.</td>
+        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
         <td>0000000-0000-0000-0000-000000000000</td>
     </tr>
     <tr>
@@ -323,7 +323,7 @@ You should use a non-account restricted OAuth token as the Authorization for thi
     </tr>
     <tr>
         <td>[ConnectorAuthentications].AuthenticationId</td>
-        <td>The ID of the authentication method you want this instance of your Connector to use.</td>
+        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
         <td>0000000-0000-0000-0000-000000000000</td>
     </tr>
     <tr>
