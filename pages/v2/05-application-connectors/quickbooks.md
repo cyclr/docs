@@ -39,4 +39,12 @@ To obtain these, you will need to create a QuickBooks Online application.
 
 3. You can now ![](./images/QuickBooksSignIn.png) to Quickbooks and your connector will be installed.
 
+    
+### Additional Information
+To map custom fields on the Update Purchase Order method, complete the following steps:
+
+1. In the connector settings page, locate the Update Purchase Order method.
+2. Under the 'Request Fields' heading, click the red plus button.
+3. Enter the required field location in the format 'CustomField.FieldName' where 'FieldName' is the DefinitionId of the custom field to update.
+4. Enter any further required information for the method field and click 'Create' when finished.
 </section>
