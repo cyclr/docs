@@ -124,3 +124,13 @@ plugins:
 
 # algolia search debug
 search_debug: false
+
+# algolia 
+# doc: https://community.algolia.com/jekyll-algolia/getting-started.html
+# run the indexing
+# ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia
+algolia:
+  application_id: 5267EP9OE1
+  index_name: documentation_v2
+  search_only_api_key: a0c27aa7840e0631eee62783163e48dd
+

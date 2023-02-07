@@ -3,6 +3,12 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    algolia_html_extractor (2.6.4)
+      json (~> 2.0)
+      nokogiri (~> 1.10)
+    algoliasearch (1.27.5)
+      httpclient (~> 2.8, >= 2.8.3)
+      json (>= 1.5.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -10,8 +16,10 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5-x64-mingw-ucrt)
+    filesize (0.2.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
+    httpclient (2.8.3)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jekyll (4.0.1)
@@ -29,6 +37,15 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-algolia (1.7.1)
+      algolia_html_extractor (~> 2.6)
+      algoliasearch (~> 1.26)
+      filesize (~> 0.1)
+      jekyll (>= 3.6, < 5.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      progressbar (~> 1.9)
+      verbal_expressions (~> 0.1.5)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -40,6 +57,7 @@ GEM
       nokogiri (~> 1.11)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    json (2.6.3)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -54,6 +72,7 @@ GEM
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    progressbar (1.11.0)
     public_suffix (5.0.1)
     racc (1.6.2)
     rb-fsevent (0.11.2)
@@ -72,6 +91,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    verbal_expressions (0.1.5)
     webrick (1.7.0)
 
 PLATFORMS
@@ -79,6 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
+  jekyll-algolia
   jekyll-redirect-from (~> 0.16.0)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-toc
