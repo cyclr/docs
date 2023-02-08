@@ -7,36 +7,55 @@ keywords: [intuit]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-QuickBooks Setup
----------------
 
-To authenticate the connector you need a Client ID and Secret.
+## QuickBooks setup
 
-To obtain these, you will need to create a QuickBooks Online application.
+To authenticate the Quickbooks connector, you need a **Client ID** and **Client Secret**.
 
-### Creating an App
-1. Visit [https://developer.intuit.com/app/developer/myapps](https://developer.intuit.com/app/developer/myapps).
-2. Click the ![](./images/QuickBooksCreateAnApp.png) button.
-3. Select `QuickBooks Online and Payments`.
-4. Give your app a name, and select `Accounting` from the scopes.  If you are based in the US, and wish to add the `Payments` scope, you can add this later.
-5. Click ![](./images/QuickBooksCreateApp.png).
-    > Note that there are sections here for `Development` and `Production` apps.  We will be focussing on the `Development` app in this guide.
-6. `Under Development > Keys & OAuth`, you will find two important sections: the keys (`Client ID` and `Client Secret`) **which you should now note down**, and `Redirect URIs`.
-7. Under `Redirect URIs`, change the existing value to:
- ht<span></span>tps://`ServiceDomain`/connector/callback
+To obtain these values, you need a QuickBooks Online application. Tou can create an app through the Quickbooks [developer portal]((https://developer.intuit.com/app/developer/myapps):
 
-    > Your Cyclr service domain, e.g. yourcompany-h.cyclr.com can be found in your Cyclr Console under ``Settings > General Settings > Service Domain``.
+> **Note**: There are sections for **Development** and **Production** apps, and these steps are for a **Development** app.
 
-8. Scroll down and click ![](./images/QuickBooksSave.png).
+1. Select the **Create an app** button and select **QuickBooks Online and Payments**.
+2. Name your app and select **Accounting** from the scopes.  If you're based in the US, you can add the **Payments** scope later.
+3. Select **Create App**.
+4. Go to **Development** > **Keys & OAuth**, and note down the `Client ID` and `Client Secret`.
+5. Under **Redirect URIs**, change the existing value to: `https://{ServiceDomain}/connector/callback`.
 
-### Setting up the connector
+    > **Note**: To find your Service domain in your Cyclr Console, go to **Settings** > **General Settings** > **Service Domain**.
 
-1. During installation of the connector, you will be asked for `Client ID` and `Client Secret`.  Give those you noted down in stage 6 of the instructions above.
+6. Scroll down and select **Save**.
 
-2. You will also be asked for the `Base Domain`.  In this example, as we are working with a development app, you would give sandbox-quickbooks.api.intuit.com <span>.</span>
+</section>
+<section class="card">
 
-    > Later, when you have your production app set up, you will enter quickbooks.api.intuit.com here.
+## Cyclr setup
 
-3. You can now ![](./images/QuickBooksSignIn.png) to Quickbooks and your connector will be installed.
+To set up the Quickbooks connector in Cyclr, go to your Cyclr console:
+
+1. Go to **Connectors** > **Application Connector Library**.
+
+2. Use the search box to find the Quickbooks connector.
+
+3. Select the **Setup Required** icon.
+
+4. Enter the below values:
+
+   | Value              | Description                                 |
+   | :----------------- | :------------------------------------------ |
+   | **Client ID**   | The **Client ID** from your Quickbook application. |
+   | **Client Secret**   | The **Client Secret** from your Quickbook application.                               |
+   | **Callback URL**| Cyclr fills this field by default.           |
+
+5. Select **Save Changes**.
+
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
+
+### Account setup
+
+Cyclr also asks you for the **Base Domain** when you install the Quickbooks connector into an account
+
+* For a development app, use `sandbox-quickbooks.api.intuit.com`.
+* For a production app, use `quickbooks.api.intuit.com`.
 
 </section>
