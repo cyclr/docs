@@ -1944,89 +1944,6 @@ section {
         padding: 0;
     }
 }
-.ds-dropdown-menu {
-    max-width: unset;
-    width: 100%;
-
-
-    .algolia-docsearch-footer {
-        margin: 8px 8px 0 0;
-    }
-
-    .algolia-docsearch-suggestion {
-        padding: 12px 16px 12px 44px;
-        display: flex;
-        flex-direction: row;
-        background-color: transparent;
-
-        .algolia-docsearch-suggestion--highlight {
-            color: $red;
-            background: transparent;
-            box-shadow: none;
-            padding: 0;
-        }
-
-        .algolia-docsearch-suggestion--category-header {
-            flex: 0 0 auto;
-            position: relative;
-            padding: 0 20px 0 0;
-            margin: 0;
-            font-size: 12px;
-            border: 0;
-            display: block;
-
-            &::after {
-                display: block;
-                position: absolute;
-                right: 0;
-                top: 0;
-                content: "\e943";
-                font-family: 'Cyclr-20';
-            }
-        }
-
-        .algolia-docsearch-suggestion--wrapper {
-            flex: 1 1 auto;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-
-        .algolia-docsearch-suggestion--subcategory-column {
-            padding: 0 12px 0 0;
-            text-align: left;
-            width: auto;
-            font-size: 12px;
-            float: none;
-        }
-
-        .algolia-docsearch-suggestion--content {
-            width: auto;
-            float: none;
-            padding: 0 0 0 12px;
-            display: flex;
-            flex-wrap: wrap;
-
-            &:before {
-                content: "";
-            }
-        }
-
-        .algolia-docsearch-suggestion--title {
-            margin: 0;
-            font-size: 12px;
-            font-weight: 500;
-            color: inherit;
-        }
-
-        .algolia-docsearch-suggestion--text {
-            font-size: 12px;
-            line-height: inherit;
-            color: inherit;
-        }
-    }
-}
-
 
 .doc-search-input {
     background-color: $bg-input;
@@ -2035,6 +1952,7 @@ section {
     padding-left: 2.5rem;
     color: $white;
     width: 100%;
+    height: auto;
 }
 
 .ais-Highlight {
@@ -2048,6 +1966,7 @@ section {
 .doc-search-container {
     width: 100%;
     position: relative;
+    overscroll-behavior-y: contain;
 
     .ais-search-box {
         display: block;
@@ -2059,6 +1978,62 @@ section {
             @extend .form-control;
             @extend .rounded;
             @extend .doc-search-input;
+
+            &:hover,
+            &:focus {
+                background-color: #ffffff;
+                color: $dark;
+                border-color: $blue;
+                box-shadow: 0 0 4px 0 $blue;
+
+                &::placeholder {
+                    color: $dark;
+                }
+
+                ~ span {
+                    &.ais-search-box--reset-wrapper {
+                        svg {
+                            fill: $grey-50;
+                        }
+                    }
+
+                    &.ais-search-box--magnifier-wrapper::after {
+                        color: $grey-50;
+                    }
+                }
+            }
+        }
+
+        &--magnifier-wrapper {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+
+            &::after {
+                content: "\f002";
+                font-family: FontAwesome;
+                font-weight: normal;
+                font-style: normal;
+                display: inline-block;
+                text-decoration: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: inherit;
+                padding: .375rem .75rem;
+                line-height: 17px;
+            }
+        }
+
+        &--magnifier {
+            display: none;
+        }
+
+        &--reset-wrapper {
+            svg {
+                fill: $white;
+            }
         }
 
         &--powered-by {
@@ -2070,34 +2045,12 @@ section {
             color: $grey-50;
             font-size: 0.8rem;
         }
-
-        &:hover,
-        &:focus {
-            &:after {
-                color: $grey-50;
-            }
-        }
-
-        &:after {
-            content: "\f002";
-            font-family: FontAwesome;
-            font-weight: normal;
-            font-style: normal;
-            display: inline-block;
-            text-decoration: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: inherit;
-            padding: .375rem .75rem;
-        }
     }
-
 
     .results-list {
         margin: 0;
         position: absolute;
-        top: 30px;
+        top: 40px;
         border-color: $grey-50;
         background-color: $white;
         box-shadow: $box-shadow;
@@ -2107,9 +2060,14 @@ section {
         max-height: 80vh;
         overflow: auto;
         font-size: 12px;
+        width: 100%;
 
         .ais-hits {
             padding-top: 20px;
+
+            &.ais-hits__empty {
+                padding: 20px;
+            }
 
             &--item {
                 padding: 12px 16px 12px 44px;
@@ -2162,22 +2120,12 @@ section {
     }
 
     .hero & {
-        .algolia-autocomplete {
-            &:after {
-                color: inherit;
-                padding: 16px 0 0 16px;
-                font-size: 16px;
-                line-height: 17px;
-            }
-
-            &:hover {
-                &:after {
-                    color: $dark;
-                }
-            }
+        .results-list {
+            top: 60px;
+            max-height: 40vh;
         }
 
-        .doc-search-input {
+        .ais-search-box--input {
             max-height: 50px;
             line-height: 17px;
             padding: 16px 16px 17px 44px;
@@ -2193,6 +2141,13 @@ section {
                 }
             }
         }
+
+        .ais-search-box--magnifier-wrapper {
+            &::after {
+                padding: 16px;
+                line-height: 17px;
+            }
+        }
     }
 }
 
@@ -2202,9 +2157,6 @@ section {
         font-size: 17px;
         font-weight: 500;
     }
-}
-
-.post-header {
 }
 
 .post-content {

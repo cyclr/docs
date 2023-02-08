@@ -20,7 +20,7 @@ const search = instantsearch({
     indexName: '{{ site.algolia.index_name }}',
     searchFunction(helper) {
         const container = document.querySelector('#results-container');
-        const pbcontainer = document.querySelector('.ais-search-box--powered-by');
+        const pbcontainer = document.querySelector('#query-container .ais-search-box--powered-by');
         container.style.display = helper.state.query === '' ? 'none' : '';
         pbcontainer.style.display = helper.state.query === '' ? 'none' : '';
         helper.search();
@@ -28,31 +28,38 @@ const search = instantsearch({
 });
 
 const hitTemplate = function(hit) {
-  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
-  const title = hit._highlightResult.title.value;
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-        return `<span class="result-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-  const content = hit._highlightResult.html.value;
-
-  return `
-    <div class="result-item">
-      <a class="result-link" href="${url}">${title}</a>
-      {{#breadcrumbs}}<a href="${url}" class="result-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
-       <div class="result-snippet">${content}</div>
-   </div>
-  `;
+    let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+    const title = hit._highlightResult.title.value;
+    let breadcrumbs = '';
+    if (hit._highlightResult.headings) {
+        breadcrumbs = hit._highlightResult.headings.map(match => {
+            return `<span class="post-breadcrumb">${match.value}</span>`
+        }).join(' > ')
+    }
+    const content = hit._highlightResult.html.value;
+    if (breadcrumbs.length == 0)
+        return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
+    else 
+      return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          {{#breadcrumbs}}<a href="${url}" class="result-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
 }
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#query-container',
-    placeholder: 'Search for documentation...',
+    placeholder: '{{site.data.strings.search_placeholder_text}}',
     autofocus: false,
-    magnifier: false,
+    magnifier: true,
     poweredBy: true,
     searchAsYouType: true,
     showReset: true,
