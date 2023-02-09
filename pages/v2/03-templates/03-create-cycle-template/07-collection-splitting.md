@@ -62,11 +62,9 @@ If multiple lists are defined by Response Fields at the same "depth" in the Resp
 
 ## Mapping from Multiple Lists
 
-If mapping from more than one list of data on a Step, Cyclr may automatically display the following dropdowns beneath the standard Mappings area in Step Step:
+If mapping from more than one list of data on a Step, Cyclr may display **Unique Field** dropdowns beneath the standard Mappings area in **Step Setup** if you need to specify how the two data sources relate to one another.
 
-![What unique field can join your data together?](./images/what-unique-field.png)
-
-These indicate that Cyclr needs help identifying how your lists relate to each other.
+![A screenshot of the unique field message in the Cyclr console.](./images/what-unique-field.png)
 
 If there isn't a field (e.g. an email address or customerId) that connects the lists sources, or one or more of your lists contain items that match multiple items in another list, you may need to split your data when retrieving it earlier in the Cycle.
 
