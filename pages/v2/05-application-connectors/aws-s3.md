@@ -7,10 +7,8 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-### Important Note about Bucket Names
 
-Due to limitations in the Amazon S3 API, it's not possible to access a bucket's contents if its name contains a period (.)
-
+> **Note**: Due to limitations in the Amazon S3 API, it's not possible to access a bucket's contents if its name contains a period (.)
 
 </section>
 <section class="card">
@@ -22,7 +20,7 @@ First, login to your existing AWS account or [sign up for one.](https://aws.amaz
 
 *   [Login](https://console.aws.amazon.com/console/home) to the AWS account. Make sure the region is set correctly.
 *   Navigate to the **IAM** service by clicking on **Services** and searching for **IAM**.
-*   Under **Acccess Management**, click **Users**.
+*   Under **Access Management**, click **Users**.
 *   Add or edit a user. Make sure the user has the correct permissions.
 *   Click on the newly created or edited user, and click **Security Credentials**. 
 *   Create an **Access Key**. Note down then **Access Key ID** and **Access Secret Key**. This will be the only time you will be able to see the Secret Key, so keep it somewhere safe.
@@ -44,6 +42,6 @@ Enter the following values:
 **AWS Secret Key**:  The Secret Key that we noted down earlier when we created a new access key.
 
 
-Your Amazon S3 Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+Your Amazon S3 Connector is now set up. You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
 
 </section>
