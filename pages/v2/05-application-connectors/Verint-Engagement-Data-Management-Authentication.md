@@ -4,20 +4,22 @@ sidebar: cyclr_sidebar
 permalink: verint-engagement-data-management-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card">
 
 ## Verint - Engagement Data Management Setup
 
 ### Requirements
 
-To connect with Verint, you will need a **Username** and **Password**.
-You will also need to know the **Domain** of the instance you would like to access.
-If the link you would like to access is: https://odf4.verint.training/api/recording/textcapture/v1/ingestion
-The **Domain** would be "odf4.verint.training".
+To connect with Verint, you will need the **Username** and **Password** of the Verint account, and the **Domain** of the instance you want to access. You can find the domain in the URL of your Verint instance, for example, if the link is `https://odf4.verint.training/api/recording/textcapture/v1/ingestion`, then your domain is `odf4.verint.training`.
+
+For more information, see the Verint [API reference documentation](https://connect.verint.com/developers/edm/w/api-reference/25356).
+
+</section>
+<section class="card">
 
 ## Cyclr setup
-This section describes how to setup the connector in the console. No other setup is required.
 
-### Console setup
 
 To set up the Verint connector in Cyclr, go to your console:
 
@@ -37,8 +39,4 @@ To set up the Verint connector in Cyclr, go to your console:
 
 7. Select **Save**.
 
-## Additional information
-### Documentation
-
-The API reference documentation can be found here:
-https://connect.verint.com/developers/edm/w/api-reference/25356
+</section>
