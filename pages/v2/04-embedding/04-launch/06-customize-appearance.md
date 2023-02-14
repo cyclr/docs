@@ -31,7 +31,6 @@ To restyle the LAUNCH layout add CSS to “**Application Custom CSS**”
 
 Here are some of the available elements within LAUNCH you may want to customise.
 
-```html
 <table>
     <tr>
         <th>Element</th>
@@ -59,7 +58,6 @@ Here are some of the available elements within LAUNCH you may want to customise.
         <td>Update the font format for integration descriptions.</td>
     </tr>
 </table>
-```
 
 **Example**
 
