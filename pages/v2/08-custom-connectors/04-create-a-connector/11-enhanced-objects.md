@@ -73,7 +73,7 @@ If you enabled [field auto-discovery](#enable-field-auto-discovery), you can sel
 
 In the template builder, under **Application Connectors** in the sidebar, Cyclr identifies your copied categories with a star icon. Methods from the copied categories function the same as normal methods.
 
-    ![Category List](./images/enhanced_objects_8.png)
+   ![Category List](./images/enhanced_objects_8.png)
 
 
 When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps in a cycle to this enhanced object category, so if you copy and paste the template, the steps are still in the template. Custom fields that you add to an enhanced object category persist across cycles and accounts. 
