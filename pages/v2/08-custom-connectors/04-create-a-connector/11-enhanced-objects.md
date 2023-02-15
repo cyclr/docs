@@ -41,7 +41,7 @@ To use a custom object in connector method calls, such as in the method endpoint
 
 If you select the **Request Format** tab, the **Default Value** column shows the `CyclrObjectName` mergefield.
 
-    ![Object Name Mergefield 2](./images/enhanced_objects_3.png)
+ ![Object Name Mergefield 2](./images/enhanced_objects_3.png)
 
 ### Enable field auto-discovery
 
