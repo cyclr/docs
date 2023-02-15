@@ -13,7 +13,7 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-You can add custom objects to a connector in Cyclr. 
+Sometimes, as well as following the standard format when you call URLs, an API also provides metadata calls so that it generates and retrieves the fields that you require when the call hits the endpoint. To make a utility folder that you can copy and use for any object without the need to build it out every time, you can build out an enhanced object.
 
 ## Enable category customization
 
@@ -30,7 +30,7 @@ To create custom objects, you need to copy a category to use for the custom obje
 </section>
 <section class="card">
 
-## Set up the connector method category
+## Set up a connector method category
 
 To use a custom object in connector method calls, such as in the method endpoint URL or the request body, you can use the system mergefield `CyclrObjectName`. Cyclr populates the `CyclrObjectName` mergefield with the name or value of the category.
 
@@ -45,7 +45,7 @@ If you select the **Request Format** tab, the **Default Value** column shows the
 
 ### Enable field auto-discovery
 
-To enable field auto-discovery, go to the **Request Format** tab and select a method from the **Custom Fields Lookup Method** dropdown. The field auto discovery method can use the `CyclrObjectName` system mergefield, but dynamic field discovery uses the copied category so that the auto discovery method to be called can be located in any category.
+To enable field auto-discovery, go to the **Request Format** tab and select a method from the **Custom Fields Lookup Method** dropdown. The field auto discovery method can use the `CyclrObjectName` system mergefield. Dynamic field discovery uses the copied category so it can locate the auto discovery method you call in any category.
 
 </section>
 <section class="card">
@@ -76,6 +76,8 @@ In the template builder, under **Application Connectors** in the sidebar, Cyclr 
     ![Category List](./images/enhanced_objects_8.png)
 
 
-When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps or custom fields with this account connector category. The only change to use the copied category is that you need to include the additional id when you work with a method.
+When you copy a category, you create an account connector category which references the original connector category. Cyclr links any steps in a cycle to this enhanced object category, so if you copy and paste the template, the steps are still in the template. Custom fields that you add to an enhanced object category persist across cycles and accounts. 
+
+> **Note**: If you want to work with a method via the API, you need to map an additional field for the method ID.
 
 </section>
