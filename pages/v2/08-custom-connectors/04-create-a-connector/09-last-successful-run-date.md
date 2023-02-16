@@ -22,7 +22,7 @@ Multiple methods use the **Last Successful Run Date** function, for example, the
 
 ## Add Last Successful Run Date
 
-If particular endpoint accepts a date as a parameter, you can enter the **Last Successful Run Date** as a mergefield. See the example API call below:
+If a particular endpoint accepts a date as a parameter, you can enter the **Last Successful Run Date** as a mergefield. See the example API call below:
 
     `ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge {2021-11-02T14:32:02Z}`
 
@@ -44,15 +44,15 @@ If you want a step to use a specific date, you can use the Date Picker. To use t
 
 ### Test steps
 
-If you select **Test Step**, the step uses the **Last Successful Run Date** value set on the Step, but doesn't update the value afterwards. If you've never run the step before, and haven't given a value, the default date is `1970-01-01T00:00:00`.
+If you select **Test Step**, the step uses the **Last Successful Run Date** value set on the Step, but doesn't update the value afterwards. If you've never run the step before, and haven't given a value, the default date is `1970-01-01T00:00:00Z`.
 
 `1970-01-01T00:00:00Z` (the UNIX Epoch), in Cyclr, indicates that no date/time value is set on a step. 
 
-### Run steps
+### Run a cycle
 
 When you run a cycle, Cyclr uses the **Last Successful Run Date** value set on the step. If the value is `1970-01-01T00:00:00Z`, however, Cyclr updates the **Last Successful Run Date** value to the current date/time. This behavior prevents the step from trying to retrieve all existing data on the first run of a cycle.
 
-> **Note**: If you do need to retrieve historical date on the first run of a step, you can use script on the step to have the first run start from a date in the past.
+> **Note**: If you do need to retrieve historical data on the first run of a step, you can use script on the step to have the first run start from a date in the past.
 
 ## Access Last Successful Run Date in script
 
