@@ -12,6 +12,16 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+## 2023
+
+### 13th February 2023
+- Marketplaces: Support naming a package at installation for packages allowing multiple installations.
+- Performance: Addressed slowness being encountered when listing dynamic custom fields.
+- Builder: Display partner and account name.
+- API: Support multiple partner connectors for authentication when generating a Marketplace URI.
+
+</section>
+<section class="card">
 ## 2022
 
 ### 28th November 2022
