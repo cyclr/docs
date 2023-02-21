@@ -24,11 +24,11 @@ Multiple methods use the **Last Successful Run Date** function, for example, the
 
 If a particular endpoint accepts a date as a parameter, you can enter the **Last Successful Run Date** as a mergefield. See the example API call below:
 
-    `ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge {2021-11-02T14:32:02Z}`
+    `https://ww<span/>w.api.com/contacts?$filter=createdDateTime ge {2021-11-02T14:32:02Z}`
 
 You can add the **Last Successful Run Date** mergefield directly to the endpoint in your connector:
 
-    `ht<span/>tps://ww<span/>w.api.com/contacts?$filter=createdDateTime ge \{\{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ\}\}`
+    `https://ww<span/>w.api.com/contacts?$filter=createdDateTime ge \{\{LastSuccessfulRunDate format=yyyy-MM-ddTHH:mm:ssZ\}\}`
 
 If you add this method to a step, the step pulls all of the contacts that were added after the last time the step successfully ran.
 
