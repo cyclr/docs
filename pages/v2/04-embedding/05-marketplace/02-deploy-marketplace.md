@@ -35,7 +35,7 @@ curl -X POST
 -d '{
     "MarketplaceId": MARKETPLACE_ID,
     "AccountName": "CYCLR_ACCOUNT_NAME",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Example Connector",
         "Version": "1.0",
         "AuthValue": "XXXXXXXXXX",
@@ -198,7 +198,7 @@ curl -X POST
     "AccountId": "CYCLR_ACCOUNT_API_ID",
     "Username": "USERNAME",
     "Password": "PASSWORD",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Example Connector",
         "Version": "1.0",
         "AuthValue": "XXXXXXXXXX",

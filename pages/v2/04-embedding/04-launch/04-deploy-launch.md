@@ -34,7 +34,7 @@ curl -X POST
 
 -d '{
     "AccountName": "CYCLR_ACCOUNT_NAME",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Example Connector",
         "Version": "1.0",
         "AuthValue": "XXXXXXXXXX",
@@ -234,7 +234,7 @@ curl -X POST
     "AccountId": "0000000-0000-0000-0000-000000000000",
     "Username": "example",
     "Password": "P4$$w0rd",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Connector Name",
         "Version": "1.0",
         "AuthValue": "00000000000000000000000000000000000000000",
