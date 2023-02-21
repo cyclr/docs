@@ -1,32 +1,32 @@
 ---
-title: Marketplace webhook callbacks
+title: Marketplace webhook callback
 sidebar: cyclr_sidebar
-permalink: marketplace-webhook-callback
+permalink: marketplace-webhook
 tags: [marketplaces]
 menus:
     marketplace:
-        title: Webhook callbacks
-        identifier: marketplace-webhook-callback
+        title: Marketplace webhook callback
+        identifier: marketplace-webhook
         toggleonly: menutoggleonly
-        weight: 4
+        weight: 6
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-When integrating with a Cyclr Marketplace you can specify a Webhook URL for Cyclr to send notifications to after your users have performed a Marketplace action.
 
+When you integrate with a Cyclr Marketplace, you can specify a Webhook URL for Cyclr to send notifications to.
 
-</section>
-<section class="card">
-## Setting Marketplace URL
-
-In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. Set the Marketplace Notification URL to the location where Cyclr should send notifications.
-
+1. In the Cyclr Console, select **Embedding** > **Marketplace** and select the **Settings** cog icon. 
+2. Enter the **Marketplace Notification URL**.
 
 </section>
 <section class="card">
-## Installed Payload Example
-```json
- {
+
+## Examples
+
+### Installed payload 
+
+```
+{
     "Status": "installed",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
@@ -50,12 +50,10 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 }
 ```
 
+### Uninstalled payload
 
-</section>
-<section class="card">
-## Uninstalled Payload Example
-```json
- {
+```
+{
     "Status": "uninstalled",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
@@ -63,13 +61,10 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 }
 ```
 
+### Started payload
 
-
-</section>
-<section class="card">
-## Started Payload Example
-```json
- {
+```
+{
     "Status": "started",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
@@ -77,18 +72,13 @@ In the Cyclr Console goto Embedding > Marketplace and select the Settings Cog. S
 }
 ```
 
+### Stopped payload
 
-
-</section>
-<section class="card">
-## Stopped Payload Example
-```json
- {
+``
+{
     "Status": "stopped",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
     "MarketplaceIntegrationPackageId": 1234
 }
 ```
-
-</section>
