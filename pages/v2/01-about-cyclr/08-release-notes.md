@@ -15,10 +15,10 @@ menus:
 ## 2023
 
 ### 13th February 2023
-- Marketplaces: Support naming a package at installation for packages allowing multiple installations.
-- Performance: Addressed slowness being encountered when listing dynamic custom fields.
-- Builder: Display partner and account name.
-- API: Support multiple partner connectors for authentication when generating a Marketplace URI.
+- Marketplaces: Added support for naming a package at installation for packages that allow multiple installations.
+- Performance: Addressed slowness encountered when listing dynamic custom fields.
+- Builder: Displayed partner and account name.
+- API: Added support for authenticating multiple partner connectors when you generate a Marketplace URI.
 
 </section>
 <section class="card">
