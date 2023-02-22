@@ -4,20 +4,27 @@ sidebar: cyclr_sidebar
 permalink: utilizecore-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card">
 
-## UtilizeCore Setup
+## UtilizeCore setup
 
-### Requirements
 
-To connect with Verint, you will need a **Client ID**, **Client Secret**, **Username** and **Password**.
-The **Domain** of the instance you would like to access has selectable values, with the option of custom domain entry.
-If the link you would like to access is: https://msnw.staging.utilizecore.com/api/v2/vendors
-The **Domain** would be "msnw.staging.utilizecore.com".
+To connect with Verint, you need the following authentication values:
+* **Client ID**
+* **Client Secret**
+* **Username**
+* **Password**.
+* **Domain** 
+
+The domain of the instance you want to access has selectable values, with the option of custom domain entry. For example, if the link you want to access is `https://msnw.staging.utilizecore.com/api/v2/vendors`, then the **Domain** is `msnw.staging.utilizecore.com`.
+
+For more information on how to obtain the authentication values, see the UtilizeCore [API reference documentation](https://app.swaggerhub.com/apis-docs/utilizecore/utilizecore-mobile/2.0.0#/).
+
+</section>
+<section class="card">
 
 ## Cyclr setup
-This section describes how to setup the connector in the console. No other setup is required.
-
-### Console setup
 
 To set up the Verint connector in Cyclr, go to your console:
 
@@ -39,8 +46,4 @@ To set up the Verint connector in Cyclr, go to your console:
 
 7. Select **Save**.
 
-## Additional information
-### Documentation
-
-The API reference documentation can be found here:
-https://app.swaggerhub.com/apis-docs/utilizecore/utilizecore-mobile/2.0.0#/
+</section>
