@@ -141,7 +141,7 @@ A JavaScript result object is available to the window on the final page of the M
 <section class="card">
 
 ## Cross domain issue in Internet Explorer
-Internet Explorer 10 doesn’t allow you to use window.opener.postMessage()from a page that’s on a different domain to the opener. You can avoid this problem in two ways.
+Internet Explorer  doesn’t allow you to use `window.opener.postMessage()` from a page that’s on a different domain to the opener. You can avoid this problem in two ways.
 
 ### Proxy iFrame
 
