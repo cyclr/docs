@@ -59,21 +59,95 @@ A JavaScript result object is available to the window on the final page of the M
 
 ### Properties
 
-| **Property** | **Description** |
-|:---|:---|
-| `accountId` | Identifies the account that you installed the Marketplace integration package into. |
-| `accountApiId` | Displays the API ID of the account you installed the Marketplace integration package into. |
-| `installCompleteMessage` | Displays the install complete message for the Marketplace integration package. |
-| `marketplacePackageId` | Identifies the Marketplace integration package. |
-| `userId` | Identifies your end user. |
-| `cycles` | Shows the array of cycles you installed as part of the Marketplace integration package. |
-| `cycles.cycleId`	 | Identifies the cycle you installed. |
-| `cycles.status`	 | Displays the status of the cycle you installed. |
-| `cycles.templateId` | Identifies the template you installed the cycle from. |
-| `cycles.templateReleaseId` | Identifies the template release you installed the cycle from. |
-| `cycles.webhooks` | Displays the array of webhooks the cycle contains. |
-| `cycles.webhooks.stepName` | Names the webhook step. |
-| `cycles.webhooks.url` | Displays the webhook’s URL. |
-| `errors` | Displays the array of error messages when Cyclr activates the newly installed Marketplace Integration Package. |
+<table width="100%">
+	<col style="width:25%">
+	<col style="width:25%">
+	<col style="width:50%">
+<thead>
+  <tr>
+    <th colspan="2">Property</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="2"><code>accountId</code></td>
+    <td>Identifies the account that you installed the Marketplace integration package into.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>accountApiId</code></td>
+    <td>Displays the API ID of the account you installed the Marketplace integration package into.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>installCompleteMessage</code></td>
+    <td>Displays the install complete message for the Marketplace integration package.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>marketplacePackageId</code></td>
+    <td>Identifies the Marketplace integration package.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>userId</code></td>
+    <td>Identifies your end user.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>cycles</code></td>
+    <td>Shows the array of cycles you installed as part of the Marketplace integration package.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>cycleId</code></td>
+    <td>Identifies the cycle you installed.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>status</code></td>
+    <td>Displays the status of the cycle you installed.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>templateId</code></td>
+    <td>Identifies the template you installed the cycle from.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>templateReleaseId</code></td>
+    <td>Identifies the template release you installed the cycle from.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>webhooks</code></td>
+    <td>Displays the array of webhooks the cycle contains.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>webhooks.stepName</code></td>
+    <td>Names the webhook step.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><code>webhooks.url</code></td>
+    <td>Displays the webhook’s URL.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><code>errors</code></td>
+    <td>Displays the array of error messages when Cyclr activates the newly installed Marketplace Integration Package.</td>
+  </tr>
+</tbody>
+</table>
+
+
+</section>
+<section class="card">
+
+## Cross domain issue in Internet Explorer
+Internet Explorer 10 doesn’t allow you to use window.opener.postMessage()from a page that’s on a different domain to the opener. You can avoid this problem in two ways.
+
+### Proxy iFrame
+
+You can create a popup to a page on your domain with the Marketplace URL embedded as an iFrame. If you embed the URL, your JavaScript posts to `window.parent.postMessage()`, which is supported across domains. The proxy page then passes the data back to your application either directly on the backend or with `window.opener.postMessage()`. 
+
+### Redirect after LAUNCH complete
+You can use JavaScript in the LAUNCH complete page to redirect your user to a page on your domain, and pass the data from the LAUNCH flow. The new page handles the details on your backend before it closes the popup.
 
 </section>
