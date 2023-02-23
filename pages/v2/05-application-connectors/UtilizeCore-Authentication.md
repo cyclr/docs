@@ -10,7 +10,7 @@ tags: [connector]
 ## UtilizeCore setup
 
 
-To connect with Verint, you need the following authentication values:
+To connect with UtilizeCore, you need the following authentication values:
 * **Client ID**
 * **Client Secret**
 * **Username**
@@ -26,7 +26,7 @@ For more information on how to obtain the authentication values, see the Utilize
 
 ## Cyclr setup
 
-To set up the Verint connector in Cyclr, go to your console:
+To set up the UtilizeCore connector in Cyclr, go to your console:
 
 1. Go to **Connectors** > **Application Connector Library**.
 
