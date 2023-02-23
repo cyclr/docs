@@ -8,7 +8,7 @@ tags: [connector]
 <section class="card">
 ## Partner Setup
 
-First, email your contact at MereCatch and ask them for yyour API-Key.
+First, email your contact at MereCatch and ask them for your API-Key.
 
 ### Cyclr Setup
 
