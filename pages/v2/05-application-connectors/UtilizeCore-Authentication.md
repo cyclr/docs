@@ -14,10 +14,13 @@ To connect with UtilizeCore, you need the following authentication values:
 * **Client ID**
 * **Client Secret**
 * **Username**
-* **Password**.
-* **Domain** 
+* **Password**
+* **Environment** 
+* **Subdomain** 
+   
+The **Environment** value is used to indicate if this is a staging or production environment and can be selected using the drop-down menu.
 
-The domain of the instance you want to access has selectable values, with the option of custom domain entry. For example, if the link you want to access is `https://msnw.staging.utilizecore.com/api/v2/vendors`, then the **Domain** is `msnw.staging.utilizecore.com`.
+The **Subdomain** value will be the instance of UtilizeCore that you would like to connect to. For example, if the endpoint you would like to access is `https://devs.staging.utilizecore.com/api/v2/vendors`, then the **Subdomain** is `devs`.
 
 For more information on how to obtain the authentication values, see the UtilizeCore [API reference documentation](https://app.swaggerhub.com/apis-docs/utilizecore/utilizecore-mobile/2.0.0#/).
 
@@ -42,7 +45,8 @@ To set up the UtilizeCore connector in Cyclr, go to your console:
    | **Client Secret**     | The Client Secret, authorized to access the desired application. |
    | **Username** | The Username of the authorized user.              |
    | **Password** | The Password of the authorized user. |
-   | **Domain** (Optional) | The domain and subdomain of the request, used to target the correct resource. |
+   | **Environment** | The type of environment you would like to access. |
+   | **Subdomain** | The subdomain of the request, used to target the correct resource. |
 
 7. Select **Save**.
 
