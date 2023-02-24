@@ -16,15 +16,12 @@ To connect with UtilizeCore, you need the following authentication values:
 * **Username**
 * **Password**
 * **Environment** 
-* **Subdomain** 
-   
-The **Environment** value is used to indicate if this is a staging or production environment and can be selected using the drop-down menu.
+* **Subdomain**
 
-The **Subdomain** value will be the instance of UtilizeCore that you would like to connect to. For example, if the endpoint you would like to access is `https://devs.staging.utilizecore.com/api/v2/vendors`, then the **Subdomain** is `devs`.
-
-For more information on how to obtain the authentication values, see the UtilizeCore [API reference documentation](https://app.swaggerhub.com/apis-docs/utilizecore/utilizecore-mobile/2.0.0#/).
+If you need more information, contact your UtilizeCore account manager. The UtilizeCore API documentation can be found [here](https://app.swaggerhub.com/apis-docs/utilizecore/utilizecore-mobile/2.0.0#/).
 
 </section>
+
 <section class="card">
 
 ## Cyclr setup
@@ -41,13 +38,23 @@ To set up the UtilizeCore connector in Cyclr, go to your console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | **Client ID** | The Client ID, authorized to access the desired application. |
-   | **Client Secret**     | The Client Secret, authorized to access the desired application. |
-   | **Username** | The Username of the authorized user.              |
-   | **Password** | The Password of the authorized user. |
-   | **Environment** | The type of environment you would like to access. |
-   | **Subdomain** | The subdomain of the request, used to target the correct resource. |
-
+   | **Client ID** | The Client ID authorized to access the instance. |
+   | **Client Secret**     | The Client Secret authorized to access the instance. |
+   
 7. Select **Save**.
+
+### Account setup
+
+Cyclr asks you for the below values when you install the UtilizeCore connector into an account:
+
+| Value           | Description                                                  |
+| :-------------- | :----------------------------------------------------------- |
+| **Username**    | The username of the authorized user.                         |
+| **Password**    | The password of the authorized user.                         |
+| **Environment** | The **Environment** indicates if your UtilizeCore instance is a staging or production one. This can be selected using the drop down list of options. |
+| **Subdomain**   | The **Subdomain** makes up part of your UtilizeCore instance URL. For example, if your instance URL is `https://devs.staging.utilizecore.com/api/v2/vendors` then the subdomain is `devs`. |
+
+> **Note**: You can use different details for different accounts.
+
 
 </section>
