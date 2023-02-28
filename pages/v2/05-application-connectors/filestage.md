@@ -4,10 +4,15 @@ sidebar: cyclr_sidebar
 permalink: filestage-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card">
 
-## Partner Setup
+## Filestage setup
 
-API Keys are issued manually by Filestage. Please contact support@filestage.io to gain access to the API.
+To authenticate your connector, you need to get the **API Key** from the Filestage account. API Keys are issued manually by Filestage. To gain access to your Filestage API, you can email `support@filestage.io`.
+
+</section>
+<section class="card">
 
 ## Cyclr setup
 
@@ -19,11 +24,8 @@ To set up the Filestage connector in Cyclr, go to your console:
 
 3. Select the **Setup Required** icon.
 
-4. Enter the below values:
+4. Enter the **API Key** from the Filestage account.
 
-   | Value              | Description                                 |
-   | :----------------- | :------------------------------------------ |
-   | **API Key** | The API Key that was provided by Filestage support. |
+5. Select **Save**.
 
-
-7. Select **Save**.
+</section>
