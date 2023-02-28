@@ -51,9 +51,7 @@ const categorysearch = instantsearch({
     indexName: '{{ site.algolia.index_name }}',
     searchFunction(helper) {
         const catcontainer = document.querySelector('#category-results-container');
-        const catpbcontainer = document.querySelector('#category-query-container .ais-search-box--powered-by');
         catcontainer.style.display = helper.state.query === '' ? 'none' : '';
-        catpbcontainer.style.display = helper.state.query === '' ? 'none' : '';
         helper.search();
     }
 });
@@ -91,7 +89,6 @@ categorysearch.addWidget(
     placeholder: '{{site.data.strings.category_search_placeholder_text}}',
     autofocus: false,
     magnifier: true,
-    poweredBy: true,
     searchAsYouType: true,
     showReset: true,
     showSubmit: false,

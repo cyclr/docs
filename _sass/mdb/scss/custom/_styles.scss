@@ -2062,6 +2062,10 @@ section {
         font-size: 12px;
         width: 100%;
 
+        h2, h3, h4, h5, h6 {
+            font-size: 12px;
+        }
+
         .ais-hits {
             padding-top: 20px;
 
@@ -2082,6 +2086,10 @@ section {
         .result-item {
             display: flex;
             flex-direction: row;
+
+            img {
+                display: none;
+            }
 
             a.result-link {
                 color: $grey-50;

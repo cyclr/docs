@@ -133,7 +133,7 @@ algolia:
   application_id: 5267EP9OE1
   index_name: documentation_v2
   files_to_exclude: []
-  nodes_to_index: 'p,h2,h3,h4'
-  search_only_api_key: a0c27aa7840e0631eee62783163e48dd
+  nodes_to_index: 'p,h2,h3'
+  search_only_api_key: 312b77e5fc181f8afa0b812ce7ceab95
 
 

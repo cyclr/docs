@@ -20,9 +20,7 @@ const search = instantsearch({
     indexName: '{{ site.algolia.index_name }}',
     searchFunction(helper) {
         const container = document.querySelector('#results-container');
-        const pbcontainer = document.querySelector('#query-container .ais-search-box--powered-by');
         container.style.display = helper.state.query === '' ? 'none' : '';
-        pbcontainer.style.display = helper.state.query === '' ? 'none' : '';
         helper.search();
     }
 });
@@ -60,7 +58,6 @@ search.addWidget(
     placeholder: '{{site.data.strings.search_placeholder_text}}',
     autofocus: false,
     magnifier: true,
-    poweredBy: true,
     searchAsYouType: true,
     showReset: true,
     showSubmit: false,
