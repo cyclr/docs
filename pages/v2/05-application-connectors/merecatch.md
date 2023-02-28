@@ -6,24 +6,27 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Partner Setup
+## MereCatch setup
 
-First, email your contact at MereCatch and ask them for your API-Key.
+To authenticate your connector, you need to a MereCatch API Key. To obtain an API Key, you can contact your MereCatch account manager.
 
-### Cyclr Setup
+</section>
+<section class="card">
+
+## Cyclr setup
 
 Setup your MereCatch App within Cyclr:
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **MereCatch**
-*   Click the **Setup** button
+To set up the MereCatch connector in Cyclr, go to your Cyclr console:
 
-Enter the following values:
+1. Go to **Connectors** > **Application Connector Library**.
 
-**API Key**:  The API Key that was provided by your MereCatch contact.
+2. Use the search box to find the MereCatch connector.
 
-Your MereCatch Connector is now setup! You can test it by installing it in one of your Cyclr accounts and executing one of the methods to confirm it can return some data.
+3. Select the **Setup Required** icon.
+
+4. Enter the **API Key** from the MereCatch account.
+
+5. Select **Save Changes**.
 
 </section>
