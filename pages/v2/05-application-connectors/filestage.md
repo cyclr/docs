@@ -1,5 +1,5 @@
 ---
-title: Filestage Authentication
+title: Filestage authentication
 sidebar: cyclr_sidebar
 permalink: filestage-connector
 tags: [connector]
