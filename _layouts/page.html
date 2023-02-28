@@ -5,13 +5,27 @@ layout: default
 {% capture toc3 %}{{ content | split: "<h3" | size }}{% endcapture %}
 {% capture toc4 %}{{ content | split: "<h4" | size }}{% endcapture %}
 {% capture tocs %}{{ toc2 | plus: toc3 | plus: toc4  }}{% endcapture %}
-
+{% if page.menus %}
+{% capture connectorpagelink %}{% endcapture %}
+{% else %}
+{% if page.permalink contains '-information' %}
+{% capture connectorpagelink %}{{page.permalink | replace: "-information", "-connector"}}{% endcapture %}
+{% capture connectorpagelinktext %}{{site.data.strings.pagelink_auth}}{% endcapture %}
+{% else %}
+{% capture connectorpagelink %}{{page.permalink | replace: "-connector", "-information"}}{% endcapture %}
+{% capture connectorpagelinktext %}{{site.data.strings.pagelink_info}}{% endcapture %}
+{% endif %}
+{% endif %}
+{% if page.linkedpage == true %}
+{% capture linkedpageclass %} linkedpage{% endcapture %}
+{% else %}
+{% capture linkedpageclass %}{% endcapture %}
+{% endif %}
 <div class="container p-0">
-
     <div class="row align-items-start">
         {% if page.default_header == true %}
         {% unless page.toc == false %}
-        <div id="col-toc" class="col-lg-3 order-lg-1 mb-40">
+        <div id="col-toc" class="col-lg-3 order-lg-1 mb-40{{linkedpageclass}}">
             {% if tocs != "3" %}
             <div class="card">
                 <h4 class="border-bottom border-1">{{site.data.strings.toctitle}}</h4>
@@ -42,45 +56,38 @@ layout: default
             {% else %}
             <div class="post-header">
                 <h1 class="post-title-main m-0">{{ page.title }}</h1>
+                {% if page.linkedpage == true %}
+                <a class="associated-page" href="{{connectorpagelink}}" title="{{connectorpagelinktext}}">{{connectorpagelinktext}}</a>
+                {% endif %}
                 {% if page.introtext %}
                 <div class="post-intro my-20">
-                    {{ page.introtext }}
+                    {{ page.introtext | markdownify }}
                 </div>
                 {% endif %}
             </div>
             {% endif %}
             {% endif %}
-
             {% if page.simple_map == true %}
-
             <script>
     $(document).ready(function () {
         $('.box{{page.box_number}}').addClass('active');
     });
             </script>
-
             {% include custom/{{page.map_name}}.html %}
-
             {% elsif page.complex_map == true %}
-
             <script>
     $(document).ready(function () {
         $('.modalButton{{page.box_number}}').addClass('active');
     });
             </script>
-
             {% include custom/{{page.map_name}}.html %}
-
             {% endif %}
-
             <div class="post-content">
                 <div>
                     {% if page.summary %}
                     <div class="summary">{{page.summary}}</div>
                     {% endif %}
-
                     {{content}}
-
                     {% unless page.show_tags == false %}
                     <div class="tags">
                         {% if page.tags != null %}
@@ -94,23 +101,18 @@ layout: default
                         {% endif %}
                     </div>
                     {% endunless %}
-
                     {% unless page.show_editme_path == false %}
                     <a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
                     {% endunless %}
-
                     {% unless page.show_disqus == false %}
                     {% include disqus.html %}
                     {% endunless %}
                 </div>
             </div>
-
             {{site.data.alerts.hr_shaded}}
         </div>
     </div>
-
     {% if page.poll == true %}
     {% include v2/generic/poll.html %}
     {% endif %}
-
 </div>
