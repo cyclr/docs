@@ -34,7 +34,7 @@ curl -X POST
 
 -d '{
     "AccountName": "CYCLR_ACCOUNT_NAME",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Example Connector",
         "Version": "1.0",
         "AuthValue": "XXXXXXXXXX",
@@ -86,27 +86,32 @@ When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this c
     </tr>
     <thead>
         <tr>
-            <th colspan="3">Partner Connector<br/>
-            <small>Optional parameter to install a pre-authenticated "partner connector" into the Account.  Only used if an Account is created by the call.</small></th>
+            <th colspan="3">Connector Authentications<br/>
+            <small>Optional parameter to install pre-authenticated "partner connectors" into the Account.</small></th>
         </tr>
     </thead>
     <tr>
-        <td>PartnerConnector</td>
-        <td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
+        <td>[ConnectorAuthentications]</td>
+        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
         <td></td>
     </tr>
     <tr>
-        <td>PartnerConnector.Name</td>
+        <td>[ConnectorAuthentications].Name</td>
         <td>The name to give this instance of your Connector in the Account.</td>
         <td>Connector Name</td>
     </tr>
     <tr>
-        <td>PartnerConnector.Version</td>
+        <td>[ConnectorAuthentications].Version</td>
         <td>The version of the partner connector to be installed.</td>
         <td>1.0</td>
     </tr>
     <tr>
-        <td>PartnerConnector.AuthValue</td>
+        <td>[ConnectorAuthentications].AuthenticationId</td>
+        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
+        <td>0000000-0000-0000-0000-000000000000</td>
+    </tr>
+    <tr>
+        <td>[ConnectorAuthentications].AuthValue</td>
         <td>(Optional) Authentication value for your platform connector.
         If your platform requires a username and password, provide a base64 encoded version of "username:password".  
         Provide API keys as plain text.
@@ -116,7 +121,7 @@ or<br />
 NJ88GGgv79V79VvYFBBTHUIGu</td>
     </tr>
     <tr>
-        <td>PartnerConnector.[Properties]</td>
+        <td>[ConnectorAuthentications].[Properties]</td>
         <td>An array of properties required by the partner connector for successful installation. Required by some Connectors.</td>
         <td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
     </tr>
@@ -229,7 +234,7 @@ curl -X POST
     "AccountId": "0000000-0000-0000-0000-000000000000",
     "Username": "example",
     "Password": "P4$$w0rd",
-    "PartnerConnector": {
+    "ConnectorAuthentications": {
         "Name": "Connector Name",
         "Version": "1.0",
         "AuthValue": "00000000000000000000000000000000000000000",
@@ -296,28 +301,33 @@ You should use a non-account restricted OAuth token as the Authorization for thi
     </tr>
     <thead>
         <tr>
-            <th colspan="3">Partner Connector<br/>
-            <small>Optional parameter to install a pre-authenticated partner connector into the account.  Only used if an Account is created.</small></th>
+            <th colspan="3">Connector Authentications<br/>
+            <small>Optional parameter to install pre-authenticated "partner connectors" into the Account.</small></th>
         </tr>
     </thead>
     <tr>
-        <td>PartnerConnector</td>
-        <td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the LAUNCH flow.
+        <td>[ConnectorAuthentications]</td>
+        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.
         </td>
         <td></td>
     </tr>
     <tr>
-        <td>PartnerConnector.Name</td>
+        <td>[ConnectorAuthentications].Name</td>
         <td>The name to give this instance of your Connector in the Account.</td>
         <td>Connector Name</td>
     </tr>
     <tr>
-        <td>PartnerConnector.Version</td>
+        <td>[ConnectorAuthentications].Version</td>
         <td>The version of the partner connector to be installed.</td>
         <td>1.0</td>
     </tr>
     <tr>
-        <td>PartnerConnector.AuthValue</td>
+        <td>[ConnectorAuthentications].AuthenticationId</td>
+        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
+        <td>0000000-0000-0000-0000-000000000000</td>
+    </tr>
+    <tr>
+        <td>[ConnectorAuthentications].AuthValue</td>
         <td>(Optional) Authentication value for your platform connector.
         If your platform requires a username and password, provide a base64 encoded version of "username:password".  
         Provide API keys as plain text.
@@ -327,7 +337,7 @@ or<br />
 NJ88GGgv79V79VvYFBBTHUIGu</td>
     </tr>
     <tr>
-        <td>PartnerConnector.[Properties]</td>
+        <td>[ConnectorAuthentications].[Properties]</td>
         <td>An array of properties required by the partner connector for successful installation. This is not relevant to all connectors.</td>
         <td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
     </tr>
@@ -365,6 +375,11 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
     <tr>
         <td>Wizard</td>
         <td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>DisplayDescriptions</td>
+        <td>Defaults to false.  Whether Cyclr displays template descriptions to the user.</td>
         <td>true</td>
     </tr>
 </table>

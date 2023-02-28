@@ -38,24 +38,26 @@ You need to set different permissions in **Azure Active Directory** depending on
 
 From the Application view, under **Manage** on the left side of the page, navigate to **API Permissions**. Add the following permissions:
 
-| Method Category                  | Type      | Permission Name            |
-|----------------------------------|-----------|----------------------------|
-| Users                            | Delegated/Application according to the Connector | User.Read.All              |
-|                                  |  | User.ReadWrite.All         |
-|                                  |  | Directory.Read.All         |
-|                                  |  | Directory.ReadWrite.All    |
-| Calendars/Calendar Groups/Events |  | Calendars.Read             |
-|                                  |  | Calendars.Read.Shared      |
-|                                  |  | Calendars.ReadWrite        |
-|                                  |  | Calendars.ReadWrite.Shared |
-| Emails                           |  | Mail.Read                  |
-|                                  |  | Mail.Read.Shared           |
-|                                  |  | Mail.ReadWrite             |
-|                                  |  | Mail.ReadWrite.Shared      |
-| OneDrive                         |  | File.Read                  |
-|                                  |  | File.Read.All              |
-|                                  |  | File.ReadWrite             |
-|                                  |  | File.ReadWrite.All         |
+| **Method Category**              | **Permission Name**        |
+|----------------------------------|----------------------------|
+| Users                            | User.Read.All              |
+|                                  | User.ReadWrite.All         |
+|                                  | Directory.Read.All         |
+|                                  | Directory.ReadWrite.All    |
+| Calendars/Calendar Groups/Events | Calendars.Read             |
+|                                  | Calendars.Read.Shared      |
+|                                  | Calendars.ReadWrite        |
+|                                  | Calendars.ReadWrite.Shared |
+| Emails                           | Mail.Read                  |
+|                                  | Mail.Read.Shared           |
+|                                  | Mail.ReadWrite             |
+|                                  | Mail.ReadWrite.Shared      |
+| OneDrive                         | File.Read                  |
+|                                  | File.Read.All              |
+|                                  | File.ReadWrite             |
+|                                  | File.ReadWrite.All         |
+
+> **Note**: For each permission, the type is either **Delegated** or **Application** dependent on the connector you use.
 
 For more information, see the Microsoft documentation on [permissions](https://docs.microsoft.com/en-us/graph/permissions-reference).
 
