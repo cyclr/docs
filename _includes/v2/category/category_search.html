@@ -7,17 +7,9 @@
 	<div class="card">
 		<!--start search-->
 		<div id="category-search-container" class="doc-search-container text-light bg-dark mt-20">
-			<input class="form-control rounded doc-search-input" type="text" id="categorysearch-input" placeholder="{{site.data.strings.category_search_placeholder_text}}">
-			<ul id="category-results-container" class="results-container"></ul>
+			<div id="category-query-container"></div>
+			<div id="category-results-container" class="results-list rounded text-dark"></div>
 		</div>
-		<script type="text/javascript">
-			docsearch({
-				apiKey: '52876b34ea9346e119deb025402cd681',
-				indexName: 'cyclr',
-				inputSelector: '#categorysearch-input',
-				debug: false // Set debug to true if you want to inspect the dropdown
-			});
-		</script>
 		<!--end search-->
 	</div>
 </section>
@@ -52,4 +44,67 @@
 		</div>
 	</div>
 </section>
+<script>
+const categorysearch = instantsearch({
+    appId: '{{ site.algolia.application_id }}',
+    apiKey: '{{ site.algolia.search_only_api_key }}',
+    indexName: '{{ site.algolia.index_name }}',
+    searchFunction(helper) {
+        const catcontainer = document.querySelector('#category-results-container');
+        catcontainer.style.display = helper.state.query === '' ? 'none' : '';
+        helper.search();
+    }
+});
+
+const categoryhitTemplate = function(hit) {
+	let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+	const title = hit._highlightResult.title.value;
+	let breadcrumbs = '';
+	if (hit._highlightResult.headings) {
+		breadcrumbs = hit._highlightResult.headings.map(match => {
+			return `<span class="post-breadcrumb">${match.value}</span>`
+		}).join(' > ')
+	}
+	const content = hit._highlightResult.html.value;
+    if (breadcrumbs.length == 0)
+        return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
+    else
+        return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          {{#breadcrumbs}}<a href="${url}" class="result-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
+}
+
+categorysearch.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#category-query-container',
+    placeholder: '{{site.data.strings.category_search_placeholder_text}}',
+    autofocus: false,
+    magnifier: true,
+    searchAsYouType: true,
+    showReset: true,
+    showSubmit: false,
+    showLoadingIndicator: false
+  })
+);
+
+categorysearch.addWidget(
+  instantsearch.widgets.hits({
+    container: '#category-results-container',
+    templates: {
+        item: categoryhitTemplate
+    }
+  })
+);
+
+categorysearch.start();
+</script>
 `

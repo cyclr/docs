@@ -1,0 +1,361 @@
+category,file,line,html tag
+02-cyclr-configuration^03-appearance-settings.md^60^<h1>This is a header</h1>
+02-cyclr-configuration^03-appearance-settings.md^73^<h1>This is a footer</h1>
+02-cyclr-configuration^03-appearance-settings.md^95^<p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>
+04-embedding^01-embedding-introduction.md^51^<th>Deployment</th>
+04-embedding^01-embedding-introduction.md^52^<th>Description</th>
+04-embedding^01-embedding-introduction.md^55^<td>Invisible</td>
+04-embedding^01-embedding-introduction.md^56^<td>Cyclr has no footprint in the host UI, instead integrations are setup by your team on behalf of users. This the fastest solution to deploy and is often popular for a first release to address immediate integration needs.</td>
+04-embedding^01-embedding-introduction.md^59^<td>Simple</td>
+04-embedding^01-embedding-introduction.md^60^<td>As with the Invisible deployment, except users activate their own authentication for the apps they want to connect. This is done using Cyclr's authentication framework. Upon connecting an app, integrations can optionally be automatically deployed and activated. This gives users an experience of ...
+04-embedding^01-embedding-introduction.md^63^<td>User Self Serve</td>
+04-embedding^01-embedding-introduction.md^64^<td>Using Cyclr's API, the host app can build any interface to allow users to activate and customise integrations. The interface could be as simple as a button to start/stop a pre-made integration or a full step-based interface exposing users to the full integration with the ability to change behavi...
+04-embedding^04-launch\02-build-compatible-templates.md^62^hether or not the field is presented to your end user during the field mapping screen for this step.<br><br><li>Where a value is selected, that will be presented to your end user as the default value or mapping. Your end user will be able to amend as required.</li><li>Where *no* value is selected, y...
+04-embedding^04-launch\04-deploy-launch.md^53^<th>Request Parameter</th>
+04-embedding^04-launch\04-deploy-launch.md^54^<th>Description</th>
+04-embedding^04-launch\04-deploy-launch.md^55^<th>Example</th>
+04-embedding^04-launch\04-deploy-launch.md^58^<th colspan="3">Account</th>
+04-embedding^04-launch\04-deploy-launch.md^62^<td>AccountName</td>
+04-embedding^04-launch\04-deploy-launch.md^63^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
+04-embedding^04-launch\04-deploy-launch.md^64^<td>New Cyclr Account Name</td>
+04-embedding^04-launch\04-deploy-launch.md^67^<td>AccountDescription</td>
+04-embedding^04-launch\04-deploy-launch.md^68^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr account, this creates a new account with this description.</td>
+04-embedding^04-launch\04-deploy-launch.md^69^<td>This is a LAUNCH created account</td>
+04-embedding^04-launch\04-deploy-launch.md^74^<small>Optional parameters to control the initial behaviour of the launched Cycle</small></th>
+04-embedding^04-launch\04-deploy-launch.md^78^<td>Start</td>
+04-embedding^04-launch\04-deploy-launch.md^79^<td>Defaults to true. Set to false if you don't want the launched Cycle to be started.</td>
+04-embedding^04-launch\04-deploy-launch.md^80^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^83^<td>RunOnce</td>
+04-embedding^04-launch\04-deploy-launch.md^84^<td>Defaults to false. Set it to true if the Cycle being installed should only run once, then stop.</td>
+04-embedding^04-launch\04-deploy-launch.md^85^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^90^<small>Optional parameter to install a pre-authenticated "partner connector" into the Account.  Only used if an Account is created by the call.</small></th>
+04-embedding^04-launch\04-deploy-launch.md^94^<td>PartnerConnector</td>
+04-embedding^04-launch\04-deploy-launch.md^95^<td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
+04-embedding^04-launch\04-deploy-launch.md^99^<td>PartnerConnector.Name</td>
+04-embedding^04-launch\04-deploy-launch.md^100^<td>The name to give this instance of your Connector in the Account.</td>
+04-embedding^04-launch\04-deploy-launch.md^101^<td>Connector Name</td>
+04-embedding^04-launch\04-deploy-launch.md^104^<td>PartnerConnector.Version</td>
+04-embedding^04-launch\04-deploy-launch.md^105^<td>The version of the partner connector to be installed.</td>
+04-embedding^04-launch\04-deploy-launch.md^106^<td>1.0</td>
+04-embedding^04-launch\04-deploy-launch.md^109^<td>PartnerConnector.AuthValue</td>
+04-embedding^04-launch\04-deploy-launch.md^119^<td>PartnerConnector.[Properties]</td>
+04-embedding^04-launch\04-deploy-launch.md^120^<td>An array of properties required by the partner connector for successful installation. Required by some Connectors.</td>
+04-embedding^04-launch\04-deploy-launch.md^121^<td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
+04-embedding^04-launch\04-deploy-launch.md^125^<th colspan="3">LAUNCH Options</th>
+04-embedding^04-launch\04-deploy-launch.md^129^<td>Tags</td>
+04-embedding^04-launch\04-deploy-launch.md^130^<td>An array of Tags that a Cycle must have at least one of to appear through LAUNCH.</td>
+04-embedding^04-launch\04-deploy-launch.md^131^<td>["CRM", "Email"]</td>
+04-embedding^04-launch\04-deploy-launch.md^134^<td>InlineOAuth</td>
+04-embedding^04-launch\04-deploy-launch.md^135^<td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
+04-embedding^04-launch\04-deploy-launch.md^136^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^139^<td>AutoInstall</td>
+04-embedding^04-launch\04-deploy-launch.md^140^<td>Defaults to true so that Cyclr will automatically start installation of a Template if only one is returned, avoiding the need for the user to select it. Set this to false to prevent that, requiring the user to select it instead.</td>
+04-embedding^04-launch\04-deploy-launch.md^141^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^144^<td>SingleInstall</td>
+04-embedding^04-launch\04-deploy-launch.md^145^<td>Defaults to false so that Templates are shown whether they have been installed or not. Set to true to only show Templates that haven't already been installed in the Account.</td>
+04-embedding^04-launch\04-deploy-launch.md^146^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^149^<td>CompleteParameter</td>
+04-embedding^04-launch\04-deploy-launch.md^150^<td>A value to pass through to the final page of the LAUNCH flow.</td>
+04-embedding^04-launch\04-deploy-launch.md^154^<td>Wizard</td>
+04-embedding^04-launch\04-deploy-launch.md^155^<td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
+04-embedding^04-launch\04-deploy-launch.md^156^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^159^<td>DisplayDescriptions</td>
+04-embedding^04-launch\04-deploy-launch.md^160^<td>Defaults to false. Whether template descriptions should be displayed to the user on the cycle selection screen.</td>
+04-embedding^04-launch\04-deploy-launch.md^161^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^179^<th>Response Field</th>
+04-embedding^04-launch\04-deploy-launch.md^180^<th>Description</th>
+04-embedding^04-launch\04-deploy-launch.md^181^<th>Example Value</th>
+04-embedding^04-launch\04-deploy-launch.md^185^<td>AccountId</td>
+04-embedding^04-launch\04-deploy-launch.md^186^<td>The ID of the newly created account, or the existing account you provided in your Request.</td>
+04-embedding^04-launch\04-deploy-launch.md^187^<td>CustomerXYZ</td>
+04-embedding^04-launch\04-deploy-launch.md^190^<td>ExpiresAtUtc</td>
+04-embedding^04-launch\04-deploy-launch.md^191^<td>When the Token and LAUNCH URL will expire.</td>
+04-embedding^04-launch\04-deploy-launch.md^192^<td>2020-01-01T12:30:00.000Z</td>
+04-embedding^04-launch\04-deploy-launch.md^195^<td>LaunchUrl</td>
+04-embedding^04-launch\04-deploy-launch.md^198^<td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch</td>
+04-embedding^04-launch\04-deploy-launch.md^201^<td>Token</td>
+04-embedding^04-launch\04-deploy-launch.md^202^<td>LAUNCH URL token.</td>
+04-embedding^04-launch\04-deploy-launch.md^203^<td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
+04-embedding^04-launch\04-deploy-launch.md^248^<th>Request parameters</th>
+04-embedding^04-launch\04-deploy-launch.md^249^<th>Description</th>
+04-embedding^04-launch\04-deploy-launch.md^250^<th>Example</th>
+04-embedding^04-launch\04-deploy-launch.md^253^<th colspan="3">Account</th>
+04-embedding^04-launch\04-deploy-launch.md^257^<td>AccountId</td>
+04-embedding^04-launch\04-deploy-launch.md^258^<td>ID of the account.</td>
+04-embedding^04-launch\04-deploy-launch.md^259^<td>0000000-0000-0000-0000-000000000000</td>
+04-embedding^04-launch\04-deploy-launch.md^262^<td>Username</td>
+04-embedding^04-launch\04-deploy-launch.md^263^<td>Username of the user the LAUNCH is for.</td>
+04-embedding^04-launch\04-deploy-launch.md^264^<td>example</td>
+04-embedding^04-launch\04-deploy-launch.md^267^<td>Password</td>
+04-embedding^04-launch\04-deploy-launch.md^268^<td>The users password.</td>
+04-embedding^04-launch\04-deploy-launch.md^269^<td>P4$$w0rd</td>
+04-embedding^04-launch\04-deploy-launch.md^272^<td>AccountName</td>
+04-embedding^04-launch\04-deploy-launch.md^273^<td>(Optional) If the account doesn't exist, this creates one. You can include a name for the account, otherwise it uses the ID as the name.</td>
+04-embedding^04-launch\04-deploy-launch.md^274^<td>New Cyclr Account Name</td>
+04-embedding^04-launch\04-deploy-launch.md^277^<td>AccountDescription</td>
+04-embedding^04-launch\04-deploy-launch.md^278^<td>(Optional) If the account doesn't exist, this request creates a new account and you can include a description.</td>
+04-embedding^04-launch\04-deploy-launch.md^279^<td>This is a LAUNCH created account</td>
+04-embedding^04-launch\04-deploy-launch.md^284^<small>Optional parameters to control the initial behaviour of the launched cycle</small></th>
+04-embedding^04-launch\04-deploy-launch.md^288^<td>Start</td>
+04-embedding^04-launch\04-deploy-launch.md^289^<td>Defaults to true. Set to false if you don't want the launched cycle to be started.</td>
+04-embedding^04-launch\04-deploy-launch.md^290^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^293^<td>RunOnce</td>
+04-embedding^04-launch\04-deploy-launch.md^294^<td>Defaults to false. Set it to true if the cycle being installed should only run once, then pause.</td>
+04-embedding^04-launch\04-deploy-launch.md^295^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^300^<small>Optional parameter to install a pre-authenticated partner connector into the account.  Only used if an Account is created.</small></th>
+04-embedding^04-launch\04-deploy-launch.md^304^<td>PartnerConnector</td>
+04-embedding^04-launch\04-deploy-launch.md^310^<td>PartnerConnector.Name</td>
+04-embedding^04-launch\04-deploy-launch.md^311^<td>The name to give this instance of your Connector in the Account.</td>
+04-embedding^04-launch\04-deploy-launch.md^312^<td>Connector Name</td>
+04-embedding^04-launch\04-deploy-launch.md^315^<td>PartnerConnector.Version</td>
+04-embedding^04-launch\04-deploy-launch.md^316^<td>The version of the partner connector to be installed.</td>
+04-embedding^04-launch\04-deploy-launch.md^317^<td>1.0</td>
+04-embedding^04-launch\04-deploy-launch.md^320^<td>PartnerConnector.AuthValue</td>
+04-embedding^04-launch\04-deploy-launch.md^330^<td>PartnerConnector.[Properties]</td>
+04-embedding^04-launch\04-deploy-launch.md^331^<td>An array of properties required by the partner connector for successful installation. This is not relevant to all connectors.</td>
+04-embedding^04-launch\04-deploy-launch.md^332^<td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
+04-embedding^04-launch\04-deploy-launch.md^337^<small>Optional parameters to filter the displayed templates shown in LAUNCH</small></th>
+04-embedding^04-launch\04-deploy-launch.md^341^<td>Tags</td>
+04-embedding^04-launch\04-deploy-launch.md^342^<td>An array of tags that a cycle must have at least one of to appear in LAUNCH.</td>
+04-embedding^04-launch\04-deploy-launch.md^343^<td>["CRM", "Email"]</td>
+04-embedding^04-launch\04-deploy-launch.md^346^<td>InlineOAuth</td>
+04-embedding^04-launch\04-deploy-launch.md^347^<td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
+04-embedding^04-launch\04-deploy-launch.md^348^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^351^<td>AutoInstall</td>
+04-embedding^04-launch\04-deploy-launch.md^352^<td>Defaults to true so that Cyclr will automatically start installation of a template if only one is returned, avoiding the need for the user to select it. Set this to false to prevent that, requiring the user to select it instead.</td>
+04-embedding^04-launch\04-deploy-launch.md^353^<td>false</td>
+04-embedding^04-launch\04-deploy-launch.md^356^<td>SingleInstall</td>
+04-embedding^04-launch\04-deploy-launch.md^357^<td>Defaults to false so that templates are shown whether they have been installed or not. Set to true to only show templates that aren't installed in the account.</td>
+04-embedding^04-launch\04-deploy-launch.md^358^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^361^<td>CompleteParameter</td>
+04-embedding^04-launch\04-deploy-launch.md^362^<td>A value to pass through to the final page of the LAUNCH flow.</td>
+04-embedding^04-launch\04-deploy-launch.md^366^<td>Wizard</td>
+04-embedding^04-launch\04-deploy-launch.md^367^<td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
+04-embedding^04-launch\04-deploy-launch.md^368^<td>true</td>
+04-embedding^04-launch\04-deploy-launch.md^386^<th>Response fields</th>
+04-embedding^04-launch\04-deploy-launch.md^387^<th>Description</th>
+04-embedding^04-launch\04-deploy-launch.md^388^<th>Example</th>
+04-embedding^04-launch\04-deploy-launch.md^392^<td>AccountId</td>
+04-embedding^04-launch\04-deploy-launch.md^393^<td>The ID of the newly created account or the existing account you provided in your request.</td>
+04-embedding^04-launch\04-deploy-launch.md^394^<td>0000000-0000-0000-0000-000000000000</td>
+04-embedding^04-launch\04-deploy-launch.md^397^<td>ExpiresAtUtc</td>
+04-embedding^04-launch\04-deploy-launch.md^398^<td>Token expiry timestamp.</td>
+04-embedding^04-launch\04-deploy-launch.md^399^<td>2020-01-01T12:30:00.000Z</td>
+04-embedding^04-launch\04-deploy-launch.md^402^<td>LaunchUrl</td>
+04-embedding^04-launch\04-deploy-launch.md^406^<td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch</td>
+04-embedding^04-launch\04-deploy-launch.md^409^<td>Token</td>
+04-embedding^04-launch\04-deploy-launch.md^410^<td>LAUNCH URL token.</td>
+04-embedding^04-launch\04-deploy-launch.md^411^<td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
+04-embedding^04-launch\05-handle-callbacks.md^29^<h1>Congrats - you're connected!</h1>
+04-embedding^04-launch\05-handle-callbacks.md^37^<h1>Congrats - you're connected!</h1>
+04-embedding^04-launch\05-handle-callbacks.md^38^<button onclick="closeWindow();">OK</button>
+04-embedding^04-launch\06-customize-appearance.md^37^<th>Element</th>
+04-embedding^04-launch\06-customize-appearance.md^38^<th>CSS Class</th>
+04-embedding^04-launch\06-customize-appearance.md^39^<th>Explanation</th>
+04-embedding^04-launch\06-customize-appearance.md^42^<td>Create/Active Button</td>
+04-embedding^04-launch\06-customize-appearance.md^43^<td>.btn-success</td>
+04-embedding^04-launch\06-customize-appearance.md^44^<td>This button is used by the user to select an integration template to setup and activate.</td>
+04-embedding^04-launch\06-customize-appearance.md^47^<td>LAUNCH Background</td>
+04-embedding^04-launch\06-customize-appearance.md^48^<td>body.launch</td>
+04-embedding^04-launch\06-customize-appearance.md^49^<td>Using this allows you to edit the background and color settings of your instance of LAUNCH.</td>
+04-embedding^04-launch\06-customize-appearance.md^52^<td>Application Icons</td>
+04-embedding^04-launch\06-customize-appearance.md^53^<td>.icon-sm</td>
+04-embedding^04-launch\06-customize-appearance.md^54^<td>Allows you to alter how the application logos are displayed.</td>
+04-embedding^04-launch\06-customize-appearance.md^57^<td>Integration Template Description</td>
+04-embedding^04-launch\06-customize-appearance.md^58^<td>.template-description</td>
+04-embedding^04-launch\06-customize-appearance.md^59^<td>Update the font format for integration descriptions.</td>
+04-embedding^04-launch\06-customize-appearance.md^95^<h2>Test Heading</h2>
+04-embedding^04-launch\06-customize-appearance.md^97^<p>This is a test message to show your users. You can add instructions for how to set up integrations here.</p>
+04-embedding^04-launch\07-orbit.md^58^<th>Response fields</th>
+04-embedding^04-launch\07-orbit.md^59^<th>Description</th>
+04-embedding^04-launch\07-orbit.md^60^<th>Example</th>
+04-embedding^04-launch\07-orbit.md^63^<td>AccountId</td>
+04-embedding^04-launch\07-orbit.md^64^<td>The ID of the newly created account or the existing account you provided in your request.</td>
+04-embedding^04-launch\07-orbit.md^65^<td>0000000-0000-0000-0000-000000000000</td>
+04-embedding^04-launch\07-orbit.md^68^<td>ExpiresAtUtc</td>
+04-embedding^04-launch\07-orbit.md^69^<td>Token expiry timestamp.</td>
+04-embedding^04-launch\07-orbit.md^70^<td>17/01/2018 12:11:22</td>
+04-embedding^04-launch\07-orbit.md^73^<td>OrbitUrl</td>
+04-embedding^04-launch\07-orbit.md^76^<td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch</td>
+04-embedding^04-launch\07-orbit.md^79^<td>Token</td>
+04-embedding^04-launch\07-orbit.md^80^<td>Orbit URL token.</td>
+04-embedding^04-launch\07-orbit.md^81^<td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^56^<th>Request Parameter</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^57^<th>Description</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^58^<th>Example</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^62^<small>Parameters required to identify the Marketplace to show and Account to work in</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^66^<td>MarketplaceId</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^68^You can find this through your Cyclr Console in your web browser's address bar after pressing <strong>Edit</strong> on your Marketplace, e.g.: https://my.cyclr.uk/console/2/marketplaces/category?categoryId=10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^69^<td>10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^72^<td>AccountName</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^73^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^74^<td>New Cyclr Account Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^77^<td>AccountDescription</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^78^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value you provide in the request's URL doesn't match an existing Cyclr account, it creates a new with this description.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^79^<td>This is a Marketplace created account</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^84^<small>Optional parameter to install a pre-authenticated "partner connector" into the Account.  Only used if an Account is created by the call.</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^88^<td>PartnerConnector</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^89^<td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^93^<td>PartnerConnector.Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^94^<td>The name to give this instance of your Connector in the Account.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^95^<td>Connector Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^98^<td>PartnerConnector.Version</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^99^<td>The version of the partner connector to be installed.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^100^<td>1.0</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^103^<td>PartnerConnector.AuthValue</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^113^<td style="white-space: nowrap">PartnerConnector.[Properties]</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^114^<td>An array of properties required by the partner connector for successful installation. Required by some Connectors.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^115^<td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^120^<small>Optional parameters to change the display behaviour of Marketplace</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^124^<td>InlineOAuth</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^125^<td>Defaults to true. Set it to false if you are running Marketplace in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^126^<td>false</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^144^<th>Response Field</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^145^<th>Description</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^146^<th>Example Value</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^150^<td>AccountId</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^151^<td>The ID of the newly created account, or the existing account you provided in your Request.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^152^<td>CustomerXYZ</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^155^<td>ExpiresAtUtc</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^156^<td>When the Token and MarketplaceUrl will expire.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^157^<td>2020-01-01T12:30:00.000Z</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^160^<td>MarketplaceUrl</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^163^<td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch/marketplace/10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^166^<td>Token</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^167^<td>Marketplace URL token.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^168^<td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^212^<th>Request Parameter</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^213^<th>Description</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^214^<th>Example</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^218^<small>Parameters required to identify the Marketplace to show and Account to work in</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^222^<td>MarketplaceId</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^224^You can find this through your Cyclr Console in your web browser's address bar after pressing <strong>Edit</strong> on your Marketplace, e.g.: https://my.cyclr.uk/console/2/marketplaces/category?categoryId=10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^225^<td>10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^228^<td>AccountId</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^229^<td>API ID of the Account to work in.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^230^<td>CustomerXYZ</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^233^<td>AccountName</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^234^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the Request doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^235^<td>New Cyclr Account Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^238^<td>AccountDescription</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^239^<td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> provided in the request doesn't match an existing Cyclr account, it creates a new account with this description.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^240^<td>This is a Marketplace created account</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^243^<td>Username</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^244^<td>Username of the user accessing the Marketplace.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^245^<td>USERNAME</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^248^<td>Password</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^249^<td>Password for the user.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^250^<td>PASSWORD</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^255^<small>Optional parameter to install a pre-authenticated "partner connector" into the Account.  Only used if an Account is created by the call.</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^259^<td>PartnerConnector</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^260^<td>Providing your own platform's Cyclr Connector object here means your users will not be expected to authenticate against your platform during the Marketplace flow.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^264^<td>PartnerConnector.Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^265^<td>The name to give this instance of your Connector in the Account.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^266^<td>Connector Name</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^269^<td>PartnerConnector.Version</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^270^<td>The version of the partner connector to be installed.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^271^<td>1.0</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^274^<td>PartnerConnector.AuthValue</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^284^<td style="white-space: nowrap">PartnerConnector.[Properties]</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^285^<td>An array of properties required by the partner connector for successful installation. Required by some Connectors.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^286^<td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^291^<small>Optional parameters to change the display behaviour of Marketplace</small></th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^295^<td>InlineOAuth</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^296^<td>Defaults to true. Set it to false if you are running Marketplace in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^297^<td>false</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^315^<th>Response Field</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^316^<th>Description</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^317^<th>Example Value</th>
+04-embedding^05-marketplace\02-deploy-marketplace.md^321^<td>AccountId</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^322^<td>The ID of the newly created account, or the existing account you provided in your Request.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^323^<td>CustomerXYZ</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^326^<td>ExpiresAtUtc</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^327^<td>When the Token and MarketplaceUrl will expire.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^328^<td>2020-01-01T12:30:00.000Z</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^331^<td>MarketplaceUrl</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^334^<td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch/marketplace/10</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^337^<td>Token</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^338^<td>Marketplace URL token.</td>
+04-embedding^05-marketplace\02-deploy-marketplace.md^339^<td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
+04-embedding^05-marketplace\03-handle-callbacks.md^29^<h1>Congrats - you're connected!</h1>
+04-embedding^05-marketplace\03-handle-callbacks.md^37^<h1>{% raw %}{{InstallCompleteMessage}}{% endraw %}</h1>
+04-embedding^05-marketplace\03-handle-callbacks.md^45^<h1>Congrats - you're connected!</h1>
+04-embedding^05-marketplace\03-handle-callbacks.md^46^<button onclick="closeWindow();">OK</button>
+05-application-connectors^authentication\bamboohr.md^15^1. The subdomain used to access your account. If you access BambooHR at https://<span>mycompany.</span>bamboohr<span>.com</span>, then the subdomain is "mycompany"
+05-application-connectors^authentication\epic.md^13^* Create a new app, give it an appropriate name. Select <code>Clinicians or Administrative Users</code> as the <code>Application Audience</code>.
+05-application-connectors^authentication\epic.md^22^* Enter your redirect URL: <code>https://{{ServiceDomain}}/connector/callback</code>
+05-application-connectors^authentication\epic.md^23^* Make sure <code>Should Epic require refresh tokens when authenticating?</code> is ticked.
+05-application-connectors^authentication\epic.md^25^* Select <code>R4</code> for the <code>FHIR Version</code>.
+05-application-connectors^authentication\exact.md^35^10. For Redirect URI enter: <span>ht</span>tps://{{ServiceDomain}}/connector/callback (ServiceDomain should be substituted for your actual service domain)
+05-application-connectors^authentication\fullcontact.md^13^<h2>Integrate FullContact address books with your apps</h2>
+05-application-connectors^authentication\fullcontact.md^20^<h2>Organising Contacts</h2>
+05-application-connectors^authentication\fullcontact.md^24^<p>Example Uses:</p>
+05-application-connectors^authentication\fullcontact.md^26^<li>Allow your sales teams to manage their contacts in their preferred messaging service</li>
+05-application-connectors^authentication\fullcontact.md^27^<li>Automatically keep team address books up to date based on the projects they’re working on</li>
+05-application-connectors^authentication\fullcontact.md^31^<h3>Collect Contacts by Team</h3>
+05-application-connectors^authentication\fullcontact.md^36^<p>This allows you to connect to other FullContact connector steps in order to select team specific address books.</p>
+05-application-connectors^authentication\fullcontact.md^39^<p><strong>Note</strong>: Within the <strong>Get Contacts</strong> step it is possible to directly select a team while
+05-application-connectors^authentication\fullcontact.md^43^<h2>Contact Data Enrichment</h2>
+05-application-connectors^authentication\fullcontact.md^44^<p>Cyclr’s <a href="/integrate/fullcontact">FullContact connector</a> allows you to easily enhance user and customer
+05-application-connectors^authentication\fullcontact.md^46^<p>Example Uses:</p>
+05-application-connectors^authentication\fullcontact.md^48^<li>Adding more context to user details from website forms</li>
+05-application-connectors^authentication\fullcontact.md^49^<li>Providing more data in your marketing profiles to allow for more granular segmentation</li>
+05-application-connectors^authentication\fullcontact.md^50^<li>Updating user records with up to date data</li>
+05-application-connectors^authentication\fullcontact.md^51^<li>Adding business context to social media enquiries and contact</li>
+05-application-connectors^authentication\fullcontact.md^53^<h3>FullContact Connector</h3>
+05-application-connectors^authentication\fullcontact.md^54^<p>The FullContact connector allows you to request additional data on a user based on:</p>
+05-application-connectors^authentication\fullcontact.md^56^<li>By email address</li>
+05-application-connectors^authentication\fullcontact.md^57^<li>By company URL domain</li>
+05-application-connectors^authentication\fullcontact.md^58^<li>By Twitter handle</li>
+05-application-connectors^authentication\fullcontact.md^62^<p>&nbsp;</p>
+05-application-connectors^authentication\fullcontact.md^63^<h3>Field Mapping Example</h3>
+05-application-connectors^authentication\injixoconnector.md^13^Follow Injixo guide <a href="https://help.injixo.com/injixo-api#authorization-personal-access-token" target="_blank">here.</a> To generate and obtain your Personal Access Token. (You will need a user with Admin access to Injixo)
+05-application-connectors^authentication\mailchimp.md^27^<a href="https://mailchimp.com/developer/guides/access-user-data-with-oauth-2/#register-your-application">https://mailchimp.com/developer/guides/access-user-data-with-oauth-2/#register-your-application</a>
+05-application-connectors^authentication\openapply.md^26^Your OpenApply account as displayed in your account URL. Example: if your account URL was https://<span>demo.openapply.</span>com then your account name would be **demo**.
+05-application-connectors^authentication\opencrm.md^20^ account name as it appears in the url when logged into OpenCRM. For instance if the url is https://<span>mycompany.</span>opencrm.co.uk your account name for the API purposes would be **mycompany**.
+05-application-connectors^authentication\petexec.md^23^3. Enter a callback URL. This should be https://{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}/connector/callback
+05-application-connectors^authentication\petexec.md^33^our PetExec account as it is formatted in the URL. Example: if the URL for your account was https://<span>secure.mycompany.</span>net/ your account name would be mycompany.
+05-application-connectors^authentication\quickbooks.md^36^example, as we are working with a development app, you would give sandbox-quickbooks.api.intuit.com <span>.</span>
+05-application-connectors^authentication\rybbon.md^15^1. Go to https://<span>{yourAccount}.rybbon</span>.net/ui/settings/api
+05-application-connectors^authentication\service-now.md^29^- **ServiceNow Instance** - Your ServiceNow Instance (eg. https://<span>{Instance}.service-now</span>.com/)
+05-application-connectors^authentication\total-expert.md^17^<b><i>public.totalexpert.net</i></b>
+05-application-connectors^authentication\twitter.md^25^5. The Callback URL for the App should be https://{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}/connector/callback
+05-application-connectors^authentication\wordpress.md^25^In order to allow Cyclr to connect to your WordPress site’s API, you must install the <a href="https://wordpress.org/plugins/rest-api-oauth1/" target="_blank">WordPress REST API – OAuth 1.0a Server</a>. This gives your site the ability to securely authenticate API use.
+05-application-connectors^information\disciple-media-information.md^13^before being accepted. Make sure you provide a secret for the webhook in Disciple Media: `(`https://<span>{AccountSubdomain}.</span>disciplemedia.com/admin/webhooks/`. You also need to enter the secret at connector setup. If you don't provide the secret, or the secret doesn't match the webhook, it r...
+05-application-connectors^information\openapply-information.md^19^| Get Parent By ID                | parent.custom_fields.<em>FieldName</em>     | parent.custom_fields.eyeColour     |
+05-application-connectors^information\openapply-information.md^20^| List Parents                    | [parents].custom_fields.<em>FieldName</em>  | [parents].custom_fields.eyeColour  |
+05-application-connectors^information\openapply-information.md^21^| List Updated Parents            | [parents].custom_fields.<em>FieldName</em>  | [parents].custom_fields.eyeColour  |
+05-application-connectors^information\openapply-information.md^22^| Search Parents                  | [parents].custom_fields.<em>FieldName</em>  | [parents].custom_fields.eyeColour  |
+05-application-connectors^information\openapply-information.md^23^| Get Student By ID               | student.custom_fields.<em>FieldName</em>    | student.custom_fields.eyeColour    |
+05-application-connectors^information\openapply-information.md^24^| List Students                   | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
+05-application-connectors^information\openapply-information.md^25^| List Updated Students           | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
+05-application-connectors^information\openapply-information.md^26^| Search Students By Field Value  | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
+05-application-connectors^information\openapply-information.md^27^| Search Students By Student Slug | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
+05-application-connectors^information\openapply-information.md^28^| Search Students By Tag          | [students].custom_fields.<em>FieldName</em> | [students].custom_fields.eyeColour |
+05-application-connectors^information\opencrm-information.md^23^| Upsert Contact        | Request                | <em>APIFieldName</em>    | cf_123    |
+05-application-connectors^information\opencrm-information.md^24^| Get Contact           | Response               | <em>APIFieldName</em>    | cf_123    |
+05-application-connectors^information\opencrm-information.md^25^| List Contacts         | Response               | [].<em>APIFieldName</em> | [].cf_123 |
+05-application-connectors^information\opencrm-information.md^26^| List New Contacts     | Response               | [].<em>APIFieldName</em> | [].cf_123 |
+05-application-connectors^information\opencrm-information.md^27^| List Updated Contacts | Response               | [].<em>APIFieldName</em> | [].cf_123 |
+05-application-connectors^information\pipedrive-information.md^13^<h2>Automate Pipedrive</h2>
+05-application-connectors^information\pipedrive-information.md^14^<h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-l...
+05-application-connectors^information\pipedrive-information.md^16^<h3>Automate Your Sales Pipeline</h3><p>Cyclr lets you automate your sales process by using webhooks and triggers based on movements between pipeline stages.</p><p>Example uses:</p><ul><li>Send deals to separate pipelines for other teams to complete work on</li><li>Automatically assign reminders for...
+05-application-connectors^information\pipedrive-information.md^18^<h3>Pipedrive Updates with Webhooks</h3><p>Cyclr combined with Pipedrive’s webhook builder allows you to trigger automation workflows based on a wide range of actions in your CRM.</p><p>Our Webhook connect includes an automatic field discovery feature, helping you set up your automation workflows in...
+05-application-connectors^information\pipedrive-information.md^20^<h2>Pipedrive and Contact Form 7 Integration</h2><p>Getting Contact Form 7 to work with your Pipedrive CRM has been a pain for a long time, so you’ll be please to see that you can connect the two with Cyclr.</p><h3>Why Integrate Contact Form 7 and Pipedrive?</h3><p>Contact Form 7 is still one of the...
+05-application-connectors^information\pipedrive-information.md^22^<h2>Automatically Add New Users to your CRM</h2><p>Cyclr lets you integrate Pipedrive with Intercom, so you can add and update user data within your CRM automatically.</p><p>Cyclr’s Intercom connector contains a range of webhooks that can be triggered when an event criteria in Intercom is met. Take ...
+05-application-connectors^information\pipedrive-oauth-information.md^13^<h2>Automate Pipedrive</h2>
+05-application-connectors^information\pipedrive-oauth-information.md^14^<h3 id="deals" class="intercom-align-left">Automating Deals</h3><p class="intercom-align-left">Our Pipedrive connector includes a number of webhooks. These are real-time event notifications that fire when something happens to a deal, e.g. when one is created or updated.</p><p class="intercom-align-l...
+05-application-connectors^information\pipedrive-oauth-information.md^19^<ul><li>Send deals to separate pipelines for other teams to complete work on</li><li>Automatically assign reminders for yourself or team members based on deal stages</li><li>Trigger external application events when a deal reaches a chosen stage</li><li>Automatically send emails and messages when a d...
+05-application-connectors^information\pipedrive-oauth-information.md^20^</p><center><iframe width="500" height="281" src="https://www.youtube.com/embed/GTBgHGIh_Mo?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center><p>
+05-application-connectors^information\pipedrive-oauth-information.md^27^<center><iframe width="500" height="281" src="https://www.youtube.com/embed/WclcTlrAsi0?feature=oembed" frameborder="0" gesture="media" allowfullscreen=""></iframe></center>
+05-application-connectors^information\pipedrive-oauth-information.md^30^<h2>Pipedrive and Contact Form 7 Integration</h2><p>Getting Contact Form 7 to work with your Pipedrive CRM has been a pain for a long time, so you’ll be please to see that you can connect the two with Cyclr.</p>### Why Integrate Contact Form 7 and Pipedrive?
+05-application-connectors^information\pipedrive-oauth-information.md^31^<p>Contact Form 7 is still one of the most popular form building applications around. While it’s name suggest it is just for contact forms, it has many usages when combined with Pipedrive, including:</p><ul><li>Adding new website enquiries directly into your CRM</li><li>Creating new deals direct fro...
+05-application-connectors^information\pipedrive-oauth-information.md^33^<h2>Automatically Add New Users to your CRM</h2><p>Cyclr lets you integrate Pipedrive with Intercom, so you can add and update user data within your CRM automatically.</p><p>Cyclr’s Intercom connector contains a range of webhooks that can be triggered when an event criteria in Intercom is met. Take ...
+05-application-connectors^information\twilio-information.md^11^<h2>Creating a Helpdesk using Twilio, Slack and Cyclr Example</h2><p>This guide shows you how to create your very own helpdesk that lets your agents view and respond to chats within Slack.</p><p>This guide will show you:</p><ul><li>How to create new channels in Slack</li><li>How to connect Twilio ch...
+05-application-connectors^information\twilio-information.md^14^<h3>Message Syncing</h3><p>In the second of our helpdesk creation tutorial shows you how to sync messages between your Twilio chat room and newly created Slack channel.</p><p>This part of the guide shows you how to create a workflow to connect messages between your user and agent chat rooms, showing...
+05-application-connectors^information\twilio-information.md^18^<h3>Archiving Ended Chats</h3><p>Once a user has finished their chat session in the Twilio Chat client you don’t want your helpdesk agents to be swamped in old Slack chat windows. To do this, we create a new workflow automation that automatically archives Slack channels when a chat has been ended by...
+05-application-connectors^information\twilio-information.md^21^<h3>Google Sheets Powered User Agent Dashboard</h3><p>Now you have your bi-directional chat helpdesk set up we want to add reporting functionality to it.</p><p>To do this, we create a Google Sheets powered dashboard. The dashboard will show you how many active chats you have in session and user agen...
+08-custom-connectors^04-create-a-connector\07-script.md^407^//<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Dont forget me this weekend!</body></note>
+08-custom-connectors^04-create-a-connector\07-script.md^415^var xmlStr = '<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Dont forget me this weekend!</body></note>';
+08-custom-connectors^04-create-a-connector\07-script.md^661^xmlData += '<Field val=""' + p + '"">' + method_request[p] + '</Field>';
+10-accounts-and-connectors^04-authentication\04-oauth-authentication.md^67^dispatched to, or a URL to redirect the user to. Used after the OAuth authentication is complete. | <span>https://yourapplication.com/complete-page</span> |

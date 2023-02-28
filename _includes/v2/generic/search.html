@@ -1,14 +1,78 @@
 <!--start search-->
-<div id="search-container" class="doc-search-container text-light">
-    <input class="form-control rounded doc-search-input" type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
-    <ul id="results-container" class="results-container"></ul>
+<div id="search-container" class="doc-search-container text-light text-start">
+    <div id="query-container"></div>
+    <div id="results-container" class="results-list rounded text-dark">
+    </div>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-<script type="text/javascript"> docsearch({
-apiKey: '52876b34ea9346e119deb025402cd681',
-indexName: 'cyclr',
-inputSelector: '#search-input',
-debug: false // Set debug to true if you want to inspect the dropdown
-});
-</script>
 <!--end search-->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+
+<base href="{{ site.baseurl }}">
+
+<script>
+const search = instantsearch({
+    appId: '{{ site.algolia.application_id }}',
+    apiKey: '{{ site.algolia.search_only_api_key }}',
+    indexName: '{{ site.algolia.index_name }}',
+    searchFunction(helper) {
+        const container = document.querySelector('#results-container');
+        container.style.display = helper.state.query === '' ? 'none' : '';
+        helper.search();
+    }
+});
+
+const hitTemplate = function(hit) {
+    let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+    const title = hit._highlightResult.title.value;
+    let breadcrumbs = '';
+    if (hit._highlightResult.headings) {
+        breadcrumbs = hit._highlightResult.headings.map(match => {
+            return `<span class="post-breadcrumb">${match.value}</span>`
+        }).join(' > ')
+    }
+    const content = hit._highlightResult.html.value;
+    if (breadcrumbs.length == 0)
+        return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
+    else 
+      return `
+        <div class="result-item">
+          <a class="result-link" href="${url}">${title}</a> 
+          {{#breadcrumbs}}<a href="${url}" class="result-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+          <div class="result-snippet">${content}</div>
+       </div>
+      `;
+}
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#query-container',
+    placeholder: '{{site.data.strings.search_placeholder_text}}',
+    autofocus: false,
+    magnifier: true,
+    searchAsYouType: true,
+    showReset: true,
+    showSubmit: false,
+    showLoadingIndicator: false
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#results-container',
+    templates: {
+        item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
