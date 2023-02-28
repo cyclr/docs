@@ -11,7 +11,7 @@ tags: [connector]
 
 ### Requirements
 
-To connect with Verint, you will need the **Username** and **Password** of the Verint account, and the **Domain** of the instance you want to access. You can find the domain in the URL of your Verint instance, for example, if the link is `https://odf4.verint.training/api/recording/textcapture/v1/ingestion`, then your domain is `odf4.verint.training`.
+To connect with Verint, you need the **Username** and **Password** of the Verint account, and the **Domain** of the instance you want to access. You can find the domain in the URL of your Verint instance. For example, if the link is `https://odf4.verint.training/api/recording/textcapture/v1/ingestion`, then your domain is `odf4.verint.training`.
 
 For more information, see the Verint [API reference documentation](https://connect.verint.com/developers/edm/w/api-reference/25356).
 
