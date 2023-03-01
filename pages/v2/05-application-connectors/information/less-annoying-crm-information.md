@@ -2,7 +2,7 @@
 title: Less Annoying CRM information
 sidebar: cyclr_sidebar
 permalink: less-annoying-crm-information
-tags: [connector]
+tags: [connector-information]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}

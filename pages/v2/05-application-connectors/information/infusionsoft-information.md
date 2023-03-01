@@ -2,7 +2,7 @@
 title: Infusionsoft information
 sidebar: cyclr_sidebar
 permalink: infusionsoft-information
-tags: [Connector]
+tags: [connector-information]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}

@@ -2,7 +2,7 @@
 title: MX information
 sidebar: cyclr_sidebar
 permalink: mx-information
-tags: [connector]
+tags: [connector-information]
 
 linkedpage: true
 ---

@@ -2,7 +2,7 @@
 title: User.com information
 sidebar: cyclr_sidebar
 permalink: userdotcom-information
-tags: [connector]
+tags: [connector-information]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}

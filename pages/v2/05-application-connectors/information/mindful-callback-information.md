@@ -2,7 +2,7 @@
 title: Mindful Callback information
 sidebar: cyclr_sidebar
 permalink: mindful-callback-information
-tags: [connector]
+tags: [connector-information]
 
 linkedpage: true
 ---

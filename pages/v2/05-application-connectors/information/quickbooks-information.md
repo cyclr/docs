@@ -2,7 +2,7 @@
 title: QuickBooks Connector
 sidebar: cyclr_sidebar
 permalink: quickbooks-information
-tags: [connector]
+tags: [connector-information]
 keywords: [intuit]
 linkedpage: true
 ---

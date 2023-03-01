@@ -2,7 +2,7 @@
 title: SuiteCRM information
 sidebar: cyclr_sidebar
 permalink: suitecrm-information
-tags: [connector]
+tags: [connector-information]
 
 linkedpage: true
 ---

@@ -2,7 +2,7 @@
 title: MYOB AccountRight Live information
 sidebar: cyclr_sidebar
 permalink: myob-accountright-information
-tags: [connector]
+tags: [connector-information]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}

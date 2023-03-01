@@ -2,7 +2,7 @@
 title: Velocify information
 sidebar: cyclr_sidebar
 permalink: authenticate-velocify-information
-tags: [connector]
+tags: [connector-information]
 
 linkedpage: true
 ---

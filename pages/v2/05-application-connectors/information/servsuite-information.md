@@ -2,7 +2,7 @@
 title: ServSuite information
 sidebar: cyclr_sidebar
 permalink: servsuite-information
-tags: [connector]
+tags: [connector-information]
 
 linkedpage: true
 ---
