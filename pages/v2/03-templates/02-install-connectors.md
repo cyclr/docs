@@ -40,6 +40,8 @@ There are different types of authentication. Depending on the connector you wish
 *   Username and password
 *   No authentication, e.g. for webhooks
 
+For more information on authenticating a connector, see the [API authentication](cyclr-api-authentication) page.
+
 If the application uses OAuth authentication, then you will need to get a Client ID and Client Secret.  The way in which this is done differs application by application, and there is documentation provided about what needs to be done.  Although you can add the Client ID and Client Secret when the connector is authenticated in the builder, the recommendation is that they are added to the connector by going to the Application Connector page and clicking on the 'pad lock' symbol.
 
 For the second part of the OAuth process you will be handed off to the application to which you are connecting to complete the process by entering your Username and Password.
