@@ -12,9 +12,8 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-Cyclr Connector Standards Guide
----------------------------
 
+For consistency, you can follow or base your connector configuration on these connector standards.
 
 </section>
 <section class="card">
