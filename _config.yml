@@ -135,7 +135,7 @@ search_debug: false
 algolia:
   application_id: 5267EP9OE1
   index_name: documentation_v2
-  files_to_exclude: []
+  files_to_exclude: [README.md]
   nodes_to_index: 'p,h2,h3'
   search_only_api_key: 312b77e5fc181f8afa0b812ce7ceab95
 
