@@ -43,8 +43,24 @@ You can also follow the link to see the [API reference](cyclr-api-reference) doc
 
 </section>
 <section class="card">
+
 ## Support team
 To contact our support team, select the **Help** button in the bottom left corner of your Cyclr console and fill out the form.  If you can’t access the **Help** button, you can email **help@cyclr.com** instead.
 
+### Access Cyclr's Zendesk portal
+
+When you raise an issue with the Cyclr Support team, you can view that ticket, and any others you may have, through the Cyclr Zendesk portal.
+
+> **Note**: If you haven’t raised a support ticket, then your email address won’t be registered to access the portal.
+
+To view your support tickets, you need to activate your access to Cyclr’s Zendesk portal:
+1. Go to `http://support.cyclr.com/`.
+2. Select the **Check your Existing Requests** button.
+3. At the bottom of the window, where it says **Have you emailed us?**, select **Get a password**.
+
+![A screenshot of the Cyclr Zendesk sign-in page that highlights the Get a password link.](./images/zendesk-portal.png)
+
+4. In the next window, enter the email you used for the support request into the **Email** field and select **Submit**.
+5. Go to the email you receive from Zendesk and follow the instructions to proceed.
 
 </section>
