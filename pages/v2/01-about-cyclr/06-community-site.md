@@ -46,18 +46,17 @@ You can also follow the link to see the [API reference](cyclr-api-reference) doc
 
 ## Support team
 
-> **Note**: If you can't access the **Help** button or the [Support Portal](https://support.cyclr.com), you can email `help@cyclr.com` instead.
+You can contact the Cyclr support team through either a button in the console, or through the Cyclr[Support Portal](https://support.cyclr.com). If you can't access either of those options, you can email `help@cyclr.com` instead.
 
-### Through the console
+### Help button in the console
 
-To contact our support team, you can select the **Help** button in the bottom right corner of your Cyclr console. You can then fill out the form with your details and a description of what you need. You can also attach up to 5 files if you think they'll be helpful.
+To contact our support team, you can select the **Help** button in the bottom right corner of your Cyclr console. You can then fill out the form with your details and a description of what you need. You also have the option attach up to 5 files relating to your issue.
 
-
-### Through the Support Portal
+### Cyclr Support Portal
 
  You can also go to [`https://support.cyclr.com/`](https://support.cyclr.com) to **Submit a Request**. From the portal, you can enter a subject, description, and select a priority level for your issue, as well as add any relevant attachments.
 
-#### View tickets
+#### View your tickets
 
 When you raise an issue with the Cyclr Support team, you can view that ticket, and any others you may have, through the [Cyclr Zendesk portal](https://support.cyclr.com). The portal provides a centralized location to view your support requests instead of using emails. From the portal, you can view all of the current and closed tickets that belong to your organization. This allows you to access tickets related to your organization even if the requestor isn't available.
 
