@@ -46,7 +46,7 @@ You can also follow the link to see the [API reference](cyclr-api-reference) doc
 
 ## Support team
 
-> **Note**: If you can't access the **Help** button or the [Support Portal](https://support.cyclr.com), you can email help@cyclr.com instead.
+> **Note**: If you can't access the **Help** button or the [Support Portal](https://support.cyclr.com), you can email `help@cyclr.com` instead.
 
 ### Through the console
 
@@ -71,7 +71,7 @@ To view your support tickets, you need to activate your access to Cyclr’s Zend
 2. Select the **Check your Existing Requests** button.
 3. At the bottom of the window, next to the text **Have you emailed us?**, select **Get a password**.
 
-![A screenshot of the Cyclr Zendesk sign-in page that highlights the Get a password link.](./images/zendesk-portal.png)
+    ![A screenshot of the Cyclr Zendesk sign-in page that highlights the Get a password link.](./images/zendesk-portal.png)
 
 4. In the next window, enter the email you used for the support request into the **Email** field and select **Submit**.
 5. Go to the email you receive from Zendesk and follow the instructions to proceed.
