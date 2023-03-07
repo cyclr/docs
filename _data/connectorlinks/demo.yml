@@ -1,0 +1,17 @@
+links: 
+  - title: Missing Connector Methods
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    linkicon: face-sad-tear
+    url: https://community.cyclr.com/forums/discussion/missing-connector-methods
+  - title: Video tutorials
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    linkicon: video
+    url: https://community.cyclr.com/forums/discussion/video-tutorials
+  - title: Reducing the number of API calls
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    linkicon: minimize
+    url: https://community.cyclr.com/forums/discussion/reducing-the-number-of-api-calls
+  - title: Blog
+    text: Integrate with Microsoft Dynamics
+    linkicon: blog
+    url: https://cyclr.com/blog/why-youll-want-to-integrate-with-microsoft-dynamics

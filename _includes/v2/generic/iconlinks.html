@@ -1,0 +1,12 @@
+<div class="iconlinks d-flex my-20 mx-0">
+    {% for link in connectorinfo.links %}
+    <a class="btn ripple-surface primary d-flex"
+       type="button"
+       target="_blank"
+       href="{{ link.url }}"
+       title="{{ link.title }}"
+       data-mdb-ripple-color="primary">
+        <i class="fa fa-{{ link.linkicon }} fa-3x"></i>
+    </a>
+    {% endfor %}
+</div>
