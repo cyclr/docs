@@ -29,7 +29,7 @@ This adds the copied cycle template to your **Template Library**, where you can 
 
 ## Related pages
 
-* For information on how templates work in Cyclr, see the [Cycle Templates](https://docs.cyclr.com/cycle-templates) section.
-* For information about how to create and configure templates, see the [Create Cycle Templates](https://docs.cyclr.com/template-builder) section.
+* For information on how templates work in Cyclr, see the [Cycle Templates](cycle-templates) section.
+* For information about how to create and configure templates, see the [Create Cycle Templates](template-builder) section.
 
 </section>
