@@ -13,7 +13,7 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-If you create a cycle inside one of your customer’s accounts, then it’s only accessible from that account. To edit and use that cycle in other accounts without the need to rebuild the cycle, you can copy the cycle as a template.
+If you create a cycle inside one of your customer’s accounts, then by default, you can only access the cycle in that account. To edit and use that cycle in other accounts without the need to rebuild the cycle, you can copy the cycle as a template.
 
 To copy a cycle as a template, go to your console:
 
