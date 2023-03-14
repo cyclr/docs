@@ -25,7 +25,7 @@ menus:
 | Enable Anonymous Accounts | Allows end users to open cycle and connector seeds links without having a Cyclr account. |
 | Enable Beta/Planned Connectors | Allows beta and planned (coming soon) connectors to be displayed in the connector list.|
 | Enable Custom Connectors | Allows end user accounts to create their own custom connectors. |
-| Enable Cycle Sharing | Allows sharing of cycles across end user accounts. |
+| Enable Cycle Sharing | Allows you to [copy a cycle](copy-account-cycle) from an account as a template that you can use for multiple end user accounts. |
 | Enable Notification Emails | To enable notification emails please message our support team.
 | Enable Notification Webhook | Makes an HTTP call when there is an issue with an account’s cycles. https://docs.cyclr.com/notifications |
 |	Notification Webhook URL | URL to use when Cyclr sends notifications for cycle issues. |
