@@ -5,7 +5,7 @@ permalink: copy-account-cycle
 tags: [templates]
 menus:
     cycle-templates:
-        title: Copy a cycle as a template
+        title: Copy cycles as templates
         identifier: copy-account-cycle
         toggleonly: menutoggleonly
         weight: 6
