@@ -43,3 +43,5 @@ To set up the ChildCare CRM connector in Cyclr, go to your Cyclr console:
 5. Select **Save Changes**.
 
 > **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
+
+</section>
