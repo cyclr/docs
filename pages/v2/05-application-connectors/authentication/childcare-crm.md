@@ -11,20 +11,13 @@ tags: [connector]
 
 ### Requirements
 
-To connect with Cyclr, you need a [LineLeader Enroll Account](https://login.lineleader.com/login?from=enroll). Service accounts are recommended for this purpose, 
- and can be created from within LineLeader Enroll by clicking Settings > Staff Settings > Service Accounts > Create Service Account. 
-  
-Note, only LineLeader Enroll users with the System Privilege of "Service Accounts" will be able to create service accounts. 
+To connect with Cyclr, you need a [LineLeader Enroll Account](https://login.lineleader.com/login?from=enroll). Service accounts are recommended for this purpose. To create a service account from within LineLeader Enroll, select **Settings** > **Staff Settings** > **Service Accounts** > **Create Service Account**. 
 
-
+> **Note**: Only LineLeader Enroll users with the **Service Accounts** System Privilege can create service accounts.
 
 ### Get authentication details
 
-To authenticate your connector, you need to get the username and password associated with your service account. 
-  They can be found in your LineLeader Enroll Dashboard by clikcin Settings > Staff Settings. Service accounts will be listed at the bottom of the page. 
-
-
-Select the service account you intend to use Cyclr with and make a note of the username and password. 
+To authenticate your connector, you need to get the username and password associated with your service account. To find these authentication values in your LineLeader Enroll Dashboard, go to **Settings** > **Staff Settings** and you can view the service accounts listed at the bottom of the page. Select the service account you intend to use Cyclr with and make a note of the username and password. 
 
 </section>
 <section class="card">
@@ -50,18 +43,3 @@ To set up the ChildCare CRM connector in Cyclr, go to your Cyclr console:
 5. Select **Save Changes**.
 
 > **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
-
-
-### Account setup
-
-Cyclr asks you for the below values when you install the <connector name> connector into an account:
-
-   | Value              | Description                                 |
-   | :----------------- | :------------------------------------------ |
-   | **Username**       | The username of your web service account.   |
-   | **password**       | The password of your web service account.   |
-   | **URL**            | Choose the corresponding region (US/AUS).   |
-
-> **Note**: You can use different details for different accounts.
-
-</section>
