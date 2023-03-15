@@ -52,7 +52,12 @@
     {% capture submenuname %}{{menuitem}}{% endcapture %}
     {% capture submenuid %}{{item.title | slugify | downcase}}{% endcapture %}
     {% capture parentmenuid %}{{menuitem}}{% endcapture %}
-    <li class="accordion-item" id="item-{{menuitem}}">
+    {% if item.menus[include.menuname].divider %}
+    {% capture dividerclass %} divider{% endcapture %}
+    {% else %}
+    {% capture dividerclass %}{% endcapture %}
+    {% endif %}
+    <li class="accordion-item{{dividerclass}}" id="item-{{menuitem}}">
         <div class="accordion-item-header" id="header-{{menuitem}}">
             <button class="btn ripple-surface primary accordion-button accordion-link  d-flex accordion-toggle"
                     type="button"

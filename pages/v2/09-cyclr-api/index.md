@@ -14,6 +14,7 @@ menus:
     identifier: cyclr-api
     icon: openapi
     weight: 9
+    divider: true
 ---
 {% assign categorydata = site.data.categories.cyclr-api %}
 {% include v2/category/{{page.categorylayout}}.html identifier="cyclr-api" intro=page.intro title=page.introtitle text=page.introtext %}

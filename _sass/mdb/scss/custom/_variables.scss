@@ -133,6 +133,9 @@ $backgrounds: ( "grey-10": $grey-10, "grey-20": $grey-20, "grey-30": $grey-30, "
 /* flex width map */
 $flexwidths: ( ("xs", 100),("sm", 25),("sm", 30),("sm", 50),("sm", 65),("md", 30));
 
+/* width map */
+$widths: ( ("xs", 100),("sm", 25),("sm", 50),("sm", 75),("sm", 100),("md", 25), ("md", 50),("md", 75),("md", 100),("lg", 50),("lg", 100));
+
 /* gap map */
 $flexgaps: ("xs": 12px, "sm": 12px, "md": 24px, "lg": 24px, "xl": 48px);
 

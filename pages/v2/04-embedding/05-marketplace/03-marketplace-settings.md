@@ -28,5 +28,5 @@ Underneath the fields, there are a series of toggle settings that you can turn o
 | **Integration Package Configuration View** | Allows you to see the variables your user enters when they install a package. |
 | **Wizard Mappings View Enabled** | Displays field mappings in a wizard instead of a single page when the user installs a package. |
 | **Data Type Mismatch Warnings Enabled** | Indicates if the data type warning should be shown during mapping when a user installs Marketplace. |
-
+{: .two-col .col2-75 }
 </section>
