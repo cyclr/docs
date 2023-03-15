@@ -11,7 +11,7 @@ linkedpage: true
 
 ## Access a table
 
-Cyclr uses Custom Object Categories to allow the PostgreSQL connector to access multiple database tables under a single connector installation. To access a table within a database you must create a Custom Object Category.
+Cyclr uses Custom Object Categories to allow the PostgreSQL connector to access multiple database tables with a single connector. To access a table within a database, you need to create a Custom Object Category.
 
 Custom Object Categories can be identified on the PostgreSQL connector settings page by the ![image](https://user-images.githubusercontent.com/78208292/225289872-083c23fe-19d1-45a7-9d39-09f1dc8afe6c.png)
  icon to the left of the method category.
