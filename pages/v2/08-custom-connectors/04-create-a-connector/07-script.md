@@ -13,6 +13,7 @@ menus:
         weight: 7
 ---
 {::options parse_block_html="true" /}
+<div class="exclude-h4">
 <section class="card">
 
 Cyclr supports Javascript as its scripting language, allowing you to manipulate data before it's sent as well as after it's been retrieved.  This can be useful when moving data between applications as what's valid in one, may not be valid in another.  
@@ -742,3 +743,4 @@ function after_error() {
 *   The **cycle_variables** object is only available through a Step's Advanced Settings area, and not through Inline Script.  Also, any changes made to it and its properties are not persisted.
 
 </section>
+</div>

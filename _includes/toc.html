@@ -7,7 +7,7 @@
       minimumHeaders: 1,
       listType: 'ul',
       showEffect: 'slideDown',
-      headers: 'h2,h3,h4',
+      headers: 'h2,h3:not(.exclude-h4 h4)',
       classes: { list: 'list-unstyled',
                  item: 'list-item'
       }
@@ -15,5 +15,5 @@
 
   });
 </script>
-
+<!-- The not(.exclude-h4 h4) selector excludes h4 headings within the exclude-h4 class element from the toc. For example, 07-script.md. -->
 <div id="toc"></div>
