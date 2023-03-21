@@ -40,14 +40,56 @@ These data types can be set to define the format of the entire request/response.
 
 These data types can be set to define the format of the individual fields in the request/response.
 
-| Data Type | Description | Example Value|
-|---|---|:---:|
-|Boolean| Example |`true`|
-|DateTime| Example | `2022-04-17T01:34:40.24Z`|
-|Decimal| Number, rounded to 12 decimal places | `123.456789012346`|
-|Integer| Example| `123`|
-|Float| Number, rounded to 14 decimal places | `123.45678901234568` |
-|Text| Value will be stored as a string |`"abc"`
-|File| Holds the contents of a file | n/a |
-|Undefined| Value will be passed unformatted | n/a|
+<table>
+  <thead>
+    <tr>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th align="center">Example Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Boolean</td>
+      <td>Example</td>
+      <td align="center"><code>true</code></td>
+    </tr>
+    <tr>
+      <td>DateTime</td>
+      <td>Example</td>
+      <td align="center"><code>2022-04-17T01:34:40.24Z</code></td>
+    </tr>
+    <tr>
+      <td>Decimal</td>
+      <td>Number, rounded to 12 decimal places</td>
+      <td align="center"><code>123.456789012346</code></td>
+    </tr>
+    <tr>
+      <td>Integer</td>
+      <td>Example</td>
+      <td align="center"><code>123</code></td>
+    </tr>
+    <tr>
+      <td>Float</td>
+      <td>Number, rounded to 14 decimal places</td>
+      <td align="center"><code>123.45678901234568</code></td>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>Value will be stored as a string</td>
+      <td align="center"><code>"abc"</code></td>
+    </tr>
+    <tr>
+      <td>File</td>
+      <td>Holds the contents of a file</td>
+      <td align="center">n/a</td>
+    </tr>
+    <tr>
+      <td>Undefined</td>
+      <td>Value will be passed unformatted</td>
+      <td align="center">n/a</td>
+    </tr>
+  </tbody>
+</table>
+
 </section>
