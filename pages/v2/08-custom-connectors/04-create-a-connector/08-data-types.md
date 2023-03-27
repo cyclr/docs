@@ -40,14 +40,14 @@ These data types can be set to define the format of the entire request/response.
 
 These data types can be set to define the format of the individual fields in the request/response.
 
-| Data Type | Description | Example Value|
-|---|---|:---:|
-|Boolean| Example |`true`|
-|DateTime| Example | `2022-04-17T01:34:40.24Z`|
-|Decimal| Number, rounded to 12 decimal places | `123.456789012346`|
-|Integer| Example| `123`|
-|Float| Number, rounded to 14 decimal places | `123.45678901234568` |
-|Text| Value will be stored as a string |`"abc"`
-|File| Holds the contents of a file | n/a |
-|Undefined| Value will be passed unformatted | n/a|
+| **Data Type** | **Description** | **Example Value** |
+|---|---|:---|
+| Boolean | Example. | `true` |
+| DateTime | Example. | `2022-04-17T01:34:40.24Z` |
+| Decimal | Number, rounded to 12 decimal places. | `123.456789012346` |
+| Integer | Example. | `123`|
+| Float | Number, rounded to 14 decimal places. | `123.45678901234568` |
+| Text | Value will be stored as a string. | `"abc"` |
+| File | Holds the contents of a file. | n/a |
+| Undefined | Value will be passed unformatted. | n/a |
 </section>
