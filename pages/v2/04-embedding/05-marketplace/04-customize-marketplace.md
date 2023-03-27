@@ -91,4 +91,9 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 }
 
 ```
+
+The previous CSS styling results in the following appearance for the Marketplace:
+
+![An example screenshot of a Marketplace with custom styling.](./images/marketplace-styling-example.png)
+
 </section>
