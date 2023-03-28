@@ -42,9 +42,9 @@ sections:
       - title: Utility Connectors 
         img: utility-connectors.png
         url: utility-connectors
-      - title: Plugins 
+      - title: Create a custom connector
         img: plugins.png
-        url: plugins
+        url: custom-connectors
   - title: The Cyclr APIs
     text: >-
         Cyclr can be driven completely via our API so developers have a consistent way of working with hundreds of applications, regardless of their individual differences and standards. You can use the Cyclr API to bring external data into your application or to provide new, bespoke ways to deploy integrations for your users.
@@ -52,9 +52,9 @@ sections:
       - title: Cyclr API
         img: api-reference.png
         url: cyclr-api
-      - title: API Examples 
+      - title: Accounts and connectors 
         img: api-examples.png
-        url: api-examples
+        url: accounts-and-connectors
       - title: Data on Demand 
         img: data-on-demand.png
         url: data-on-demand 
