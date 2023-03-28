@@ -21,13 +21,13 @@ For help to obtain these authentication values, contact a member of the AkkenClo
 
 ## Cyclr account setup
 
-Cyclr asks you for the below values when you install the <connector name> connector into an account:
+Cyclr asks you for the below values when you install the Akken connector into an account:
 
-   | Value              | Description                                 |
-   | :----------------- | :------------------------------------------ |
-   | **API Key**   | The API Key from your Akken account.             |
-   | **Auth User** | The Auth User from your Akken account.           |
-   | **Auth Key**| The Auth Key from your Akken account.              |
+| Value              | Description                                 |
+| :----------------- | :------------------------------------------ |
+| **API Key**   | The API Key from your Akken account.             |
+| **Auth User** | The Auth User from your Akken account.           |
+| **Auth Key**| The Auth Key from your Akken account.              |
 
 > **Note**: You can use different details for different accounts.
 
