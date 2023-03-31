@@ -6,22 +6,42 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-### Partner Setup
-API credentials will need to be generated in Phrase's frontend:
-* Go to the Workable frontend and log in with your details
-*  Go to **Settings**
-*  Find the **Integrations** section
-*  Select **Generate Token**
-Make a note of your User Token or Partner token to use in the next steps.
-### Cyclr Setup
-Setup your Workable connector within Cyclr:
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Workable**
-*   Click the **Setup** button
-Enter the following values:
-**Sub Domain**: The sub-domain of your Workable instance. This can be found in the URL of your Workable frontend after 'https://'
-**Access Token**: Retrieved from the **Partner Setup** steps above.
-Select next and your connector will be authenticated.
+
+## Workable setup
+To authenticate your connector, you need to get your Workable **Subdomain** and an **Access Token** from Workable. 
+
+### Get your Sub Domain
+You can find your Workable Sub Domain in the URL of your Workable frontend. For example, if your Workable URL is `https://mycompany.com`, then your subdomain is `mycompany.com`.
+
+### Get the Access token
+You can generate the API credentials in Workable's frontend:
+
+1. Go to the Workable frontend and log in with your details
+2.  Select **Settings** and go to the **Integrations** section.
+3.  Select **Generate Token** and make a note of the **User Token** or **Partner token**.
+
+</section>
+<section class="card">
+
+## Cyclr setup
+
+To set up the Workable connector in Cyclr, go to your Cyclr console:
+
+1. Go to **Connectors** > **Application Connector Library**.
+
+2. Use the search box to find the Workable connector.
+
+3. Select the **Setup Required** icon.
+
+4. Enter the below values:
+
+   | Value              | Description                                 |
+   | :----------------- | :------------------------------------------ |
+   | **Sub Domain**     | The sub-domain of your Workable instance.                            |
+   | **Access Token**   | Either a User Token or Partner Token that you [generate in Workable](#get-your-sub-domain).                             |
+
+5. Select **Save Changes**.
+
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
+
 </section>
