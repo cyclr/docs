@@ -7,9 +7,9 @@ tags: [connector]
 {::options parse_block_html="true" /}
 <section class="card">
 
-## Office 365 setup
+## Microsoft Office 365 setup
 
-Microsoft Office 365 uses OAuth 2.0. To use the Office 365 connector, sign up for an application on Microsoft first and get the following authentication values:
+Microsoft Office 365 uses OAuth 2.0. To use the Microsoft Office 365 connector, sign up for an application with Microsoft first and get the following authentication values:
 * OAuth client ID.
 * Client secret.
 
@@ -24,7 +24,7 @@ To summarize the above documentation:
 3. Provide the following details:
 
   * **Name**: Your Application Name
-  * **Reply URLs**: you must add a callback URL to allow Microsoft Office 365 to be used in your Cyclr Console and its Cyclr Accounts. The URL is `{% raw %}https://{{Your Cyclr Service Domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}`.
+  * **Reply URLs**: Add a callback URL to allow Microsoft Office 365 to be used in your Cyclr Console and its Cyclr Accounts. The URL is `{% raw %}https://{{Your Cyclr Service Domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}`.
   * **Multi-tenanted**: Yes
    
 4. Set the appropriate permissions.
@@ -65,11 +65,11 @@ For more information, see the Microsoft documentation on [permissions](https://d
 
 ## Cyclr setup
 
-To set up the Office 365 connector in Cyclr, go to your Cyclr console:
+To set up the Microsoft Office 365 connector in Cyclr, go to your Cyclr console:
 
 1. Go to **Connectors** > **Application Connector Library**.
 
-2. Use the search box to find the Office 365 connector.
+2. Use the search box to find the Microsoft Office 365 connector.
 
 3. Select the **Setup Required** icon.
 
@@ -77,9 +77,8 @@ To set up the Office 365 connector in Cyclr, go to your Cyclr console:
 
    | Value              | Description                                 |
    | :----------------- | :------------------------------------------ |
-   | *Client ID**   | The **Application ID** from your Microsoft Azure portal.                       |
+   | **Client ID**   | The **Application ID** from your Microsoft Azure portal.                       |
    | **Client Secret**   | The [password](#secret) from your Microsoft Azure portal.                             |
-   | **<default value>**| Cyclr fills this field by default.          |
 
 5. Select **Save Changes**.
 
@@ -91,8 +90,6 @@ Cyclr asks you for the **Tenant ID** when you install the connector into an acco
 
 When you install the connector, it shows two authorization options: **Common** and **Organization**.
 * If you select **Common**, the connector allows you to use work or organization accounts, and personal Microsoft accounts, during authentication.
-* If you select **Organization**, the connector only allows you to use work or organization during authentication.
+* If you select **Organization**, the connector only allows you to use work or organization accounts during authentication.
    
-</section>
-
 </section>
