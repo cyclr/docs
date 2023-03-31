@@ -16,8 +16,8 @@ To connect with Cyclr, you need the following authentication details from your E
 
 For more information on how to obtain these authentication details, contact your Elead account manager.
 
-<section class="card">
 </section>
+<section class="card">
 
 ## Cyclr setup
 
