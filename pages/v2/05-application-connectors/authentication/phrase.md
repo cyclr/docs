@@ -7,35 +7,39 @@ tags: [connector]
 {::options parse_block_html="true" /}
 <section class="card">
 
-### Partner Setup
+## Phrase setup
 
-API credentials will need to be generated in Phrase's frontend:
+To authenticate your connector, you need to get the authentication details. You can generate the API credentials from your Phrase application:
 
-* Go to the Phrase frontend and log in with your details
-*  Go to **Settings** in the left menu bar
-*  Find the **Integrations** section and select **Registered OAuth apps**
-*  Select **New**
-*  Enter a name and your callback URL (`https://[Your Cyclr Service Domain]/connector/callback`)
-*  Select **Save**
+1. Go to Phrase frontend and login to your account.
+2. Go to **Settings** in the left side menu.
+3. Find the **Integrations** section and select **Registered OAuth apps**.
+4.  Select **New**.
+5. Enter a name and your callback URL (`https://{YourCyclrServiceDomain}/connector/callback`).
+6.  Select **Save** and make a note of your **Client ID**.
 
-Make a note of your Client ID to use in the next steps.
+</section>
+<section class="card">
 
-### Cyclr Setup
+## Cyclr Setup
+To set up the Phrase connector in Cyclr, go to your Cyclr console:
 
-Setup your Phrase connector within Cyclr:
+1. Go to **Connectors** > **Application Connector Library**.
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Phrase**
-*   Click the **Setup** button
+2. Use the search box to find the Phrase connector.
 
-Enter the following values:
+3. Select the **Setup Required** icon.
 
-**Client ID**: Retrieved from the **Partner Setup** steps above.
-**Client Secret**: Leave this value empty.
-**US Instance?**: If your account has been created within Phrase's US data center, set this to true.
+4. Enter the below values:
 
-Select next and your connector will be authenticated.
+   | Value              | Description                                 |
+   | :----------------- | :------------------------------------------ |
+   | **Client ID**      | The Client ID generated from your Phrase account. |
+   | **Client Secret**  | Leave this value empty.                           |
+   | **US Instance?**   | If your account was created within Phrase's US data center, set this to **true**. |
+
+5. Select **Save Changes**.
+
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
 
 </section>
