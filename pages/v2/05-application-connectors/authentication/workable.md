@@ -13,12 +13,14 @@ To authenticate your connector, you need to get your Workable **Subdomain** and 
 ### Get your Sub Domain
 You can find your Workable Sub Domain in the URL of your Workable frontend. For example, if your Workable URL is `https://mycompany.com`, then your subdomain is `mycompany.com`.
 
-### Get the Access token
+### Get the Access Token
 You can generate the API credentials in Workable's frontend:
 
 1. Go to the Workable frontend and log in with your details
 2.  Select **Settings** and go to the **Integrations** section.
 3.  Select **Generate Token** and make a note of the **User Token** or **Partner token**.
+
+For more information on the access tokens, see Workable's API documentation on [Partner Tokens](https://workable.readme.io/reference/partner-token).
 
 </section>
 <section class="card">
