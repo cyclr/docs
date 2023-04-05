@@ -13,49 +13,51 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-### Accounts
 
-Each of a Cyclr Partner's Customers will have an account in Cyclr.
+### **Account**
+You can give each of your customers an account in Cyclr. The account stores all of the cycles, connectors and authentication details for the customer. This allows you to keep information and data for each customer separate. For more information, see the [User accounts overview](overview-new-account).
 
-Into these accounts integrations can be developed, either based on templates or fully customized.  This provides segmentation between integrations running for different customers.  Connectors in an account are specifically authenticated for that customer.
+### **Account connector**
+An account connector is a connector that is installed into an account and authenticated against an application that the customer uses.
 
-#### Sub-accounts
+### **Builder**
+The [Builder](template-builder) is an area of the Cyclr application that allows you to create cycle templates and custom integrations.
 
-Each account may have a number of sub-accounts.  You may for example want one account for a store, separated into sub-accounts for each location.  These accounts have access to the connectors of their "parent" account. <br>[Setting up Sub Accounts](/sub-accounts).
+### **Connector**
+A connector allows Cyclr to take and add data to an application. Most connectors use an external application's API, but some also work with databases and files. For more information, see the [Connector introduction](connector-introduction) page.
 
-### Connectors
+### **Console**
+The console is your control panel and allows you to set up and manage your application and integrations. Your customers can't access the console. See the section on [Console configuration](cyclr-configuration) in the Cyclr documentation.
 
-A Connector is a Cyclr implementation of an application's API. 
+### **Custom connector**
+A [custom connector](connector-introduction) is a connector that you can make within Cyclr to connect with an application of your choice.
 
-Connectors handle all aspects of the protocols and methods needed to pull or push data to the application via Cyclr.
+### **Cycle**
+Cycles are integrations that run in an account. You can build custom cycles for a specific customer in an account, or create a template that you can use for multiple customers. For more information, see the [Template introduction](template-basics) page.
 
-### Account Connectors
+### **Cycle step**
+Cycles are composed of a number of **steps**. A step is usually a call to an application using the connector, but you can also use logic steps to help process data.
 
-Once a Connector is installed into an account it is referred to as an Account Connector - this holds authentication details specific to said account.
+### **Cycle transaction**
+When you trigger a cycle, it creates a cycle transation. This separates the request and response data that relatees to each step in the cycle from other data, allowing each cycle to have multiple transactions in progress simultaneously.
 
-### Users
+### **Embedding**
+[Embedding](embed-cycles) is the term Cyclr uses to refer to the process of providing Cyclr integrations to your customer base.
 
-Users can be given access to Accounts, allowing them to install and modify the Account Connectors and Cycles.
+### **LAUNCH**
+[LAUNCH](launch) is one of Cyclr's tools that you can use to embed your Cyclr integrations into your application. You can use LAUNCH to offer a list of cycles to your customers for them to select and self-install into their account.
 
-### Templates
+### **Marketplace**
+A [Marketplace](marketplace) allows you to set up a store of integrations that you offer to your customers. The Marketplace is a flexible method of providing cycles to your customers as you can offer packages of cycles in a tree-like browsable structure.
 
-Templates are pre-made integrations that can be installed by Users into Accounts as Cycles.
 
-### Cycles
+### **Sub account**
+You can add [sub accounts](sub-accounts) to accounts within your Cyclr application. Sub accounts allow you to organise multiple related accounts.
 
-Cycles are integrations in an Account that when activated, will perform all of the actions in the integration flow. Cycles can be triggered on a scheduled interval or by a webhook event in a third party application.
+### **Templates**
+Templates are definitions of cycles that you can create and add to any number of accounts. You can run templates for testing but they aren't usually live. For more information on templates, see the section on [Cycle templates](cycle-templates) in the Cyclr documentation. 
 
-### Cycle Transaction
-
-A Cycle Transaction is created each time a Cycle is triggered.  It segregates the request and response data relating to each Cycle Step from other data, allowing the Cycle to have multiple Transactions in progress simultaneously.
-
-### Cycle Step
-
-A Cycle is made up of a collection of Cycle Steps.  Each Cycle Step may:
-
-* Connect with a third party API to send and/or receive data
-* Perform a logic action such as delaying the Cycle Transaction for a period of time<br> 
-or 
-* Perform different actions depending on the data received from the third party API.
+### **Tools**
+Cyclr provides [tools](logic-tools) as steps that you can add to a cycle in order to process data.
 
 </section>
