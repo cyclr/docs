@@ -130,6 +130,7 @@ Called when a webook request has been received and before anything else is done.
 *   **method_request_parameters**: The webhook request parameters
 *   **method_response_headers**: The response headers for the request
 *   **method_response**: The response body for the request
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true for the webhook to continue normal execution, false to stop execution of the request and send the response body/headers to the caller
 
 ### after_webhook
@@ -165,6 +166,7 @@ If a Method uses Paging, this function is called before each page is retrieved.
 *   **external_account_id**: The external ID of the account the script is running in
 *   **last_successful_run_date**: Time value indicating when a Step last ran without error.
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
 
 ### after_action
@@ -188,6 +190,7 @@ If a Method uses Paging, this function is called after each page is retrieved.
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
 *   **statusCode**: The response status code.
 *   **reasonPhrase**: The response reason phrase.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### after_action_paging
@@ -209,6 +212,7 @@ If this function is provided, it is called once after all pages of data have bee
 *   **external_account_id**: The external ID of the account the script is running in
 *   **next_last_successful_run_date**: Assign to this variable to set the *last_successful_run_date* value a Step will use on its next run.
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### after_error
@@ -224,6 +228,7 @@ Function is called when Cyclr received an error from an external API.
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### action_condition
@@ -239,6 +244,7 @@ Function is used to essentially combine a Method with a Decision Step, allowing 
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
 *   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true for the Transaction to exit on the "True Route", false to exit on the "False Route"
 
 ### before_oauth2_authorise
@@ -260,6 +266,7 @@ Called before Cyclr makes an OAuth 2 access token request.
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request**: Object that is going to be sent to the OAuth 2 access token endpoint
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### after_oauth2_token
@@ -270,6 +277,7 @@ Called after Cyclr makes an OAuth 2 access token request.
 
 *   **method_response**: response object that was received from the OAuth 2 access token request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### before_oauth2_refresh
@@ -281,6 +289,7 @@ Called before Cyclr makes an OAuth 2 refresh token request.
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request**: request object that is going to be sent to the OAuth 2 refresh token request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 ### after_oauth2_refresh
@@ -291,6 +300,7 @@ Called after Cyclr makes an OAuth 2 refresh token request.
 
 *   **method_response**: response object that was received from the OAuth 2 refresh token request.
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
 </section>
