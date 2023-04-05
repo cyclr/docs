@@ -17,7 +17,7 @@ menus:
 
 You can build Templated integrations in Cyclr that can then be either manually installed to your client's account or offered to clients for self-installation.
 
-When you select the 'Design New Template' option from within Templates>Template Library you will be taken directly to Cyclr's builder tool.  In order to keep your Cyclr's console tidy and well organised the first thing that you are recommended to do is to give the Template a good name.
+When you select the 'Design New Template' option from within **Templates** > **Template Library** you will be taken directly to Cyclr's builder tool.  In order to keep your Cyclr's console tidy and well organised the first thing that you are recommended to do is to give the Template a good name.
 
 Once you have at least one Template built or in-progress then you will see these shown in a list view when you go to the Template Library. Options against each of the Templates in the list allow you to:
 
