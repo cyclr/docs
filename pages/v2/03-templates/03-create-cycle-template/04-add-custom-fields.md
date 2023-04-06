@@ -13,19 +13,25 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Manually Adding Custom Fields
 
 By default, connectors will only include the standard fields used by an application. Where you need to work with additional fields in the application you are connecting to, it is possible to add these using custom fields.
 
+### Accessing Connector Settings
+
+If you're already in the Template builder, click to expand the app connector and click Settings.
+
+If you're in the console, choose Templates > Template Connectors from the menu, and then click the Edit Button next to the Connector you wish to edit.
+
+### Adding/updating fields
+
+*   In the section named Methods and Fields, click to expand the category and then the method you to which you wish to add fields.
+*   Under Request Fields or Response Fields (depending on whether you're sending or receiving the field), click the **+** button to add a field.
+
 ![A screenshot with a red box to highlight the button you select to add a custom field.](./images/connector-custom-field.png)
 
-To add a custom field:
-
-*   From the builder’s sidebar, click to expand the app connector and click Settings
-*   In the section named Methods and Fields, click to expand the category and then the method you wish to add fields to
-*   Under Request Fields or Response Fields (depending on whether you're sending or receiving the field), click the + button to add a field
-
-The following needs to be specified
+The following values need to be specified:
 
 | Property | Description |
 | --- | --- |
@@ -37,6 +43,7 @@ The following needs to be specified
 
 </section>
 <section class="card">
+
 ## Example Field Locations
 
 If you only have a few fields, you may want to add them manually.
