@@ -56,7 +56,7 @@ Whether you are using **Salesforce Classic** or **Lightning Experience**, when t
 Tick the **Enable OAuth Settings** box to display further options.
 
 * **Callback URL**: you must add a callback URL to allow Salesforce to be used in your Cyclr Console and its accounts.
-    The URLs is `https://{{Your Cyclr service domain e.g. app-h.cyclr.com}}/connector/callback`
+    The URLs is `https://{YourCyclrServiceDomain}/connector/callback`.
 
 * **Selected OAuth Scopes**: you must add the following 2 Scopes to enable Cyclr to use your App:
     * **Full access (full)** or if you know which data you wish to restrict to you can select from this [list](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_tokens_scopes.htm&type=5).
