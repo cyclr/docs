@@ -13,19 +13,27 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Manually Adding Custom Fields
 
-By default, connectors will only include the standard fields used by an application. Where you need to work with additional fields in the application you are connecting to, it is possible to add these using custom fields.
+## Manually add custom fields
+
+By default, connectors only include the standard fields that an application uses. If you need to work with additional fields in the application, you can add custom fields to the connector.
+
+### Access connector settings
+
+There are multiple ways to access a connector's settings:
+
+* From the template builder, select the application connector to expand it and then select **Settings**.
+
+* From the Cyclr console, select **Templates** > **Template Connectors** from the menu, and then select the **Edit** button next to the Connector you want to edit.
+
+### Add/update fields
+
+1.   In the section named **Methods and Fields**, select the category you want to use to expand it, and then select the method you want to add fields to.
+2.   Under **Request Fields** or **Response Fields** (depending on whether you're sending or receiving the field), select the **+** button to add a field.
 
 ![A screenshot with a red box to highlight the button you select to add a custom field.](./images/connector-custom-field.png)
 
-To add a custom field:
-
-*   From the builder’s sidebar, click to expand the app connector and click Settings
-*   In the section named Methods and Fields, click to expand the category and then the method you wish to add fields to
-*   Under Request Fields or Response Fields (depending on whether you're sending or receiving the field), click the + button to add a field
-
-The following needs to be specified
+3. Specify the following values:
 
 | Property | Description |
 | --- | --- |
@@ -37,11 +45,10 @@ The following needs to be specified
 
 </section>
 <section class="card">
-## Example Field Locations
 
-If you only have a few fields, you may want to add them manually.
+## Example field locations
 
-Taking the following example Response:
+If you only have a few fields, such as in the example response below, you can add the fields manually. 
 
 ```JSON
 {
@@ -58,23 +65,27 @@ Taking the following example Response:
 }
 ```
 
-The Field Locations for those properties would be as follows:<br>
+For this example, the field locations for those properties are as follows:<br>
 ``[customfields].first_name``<br>
 ``[customfields].last_name``<br>
 ``[customfields].address.city``<br>
 ``total_records``
 
-If you have a large number of fields to add, there is a more automated option as described below.
+If you have a large number of fields to add, you can automate the process using [JSON](#use-json-to-add-fields).
 
 
 </section>
 <section class="card">
-## Adding Fields Using JSON Example
 
-If you have a JSON example of the request or response then this can be used to auto-add additional or custom fields.
+## Use JSON to add fields
 
-Simply take the 'spy glass' icon by the Request or Response area - depending on where you wish to add the fields - and paste in the JSON example in the popup that opens.  Any fields that do not already exist will be added.  You may then need to tidy up the field names and data types that have been automatically generated.
+If you have a JSON example of the request or response, you can use the JSON to auto-add additional or custom fields:
 
-*NOTE: Before pasting in a large JSON example, reduce it to only what you wish to work with as a field will be added for each property it contains. Any you don't wish to keep must be deleted one-by-one.*
+1. Select the magnifying glass icon from either the request or response area, dependent on where you want to add the fields.
+2. Paste the JSON example into the popup window that opens.
+
+This adds any fields that don't already exist, but you might still need to check over the field names and data types that are automatically generated.
+
+> **Note**: Before you paste in a large JSON example, ensure that it only contains properties that you want to add as fields.
 
 </section>
