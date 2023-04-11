@@ -58,15 +58,21 @@ This means it will change dependant on the API being called and how it formats i
 If there are specific errors you wish to handle, you may need to force them to occur so that you can view the Response to see how that appears.
 ```json
 {
-    "Timestamp": "2019-08-08T11:25:34.0412055Z",
-    "AccountId": "a2b35322-c966-4a29-95d7-065aaf12b127",
-    "AccountExternalId": "account-id-in-your-application",
-    "CycleId": "15643129-a29d-4957-865c-0495099fbbec",
-    "StepId": "519713ff-57cf-49ef-9c00-f3a3e1569268",
-    "TransactionId": "1564aae4-b82e-4712-a078-30a4e53c40d0",
+    "Timestamp": "2023-04-11T07:37:47.455544Z",
+    "AccountId": "0bd9f087-8db9-46e9-8640-e8eb8a6fd635",
+    "AccountExternalId": "0bd9f087-8db9-46e9-8640-e8eb8a6fd635",
+    "AccountName": "Templates",
+    "CycleId": "a2115f94-4ee6-4c4b-a03c-f89ce5ec41ed",
+    "CycleName": "SF Updated Opps to Google",
+    "StepId": "5c881e9f-5a38-4544-9b36-562baf4a2e71",
+    "StepName": "Get Account",
+    "StepType": 1,
+    "TransactionId": "284bc7b4-4321-4c97-aa2f-370f9627d244",
     "Message": "Failed to call the method",
-    "Detail": "404 Item not found\r\n{\"Code\":200,\"Message\":\"Item not found\"}\r\n\r\n\r\nHTTP Request:\r\nGET https://someapi.com/getitems/myID/ HTTP/1.1\r\nAccept: application/json\r\nApiKey:\r\nUser-Agent: Cyclr\r\nUser-Agent: (https://cyclr.com)"
+    "Detail": "404 Not Found\r\n[{\"errorCode\":\"NOT_FOUND\",\"message\":\"Provided external ID field does not exist or is not accessible: AAA\"}]\r\n\r\n\r\nHTTP Request:\r\nGET https://dw0000000ljgkeaa-dev-ed.my.salesforce.com/services/data/v43.0/sobjects/Account/AAA?fields=Name HTTP/1.1\r\nAccept: application/json\r\nAuthorization: REDACTED\r\nUser-Agent: Cyclr, (https://cyclr.com)",
+    "IncidentLevel": "Error"
 }
+
 ```
 
 </section>
