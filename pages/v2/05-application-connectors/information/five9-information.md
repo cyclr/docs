@@ -31,7 +31,7 @@ Check the status of a session by using the **Sessions > List Session Parameters*
 
 To permanently maintain an active session using a cycle:
 
-1. Create a cycle with the following Five9 methods from the **Sessions** category:
+1. Create a cycle with the following Five9 methods from the **Sessions** category: ![Cycle example showing the false exist of the List Session Paramaters method connected to the Set Session Parameters method](../../../../images/Five9-cycle.png)
 2. In the cycle, select **Step Setup** for the **Set Session Parameters** method.
 3. Set any required parameters and set the **Idle Time Out** parameter to `1800`.
 4. Select **Close**.
