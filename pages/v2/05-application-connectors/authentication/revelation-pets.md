@@ -7,30 +7,37 @@ tags: [connector]
 {::options parse_block_html="true" /}
 <section class="card">
 
-### Partner Setup
+## Partner setup
 
-An API key will need to be generated in Revelation Pet's frontend:
+You need to generate an API key in Revelation Pet's frontend:
 
-* Go to the Revelation Pets frontend and log in with your details
+*  Go to the Revelation Pets frontend and log in with your details.
 *  Go to **Settings** at the top right.
-*  Select  **Integrations** 
+*  Select  **Integrations**.
 *  Find your API key at the bottom of the page.
 
-### Cyclr Setup
+</section>
+<section class="card">
 
-Setup your Revelation Pets connector within Cyclr:
+## Cyclr setup
 
-*   Go to your **Cyclr Console**
-*   Click the **Connectors** menu along the top
-*   Choose Connector Library
-*   Scroll down to **Revelation Pets**
-*   Click the **Setup** button
+To set up the Revelation Pets connector in Cyclr, go to your Cyclr console:
 
-Enter the following values:
+1. Go to **Connectors** > **Application Connector Library**.
 
-**API Key**: Retrieved from the **Partner Setup** steps above.
-**Base URL**: Select either the EU or US endpoint depending  on where your Revelation Pets instance is based.
+2. Use the search box to find the Revelation Pets connector.
 
-Select next and your connector will be authenticated.
+3. Select the **Setup Required** icon.
+
+4. Enter the below values:
+
+   | Value              | Description                                 |
+   | :----------------- | :------------------------------------------ |
+   | **API Key**   | Retrieved from the **Partner Setup** steps above. |
+   | **Base URL**  | Select either the EU or US endpoint depending on where your Revelation Pets instance is based. |
+
+5. Select **Save Changes**.
+
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
 
 </section>
