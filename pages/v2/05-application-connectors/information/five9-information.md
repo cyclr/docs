@@ -11,21 +11,20 @@ linkedpage: true
   
 ## Managing sessions
 
-The Five9 connector requires a session to be active to make requests to the API. This session is a connection between Cyclr and the Five9 API. You can only have one active session per account. The session will time out if you do not make a request to the API within a specified time period.
+The Five9 connector needs a session to be active for you to make requests to the API. This session is a connection between Cyclr and the Five9 API. You can only have one active session per account. The session times out if you don't make a request to the API within a specified time period.
 
 ### Create a session
 
-Create a session by using the **Sessions > Set Session Parameters** method. The **Rolling Period** and **Statistics Range** parameters define how statistics are returned from the API for requests in the session. The time out duration is defined by the **Idle Time Out** parameter, this will default to `180` seconds if not set.
+Create a session by using the **Sessions** > **Set Session Parameters** method. The **Rolling Period** and **Statistics Range** parameters define how statistics are returned from the API for requests in the session. The time out duration is defined by the **Idle Time Out** parameter, this will default to `180` seconds if not set.
 
-If a session is already active when this method is called, the already active session will be updated with a new session with the set parameters. If no session is active when this method is called, a new session will be started.
+If a session is already active when this method is called, the already active session updates with a new session with the set parameters. If no session is active when this method is called, a new session starts.
 
 ### Check session status
 
-Check the status of a session by using the **Sessions > List Session Parameters** method. When placed in a cycle, this method has true/false exits that will reflect the status of the current session:
+Check the status of a session by using the **Sessions** > **List Session Parameters** method. When placed in a cycle, this method has true/false exits that reflect the status of the current session:
 
-- If there is an active session, the method will return the session parameters and exit through the true exit.
-
-- If there is no active session, the method will exit through the false exit.
+*  If there is an active session, the method returns the session parameters and exits through the true exit.
+*  If there is no active session, the method exits through the false exit.
 
 ### Maintain a session
 
