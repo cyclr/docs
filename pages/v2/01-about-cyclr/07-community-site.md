@@ -25,15 +25,6 @@ The [community site](https://community.cyclr.com) includes:
 
 You can also access the community site through the **Community Site** button on your Cyclr console dashboard.
 
-
-</section>
-<section class="card">
-## Set up guide
-The set up guide is a brief tutorial on how to start using Cyclr in case you need a refresher after your onboarding.
-
-To access the set up guide, go to your Cyclr console and select **Help** > **Setup Guide**.
-
-
 </section>
 <section class="card">
 ## Cyclr API reference
@@ -58,17 +49,17 @@ To contact our support team, you can select the **Help** button in the bottom ri
 
 #### Submit a Request
 
-Having clicked to **Submit a Request**, you can enter a subject, description, and select a priority level for your issue, as well as add any relevant attachments.
+When you select **Submit a Request**, you can enter a subject, description, and select a priority level for your issue, as well as add any relevant attachments.
 
 #### Check your Existing Requests
 
-If you or anyone at your organisation has raised an issue with the Cyclr Support Team, you'll be able to see these, and update or even close them if you wish.  
+If you or anyone at your organisation has raised an issue with the Cyclr Support Team, you'll be able to see, update or even close these issues if you want to.
 
-You will also be able to see your organisation's historical closed tickets here - this allows you to access tickets related to your organization even if the requestor isn't available.
+You can also see your organisation's historical closed tickets here - this allows you to access tickets related to your organization even if the requestor isn't available.
 
 The portal displays both who requested each ticket and who is assigned to resolve the issue. You can also see the status, creation date and when the ticket was last updated.
 
-If you haven't accessed your tickets in this way before, you'll first be asked to register and sign in.
+If you haven't accessed your tickets in this way before, you need to register and sign in.
     
 To activate your access to Cyclr’s Zendesk portal:
 1. Go to [`http://support.cyclr.com/`](https://support.cyclr.com).
