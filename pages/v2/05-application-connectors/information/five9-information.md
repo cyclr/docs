@@ -9,7 +9,7 @@ linkedpage: true
 
 <section class="card">
   
-## Managing sessions
+## Manage sessions
 
 The Five9 connector needs a session to be active for you to make requests to the API. This session is a connection between Cyclr and the Five9 API. You can only have one active session per account. The session times out if you don't make a request to the API within a specified time period.
 
