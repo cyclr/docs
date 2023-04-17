@@ -34,7 +34,7 @@ To permanently maintain an active session using a cycle:
 2. In the cycle, select **Step Setup** for the **Set Session Parameters** method.
 3. Set any required parameters and set the **Idle Time Out** parameter to `1800`.
 4. Select **Close**.
-5. Select **Run > Repeat**.
+5. Select **Run** > **Repeat**.
 6. Set **Run this cycle every** to `15 minutes`.
 7. Select **Run Now**.
 
