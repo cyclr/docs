@@ -13,7 +13,7 @@ tags: [connector]
 
 To connect with Cyclr, you need a valid set of Five9 credentials.
 
-Five9 recommend using the credentials of a user with the Virutal Call Center supervisor role. This user needs to have the relevant permissions enabled to allow them to send requests to the Five9 API. You can find more information about permissions in the Users chapter of the Five9 Virtual Contact Center Basic Administrator’s Guide.
+Five9 recommend using the credentials of a user with the Virutal Call Center supervisor role. This user needs to have the relevant permissions enabled to allow them to send requests to the Five9 API. You can find more information about permissions in the **Users** chapter of the Five9 Virtual Contact Center Basic Administrator’s Guide.
 
 </section>
 
