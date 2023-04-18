@@ -75,4 +75,29 @@ If there are specific errors you wish to handle, you may need to force them to o
 
 ```
 
+### List of possible `Message` responses
+
+* Trigger Skipped
+* Transaction Stopped
+* Out of retries
+* Failed to authenticate the connector
+* Required source is empty
+* Webhook failed
+* Failed to build the request
+* Response data not in expected format
+* Failed to call the method
+* Response data fields missing
+* Step data cannot be split
+* Failed to split transaction step data
+* Failed to save the webhook response
+* Failed to return the webhook response
+* Failed to build the webhook response
+* Failed to find the webhook source key
+* Failed to get webhook trigger step data
+* Failed to find webhook trigger step
+* Wait Until Failed To Run
+* Wait Until is over retention period
+* Field is not a valid DateTime
+* WaitUntil step is missing wait criteria
+
 </section>
