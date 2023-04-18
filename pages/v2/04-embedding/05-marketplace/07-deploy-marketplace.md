@@ -43,7 +43,7 @@ curl -X POST
         "AuthValue": "{AuthenticationValue}",
         "Properties": [{"Name": "{Url}", "Value": "{http://customDomain.appName.com}"}]
     }
-}' "https://{yourCyclrDomain}/v1.0/accounts/{AccountId}
+}' "https://{yourCyclrDomain}/v1.0/accounts/{AccountId}/marketplace
 ```
 
 > **Note**: Pass all `ConnectorAuthentications` property values as strings, even if they’re numbers.
