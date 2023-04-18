@@ -2173,6 +2173,7 @@ section {
         max-width: 100%;
         height: auto;
     }
+
 }
 
 #col-toc {
@@ -2282,6 +2283,13 @@ section {
                 border-bottom: 1px solid $grey-20;
                 margin: 0 0 16px;
                 padding: 0 0 16px;
+            }
+        }
+
+        ul, ol {
+            li  {
+                padding-top: 8px;
+                padding-bottom: 8px;
             }
         }
     }
