@@ -21,7 +21,7 @@ For more information on how to create client credentials, see the [Client Creden
 
 Cyclr asks you for the below values when you install the Genesys Cloud connector into an account:
 
-| Value             | Description                                                  |
+| **Value**             | **Description**                                                  |
 | :---------------- | :----------------------------------------------------------- |
 | **Client ID**     | The Client ID of your Genesys Cloud application.             |
 | **Client Secret** | The Client secret of your Genesys Cloud application.         |
