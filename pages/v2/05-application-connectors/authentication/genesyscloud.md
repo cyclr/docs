@@ -5,7 +5,7 @@ permalink: genesys-cloud-connector
 tags: [connector]
 
 ---
-
+{::options parse_block_html="true" /}
 <section class="card">
 
 ## Genesys Cloud setup
