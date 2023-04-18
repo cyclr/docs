@@ -53,7 +53,7 @@ A JavaScript **result** object is made avalible to the window on the final page 
 | accountId | The ID of your end user's account | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 | accountApiId | The API ID of your end user's account | CYCLR_ACCOUNT_API_ID |
 | cycleId | The ID of the newly installed integration within your end user's account | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
-| status | A string indicating the status of the newly installation integration cycle.By design, will always be Active, unless an issue arose during installation, in which case it will be stopped. | Active or Stopped |
+| status | A string indicating the status of the newly installed integration. By design, will always be Active, unless an issue arose during installation, in which case it will be stopped. | Active or Stopped |
 | userId | The ID of your end user | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
 | webhooks | An array of URLs representing the endpoints of the webhooks included within the newly installed integration template. This is important where your application needs to send data to Cyclr to trigger the newly installed integration template. Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template. | ["https://webhooks.cyclr.com/Jd78JHd9"] |
 | errors | An array of error messages when Cyclr activates the newly installed integration template. | ["Please set up all the steps correctly before starting the cycle."] |
