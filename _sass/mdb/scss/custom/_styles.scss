@@ -348,6 +348,8 @@ a {
         color: $sidenav-link-color;
         box-shadow: none;
         &:hover {
+            background-clip: border-box;
+            border-bottom: 1px solid $grey-20;
             color: $sidenav-link-color-hover;
         }
 
@@ -1952,7 +1954,7 @@ section {
     padding-left: 2.5rem;
     color: $white;
     width: 100%;
-    height: auto;
+    height: 36px;
 }
 
 .ais-Highlight {
@@ -1972,7 +1974,7 @@ section {
         display: block;
         width: 100%;
         max-width: none;
-        height: auto;
+        height: 36px;
 
         &--input {
             @extend .form-control;
@@ -2007,7 +2009,7 @@ section {
         &--magnifier-wrapper {
             position: absolute;
             left: 0;
-            top: 0;
+            top: 5px;
             display: block;
 
             &::after {
