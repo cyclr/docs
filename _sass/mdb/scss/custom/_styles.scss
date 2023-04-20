@@ -102,6 +102,15 @@ a {
     }
 }
 
+@each $breakpoint, $width in $widths {
+
+    @include media-breakpoint-up($breakpoint) {
+        .w-#{$breakpoint}-#{$width} {
+            width: percentage($width / 100) !important;
+        }
+    }
+}
+
 @each $sz, $gap in $flexgaps {
     @include media-breakpoint-up($sz) {
         .colgap-#{$sz} {
@@ -2261,6 +2270,12 @@ section {
             @extend .mt-10;
             @extend .mb-20;
             table-layout: fixed;
+            &.col2-75 {
+                td:nth-child(2),
+                th:nth-child(2){
+                        width: 75%;
+                }
+            }
         }
 
         .highlight {
