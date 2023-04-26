@@ -166,12 +166,12 @@ To ensure the function or procedure in the request has the correct format, you c
 
 3. Under the **Request Fields** heading, select the **+** to add a custom request field. Do this for every parameter listed in the previous step:
 
-   | Field              | Description                                                  |
-   | ------------------ | ------------------------------------------------------------ |
-   | **Field Location** | The location of the field in the request. Enter this in the format `parameters.{ParameterName}`. For example, if the parameter is `inputid`, enter `parameters.inputid`. |
-   | **Display Name**   | The display name of the field in the Cyclr UI.               |
-   | **Description**    | The description of the field in the Cyclr UI.                |
-   | **Data Type**      | The data type of the parameter. Match the data type as closely as possible with the data type of the parameter in PostgreSQL. For example, if the parameter data type is `varchar` then select `Text`. |
+| Field              | Description                                                  |
+| ------------------ | ------------------------------------------------------------ |
+| **Field Location** | The location of the field in the request. Enter this in the format `parameters.{ParameterName}`. For example, if the parameter is `inputid`, enter `parameters.inputid`. |
+| **Display Name**   | The display name of the field in the Cyclr UI.               |
+| **Description**    | The description of the field in the Cyclr UI.                |
+| **Data Type**      | The data type of the parameter. Match the data type as closely as possible with the data type of the parameter in PostgreSQL. For example, if the parameter data type is `varchar` then select `Text`. |
 
 4. Select **Create**.
 
@@ -185,12 +185,12 @@ To be able to map a response object field in an integration, you can add a respo
 
 3. Under the **Response Fields** heading, select the **+** to add a custom response field. If you have the response object already, select **Generate Fields** to generate custom response fields from it. Do this for every field in the response that needs to be mapped in a cycle:
 
-   | Field              | Description                                                  |
-   | ------------------ | ------------------------------------------------------------ |
-   | **Field Location** | The location of the field in the response. Use object keys, separated by `.` for nested objects, as the field location. Use square brackets to indicate arrays in the response object, and use `[].` if the response object itself is an array. |
-   | **Display Name**   | The display name of the field in the Cyclr UI.               |
-   | **Description**    | The description of the field in the Cyclr UI.                |
-   | **Data Type**      | The data type of the field. Match the data type as closely as possible with the data type of the parameter in PostgreSQL. For example, if the parameter data type is `varchar` then select `Text`. |
+| Field              | Description                                                  |
+| ------------------ | ------------------------------------------------------------ |
+| **Field Location** | The location of the field in the response. Use object keys, separated by `.` for nested objects, as the field location. Use square brackets to indicate arrays in the response object, and use `[].` if the response object itself is an array. |
+| **Display Name**   | The display name of the field in the Cyclr UI.               |
+| **Description**    | The description of the field in the Cyclr UI.                |
+| **Data Type**      | The data type of the field. Match the data type as closely as possible with the data type of the parameter in PostgreSQL. For example, if the parameter data type is `varchar` then select `Text`. |
 
 4. Select **Create**.
 
