@@ -11,9 +11,9 @@ tags: [connector]
 
 To authenticate your connector, you need to get the username and password of the Rev.io account.
 
-You also need to know your Rev.io instance, as you need to enter the username in the format 'username@{clientcode}', where '{clientcode}' is your Rev.io instance. For example, if your instance is 'CompanyA.rev.io', your '{clientcode}' is 'CompanyA'. 
+You also need to know your Rev.io instance, as you need to enter the username in the format `username@{clientcode}`, where `{clientcode}` is your Rev.io instance. For example, if your instance is `CompanyA.rev.io`, your `{clientcode}` is `CompanyA`. 
 
-> **Note**: To run API calls against the Rev.io sandbox instead of a live instance, use 'api_sandbox' as the '{clientcode}'.      
+> **Note**: To run API calls against the Rev.io sandbox instead of a live instance, use `api_sandbox` as the `{clientcode}`.      
 
 
 </section>
