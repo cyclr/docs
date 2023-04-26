@@ -13,7 +13,7 @@ linkedpage: true
 
 Cyclr uses custom object categories to allow the PostgreSQL connector to access multiple database tables with a single connector. To access a table within a database, you need to create a Custom object category.
 
-You can identify custom object categories on the PostgreSQL connector settings page with the ![The custom object category icon.](./images/postgresql-custom-object.png)
+You can identify custom object categories on the PostgreSQL connector settings page with the ![The custom object category icon.](../../../../images/postgresql-custom-object.png)
  icon to the left of the method category.
 
 ### Add a custom object category
@@ -21,7 +21,7 @@ You can identify custom object categories on the PostgreSQL connector settings p
 From the PostgreSQL connector settings page:
 
 1.  Under the **Methods & Fields** heading, select **Rows**.
-2.  Select the ![The copy icon.](./images/postgresql-custom-object-copy.png)
+2.  Select the ![The copy icon.](../../../../images/postgresql-custom-object-copy.png)
  **Copy this Category to create a Custom object category** button.
 3.  Select the **Select Object** dropdown.
 4.  Select the schema and table name to access.
@@ -34,7 +34,7 @@ This adds a new method category with the schema and table name you select in ste
 From the PostgreSQL connector settings page:
 
 1.  Under the **Methods & Fields** heading, select the custom object category you want to remove.
-2.  Select the ![The bin icon.](./images/postgresql-custom-object-remove.png)
+2.  Select the ![The bin icon.](../../../../images/postgresql-custom-object-remove.png)
  **Delete this Custom object category** button.
 3.  Select **Confirm**.
 
