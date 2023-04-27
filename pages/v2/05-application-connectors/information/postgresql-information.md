@@ -217,7 +217,7 @@ The Call Function Manually and Call Procedure Manually methods are setup in the 
 2. Select **Setup step**.
 3. Select **Select...** for the **Function** or **Procedure** field.
 4. Select **Type a Value**.
-5. Enter the function name and any parameters into the field. For example, if the function or procedure is named **getuserbyid** and has an **inputid** parameter with a value of `6`, enter `getuserbyid(6)`. You can use Mergefields from steps you previously mapped here.
+5. Enter the function name with parameter brackets. Inlclude any parameters as a comma-separated list inside the parameter brackets, and add the closing semicolon into the field. You need to enclose strings in single quotes, and you need to double up single quotes within strings to escape them. For example, if the function or procedure is named **getuserbyid** and has an **inputid** parameter with a value of `6`, enter `getuserbyid(6)`. You can use Mergefields from steps you previously mapped here.
 6. Select **Close**. 
 
 </section>
