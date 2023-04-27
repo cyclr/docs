@@ -43,13 +43,13 @@ You can use access tokens to authenticate both the sandbox and production versio
 
 To obtain the access tokens, go to the [applications page](https://developer.squareup.com/apps) in Squareup.
 
-1.  Create a **New Application**, or select **View Details** of an existing application which you' want to connect to Cyclr.
+1.  Select the plus icon for a new application, or select **Open** on an existing application which you want to connect to Cyclr.
 ![The Squareup application page.](./images/squareup_application.png)
 
-  *  To connect to the production environment, copy the **Personal Access Token** seen on the page.
+  *  To connect to the production environment, select **Production** at the top of the page and copy the **Production Access Token** seen on the page.
   ![The Squareup credentials page.](./images/squareup_credentials.png)
 
-  *  To connect to the sandbox environment for staging, scroll down to the sandbox section and copy the **Sandbox Access Token**.
+  *  To connect to the sandbox environment for staging, select **Sandbox** at the top of the page and copy the **Sandbox Access Token**.
   ![The Sandbox credentials page.](./images/squareup_sandbox_credentials.png)
 
 2.  Paste your token into the **API Key** field on the Connector Setup page.
