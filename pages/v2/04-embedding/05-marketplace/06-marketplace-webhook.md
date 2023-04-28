@@ -46,7 +46,8 @@ When you integrate with a Cyclr Marketplace, you can specify a Webhook URL for C
         }
     ],
     "Errors" : ["Failed to start cycle"],
-    "UserId": "00000000-0000-0000-0000-000000000000"
+    "UserId": "00000000-0000-0000-0000-000000000000",
+    "CompleteParameter": "example"
 }
 ```
 
@@ -57,7 +58,8 @@ When you integrate with a Cyclr Marketplace, you can specify a Webhook URL for C
     "Status": "uninstalled",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
-    "MarketplaceIntegrationPackageId": 1234
+    "MarketplaceIntegrationPackageId": 1234,
+    "CompleteParameter": "example"
 }
 ```
 
@@ -68,7 +70,8 @@ When you integrate with a Cyclr Marketplace, you can specify a Webhook URL for C
     "Status": "started",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
-    "MarketplaceIntegrationPackageId": 1234
+    "MarketplaceIntegrationPackageId": 1234,
+    "CompleteParameter": "example"
 }
 ```
 
@@ -79,6 +82,7 @@ When you integrate with a Cyclr Marketplace, you can specify a Webhook URL for C
     "Status": "stopped",
     "AccountId": "00000000-0000-0000-0000-000000000000",
     "AccountApiId": "ExampleAccount",
-    "MarketplaceIntegrationPackageId": 1234
+    "MarketplaceIntegrationPackageId": 1234,
+    "CompleteParameter": "example"
 }
 ```
