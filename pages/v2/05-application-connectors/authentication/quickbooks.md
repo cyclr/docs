@@ -12,7 +12,7 @@ keywords: [intuit]
 
 To authenticate the Quickbooks connector, you need a **Client ID** and **Client Secret**.
 
-To obtain these values, you need a QuickBooks Online application. Tou can create an app through the Quickbooks [developer portal]((https://developer.intuit.com/app/developer/myapps):
+To obtain these values, you need a QuickBooks Online application. You can create an app through the Quickbooks [developer portal]((https://developer.intuit.com/app/developer/myapps):
 
 > **Note**: There are sections for **Development** and **Production** apps, and these steps are for a **Development** app.
 
