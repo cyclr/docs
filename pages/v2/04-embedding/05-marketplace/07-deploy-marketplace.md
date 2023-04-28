@@ -128,7 +128,12 @@ curl -X POST
     <td colspan="2"><code>AccountId</code></td>
     <td>string</td>
     <td>Specify to Cyclr which account to use. If an account with this ID doesn’t exist, Cyclr creates a new account using this value.</td>
-</tr>
+  </tr>
+  <tr>
+    <td><code>CompleteParameter</code></td>
+    <td>A custom value be included in the Marketplace webhook callback.</td>
+    <td></td>
+  </tr>
 </tbody>
 </table>
 
