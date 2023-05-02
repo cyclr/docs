@@ -1114,7 +1114,7 @@ Cards
     .pg-category .category-default & {
         @extend .pt-16;
         @extend .px-40;
-        @extend .pb-50;
+        @extend .pb-40;
         @extend .mt-20;
     }
 
@@ -1259,11 +1259,12 @@ Tables
     th {
         font-size: $body-font-size;
         font-weight: $body-font-weight;
-        color: $grey-70;
+        color: $grey-80;
+
     }
 
     td {
-        color: $grey-70;
+        color: $grey-80;
         font-weight: $body-font-weight;
     }
 
@@ -2291,7 +2292,7 @@ section {
         .pg-doc & {
             @extend .pt-16;
             @extend .px-40;
-            @extend .pb-50;
+            @extend .pb-40;
             @extend .mt-20;
 
             h2 {
