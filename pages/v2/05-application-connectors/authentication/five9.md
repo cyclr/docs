@@ -3,6 +3,7 @@ title: Five9 authentication
 sidebar: cyclr_sidebar
 permalink: five9-connector
 tags: [connector]
+linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
@@ -33,8 +34,8 @@ Cyclr asks you for the below values when you install the Five9 connector into an
 
 > **Note**: You can use different details for different accounts.
 
+### Enhanced Object Category setup
+
+To use the statistics category of methods, you need to make a copy of this category for each set of statistics that you want to use. For more information, see the [copy a category](https://docs.cyclr.com/enhanced-objects#copy-a-category) section of the Enhanced Objects page.
+
 </section>
-
-**Please Also Note**: The Statistics category of methods is an Enhanced Object Category.  
-
-You will need to make a copy of this category for each set of Statistics in which you are interested.  There's more on copying categories here: https://docs.cyclr.com/enhanced-objects#copy-a-category
