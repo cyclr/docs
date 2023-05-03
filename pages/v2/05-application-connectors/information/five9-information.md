@@ -8,7 +8,14 @@ linkedpage: true
 {::options parse_block_html="true" /}
 
 <section class="card">
-  
+
+## Statistics category
+
+The Statistics category of methods is an Enhanced Object Category. To use these methods, you need to make a copy of this category for each set of statistics that you want to use. For more information, see the [copy a category](https://docs.cyclr.com/enhanced-objects#copy-a-category) section of the Enhanced Objects page.
+
+</section>
+<section class="card">
+
 ## Manage sessions
 
 The Five9 connector needs a session to be active for you to make requests to the API. This session is a connection between Cyclr and the Five9 API. You can only have one active session per account. The session times out if you don't make a request to the API within a specified time period.
