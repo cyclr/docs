@@ -18,4 +18,15 @@ You can map custom fields for the **Update Purchase Order** method:
 3. Enter the required field location in the format 'CustomField.FieldName', where 'FieldName' is the `DefinitionId` of the custom field to update.
 4. Enter any additional information for the method field and then select **Create**.
 
+## Webhooks
+
+The QuickBooks connector uses single partner URL webhooks, that certain events can trigger. To set up webhooks, follow the next steps in the developer console:
+
+1. In the **Production** section, select **Webhooks**.
+2. Enter the **Partner Endpoint URL** to specify where the server sends notifications. To find the URL in the **Cyclr console**, go to **Connectors** > **Application Connector Library** > **QuickBooks** and select the **Customise installation user experience/Setup Required** icon.
+3. In the **Event Frequency** dropdown, select how long you want to aggregate events for.
+4. Select the **Show webhooks** link.
+5. Review the required events and operations and select the events you want to receive notifications for.
+6. Select **Save**.
+
 </section>
