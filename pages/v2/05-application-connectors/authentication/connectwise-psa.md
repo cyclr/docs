@@ -1,7 +1,7 @@
 ---
-title: ConnectWise Manage Authentication
+title: ConnectWise PSA Authentication
 sidebar: cyclr_sidebar
-permalink: connectwisemanage-connector
+permalink: connectwisepsa-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
@@ -9,7 +9,7 @@ tags: [connector]
 ## Partner Setup
 
 #### Retrieving public and private key
-*   Login to your ConnectWise Manage front-end. This changes depending on the location of the server, for example if your server is in the EU it may be https://eu.myconnectwise.net/.
+*   Login to your ConnectWise PSA front-end. This changes depending on the location of the server, for example if your server is in the EU it may be https://eu.myconnectwise.net/.
 *   Navigate to "Members" under "System" from the menu bar on the left of the page.
 *   Click the "API Members" menu.
 *   Create a new member or edit an existing one. Navigate to the "API Keys" menu.
@@ -23,12 +23,12 @@ tags: [connector]
 
 ### Cyclr Setup
 
-Setup your ConnectWise Manage App within Cyclr:
+Setup your ConnectWise PSA App within Cyclr:
 
 *   Go to your **Cyclr Console**
 *   Click the **Connectors** menu along the top
 *   Choose Connector Library
-*   Scroll down to **ConnectWise Manage**
+*   Scroll down to **ConnectWise PSA**
 *   Click the **Setup** button
 
 Enter the following values:
