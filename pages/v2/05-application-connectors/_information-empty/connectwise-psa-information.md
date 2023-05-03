@@ -1,7 +1,7 @@
 ---
-title: ConnectWise Manage Information
+title: ConnectWise PSA Information
 sidebar: cyclr_sidebar
-permalink: connectwisemanage-information
+permalink: connectwisepsa-information
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
