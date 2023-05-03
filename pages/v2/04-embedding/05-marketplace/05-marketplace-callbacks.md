@@ -14,7 +14,11 @@ menus:
 <section class="card">
 
 When your user installs an integration package from the Marketplace, this process either redirects your user back to the Marketplace, or displays a completion message.
-Customize Marketplace callback
+
+</section>
+<section class="card">
+
+## Customize Marketplace callback
 
 When you complete the installation of Marketplace integration packages, your user sees the final page of the LAUNCH flow. 
 If you don’t redirect your user back to the Marketplace, you can customize this callback.
@@ -22,21 +26,24 @@ If you don’t redirect your user back to the Marketplace, you can customize thi
 1. Go to your console and select **Settings** > **Appearance Settings**.
 2. In the **Launch Complete HTML** box, define the HTML and JavaScript.
 
-### Message examples
+</section>
+<section class="card">
 
-#### Plain HTML message
+## Message examples
+
+### Plain HTML message
 
 You can display your own message:
 
 `<h1>Congrats - you're connected!</h1>`
 
-#### Integration package message
+### Integration package message
 
 If your Marketplace integration package includes an install complete message, you can use the InstallCompleteMessage merge field to display messages for each integration package:
 
 `<h1><span>{{InstallCompleteMessage}}<span\></h1>`
 
-#### JavaScript `postMessage`
+### JavaScript `postMessage`
 
 If you use a popup window, you can display a message with a close button. When your user selects the close button, a JavaScript `postMessage` sends the result object and closes the popup window.
 
