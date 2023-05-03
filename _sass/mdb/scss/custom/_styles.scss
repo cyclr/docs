@@ -1260,12 +1260,14 @@ Tables
         font-size: $body-font-size;
         font-weight: $body-font-weight;
         color: $grey-80;
+        border-width: 1px;
 
     }
 
     td {
         color: $grey-80;
         font-weight: $body-font-weight;
+        border-width: 1px;
     }
 
     .help-block {
