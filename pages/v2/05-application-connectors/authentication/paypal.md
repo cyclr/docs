@@ -37,7 +37,7 @@ To set up the PayPal connector in Cyclr, go to your Cyclr console:
    | :----------------- | :--------------------------------------------- |
    | **Client ID**      | The Client Id from the Developer Dashboard     |
    | **Client Secret**  | The Client Secret from the Developer Dashboard |
-   | **Domain**         | Choose between **Sandbox** and **Production**. |
+   | **Environment**    | Choose between **Sandbox** and **Production**. |
 
 5. Select **Save Changes**.
 
