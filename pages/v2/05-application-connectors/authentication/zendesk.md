@@ -28,22 +28,21 @@ To generate an API token for your Zendesk account, please see Zendesk's [API doc
 
 ### OAuth2 
 
-The Zendesk connector supports OAuth2 Authentication with the following information
+The Zendesk connector supports OAuth2 authentication with the following information
 
-- Unique Identifier. 
-- Client Secret.
-- The Scopes requested of your zendesk application.
+* Unique Identifier. 
+* Client Secret.
+* The Scopes requested of your zendesk application.
 
-In order to authenticate your OAuth2 Application you will need to create an OAuth Client in Zendesk. To create an OAuth2 Client for your  Zendesk Account, Please see [Zendesk's OAuth2 Client Setup Guide](https://support.zendesk.com/hc/en-us/articles/4408845965210#topic_qk3_d3s_qk).
+To authenticate your OAuth2 Application, you need to create an OAuth Client in Zendesk. To create an OAuth2 Client for your  Zendesk Account, see [Zendesk's OAuth2 Client Setup Guide](https://support.zendesk.com/hc/en-us/articles/4408845965210#topic_qk3_d3s_qk).
 
 </section>
-
 <section class="card">
 
 ## Cyclr Setup
 
 
-There are two ways to install the connector into an account in Cyclr: with a password or with an API token.
+There are two ways to install the connector into an account in Cyclr; you can use a password or an API token.
 
 ### Install with email and password
 
