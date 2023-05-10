@@ -62,7 +62,7 @@ curl -X POST
   <tr>
     <td colspan="2"><code>{access_token}</code></td>
     <td>string</td>
-    <td>Enter your <a href="https://docs.cyclr.com/cyclr-api-authentication#access-token" target="_blank" rel="noopener noreferrer">Access Token]</a> to authenticate the Cyclr API.</td>
+    <td>Enter your <a href="https://docs.cyclr.com/cyclr-api-authentication#access-token" target="_blank" rel="noopener noreferrer">Access Token</a> to authenticate the Cyclr API.</td>
   </tr>
   <tr>
     <td colspan="2"><code>yourCyclrDomain</code></td>
