@@ -12,16 +12,14 @@ linkedpage: true
 
 ### Requirements
 
-To connect with Cyclr, you need an AmeriCommerce Client ID, Client Secret, Store Domain and Redirect URI.
+To connect with Cyclr, you need the following authentication details from your Admin console:
+   
+*  AmeriCommerce Client ID
+*  Client Secret
+*  Store Domain
+*  Redirect URI.
 
-For more information, see the AmeriCommerce documentation on [creating an Access Token]([<link to connector docs>](https://developers.cart.com/docs/rest-api/ZG9jOjU4NjM4-cart-com-online-store-api-authentication)).
-
-
-### Get authentication details
-
-To authenticate your connector, you need to get the authentication details. 
-
-Go to the Admin Console and make note of the Application ID and Secret.
+For more information, see the AmeriCommerce documentation on [creating an Access Token](https://developers.cart.com/docs/rest-api/ZG9jOjU4NjM4-cart-com-online-store-api-authentication).
 
 </section>
 <section class="card">
@@ -40,8 +38,8 @@ To set up the AmeriCommerce connector in Cyclr, go to your Cyclr console:
 
    | **Value**           | **Description**                                                                 |
    | :-----------------  | :------------------------------------------------------------------------------ |
-   | **Client ID**       | The APP ID given to you in the admin console when you set up your application.  |
-   | **Client Secret**   | The App Secret from the admin console.                                          |
+   | **Client ID**       | The App ID given to you in the Admin console when you set up your application.  |
+   | **Client Secret**   | The App Secret from the Admin console.                                          |
    | **Store Domain**    | The Domain of your AmeriCommerce Store.                                         |
    | **Redirect URI**    | The OAuth callback URL.                                                         |
 
