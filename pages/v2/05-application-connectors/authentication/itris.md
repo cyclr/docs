@@ -26,8 +26,8 @@ Cyclr asks you for the below values when you install the Itris connector into an
 
 | Value              | Description                                 |
 | :----------------- | :------------------------------------------ |
-| **Domain** | Your Itris instance domain. For example, if you access Itris using `https://mycompany.itris.co.uk` enter `mycompany.itris.co.uk`. |
-| **Port** | The port of your Itris instance. For example, if you access Itris using `https://mycompany.itris.co.uk:8080` enter `8080`. Leaving this blank will only use the domain to access your Itris instance. Optional. |
+| **Domain** | Your Itris instance domain. For example, if you access Itris using `https://mycompany.itris.co.uk`, enter `mycompany.itris.co.uk`. |
+| **Port** | Optional. The port of your Itris instance. For example, if you access Itris using `https://mycompany.itris.co.uk:8080`, enter `8080`. Leave this blank to only use the domain to access your Itris instance. |
 | **Username**   | The Itris account username.                          |
 | **Password**   | The Itris account password.                           |
 
