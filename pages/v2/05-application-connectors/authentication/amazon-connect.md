@@ -19,7 +19,7 @@ To authenticate your connector, you need the following authentication details:
 *  Access Secret Key
 *  AWS Region
   
-You can create an access from your AWS account:
+You can create an Access Key from your AWS account:
 
 1.  Select **Services** and search for **IAM**.
 2.  Under **Access Management**, select **Users**.
