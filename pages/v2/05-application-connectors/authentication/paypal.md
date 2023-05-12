@@ -8,18 +8,22 @@ tags: [connector]
 <section class="card">
   
 ## PayPal setup
-  To set up the PayPal connector you require the following:
-  - A PayPal [Developer Account](https://www.paypal.com/signin/client?flow=provisionUser&country.x=US&locale.x=en_US)
-  - A PayPal **Client ID** and **Client Secret**
+To set up the PayPal connector you require the following:
+
+*  A PayPal [Developer Account](https://www.paypal.com/signin/client?flow=provisionUser&country.x=US&locale.x=en_US).
+*  A PayPal **Client ID** and **Client Secret**.
 
 ### Get authentication details
 
 To authenticate your connector, you need to get the authentication details from your **Developer Account**:
-  1. Create a [Developer Account](https://www.paypal.com/signin/client?flow=provisionUser&country.x=US&locale.x=en_US) if you do not already have one.
-  2. This automatically creates a business and personal account in a default app.
-  3. Select the **Developer Dashboard** to view your credentials.
-  4. Make a note of the **Client ID** and **Client Secret**.
-  5. For testing, make sure the toggle switch is set to **Sandbox**.
+
+1. Create a [Developer Account](https://www.paypal.com/signin/client?flow=provisionUser&country.x=US&locale.x=en_US) if you do not already have one. This automatically creates a business and personal account in a default app.
+2. Select the **Developer Dashboard** to view your credentials.
+3. Make a note of the **Client ID** and **Client Secret**.
+4. For testing, make sure the toggle switch is set to **Sandbox**.
+
+</section>
+<section class="card">
 
 ## Cyclr setup
 
@@ -33,11 +37,11 @@ To set up the PayPal connector in Cyclr, go to your Cyclr console:
 
 4. Enter the below values:
 
-   | Value              | Description                                    |
-   | :----------------- | :--------------------------------------------- |
-   | **Client ID**      | The Client Id from the Developer Dashboard     |
-   | **Client Secret**  | The Client Secret from the Developer Dashboard |
-   | **Environment**    | Choose between **Sandbox** and **Production**. |
+| Value              | Description                                    |
+| :----------------- | :--------------------------------------------- |
+| **Client ID**      | The Client Id from the Developer Dashboard.    |
+| **Client Secret**  | The Client Secret from the Developer Dashboard. |
+| **Environment**    | Choose between **Sandbox** and **Production**. |
 
 5. Select **Save Changes**.
 
