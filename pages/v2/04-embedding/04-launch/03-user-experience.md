@@ -44,7 +44,7 @@ After the user selects an integration to install, LAUNCH takes them through the 
 
 ![Three types of authentication.](./images/auth-launch.png)
 
-If the user has already authenticated a connector, then the user doesn’t need to re-authenticate.
+If the user has already authenticated a connector when they installed another integration, then the user doesn’t need to re-authenticate.
 
 </section>
 <section class="card">
@@ -53,7 +53,7 @@ If the user has already authenticated a connector, then the user doesn’t need 
 
 LAUNCH presents the user with a screen to allow them to set up each step in the integration template that needs the user to select parameters.
 
-* Your user might need to select from a list of values that are obtained from an authenticated connector in the integration template. For example, they might have to select a **Mailing List **from their email marketing platform.
+* Your user might need to select from a list of values from an authenticated connector in the integration template. For example, they might have to select a **Mailing List **from their email marketing platform.
 * Your user might need to select a value from a predetermined list of valid values. For example, an email contact status: **Subscribed **or **Unsubscribed**.
 * Your user might need to provide text values for complete flexibility. For example, this could be the source of an email lead.
   
@@ -68,7 +68,7 @@ When the user completes the setup of their integration, LAUNCH presents the user
   
 ![Completed Integration Installation](./images/completed-installation.png)
 
-To customize this screen, you can include your own HTML and JavaScript. You usually then return your user to your application.
+To customize this screen, you can include your own HTML and JavaScript. For more information, see the page on how to [Customize LAUNCH](customising-launch). You usually then return your user to your application.
 
 LAUNCH provides response values that allow you to update your UI to indicate success, or instigate a backend process to make use of the newly installed Cyclr.
 

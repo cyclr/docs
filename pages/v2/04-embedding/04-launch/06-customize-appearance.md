@@ -13,11 +13,8 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-You can preview an instance of LAUNCH in the Cyclr console:
+To preview an instance of LAUNCH in the Cyclr console, go to **Embedding** > **LAUNCH** and select the **Try LAUNCH** button.
 
-1. Select **Guide**.
-2. Go to the **Integrate with your App **section and select the **Show** button.
-3. Select **Try LAUNCH**.
 
 This shows a pop up with any published integration templates that you have.
 

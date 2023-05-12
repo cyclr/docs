@@ -12,6 +12,7 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Overview
 
 When you provide your integrations with LAUNCH, there are two ways you can give access to your users:
@@ -19,7 +20,7 @@ When you provide your integrations with LAUNCH, there are two ways you can give 
 * An **Account LAUNCH** has a built-in API account that all users use to access the Marketplace. 
 * A **User LAUNCH** needs you to create separate user profiles for each user in your Cyclr account.
 
-To allow your users to access LAUNCH, you need to provide your users with a link or button within your application.
+To allow your users to access LAUNCH, you need to provide your users with a link or button within your application that directs your user to the [LAUNCH URL](#deploy-launch-request).
 
 </section>
 <section class="card">
@@ -28,11 +29,11 @@ To allow your users to access LAUNCH, you need to provide your users with a link
 
 You need to set up the link that you provide so that your application makes a request to the Cyclr REST API [`/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch`](https://api.cyclr.uk/docs/index#!/Accounts/Accounts_Launch_POST) endpoint in order to obtain a LAUNCH URL. This directs your user to that URL when they select the link to your integrations.
 
-Replace `{{yourCyclrInstance}}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to where your Cyclr Console is located, or your own domain if your Cyclr instance is self-hosted.
-
-When you obtain a [Cyclr API Access Token](https://docs.cyclr.com/cyclr-api-authentication) for this call, don't use an Account Restricted Token. !!!CHECK ON THIS
+When you obtain a [Cyclr API Access Token](https://docs.cyclr.com/cyclr-api-authentication) for this call, don't use an Account Restricted Token.
 
 ### Example request
+
+Replace `{{yourCyclrInstance}}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to where your Cyclr Console is located, or your own domain if your Cyclr instance is self-hosted.
 
 ```json
 curl -X POST
