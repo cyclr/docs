@@ -19,13 +19,16 @@ To authenticate your connector, you need the following authentication details:
 *  Access Secret Key
 *  AWS Region
   
-You can create an Access Key from your AWS account:
+To get your access key ID and secret access key
 
-1.  Select **Services** and search for **IAM**.
-2.  Under **Access Management**, select **Users**.
-3.  Create a user with the correct permissions, or select an existing one, and select **Security Credentials**.
-4.  Create an **Access Key**.
-5.  Make a note of the **Access Key ID** and the **Access Secret Key**.
+1.  Open the IAM console at [https://console.aws.amazon.com/iam/](https://console.aws.amazon.com/iam/).
+2.  On the navigation menu, choose **Users**.
+3.  Choose your IAM user name (not the check box).
+4.  Open the **Security credentials** tab, and then choose **Create access key**.
+5.  To see the new access key, choose Show. Your credentials resemble the following:
+    * Access key ID: AKIAIOSFODNN7EXAMPLE
+    * Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+6. To download the key pair, choose Download .csv file. Store the .csv file with keys in a secure location.
 
 ### Create an Amazon Connect instance
   
@@ -33,7 +36,7 @@ In order to use the Amazon Connect connector with Cyclr, you need to set up a vi
   
 You can also create developer and testing instances. For more information see the guide on how to [Create a dev (Sandbox) or test (QA) instance](https://docs.aws.amazon.com/connect/latest/adminguide/create-connect-instance.html).
   
-* [Find your Amazon Connect instance ID/ARN](Find your Amazon Connect instance ID/ARN)
+* [Find your Amazon Connect instance ID/ARN](https://docs.aws.amazon.com/connect/latest/adminguide/find-instance-arn.html)
 
 </section>
 <section class="card">
