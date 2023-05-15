@@ -8,7 +8,7 @@ menus:
         title: Copy cycles as templates
         identifier: copy-account-cycle
         toggleonly: menutoggleonly
-        weight: 6
+        weight: 7
 ---
 {::options parse_block_html="true" /}
 <section class="card">

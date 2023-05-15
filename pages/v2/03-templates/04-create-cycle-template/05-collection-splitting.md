@@ -9,7 +9,7 @@ menus:
         title: Collection splitting
         identifier: collection-splitting
         toggleonly: menutoggleonly
-        weight: 7
+        weight: 5
 ---
 {::options parse_block_html="true" /}
 <section class="card">

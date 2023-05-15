@@ -8,7 +8,7 @@ menus:
         title: Test scripts
         identifier: script-tester
         toggleonly: menutoggleonly
-        weight: 6
+        weight: 4
 ---
 {::options parse_block_html="true" /}
 <section class="card">

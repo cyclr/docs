@@ -12,7 +12,7 @@ menus:
   cycle-templates:
     title: Test templates
     identifier: test-templates
-    weight: 4
+    weight: 5
 ---
 {% assign categorydata = site.data.categories.test-templates %}
 {% include v2/category/{{page.categorylayout}}.html identifier="test-templates" intro=page.intro title=page.introtitle text=page.introtext %}

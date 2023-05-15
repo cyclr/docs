@@ -12,7 +12,7 @@ menus:
   cycle-templates:
     title: Create cycle templates
     identifier: create-cycle-templates
-    weight: 3
+    weight: 4
 ---
 {% assign categorydata = site.data.categories.template-builder %}
 {% include v2/category/{{page.categorylayout}}.html identifier="create-cycle-templates" intro=page.intro title=page.introtitle text=page.introtext %}

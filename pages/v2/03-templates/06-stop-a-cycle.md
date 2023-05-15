@@ -8,7 +8,7 @@ menus:
         title: Stop a cycle
         identifier: stopping-a-cycle
         toggleonly: menutoggleonly
-        weight: 5
+        weight: 6
 ---
 {::options parse_block_html="true" /}
 <section class="card">

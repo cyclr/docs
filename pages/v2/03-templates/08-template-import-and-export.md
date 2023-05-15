@@ -10,7 +10,7 @@ menus:
         title: Template import and export
         identifier: template-export-import
         toggleonly: menutoggleonly
-        weight: 7
+        weight: 8
 ---
 {::options parse_block_html="true" /}
 <section class="card">

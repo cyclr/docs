@@ -8,7 +8,7 @@ menus:
         title: Pass data between two steps
         identifier: passing-data-between-two-steps
         toggleonly: menutoggleonly
-        weight: 8
+        weight: 6
 ---
 {::options parse_block_html="true" /}
 <section class="card">

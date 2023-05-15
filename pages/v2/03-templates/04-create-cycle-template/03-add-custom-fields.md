@@ -9,7 +9,7 @@ menus:
         title: Add custom fields
         identifier: adding-custom-fields
         toggleonly: menutoggleonly
-        weight: 4
+        weight: 3
 ---
 {::options parse_block_html="true" /}
 <section class="card">

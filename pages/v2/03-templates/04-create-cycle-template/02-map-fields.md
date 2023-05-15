@@ -9,7 +9,7 @@ menus:
         title: Map fields
         identifier: field-mapping
         toggleonly: menutoggleonly
-        weight: 3
+        weight: 2
 ---
 {::options parse_block_html="true" /}
 <section class="card">
