@@ -3,11 +3,11 @@ title: HTTP Request
 sidebar: cyclr_sidebar
 permalink: 
 menus:
-    :
+    template-tools:
         title: HTTP Request
-        identifier: 
+        identifier: http-request
         toggleonly: menutoggleonly
-        weight: 
+        weight: 6
 ---
 {::options parse_block_html="true" /}
 <section class="card">
