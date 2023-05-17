@@ -2379,6 +2379,39 @@ section {
     border-color: $divider-color !important;
 }
 
+.feedbackbtn {
+    background-color: #E23653;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+	align: middle;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .50s;
+	max-width: 110px;
+    bottom: 10px;
+	position: fixed;
+}
+	
+.feedbackbtn:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #D61639;
+    border-color: #B51331;
+}
+.feedbackbtn:hover {
+    background-color: white;
+    color: #E23653;
+    border: 3px solid #E23653;
+    transition: all .50s;
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 7px;
