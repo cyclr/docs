@@ -1,7 +1,7 @@
 ---
 title: HTTP Request
 sidebar: cyclr_sidebar
-permalink: 
+permalink: http-request
 menus:
     template-tools:
         title: HTTP Request

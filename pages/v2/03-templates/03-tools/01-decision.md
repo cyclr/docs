@@ -38,7 +38,7 @@ To set up a decision step, you need at least one Get (green) or Webhook (grey) s
 
 ### Example
 
-In the screenshot example, the fields would be Left Operand: ``Name``, Condition: ``Equals``, Right Operand ``Smith``. The result is that contacts with the last name of “Smith” are routed down the true branch, and all other contacts will go down the false branch:
+In the screenshot example, the fields would be **Left Operand**: ``Name``, **Condition**: ``Equals``, **Right Operand**: ``Smith``. The result is that contacts with the last name of `Smith` are routed down the true branch, and all other contacts will go down the false branch:
 
 ![An example of a decision step that determines where to record data.](./images/decision-example.png)
 

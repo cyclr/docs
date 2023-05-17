@@ -36,7 +36,7 @@ You can set up a step to wait until a static date and time, such as the date of 
 </section>
 <section class="card">
 
-## Wait until dynamic date in your data
+## Wait for a dynamic date in your data
 
 You can also set up a step to wait for a dynamic date and time. For example, you can set a step to wait until a variable such as a contact’s subscription renewal date.
 

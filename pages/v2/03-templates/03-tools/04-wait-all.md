@@ -22,7 +22,7 @@ After all of the **In Progress** transactions complete in a cycle, the **Wait Al
 
 ### Example
 
-For example, you can split contacts from Salesforce into individual transactions. Each transaction contains one contact and will be created in either List A or B in MailChimp depending on the Decision step result. The **Wait All** step means that the cycle waits for every contact to be processed before it posts the Slack message to say that the data import has finished.
+For example, you can split contacts from Salesforce into individual transactions. Each transaction contains one contact that's added to either List A or B, depending on the **Decision** step. The **Wait All** step means that the cycle waits for every contact to be processed before it posts the Slack message to say that the data import has finished.
 
 ![An example of a **Wait All** step that posts a slack message when all transactions are complete.](./images/wait-all-example.png)
 
@@ -35,16 +35,12 @@ For example, you can split contacts from Salesforce into individual transactions
 
 The **Wait All** step only continues once there are no **In Progress** transactions in the cycle, regardless of when they start. To avoid issues, don’t set a cycle with a **Wait All** step to run too frequently.
 
-You don’t need to connect all steps to a **Wait All** step for it to function correctly. For example, even if you don’t connect it to both exits of a **Decision** step, the** Wait All** still executes once all **In Progress** transactions complete.
+You don’t need to connect all steps to a **Wait All** step for it to function correctly. For example, even if you don’t connect it to both exits of a **Decision** step, the **Wait All** still executes once all **In Progress** transactions complete.
 
 > **Note**: Since the first step in a cycle typically retrieves the data that will be processed, if the first step in a cycle fails to execute successfully, the cycle doesn’t continue from the **Wait All** step.
-
 
 ### Mapping
 
 A **Wait All** step effectively splits a Cycle into 2 parts: steps that come before the **Wait All** and steps that come after it. Because of this, you can’t map steps that come after a **Wait All** from Steps that come before it.
-</section>
-<section class="card">
-
 
 </section>
