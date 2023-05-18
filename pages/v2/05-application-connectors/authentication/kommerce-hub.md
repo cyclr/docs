@@ -10,15 +10,9 @@ linkedpage: true
 
 ## Kommerce Hub setup
 
-### Get authentication details
+To authenticate your connector, you need to get username and password that Kommerce Hub provides you with. You also need the domain specific to your account from Kommerce Hub.
 
-To authenticate your connector, you need to get the authentication details. 
-
-Kommerce Hub will need to provide you with a username and password.
-  
-You will also need the domain specific to your account from Kommerce Hub.
-
-These can all be provided with direct written contact with them.
+You can obtain these values through direct written contact with Kommerce Hub.
 
 </section>
 <section class="card">
@@ -35,11 +29,11 @@ To set up the Kommerce Hub connector in Cyclr, go to your Cyclr console:
 
 4. Enter the below values:
 
-   | **Value**          | **Description**                             |
-   | :----------------- | :------------------------------------------ |
-   | **Username**       | Username provided by Kommerce Hub           |
-   | **Password**       | Password provided by Kommerce Hub           |
-   | **Domain**         | Domain URL required for your application    |
+ | **Value**          | **Description**                             |
+ | :----------------- | :------------------------------------------ |
+ | **Username**       | The username provided by Kommerce Hub.      |
+ | **Password**       | The password provided by Kommerce Hub.      |
+ | **Domain**         | Domain URL required for your application    |
 
 5. Select **Save Changes**.
 
