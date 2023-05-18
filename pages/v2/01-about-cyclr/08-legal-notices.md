@@ -13,16 +13,22 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
+## Links
+
 ### Terms and Conditions
-Cyclr's [Terms and Conditions](https://cyclr.com/terms-and-conditions)
+See Cyclr's [Terms and Conditions](https://cyclr.com/terms-and-conditions).
 
 ### The Cyclr Application Stack
-The Cyclr [Application Stack](https://cyclr.com/cyclr/application-stack)
+See the Cyclr [Application Stack](https://cyclr.com/cyclr/application-stack).
 
-### Third Party Notices
+</section>
+<section class="card">
+
+## Third Party Notices
 The software provided by the Cyclr service may contain software available under open source or free software licenses ("Open Source Software") and/or commercial software licensed to Cyclr by parties ("Commercial Software").  The Cyclr Terms of Use do not alter any rights or obligations you may have under those Open Source Software licenses.  Additional information about Open Source and Commercial Software, including required acknowledgements, license terms and notices, can be found below.  
 
-| Third Party Package | License URL |
+| **Third Party Package** | **License URL** |
 | --- | --- |
 | Antlr | [http://www.antlr3.org/license.html](http://www.antlr3.org/license.html) |
 | Autofac | [https://licenses.nuget.org/MIT](https://licenses.nuget.org/MIT) |

@@ -13,22 +13,27 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Supported browsers
 
-Cyclr’s workflow builder is very powerful and as such we do suggest that you run the latest versions of our supported browsers:
+Cyclr’s integration builder is powerful and so for best results, we recommend that you run the latest versions of our supported browsers:
 
 *   Chrome
 *   Firefox
 *   Safari
 *   Edge
 
-In addition, your browser should allow JavaScript and cookies in order to use Cyclr.
-
+In addition, to use Cyclr, your browser needs to allow JavaScript and cookies.
 
 </section>
 <section class="card">
+
 ## Supported operating systems
 
-Cyclr is tested against all recent versions of Windows, Mac OSX, and Linux.
+We test Cyclr against all recent versions of the following operating systems:
+
+*  Windows
+*  Mac OSX
+*  Linux
 
 </section>
