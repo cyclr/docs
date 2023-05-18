@@ -55,7 +55,7 @@ Tokens expire after 14 days, so remember to generate a new one when necessary.
 ### Request
 Once you have a **Client ID** and **Client Secret**, you can call the Cyclr API OAuth token endpoint to generate an access token.
 
-```html
+```
 POST https://{YourCyclrDomain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
@@ -74,7 +74,7 @@ These parameters are in the request body:
 
 ### Example Response
 
-```json
+```js
 {
     "token_type": "bearer",
     "access_token": "************",
