@@ -13,72 +13,57 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-Integration Templates available in the LAUNCH flow are designed using the Cyclr drag-and-drop builder.
+Any integration templates built using the Cyclr template builder are available in the LAUNCH flow.
 
 </section>
 <section class="card">
 
-## Integration Name
+## Display your integrations
 
-The name given to an Integration Template is presented to your end user on the integration selection screen during the LAUNCH flow.
-
-</section>
-<section class="card">
-
-Consider keeping integration template names concise, descriptive, and unique such that it is clear to your end user which selection is the most appropriate for their use case.
-
-## Integration Description
-
-The Integration Description will be presented to your end users in future releases of the LAUNCH flow.
-
-Use a description that helps your end user understand what the impact of installing this integration will be.
-
-</section>
-<section class="card">
-
-## Integration publishing status
-
-The “_Integration Published_” toggle controls whether or not the integration is available for selection by our end user during the LAUNCH flow.
-
+To make an integration available for your users in the LAUNCH flow, you need to select the **Integration Published** toggle within the template settings.
   
 ![Integration Published](./images/integration_published.png)
-
   
-Before publishing an Integration for inclusion in the LAUNCH flow, consider tagging the integration appropriately so that it appears to your end users within the right context.
+To ensure that LAUNCH displays your integration to your users with the right context, you can add a relevant [tag](#tag-templates) to the integration before you publish it.
+
+### Integration name
+
+The name that you give to an integration template is the name that you present to your user through the LAUNCH flow. To help your user make the most appropriate selection, keep your integration template names concise, descriptive, and unique.
 
 </section>
 <section class="card">
 
-## Step setup
 
-Various values entered in the step setup modal within the Integration Builder are presented to your end users during the LAUNCH flow.
+### Integration description
 
-![LAUNCH Step Setup](./images/step_setup.png)
+The description that you give to an integration template is the description that you present to your user through the LAUNCH flow.
 
-|Step element|Launch flow element|Usage|
-|---|---|---|
-|Step name|Title on Field mapping screen|The title could be used as a high level instruction to your end user.<br><br>For example:<br>“Select the spreadsheet you wish to export data to”|
-|Step description|Description on Field mapping screen|The description should extend the title.<br><br>For example:<br>“Data will be exported to the spreadsheet you select below. The data will be appended to any existing data that spreadsheet contains.”|
-|User Configurable|n/a|Controls whether or not the field is presented to your end user during the field mapping screen for this step.<br><br><li>Where a value is selected, that will be presented to your end user as the default value or mapping. Your end user will be able to amend as required.</li><li>Where *no* value is selected, your user will be responsible for specifying a value or mapping before they can proceed.</li><li>When this is set to **Off**, the value or mapping specified in the template will be used - your end user will not be able to amend.</li>|
+To help your users understand their integration options, you can add a clear description.
 
-</section>
-<section class="card">
+### User configurable fields
 
-## Cycle-level Parameters
+You can use the **User Configurable** toggle to control whether or not you present the field to your end user during the field mapping screen for a step.
 
-If the same request parameters is required in a number of steps within your template, Cycle-level Parameters can be used as a way to ensure your end user is only asked to specify the value once during the LAUNCH flow.
+<img src="./images/step_setup.png" alt="{LAUNCH User Configurable toggle" width="20%">
 
-Make sure any Cycle-level parameters that your user should specify are marked as “_User Configurable_” before publishing your template.
+If you select a value, that value is presented to your end user as the default value or mapping. Your user can change the value if they need to. If you don’t select a value at all, your user is responsible for specifying a value or mapping before they can proceed. If you don’t enable the **User Configurable** toggle, the mapping specified in the template is used and your user can’t change it.
+
+
 
 </section>
 <section class="card">
 
-## Template tagging
+## Cycle-level parameters
 
-Within the context of the LAUNCH flow, template tags help display to your end users only integration templates that are relevant to intent of context within your app.
+If you need the same request parameters in multiple steps for one template, you can use cycle level parameters to ensure that your user only needs to specify the value once during the LAUNCH flow.
 
-For example, tagging could be based on the type of application that is integrated to (e.g. CRM, email marketing, accounting, etc…), or a specific brand of application (e.g. Salesforce, Oracle, Facebook, etc…).
+> **Note**: Make sure to enable the **User Configurable** toggle for any cycle level parameters you want to use before you publish your template.
 
-[Deploying LAUNCH in your App](./launch-deployment)
+</section>
+<section class="card">
+
+## Tag templates
+
+You can use tags on templates to filter integration templates so that your users are only provided integrations that are relevant to them. For example, you can tag integrations according to the type of application they connect with, such as email marketing or accounting, or a specific application such as Salesforce or Facebook.
 
 </section>

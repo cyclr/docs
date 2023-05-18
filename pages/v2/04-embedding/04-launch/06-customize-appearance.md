@@ -12,54 +12,33 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-To view an instance of LAUNCH from within the Cyclr Console:
 
-Click **Guide** > Click the **Show** button under Integrate with your App > Click the **Try LAUNCH** button for an instance to appear as a pop up with any integration templates you’ve published.
+To preview an instance of LAUNCH in the Cyclr console, go to **Embedding** > **LAUNCH** and select the **Try LAUNCH** button.
 
-As standard, the layout and color scheme are pretty bland, however you can reskin your version of LAUNCH using CSS and HTML.
 
-In the Console, click **Settings** and then **Appearance Settings**.
-
-This screen will present you with several areas where you can paste code.
+This shows a pop up with any published integration templates that you have.
 
 </section>
 <section class="card">
 
-## Available CSS Classes
+## Customize LAUNCH
 
-To restyle the LAUNCH layout add CSS to “**Application Custom CSS**”
+You can customize the appearance of your LAUNCH flow with CSS and HTML styling.
 
-Here are some of the available elements within LAUNCH you may want to customise.
+To edit the appearance of LAUNCH in the console, go to **Settings** > **Appearance Settings**. 
 
-<table>
-    <tr>
-        <th>Element</th>
-        <th>CSS Class</th>
-        <th>Explanation</th>
-    </tr>
-    <tr>
-        <td>Create/Active Button</td>
-        <td>.btn-success</td>
-        <td>This button is used by the user to select an integration template to setup and activate.</td>
-    </tr>
-    <tr>
-        <td>LAUNCH Background</td>
-        <td>body.launch</td>
-        <td>Using this allows you to edit the background and color settings of your instance of LAUNCH.</td>
-    </tr>
-    <tr>
-        <td>Application Icons</td>
-        <td>.icon-sm</td>
-        <td>Allows you to alter how the application logos are displayed.</td>
-    </tr>
-    <tr>
-        <td>Integration Template Description</td>
-        <td>.template-description</td>
-        <td>Update the font format for integration descriptions.</td>
-    </tr>
-</table>
+Application Custom CSS
 
-**Example**
+To restyle your LAUNCH layout, you can add CSS to the **Application Custom CSS **field. You can use the following elements and classes to customize appearance:
+
+| **Element** | **CSS Class** | **Explanation** |
+|---|---|---|
+| Create/Active Button | `.btn-success` | The button that the user uses to select an integration template. |
+| LAUNCH Background | `body.launch` | The background and color settings of your instance of LAUNCH. |
+| Application Icons | `.icon-sm` | The way in which LAUNCH displays application logos. |
+| Integration Template Description | `.template-description` | The font format for integration descriptions. |
+
+### Example styling
 
 ```css
     .btn-success {
@@ -77,15 +56,13 @@ Here are some of the available elements within LAUNCH you may want to customise.
 </section>
 <section class="card">
 
-## Adding a Custom Header and Footer to LAUNCH
+## Header HTML and Footer HTML
 
-You can further customise your LAUNCH instance by creating your own custom header and footer using HTML.
+You can also use HTML to create your own custom header and footer for your version of LAUNCH.
 
-There are separate blocks in the Appearance Settings page for both Header and Footer.
+On the **Appearance Settings** page, there are fields for both the **Header** and the **Footer**. You can use both of these fields to add custom messages or images that you want to display for your users.
 
-Use both of these sections to add any custom messages or images you need to display to your users.
-
-**Example**
+### Example header
 
 ```html
 <div class="header"> 
@@ -97,7 +74,7 @@ Use both of these sections to add any custom messages or images you need to disp
 </div>
 ```
 
-By wrapping your message in a custom Div you can add stylings to the “**Application Custom CSS**” code block to further customise your message. In this case, this was added:
+If you want to add specific styling to a message, you can wrap the message in a custom `div`. This means you can add the styling to the **Application Custom CSS** field, like below:
 
 ```css
     .header {
@@ -110,8 +87,8 @@ By wrapping your message in a custom Div you can add stylings to the “**Applic
 
 ## LAUNCH Complete HTML
 
-This section allows you to display a message to your user once they have successfully installed an integration template.
+You can use the **LAUNCH Complete HTML** field to customize the window that the user sees once they successfully install an integration through LAUNCH. You can add the HTML to this field, and add any CSS definitions into the **Application Custom CSS** field.
 
-Design your message and HTML and paste it in this box (in “**Appearance Settings**”), making sure you add any CSS definitions in the **Application Custom CSS** code block.
+For more information on how to edit the LAUNCH Complete page, see the documentation on how to [handle LAUNCH callback](handling-callback).
 
 </section>

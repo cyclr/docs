@@ -12,20 +12,29 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## Overview
 
-When integrating with LAUNCH you can decide whether all users access it using the same built-in Account-level "API User" (**Account LAUNCH** - this is the typical approach), or create separate users for each in the Cyclr Account (**User LAUNCH**).
+When you provide your integrations with LAUNCH, there are two ways you can give access to your users:
 
+* An **Account LAUNCH** has a built-in API account that all users use to access the Marketplace. 
+* A **User LAUNCH** needs you to create separate user profiles for each user in your Cyclr account.
 
-To enable your users to add an integration, present a "Connect" button or link within your application's interface.
+To allow your users to access LAUNCH, you need to provide your users with a link or button within your application that directs your user to the [LAUNCH URL](#deploy-launch-request).
 
 </section>
 <section class="card">
-## Account LAUNCH
 
-When a user clicks the **Connect** button, your application server should make a Request towards the Cyclr REST API's `/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch` endpoint to obtain a **LAUNCH URL**.  The user can then be directed to this URL in their web browser.
+## Deploy LAUNCH request
 
-### Request
+You need to set up the link that you provide so that your application makes a request to the Cyclr REST API [`/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch`](https://api.cyclr.uk/docs/index#!/Accounts/Accounts_Launch_POST) endpoint in order to obtain a LAUNCH URL. This directs your user to that URL when they select the link to your integrations.
+
+When you obtain a [Cyclr API Access Token](https://docs.cyclr.com/cyclr-api-authentication) for this call, don't use an Account Restricted Token.
+
+### Example request
+
+Replace `{yourCyclrInstance}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to the location of your Cyclr console, or your own domain if your Cyclr instance is self-hosted.
+
 ```
 curl -X POST
 -H "Authorization: Bearer ACCESS_TOKEN"
@@ -40,134 +49,146 @@ curl -X POST
         "AuthValue": "XXXXXXXXXX",
         "Properties": [{"Name": "Url", "Value": "http://customDomain.appName.com"}]
     }
-}' "https://yourCyclrInstance/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
+}' "https://{yourCyclrInstance}/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
 ```
+### Request parameters
 
-In the example above, replace *yourCyclrInstance* with your [**API Domain** according to where your Cyclr Console is located](./testing-cyclr-api), or your own domain if your Cyclr instance is self-hosted.
+<div class="tg-wrap"><table>
+<colgroup>
+       <col span="1" style="width: 35%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 50%;">
+    </colgroup>
+<thead>
+  <tr>
+    <th><strong>Request Parameter</strong></th>
+    <th><strong>Type</strong></th>
+    <th><strong>Description</strong></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="4"><strong>Account</strong></td>
+  </tr>
+  <tr>
+    <td><code>AccountName</code></td>
+    <td>string, optional.</td>
+    <td>If the <code>CYCLR_ACCOUNT_API_ID</code> value in the request's URL doesn't match an existing Cyclr Account, Cyclr creates a new Account with this name. If you don’t provide an account name, Cyclr uses the <code>CYCLR_ACCOUNT_API_ID</code> value as the new Account's name.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>AccountDescription</code></td>
+    <td>string, optional.</td>
+    <td>If the <code>CYCLR_ACCOUNT_API_ID</code> value from the request URL doesn't match an existing Cyclr account, Cyclr creates a new account with this description.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="4"><strong>Launched Cycle Options</strong><br>Optional parameters to control the initial behavior of the launched Cycle.</td>
+  </tr>
+  <tr>
+    <td><code>Start</code></td>
+    <td>boolean</td>
+    <td>Defaults to <code>true</code>. Set the parameter to <code>false</code> if you don't want to start the installed integration.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>RunOnce</code></td>
+    <td>boolean</td>
+    <td>Defaults to <code>false</code>. Set the parameter to <code>true</code> if you want the installed integration to only run once.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="4"><strong>Connector Authentications</strong><br>Optional parameter to install pre-authenticated "partner connectors" into the Account.</td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications]</code></td>
+    <td></td>
+    <td>Provide your own platform's Cyclr Connector objects so that your users don’t need to authenticate against your platform during the LAUNCH flow.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications].Name</code></td>
+    <td>string</td>
+    <td>Name this instance of your connector in the account to help identify it.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications].Version</code></td>
+    <td>string</td>
+    <td>Specify the version of the connector you want the user to install.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications].AuthenticationId</code></td>
+    <td>string</td>
+    <td>Provide the ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value is optional.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications].AuthValue</code></td>
+    <td>string, optional.</td>
+    <td>(Optional) Provide the authentication value for your platform connector. If your platform requires a username and password, provide a base64 encoded version of <code>username:password</code>. You can also provide OAuth tokens and API keys as plain text.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>[ConnectorAuthentications].[Properties]</code></td>
+    <td>array</td>
+    <td>Provide an array of any properties that the partner connector requires for successful installation. Note: Not all connectors require this array.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="4"><strong>LAUNCH Options</strong></td>
+  </tr>
+  <tr>
+    <td><code>Tags</code></td>
+    <td>array</td>
+    <td>Provide an array of tags to identify the integration. Am integration needs at least one tag to appear through LAUNCH.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>InlineOAuth</code></td>
+    <td>boolean</td>
+    <td>This parameter defaults to <code>false</code> except for partners that existed before Aug 2022, where the default is <code>true</code>. Set the parameter to <code>false</code> if you run LAUNCH in an HTML iframe and want to open OAuth redirect pages in a popup.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>AutoInstall</code></td>
+    <td>boolean</td>
+    <td>This parameter defaults to <code>true</code>, so Cyclr automatically starts installing a template if only one is returned. This means that your user doesn’t need to select it if it’s the only option.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>SingleInstall</code></td>
+    <td>boolean</td>
+    <td>This parameter defaults to <code>false</code> so that LAUNCH shows the user all templates, even if they are already installed. Set the parameter to <code>true</code> to only show templates that the user hasn’t installed before.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>CompleteParameter</code></td>
+    <td>string</td>
+    <td>Provide a value to pass through to the final page of the LAUNCH flow.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>Wizard</code></td>
+    <td>boolean</td>
+    <td>This parameter defaults to <code>false</code>. Set to <code>true</code> to display mappings to the user as a step-by-step wizard, or <code>false</code> to show them all at once as a single form.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>DisplayDescriptions</code></td>
+    <td>boolean</td>
+    <td>This parameter defaults to <code>false</code>. Set the parameter to <code>true</code> to display template descriptions to the user on the cycle selection screen.</td>
+    <td></td>
+  </tr>
+</tbody>
+</table></div>
 
-When [obtaining a Cyclr API Access Token](./cyclr-api-authentication) for this call, you should *not* use an Account Restricted Token.
+</section>
+<section class="card">
 
-<table>
-    <thead>
-        <tr>
-            <th>Request Parameter</th>
-            <th>Description</th>
-            <th>Example</th>
-        </tr>
-        <tr>
-            <th colspan="3">Account</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>AccountName</td>
-        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr Account, a new Account will be created using this name.  If no AccountName is provided, the CYCLR_ACCOUNT_API_ID value will be used as the new Account's name.</td>
-        <td>New Cyclr Account Name</td>
-    </tr>
-    <tr>
-        <td>AccountDescription</td>
-        <td>(Optional) If the <strong>CYCLR_ACCOUNT_API_ID</strong> value provided in the Request's URL doesn't match an existing Cyclr account, this creates a new account with this description.</td>
-        <td>This is a LAUNCH created account</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">Launched Cycle Options<br/>
-            <small>Optional parameters to control the initial behaviour of the launched Cycle</small></th>
-        </tr>
-    </thead>
-    <tr>
-        <td>Start</td>
-        <td>Defaults to true. Set to false if you don't want the launched Cycle to be started.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>RunOnce</td>
-        <td>Defaults to false. Set it to true if the Cycle being installed should only run once, then stop.</td>
-        <td>true</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">Connector Authentications<br/>
-            <small>Optional parameter to install pre-authenticated "partner connectors" into the Account.</small></th>
-        </tr>
-    </thead>
-    <tr>
-        <td>[ConnectorAuthentications]</td>
-        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].Name</td>
-        <td>The name to give this instance of your Connector in the Account.</td>
-        <td>Connector Name</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].Version</td>
-        <td>The version of the partner connector to be installed.</td>
-        <td>1.0</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].AuthenticationId</td>
-        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
-        <td>0000000-0000-0000-0000-000000000000</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].AuthValue</td>
-        <td>(Optional) Authentication value for your platform connector.
-        If your platform requires a username and password, provide a base64 encoded version of "username:password".  
-        Provide API keys as plain text.
-        An OAuth token may also be provided here.</td>
-        <td>dXNlcm5hbWU6cGFzc3dvcmQ=<br />
-or<br />
-NJ88GGgv79V79VvYFBBTHUIGu</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].[Properties]</td>
-        <td>An array of properties required by the partner connector for successful installation. Required by some Connectors.</td>
-        <td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">LAUNCH Options</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>Tags</td>
-        <td>An array of Tags that a Cycle must have at least one of to appear through LAUNCH.</td>
-        <td>["CRM", "Email"]</td>
-    </tr>
-    <tr>
-        <td>InlineOAuth</td>
-        <td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an HTML iframe and want OAuth redirect pages to be opened in a popup.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>AutoInstall</td>
-        <td>Defaults to true so that Cyclr will automatically start installation of a Template if only one is returned, avoiding the need for the user to select it. Set this to false to prevent that, requiring the user to select it instead.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>SingleInstall</td>
-        <td>Defaults to false so that Templates are shown whether they have been installed or not. Set to true to only show Templates that haven't already been installed in the Account.</td>
-        <td>true</td>
-    </tr>
-    <tr>
-        <td>CompleteParameter</td>
-        <td>A value to pass through to the final page of the LAUNCH flow.</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Wizard</td>
-        <td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
-        <td>true</td>
-    </tr>
-    <tr>
-        <td>DisplayDescriptions</td>
-        <td>Defaults to false. Whether template descriptions should be displayed to the user on the cycle selection screen.</td>
-        <td>true</td>
-    </tr>
-</table>
-
-### Response
+## Deploy LAUNCH response
 
 ```json
 {
@@ -177,54 +198,76 @@ NJ88GGgv79V79VvYFBBTHUIGu</td>
     "Token": "lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ="
 }
 ```
+### Response parameters
 
-<table>
-    <thead>
-        <tr>
-            <th>Response Field</th>
-            <th>Description</th>
-            <th>Example Value</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>AccountId</td>
-        <td>The ID of the newly created account, or the existing account you provided in your Request.</td>
-        <td>CustomerXYZ</td>
-    </tr>
-    <tr>
-        <td>ExpiresAtUtc</td>
-        <td>When the Token and LAUNCH URL will expire.</td>
-        <td>2020-01-01T12:30:00.000Z</td>
-    </tr>
-    <tr>
-        <td>LaunchUrl</td>
-        <td>The URL that your user should be sent to, typically opened in a popup browser window.  
-            Once generated by Cyclr, this URL will only be valid for 5 minutes and will expire when first accessed.  You should therefore direct your user to it immediately after receiving it.</td>
-        <td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch</td>
-    </tr>
-    <tr>
-        <td>Token</td>
-        <td>LAUNCH URL token.</td>
-        <td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
-    </tr>
+<table class="col2-75">
+<thead>
+  <tr>
+    <th><strong>Response Field</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>AccountId</code></td>
+    <td>The ID of account you provided in your request, or the ID of the new account if you didn’t provide one.</td>
+  </tr>
+  <tr>
+    <td><code>ExpiresAtUtc</code></td>
+    <td>The date and time that the token and LAUNCH URL expires.</td>
+  </tr>
+  <tr>
+    <td><code>LaunchUrl</code></td>
+    <td>The URL that you can send your user to, typically in a popup browser window. When Cyclr generates the URL, it’s only valid for 5 minutes and expires after it’s first accessed. You can therefore direct your user to the URL immediately after you recieve it.</td>
+  </tr>
+</tbody>
 </table>
 
-> After deploying LAUNCH you will see an "API User" in your Cyclr console.
-> The "API User" has access to the Account, however they cannot signin to the Cyclr interface.
 
-[How to Handle Callbacks](./handling-callback)
-
+When you deploy LAUNCH, your console displays an API User. The user has access to the account, but can’t sign in to the console themselves.
 
 </section>
 <section class="card">
-## User LAUNCH
 
-When a user clicks the **Connect** button, your application server should make a request towards the Cyclr REST API's _/v1.0/users/launch_ endpoint:
+## Deploy user LAUNCH
 
-> A new user will be created if the don't already exist.
+To deploy a user LAUNCH, you can make the same request to the Cyclr REST API’s [`/v1.0/users/launch`](https://api.cyclr.uk/docs/index#!/Users/Users_CreateUserLaunchToken_POST) endpoint. To create the account, you need to pass two extra parameters in the request:
 
-### Request
-```
+<div class="tg-wrap"><table>
+<colgroup>
+       <col span="1" style="width: 35%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 50%;">
+    </colgroup>
+<thead>
+  <tr>
+    <th><strong>Request Parameter</strong></th>
+    <th><strong>Type</strong></th>
+    <th><strong>Description</strong></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>AccountId</code></td>
+    <td>string</td>
+    <td>Identify the Account to use.</td>
+  </tr>
+  <tr>
+    <td><code>Username</code></td>
+    <td>string</td>
+    <td>Identify the user’s account.</td>
+  </tr>
+  <tr>
+    <td><code>Password</code></td>
+    <td>string</td>
+    <td>Authenticate the user’s account.</td>
+  </tr>
+</tbody>
+</table></div>
+
+### Example request
+```h
 curl -X POST
 -H "Authorization: Bearer ${ACCESS_TOKEN}"
 -H "Content-Type: application/json"
@@ -242,191 +285,5 @@ curl -X POST
     }
 }' "https://yourCyclrInstance/v1.0/users/launch"
 ```
-
-Replace *yourCyclrInstance* with *api.cyclr.com*, *api.cyclr.uk*, or your own domain if your Cyclr instance is self-hosted.
-
-You should use a non-account restricted OAuth token as the Authorization for this request.
-
-<table>
-    <thead>
-        <tr>
-            <th>Request parameters</th>
-            <th>Description</th>
-            <th>Example</th>
-        </tr>
-        <tr>
-            <th colspan="3">Account</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>AccountId</td>
-        <td>ID of the account.</td>
-        <td>0000000-0000-0000-0000-000000000000</td>
-    </tr>
-    <tr>
-        <td>Username</td>
-        <td>Username of the user the LAUNCH is for.</td>
-        <td>example</td>
-    </tr>
-    <tr>
-        <td>Password</td>
-        <td>The users password.</td>
-        <td>P4$$w0rd</td>
-    </tr>
-    <tr>
-        <td>AccountName</td>
-        <td>(Optional) If the account doesn't exist, this creates one. You can include a name for the account, otherwise it uses the ID as the name.</td>
-        <td>New Cyclr Account Name</td>
-    </tr>
-    <tr>
-        <td>AccountDescription</td>
-        <td>(Optional) If the account doesn't exist, this request creates a new account and you can include a description.</td>
-        <td>This is a LAUNCH created account</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">Launched Cycle Options<br/>
-            <small>Optional parameters to control the initial behaviour of the launched cycle</small></th>
-        </tr>
-    </thead>
-    <tr>
-        <td>Start</td>
-        <td>Defaults to true. Set to false if you don't want the launched cycle to be started.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>RunOnce</td>
-        <td>Defaults to false. Set it to true if the cycle being installed should only run once, then pause.</td>
-        <td>true</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">Connector Authentications<br/>
-            <small>Optional parameter to install pre-authenticated "partner connectors" into the Account.</small></th>
-        </tr>
-    </thead>
-    <tr>
-        <td>[ConnectorAuthentications]</td>
-        <td>Providing your own platform's Cyclr Connector objects here means your users will not be expected to authenticate against your platform during the LAUNCH flow.
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].Name</td>
-        <td>The name to give this instance of your Connector in the Account.</td>
-        <td>Connector Name</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].Version</td>
-        <td>The version of the partner connector to be installed.</td>
-        <td>1.0</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].AuthenticationId</td>
-        <td>The ID of the authentication method you want this instance of your Connector to use. If the Connector only supports one form of authentication, this value becomes optional.</td>
-        <td>0000000-0000-0000-0000-000000000000</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].AuthValue</td>
-        <td>(Optional) Authentication value for your platform connector.
-        If your platform requires a username and password, provide a base64 encoded version of "username:password".  
-        Provide API keys as plain text.
-        An OAuth token may also be provided here.</td>
-        <td>dXNlcm5hbWU6cGFzc3dvcmQ=<br />
-or<br />
-NJ88GGgv79V79VvYFBBTHUIGu</td>
-    </tr>
-    <tr>
-        <td>[ConnectorAuthentications].[Properties]</td>
-        <td>An array of properties required by the partner connector for successful installation. This is not relevant to all connectors.</td>
-        <td>[ {"Name": "Url", "Value": "http://customDomain.appName.com"} ]</td>
-    </tr>
-    <thead>
-        <tr>
-            <th colspan="3">LAUNCH Display Options<br/>
-            <small>Optional parameters to filter the displayed templates shown in LAUNCH</small></th>
-        </tr>
-    </thead>
-    <tr>
-        <td>Tags</td>
-        <td>An array of tags that a cycle must have at least one of to appear in LAUNCH.</td>
-        <td>["CRM", "Email"]</td>
-    </tr>
-    <tr>
-        <td>InlineOAuth</td>
-        <td>Defaults to false except for partners that existed before Aug 2022 where default is true. Set it to false if you are running LAUNCH in an iFrame and want OAuth redirect pages to be opened in a popup.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>AutoInstall</td>
-        <td>Defaults to true so that Cyclr will automatically start installation of a template if only one is returned, avoiding the need for the user to select it. Set this to false to prevent that, requiring the user to select it instead.</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>SingleInstall</td>
-        <td>Defaults to false so that templates are shown whether they have been installed or not. Set to true to only show templates that aren't installed in the account.</td>
-        <td>true</td>
-    </tr>
-    <tr>
-        <td>CompleteParameter</td>
-        <td>A value to pass through to the final page of the LAUNCH flow.</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Wizard</td>
-        <td>Defaults to false.  Whether Cyclr displays mappings to the user as a step-by-step wizard (true), or all at once as a single form (false).</td>
-        <td>true</td>
-    </tr>
-    <tr>
-        <td>DisplayDescriptions</td>
-        <td>Defaults to false.  Whether Cyclr displays template descriptions to the user.</td>
-        <td>true</td>
-    </tr>
-</table>
-
-### Response
-
-```json
-{
-    "AccountId": "0000000-0000-0000-0000-000000000000",
-    "ExpiresAtUtc": "2020-01-01T12:30:00.000Z",
-    "LaunchUrl": "https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch",
-    "Token": "lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ="
-}
-```
-
-<table>
-    <thead>
-        <tr>
-            <th>Response fields</th>
-            <th>Description</th>
-            <th>Example</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>AccountId</td>
-        <td>The ID of the newly created account or the existing account you provided in your request.</td>
-        <td>0000000-0000-0000-0000-000000000000</td>
-    </tr>
-    <tr>
-        <td>ExpiresAtUtc</td>
-        <td>Token expiry timestamp.</td>
-        <td>2020-01-01T12:30:00.000Z</td>
-    </tr>
-    <tr>
-        <td>LaunchUrl</td>
-        <td>The URL that your user should be sent to, typically opened in a popup browser window.  
-  
-Once generated by Cyclr, this URL will only be valid for 5 minutes and will expire when first accessed.  You should therefore direct your user to it immediately after receiving it.</td>
-        <td style="word-break: break-all">https://hostapp.cyclr.com/account/signinwithtoken?token=lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ%3D&returnUrl=%2Flaunch</td>
-    </tr>
-    <tr>
-        <td>Token</td>
-        <td>LAUNCH URL token.</td>
-        <td style="word-break: break-all">lld3UjpZKkuh0I7ObHR0EtxRsPo0No1GqNSyAi8pqXQ=</td>
-    </tr>
-</table>
-
-[How to Handle Callbacks](./handling-callback)
 
 </section>
