@@ -66,8 +66,8 @@ grant_type=client_credentials&client_id={client_idi}&client_secret={client_secre
 
 These parameters are in the request body:
 
-| Parameter | Description | Example |
-| --- | --- | --- |
+| Parameter | Description |
+| --- | --- |
 | grant_type | Use `client_credentials` to identify the OAuth flow. |
 | client_id | Enter the **Client ID** to identify which Cyclr Partner the token is for. |
 | client_secret | Enter the matching **Client Secret** for the Cyclr Partner. |

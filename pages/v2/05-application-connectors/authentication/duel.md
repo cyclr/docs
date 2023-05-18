@@ -1,7 +1,7 @@
 ---
 title: Duel Authentication
 sidebar: cyclr_sidebar
-permalink: duel-authentication
+permalink: duel-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
