@@ -17,6 +17,6 @@ LAUNCH is a predefined integration installation flow that you can present as a p
 
 This means that you can present your connectors to your users with reduced burden on your interface developers. 
 
-For a visual summary of how to set up LAUNCH, you can go to **Embedding **> **LAUNCH** in your Cyclr console.
+For a visual summary of how to set up LAUNCH, you can go to **Embedding** > **LAUNCH** in your Cyclr console.
 
 </section>

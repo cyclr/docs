@@ -31,7 +31,7 @@ You can present your users with the option to install an integration. This can b
 
 When your user selects the link, LAUNCH opens a browser popup which displays a list of valid integrations that they can install.
 
-![Select Integration](./images/select-integration.png)
+<img src="./images/select-integration.png" alt="{Select Integration screen" width="60%">
 
 If there is only one integration template that applies to the user, the user bypasses this screen.
 
@@ -54,10 +54,10 @@ If the user has already authenticated a connector when they installed another in
 LAUNCH presents the user with a screen to allow them to set up each step in the integration template that needs the user to select parameters.
 
 * Your user might need to select from a list of values from an authenticated connector in the integration template. For example, they might have to select a **Mailing List **from their email marketing platform.
-* Your user might need to select a value from a predetermined list of valid values. For example, an email contact status: **Subscribed **or **Unsubscribed**.
+* Your user might need to select a value from a predetermined list of valid values. For example, an email contact status: **Subscribed** or **Unsubscribed**.
 * Your user might need to provide text values for complete flexibility. For example, this could be the source of an email lead.
-  
-![Field Mapping](./images/launch-field-mapping.png)
+
+<img src="./images/launch-field-mapping.png" alt="{Field mapping." width="60%"> 
 
 </section>
 <section class="card">
@@ -65,8 +65,8 @@ LAUNCH presents the user with a screen to allow them to set up each step in the 
 ## Return to host app
 
 When the user completes the setup of their integration, LAUNCH presents the user with a screen that you can customize:
-  
-![Completed Integration Installation](./images/completed-installation.png)
+
+<img src="./images/completed-installation.png" alt="{Completed integration installation." width="60%">
 
 To customize this screen, you can include your own HTML and JavaScript. For more information, see the page on how to [Customize LAUNCH](customising-launch). You usually then return your user to your application.
 

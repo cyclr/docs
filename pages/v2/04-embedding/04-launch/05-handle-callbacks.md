@@ -48,44 +48,49 @@ If you use a popup window, you can display a message with a close button. When y
 A JavaScript result object is available to the window on the final page of the Marketplace flow. You can use the result object for more processes, such as to update newly installed cycles to complete their setup.
 
 
-<table class="col2-75">
+<div class="tg-wrap"><table>
+<colgroup>
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 60%;">
+    </colgroup>
 <thead>
   <tr>
-    <th><strong>Property</strong></th>
+    <th colspan="2"><strong>Property</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td><code>accountId</code></td>
+    <td colspan="2"><code>accountId</code></td>
     <td>The ID of your end user’s account</td>
   </tr>
   <tr>
-    <td><code>accountApiId</code></td>
+    <td colspan="2"><code>accountApiId</code></td>
     <td>The API ID of your end user’s account</td>
   </tr>
   <tr>
-    <td><code>cycleId</code></td>
+    <td colspan="2"><code>cycleId</code></td>
     <td>The ID of the newly installed integration within your end user’s account</td>
   </tr>
   <tr>
-    <td><code>status</code></td>
+    <td colspan="2"><code>status</code></td>
     <td>A string indicating the status of the newly installed integration. By design, will always be Active, unless an issue arose during installation, in which case it will be stopped.</td>
   </tr>
   <tr>
-    <td><code>userId</code></td>
+    <td colspan="2"><code>userId</code></td>
     <td>The ID of your end user</td>
   </tr>
   <tr>
-    <td><code>webhooks</code></td>
+    <td colspan="2"><code>webhooks</code></td>
     <td>An array of URLs representing the endpoints of the webhooks included within the newly installed integration template. This is important where your application needs to send data to Cyclr to trigger the newly installed integration template. Where the newly installed integration template makes use of more than one webhook, the order of the URLs in this array matches the order of the webhook steps in the template.</td>
   </tr>
   <tr>
-    <td><code>errors</code></td>
+    <td colspan="2"><code>errors</code></td>
     <td>An array of error messages when Cyclr activates the newly installed integration template.</td>
   </tr>
   <tr>
-    <td><code>completeParameter</code></td>
+    <td colspan="2"><code>completeParameter</code></td>
     <td>The value of the CompleteParameter provided in the LAUNCH API call.</td>
   </tr>
     <tr>
@@ -111,6 +116,7 @@ A JavaScript result object is available to the window on the final page of the M
   </tr>
 </tbody>
 </table>
+</div>
 
 </section>
 <section class="card">

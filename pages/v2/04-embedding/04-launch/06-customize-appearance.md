@@ -25,7 +25,7 @@ This shows a pop up with any published integration templates that you have.
 
 You can customize the appearance of your LAUNCH flow with CSS and HTML styling.
 
-To edit the appearance of LAUNCH in the console, go to **Settings **> **Appearance Settings**. 
+To edit the appearance of LAUNCH in the console, go to **Settings** > **Appearance Settings**. 
 
 Application Custom CSS
 

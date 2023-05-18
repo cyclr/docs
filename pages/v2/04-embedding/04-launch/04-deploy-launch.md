@@ -33,9 +33,9 @@ When you obtain a [Cyclr API Access Token](https://docs.cyclr.com/cyclr-api-auth
 
 ### Example request
 
-Replace `{{yourCyclrInstance}}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to where your Cyclr Console is located, or your own domain if your Cyclr instance is self-hosted.
+Replace `{yourCyclrInstance}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to the location of your Cyclr console, or your own domain if your Cyclr instance is self-hosted.
 
-```json
+```
 curl -X POST
 -H "Authorization: Bearer ACCESS_TOKEN"
 -H "Content-Type: application/json"
@@ -49,7 +49,7 @@ curl -X POST
         "AuthValue": "XXXXXXXXXX",
         "Properties": [{"Name": "Url", "Value": "http://customDomain.appName.com"}]
     }
-}' "https://yourCyclrInstance/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
+}' "https://{yourCyclrInstance}/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
 ```
 ### Request parameters
 
@@ -267,7 +267,7 @@ To deploy a user LAUNCH, you can make the same request to the Cyclr REST API’s
 </table></div>
 
 ### Example request
-```json
+```h
 curl -X POST
 -H "Authorization: Bearer ${ACCESS_TOKEN}"
 -H "Content-Type: application/json"

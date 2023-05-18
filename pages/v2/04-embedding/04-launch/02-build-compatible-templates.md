@@ -20,7 +20,7 @@ Any integration templates built using the Cyclr template builder are available i
 
 ## Display your integrations
 
-To make an integration available for your users in the LAUNCH flow, you need to select the **Integration Published **toggle within the template settings.
+To make an integration available for your users in the LAUNCH flow, you need to select the **Integration Published** toggle within the template settings.
   
 ![Integration Published](./images/integration_published.png)
   
@@ -44,7 +44,7 @@ To help your users understand their integration options, you can add a clear des
 
 You can use the **User Configurable** toggle to control whether or not you present the field to your end user during the field mapping screen for a step.
 
-![LAUNCH Step Setup](./images/step_setup.png)
+<img src="./images/step_setup.png" alt="{LAUNCH User Configurable toggle" width="20%">
 
 If you select a value, that value is presented to your end user as the default value or mapping. Your user can change the value if they need to. If you don’t select a value at all, your user is responsible for specifying a value or mapping before they can proceed. If you don’t enable the **User Configurable** toggle, the mapping specified in the template is used and your user can’t change it.
 

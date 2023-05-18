@@ -18,6 +18,8 @@ As a prepackaged integration management solution, you can deploy ORBIT in a simi
 
 You can also customize the styling and layout of your ORBIT screen from your Cyclr console. To set your own custom HTML and CSS, go to **Settings** > **Appearance Settings**.
 
+</section>
+<section class="card">
 
 ## Deploy ORBIT
 
@@ -25,7 +27,7 @@ To obtain the ORBIT URL, you can make a call to the [`POST /v1.0/accounts/{id}/o
 
 ### Request to Cyclr API
 
-```json
+```h
 curl -X POST
 -H "Authorization: Bearer ${ACCESS_TOKEN}"
 -H "Content-Type: application/json"
@@ -43,7 +45,7 @@ The request receives a JSON response from the Cyclr API. If you use the `OrbitUr
 
 > **Note**: The `OrbitUrl` is only valid for 5 minutes after you generate it.
 
-```json
+```h
 {
     "AccountId": "0000000-0000-0000-0000-000000000000",
     "ExpiresAtUtc": "2018-01-01T00:00:00+00:00",
@@ -63,6 +65,6 @@ The request receives a JSON response from the Cyclr API. If you use the `OrbitUr
 
 When you generate the ORBIT URL, it's valid for 5-minutes and for a single request only, so you need to pass your user to the URL immediately and one time only.
 
-> Note: After you deploy ORBIT, your console displays an API User. The API User has access to the account, but they can’t sign in to the Cyclr interface.
+> **Note**: After you deploy ORBIT, your console displays an API User. The API User has access to the account, but they can’t sign in to the Cyclr interface.
 
 </section>
