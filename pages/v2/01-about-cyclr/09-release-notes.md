@@ -14,6 +14,17 @@ menus:
 <section class="card">
 ## 2023
 
+### 19th May 2023
+
+* **Accounts**: Allowed sub accounts to view connector method details from their parent account. 
+* **Performance**: Improved the performance of transaction reports.
+* **Accounts**: Ensured that the **Account Concurrent Transaction Limit** provides the default value, and the upper limit on manual updates in the console when you add a new API or web account.
+* **Dashboard**: Added a task allowance measure to the sidebar in the console.
+* **Template builder**: Re-styled how you authenticate a connector in the builder.
+* **Template builder**: Allowed you to configure Cycle steps to use authentication values you obtain externally.
+* **API**: Included non method steps that require setup in **Get Template**, such as `Decision`, `Delay`, and `WaitUntil`. The template install maps these prerequisites to the target account's cycle.
+* **Partners**: Included connector release version definitions on export. Ensured that on import, the application installs connector versions which don't exist on the partner account/instance. Ensured that the imported template method steps' connector versions are identical to the source template.
+
 ### 28th April 2023
 
 * **Console**: Improved paging for installed accounts in the console.
