@@ -4,62 +4,50 @@ sidebar: cyclr_sidebar
 permalink: eposnow-connector
 tags: [connector]
 ---
+{::options parse_block_html="true" /}
+<section class="card">
+  
+## EposNow set up
 
-<a name="eposnow-set-up"></a>
+### Requirements
 
-# EposNow set up
+You need to [create an API Device](https://developer.eposnowhq.com/Setup/APISetup) to
+[get the Epos Key and Epos secret](#getting-the-epos-key-and-epos-secret). You can find EposNow's guide on creating an API Device in the Epos Now console [here](https://developer.eposnowhq.com/Setup/APISetup).
 
-You need the following information to set up the EposNow connector in Cyclr:
-
-- The [Epos Key ID and Epos Secret](#getting-the-client-id-and-client-secret)
-  obtained by [creating an API Device](#create-an-api-device) in Epos Now.
-
-<a name="create-an-api-device"></a>
-
-### Create an API Device
-
-You need to
-[create an API Device](https://developer.eposnowhq.com/Setup/APISetup) to
-[get the Epos Key and Epos secret](#getting-the-epos-key-and-epos-secret). You
-can find EposNow's guide on creating an API Device in the Epos Now console
-[here](https://developer.eposnowhq.com/Setup/APISetup).
-
-**Note**: Each account has a limit on the number of API requests it can make.
-When the number of requests exceeds this limit the API will return
-`API Limit Exceeded` for any request. Check or update your EposNow API limits on
-the API page found in the
-[**Web Integrations**](https://developer.eposnowhq.com/Setup/ApiDevice) menu on
+> **Note**: Each account has a limit on the number of API requests it can make.
+When the number of requests exceeds this limit the API returns
+`API Limit Exceeded` for any request. To check or update your EposNow API limits, go to the API page found in the [**Web Integrations**](https://developer.eposnowhq.com/Setup/ApiDevice) menu on
 the EposNowHQ Backoffice.
 
-<a name="getting-the-epos-key-and-epos-secret"></a>
-
-### Getting the Epos ID and Epos Secret
+### Get authentication details
 
 You need a Epos Key and Epos Secret to authenticate the EposNow connector in
-Cyclr. Before you can get these you need to
-[create an API Device](https://developer.eposnowhq.com/Setup/APISetup). You can
-find Epos Now's guide on getting the Epos Key and Epos Secret in the EposNow
-console [here](https://developer.eposnowhq.com/Setup/ApiDevice).
+Cyclr. Before you can get these you need to [create an API Device](#requirements). For more information on how to obtain these authentication details, see [Epos Now's guide](https://developer.eposnowhq.com/Setup/ApiDevice) on how to get the Epos Key and Epos Secret in the EposNow
+console.
 
-# Cyclr set up
+</section>
+<section class="card">
+  
+## Cyclr set up
 
-<a name="console-setup"></a>
+To set up the EposNow connector in Cyclr, go to your Cyclr console:
 
-### Console setup
+1. Go to **Connectors** > **Application Connector Library**.
 
-To set up your EposNow connector within your Cyclr console:
+2. Use the search box to find the EposNow connector.
 
-1. Go to your **Cyclr Console**.
-2. Select **Connectors** > **Custom Connectors** at the top of the page.
-3. Use the search box to find the EposNow connector.
-4. Select the **Setup Required** icon.
-5. Enter the below values, omitting this step will allow you to use different
-   settings for each account on installation:
-   - **Username**: The [Epos Key](#getting-the-epos-key-and-epos-secret) of your
-     EposNow account.
-   - **Password**: The [Epos Secret](#getting-the-epos-key-and-epos-secret) of
-     your EposNow account.
-6. Select **Save Changes**.
+3. Select the **Setup Required** icon.
 
-Your EposNow connector is now set up! You can test it by installing it to a
-Cyclr account and then executing one of the methods to confirm it returns data.
+4. Enter the below values:
+
+ | **Value**          | **Description**                             |
+ | :----------------- | :------------------------------------------ |
+ | **Username**   | The [Epos Key](#get-authentication-details) of the EposNow account. |
+ | **Password**   | The [Epos Secret](#get-authentication-details) of the EposNow account. |
+
+
+5. Select **Save Changes**.
+
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
+
+</section>
