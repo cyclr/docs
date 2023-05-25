@@ -17,7 +17,7 @@ menus:
 
 In your Cyclr console, go to **Settings** > **Appearance Settings**. From this page, you can use the **Application Custom CSS** field to enter your customizations.
 
-| **Element/Class Name** | **Description** |
+| **Element** | **Description** |
 |---|---|
 | `launch` | Applies styling to the entire section of the web page with the class name launch. |
 | `launch a` | Styles the anchor tags inside the launch section. |
