@@ -8,12 +8,7 @@ tags: [connector]
 <section class="card">
 ## MagnifyB setup
 
-To connect with Cyclr, you need an **Base URL**, **Username** and **Password** for the MagnifyB application.
-
-
-*  **Base URL**
-*  **Username**
-*  **Password**
+To connect with Cyclr, you need an **Base URL**, **Username** and **Password** for the MagnifyB application you want to connect with.
 
 </section>
 <section class="card">
@@ -30,14 +25,14 @@ To set up the MagnifyB connector in Cyclr, go to your Cyclr console:
 
 4. Enter the below values:
 
-   | Value              | Description                                 |
-   | :----------------- | :------------------------------------------ |
-   | **Base URL** | The MagnifyB Base URL. |
-   | **Username** | The MagnifyB account Username. |
-   | **Password** | The MagnifyB account Password. |
-   
+ | Value              | Description                                 |
+ | :----------------- | :------------------------------------------ |
+ | **Base URL** | The MagnifyB Base URL. |
+ | **Username** | The MagnifyB account username. |
+ | **Password** | The MagnifyB account password. |
    
 5. Select **Next**.
 
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
 
 </section>
