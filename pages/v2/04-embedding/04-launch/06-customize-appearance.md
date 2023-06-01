@@ -29,7 +29,7 @@ To edit the appearance of LAUNCH in the console, go to **Settings** > **Appearan
 
 Application Custom CSS
 
-To restyle your LAUNCH layout, you can add CSS to the **Application Custom CSS **field. You can use the following elements and classes to customize appearance:
+To restyle your LAUNCH layout, you can add CSS to the **Application Custom CSS** field. You can use the following elements and classes to customize appearance:
 
 | **Element** | **CSS Class** | **Explanation** |
 |---|---|---|

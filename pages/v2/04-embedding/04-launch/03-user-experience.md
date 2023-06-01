@@ -53,7 +53,7 @@ If the user has already authenticated a connector when they installed another in
 
 LAUNCH presents the user with a screen to allow them to set up each step in the integration template that needs the user to select parameters.
 
-* Your user might need to select from a list of values from an authenticated connector in the integration template. For example, they might have to select a **Mailing List **from their email marketing platform.
+* Your user might need to select from a list of values from an authenticated connector in the integration template. For example, they might have to select a **Mailing List** from their email marketing platform.
 * Your user might need to select a value from a predetermined list of valid values. For example, an email contact status: **Subscribed** or **Unsubscribed**.
 * Your user might need to provide text values for complete flexibility. For example, this could be the source of an email lead.
 
