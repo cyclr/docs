@@ -16,8 +16,7 @@ To connect with Cyclr, you need:
 
 - A Client ID
 - A Client Secret
-- An Authorization URL/Domain
-- An Authorization Server ID
+- An Authorization URL
 - A Tenant ID (Also known as Account ID)
 - The name of the environment (Also known as the "stage")
 
@@ -26,7 +25,7 @@ Optionally, you can also include:
 - A Sales Channel ID
 - A Source value
 
-The Client ID, Client Secret, Authorization URL and Authorization Server ID can be found on your application information page. (https://live.copilot.fabric.inc/home/developer-tools/app/api/)
+The Client ID, Client Secret and Authorization URL can be found on your application information page. (https://live.copilot.fabric.inc/home/developer-tools/app/api/)
 
 The Tenant ID can be found on your account details page. (https://live.copilot.fabric.inc/home/account-details)
 
@@ -51,8 +50,7 @@ To set up the Fabric connector in Cyclr, go to your Cyclr console:
    | :----------------- | :------------------------------------------ |
    | **Client ID**   | The Client ID of your application.      |
    | **Client Secret**   | The Client Secret of your application.   |
-   | **Auth URL**| The domain of your authorization URL. For example, if your authorization URL is "https://cyclr-test.login.fabric.inc/oauth2/jnd2fsnci8z1mWXG3950", you should enter "cyclr-test.login.fabric.inc".      |
-   | **Auth Server ID**| The identifier of the auth server you would like to target, found in the authorization URL. For example, if your authorization URL is "https://cyclr-test.login.fabric.inc/oauth2/jnd2fsnci8z1mWXG3950", you should enter "jnd2fsnci8z1mWXG3950".       |
+   | **Auth URL**| The authorization URL, found in your application page. Used to target the correct authorization server.      |
    | **Tenant ID**| Your account ID, found in the fabric console.       |
    | **Environment**| The name of the environment you would like to access. Also known as a stage.       |
    | **Sales Channel ID (Optional)**| The sales channel ID of the of the source you would like to access.       |
@@ -72,8 +70,7 @@ Cyclr asks you for the below values when you install the Fabric connector into a
    | :----------------- | :------------------------------------------ |
    | **Client ID**   | The Client ID of your application.      |
    | **Client Secret**   | The Client Secret of your application.   |
-   | **Auth URL**| The domain of your authorization URL. For example, if your authorization URL is "https://cyclr-test.login.fabric.inc/oauth2/jnd2fsnci8z1mWXG3950", you should enter "cyclr-test.login.fabric.inc".      |
-   | **Auth Server ID**| The identifier of the auth server you would like to target, found in the authorization URL. For example, if your authorization URL is "https://cyclr-test.login.fabric.inc/oauth2/jnd2fsnci8z1mWXG3950", you should enter "jnd2fsnci8z1mWXG3950".       |
+   | **Auth URL**| The authorization URL, found in your application page. Used to target the correct authorization server.      |
    | **Tenant ID**| Your account ID, found in the fabric console.       |
    | **Environment**| The name of the environment you would like to access. Also known as a stage.       |
    | **Sales Channel ID (Optional)**| The sales channel ID of the of the source you would like to access.       |
