@@ -12,9 +12,9 @@ linkedpage: true
 
 ### Requirements
 
-To connect with Cyclr, you need a OpenAI account and an API key. You can register for an OpenAI account [here](https://platform.openai.com/signup).
+To connect with Cyclr, you need a OpenAI account, **API key**, and **organization ID**. You can register for an OpenAI account on the [OpenAI website](https://platform.openai.com/signup).
 
-> **Note**: OpenAI API access is a paid for service. More information on pricing can be found [here](https://openai.com/pricing).
+> **Note**: OpenAI API access is a paid for service. For more information on pricing, see the [OpenAI documentation](https://openai.com/pricing).
 
 ### Get an API key
 
@@ -26,25 +26,18 @@ To connect with Cyclr, you need a OpenAI account and an API key. You can registe
 
 ### Get your organization ID
 
-An organization ID allows API requests to be used against a specific organizations subscription quota:
-
-1. Go to the [Organization settings](https://platform.openai.com/account/org-settings) page.
-2. Make note of the **Organization ID**.
+An organization ID allows you to use API requests against a specific organization's subscription quota. You can find the organization ID on the [Organization settings](https://platform.openai.com/account/org-settings) page of the OpenAI website.
 
 </section>
-
 <section class="card">
 
-## Cyclr setup
+## Cyclr account setup
 
-
-### Account setup
-
-Cyclr asks you for the below values when you install the ChatGPT connector into an account:
+Cyclr asks for the below values when you install the ChatGPT connector into an account:
 
 | **Value**               | **Description**                                              |
 | :---------------------- | :----------------------------------------------------------- |
-| **OpenAI Organization** | The [OpenAI organization](#get-your-organization-id) to use for API requests. Usage from the API requests will count against the specified organization's subscription quota. Optional. |
+| **OpenAI Organization** | **Optional**: the [OpenAI organization](#get-your-organization-id) to use for API requests. Usage from the API requests will count against the specified organization's subscription quota. |
 | **API Key**             | The [OpenAI API key](#get-an-api-key) to make API requests with. |
 
 > **Note**: You can use different details for different accounts.
