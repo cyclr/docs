@@ -11,6 +11,8 @@ To access the authentication guide for a specific connector, you can either open
 
 Different connectors use different authentication methods. Many use OAuth, but you can also use basic username and password or API Keys. You can either [authenticate the connector at partner level](#partner-level-authentication) or allow your customers to [authenticate on an individual account](#account-setup) basis.
 
+</section>
+<section class="card">
 
 ## Connector setup
 
