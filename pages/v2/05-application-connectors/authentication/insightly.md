@@ -16,11 +16,7 @@ To connect with Cyclr, you need an Insightly Account. To make an account, go to 
 
 ### Get authentication details
 
-To authenticate your connector, you need to get the **API Key** and **API URL** from your Insightly account. To find these authentication values, select the user account in the top right corner of the Insightly window and go to **User Settings** > **User Settings**. From there you can view the API section.
-
-Once logged into the Insightly site, the API key and API URL can be located via navigating to the user account in the top right corner and selecting, `User Settings > User Settings` and reviewing the API section.
-
-Record your API Key and API URL.
+To authenticate your connector, you need to get the **API Key** and **API URL** from your Insightly account. To find these authentication values, select the user account in the top right corner of the Insightly window and go to **User Settings** > **User Settings**. From there you can view the API section and record your API Key and API URL.
 
 </section>
 <section class="card">
