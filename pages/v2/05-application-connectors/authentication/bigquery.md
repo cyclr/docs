@@ -7,63 +7,85 @@ linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Google BigQuery
 
-This document will explain what is needed to setup access to Google Big Query and install the connector.
+## Google BigQuery setup
 
-You should install a new connector instance for each table that you wish to access.
+### Requirements
 
-### Setup Google OAuth2 Credentials
+To connect with Cyclr, you need a Google Cloud Platform account.
 
-First setup OAuth2 within Google Developer Console. 
+### Get OAuth 2.0 credentials
 
-1. Sign up for a Google account; or log into an existing account.
-2. Go to https://console.developers.google.com/apis/credentials
-3. Create an application:
-
-   __Application Type:__ Web Application
+To authenticate your connector, you need to create a web application inside your Google Cloud Platform account to get OAuth 2.0 credentials: 
    
-   __Name:__ Application Name
+1.  From the [Google Cloud Platform Credentials](https://console.cloud.google.com/apis/credentials) page, select **CREATE CREDENTIALS** > **OAuth client ID**. Create the app with the following settings:
+
+| Setting                      | Value                                                        |
+| :--------------------------- | :----------------------------------------------------------- |
+| **Application type**         | `Web application`                                            |
+| **Authorised redirect URIs** | `https://{{ServiceDomain}}/connector/callback`<br>Your service domain can be found in your Cyclr Console under **Settings** > **General Settings** > **Service Domain**. |
+
+2.  Make note of the **Client ID** and **Client secret**.
    
-   __URL:__ Cyclr service domain, e.g. https://app-h.cyclr.com/. This can be found in the Cyclr Partner Console under Settings > General Settings > Service Domain.
+For more information, see Google's guide on how to [create client credentials](https://developers.google.com/workspace/guides/create-credentials#oauth-client-id).
+
+### Get project ID
+
+You need a project ID to use methods in the **Tables** method category. From the [Google Cloud Platform](https://console.cloud.google.com/) dashboard:
+
+1. Select the project name from drop down button in the navigation bar.
+![BigQuery project ID 1]((./images/google-bigquery-project-id-1.png)
+
+2. T=Make a note of the project ID listed under the **ID** heading. In this example, the project ID of the `cyclr` project is `cyclr-389110`.
+![BigQuery project ID 2]((./images/google-bigquery-project-id-2.png)
+
+> **Note**: You can also find the project ID if you install the Google BigQuery connector without a project ID or dataset ID set, then use the **Utilities** > **Projects** > **List Projects** method. After you use this method, you need to re-authenticate the connector.
+
+### Get dataset ID
+
+You also need a dataset ID in order to use methods in the **Tables** method category. From the [Google BigQuery](https://console.cloud.google.com/bigquery) dashboard:
+
+1. In the **Explorer** pane, select the arrow to the left of the project ID to expand it.
    
-   __Redirect URL:__ Add a callback URL.
-   
-   The URL is:
-        https://app-h.cyclr.com/connector/callback
+2. Select the arrow to the left of each dataset to view the tables within it and make a note of the dataset ID. In this example, the dataset ID that contains `table_1` is `dataset_1`.
+![BigQuery dataset ID 1]((./images/google-bigquery-dataset-id-1.png)
 
-Now save the Client ID and Client Secret, these settings will be needed later.
+>  **Note**: You can also find the dataset ID if you install the Google BigQuery connector without a project ID or dataset ID set, then use the **Utilities** > **Datasets** > **List Datasets** method. After you use this method, you need to re-authenticate the connector.
 
-### Google Big Query Settings
+</section>
+<section class="card">
 
-The Connector requires Project ID, Table ID and Dataset ID. These can be found by:
+## Cyclr setup
 
-1. Navigate to [BigQuery console](https://console.cloud.google.com/bigquery), click the drop-down button to the right of the "Google Cloud Platform" button.
+To set up the Google BigQuery connector in Cyclr, go to your Cyclr console:
 
-![BigQuery - Project ID](./images/bigquery_project_id.png)
+1. Go to **Connectors** > **Application Connector Library**.
 
-To the right of the project name is the Project ID.
+2. Use the search box to find the Google BigQuery connector.
 
-2. To find the Dataset ID, select the project. 
-  * Click on the drop down menu on the left side of the page to see datasets. 
-  * Click on the dataset and find the ID, this is in the "Dataset Info" area. The Dataset ID is only the second part of the ID.
+3. Select the **Setup Required** icon.
 
-![BigQuery - Dataset ID](./images/bigquery_dataset_id.png)
+4. Enter the below values:
 
-In the example above, the project ID is "round-bounty-259512" and dataset ID is "testDataset".
+| **Value**         | **Description**                                              |
+| :---------------- | :----------------------------------------------------------- |
+| **Client ID**     | The default client ID to use.                                |
+| **Client Secret** | The default client secret to use.                            |
+| **Scopes**        | The scopes you want to use. Cyclr uses the default scope of `https://www.googleapis.com/auth/bigquery` if you don't set this value. |
 
-3. To find the Table ID select the "Table info" on the "Details" tab.
+5. Select **Save Changes**.
 
-![BigQuery - Table ID](./images/bigquery_table_id.png)
+> **Note**: If you leave any values blank, Cyclr asks for the value when you install the connector into an account. This means you can use different settings for different accounts.
 
-In the example above table ID is "testTable".
+### Account setup
 
-### Connector Setup
+Cyclr also asks for the below values when you install the Google BigQuery connector into a specific account:
 
-You should install a new connector instance for each table that you wish to access.
- 
-Click "Setup" and then enter "Client ID", "Client Secret", "Project ID", "Table ID" and "Dataset ID".
+| **Value**      | **Description**                                              |
+| :------------- | :----------------------------------------------------------- |
+| **Project ID** | The project ID of the project to use. This must be entered to use methods in the **Tables** method category. |
+| **Dataset ID** | The dataset ID of the dataset to use.  This must be entered to use methods in the **Tables** method category. |
 
-The connector is now setup.
+> **Note**: You can use different details for different accounts.
 
 </section>
