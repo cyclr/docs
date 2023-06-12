@@ -11,16 +11,16 @@ tags: [connector]
 
 To connect with Cyclr, you need the following authentication details from your Fabric account:
 
-*  A Client ID
-*  A Client Secret
-*  An Authorization URL
-*  A Tenant ID (Also known as Account ID)
-*  The name of the environment (Also known as the "stage")
+*  A Client ID.
+*  A Client Secret.
+*  An Authorization URL.
+*  A Tenant ID (Also known as Account ID).
+*  The name of the environment (Also known as the **stage**).
 
 There are also optional credentials that you may want to use for your connector:
 
-*  A Sales Channel ID
-*  A Source value
+*  A Sales Channel ID.
+*  A Source value.
 
 To find the **Client ID**, **Client Secret** and **Authorization URL**, go to your [application information page](https://live.copilot.fabric.inc/home/developer-tools/app/api/). To find the **Tenant ID**, go to your [account details page](https://live.copilot.fabric.inc/home/account-details).
 
