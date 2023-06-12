@@ -16,8 +16,8 @@ To authenticate your connector, you need to get an API key for the NeverBounce a
 3. Select **Create New App**.
 4. Give the application a relevant name, and select **Custom Integration**.
 5. Select **Create App**.
-6.  Open your newly create app and select **Your API Key**.
-7.  Copy the key found here ready to use in Cyclr.
+6. Open the new app and select **Your API Key**.
+7. Copy the API key so that you can use it to authenticate with Cyclr.
 
 
 </section>
@@ -33,11 +33,7 @@ To set up the NeverBounce connector in Cyclr, go to your Cyclr console:
 
 3. Select the **Setup Required** icon.
 
-4. Enter the below values:
-
-   | **Value**          | **Description**                             |
-   | :----------------- | :------------------------------------------ |
-   | **API Key** | The API key you have created to log in your NeverBounce account.                        |
+4. Enter the API key you created to log in your NeverBounce account.
 
 5. Select **Save Changes**.
 
