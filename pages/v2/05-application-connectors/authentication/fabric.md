@@ -3,7 +3,6 @@ title: Fabric Authentication
 sidebar: cyclr_sidebar
 permalink: fabric-connector
 tags: [connector]
-linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
