@@ -21,9 +21,11 @@ Here you'll obtain a `Developer API Key`.
 
 To authenticate your connector, you need to get the authentication details. 
 
-Go to the [Developer Console](https://api.channeladvisor.com/DeveloperConsole) page and make note of the `Application ID` and `Shared Secret`.
+Go to the [Developer Console](https://api.channeladvisor.com/DeveloperConsole) page and make note of the `Application ID` and `Shared Secret` for your app.
   
 Enter the redirect URI as 'https://connectordev.cyclr.uk/connector/callback'.
+  
+Select `Add Integration and Request Tokens`. Make a note of the `Refresh Token`.
 
 </section>
 <section class="card">
@@ -40,11 +42,12 @@ To set up the Channel Advisor connector in Cyclr, go to your Cyclr console:
 
 4. Enter the below values:
 
-   | **Value**          | **Description**                               |
-   | :----------------- | :-------------------------------------------- |
-   | **Application ID** | The ID for the application you created.       |
-   | **Shared Secret**  | The secret for the application you created.   |
-   | **Scopes**         | List of access scopes seperated with a space. |
+   | **Value**          | **Description**                                    |
+   | :----------------- | :------------------------------------------------- |
+   | **Application ID** | The ID for the application you created.            |
+   | **Shared Secret**  | The secret for the application you created.        |
+   | **Scopes**         | List of access scopes seperated with a space.      |
+   | **Refresh Token**  | The refresh token for the application you created. |
 
 5. Select **Next**.
 
