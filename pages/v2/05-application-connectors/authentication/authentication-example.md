@@ -48,8 +48,11 @@ There are several ways in which authenticating a connector with OAuth can benefi
 To set up the 1st Connect connector in Cyclr, go to your Cyclr console:
 
 1. Go to **Connectors** > **Application Connector Library**.
+
 2. Use the search box to find the 1st Connect connector.
+
 3. Select the **Setup Required** icon.
+
 4. Enter the following authentication details:
 
 | **Value** | **Description** |
