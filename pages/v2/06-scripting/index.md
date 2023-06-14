@@ -1,17 +1,17 @@
 ---
-title: Connector plugins
+title: Scripting
 sidebar: cyclr_sidebar
-permalink: plugins
-tags: [plugins]
+permalink: scripting
+tags: [scripting]
 layout: page
 toc: false
-introtitle: Connector Plugins
+introtitle: Scripting
 introtext: >-
-    Install and set up plugins for your application connectors.
+    Learn about how scripting works with Cyclr and view the script reference page to view the relevant functions, events and methods.
 menus:
   mainmenu:
-    title: Connector plugins
-    identifier: plugins
+    title: Scripting
+    identifier: scripting
     icon: navconnectors
     weight: 6
 ---
