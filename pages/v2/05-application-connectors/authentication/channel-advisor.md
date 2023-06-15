@@ -3,7 +3,7 @@ title: Channel Advisor authentication
 sidebar: cyclr_sidebar
 permalink: channel-advisor-connector
 tags: [connector]
-linkedpage: true
+
 ---
 {::options parse_block_html="true" /}
 <section class="card">
@@ -14,18 +14,17 @@ linkedpage: true
 
 To connect with Cyclr, you need a Channel Advisor API Developer Account.
 
-Request a [Channel Advisor developer account](https://complete.channeladvisor.com/DeveloperNetwork/RequestApiDevKey.aspx).
-Here you'll obtain a `Developer API Key`.
+To obtain a **Developer API Key**, you need to request a [Channel Advisor developer account](https://complete.channeladvisor.com/DeveloperNetwork/RequestApiDevKey.aspx).
 
 ### Get authentication details
 
-To authenticate your connector, you need to get the authentication details. 
+To authenticate your connector, you need to get the following authentication details: **Application ID**, **Shared Secret**, and **Refresh Token**. 
 
-Go to the [Developer Console](https://api.channeladvisor.com/DeveloperConsole) page and make note of the `Application ID` and `Shared Secret` for your app.
+To view **Application ID** and **Shared Secret**, go to the [Developer Console](https://api.channeladvisor.com/DeveloperConsole) page.
   
 Enter the redirect URI as 'https://connectordev.cyclr.uk/connector/callback'.
   
-Select `Add Integration and Request Tokens`. Make a note of the `Refresh Token`.
+To view the **Refresh Token**, select **Add Integration and Request Tokens**.
 
 </section>
 <section class="card">
