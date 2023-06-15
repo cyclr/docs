@@ -1255,7 +1255,9 @@ Tables
 .table {
     font-size: $body-font-size;
     font-weight: $body-font-weight;
-
+    > thead {
+        background-color: $grey-15;
+      }
     th {
         font-size: $body-font-size;
         font-weight: $body-font-weight;
