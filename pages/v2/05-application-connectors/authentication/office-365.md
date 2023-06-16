@@ -29,7 +29,8 @@ To summarize the above documentation:
 
 4. Set the appropriate permissions.
 
-> **Note**: Please ensure the refresh token expiry time is over 30 days.
+> **Note**: Ensure the refresh token expiry time is over 30 days as the OAuth authentication refreshes automatically every 29 days.
+
 ### Set permissions
 
 You need to set different permissions in **Azure Active Directory** depending on which methods you want to use. You also need to set the **Type** of each Permission differently depending on which Connector you use:
