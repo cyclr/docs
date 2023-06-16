@@ -75,7 +75,7 @@ You can call `after_webhook` immediately after a request to a webhook is receive
 	<col style="width:30%">
 <thead>
   <tr>
-    <th><strong>Global objects</strong></th>
+    <th><strong>Global object</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
@@ -123,7 +123,7 @@ You can call `before_action` before you make a request to an external API. Metho
 	<col style="width:30%">
 <thead>
   <tr>
-    <th><strong>Global objects</strong></th>
+    <th><strong>Global object</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
@@ -195,7 +195,7 @@ You can call the `after_action` function when Cyclr receives a response from the
 	<col style="width:30%">
 <thead>
   <tr>
-    <th><strong>Global objects</strong></th>
+    <th><strong>Global object</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
@@ -277,7 +277,7 @@ You can call the `after_action_paging` function after Cyclr retrieves all pages 
 	<col style="width:30%">
 <thead>
   <tr>
-    <th><strong>Global objects</strong></th>
+    <th><strong>Global object</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
@@ -348,7 +348,7 @@ You can call the `after_error` function when Cyclr receives an error from an ext
 	<col style="width:30%">
 <thead>
   <tr>
-    <th><strong>Global objects</strong></th>
+    <th><strong>Global object</strong></th>
     <th><strong>Description</strong></th>
   </tr>
 </thead>
@@ -473,226 +473,183 @@ function action_condition() {
 
 ## `before_oauth2_authorise`
 
-You can call the `before_oauth2_authorise` function before Cyclr makes an OAuth 2 authorize request.
+You can call the `before_oauth2_authorise` event before Cyclr makes an OAuth 2 authorize request.
 
-
-### Global objects
-
-
-<table>
+<table width="100%">
+	<col style="width:30%">
+<thead>
   <tr>
-   <td><strong>Global objects</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
+    <th><strong>Global object</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>method_endpoint</code></td>
+    <td>The URL for the OAuth authorisation endpoint.</td>
   </tr>
   <tr>
-   <td><code>`method_endpoint`</code>
-   </td>
-   <td>The URL for the OAuth authorisation endpoint.
-   </td>
+    <td><code>cycle_variables</code></td>
+    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td><code>`cycle_variables</code>`
-   </td>
-   <td>The object that allows access to Cycle variables. <strong>Note: </strong>Changes aren't persisted across cycles.
-   </td>
+    <td><code>return</code></td>
+    <td>Inbuilt Cyclr functions must return <code>true</code>.</td>
   </tr>
-  <tr>
-   <td>`return`
-   </td>
-   <td>Inbuilt Cyclr functions must return `true`.
-   </td>
-  </tr>
+</tbody>
 </table>
 
-
+</section>
+<section class="card">
 
 ## `before_oauth2_token`
 
 
-## You can call the `before_oauth2_token	` function before Cyclr makes an OAuth 2 access token request.
+You can call the `before_oauth2_token	` event before Cyclr makes an OAuth 2 access token request.
 
-
-### Global objects
-
-
-<table>
+<table width="100%">
+	<col style="width:30%">
+<thead>
   <tr>
-   <td><strong>Global objects</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
+    <th><strong>Global object</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>method_request_headers</code></td>
+    <td>The HTTP headers for the request.</td>
   </tr>
   <tr>
-   <td><code>`method_request_headers`</code>
-   </td>
-   <td>The HTTP headers for the request.
-   </td>
+    <td><code>method_request</code></td>
+    <td>The object that’s posted to the OAuth 2 access token endpoint.</td>
   </tr>
   <tr>
-   <td><code>`method_request`</code>
-   </td>
-   <td>The object that’s posted to the OAuth 2 access token endpoint.
-   </td>
+    <td><code>cycle_variables</code></td>
+    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td><code>`cycle_variables</code>`
-   </td>
-   <td>The object that allows access to Cycle variables. <strong>Note: </strong>Changes aren't persisted across cycles.
-   </td>
+    <td><code>script_parameters</code></td>
+    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td>`script_parameters`
-   </td>
-   <td> An object that contains any available script parameters from the connector and method.<strong> Note</strong>: Changes aren't persisted across cycles.
-   </td>
+    <td><code>return</code></td>
+    <td>Inbuilt Cyclr functions must return <code>true</code>.</td>
   </tr>
-  <tr>
-   <td>`return`
-   </td>
-   <td>Inbuilt Cyclr functions must return `true`.
-   </td>
-  </tr>
+</tbody>
 </table>
 
+</section>
+<section class="card">
 
 
 ## `after_oauth2_token`
 
+You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 access token request.
 
-## You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 access token request.
-
-
-### Global objects
-
-
-<table>
+<table width="100%">
+	<col style="width:30%">
+<thead>
   <tr>
-   <td><strong>Global objects</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
+    <th><strong>Global object</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>method_response</code></td>
+    <td>The object received from the OAuth 2 access token request.</td>
   </tr>
   <tr>
-   <td><code>`method_response</code>`
-   </td>
-   <td>The object received from the OAuth 2 access token request.
-   </td>
+    <td><code>cycle_variables</code></td>
+    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td><code>`cycle_variables</code>`
-   </td>
-   <td>The object that allows access to Cycle variables. <strong>Note: </strong>Changes aren't persisted across cycles.
-   </td>
+    <td><code>script_parameters</code></td>
+    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td>`script_parameters`
-   </td>
-   <td> An object that contains any available script parameters from the connector and method.<strong> Note</strong>: Changes aren't persisted across cycles.
-   </td>
+    <td><code>return</code></td>
+    <td>Inbuilt Cyclr functions must return <code>true</code>.</td>
   </tr>
-  <tr>
-   <td>`return`
-   </td>
-   <td>Inbuilt Cyclr functions must return `true`.
-   </td>
-  </tr>
+</tbody>
 </table>
 
-
+</section>
+<section class="card">
 
 ## `before_oauth2_refresh`
 
 
-## You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 refresh token request.
+You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 refresh token request.
 
-
-### Global objects
-
-
-<table>
+<table width="100%">
+	<col style="width:30%">
+<thead>
   <tr>
-   <td><strong>Global objects</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
+    <th><strong>Global object</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>method_request_headers</code></td>
+    <td>The HTTP headers for the request.</td>
   </tr>
   <tr>
-   <td><code>`method_request_headers`</code>
-   </td>
-   <td>The HTTP headers for the request.
-   </td>
+    <td><code>method_request</code></td>
+    <td>The object that’s sent to the OAuth 2 refresh token request.</td>
   </tr>
   <tr>
-   <td><code>`method_request`</code>
-   </td>
-   <td>The object that’s sent to the OAuth 2 refresh token request.
-   </td>
+    <td><code>cycle_variables</code></td>
+    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td><code>`cycle_variables</code>`
-   </td>
-   <td>The object that allows access to Cycle variables. <strong>Note: </strong>Changes aren't persisted across cycles.
-   </td>
+    <td><code>script_parameters</code></td>
+    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td>`script_parameters`
-   </td>
-   <td> An object that contains any available script parameters from the connector and method.<strong> Note</strong>: Changes aren't persisted across cycles.
-   </td>
+    <td><code>return</code></td>
+    <td>Inbuilt Cyclr functions must return <code>true</code>.</td>
   </tr>
-  <tr>
-   <td>`return`
-   </td>
-   <td>Inbuilt Cyclr functions must return `true`.
-   </td>
-  </tr>
+</tbody>
 </table>
 
-
+</section>
+<section class="card">
 
 ## `after_oauth2_refresh`
 
 
-## You can call the `after_oauth2_refresh` function after Cyclr makes an OAuth 2 refresh token request.
+You can call the `after_oauth2_refresh` function after Cyclr makes an OAuth 2 refresh token request.
 
-
-### Global objects
-
-
-<table>
+<table width="100%">
+	<col style="width:30%">
+<thead>
   <tr>
-   <td><strong>Global objects</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
+    <th><strong>Global object</strong></th>
+    <th><strong>Description</strong></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>`method_response`</td>
+    <td>The object received from the OAuth 2 refresh token request.</td>
   </tr>
   <tr>
-   <td><code>`method_response</code>`
-   </td>
-   <td>The object received from the OAuth 2 refresh token request.
-   </td>
+    <td>`cycle_variables`</td>
+    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td><code>`cycle_variables</code>`
-   </td>
-   <td>The object that allows access to Cycle variables. <strong>Note: </strong>Changes aren't persisted across cycles.
-   </td>
+    <td>`script_parameters`</td>
+    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-   <td>`script_parameters`
-   </td>
-   <td> An object that contains any available script parameters from the connector and method.<strong> Note</strong>: Changes aren't persisted across cycles.
-   </td>
+    <td>`return`</td>
+    <td>Inbuilt Cyclr functions must return `true`.</td>
   </tr>
-  <tr>
-   <td>`return`
-   </td>
-   <td>Inbuilt Cyclr functions must return `true`.
-   </td>
-  </tr>
-</table>
+</tbody>
+</table></div>
 
 
 
