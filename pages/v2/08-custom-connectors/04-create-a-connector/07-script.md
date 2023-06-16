@@ -464,6 +464,8 @@ Change `cyclr_` to `cycle_` to use their Cycle-restricted versions.
 * cyclr_storage_set(key, value)
 * cyclr_storage_append(key, value)
 * cyclr_storage_list_keys()
+* cyclr_storage_increment(key, amount)
+* cyclr_storage_decrement(key, amount)
 
 </section>
 <section class="card">
