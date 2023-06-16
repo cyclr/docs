@@ -26,8 +26,10 @@ To summarize the above documentation:
   * **Name**: Your Application Name
   * **Reply URLs**: Add a callback URL to allow Microsoft Office 365 to be used in your Cyclr Console and its Cyclr Accounts. The URL is `{% raw %}https://{{Your Cyclr Service Domain e.g. app-h.cyclr.com}}/connector/callback{% endraw %}`.
   * **Multi-tenanted**: Yes
-   
+
 4. Set the appropriate permissions.
+
+> **Note**: Ensure the refresh token expiry time is over 30 days as the OAuth authentication refreshes automatically every 29 days.
 
 ### Set permissions
 
@@ -91,5 +93,6 @@ Cyclr asks you for the **Tenant ID** when you install the connector into an acco
 When you install the connector, it shows two authorization options: **Common** and **Organization**.
 * If you select **Common**, the connector allows you to use work or organization accounts, and personal Microsoft accounts, during authentication.
 * If you select **Organization**, the connector only allows you to use work or organization accounts during authentication.
-   
+  
+
 </section>
