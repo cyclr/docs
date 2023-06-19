@@ -22,7 +22,7 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 | `.launch` | Applies styling to the entire section of the web page with the class name launch. |
 | `.launch a` | Allows you to apply styling to the anchor tags inside the launch section. |
 | `.marketplace-item` | Applies styling to the marketplace item section. |
-| `.marketplace-item img` </br> `.marketplace-item-image img` | Allows you to apply styling to the images inside the marketplace item section. |
+| `.marketplace-item img` <br> `.marketplace-item-image img` | Allows you to apply styling to the images inside the marketplace item section. |
 | `.marketplace-item-title` | Allows you to apply styling to the title of the marketplace item section. |
 | `.marketplace-item-description` | Allows you to apply styling to the description of the marketplace item section. |
 | `.marketplace-item a` | Allows you to apply styling to the anchor tags inside the marketplace item section. |
@@ -37,8 +37,8 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 | `.marketplace-item-status` | Allows you to apply styling to the status section of a marketplace item. |
 | `.label-status` | Allows you to apply styling to the individual status of a marketplace item. |
 | `.marketplace-item-buttons` | Allows you to apply styling to the buttons section within a marketplace item. |
-| `.marketplace-item-buttons` </br> `.btn` | Allows you to apply styling to the individual buttons with a marketplace item. |
-| `.marketplace-item-buttons` </br> `.dropdown-menu` </br> `.dropdown-item` | Allows you to apply styling to the dropdown items within a marketplace item. |
+| `.marketplace-item-buttons` <br> `.btn` | Allows you to apply styling to the individual buttons with a marketplace item. |
+| `.marketplace-item-buttons` <br> `.dropdown-menu` <br> `.dropdown-item` | Allows you to apply styling to the dropdown items within a marketplace item. |
 | `#launchMapping h4` | Allows you to apply styling to the h4 element inside the launchMapping section. |
 | `.section-block` | Applies styling to the section blocks of the web page. |
 | `.section-block-title` | Allows you to apply styling to the title of the section blocks. |
@@ -50,7 +50,7 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 | `.field-status-required` | Allows you to apply styling to the required fields in the web page. |
 | `.alert-info` | Allows you to apply styling to the alert messages in the web page. |
 | `.launch h3` | Allows you to apply styling to the h3 element inside the launch section. |
-{: .two-col .col2-75 }
+{: .two-col .col2-70 }
 
 </section>
 <section class="card">
@@ -93,7 +93,8 @@ To view and edit the LESS variables that are available in Cyclr, go to **Setting
 
 Below is a list of all of the LESS variables that relate to Marketplaces:
 
-```LESS
+```css
+
 @marketplace-item-gutter-x: 12px;
 @marketplace-item-gutter-y: 12px;
 
@@ -151,6 +152,7 @@ Below is a list of all of the LESS variables that relate to Marketplaces:
 @marketplace-item-status-running-background-color: #74B665;
 @marketplace-item-status-paused-font-color: #FFFFFF;
 @marketplace-item-status-paused-background-color: #E79950;
+
 ```
 
 </section>

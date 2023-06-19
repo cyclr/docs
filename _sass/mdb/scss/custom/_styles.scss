@@ -2279,6 +2279,12 @@ section {
                         width: 75%;
                 }
             }
+            &.col2-70 {
+                td:nth-child(2),
+                th:nth-child(2){
+                        width: 70%;
+                }
+            }
         }
 
         .highlight {
