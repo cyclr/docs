@@ -1,7 +1,7 @@
 ---
 title: Google BigQuery Authentication
 sidebar: cyclr_sidebar
-permalink: bigquery
+permalink: bigquery-connector
 tags: [connector]
 linkedpage: true
 ---
