@@ -22,7 +22,7 @@ menus:
 | Application Display Name | Display name for your application. |
 | Cycle Noun | Noun for calling cycles in the UI. Default to "Cycle". |
 | Cycle Create Verb (Launch) | Verb for creating cycles in LAUNCH and Marketplace. Default to "Create". |
-| Service Domain | To set up a custom domain please message our support team. |
+| Service Domain | To set up a custom domain please message our support team. **Note**: Google doesn't verify third party domains, so you need to set up a custom domain to become a verified Google application. |
 | Enable Anonymous Accounts | Allows end users to open cycle and connector seeds links without having a Cyclr account. |
 | Enable Beta/Planned Connectors | Allows beta and planned (coming soon) connectors to be displayed in the connector list.|
 | Enable Custom Connectors | Allows end user accounts to create their own custom connectors. |

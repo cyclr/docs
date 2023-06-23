@@ -28,6 +28,9 @@ To use your own domain as Cyclr Service Domain, follow these steps:
 
 ## Benefits of a custom service domain
 
+### Google verification
+Google doesn't verify third party domains, so you need to set up a custom domain to become a verified Google application.
+
 ### Removes "cyclr" from Webhook and Redirect URLs
 The domain set as your Cyclr Console's Service Domain is used for Webhook URLs as well as Redirect URLs for Connectors using OAuth authentication.  It may therefore be seen by your own users.  Because of this you may wish to change it to your own domain to remove mentions of Cyclr.
 

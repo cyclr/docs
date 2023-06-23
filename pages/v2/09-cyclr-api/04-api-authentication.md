@@ -95,6 +95,7 @@ These parameters are in the request body:
 
 </section>
 <section class="card">
+
 ## Account ID
 
 For calls to API methods that relate to an account, you need to provide the **Account ID**  as a HTTP header in the request:
@@ -121,6 +122,7 @@ grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123&scop
 
 </section>
 <section class="card">
+
 ## Client ID and Client Secret
 
 To generate a **Client ID** and **Client Secret** from your Cyclr console:
@@ -136,11 +138,14 @@ The table displays the new **Client ID** next to the time you create it. To view
 
 </section>
 <section class="card">
+
 ## Service domain
 
 For some calls, you need to use your service domain, which is in the format: `{YourCompany}-h.cyclr.uk`.
 
 To view your service domain in your Cyclr console, go to **Settings** > **General Settings**.
+
+**Note**: Google doesn't verify third party domains, so you need to set up a custom domain to become a verified Google application.
 
 For information on how to create a custom domain, see the [Custom Service Domains](custom-domains) documentation.
 </section>
