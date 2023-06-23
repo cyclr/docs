@@ -10,7 +10,7 @@ linkedpage: true
 
 ## Create a Table Custom Object
 
-To access each table within a project and dataset, you can create a Custom Object. If you create multiple custom bbjects, you can have multiple tables under a single connector installation.
+To access each table within a project and dataset, you can create a Custom Object. If you create multiple custom objects, you can have multiple tables under a single connector installation.
 
 > **Warning**: You need to install the Google BigQuery connector with a [**Project ID** and **Dataset ID**](bigquery-connector) for table custom objects to function. 
 
@@ -46,11 +46,11 @@ Install the Google BigQuery connector using the [Google BigQuery Authentication 
 #### Install the Generic Webhook Connector
 
 1. To install the Generic Webhook Connector, navigate to the **Utility Connectors** page:
-   1. From the console, select **Templates > Template Connectors > + Install New Utility**.
-   2. From an account, select **Connectors > + Install New Utility**.
-2. Select **Install** under the **Generic Webhook** Connector.
-3. Update the **Name** field to a recognisable name.
-4. Select **Next**.
+   * From the console, select **Templates > Template Connectors > + Install New Utility**.
+   * From an account, select **Connectors > + Install New Utility**.
+3. Select **Install** under the **Generic Webhook** Connector.
+4. Update the **Name** field to a recognisable name.
+5. Select **Next**.
 
 #### Add request fields for the Generic Webhook Connector
 
@@ -59,8 +59,8 @@ Install the Google BigQuery connector using the [Google BigQuery Authentication 
 To allow the next request to send the last index of the table data returned in the current request, add request fields to the Generic Webhook connector:
 
 Navigate to the **Edit Connector** page for the Generic Webhook Connector:
-   *  From the console, select **Templates > Template Connectors**. Under the **Installed Utility Connectors** heading, select the **Edit Connector** icon next to the the **Generic Webhook Connector**. This will have the name entered in [Install the Generic Webhook Connector](#install-the-generic-webhook-connector).
-   *   From an account, select **Connectors**. Under the **Installed Utility Connectors** heading, select the **Edit Connector** icon next to the the **Generic Webhook Connector**. This will have the name entered in [Install the Generic Webhook Connector](#install-the-generic-webhook-connector).
+ * From the console, select **Templates > Template Connectors**. Under the **Installed Utility Connectors** heading, select the **Edit Connector** icon next to the the **Generic Webhook Connector**. This will have the name entered in [Install the Generic Webhook Connector](#install-the-generic-webhook-connector).
+ * From an account, select **Connectors**. Under the **Installed Utility Connectors** heading, select the **Edit Connector** icon next to the the **Generic Webhook Connector**. This will have the name entered in [Install the Generic Webhook Connector](#install-the-generic-webhook-connector).
 
 ##### Add a request field to the POST method
 
@@ -80,15 +80,13 @@ Navigate to the **Edit Connector** page for the Generic Webhook Connector:
 
 ### Create a Cycle
 
-*  To create a Cycle from the console:
-
+From the console:
   1. Select **Templates > Template Library**.
   2. Select **Create New Template**.
   3. Enter a template name.
   4. Select **Create**.
 
-*  To create a Cycle from an account:
-
+From an account:
   1. Select **Cycles**.
   2. Select **Design New Cycle**.
   3. Enter a Cycle name.
@@ -98,10 +96,10 @@ Navigate to the **Edit Connector** page for the Generic Webhook Connector:
 
 Add following methods to the Cycle:
 
-- **Generic Webhook** > **HTTP Methods > POST**
-- **Generic Webhook** > **Webhooks** > **Webhook**
-- **Google BigQuery** > **Tables** > **List New Table Data Incrementally** or **List Partial Table Data**
-- **Tools** > **Delay**: You can use the **Delay** tool to set the time between requests once all current table data has been retrieved.
+* **Generic Webhook** > **HTTP Methods > POST**
+* **Generic Webhook** > **Webhooks** > **Webhook**
+* **Google BigQuery** > **Tables** > **List New Table Data Incrementally** or **List Partial Table Data**
+* **Tools** > **Delay**: You can use the **Delay** tool to set the time between requests once all current table data has been retrieved.
 
 #### Connect the methods
 
