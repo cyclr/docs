@@ -9,27 +9,27 @@ tags: [connector]
 
 ## Partner setup
 
-To install the Microsoft Teams connector in Cyclr you must [create an Azure Active Directory OAuth application](#create-an-application) and obtain a [client ID](#get-a-client-id), [client secret](#create-a-client-secret), and [tenant ID](#get-a-tenant-id).
+To install the Microsoft Teams connector in Cyclr you must [create an Azure Active Directory OAuth application](#create-an-application) and obtain a [client ID](#get-a-client-id), [client secret](#create-a-client-secret) and a [tenant ID](#get-a-tenant-id).
 
 ### Authentication method restrictions
 
 #### OAuth 2.0 (application permissions)
 
-When using application permissions authentication, several of the endpoints are protected due to them handling sensitive data. You must apply for permission to use them using [this request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). This process can take up to a week to be approved, during which you cannot use the protected methods. The following methods are protected and will only functions once you have requested permission:
+When you use application permissions authentication, several of the endpoints are protected since they handle sensitive data. You need to apply for permission to use them with [this Microsoft request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). It can take up to a week to approve your permissi= during which you cannot use the protected methods. The following methods are protected and only function once you have requested permission:
 
-- **Messages > Get Channel Message**
-- **Messages > List Channel Messages**
-- **Messages > List Updated Channel Messages**
-- **Webhooks > Get Team Chats**
-- **Webhooks > Get Channel Chats**
+- **Messages** > **Get Channel Message**
+- **Messages** > **List Channel Messages**
+- **Messages** > **List Updated Channel Messages**
+- **Webhooks** > **Get Team Chats**
+- **Webhooks** > **Get Channel Chats**
 
 #### OAuth 2.0 (delegated permissions)
 
-Delegated permissions authentication does not require any permission to be requested as the user is required to consent permission during authentication.
+You don't need to request any permissions for delegated permissions authentication as the user is required to consent permission during authentication.
 
 Delegated permissions authentication has restrictions to several methods:
 
-| Method category                                              | Restriction                                                  |
+| **Method category**                                              | **Restriction**                                                  |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 | Chats >  List New and Updated User Chats<br>Chats >  List New User Chats<br>Chats >  List User Chats | Chats can only be listed for the currently authenticated user. |
 | Teams >  List Joined Teams                                   | Teams can only be listed for the currently authenticated user. |
@@ -37,14 +37,14 @@ Delegated permissions authentication has restrictions to several methods:
 
 ### Create an application
 
-You need an Azure Active Directory OAuth application to authenticate the Microsoft Teams connector. You can find Microsoft's official documentation for registering an application [here](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+You need an Azure Active Directory OAuth application to authenticate the Microsoft Teams connector. For more information, see Microsoft's official documentation on how to [register an application](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
 To create an application, from the Microsoft Azure portal:
 
 1. Select the portal menu.
-2. Select **Azure Active Directory > App registrations > New registration**.
+2. Select **Azure Active Directory** > **App registrations** > **New registration**.
 3. Enter the following:
-   | Field                   | Value                                                        |
+   | **Field**                   | **Value**                                                        |
    | ----------------------- | :----------------------------------------------------------- |
    | Name                    | Your application name.                                       |
    | Supported account types | `Accounts in any organizational directory (Any Azure AD directory - Multitenant)` |
@@ -70,18 +70,18 @@ To create a client secret, from the application overview:
 
 ### Enable permissions
 
-Each endpoint requires permissions to be enabled in Azure Active Directory to use. More information on permissions can be found [here](https://docs.microsoft.com/en-us/graph/permissions-reference).
+Each endpoint requires you to enable permissions in Azure Active Directory before you can use them. For more information, see the Microsoft documentation on [permissions](https://docs.microsoft.com/en-us/graph/permissions-reference).
 
 To set permissions for your application, from the application overview:
 
 1. Under the **Manage** heading, select **API permissions**.
 2. Select **Add a permission**.
-3. Under the **Microsoft APIs** tab, **Microsoft Graph**.
-4. Select **Delegated permissions** or **Application permissions** depending on the authentication type you are using.
+3. Under the **Microsoft APIs** tab, select **Microsoft Graph**.
+4. Select **Delegated permissions** or **Application permissions**, depending on the authentication type you are using.
 5. Select the required permissions.
 6. Select **Add permissions**.
 
-To setup permissions for all methods for application permissions, use the following permissions:
+To set up permissions for all methods for application permissions, use the following permissions:
 
 - CallRecords.Read.All
 - ChannelMember.Read.All
@@ -95,7 +95,7 @@ To setup permissions for all methods for application permissions, use the follow
 - Teamwork.Migrate.All
 - User.Read.All
 
-To setup permissions for all methods for delegated permissions, use the following permissions:
+To set up permissions for all methods for delegated permissions, use the following permissions:
 
 - ChannelMember.Read.All
 - ChannelMessage.Read.All
@@ -107,7 +107,7 @@ To setup permissions for all methods for delegated permissions, use the followin
 - TeamSettings.Read.All
 - User.Read.All
 
-The below table lists which permissions are required for which method category and authentication type:
+The below table lists which permissions you require for each method category and authentication type:
 
 | Method Category | Application permissions                                     | Delegated permissions                                 |
 | :-------------- | :---------------------------------------------------------- | :---------------------------------------------------- |
@@ -147,7 +147,5 @@ Cyclr asks you for the below values when you install the Microsoft Teams connect
 | Client ID     | The **Application (client) ID** of your application. |
 | Client Secret | The client secret of your application.               |
 | Tenant ID     | The **Directory (tenant) ID** of your application.   |
-
-> **Note**: You can use different details for different accounts.
 
 </section>
