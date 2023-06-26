@@ -15,7 +15,7 @@ To install the Microsoft Teams connector in Cyclr you must [create an Azure Acti
 
 #### OAuth 2.0 (application permissions)
 
-When you use application permissions authentication, several of the endpoints are protected since they handle sensitive data. You need to apply for permission to use them with [this Microsoft request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). It can take up to a week to approve your permissi= during which you cannot use the protected methods. The following methods are protected and only function once you have requested permission:
+When you use application permissions authentication, several of the endpoints are protected since they handle sensitive data. You need to apply for permission to use them with [this Microsoft request form](https://docs.microsoft.com/en-us/graph/teams-protected-apis). It can take up to a week to approve your permissions during which you cannot use the protected methods. The following methods are protected and only function once you have requested permission:
 
 - **Messages** > **Get Channel Message**
 - **Messages** > **List Channel Messages**
