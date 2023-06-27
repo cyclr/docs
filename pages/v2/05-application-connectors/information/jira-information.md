@@ -51,4 +51,13 @@ To add a custom response field location for the `Issues > Issue Properties > Get
    | **Data Type**      | The data type of the issue property. This should match the data type used when creating the issue property. |
 5. Select **Create**.
 
+### Issues (Custom Fields - Object Name format: Project ID, Issue Type ID. (i.e. 10001,10009))
+
+Based on our [Enhanced Objects tutorial](https://docs.cyclr.com/enhanced-objects), the following steps are required to use **Issues (Custom Fields - Object Name format: Project ID, Issue Type ID. (i.e. 10001,10009))** category:
+1. In the Cyclr console, go to Templates > Template Connectors and select Edit on the connector you want to use.
+2. Find the **Issues (Custom Fields - Object Name format: Project ID, Issue Type ID. (i.e. 10001,10009))** category, and select the **Copy this Category to create a Custom Object Category** button.
+Note: The copy button is only available for categories with the Category Customisation Enabled toggle on.
+3. Enter the **Project ID** and **Issue Type ID** necessary to create the custom category.
+4. Select Copy.
+
 </section>
