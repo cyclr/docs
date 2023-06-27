@@ -25,7 +25,7 @@ When you use application permissions authentication, several of the endpoints ar
 
 #### OAuth 2.0 (delegated permissions)
 
-You don't need to request any permissions for delegated permissions authentication as the user is required to consent permission during authentication.
+When you use delegated permissions authentication, you do not need to apply for permissions from Microsoft Teams. This is because delegated permissions authentication requires the user to consent to the permissions themselves during connector installation.
 
 Delegated permissions authentication has restrictions to several methods:
 
