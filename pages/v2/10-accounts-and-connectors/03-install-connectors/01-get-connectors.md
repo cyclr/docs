@@ -21,7 +21,7 @@ You need the ID of a connector before you can install it. To show a list of conn
 ## Request
 
 ```
-GET https://{yourCyclrInstance}/v1.0/connectors HTTP/1.1
+GET https://{CyclrAPIDomain}/v1.0/connectors HTTP/1.1
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {AccountID}
 ```

@@ -29,7 +29,7 @@ You can use the sign in token to build a URL to send to the user. Call the [`/v1
 
 ### Request
 ```
-POST https://{yourCyclrInstance}/v1.0/accounts/{AccountId}/signintoken
+POST https://{CyclrAPIDomain}/v1.0/accounts/{AccountId}/signintoken
 Authorization: Bearer {access_token}
 {
   "Username":"The username of user you want to sign in"

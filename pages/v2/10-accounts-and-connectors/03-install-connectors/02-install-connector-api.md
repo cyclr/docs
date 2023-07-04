@@ -21,7 +21,7 @@ If you have the [connector ID](get-connectors), you can install the connector in
 ## Request
 
 ```
-POST https://{yourCyclrInstance}/v1.0/connectors/{ConnectorId}/install HTTP/1.1
+POST https://{CyclrAPIDomain}/v1.0/connectors/{ConnectorId}/install HTTP/1.1
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {AccountID}
 {

@@ -23,7 +23,7 @@ You can use the [`MethodUniqueIdentifier`](get-connector-methods) and the [accou
 ## Request
 
 ```
-POST https://{yourCyclrInstance}/v1.0/account/connectors/{account connector ID}/methods/{MethodUniqueIdentifier}
+POST https://{CyclrAPIDomain}/v1.0/account/connectors/{account connector ID}/methods/{MethodUniqueIdentifier}
 Authorization: Bearer {access_token}
 Content-Type: application/json
 X-Cyclr-Account: {accountID}
@@ -35,7 +35,7 @@ X-Cyclr-Account: {accountID}
 
 | **Parameter**                           | **Description**                                                       |
 |:----------------------------------------|-----------------------------------------------------------------------|
-| `{yourCyclrInstance}`                   | Replace with the API domain of your version of Cyclr.                 |
+| `{CyclrAPIDomain}`                   | Replace with the API domain of your version of Cyclr.                 |
 | `{Account connector ID}`                | Replace with the account connector ID. See Get account connectors.    |
 | `{method ID or MethodUniqueIdentifier}` | Replace with the unique method identifier. See Get connector methods. |
 | `access_token`                          | Give your access token.                                               |
@@ -47,7 +47,7 @@ X-Cyclr-Account: {accountID}
 If the method you are calling requires any values to be passed, you can include them in your request body:
 
 ```
-POST https://yourCyclrInstance/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
+POST https://{CyclrAPIDomain}/v1.0/account/connectors/{account connector ID}/methods/{method ID or Method Unique Identifier}
 Authorization: Bearer {access_token}
 Content-Type: application/json
 X-Cyclr-Account: {accountID}

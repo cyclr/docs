@@ -21,17 +21,17 @@ You can use the [`/v1.0/connectors/{name}/methods`](https://api.cyclr.uk/docs/in
 <section class="card">
 ## Request
 
- `GET https://yourCyclrDomain/v1.0/connectors/{name}/methods`
+ `GET https://CyclrAPIDomain/v1.0/connectors/{name}/methods`
 
 For connectors with a version, use:
 
- `GET https://{yourCyclrDomain}/v1.0/connectors/{name}/{version}/methods`
+ `GET https://{CyclrAPIDomain}/v1.0/connectors/{name}/{version}/methods`
 
 ### Request parameters
 
 | **Parameter**         | **Description**                                                                   |
 |:----------------------|-----------------------------------------------------------------------------------|
-| `{yourCyclrDomain}`   | Replace with the API domain of your version of Cyclr. For example, api.cyclr.com. |
+| `{CyclrAPIDomain}`   | Replace with the API domain of your version of Cyclr. For example, api.cyclr.com. |
 | `{name}`              | Replace with the [connector name](get-account-connectors).                                                  |
 | `{version}`           | Replace with the connector version.                                               |
 

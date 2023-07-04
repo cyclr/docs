@@ -43,7 +43,7 @@ curl -X POST
         "AuthValue": "{AuthenticationValue}",
         "Properties": [{"Name": "{Url}", "Value": "{http://customDomain.appName.com}"}]
     }
-}' "https://{yourCyclrDomain}/v1.0/accounts/{AccountId}/marketplace
+}' "https://{CyclrAPIDomain}/v1.0/accounts/{AccountId}/marketplace
 ```
 
 > **Note**: Pass all `ConnectorAuthentications` property values as strings, even if they’re numbers.
@@ -65,7 +65,7 @@ curl -X POST
     <td>Enter your <a href="https://docs.cyclr.com/cyclr-api-authentication#access-token" target="_blank" rel="noopener noreferrer">Access Token</a> to authenticate the Cyclr API.</td>
   </tr>
   <tr>
-    <td colspan="2"><code>yourCyclrDomain</code></td>
+    <td colspan="2"><code>CyclrAPIDomain</code></td>
     <td>string</td>
     <td>Specify your <a href="https://docs.cyclr.com/cyclr-api-authentication#api-domain" target="_blank" rel="noopener noreferrer">API domain</a> according to the location of your Cyclr console. If your Cyclr instance is self-hosted, this value is your own domain.</td>
   </tr>

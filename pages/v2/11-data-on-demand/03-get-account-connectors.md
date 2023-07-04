@@ -21,7 +21,7 @@ Call the [/v1.0/account/connectors](https://api.cyclr.uk/docs/index#!/Account32C
 ## Request
 
 ```
-GET https://{yourCyclrDomain}/v1.0/account/connectors
+GET https://{CyclrAPIDomain}/v1.0/account/connectors
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {accountID}
 ```
@@ -32,7 +32,7 @@ X-Cyclr-Account: {accountID}
 
 | **Parameter**         | **Description**                                       |
 |:----------------------|:------------------------------------------------------|
-| `{yourCyclrDomain}` | Replace with the API domain of your version of Cyclr. |
+| `{CyclrAPIDomain}` | Replace with the API domain of your version of Cyclr. |
 | `Authorization`       | Give your access token.                               |
 | `X-Cyclr-Account`     | Give your Cyclr account ID.                           |
 

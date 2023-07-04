@@ -14,7 +14,7 @@ menus:
 <section class="card">
 You can use the Cyclr API to make calls within specific user accounts.
 
-For each call, replace `{YourCyclrDomain}` with your Cyclr api domain. You also need to include the following values in the header parameters:
+For each call, replace `{CyclrAPIDomain}` with your Cyclr api domain. You also need to include the following values in the header parameters:
 
 | **Parameter**   | **Description**                                                      |
 |-----------------|----------------------------------------------------------------------|

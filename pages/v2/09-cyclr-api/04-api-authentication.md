@@ -16,7 +16,7 @@ You can use the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow to aut
 
 There are certain values you need to use in order to make different calls to the Cyclr API:
 
-*  [**API domain**](#api-domain) `{YourCyclrDomain}`
+*  [**API domain**](#api-domain) `{CyclrAPIDomain}`
 *  [**Access token**](#access-token) `{access_token}`
 *  [**Account ID**](#account-id) `{AccountId}`
 *  [**Client ID** and **Client Secret**](#client-id-and-client-secret) `{client_id}`, `{client_secret}`
@@ -37,7 +37,7 @@ The API domain you use to make API calls depends on where your Cyclr Console is 
 | apac.cyclr.com             | api.apac.cyclr.com |
 
 
->  **Note**: Replace `{YourCyclrInstance}` or `{YourCyclrDomain}` in example calls with the correct domain for your console location.
+>  **Note**: Replace `{CyclrAPIDomain}` or `{CyclrAPIDomain}` in example calls with the correct domain for your console location.
 
 
 </section>
@@ -56,7 +56,7 @@ Tokens expire after 14 days, so remember to generate a new one when necessary.
 Once you have a **Client ID** and **Client Secret**, you can call the Cyclr API OAuth token endpoint to generate an access token.
 
 ```
-POST https://{YourCyclrDomain}/oauth/token
+POST https://{CyclrAPIDomain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id={client_idi}&client_secret={client_secret}

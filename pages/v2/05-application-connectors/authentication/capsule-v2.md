@@ -34,7 +34,7 @@ Here is the official documentation for creating a Capsule OAuth 2 app:
 
     **Application Type**: Web Application
 
-3. Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Connector Library > Capsule v2 > Setup
+3. Go to Cyclr Console (https://CyclrAPIDomain/console) > Connectors > Connector Library > Capsule v2 > Setup
 
     **Client ID**: This is the Client ID displayed after you create the Capsule app
 

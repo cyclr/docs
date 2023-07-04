@@ -44,7 +44,7 @@ We will summarise it in a few points:
    * **Dynamics CRM** -> Delegated Permission of "user_impersonation" 
    
 
-3. Go to Cyclr Console (https://yourCyclrInstance/console) > Connectors > Connector Library > Dynamics CRM Online > Setup
+3. Go to Cyclr Console (https://CyclrAPIDomain/console) > Connectors > Connector Library > Dynamics CRM Online > Setup
 
    **Resource**: The beginning of your Microsoft Dynamics CRM account url. E.g: "https://example.crm.dynamics.com" without the quotes.
 
@@ -70,7 +70,7 @@ curl -X POST
             "Name": "Resource",
             "Value": "https://example.crm.dynamics.com"
          }'
-'https://yourCyclrInstance/v1.0/account/connectors/DYNAMICS_ACCOUNT_CONNECTOR_ID/properties'
+'https://CyclrAPIDomain/v1.0/account/connectors/DYNAMICS_ACCOUNT_CONNECTOR_ID/properties'
 ```
 
 After successfully creating the Account Connector Property, you can get a one-time sign-in token and call _/UpdateAccountConnectorOAuth_ to complete the user challenge.

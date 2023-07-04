@@ -32,7 +32,7 @@ curl -X POST
 -H "Authorization: Bearer ${ACCESS_TOKEN}"
 -H "Content-Type: application/json"
 -H "Accept: application/json"
--d '{}' "https://yourCyclrInstance/v1.0/accounts/{AccountId}/orbit"
+-d '{}' "https://CyclrAPIDomain/v1.0/accounts/{AccountId}/orbit"
 ```
 For more information on how to authenticate with the Cyclr API, see the page on [API authentication](cyclr-api-authentication).
 
