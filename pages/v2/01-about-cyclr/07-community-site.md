@@ -44,17 +44,17 @@ You can contact the Cyclr support team through either a button in the console, o
 
 To contact our support team, you can select the **Help** button in the bottom right corner of your Cyclr console. You can then fill out the form with your details and a description of what you need. You also have the option attach up to 5 files relating to your issue.
 
-</br>
+
 ### Cyclr Support Portal
 
  You can also go to [`https://support.cyclr.com/`](https://support.cyclr.com) to **Submit a Request** or **Check your Existing Requests**.
 
-</br>
+
 #### Submit a Request
 
 When you select **Submit a Request**, you can enter a subject, description, and select a priority level for your issue, as well as add any relevant attachments.
 
-</br>
+
 #### Check your Existing Requests
 
 If you or anyone at your organisation has raised an issue with the Cyclr Support Team, you'll be able to see, update or even close these issues if you want to.
