@@ -165,7 +165,7 @@ If a Method uses Paging, this function is called before each page is retrieved.
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
 *   **last_successful_run_date**: Time value indicating when a Step last ran without error.
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true to continue with the request to the third party API, false to abort the request (use throw for a more useful step error message)
 
@@ -187,7 +187,7 @@ If a Method uses Paging, this function is called after each page is retrieved.
 *   **cycle_id**: The ID of the cycle the script is running in
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **statusCode**: The response status code.
 *   **reasonPhrase**: The response reason phrase.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
@@ -211,7 +211,7 @@ If this function is provided, it is called once after all pages of data have bee
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
 *   **next_last_successful_run_date**: Assign to this variable to set the *last_successful_run_date* value a Step will use on its next run.
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
@@ -227,7 +227,7 @@ Function is called when Cyclr received an error from an external API.
 *   **cycle_id**: The ID of the cycle the script is running in
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
@@ -243,7 +243,7 @@ Function is used to essentially combine a Method with a Decision Step, allowing 
 *   **cycle_id**: The ID of the cycle the script is running in
 *   **cyclr_account_id**: The internal ID of the account the script is running in
 *   **external_account_id**: The external ID of the account the script is running in
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition and after_error.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true for the Transaction to exit on the "True Route", false to exit on the "False Route"
 
@@ -255,6 +255,7 @@ Function is called before Cyclr makes an OAuth 2 authorise request.
 
 *   **method_endpoint**: URL for the OAuth authorise endpoint
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **return**: true
 
 ### before_oauth2_token
@@ -266,6 +267,7 @@ Called before Cyclr makes an OAuth 2 access token request.
 *   **method_request_headers**: HTTP headers for the request
 *   **method_request**: Object that is going to be sent to the OAuth 2 access token endpoint
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
 *   **return**: true
 
@@ -278,6 +280,7 @@ Called after Cyclr makes an OAuth 2 access token request.
 *   **method_response**: response object that was received from the OAuth 2 access token request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
 *   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **return**: true
 
 ### before_oauth2_refresh
