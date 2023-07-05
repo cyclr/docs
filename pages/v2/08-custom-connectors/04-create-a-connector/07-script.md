@@ -279,8 +279,8 @@ Called after Cyclr makes an OAuth 2 access token request.
 
 *   **method_response**: response object that was received from the OAuth 2 access token request
 *   **cycle_variables**: Allows access to Cycle variables.  Changes are not persisted.
-*   **script_parameters**: An object that contains any available script parameters from the co
-*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.nnector and method. **Note**: Changes aren’t persisted.
+*   **script_parameters**: An object that contains any available script parameters from the connector and method. **Note**: Changes aren’t persisted.
+*   **action_data**: An object used to persist data between some event handler functions, allowing data to be passed between them.  Accessible in before_action, after_action, after_action_paging, action_condition, after_error, before_oauth2_authorise, before_oauth2_token and after_oauth2_token.
 *   **return**: true
 
 ### before_oauth2_refresh
