@@ -10,6 +10,8 @@ linkedpage: true
 
 ## Pipedrive setup
 
+Due to Pipedrive's OAuth 2.0 process, your customers need to follow the **Pipedrive setup** information and set up an application in Pipedrive themselves to obtain the authentication details. If you don't want your customers to need to set this up themselves, you can use the standard [Pipedrive connector](pipedrive-connector).
+
 ## Requirements
 
 Pipedrive uses OAuth 2.0 authentication for remote API access, so to connect with Cyclr, you need to create an application within Pipedrive.
