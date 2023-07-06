@@ -7,7 +7,7 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-# Leap API setup
+## Leap API setup
 
 To authenticate the Leap API connector, you will need a valid `Access Token`, please follow the steps below:
 
