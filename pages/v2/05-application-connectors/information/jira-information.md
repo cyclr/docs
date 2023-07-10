@@ -62,4 +62,14 @@ To set up the Jira connector to use the **Issues (Custom Fields - Object Name fo
 3. Enter the **Project ID** and **Issue Type ID** you need to create the custom category.
 4. Select Copy.
 
+
+### Webhooks
+
+Webhooks in Jira will by default return all events, however it can be filtered, using JQL, to only trigger for specific events.
+Unfortunately, Cyclr cannot configure dynamic webhooks because Jira workflows are configured by the Jira admin on the instance. For example, the "closed" status of a ticket may be called "Completed" or something different, in separate instances, meaning that any webhook filters we create will likely not match the instances of partners.
+
+We suggest using the following guides, in order to use JQL and create a filtered webhook, tailored to your specific workflow.
+https://developer.atlassian.com/server/jira/platform/webhooks/
+https://www.atlassian.com/software/jira/guides/jql/overview#what-is-jql
+
 </section>
