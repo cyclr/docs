@@ -16,14 +16,11 @@ For your reference, here is a link to [Google’s own documentation](https://dev
 
 </section>
 <section class="card">
-## Before Starting
+## Before you start
+    
+To set up access for the Google connector, you need to provide your Cyclr [Service domain](cyclr-api-authentication#service-domain). To view your service domain in your Cyclr console, go to **Settings** > **General Settings** and see the **Service Domain** field.
 
-You will need to provide your Cyclr Partner 'Service Domain' as part of the process of setting up access so best to have that information to hand before starting. This is specific to your instance of Cyclr and it can be found from the Cyclr Partner Console under:
-Settings > General Settings > Service Domain.
-
-Your Cyclr Partner will have been setup with a default Service Domain, but this can be changed if you would prefer to remove mentions of 'Cyclr' from it.
-
-> PLEASE NOTE: If you want Google to verify your Project, you must use a custom Service Domain, which is best done _before_ all of your users authenticate the Google Connectors - as they will otherwise need to authenticate them again.
+> **Important**: In order for Google to verify your project, you need to add your own [custom service domain](custom-domains). If you change your service domain, you need to re-authenticate any existing Google connectors. 
 
 
 
