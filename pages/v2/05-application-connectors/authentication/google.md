@@ -23,6 +23,9 @@ Settings > General Settings > Service Domain.
 
 Your Cyclr Partner will have been setup with a default Service Domain, but this can be changed if you would prefer to remove mentions of 'Cyclr' from it.
 
+> PLEASE NOTE: If you want Google to verify your Project, you must use a custom Service Domain, which is best done _before_ all of your users authenticate the Google Connectors - as they will otherwise need to authenticate them again.
+
+
 
 </section>
 <section class="card">
