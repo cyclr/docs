@@ -22,8 +22,6 @@ Cyclr provides Swagger documentation for the API.  You can use the interactive A
 
 Your API domain depends on your Cyclr instance:
 
-Cyclr's interactive API references can be used to try things out, and to help you while testing and creating your own native deployment or working with data on demand.
-
 | Cyclr Console Location | API Domain | Interactive API Reference |
 | --- | --- | --- |
 | my.cyclr.com | https://api.cyclr.com | [US API Reference](https://api.cyclr.com/docs/index) |
