@@ -21,7 +21,7 @@ You need the ID of a connector before you can install it. You can find a connect
 #### Request
 
 ```html
-    GET https://CyclrAPIDomain/v1.0/connectors HTTP/1.1
+    GET https://{CyclrAPIDomain}/v1.0/connectors HTTP/1.1
     Authorization: Bearer ****************************************************************
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 ```
@@ -61,7 +61,7 @@ Now that you have a connector ID, the connector can be installed by calling the 
 #### Request
 
 ```html
-    POST https://CyclrAPIDomain/v1.0/connectors/1/install
+    POST https://{CyclrAPIDomain}/v1.0/connectors/1/install
     Authorization: Bearer ****************************************************************
     X-Cyclr-Account: 00000000-0000-0000-0000-000000000000
 
@@ -90,7 +90,7 @@ If the connector requires an OAuth authentication to work with the third party A
 #### Request
 
 ```html
-    POST https://CyclrAPIDomain/v1.0/accounts/{AccountId}/signintoken
+    POST https://{CyclrAPIDomain}/v1.0/accounts/{AccountId}/signintoken
     Authorization: Bearer ****************************************************************
     {
       "Username":"Username of the user the token should sign in"

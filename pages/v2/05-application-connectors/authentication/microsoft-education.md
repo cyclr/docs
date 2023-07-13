@@ -54,7 +54,7 @@ More information: https://docs.microsoft.com/en-us/graph/permissions-reference
 
 
 ### Connector Setup
-Go to Cyclr Console (https://CyclrAPIDomain/console) > Connectors > Application Connector Library > Microsoft Office 365 > Setup
+Go to Cyclr Console (https://{CyclrAPIDomain}/console) > Connectors > Application Connector Library > Microsoft Office 365 > Setup
 
    **Client ID**: This is the Application ID displayed in the portal
 

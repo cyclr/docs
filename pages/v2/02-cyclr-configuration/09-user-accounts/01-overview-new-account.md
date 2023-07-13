@@ -16,15 +16,15 @@ This article gives an overview on setting up a new Cyclr Account using the Cyclr
 
 Useful links:
 * [Cyclr Concepts article](cyclr-glossary) for an explanation of some of the terms used here.
-* [Cyclr **Interactive API Reference** links](./testing-cyclr-api) for all available endpoints.  Also enables you to make calls.
+* [Cyclr **Interactive API Reference** links](cyclr-api-reference) for all available endpoints.  Also enables you to make calls.
 
 
 ### Accessing Cyclr's API
 
 To make calls to the Cyclr API, you'll need to identify your **Cyclr Instance**, then make an API call to obtain an **Access Token**.
 
-* [Identify your Cyclr Instance](./testing-cyclr-api) - find the appropriate **API Domain** to use in your API calls.
-* [Get an Access Token](./cyclr-api-authentication)
+* [Identify your Cyclr Instance](cyclr-api-reference) - find the appropriate **API Domain** to use in your API calls.
+* [Get an Access Token](cyclr-api-authentication)
 
 
 
@@ -43,7 +43,7 @@ If a Cyclr Connector was built to work with your own system's API as part of sig
 *Note: When installing a Template, Cyclr will automatically add any missing Account Connectors to the Account so you don't have to use API calls to add all of them.*
 
 
-To install an Account Connector call one of the ```POST /v1.0/connectors/.../install``` API endpoints as shown here in the [Cyclr **Interactive API Reference**](./testing-cyclr-api):
+To install an Account Connector call one of the ```POST /v1.0/connectors/.../install``` API endpoints as shown here in the [Cyclr **Interactive API Reference**](cyclr-api-reference):
 
 ![Cyclr API Connector Install Endpoints](./images/cyclr-api-connector-install-endpoints.png)
 

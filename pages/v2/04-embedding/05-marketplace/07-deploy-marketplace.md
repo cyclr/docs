@@ -17,8 +17,10 @@ There are two types of Marketplace. An **Account Marketplace** has a built-in AP
 
 You need an **Integrations** button in your application’s interface to allow your users to view a marketplace and install templates.
 
-1. Make the following request from your application server to the Cyclr REST API’s [/v1.0/accounts/{id}/marketplace](https://api.cyclr.uk/docs/index#!/Accounts/Accounts_Marketplace_POST) endpoint to get a Marketplace URL.
+1. Make the following request from your application server to the Cyclr REST API’s `/v1.0/accounts/{id}/marketplace` endpoint to get a Marketplace URL.
 2. Direct the user to the URL in their web browser.
+
+For more information about this endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 > **Note**: If you deploy a Marketplace, you can see an API User in your Cyclr console. The API User has access to the account, but can’t sign in to the Cyclr interface.
 
@@ -65,7 +67,7 @@ curl -X POST
     <td>Enter your <a href="https://docs.cyclr.com/cyclr-api-authentication#access-token" target="_blank" rel="noopener noreferrer">Access Token</a> to authenticate the Cyclr API.</td>
   </tr>
   <tr>
-    <td colspan="2"><code>CyclrAPIDomain</code></td>
+    <td colspan="2"><code>{CyclrAPIDomain}</code></td>
     <td>string</td>
     <td>Specify your <a href="https://docs.cyclr.com/cyclr-api-authentication#api-domain" target="_blank" rel="noopener noreferrer">API domain</a> according to the location of your Cyclr console. If your Cyclr instance is self-hosted, this value is your own domain.</td>
   </tr>
@@ -166,7 +168,7 @@ curl -X POST
 
 ## Deploy a user Marketplace
 
-To deploy a user Marketplace, you can make the same request to the the Cyclr REST API’s [/v1.0/users/marketplace](https://api.cyclr.uk/docs/index#!/Users/Users_CreateUserMarketplaceToken_POST) endpoint.
+To deploy a user Marketplace, you can make the same request to the the Cyclr REST API’s  `POST /v1.0/users/marketplace` endpoint. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 To create the account, you need to pass two extra parameters in the request:
 

@@ -13,8 +13,8 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-Call the [/v1.0/account/connectors](https://api.cyclr.uk/docs/index#!/Account32Connectors/AccountConnectors_All_GET) request to retrieve a list of all of the installed connectors in an account. You can use the returned values to tell Cyclr which connector to interact with.
 
+Call the `/v1.0/account/connectors` request to retrieve a list of all of the installed connectors in an account. You can use the returned values to tell Cyclr which connector to interact with. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 </section>
 <section class="card">
