@@ -13,33 +13,40 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-These settings allow you to change the appearance of Cyclr when in Accounts, using LAUNCH or Marketplaces.
 
-*Due to caching within Cyclr, allow 1 minute before the changes take effect.*
+To view the **Appearance Settings** page, go to **Settings** > **Appearance Settings** in your Cyclr console. 
 
+From this page, you can customize how Cyclr appears when viewed from a customer account with [LAUNCH](launch) or [Marketplaces](marketplaces).
+
+> **Note**: Due to caching in Cyclr, changes may take up to a minute to take effect.
 
 </section>
 <section class="card">
+
 ## Application LESS Variables
 
-The simplest way to alter the appearance of Cyclr is to change the values of LESS variables.
+The first block on the page shows the LESS variables that you can use within Cyclr. You can edit any of these variables to alter the appearance of your application. 
 
-For example if the *body-background* is set to *#ccc* then the background of Cyclr will change to grey.
+### Example
 
-``` less
+For example, if you set `@body-background` to `#ccc` then application’s background changes to grey:
+
+```css
 @body-background: #ccc;
 ```
 
-![](/images/settings-appearance-less.png)
-
+![A screenshot of Cyclr with a gray background.](/images/settings-appearance-less.png)
 
 </section>
 <section class="card">
+
 ## Application Custom CSS
 
-If changing the LESS variables is insufficient to provide the customization that you require you can also include you own custom CSS block, this will be included alongside the Application LESS so you can use both as required.
+If you want to customize your application further, you can add your own custom CSS in the **Application Custom CSS** block. The CSS works alongside the **Application LESS Variables** so you can use both methods together if you need to.
 
-For example to change the rounded buttons to squares you could use
+### Example
+
+For example, you can add CSS to the application to change the shape of buttons to square:
 
 ``` css
 .btn-rounded {
@@ -47,52 +54,65 @@ For example to change the rounded buttons to squares you could use
 }
 ```
 
-![](/images/settings-appearance-css.png)
-
+![A screenshot of Cyclr with square buttons.](/images/settings-appearance-css.png)
 
 </section>
 <section class="card">
+
 ## Header HTML
 
-Header HTML allows HTML & JavaScript to be injected into the header of the page.
+You can use the **Header HTML** block to inject both HTML and JavaScript into the header of your application. 
 
-``` html
+### Example
+
+You can add a simple text header with HTML tags:
+
+```html
 <h1>This is a header</h1>
 ```
 
-![](/images/settings-appearance-header-html.png)
-
+![A screenshot of the example header text.](/images/settings-appearance-header-html.png)
 
 </section>
 <section class="card">
+
 ## Footer HTML
 
-Footer HTML allows HTML & JavaScript to be injected into the footer of the page.
+You can use the **Footer HTML** block to inject both HTML and JavaScript into the footer of your application. 
+
+### Example
+
+You can add a simple text footer with HTML tags:
 
 ``` html
 <h1>This is a footer</h1>
 ```
 
-![](/images/settings-appearance-footer-html.png)
-
+![A screenshot of the example footer text.](/images/settings-appearance-footer-html.png)
 
 </section>
 <section class="card">
+
 ## Launch Complete HTML
 
-Launch Complete HTML allows for the changing of HTML & JavaScript that is displayed at the end of the install process for LAUNCH and Marketplace. For more information, see [Handling Launch Callback](/handling-callback).
-
+You can use the **Launch Complete HTML** block to add HTML and JavaScript to determine the appearance of the page that displays to your customers at the end of the install process through LAUNCH or Marketplaces. For more information, see the page on [Handling Launch Callback](handling-callback).
 
 </section>
 <section class="card">
+
 ## Connector Callback Error HTML
 
-Connector Callback Error HTML allows for the changing of the HTML that is displayed when an error occurs when trying to authenticate a connector.
+You can use the **Connector Callback Error HTML** block to add HTML that determines what the application displays when someone encounters an error when authenticating a connector.
 
-The error and error description, returned by the 3rd party, can be used within the HTML by including the {% raw %}{{error}} and {{error_description}}{% endraw %} merge fields. For example:
+You can use merge fields to include the specific error and description that returns from the third party application in your callback HTML:
 
-``` html
-<p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>
+* `{{error}}`
+* `{{error_description}}`
+
+For example:
+
+```html
+<p>The following error has occurred: {{error}} - {{error_description}}</p>
 ```
 
 </section>

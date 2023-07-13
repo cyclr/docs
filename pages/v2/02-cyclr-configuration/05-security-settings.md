@@ -1,5 +1,5 @@
 ---
-title: Security settings
+title: OAuth Client Credentials
 sidebar: cyclr_sidebar
 permalink: console-security
 tags: [cyclr-config]
@@ -13,21 +13,39 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Console Administrators
 
-Console Administrators have access to both the Cyclr Console and Cyclr Partner API.
-The Console Administrators page is where you can invite or remove people as console administrators, as well as enabling or disabling Account Activity and Billing notifications on a individual basis.
- 
+The Cyclr API validates requests against OAuth client credentials.
+
+## Password Grant Client ID
+
+> **Warning**: Cyclr doesn’t support Password Grant any more. Password Grant still functions but may stop, so migrate to client credentials to avoid errors.
+
+This section displays the Password Grant client ID. To refresh this client ID and invalidate existing Password Grant tokens, select the **Refresh** button.
 
 </section>
 <section class="card">
-## IP Restrictions
 
-### API and Console
-Access to the API and Console can both be edited here by white-listing approved IP addresses of your organisation. By default there is no IP restriction, however if edited only the IP addresses present will be able to access the API or Console.
- 
-### API - Call Non-Native Connector Methods
-APIs for calling non-native (standard) connector methods are blocked by default, and can only be changed on request to the Cyclr support 
+## Client Credentials
 
+You need client credentials to authenticate with the Cyclr API. This section displays any existing client ID’s, when they were created, and a description. To view the associated client secret, select the **View Client Secret** eye icon. 
+
+You can also select the **Delete Client Credentials** bin icon to delete a set. When you delete credentials, any access tokens associated with those credentials no longer work to authenticate.
+
+To generate a new set of client credentials:
+
+1. Select the **Generate Client Credentials** button.
+2. Type in a description to help you identify the credential set.
+3. Select **Create**.
+
+**Note**: You can only have 5 sets of unique credentials at a time.
+
+</section>
+<section class="card">
+
+## Access Tokens
+
+The OAuth page also displays your access tokens. The list details the scope and whether the access token is for a specific account, as well as the expiry date. 
+
+To delete an access token, select the **Revoke Access** bin icon.
 
 </section>

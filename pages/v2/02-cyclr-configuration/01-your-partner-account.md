@@ -20,7 +20,7 @@ To view the **Partner Account Details** page, go to your Cyclr console and selec
 <section class="card">
 
 ## Contact details
-Under the **Contact Details** section, you can enter, view, and edit your contact details. Remember to select **Save** at the bottom of the page to save any changes you make. 
+You can enter, view, and edit your contact details under the **Contact Details** section. Remember to select **Save** at the bottom of the page to save any changes you make. 
 
 >  **Note**: If you select the **Share Partner Group Details** checkbox, any other partners in your partner group can view your contact details.
 

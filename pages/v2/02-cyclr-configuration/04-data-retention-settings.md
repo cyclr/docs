@@ -1,35 +1,31 @@
 ---
-title: Data retention settings
+title: Data Retention
 sidebar: cyclr_sidebar
 permalink: console-data-retention-settings
 tags: [cyclr-config]
 
 menus:
     cyclr-configuration:
-        title: Data retention settings
+        title: Data Retention
         identifier: console-data-retention-settings
         toggleonly: menutoggleonly
         weight: 4
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Data Retention 
 
-The data retention settings allow you to specify how long both successful transactions and transaction errors should be retained.
- 
-By default, data retention for accounts is set to 31 days.
- 
-Retention for Successful Transactions and Errored Transactions can be turned off, and adjusted independently of each other, and the retention period can be set in Hours, Days, or Weeks.
- 
+To view your data retention settings for your overall application, go to **Settings** > **Data Retention** in your Cyclr console. From the **Data Retention** page, you can specify how long you retain data on both **Successful Transactions** and **Errored Transactions**.
+
+The default data retention time for accounts is 31 days, but you can use the toggles to turn data retention on or off, and you can set different data retention times for both successful and errored transactions. To set the time, enter an integer into the first field and select the unit of time from the dropdown options: **Hours**, **Days**, and **Weeks**.
+
 </section>
 <section class="card">
 
-## Changing Data Retention setting
+## Data retention for specific cycles and accounts
 
-Data Retention settings can be accessed from the console, the template/cycle builder, and from your account:
+Cyclr uses the value you set on this page as the new default data retention time for cycles, however you can alter the value for specific cycles or accounts:
 
-* In the console, go to **Settings** > **Data Retention** in the sidebar.
-* In the template builder, select **Settings** and then the **Data Retention** tab.
-* In account management, select the **Settings** cog icon for the account you want to view.
-
+* To change your [data retention settings for a specific cycle](template-settings), select **Settings** and then select the **Data Retention tab**.
+* To change your data retention settings for a specific customer account, go to **Accounts** > **Account Management**, select the **Settings** cog icon, and scroll down to the relevant toggles.
+ 
 </section>
