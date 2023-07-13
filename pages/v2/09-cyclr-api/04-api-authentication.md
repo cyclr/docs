@@ -31,13 +31,14 @@ The API domain you use to make API calls depends on where your Cyclr Console is 
 
 | **Cyclr Console Location** | **API Domain**             |
 |:---------------------------|:---------------------------|
-| my.cyclr.com               | api.cyclr.com      |
-| my.cyclr.uk                | api.cyclr.uk       |
-| eu.cyclr.com               | api.eu.cyclr.com   |
-| apac.cyclr.com             | api.apac.cyclr.com |
+| US: my.cyclr.com               | api.cyclr.com      |
+| US2: us2.cyclr.com             | api.us2.cyclr.com  |
+| UK: my.cyclr.uk                | api.cyclr.uk       |
+| EU: eu.cyclr.com               | api.eu.cyclr.com   |
+| APAC: apac.cyclr.com           | api.apac.cyclr.com |
 
 
->  **Note**: Replace `{CyclrAPIDomain}` or `{CyclrAPIDomain}` in example calls with the correct domain for your console location.
+>  **Note**: Replace `{CyclrAPIDomain}` in example calls with the correct domain for your console location.
 
 
 </section>
