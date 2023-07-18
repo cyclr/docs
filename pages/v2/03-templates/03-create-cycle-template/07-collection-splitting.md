@@ -19,6 +19,8 @@ Splitting a list into separate items results in each item moving through a Cycle
 
 This can be beneficial in situations where you're retrieving further lists of data for each item in an initial list, to avoid the data becoming too complex and difficult to process.
 
+> **Note**: Collection splitting can slow down the speed Cyclr processes your data.
+
 </section>
 <section class="card">
 

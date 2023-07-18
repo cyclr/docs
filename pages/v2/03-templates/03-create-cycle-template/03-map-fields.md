@@ -18,6 +18,7 @@ When using an Action step, you will need to map its fields.  You can do this thr
 
 </section>
 <section class="card">
+
 ## Field mapping example
 
 ![An example of the Step Setup window where you can map fields.](./images/field-mapping-eg.png)
@@ -29,6 +30,7 @@ The **Source** for these fields, shown to the right, can be any preceding step o
 
 </section>
 <section class="card">
+
 ## Field mapping sources
 
 Depending on the app you're connecting to and the field you are using, only some of these source types will be available.
@@ -45,6 +47,7 @@ Depending on the app you're connecting to and the field you are using, only some
 
 </section>
 <section class="card">
+
 ## User Configurable
 
 Setting the field to be **User Configurable** means that this mapping will be finalised by the user when the Template in installed into an Account.  For the purposes of testing a value may be provided but this value will NOT be copied over on Template installation.
@@ -52,9 +55,12 @@ Setting the field to be **User Configurable** means that this mapping will be fi
 
 </section>
 <section class="card">
+
 ## System mergefields
 
 You can use Cyclr system mergefields as the **Source** value in Field Mapping.
+
+> **Note**: You can also use step script in a steps **Advanced Settings** area, which is faster than adding inline script when you map fields. 
 
 | Merge Field | Usage |
 | --- | --- |
