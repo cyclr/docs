@@ -3,28 +3,27 @@ title: Teamleader Authentication
 sidebar: cyclr_sidebar
 permalink: teamleader-connector
 tags: [connector]
-linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
 
 ## Teamleader setup
 
-### Requirements
+To connect with Cyclr, you need the following authentication values from your Teamleader account:
 
-To connect with Cyclr, you need:
+- Client ID
+- Client Secret
+- Username
+- Password
 
-- A Client ID
-- A Client Secret
-- A Username
-- A Password
+If you don't have a Teamleader account, you can sign up for one on the [Teamleader](https://signup.focus.teamleader.eu/) page.
 
-The Client ID and Client Secret can be found on the Teamleader marketplace management  page.
-(https://marketplace.focus.teamleader.eu/eu/en/manage)
+To find the Client ID and Client Secret of your account, go to the [Teamleader marketplace management](https://marketplace.focus.teamleader.eu/eu/en/manage) page.
 
-If you do not have a Teamleader account, you can create one here.(https://signup.focus.teamleader.eu/)
 
-For more information, see the Teamleader documentation on authentication (https://developer.teamleader.eu/#/introduction/authentication).
+
+
+For more information, see the Teamleader documentation on [authentication](https://developer.teamleader.eu/#/introduction/authentication).
 
 </section>
 <section class="card">
@@ -45,8 +44,8 @@ To set up the Teamleader connector in Cyclr, go to your Cyclr console:
    | :----------------- | :------------------------------------------ |
    | **Client ID**   | The Client ID of your application.      |
    | **Client Secret**   | The Client Secret of your application.   |
-   | **Username**   | Username of the authorized user.     |
-   | **Password**   | Password of the authorized user.   |
+   | **Username**   | The username of the authorized user.     |
+   | **Password**   | The password of the authorized user.   |
 
 5. Select **Save Changes**.
 
