@@ -31,7 +31,22 @@ To create a new Cyclr account from the console, go to **Accounts** > **Account M
 
 You can install connectors and integration cycles into accounts to provide them to your customers. 
 
-???
+To install a connector into an account:
+
+1.  Find the account you want to use and select **Open Account**.
+2.  Select **Connectors** in the left sidebar to switch to the Connectors tab.
+3.  Select the **Install New Utility** or the **Install New Application** button depending on what you want to install.
+
+For more information on how to install and authenticate a specific connector, see the [Connector guides](connector-guides) section.
+
+To install a cycle into an account:
+
+1.  Find the account you want to use and select **Open Account**.
+2.  Select the **Templates** button to open the list of available template.
+3.  Select the Use Template button on the template you want to use.
+
+This opens the template builder so you can configure the cycle for the account, and adds the template as a cycle inside the account. When you add a cycle to an account, Cyclr automatically installs the included connectors.
+
 
 </section>
 <section class="card">
