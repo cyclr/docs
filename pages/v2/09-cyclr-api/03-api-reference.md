@@ -23,7 +23,7 @@ Cyclr provides Swagger documentation for the API.  You can use the interactive A
 
 Your API domain depends on your Cyclr instance:
 
-| Cyclr Console Location | API Domain | Interactive API Reference |
+| **Cyclr Console Location** | **API Domain** | **Interactive API Reference** |
 | --- | --- | --- |
 | my.cyclr.com | https://api.cyclr.com | [US API Reference](https://api.cyclr.com/docs/index) |
 | us2.cyclr.com | https://api.us2.cyclr.com | [US2 API Reference](https://api.us2.cyclr.com/docs/index)
