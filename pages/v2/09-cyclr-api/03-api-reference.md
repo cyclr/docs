@@ -2,6 +2,7 @@
 title: API reference
 sidebar: cyclr_sidebar
 permalink: cyclr-api-reference
+redirect_from: "/testing-cyclr-api/"
 tags: [embedding]
 menus:
     cyclr-api:
