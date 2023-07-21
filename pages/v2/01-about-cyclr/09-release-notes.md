@@ -15,6 +15,24 @@ menus:
 
 ## 2023
 
+### 21st July 2023
+
+* **API**: Updated CodeMirror so it doesn't incorrectly flag errors.
+* **API**: Added validation to the Application User Agent property to avoid errors.
+* **Connectors**: Updated the warning text on authentication pages.
+* **Connectors**: Ensured that Cyclr displays the correct fields when you change the type of authentication.
+* **Dashboard**: Implemented a new Task Usage widget onto the Cyclr dashboard.
+* **Dashboard**: Added a redirect to the sign in page when you're logged out of an instance.
+* **LAUNCH**: Ensured that the Cancel button works for the authentication process.
+* **Partners**: Ensured that the Task Usage reports are accurate.
+* **Partners**: Produced a report that aggregates task usage per partner per month for the 13 months up to execution date.
+* **Templates**: Excluded text comments from script checks.
+* **Templates**: Encoded `#` properly for URL merge fields.
+* **Templates**: Made sure that you can promote a template to live when you add or delete a variable.
+* **Templates**: Ensured that the Format script button works as expected.
+* **Templates**: Added support so you can import a JSON template that has a Wait Until step.
+* **Templates**: Disabled System Name text boxes, Value Type dropdowns and User Configurable switches when you promote a template release to live. .
+
 ### 30th June 2023
 
 * **Accounts**: Made variable descriptions visible in account cycles.
