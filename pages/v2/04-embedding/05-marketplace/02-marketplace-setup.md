@@ -80,7 +80,7 @@ You can add cards inside a category:
 To navigate back to the main Marketplace page, use the breadcrumb navigation at the top of the window.
 
 #### Category settings
-If you want the appearance of a category to be different from the Marketplace's **Appearance Settings**, you can change the appearance settings for a specific category. To edit a category's appearance, select the **Settings** button in the top right corner of the page. For more information, see the documentation on [appearance settings](marketplace-settings#appearance-settings).
+If you want the appearance of a category to be different from the overall Marketplace's **Category Settings**, you can change the appearance settings for a specific category. To edit a category's appearance, open the category and select the **Settings** button in the top right corner of the page. For more information, see the documentation on [Category Settings](marketplace-settings#appearance-settings).
 
 
 **Note**: The settings that you set within a category only apply to that category and not the Marketplace as a whole.

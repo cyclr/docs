@@ -21,11 +21,11 @@ You can access your Marketplace settings in two ways:
 </section>
 <section class="card">
 
-## General settings
+## Marketplace settings
 
-From the **General Settings** page, you can edit the name and description of your Marketplace, as well as the number of columns that you display your integrations in.
+From the **Marketplace Settings** page, you can edit the name and description of your Marketplace. 
 
-The subsequent fields are filled with default values for the terms that your Marketplace displays. You can edit any of these to customize your Marketplace.
+The subsequent fields are filled with default values for the terms that your Marketplace displays. You can edit any of these to customize your Marketplace. You can also define the number of columns that you display your cards in. 
 
 The last field is the **Marketplace Notification URL**. This is the URL that Cyclr sends a message to in order to update you on the usage of your Marketplace.
 
@@ -45,11 +45,11 @@ Underneath the fields, there are a series of toggle settings that you can turn o
 </section>
 <section class="card">
 
-## Appearance settings
+## Category settings
 
-You can edit the amount of columns in your Marketplace, which determines how many cards you can display on each row. If you set an amount here, it overrides the value set under **General settings**.
+You can edit the amount of columns in your Marketplace, which determines how many cards you can display on each row. If you set an amount here, it overrides the value set under **Marketplace settings**.
 
-**Note**: These appearance settings apply to your Marketplace as a whole, but you can still set different appearance settings for specific categories if you want to. To access a category’s settings, select **Edit** > **Edit Category** and then select the *Settings* button.
+**Note**: These appearance settings apply to your Marketplace as a whole, but you can still set different appearance settings for specific categories if you want to. To access a category’s settings, select **Edit** > **Edit Category** and then select the **Settings** button.
 
 
 There are two toggle settings you can use to determine how your customer navigates your Marketplace:
