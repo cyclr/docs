@@ -12,7 +12,6 @@ tags: [connector]
 To connect with Cyclr, you need the following authentication values from your CometChat account:
 
 - Base URL
-- API Version
 - App ID
 - API Key
 
@@ -35,10 +34,9 @@ To set up the CometChat connector in Cyclr, go to your Cyclr console:
 
    | **Value**          | **Description**                             |
    | :----------------- | :------------------------------------------ |
-   | **Base URL**   | The API endpoint provided by CometChat when app was created, ie: "https://##########.api-eu.cometchat.io.      |
-   | **API Version**   | API version, ie. "v3"..   |
-   | **App ID**   | App ID provided when creating app.    |
-   | **API Key**   | API key provided when creating app.   |
+   | **Base URL**   | API URL can be found under Integrate > APIs > API Endpoint, ie: "https://##########.api-eu.cometchat.io/v3      |
+   | **App ID**   | The App ID of your CometChat app, it can be found under Integrate > APIs > App ID.   |
+   | **API Key**   | API key can be found under Integrate > APIs > Rest API Key.  |
 
 5. Select **Save Changes**.
 
