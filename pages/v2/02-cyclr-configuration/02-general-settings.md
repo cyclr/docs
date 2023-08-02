@@ -20,7 +20,7 @@ menus:
 | Sign In Logo | Upload a logo as a PNG image to use on your user login page. A size of 300x100 pixels is ideal. |
 | Fav Icon | Upload a web browser "favicon" to use for your Cyclr application. |
 | Application Display Name | Enter a display name for your application. |
-| Application User Agent | ??? |
+| Application User Agent |  Enter identifying text to specify who's making the API calls.  |
 | Cycle Noun | Enter a custom name for cycles within the application. The default noun is **Cycle**. |
 | Cycle Create Verb (Launch) | Enter a custom verb for creating cycles in LAUNCH and Marketplaces. The default verb is **Create**. |
 | Service Domain | View your Cyclr service domain. To set up a custom domain, contact the [support team](community-site#support-team). |
