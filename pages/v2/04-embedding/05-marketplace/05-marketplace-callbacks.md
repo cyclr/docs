@@ -36,12 +36,14 @@ If you don’t redirect your user back to the Marketplace, you can customize thi
 You can display your own message:
 
 `<h1>Congrats - you're connected!</h1>`
+<br>
 
 ### Integration package message
 
 If your Marketplace integration package includes an install complete message, you can use the InstallCompleteMessage merge field to display messages for each integration package:
 
 `<h1><span>{{InstallCompleteMessage}}<span\></h1>`
+<br>
 
 ### JavaScript `postMessage`
 

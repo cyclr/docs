@@ -133,8 +133,8 @@ curl -X POST
   </tr>
   <tr>
     <td><code>CompleteParameter</code></td>
-    <td>A custom value be included in the Marketplace webhook callback.</td>
     <td></td>
+    <td>A custom value be included in the Marketplace webhook callback.</td>
   </tr>
 </tbody>
 </table>
