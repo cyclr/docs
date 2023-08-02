@@ -19,9 +19,9 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 
 | **Elements/Classes** | **Description** |
 |---|---|
-| `.launch` | Applies styling to the entire section of the web page with the class name launch. |
+| `.launch` | Allows you to apply styling to the entire section of the web page with the class name launch. |
 | `.launch a` | Allows you to apply styling to the anchor tags inside the launch section. |
-| `.marketplace-item` | Applies styling to the marketplace item section. |
+| `.marketplace-item` | Allows you to apply styling to the marketplace item section. |
 | `.marketplace-item img` <br> `.marketplace-item-image img` | Allows you to apply styling to the images inside the marketplace item section. |
 | `.marketplace-item-title` | Allows you to apply styling to the title of the marketplace item section. |
 | `.marketplace-item-description` | Allows you to apply styling to the description of the marketplace item section. |
@@ -40,7 +40,7 @@ In your Cyclr console, go to **Settings** > **Appearance Settings**. From this p
 | `.marketplace-item-buttons` <br> `.btn` | Allows you to apply styling to the individual buttons with a marketplace item. |
 | `.marketplace-item-buttons` <br> `.dropdown-menu` <br> `.dropdown-item` | Allows you to apply styling to the dropdown items within a marketplace item. |
 | `#launchMapping h4` | Allows you to apply styling to the h4 element inside the launchMapping section. |
-| `.section-block` | Applies styling to the section blocks of the web page. |
+| `.section-block` | Allows you to apply styling to the section blocks of the web page. |
 | `.section-block-title` | Allows you to apply styling to the title of the section blocks. |
 | `.section-block-title h4` | Allows you to apply styling to the h4 element inside the section block titles. |
 | `.section-block-body`| Allows you to apply styling to the body of the section blocks. |
