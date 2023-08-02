@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: overview-new-account
 tags: 
 menus:
-    user-accounts:
+    cyclr-configuration:
         title: Customer accounts
         identifier: overview-new-account
         toggleonly: menutoggleonly

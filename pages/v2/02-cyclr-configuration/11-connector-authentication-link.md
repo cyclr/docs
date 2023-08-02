@@ -4,7 +4,7 @@ sidebar: cyclr_sidebar
 permalink: connector-authentication-link
 tags: [accounts]
 menus:
-    user-accounts:
+    cyclr-configuration:
         title: Connector authentication link
         identifier: connector-authentication-link
         toggleonly: menutoggleonly
