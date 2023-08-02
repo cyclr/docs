@@ -13,7 +13,8 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-You need the ID of a connector before you can install it. To show a list of connectors available to the account, call the [`/v1.0/connectors`](https://api.cyclr.uk/docs/index#!/Connectors/Connectors_All_GET) endpoint.
+
+You need the ID of a connector before you can install it. To show a list of connectors available to the account, call the `/v1.0/connectors` endpoint. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 
 </section>
@@ -21,7 +22,7 @@ You need the ID of a connector before you can install it. To show a list of conn
 ## Request
 
 ```
-GET https://{yourCyclrInstance}/v1.0/connectors HTTP/1.1
+GET https://{CyclrAPIDomain}/v1.0/connectors HTTP/1.1
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {AccountID}
 ```
@@ -110,7 +111,7 @@ If `Parameters.IsAccountConnectorProperty` is `true`, you also need the followin
 <section class="card">
 ## Related pages
 
-* The `GET /v1.0/connectors` [API reference](https://api.cyclr.uk/docs/index#!/Connectors/Connectors_All_GET) documentation.
+* [Interactive API reference](cyclr-api-reference)
 * [Install a connector](install-connector-api)
 * [API authentication](cyclr-api-authentication)
 

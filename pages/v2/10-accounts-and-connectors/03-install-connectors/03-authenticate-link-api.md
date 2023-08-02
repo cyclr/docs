@@ -24,12 +24,13 @@ If the user doesn’t have access to the Cyclr account, you can use an account o
 
 </section>
 <section class="card">
+
 ## Get a sign in token
-You can use the sign in token to build a URL to send to the user. Call the [`/v1.0/accounts/{id}/signintoken`](https://api.cyclr.uk/docs/index#!/Accounts/Accounts_CreateOneTimeToken_POST_0) endpoint to retrieve the one time sign in token.
+You can use the sign in token to build a URL to send to the user. Call the `/v1.0/accounts/{id}/signintoken` endpoint to retrieve the one time sign in token. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 ### Request
 ```
-POST https://{yourCyclrInstance}/v1.0/accounts/{AccountId}/signintoken
+POST https://{CyclrAPIDomain}/v1.0/accounts/{AccountId}/signintoken
 Authorization: Bearer {access_token}
 {
   "Username":"The username of user you want to sign in"

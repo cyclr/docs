@@ -19,18 +19,15 @@ Your Partner Connector is your application's connector. When installing Launch o
 
 </section>
 <section class="card">
-## Setting up a Partner Connector
+## Set up a Partner Connector
 
-First you will need to make sure that you have a partner connector set up.
-To do this from your console go to `Templates -> Template Connectors`. 
+First you need to make sure that you have a partner connector set up. To do this from your console, go to **Templates** > **Template Connectors**. 
 
-If the connector you wish to set as your partner connector is not in the list of *Installed Application Connectors* you must first [install it](installing-connectors).
+If the connector you want to set as your partner connector isn't in the list of **Installed Application Connectors**, select the **Install New Application** button in the top right corner of the page to install it.
 
-Once the connector in the list of installed application connectors, toggle the *Standard* button so that it says *Native*.
+Once the connector in the list of installed application connectors, select the **Standard** toggle to set the connector to **Native**.
 
 ![An example of connectors set to standard and native.](./images/partner-connector-standard-native.png)
-
-Your Partner Connector is now set up.
 
 </section>
 <section class="card">

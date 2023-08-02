@@ -27,21 +27,17 @@ To embed Cyclr in an iframe within your own application, you will need to take t
 
 You can generate a Client ID and Secret from the Cyclr Partner Console by going to Settings > OAuth Client Credentials
 
-Once you have a Client ID and Secret you need to call the Cyclr API OAuth Token endpoint to generate an Access Token.  The domain for that endpoint will be different depending on where your Cyclr Console is hosted:
+Once you have a Client ID and Secret you need to call the Cyclr API OAuth Token endpoint to generate an Access Token.  The domain for that endpoint is different dependant on your Cyclr instance. To find your API domain, see the [Interactive API Reference](cyclr-api-reference) page.
 
-Cyclr Console Location | API Domain
---- | ---
-my.cyclr.com | https://api.cyclr.com
-my.cyclr.uk | https://api.cyclr.uk
-eu.cyclr.com | https://api.eu.cyclr.com
+
 
 ### Required Request Body Parameters
 
-| Parameter | Description | Example |
+| **Parameter** | **Description** | **Example** |
 | --- | --- | --- |
-| grant_type | Identifies the OAuth flow being used. Must be `client_credentials` | client_credentials |
-| client_id | Identifies the Cyclr Partner the token is for | abcdefg |
-| client_secret | The matching secret for the client ID | abcdefghij123 |
+| `grant_type` | Identifies the OAuth flow being used. Must be `client_credentials` | client_credentials |
+| `client_id` | Identifies the Cyclr Partner the token is for | abcdefg |
+| `client_secret` | The matching secret for the client ID | abcdefghij123 |
 
 ### Example Request
 

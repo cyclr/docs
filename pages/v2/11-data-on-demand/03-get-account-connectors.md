@@ -13,15 +13,15 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-Call the [/v1.0/account/connectors](https://api.cyclr.uk/docs/index#!/Account32Connectors/AccountConnectors_All_GET) request to retrieve a list of all of the installed connectors in an account. You can use the returned values to tell Cyclr which connector to interact with.
 
+Call the `/v1.0/account/connectors` request to retrieve a list of all of the installed connectors in an account. You can use the returned values to tell Cyclr which connector to interact with. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 </section>
 <section class="card">
 ## Request
 
 ```
-GET https://{yourCyclrDomain}/v1.0/account/connectors
+GET https://{CyclrAPIDomain}/v1.0/account/connectors
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {accountID}
 ```
@@ -32,7 +32,7 @@ X-Cyclr-Account: {accountID}
 
 | **Parameter**         | **Description**                                       |
 |:----------------------|:------------------------------------------------------|
-| `{yourCyclrDomain}` | Replace with the API domain of your version of Cyclr. |
+| `{CyclrAPIDomain}` | Replace with the API domain of your version of Cyclr. |
 | `Authorization`       | Give your access token.                               |
 | `X-Cyclr-Account`     | Give your Cyclr account ID.                           |
 

@@ -19,9 +19,7 @@ This document describes how to approach the following use case via API calls
 3. Authenticating the Connector
 4. Setting the Step Field Mapping
 
-Note: Throughout this document, the domain used in the example requests is ```api.cyclr.com```.
-
-If you are on the UK instance, this should be replaced with ```api.cyclr.uk```, and for the EU, ```api.eu.cyclr.com```.
+> **Note**: Throughout this document, the domain used in the example requests is ```api.cyclr.com```. To find your API domain, see the [Interactive API Reference](cyclr-api-reference) page.
 
 
 </section>

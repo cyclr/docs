@@ -14,24 +14,25 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 Each authenticated connector in an account has multiple available connector methods you can use. To call a connector method, you need the  MethodUniqueIdentifier.
-You can use the [`/v1.0/connectors/{name}/methods`](https://api.cyclr.uk/docs/index#!/Connectors/Connectors_Methods_GET_0) request to retrieve a list of available methods, and their identifiers, for a connector.
+
+You can use the `/v1.0/connectors/{name}/methods` request to retrieve a list of available methods, and their identifiers, for a connector. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 
 </section>
 <section class="card">
 ## Request
 
- `GET https://yourCyclrDomain/v1.0/connectors/{name}/methods`
+ `GET https://{CyclrAPIDomain}/v1.0/connectors/{name}/methods`
 
 For connectors with a version, use:
 
- `GET https://{yourCyclrDomain}/v1.0/connectors/{name}/{version}/methods`
+ `GET https://{CyclrAPIDomain}/v1.0/connectors/{name}/{version}/methods`
 
 ### Request parameters
 
 | **Parameter**         | **Description**                                                                   |
 |:----------------------|-----------------------------------------------------------------------------------|
-| `{yourCyclrDomain}`   | Replace with the API domain of your version of Cyclr. For example, api.cyclr.com. |
+| `{CyclrAPIDomain}`   | Replace with the API domain of your version of Cyclr. For example, api.cyclr.com. |
 | `{name}`              | Replace with the [connector name](get-account-connectors).                                                  |
 | `{version}`           | Replace with the connector version.                                               |
 

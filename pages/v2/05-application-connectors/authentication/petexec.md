@@ -6,27 +6,28 @@ tags: [connector]
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-## Setup
 
-To authenticate the PetExec connector you will need a Client ID, Client Secret and the name of your account.
+## PetExec setup
+
+To authenticate the PetExec connector, you need a **Client ID**, **Client Secret** and the name of your account.
 
 ### Client ID & Client Secret
 
 To obtain your Client ID and Client Secret, within your PetExec account:
 
-1. Navigate to Company Preferences > Misc. Settings > Maintain API Applications
+1. Navigate to **Company Preferences** > **Misc. Settings** > **Maintain API Applications**.
 
-   ![petexec portal](./images/petexec_img_1.png)
+<img src="./images/petexec_img_1.png" alt="The Petexec portal." width = 550px>
 
-2. Give the application a name
+2. Name your application.
 
-3. Enter a callback URL. This should be https://{Your Cyclr service domain e.g. <span>app-h.cyclr.</span>com}/connector/callback
+3. Enter a callback URL. This should be `https://{YourServiceDomain}/connector/callback`. For example, `https://app-h.cyclr.com/connector/callback`.
 
-4. Select the **report_read**, **owner_read** and **scheduled_service_read** scopes
+4. Select the **report_read**, **owner_read** and **scheduled_service_read** scopes.
 
-5. Click "Add Application"
+5. Select **Add Application**.
 
-You will be presented with your Client ID and Client Secret.
+PetExec then presents you with your **Client ID** and **Client Secret**.
 
 ### Account Name
 

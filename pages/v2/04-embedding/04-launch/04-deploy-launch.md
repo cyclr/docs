@@ -27,13 +27,13 @@ To allow your users to access LAUNCH, you need to provide your users with a link
 
 ## Deploy LAUNCH request
 
-You need to set up the link that you provide so that your application makes a request to the Cyclr REST API [`/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch`](https://api.cyclr.uk/docs/index#!/Accounts/Accounts_Launch_POST) endpoint in order to obtain a LAUNCH URL. This directs your user to that URL when they select the link to your integrations.
+You need to set up the link that you provide so that your application makes a request to the Cyclr REST API `/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch` endpoint in order to obtain a LAUNCH URL. This directs your user to that URL when they select the link to your integrations. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 When you obtain a [Cyclr API Access Token](https://docs.cyclr.com/cyclr-api-authentication) for this call, don't use an Account Restricted Token.
 
 ### Example request
 
-Replace `{yourCyclrInstance}` with your [API Domain](https://docs.cyclr.com/testing-cyclr-api) according to the location of your Cyclr console, or your own domain if your Cyclr instance is self-hosted.
+Replace `{CyclrAPIDomain}` with your [API Domain](cyclr-api-reference) according to the location of your Cyclr console, or your own domain if your Cyclr instance is self-hosted.
 
 ```
 curl -X POST
@@ -49,7 +49,7 @@ curl -X POST
         "AuthValue": "XXXXXXXXXX",
         "Properties": [{"Name": "Url", "Value": "http://customDomain.appName.com"}]
     }
-}' "https://{yourCyclrInstance}/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
+}' "https://{CyclrAPIDomain}/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
 ```
 ### Request parameters
 
@@ -231,7 +231,7 @@ When you deploy LAUNCH, your console displays an API User. The user has access t
 
 ## Deploy user LAUNCH
 
-To deploy a user LAUNCH, you can make the same request to the Cyclr REST API’s [`/v1.0/users/launch`](https://api.cyclr.uk/docs/index#!/Users/Users_CreateUserLaunchToken_POST) endpoint. To create the account, you need to pass two extra parameters in the request:
+To deploy a user LAUNCH, you can make the same request to the Cyclr REST API’s `/v1.0/users/launch` endpoint. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page. To create the account, you need to pass two extra parameters in the request:
 
 <div class="tg-wrap"><table>
 <colgroup>
@@ -283,7 +283,7 @@ curl -X POST
         "AuthValue": "00000000000000000000000000000000000000000",
         "Properties": [{"Name": "Url", "Value": "https://myapp.something.blah"}]
     }
-}' "https://yourCyclrInstance/v1.0/users/launch"
+}' "https://{CyclrAPIDomain}/v1.0/users/launch"
 ```
 
 </section>

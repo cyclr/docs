@@ -12,18 +12,62 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
+
 ## 2023
+
+### 21st July 2023
+
+* **API**: Updated CodeMirror so it doesn't incorrectly flag errors.
+* **API**: Added validation to the Application User Agent property to avoid errors.
+* **Connectors**: Updated the warning text on authentication pages.
+* **Connectors**: Ensured that Cyclr displays the correct fields when you change the type of authentication.
+* **Dashboard**: Implemented a new Task Usage widget onto the Cyclr dashboard.
+* **Dashboard**: Added a redirect to the sign in page when you're logged out of an instance.
+* **LAUNCH**: Ensured that the Cancel button works for the authentication process.
+* **Partners**: Ensured that the Task Usage reports are accurate.
+* **Partners**: Produced a report that aggregates task usage per partner per month for the 13 months up to execution date.
+* **Templates**: Excluded text comments from script checks.
+* **Templates**: Encoded `#` properly for URL merge fields.
+* **Templates**: Made sure that you can promote a template to live when you add or delete a variable.
+* **Templates**: Ensured that the Format script button works as expected.
+* **Templates**: Added support so you can import a JSON template that has a Wait Until step.
+* **Templates**: Disabled System Name text boxes, Value Type dropdowns and User Configurable switches when you promote a template release to live. .
+
+### 30th June 2023
+
+* **Accounts**: Made variable descriptions visible in account cycles.
+* **API**: Fixed formatting of the API Report page for long request body strings.
+* **API**: Updated jQuery.Validation from 1.19.2 to 1.19.5.
+* **Connectors**: Ensured that you can authenticate native connectors via the UI.
+* **Connectors**: Set a release notes template for new connectors and new connector drafts.
+* **Connectors**: Changed modal title from **Display Field** to **Connector Field** in the Request Format/Response Format tabs when you edit a connector method.
+* **Dashboard**: Updated the Console's featured blog post.
+* **Security**: Made sure to redact sensitive values in the message when the script engine throws a JavaScript exception.
+* **Templates**: Included the `MethodUniqueIdentifier` for a step in the step setup's **Advanced Settings**.
+* **Templates**: Added support for square brackets in a **Field Location** to indicate a name.
+* **Templates**: Ensured that step request arrays contain all items.
+* **Templates**: Improved the performance of the template builder.
+
+### 2nd June 2023
+
+* **Connectors**: Ensured that the padlock icon in the **Connector Library** appears closed when you fill all of the required authentication fields and appears open if not.
+* **Dashboard**: Fixed the account reports so they show the correct values.
+* **Partners**: Included incidents in task overages.
+* **Performance**: Improved function of field mapping for cycles with slow bandwidth.
+* **LAUNCH**: Made sure that when someone cancels an install, LAUNCH redirects them to the LAUNCH modal with the tags and other query parameters from the original LAUNCH URL.
 
 ### 19th May 2023
 
 * **Accounts**: Allowed sub accounts to view connector method details from their parent account. 
-* **Performance**: Improved the performance of transaction reports.
 * **Accounts**: Ensured that the **Account Concurrent Transaction Limit** provides the default value, and the upper limit on manual updates in the console when you add a new API or web account.
+* **API**: Included non method steps that require setup in **Get Template**, such as `Decision`, `Delay`, and `WaitUntil`. The template install maps these prerequisites to the target account's cycle.
 * **Dashboard**: Added a task allowance measure to the sidebar in the console.
+* **Partners**: Included connector release version definitions on export. Ensured that on import, the application installs connector versions which don't exist on the partner account/instance. Ensured that the imported template method steps' connector versions are identical to the source template.
+* **Performance**: Improved the performance of transaction reports.
 * **Template builder**: Re-styled how you authenticate a connector in the builder.
 * **Template builder**: Allowed you to configure Cycle steps to use authentication values you obtain externally.
-* **API**: Included non method steps that require setup in **Get Template**, such as `Decision`, `Delay`, and `WaitUntil`. The template install maps these prerequisites to the target account's cycle.
-* **Partners**: Included connector release version definitions on export. Ensured that on import, the application installs connector versions which don't exist on the partner account/instance. Ensured that the imported template method steps' connector versions are identical to the source template.
+
+
 
 ### 28th April 2023
 

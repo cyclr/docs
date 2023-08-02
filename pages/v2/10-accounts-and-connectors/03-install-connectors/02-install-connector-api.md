@@ -13,15 +13,15 @@ menus:
 ---
 {::options parse_block_html="true" /}
 <section class="card">
-If you have the [connector ID](get-connectors), you can install the connector into an account. To install the connector, call the [`/v1.0/connectors/{id}/install`](https://api.cyclr.uk/docs/index#!/Connectors/Connectors_Install_POST) endpoint.
 
+If you have the [connector ID](get-connectors), you can install the connector into an account. To install the connector, call the `/v1.0/connectors/{id}/install` endpoint. For more information about the endpoint, see the [Interactive API reference](cyclr-api-reference) page.
 
 </section>
 <section class="card">
 ## Request
 
 ```
-POST https://{yourCyclrInstance}/v1.0/connectors/{ConnectorId}/install HTTP/1.1
+POST https://{CyclrAPIDomain}/v1.0/connectors/{ConnectorId}/install HTTP/1.1
 Authorization: Bearer {access_token}
 X-Cyclr-Account: {AccountID}
 {

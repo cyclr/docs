@@ -29,4 +29,5 @@ The QuickBooks connector uses single partner URL webhooks, that certain events c
 5. Review the required events and operations and select the events you want to receive notifications for.
 6. Select **Save**.
 
+> **Note**: After you set the webhook URL in the console,  please wait a minimum of 10 minutes before you try to test a webhook. There are sometimes delays with Quickbooks when you set a new URL, so prevent anif you wait you can prevent any false errors.
 </section>

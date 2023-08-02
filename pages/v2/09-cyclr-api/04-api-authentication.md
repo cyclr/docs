@@ -16,7 +16,7 @@ You can use the [OAuth 2.0](https://oauth.net/2/) Client Credentials flow to aut
 
 There are certain values you need to use in order to make different calls to the Cyclr API:
 
-*  [**API domain**](#api-domain) `{YourCyclrDomain}`
+*  [**API domain**](#api-domain) `{CyclrAPIDomain}`
 *  [**Access token**](#access-token) `{access_token}`
 *  [**Account ID**](#account-id) `{AccountId}`
 *  [**Client ID** and **Client Secret**](#client-id-and-client-secret) `{client_id}`, `{client_secret}`
@@ -31,13 +31,14 @@ The API domain you use to make API calls depends on where your Cyclr Console is 
 
 | **Cyclr Console Location** | **API Domain**             |
 |:---------------------------|:---------------------------|
-| my.cyclr.com               | api.cyclr.com      |
-| my.cyclr.uk                | api.cyclr.uk       |
-| eu.cyclr.com               | api.eu.cyclr.com   |
-| apac.cyclr.com             | api.apac.cyclr.com |
+| US: my.cyclr.com               | api.cyclr.com      |
+| US2: us2.cyclr.com             | api.us2.cyclr.com  |
+| UK: my.cyclr.uk                | api.cyclr.uk       |
+| EU: eu.cyclr.com               | api.eu.cyclr.com   |
+| APAC: apac.cyclr.com           | api.apac.cyclr.com |
 
 
->  **Note**: Replace `{YourCyclrInstance}` or `{YourCyclrDomain}` in example calls with the correct domain for your console location.
+>  **Note**: Replace `{CyclrAPIDomain}` in example calls with the correct domain for your console location.
 
 
 </section>
@@ -56,7 +57,7 @@ Tokens expire after 14 days, so remember to generate a new one when necessary.
 Once you have a **Client ID** and **Client Secret**, you can call the Cyclr API OAuth token endpoint to generate an access token.
 
 ```
-POST https://{YourCyclrDomain}/oauth/token
+POST https://{CyclrAPIDomain}/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id={client_idi}&client_secret={client_secret}
@@ -66,7 +67,7 @@ grant_type=client_credentials&client_id={client_idi}&client_secret={client_secre
 
 These parameters are in the request body:
 
-| Parameter | Description |
+| **Parameter** | **Description** |
 | --- | --- |
 | grant_type | Use `client_credentials` to identify the OAuth flow. |
 | client_id | Enter the **Client ID** to identify which Cyclr Partner the token is for. |
@@ -85,7 +86,7 @@ These parameters are in the request body:
 
 #### Response parameters
 
-| Parameter | Description |
+| **Parameter** | **Description** |
 | --- | --- |
 | `token_type` | The type of token is always `bearer`. |
 | `access_token` | The token you use to make requests to the Cyclr API. |
@@ -95,6 +96,7 @@ These parameters are in the request body:
 
 </section>
 <section class="card">
+
 ## Account ID
 
 For calls to API methods that relate to an account, you need to provide the **Account ID**  as a HTTP header in the request:
@@ -121,6 +123,7 @@ grant_type=client_credentials&client_id=abcdefg&client_secret=abcdefghij123&scop
 
 </section>
 <section class="card">
+
 ## Client ID and Client Secret
 
 To generate a **Client ID** and **Client Secret** from your Cyclr console:
@@ -136,11 +139,14 @@ The table displays the new **Client ID** next to the time you create it. To view
 
 </section>
 <section class="card">
+
 ## Service domain
 
 For some calls, you need to use your service domain, which is in the format: `{YourCompany}-h.cyclr.uk`.
 
 To view your service domain in your Cyclr console, go to **Settings** > **General Settings**.
+
+**Note**: Google doesn't verify third party domains, so you need to set up a custom domain to become a verified Google application.
 
 For information on how to create a custom domain, see the [Custom Service Domains](custom-domains) documentation.
 </section>
