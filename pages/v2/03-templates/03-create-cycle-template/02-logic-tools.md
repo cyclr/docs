@@ -28,6 +28,7 @@ Cyclr provides 4 logic tools that can be used in Integration Cycles.  These are:
 
 </section>
 <section class="card">
+
 ## Decisions
 
 Decision steps can split the data in your cycle down a true or false branch.
@@ -50,6 +51,8 @@ From within the Decision Step's Step Setup:
 
 In the screenshot example, the fields would be **Left Operand**: `Name`, **Condition**: `Equals`, **Right Operand** `Smith`. The result is that contacts with the last name of “Smith” are routed down the true branch, and all other contacts will go down the false branch.
 
+You can also use decision steps to reduce your task usage. For example, you can use a decision step to check whether your trigger step has returned new data and prevent the rest of the cycle from running unnecessarily.
+
 To create more advanced logic, you can chain multiple Decision steps together.
 
 ### IMPORTANT NOTE
@@ -69,6 +72,8 @@ To create more advanced logic, you can chain multiple Decision steps together.
 
 **Delay** steps added to a cycle, will execute without any scheduled delays. Connecting a Delay between two steps will allow you to set a fixed time that Cyclr should wait before it executes the next step.
 
+> **Note**: Delay steps function best for you to stop a transaction from progressing for an hour or more. If you add a small delay to each transaction, it blocks them all as a group instead of spacing them out.
+
 To set up a **Delay** step: 
 
 1. Click-drag a **Delay** from the logic section of the builder’s right sidebar.
@@ -87,6 +92,7 @@ To set up a **Delay** step:
 
 </section>
 <section class="card">
+ 
 ## Wait Until
 
 You can use a Wait Until step in two ways.
@@ -106,6 +112,7 @@ In the **Step Setup** window, select a step from the first dropdown, then a fiel
 
 </section>
 <section class="card">
+
 ## Wait All
 
 A **Wait All** Step waits for all Transactions running in a Cycle to complete before moving on and executing the Steps that appear after it.
