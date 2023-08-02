@@ -16,7 +16,7 @@ menus:
 
 To view the **Appearance Settings** page, go to **Settings** > **Appearance Settings** in your Cyclr console. 
 
-From this page, you can customize how Cyclr appears when viewed from a customer account with [LAUNCH](launch) or [Marketplaces](marketplaces).
+From this page, you can customize how Cyclr appears if you give your customers access to a Cyclr account. You can also customize the CSS and HTML for [LAUNCH](launch) or [Marketplaces](marketplaces).
 
 > **Note**: Due to caching in Cyclr, changes may take up to a minute to take effect.
 
@@ -106,13 +106,16 @@ You can use the **Connector Callback Error HTML** block to add HTML that determi
 
 You can use merge fields to include the specific error and description that returns from the third party application in your callback HTML:
 
+{% raw %}
+
 * `{{error}}`
 * `{{error_description}}`
 
+{% endraw %}
 For example:
 
 ```html
-<p>The following error has occurred: {{error}} - {{error_description}}</p>
+<p>The following error has occurred: {% raw %}{{error}} - {{error_description}}{% endraw %}</p>
 ```
 
 </section>

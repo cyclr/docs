@@ -15,7 +15,7 @@ menus:
 
 You can use your own custom domain as your Cyclr Service Domain. To view your current service domain, go to **Settings** > **General Settings** in the Cyclr console and see the **Service Domain** field. 
 
-You can’t edit the custom domain from the settings page. To add a custom service domain, see the section on how to [change your service domain](#change-your-service-domain).
+You can’t edit the custom domain from the settings page. To add a custom service domain, see the documentation on how to [change your service domain](#change-your-service-domain).
 
 </section>
 <section class="card">

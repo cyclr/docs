@@ -27,8 +27,7 @@ To restrict who can access both your API calls and your partner console, you can
 To add an approved IP address:
 
 1. Select the red **+** button on the relevant card. 
-2. Enter the IP address or CIDR
-        **Note**: This dialogue shows your current IP address.
+2. Enter the IP address or CIDR. <br>**Note**: This dialogue shows your current IP address.
 3. Select **Add**.
 
 </section>

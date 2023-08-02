@@ -30,11 +30,11 @@ menus:
 | Enable Notification Webhook | Select this toggle to allow the application to make a HTTP call when there's an issue with an account’s cycles. |
 | Enable Transaction Error Webhook | Select this toggle to allow the application to make a HTTP call when an error occurs in a transaction. |
 |	Transaction Error Webhook URL | Enter the URL you want to use when Cyclr sends notifications for cycle issues. |
-| Transaction Error Webhook Include Warnings | ??? |
+| Transaction Error Webhook Include Warnings | Select this toggle to include error warnings in error webhooks. |
 | Enable User Login Page | Select this toggle to allow your customers to log into to Cyclr by username and password. |
 | Enable Cycle Form View | Select this toggle to set the default cycle setup to be a linear form. To toggle the drag and drop format in the builder, go to the **Advanced view**. |
-| Enable iframe Embedding | Select this toggle so you can embed Cyclr in an iframe. This removes the X-Frame-Options header and sets `SameSite=None; Secure` to all cookies. To embed in an iframe, your hosting webpage must be served over HTTPS. **Note**: This reduces the visible options in the accounts settings menu. |
-| Enable inline OAuth connector authentication | ??? |
+| Enable iframe Embedding | Select this toggle so you can embed Cyclr in an iframe. This removes the X-Frame-Options header and sets `SameSite=None; Secure` to all cookies. To embed in an iframe, your hosting webpage must be served over HTTPS. <br>**Note**: This reduces the visible options in the accounts settings menu. |
+| Enable inline OAuth connector authentication | Select this toggle to take responsibility for connector authentication. This means you can authenticate specific steps in a cycle yourself and map the access token as you would any other field. Talk to Cyclr Support before you enable this feature. |
 | Help Link Type | Select an option from the dropdown to determine how to show Cyclr help links: **Show Cyclr help links**, **Hide Cyclr help links**, or **Use custom help links**. The default setting is **Show Cyclr help links**. |
 | Host Source Whitelist | Enter a comma separated list of host sources that can embed your Cyclr application using iframe. This value is then present in the Content-Security-Policy (CSP) header. |
 | Account Concurrent Transaction Limit | Enter a maximum concurrent transactions that you want to allow for your customer accounts. |

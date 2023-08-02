@@ -1,17 +1,17 @@
 ---
-title: Marketplace
+title: Marketplaces
 sidebar: cyclr_sidebar
 permalink: marketplace
 tags: [marketplace]
 layout: page
 toc: false
-introtitle: Marketplace
+introtitle: Marketplaces
 introtext: >-
     Embed an integration Marketplace into your application to deliver integrations to your users.
 menus:
   embedding:
-    title: Marketplace
-    identifier: marketplace
+    title: Marketplaces
+    identifier: marketplaces
     weight: 5
 ---
 {% assign categorydata = site.data.categories.marketplace %}

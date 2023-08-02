@@ -18,7 +18,7 @@ The Cyclr API validates requests against OAuth client credentials.
 
 ## Password Grant Client ID
 
-> **Warning**: Cyclr doesn’t support Password Grant any more. Password Grant still functions but may stop, so migrate to client credentials to avoid errors.
+> **Warning**: Cyclr doesn’t support Password Grant anymore. Password Grant still functions but may stop, so migrate to client credentials to avoid errors.
 
 This section displays the Password Grant client ID. To refresh this client ID and invalidate existing Password Grant tokens, select the **Refresh** button.
 
