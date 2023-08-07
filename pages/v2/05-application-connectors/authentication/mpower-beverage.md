@@ -9,11 +9,9 @@ tags: [connector]
 
 ## mPower Beverage setup
 
-To authenticate your connector, you need to get the API key from your mPower Beverage account. 
+To authenticate your connector, you need to get the **API key** from your mPower Beverage account. 
 
 For more information on how to get your API key, contact mPower Beverage.
-
-Contact mPower to get you API key to authenticate.
 
 </section>
 <section class="card">
