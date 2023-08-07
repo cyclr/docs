@@ -20,6 +20,9 @@ INTRO ???
 <section class="card">
 
 ## `AuthRefreshException`
+
+**Connector builder only**.
+
 You can use this exception to force refresh the OAuth 2 authentication token. If the OAuth 2 endpoint doesn’t return a definite token expiry time, the `AuthRefreshException` exception can be useful.
 
 When Cyclr receives the exception, Cyclr calls the OAuth 2 Access Token URL to get a new access token.
@@ -55,6 +58,9 @@ function after_error() {
 <section class="card">
 
 ## `AuthSessionException`
+
+**Connector builder only**.
+
 You can use this exception to force refresh the authentication session.
 
 When Cyclr receives this exception, Cyclr calls the Post Install Property Value Lookup Method to start a new session.

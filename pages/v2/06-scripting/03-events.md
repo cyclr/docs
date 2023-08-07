@@ -398,6 +398,7 @@ You can call the `after_error` function when Cyclr receives an error from an ext
 
 ## `action_condition`
 
+**Connector builder only**.
 
 You can use the `action_condition` function to combine a method with a decision step, which means you can perform a test that directs a transaction through either the `true` or `false` exit point. Cyclr adds the `true` and `false` exit points if you include this function in a method. For more information, see the example script.
 
@@ -473,6 +474,8 @@ function action_condition() {
 
 ## `before_oauth2_authorise`
 
+**Connector builder only**.
+
 You can call the `before_oauth2_authorise` event before Cyclr makes an OAuth 2 authorize request.
 
 <table width="100%">
@@ -504,6 +507,7 @@ You can call the `before_oauth2_authorise` event before Cyclr makes an OAuth 2 a
 
 ## `before_oauth2_token`
 
+**Connector builder only**.
 
 You can call the `before_oauth2_token	` event before Cyclr makes an OAuth 2 access token request.
 
@@ -542,8 +546,9 @@ You can call the `before_oauth2_token	` event before Cyclr makes an OAuth 2 acce
 </section>
 <section class="card">
 
-
 ## `after_oauth2_token`
+
+**Connector builder only**.
 
 You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 access token request.
 
@@ -580,6 +585,7 @@ You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 acce
 
 ## `before_oauth2_refresh`
 
+**Connector builder only**.
 
 You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 refresh token request.
 
@@ -620,6 +626,7 @@ You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 r
 
 ## `after_oauth2_refresh`
 
+**Connector builder only**.
 
 You can call the `after_oauth2_refresh` function after Cyclr makes an OAuth 2 refresh token request.
 
@@ -650,7 +657,5 @@ You can call the `after_oauth2_refresh` function after Cyclr makes an OAuth 2 re
   </tr>
 </tbody>
 </table></div>
-
-
 
 </section>
