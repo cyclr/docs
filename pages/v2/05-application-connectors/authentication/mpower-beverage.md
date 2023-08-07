@@ -3,16 +3,15 @@ title: mPower Beverage authentication
 sidebar: cyclr_sidebar
 permalink: mpower-beverage-connector
 tags: [connector]
-linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
 
 ## mPower Beverage setup
 
-### Get authentication details
+To authenticate your connector, you need to get the API key from your mPower Beverage account. 
 
-To authenticate your connector, you need to get the authentication details. 
+For more information on how to get your API key, contact mPower Beverage.
 
 Contact mPower to get you API key to authenticate.
 
@@ -33,7 +32,7 @@ To set up the mPower Beverage connector in Cyclr, go to your Cyclr console:
 
    | **Value**          | **Description**                             |
    | :----------------- | :------------------------------------------ |
-   | **API Key**        | The API key from mPower                     |
+   | **API Key**        | The API key from your mPower Beverage account.                     |
 
 5. Select **Save Changes**.
 
