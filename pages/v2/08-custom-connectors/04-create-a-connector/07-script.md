@@ -1,5 +1,5 @@
 ---
-title: Scripting examples
+title: Scripting
 sidebar: cyclr_sidebar
 permalink: connector-scripting
 keywords: action_data
@@ -7,7 +7,7 @@ redirect_from: "/custom-connector-scripting/"
 tags: [connector-creation]
 menus:
     create-a-connector:
-        title: Script
+        title: Scripting
         identifier: connector-scripting
         toggleonly: menutoggleonly
         weight: 7
