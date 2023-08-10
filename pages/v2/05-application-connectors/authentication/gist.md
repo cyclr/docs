@@ -3,18 +3,13 @@ title: Gist authentication
 sidebar: cyclr_sidebar
 permalink: gist-connector
 tags: [connector]
-linkedpage: true
 ---
 {::options parse_block_html="true" /}
 <section class="card">
 
 ## Gist setup
 
-### Get authentication details
-
-To authenticate your connector, you need to get the authentication details. 
-
-Go to the [Gist Website Settings](https://app.getgist.com/projects/hipgyaas/settings/api-key) page and make note of the API Key.
+To authenticate your connector, you need to get the API Key gtom your Gist account. To find your API Key, go to the [Gist Website Settings](https://app.getgist.com/projects/hipgyaas/settings/api-key) page.
 
 </section>
 <section class="card">
@@ -29,11 +24,7 @@ To set up the Gist connector in Cyclr, go to your Cyclr console:
 
 3. Select the **Setup Required** icon.
 
-4. Enter the below values:
-
-   | **Value**          | **Description**                             |
-   | :----------------- | :------------------------------------------ |
-   | **API Key**        | The API key you recorded.                   |
+4. Enter the **API Key** from your Gist account.
 
 5. Select **Save Changes**.
 
