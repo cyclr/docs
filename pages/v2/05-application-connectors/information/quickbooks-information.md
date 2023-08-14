@@ -18,6 +18,9 @@ You can map custom fields for the **Update Purchase Order** method:
 3. Enter the required field location in the format 'CustomField.FieldName', where 'FieldName' is the `DefinitionId` of the custom field to update.
 4. Enter any additional information for the method field and then select **Create**.
 
+</section>
+<section class="card">
+  
 ## Webhooks
 
 The QuickBooks connector uses single partner URL webhooks, that certain events can trigger. To set up webhooks, follow the next steps in the developer console:
@@ -30,4 +33,18 @@ The QuickBooks connector uses single partner URL webhooks, that certain events c
 6. Select **Save**.
 
 > **Note**: After you set the webhook URL in the console,  please wait a minimum of 10 minutes before you try to test a webhook. There are sometimes delays with Quickbooks when you set a new URL, so prevent anif you wait you can prevent any false errors.
+
+</section>
+<section class="card">
+
+## Realm ID
+
+If your customer sets a **Realm ID** (Company ID) when they install the connector, then all of their cycles that use this connector use the **Realm ID**.  If your customer doesn't set a **Realm ID**, then each step in a cycle asks for the value.
+
+Your customer can find their **Realm ID** in Quickbooks:
+
+1. Go to **Settings** and select **Your Account** > **Settings**.
+2. Select the **Billing and Subscription** tab.
+3. On the **Your Account** page, make a note of the Realm ID/Company ID at the top of the page.
+
 </section>
