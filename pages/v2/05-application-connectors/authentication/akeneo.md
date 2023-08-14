@@ -7,13 +7,21 @@ tags: [connector]
 {::options parse_block_html="true" /}
 <section class="card">
 
-## Create Akeneo Data Source connection
-- Login into your **Akeneo PIM account**
-- On the left hand side panel, click on **Connect** tab.
-- Navigate to the top right hand corner and click on the green **Create** button.
-- Add some inputs to the required fields **Label** and **Code**. In the **Flow type** select **Data Source** and click **Save**.
-- From the **Credentials** section, copy **Client ID**, **Secret**, **Username** and **Password**. These values will be needed when setting up connector.
-- Navigate to the **Permissions** section and set **Role** to **API** and **Group** to **API Connections**. Click **Save**
+## Akeneo setup
+To connect with Cyclr, you need the following authentication details from your Akeneo PIM account:
+*  Client ID
+*  Client Secret
+*  PIM URL
+
+To access these authentication values from your Akeneo PIM account, you need to create an Akeneo Data Source connection:
+1.  On the left side panel, select the **Connect** tab.
+2.  Select the green **Create** button in the top right corner.
+3.  Enter a **Label** and **Code**, then select **Data Source** and select **Save**.
+4.  Go to the **Credentials** section and make a note of the Client ID and Secret.
+
+You also need to set the following permissions for your Akeneo Data Source connection:
+*  Set **Role** to **API**.
+*  Set **Group** to **API Connections**
 
 </section>
 <section class="card">
@@ -32,11 +40,11 @@ To set up the Akeneo connector in Cyclr, go to your Cyclr console:
 
    | **Value**          | **Description**                             |
    | :----------------- | :------------------------------------------ |
-   | **Client ID**   | The Client ID of your application.      |
-   | **Client Secret**   | The Client Secret of your application.   |
+   | **Client ID**   | The Client ID from your application.      |
+   | **Client Secret**   | The Client Secret from your application.   |
    | **Username**   | The username of the authorized user.     |
    | **Password**   | The password of the authorized user.   |
-   | **PIM URL**   | The PIM URL obtained when Akeneo account was created.   |
+   | **PIM URL**   | The PIM URL from your Akeneo account.   |
 
 6. Select **Save Changes**.
 
