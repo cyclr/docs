@@ -58,13 +58,17 @@ Cyclr also asks you for the **Base Domain** when you install the Quickbooks conn
 * For a development app, use `sandbox-quickbooks.api.intuit.com`.
 * For a production app, use `quickbooks.api.intuit.com`.
 
-### Realm ID
+</section>
+<section class="card">
+    
+## Realm ID
 
-If your customer sets a **Realm ID** (Company ID) at the point of Connector installation, this will be used across all cycles using this Connector.  Otherwise each step will ask for this value.  
+If your customer sets a **Realm ID** (Company ID) when they install the connector, then all of their cycles that use this connector use the **Realm ID**.  If your customer doesn't set a **Realm ID**, then each step in a cycle asks for the value.
 
-Your customer can find their **Realm ID** in Quickbooks by:
+Your customer can find their **Realm ID** in Quickbooks:
 
-1. Going to Settings ⚙ and select **Your Account** and settings
-2. On the **Your Account** page their Realm ID/Company ID (in the billing & subscription tab) will be at the top.
+1. Go to **Settings** and select **Your Account** > **Settings**.
+2. Select the **Billing and Subscription** tab.
+3. On the **Your Account** page, make a note of the Realm ID/Company ID at the top of the page.
 
 </section>
