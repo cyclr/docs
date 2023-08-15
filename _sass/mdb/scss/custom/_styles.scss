@@ -49,6 +49,9 @@ body {
     font-size: $body-font-size;
     font-weight: $body-font-weight;
     line-height: $body-line-height;
+    code {
+        font-size: $body-font-size;
+    }
 }
 
 // Links
@@ -1134,6 +1137,8 @@ Cards
     }
 }
 
+
+
 .card-body {
     padding: 24px 0px;
 }
@@ -1713,10 +1718,10 @@ Cyclr Icons
     color: $grey-70;
     word-break: break-all;
     word-wrap: break-word;
-    background-color: $white;
+    background-color: $grey-10;
     border: 1px solid $grey-30;
     border-radius: 4px;
-    font-size: 1.1666666666666667rem;
+    font-size: $code-font-size;
     line-height: 1.4166666666666667rem;
 
     pre {
@@ -2287,13 +2292,21 @@ section {
                         width: 70%;
                 }
             }
+            &.col1-20 {
+                td:nth-child(1),
+                th:nth-child(1){
+                        width: 20%;
+                }
+            }
         }
 
         .highlight {
+            background-color: $grey-10;
             code {
                 display: block;
                 max-height: 20em;
                 overflow-y: auto;
+                font-size: 1rem;
                 @extend .mt-10;
                 @extend .mb-20;
             }
@@ -2309,6 +2322,18 @@ section {
                 border-bottom: 1px solid $grey-20;
                 margin: 0 0 16px;
                 padding: 0 0 16px;
+                code {
+                    font-size: $h2-font-size;
+                }
+
+            }
+            h3 {
+                border-bottom: 1px solid $grey-20;
+                margin: 0 0 16px;
+                padding: 0 0 16px;
+                code {
+                    font-size: $h3-font-size;
+                } 
             }
         }
 
@@ -2344,6 +2369,9 @@ section {
         &.cards {
             .card-body {
                 padding: 18px;
+                code {
+                    font-size: $body-font-size;
+                }
             }
         }
 
