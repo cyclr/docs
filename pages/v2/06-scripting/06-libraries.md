@@ -22,7 +22,7 @@ The following libraries are available within Cyclr’s script engine:
 |---|---|---|
 | `moment` |  Parse, validate, manipulate, and display dates and times in JavaScript. Cyclr also supports the Moment Timezone extension, which enables formatting and converting of dates in any timezone. | [Moment documentation](https://momentjs.com/).<br>[Moment Timezone documentation](https://momentjs.com/timezone/). |
 | `crypto-js` | JavaScript library of crypto standards.<br>**Warning**: The output of encrypted data is always in a hex string. The library doesn’t support formatting options such as `CryptoJS.enc` when you call `toString`. | [CryptoJS documentation](https://github.com/brix/crypto-js). |
+{: .three-col .col1-20 }
 
 </section>
-<section class="card">
 

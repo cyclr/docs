@@ -1,22 +1,24 @@
 ---
-title: General objects
+title: General properties
 sidebar: cyclr_sidebar
-permalink: general-objects
+permalink: general-properties
 tags: [templates]
 
 menus:
     scripting:
-        title: General objects
-        identifier: general-objects
+        title: General properties
+        identifier: general-properties
         toggleonly: menutoggleonly
-        weight: 2
+        weight: 3
 ---
 {::options parse_block_html="true" /}
 <section class="card">  
 
+General properties are variables that you can access from most event scripts.
+
 <table width="100%">
-	<col style="width:25%">
-	<col style="width:25%">
+	<col style="width:35%">
+	<col style="width:15%">
 	<col style="width:50%">
     <thead>
   <tr>

@@ -14,18 +14,18 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-INTRO ???
+Functions are specific tasks that you can use in your event scripts. 
 
 </section>
 <section class="card">
 
-## `http_request`
+## <code>http_request</code>
 
 You can use the `http_request` function to make external HTTP requests.
 
 When you call the `http_request` function, you need to provide a JSON object with the following properties.
 
-### `http_request` example
+### <code>http_request</code> example
 
 ```js
 function after_action() {
@@ -34,8 +34,8 @@ function after_action() {
         url: 'https://someapi.com/createsomething',
         headers: {
             'Authorization': 'Bearer ' + method_auth_value,
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
+            'Content-Type': 'application/on',
+            'Accept': 'application/on'
         },
         data: JSON.stringify({ MyData: 'some value' })
     });
@@ -57,7 +57,7 @@ function after_action() {
 </section>
 <section class="card">
 
-## `btoa`
+## <code>btoa</code>
 
 You can use the `btoa` function to use a specified destination character set to encode a string to Base64. 
 
@@ -86,7 +86,7 @@ var IsoBase64Encoded = btoa("Hĕllō Wōrld","iso-8859-1"); // SGVsbG8gV29ybGQ=
 </section>
 <section class="card">
 
-## `atob`
+## <code>atob</code>
 
 You can use the `atob` function to  use a specified source character set to decode a Base64 encoded string, back to its original value. 
 
@@ -112,11 +112,11 @@ var IsoBase64Decoded = atob("SGVsbG8gV29ybGQ=","iso-8859-1"); // Hĕllō Wōrld
 </section>
 <section class="card">
 
-## `cyclr_sign`
+## <code>cyclr_sign</code>
 
 You can use the `cyclr_sign` function to sign a string. This allows you to encode data with an algorithm.
 
-### `cyclr_sign` example
+### <code>cyclr_sign</code> example
 
 ```js
 var algorithm = 'HMAC-SHA1';
@@ -139,11 +139,11 @@ Cyclr supports the following algorithms:
 </section>
 <section class="card">
 
-## `cyclr_csv_parse`
+## <code>cyclr_csv_parse</code>
 
 You can use the `cyclr_csv_parse` function to parse a CSV string.
 
-### `cyclr_csv_parse` example
+### <code>cyclr_csv_parse</code> example
 
 ```js
 var csv = '1,2,3\na,b,c';
@@ -155,14 +155,14 @@ var csvRecords =  cyclr_csv_parse(csv, delimiter, hasHeader);
 </section>
 <section class="card">
 
-## `cyclr_xml_serialize`
+## <code>cyclr_xml_serialize</code>
 
 You can use the `cyclr_xml_serialize` function to convert JSON to XML.
 
-### `cyclr_xml_serialize` example
+### <code>cyclr_xml_serialize</code> example
 
 ```js
-var jsonObj = {
+var onObj = {
     note: {
         to: 'Tove',
         from: 'Jani',
@@ -172,7 +172,7 @@ var jsonObj = {
 };
 
 
-var jsonObjAsXml = cyclr_xml_serialize(jsonObj);
+var onObjAsXml = cyclr_xml_serialize(onObj);
 
 
 // Output:
@@ -182,11 +182,11 @@ var jsonObjAsXml = cyclr_xml_serialize(jsonObj);
 </section>
 <section class="card">
 
-## `cyclr_xml_deserialize`
+## <code>cyclr_xml_deserialize</code>
 
 You can use the `cyclr_xml_deserialize` function to convert XML to JSON.
 
-### `cyclr_xml_deserialize` example
+### <code>cyclr_xml_deserialize</code> example
 
 ```js
  var xmlStr = '<note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Dont forget me this weekend!</body></note>';

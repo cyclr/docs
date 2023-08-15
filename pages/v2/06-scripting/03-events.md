@@ -14,7 +14,12 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">  
 
-## `before_webhook`
+Events are functions that have an order of execution within Cyclr. You can use these functions to react to events that happen in Cyclr with your own script.
+
+</section>
+<section class="card"> 
+
+## <code>before_webhook</code>
 
 You can call `before_webhook` when a request is received and before you do anything else. You can use the method to decide if a request should continue or return a custom message to the caller instead.
 
@@ -54,11 +59,11 @@ You can call `before_webhook` when a request is received and before you do anyth
     </tr>
     <tr>
       <td><code>script_parameters</code></td>
-      <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+      <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
     </tr>
     <tr>
       <td><code>return</code></td>
-      <td>The return object set to <code>true</code> continues with the request to the third party API. The return object set to <code>false</code> aborts the request. <strong>Note</strong>: You can use <code>throw</code> for a more useful step error message.</td>
+      <td>The return object set to <code>true</code> continues with the request to the third party API. The return object set to <code>false</code> aborts the request. <br><strong>Note</strong>: You can use <code>throw</code> for a more useful step error message.</td>
     </tr>
   </tbody>
 </table>
@@ -66,7 +71,7 @@ You can call `before_webhook` when a request is received and before you do anyth
 </section>
 <section class="card"> 
 
-## `after_webhook`
+## <code>after_webhook</code>
 
 You can call `after_webhook` immediately after a request to a webhook is received, regardless of the status of the cycle.
 
@@ -86,7 +91,7 @@ You can call `after_webhook` immediately after a request to a webhook is receive
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>This object allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>This object allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -114,7 +119,7 @@ You can call `after_webhook` immediately after a request to a webhook is receive
 </section>
 <section class="card">
 
-## `before_action`
+## <code>before_action</code>
 
 You can call `before_action` before you make a request to an external API. Methods that use paging call this function before you retrieve each page.
 
@@ -146,7 +151,7 @@ You can call `before_action` before you make a request to an external API. Metho
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>Allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>Allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -174,11 +179,11 @@ You can call `before_action` before you make a request to an external API. Metho
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
-    <td>The return object set to <code>true</code> continues with the request to the third party API. The return object set to <code>false</code> aborts the request. <strong>Note</strong>: You can use <code>throw</code> for a more useful step error message.</td>
+    <td>The return object set to <code>true</code> continues with the request to the third party API. The return object set to <code>false</code> aborts the request. <br><strong>Note</strong>: You can use <code>throw</code> for a more useful step error message.</td>
   </tr>
 </tbody>
 </table>
@@ -187,7 +192,7 @@ You can call `before_action` before you make a request to an external API. Metho
 <section class="card">
 
 
-## `after_action`
+## <code>after_action</code>
 
 You can call the `after_action` function when Cyclr receives a response from the external API. Methods that use paging call this function after Cyclr retrieves each page.
 
@@ -218,11 +223,11 @@ You can call the `after_action` function when Cyclr receives a response from the
   </tr>
   <tr>
     <td><code>method_response</code></td>
-    <td>The object that contains the response data from the third party API. <strong>Note</strong>: If the method uses paging, this contains only the current page’s response.</td>
+    <td>The object that contains the response data from the third party API. <br><strong>Note</strong>: If the method uses paging, this contains only the current page’s response.</td>
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>This object allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>This object allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -254,7 +259,7 @@ You can call the `after_action` function when Cyclr receives a response from the
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -267,7 +272,7 @@ You can call the `after_action` function when Cyclr receives a response from the
 <section class="card">
 
 
-## `after_action_paging`
+## <code>after_action_paging</code>
 
 You can call the `after_action_paging` function after Cyclr retrieves all pages of data, regardless of whether you use paging.
 
@@ -291,7 +296,7 @@ You can call the `after_action_paging` function after Cyclr retrieves all pages 
     <td>The parameters for the request.</td>
   </tr>
   <tr>
-    <td>method_request_mergefields`</td>
+    <td><code>method_request_mergefields</code></td>
     <td>The mergefields for the request.</td>
   </tr>
   <tr>
@@ -300,7 +305,7 @@ You can call the `after_action_paging` function after Cyclr retrieves all pages 
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -328,7 +333,7 @@ You can call the `after_action_paging` function after Cyclr retrieves all pages 
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -340,7 +345,7 @@ You can call the `after_action_paging` function after Cyclr retrieves all pages 
 </section>
 <section class="card">
 
-## `after_error`
+## <code>after_error</code>
 
 You can call the `after_error` function when Cyclr receives an error from an external API.
 
@@ -359,7 +364,7 @@ You can call the `after_error` function when Cyclr receives an error from an ext
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>This object allows you to access Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>This object allows you to access Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -383,7 +388,7 @@ You can call the `after_error` function when Cyclr receives an error from an ext
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -396,7 +401,7 @@ You can call the `after_error` function when Cyclr receives an error from an ext
 </section>
 <section class="card">
 
-## `action_condition`
+## <code>action_condition</code>
 
 **Connector builder only**.
 
@@ -418,7 +423,7 @@ You can use the `action_condition` function to combine a method with a decision 
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>cycle_step_id</code></td>
@@ -442,7 +447,7 @@ You can use the `action_condition` function to combine a method with a decision 
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -454,7 +459,7 @@ You can use the `action_condition` function to combine a method with a decision 
 ### Example script
 
 
-```js
+```
 // Any records that pass the condition will continue down the green "True" path.
 // Those that do not will take the red "False" path.
 
@@ -472,7 +477,7 @@ function action_condition() {
 </section>
 <section class="card">
 
-## `before_oauth2_authorise`
+## <code>before_oauth2_authorise</code>
 
 **Connector builder only**.
 
@@ -493,7 +498,7 @@ You can call the `before_oauth2_authorise` event before Cyclr makes an OAuth 2 a
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -505,7 +510,7 @@ You can call the `before_oauth2_authorise` event before Cyclr makes an OAuth 2 a
 </section>
 <section class="card">
 
-## `before_oauth2_token`
+## <code>before_oauth2_token</code>
 
 **Connector builder only**.
 
@@ -530,11 +535,11 @@ You can call the `before_oauth2_token	` event before Cyclr makes an OAuth 2 acce
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -546,7 +551,7 @@ You can call the `before_oauth2_token	` event before Cyclr makes an OAuth 2 acce
 </section>
 <section class="card">
 
-## `after_oauth2_token`
+## <code>after_oauth2_token</code>
 
 **Connector builder only**.
 
@@ -567,11 +572,11 @@ You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 acce
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -583,7 +588,7 @@ You can call the `after_oauth2_token` function after Cyclr makes an OAuth 2 acce
 </section>
 <section class="card">
 
-## `before_oauth2_refresh`
+## <code>before_oauth2_refresh</code>
 
 **Connector builder only**.
 
@@ -608,11 +613,11 @@ You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 r
   </tr>
   <tr>
     <td><code>cycle_variables</code></td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>script_parameters</code></td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
     <td><code>return</code></td>
@@ -624,7 +629,7 @@ You can call the `before_oauth2refresh` function before Cyclr makes an OAuth 2 r
 </section>
 <section class="card">
 
-## `after_oauth2_refresh`
+## <code>after_oauth2_refresh</code>
 
 **Connector builder only**.
 
@@ -640,22 +645,22 @@ You can call the `after_oauth2_refresh` function after Cyclr makes an OAuth 2 re
 </thead>
 <tbody>
   <tr>
-    <td>`method_response`</td>
+    <td><code>method_response</code></td>
     <td>The object received from the OAuth 2 refresh token request.</td>
   </tr>
   <tr>
-    <td>`cycle_variables`</td>
-    <td>The object that allows access to Cycle variables. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td><code>cycle_variables</code></td>
+    <td>The object that allows access to Cycle variables. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-    <td>`script_parameters`</td>
-    <td> An object that contains any available script parameters from the connector and method. <strong>Note</strong>: Changes aren't persisted across cycles.</td>
+    <td><code>script_parameters</code></td>
+    <td> An object that contains any available script parameters from the connector and method. <br><strong>Note</strong>: Changes aren't persisted across cycles.</td>
   </tr>
   <tr>
-    <td>`return`</td>
-    <td>Inbuilt Cyclr functions must return `true`.</td>
+    <td><code>return</code></td>
+    <td>Inbuilt Cyclr functions must return <code>true</code>.</td>
   </tr>
 </tbody>
-</table></div>
+</table>
 
 </section>

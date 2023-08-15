@@ -16,4 +16,4 @@ menus:
     weight: 6
 ---
 {% assign categorydata = site.data.categories.plugins %}
-{% include v2/category/{{page.categorylayout}}.html identifier="plugins" intro=page.intro title=page.introtitle text=page.introtext %}
+{% include v2/category/{{page.categorylayout}}.html identifier="scripting" intro=page.intro title=page.introtitle text=page.introtext %}

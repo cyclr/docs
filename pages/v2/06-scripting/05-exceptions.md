@@ -14,12 +14,12 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-INTRO ???
+Exceptions are errors that prevent your script from performing as you expect. You can use these exception functions for to deal with authentication errors with your custom connector.
 
 </section>
 <section class="card">
 
-## `AuthRefreshException`
+## <code>AuthRefreshException</code>
 
 **Connector builder only**.
 
@@ -27,7 +27,7 @@ You can use this exception to force refresh the OAuth 2 authentication token. If
 
 When Cyclr receives the exception, Cyclr calls the OAuth 2 Access Token URL to get a new access token.
 
-### `AuthRefreshException` examples
+### <code>AuthRefreshException</code> examples
 
 For example, an API returns the code 200 with an error code in the response when the token becomes invalid:
 
@@ -57,7 +57,7 @@ function after_error() {
 </section>
 <section class="card">
 
-## `AuthSessionException`
+## <code>AuthSessionException</code>
 
 **Connector builder only**.
 
@@ -65,7 +65,7 @@ You can use this exception to force refresh the authentication session.
 
 When Cyclr receives this exception, Cyclr calls the Post Install Property Value Lookup Method to start a new session.
 
-### `AuthSessionException` examples
+### <code>AuthSessionException</code> examples
 For example, an API returns 200 with an error code in the response when the session expires:
 
 ```js
