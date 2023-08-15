@@ -19,18 +19,17 @@ You can create custom **Table Rows** objects to have methods specific to a Snowf
 5. Select **Copy**.
 
 </section>
-
 <section class="card">
 
-## Use last successful run date in an Table Rows > List Rows inline merge field
+## Use last successful run date in a Table Rows > List Rows inline merge field
 
-The **Where** parameter can normally include the `{{LastSuccessfulRunDate}}` inline merge field as follows to include the last successful run date:
+The **Where** parameter can normally include the `{{LastSuccessfulRunDate}}` inline merge field to include the last successful run date:
 
 ```sql
 CREATED_AT > '{{LastSuccessfulRunDate}}'
 ```
 
-Due to how the Snowflake API paginates data, the `{{LastSuccessfulRunDate}}` inline merge field cannot be used in this way and requires a work around. To do this, using the **Table Rows > List Rows** method in a cycle:
+Due to how the Snowflake API paginates data, you can't use the `{{LastSuccessfulRunDate}}` inline merge field in this way. To work around this, you can use the **Table Rows > List Rows** method in a cycle:
 1. Select **Step setup**.
 2. Set **Skip Pre-POST Request?** to `True`.
 3. Set **Where** to `Ignore`.
