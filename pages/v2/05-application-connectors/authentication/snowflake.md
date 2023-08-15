@@ -6,12 +6,10 @@ tags: [connector]
 linkedpage: true
 ---
 {::options parse_block_html="true" /}
+
 <section class="card">
+    
 <a name="snowflake-setup"></a>
-
-
-</section>
-<section class="card">
 ## Snowflake setup
 
 You need the following information to set up the Snowflake connector in Cyclr:
@@ -20,13 +18,9 @@ You need the following information to set up the Snowflake connector in Cyclr:
 -   The [account identifier](#getting-the-account-identifier) associated with your Snowflake account.
 
 <a name="creating-a-secutiry-integration"></a>
+### Creating a security integration
 
-
-</section>
-<section class="card">
-## Creating a security integration
-
-You need to create a security integration in Snowflake to [get the client ID and client secret](#getting-the-client-id-and-client-secret). You can find Snowflake's guide on creating a security integration in the Snowflake console [here](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration.html#snowflake-oauth). The following example creates a security integration called `cyclr_oauth` that issues a refresh token once per day:
+You need to create a security integration in Snowflake to [get the client ID and client secret](#getting-the-client-id-and-client-secret). You can find Snowflake's guide on creating a security integration in the Snowflake console [here](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration.html#snowflake-oauth). The following example creates a security integration called `cyclr_oauth` that issues a refresh token once every 90 days:
 
 ```sql
 create or replace security integration
@@ -37,17 +31,15 @@ create or replace security integration
     OAUTH_CLIENT_TYPE = CONFIDENTIAL
     OAUTH_REDIRECT_URI = 'https://example.cyclr.com/connector/callback'
     OAUTH_ISSUE_REFRESH_TOKENS = TRUE
-    OAUTH_REFRESH_TOKEN_VALIDITY = 86400;
+    OAUTH_REFRESH_TOKEN_VALIDITY = 7776000;
 ```
 
-**Note**: The `OAUTH_REDIRECT_URI` field must point to the OAuth redirect URL of your Cyclr account. This has the format: `https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback`.
+> **Warning**: Snowflake do not allow refresh tokens to be refreshed using the API. User **must** log in again once the refresh token expires. You can extend the duration of the refresh token by contacting your Snowflake account administrator, see Snowflakes documentation [here](https://community.snowflake.com/s/article/FAQs-Snowflake-OAuth) for more information.
+
+> **Note**: The `OAUTH_REDIRECT_URI` field must point to the OAuth redirect URL of your Cyclr account. This has the format: `https://{Your Cyclr service domain e.g. app-h.cyclr.com}/connector/callback`.
 
 <a name="getting-the-client-id-and-client-secret"></a>
-
-
-</section>
-<section class="card">
-## Getting the client ID and client secret
+### Getting the client ID and client secret
 
 You need a client ID and client secret to authenticate the Snowflake connector in Cyclr. Before you can get these you need to [create a security integration](#creating-a-secutiry-integration). You can find Snowflake's guide on getting the client ID and client secret in the Snowflake console [here](https://docs.snowflake.com/en/sql-reference/functions/system_show_oauth_client_secrets.html). The following example gets the client ID and client secret for the security integration created in the previous section:
 
@@ -58,27 +50,19 @@ select system$show_oauth_client_secrets('CYCLR_OAUTH');
 **Note**: The integration name `cyclr_oauth` is converted to upper case and you need to enter `CYCLR_OAUTH` instead for this request.
 
 <a name="getting-the-account-identifier"></a>
-
-
-</section>
-<section class="card">
-## Getting the account identifier
+### Getting the account identifier
 
 You need your account identifier to authenticate the Snowflake connector in Cyclr. Your account identifier is the subdomain in your Snowflake account URL provided on account creation. This is the same URL that you use to log in to Snowflake. For example, the account URL `https://AB12345.europe-west1.gcp.snowflakecomputing.com` has the account identifier `AB12345.europe-west1.gcp`.
 
-<a name="cyclr-setup"></a>
-
-
 </section>
+
 <section class="card">
+    
+<a name="cyclr-setup"></a>
 ## Cyclr setup
 
 <a name="console-setup"></a>
-
-
-</section>
-<section class="card">
-## Console setup
+### Console setup
 
 To set up your Snowflake connector within your Cyclr console:
 
@@ -87,20 +71,14 @@ To set up your Snowflake connector within your Cyclr console:
 3. Use the search box to find the **Snowflake** connector.
 4. Select the **Setup Required** icon.
 5. Enter the below values, omitting this step will allow you to use different settings for each account on installation:
-6. 
     | Value             | Description                                                  |
     | ----------------- | ------------------------------------------------------------ |
     | **Client ID**     | The [client ID](#getting-the-client-id-and-client-secret) of your Snowflake account. |
     | **Client Secret** | The [client secret](#getting-the-client-id-and-client-secret) of your Snowflake account. |
-    
-6. Select **Save Changes**.
+7. Select **Save Changes**.
 
 <a name="account-setup"></a>
-
-
-</section>
-<section class="card">
-## Account setup
+### Account setup
 
 You will be asked for the following values when installing the Snowflake connector within an account:
 
