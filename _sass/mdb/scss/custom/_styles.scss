@@ -49,6 +49,8 @@ body {
     font-size: $body-font-size;
     font-weight: $body-font-weight;
     line-height: $body-line-height;
+    code {
+        font-size: $body-font-size;
     }
 }
 
