@@ -31,7 +31,7 @@ You can present your users with the option to install an integration. This can b
 
 When your user selects the link, LAUNCH opens a browser popup which displays a list of valid integrations that they can install.
 
-<img src="./images/select-integration.png" alt="{Select Integration screen" width="60%">
+<img src="./images/select-integration.png" alt="Select Integration screen" width="60%">
 
 If there is only one integration template that applies to the user, the user bypasses this screen.
 
@@ -57,7 +57,7 @@ LAUNCH presents the user with a screen to allow them to set up each step in the 
 * Your user might need to select a value from a predetermined list of valid values. For example, an email contact status: **Subscribed** or **Unsubscribed**.
 * Your user might need to provide text values for complete flexibility. For example, this could be the source of an email lead.
 
-<img src="./images/launch-field-mapping.png" alt="{Field mapping." width="60%"> 
+<img src="./images/launch-field-mapping.png" alt="Field mapping." width="60%"> 
 
 </section>
 <section class="card">
