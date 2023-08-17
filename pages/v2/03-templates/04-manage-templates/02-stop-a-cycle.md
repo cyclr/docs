@@ -24,7 +24,7 @@ There are two ways that you can stop an in progress integration: **Stop** or **F
 
 ## Stop
 
-If you select **Stop**, any in progress transactions stop immediately and the integration stops running. 
+If you select **Stop**, any [in progress transactions](#in-progress-transactions) stop immediately and the integration stops running. 
 
 Any in-progress transactions don’t continue if you resume the cycle. Transactions that haven’t started yet do continue if you resume the cycle, unless 24 hours pass, when the integration cancels all waiting transactions.
 
@@ -49,7 +49,7 @@ To view your in progress and queued transactions for a cycle in an account, sele
 
 ## Manually drop transactions
 
-You can stop processing an in progress or queued transactions for an integration:
+You can stop processing in progress or queued transactions for an integration:
 
 1. Select **Stop** to stop the integration immediately.
 2. Select **Copy Workflow** to make a copy of the integration cycle.

@@ -62,6 +62,6 @@ If you map from multiple lists of data on a step and need to specify how the two
 
 ![A screenshot of the unique field message in the Cyclr console.](./images/what-unique-field.png)
 
-If there isn't a field that connects the list's sources, or if one or more of your lists contain items that match multiple items in another list, you might need to split your data earlier in the Cycle.
+If there isn't a field that connects the list's sources, or if one or more of your lists contain items that match multiple items in another list, you might need to split your data earlier in the Cycle. If you don't split the data, then Cyclr maps all of the data and creates duplicates.
 
 </section>
