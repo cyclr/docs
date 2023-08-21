@@ -11,7 +11,7 @@ introtext: >-
 menus:
   embedding:
     title: Marketplaces
-    identifier: marketplaces
+    identifier: marketplace
     weight: 5
 ---
 {% assign categorydata = site.data.categories.marketplace %}
