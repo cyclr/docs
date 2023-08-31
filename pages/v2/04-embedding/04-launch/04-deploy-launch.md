@@ -43,12 +43,19 @@ curl -X POST
 
 -d '{
     "AccountName": "CYCLR_ACCOUNT_NAME",
-    "ConnectorAuthentications": {
-        "Name": "Example Connector",
-        "Version": "1.0",
-        "AuthValue": "XXXXXXXXXX",
-        "Properties": [{"Name": "Url", "Value": "http://customDomain.appName.com"}]
-    }
+    "ConnectorAuthentications": [
+        {
+            "Name": "Example Connector",
+            "Version": "1.0",
+            "AuthValue": "XXXXXXXXXX",
+            "Properties": [
+                {
+                    "Name": "Url",
+                    "Value": "http://customDomain.appName.com"
+                }
+            ]
+        }
+    ]
 }' "https://{CyclrAPIDomain}/v1.0/accounts/CYCLR_ACCOUNT_API_ID/launch"
 ```
 ### Request parameters
