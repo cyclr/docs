@@ -12,7 +12,7 @@ tags: [connector]
 
 ## Cyclr setup
 
-To authenticate your connector, you need the following information Epicor account.
+You need the following information to authenticate the Epicor connector:
 
 | Field            | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
