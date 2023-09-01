@@ -16,10 +16,10 @@ You need the following information to authenticate the Epicor connector:
 
 | Field            | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
-| Kinetic Server   | The Kinetic Server domain of your Epicor Kinetic account. this will be just domain without any HTTP protocals for example: `ukkineticserver00.epicorsaas.com` |
-| Kinetic Instance | The unique ID for the Instance of the Epicor Kinetic Server you wish to access. for example: `Test001Pilot` |
-| API Key          | The API Key for your Epicor account. To request an API Key you will need to contact [Epicor Support](https://epiccare.epicor.com/epiccare) |
-| Company ID       | The ID associated to the Company for the Epicor Kinetic account. |
+| Kinetic Server   | The Epicor Kinetic Server account domain and subdomain not including the protocol. For example, if the Epicor Kinetic Server URL is `https://ukkineticserver00.epicorsaas.com` then enter `ukkineticserver00.epicorsaas.com` |
+| Kinetic Instance | The Epicor Kinetic Server unique instance ID. For example, `Test001Pilot`. |
+| API Key          | The Epicor Kinetic account API key used to connect to the Epicor Kinetic Instance. To request an API Key, please contact [Epicor Support](https://epiccare.epicor.com/epiccare). |
+| Company ID       | The Epicor Kinetic account company ID. |
 
 
 
