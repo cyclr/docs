@@ -8,7 +8,9 @@ keywords: [intuit]
 {::options parse_block_html="true" /}
 <section class="card">
 
-## QuickBooks setup
+## QuickBooks setup 
+
+> This only needs to be completed one time.  Once your details are entered into the console you will be able to use them for all of your customers, without any need for them to be involved.
 
 To authenticate the Quickbooks connector, you need a **Client ID** and **Client Secret**.
 
