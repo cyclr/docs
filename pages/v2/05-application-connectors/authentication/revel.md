@@ -12,7 +12,7 @@ linkedpage: true
 
 ### Requirements
 
-In order to get a an API Key you need to contact your Revel sales rep to get a Partner Connect subscription. 
+In order to get an API Key you need to contact your Revel sales rep to get a Partner Connect subscription. 
 Once subscription is online, Revel Operations team will set up the keys and email them to specified email. 
 
 To connect with Cyclr, you need the following authentication details:
