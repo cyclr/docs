@@ -12,7 +12,7 @@ linkedpage: true
 
 ### Register Application
 
-Before setting up the Nice CXOne connector, you will need to register an application, which can be done [here](https://developer.niceincontact.com/Documentation/ApplicationRegistration).
+To setup up the Nice CXOne connector, you need to register an Application. You can find Nice CXOne's guide to do this [here](https://developer.niceincontact.com/Documentation/ApplicationRegistration).
 
 ### Get authentication details
 
