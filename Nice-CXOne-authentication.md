@@ -21,7 +21,7 @@ To authenticate the Nice CXOne connector, you need to:
 - Get an Access Key ID and Access Key Secret.
 
 
-Your Access Key ID and Access Key Secret can be obtained by:
+Obtain an Access Key ID and Access Key Secret by:
 
 1. Click Profile in the right corner of the CXone top navigation bar.
 
