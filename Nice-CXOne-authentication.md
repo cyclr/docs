@@ -20,7 +20,6 @@ To authenticate the Nice CXOne connector, you need to:
 - Register an Application to receive a Client ID and Client Secret.
 - Get an Access Key ID and Access Key Secret.
 
-Your Client ID and Client Secret can be obtained through the [application registration](https://developer.niceincontact.com/Documentation/ApplicationRegistration) process and will be provided by CXOne.
 
 Your Access Key ID and Access Key Secret can be obtained by:
 
