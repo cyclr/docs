@@ -63,7 +63,7 @@ To set up the Nice CXOne connector in Cyclr, go to your Cyclr console:
 
 ### Account setup
 
-Cyclr asks you for the below values when you install the Nice CXOne connector into an account:
+When you install the Nice CXOne connector into an account, Cyclr asks for any values not entered in your partner console, along with the following:
 
 | **Value**         | **Description**                                              |
 | :---------------- | :----------------------------------------------------------- |
