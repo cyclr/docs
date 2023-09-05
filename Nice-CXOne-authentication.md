@@ -52,8 +52,10 @@ To set up the Nice CXOne connector in Cyclr, go to your Cyclr console:
 
    | **Value** | **Description**                  |
    | :-------- | :------------------------------- |
-   | username  | Your application's Client ID.    |
-   | password  | Your application's Client Secret |
+   | username  | The Username of your Nice CXOne account.    |
+   | password  | The Password of your Nice CXOne account. |
+   | Access Key ID  | The Access Key ID of your registered Application.    |
+   | Access Key Secret  | The Access Key Secret of your registered Application. |
 
 5. Select **Save Changes**.
 
