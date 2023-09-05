@@ -30,9 +30,7 @@ Obtain an Access Key ID and Access Key Secret by:
 3. Click **Access Keys**. 
 4. Click **Add Access Key**.
 
-   Note:
-
-   You can only view the **Secret Access Key** while you are in the My Profile window. Once you exit the window, you will no longer be able to view the secret key.
+> **Note**: You can only view the **Secret Access Key** while you are in the My Profile window. Once you exit the window, you will no longer be able to view the Secret Key.
 
 If you have any trouble obtaining an Access Key ID and Access Key Secret, follow [this guide](https://help.nice-incontact.com/content/globalfeatures/myprofile/myprofile.htm) or contact your Nice CXOne account manager.
 
