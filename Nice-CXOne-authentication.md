@@ -65,10 +65,9 @@ To set up the Nice CXOne connector in Cyclr, go to your Cyclr console:
 
 When you install the Nice CXOne connector into an account, Cyclr asks for any values not entered in your partner console, along with the following:
 
-| **Value**         | **Description**                                              |
-| :---------------- | :----------------------------------------------------------- |
-| Access Key ID     | The user access key id from a user on the business unit you want to make the API call against. |
-| Access Key Secret | The user access key secret from a user on the business unit you want to make the API call against. |
+| **Value** | **Description**                                              |
+| :-------- | :----------------------------------------------------------- |
+| Base URL  | The Base URL of your Nice CXOne instance. For example, `https://subdomain.domain-nice.com`. |
 
 > **Note**: You can use different details for different accounts.
 
