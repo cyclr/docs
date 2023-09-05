@@ -27,7 +27,8 @@ Obtain an Access Key ID and Access Key Secret by:
 
 2. Click **My Profile** from the drop-down.
 
-3. Click **Access Keys**. Click **Add access key**.
+3. Click **Access Keys**. 
+4. Click **Add Access Key**.
 
    Note:
 
