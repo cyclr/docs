@@ -23,12 +23,12 @@ To authenticate the Nice CXOne connector, you need to:
 
 Obtain an Access Key ID and Access Key Secret by:
 
-1. Click Profile in the right corner of the CXone top navigation bar.
+1. Select Profile in the right corner of the CXone top navigation bar.
 
-2. Click **My Profile** from the drop-down.
+2. Select **My Profile** from the drop-down.
 
-3. Click **Access Keys**. 
-4. Click **Add Access Key**.
+3. Select **Access Keys**. 
+4. Select **Add Access Key**.
 
 > **Note**: You can only view the **Secret Access Key** while you are in the My Profile window. Once you exit the window, you will no longer be able to view the Secret Key.
 
