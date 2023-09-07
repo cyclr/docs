@@ -34,7 +34,8 @@ If you have any trouble obtaining a Public and Private key, follow this guide or
 
 ## Cyclr setup
 
-To set up the Shop Monkey connector in Cyclr, go to your Cyclr console:
+To set up the Shopmonkey connector in Cyclr, go to your Cyclr console:
+
 
 1. Go to **Connectors** > **Application Connector Library**.
 
