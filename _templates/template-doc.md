@@ -13,8 +13,9 @@ menus:
 {::options parse_block_html="true" /}
 <section class="card">
 
-## h2 doc title
+## h2 heading
 
-### h3 doc title 
+
+### h3 heading
 
 </section>
