@@ -15,7 +15,8 @@ linkedpage: true
 
 ### Get authentication details
 
-To authenticate your connector, you need a Public Key and a Private Key. 
+To authenticate your connector, you need the Public Key and a Private Key for your Shopmonkey account.
+
 
 ### Get a Public Key and Private Key
 
