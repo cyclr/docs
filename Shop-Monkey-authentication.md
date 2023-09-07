@@ -58,7 +58,8 @@ To set up the Shopmonkey connector in Cyclr, go to your Cyclr console:
 
 ### Account setup
 
-Cyclr asks you for the below values when you install the Shop Monkey connector into an account:
+Cyclr asks you for the below values when you install the Shopmonkey connector into an account:
+
 
 | **Value**  | **Description**                                            |
 | :--------- | :--------------------------------------------------------- |
