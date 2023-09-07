@@ -28,4 +28,3 @@ The External Authentication feature allows the authentication credentials of a c
 2. Even if you turn off "Use External Authentication" within a step and leave the mapping of one or more of the authentication parameters, this will still get used when the cycle runs. Any authentication mappings will need to be manually removed/unmapped to use all the authentication values from the installed connector.
 
 </section>
-<section class="card">
