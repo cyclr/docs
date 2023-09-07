@@ -9,7 +9,8 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-## Shop Monkey setup
+## Shopmonkey setup
+
 
 
 ### Get authentication details
