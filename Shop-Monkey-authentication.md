@@ -1,5 +1,6 @@
 ---
-title: Shop Monkey authentication
+title: Shopmonkey authentication
+
 sidebar: cyclr_sidebar
 permalink: shop-monkey-connector
 tags: [connector]
