@@ -63,8 +63,9 @@ Cyclr asks you for the below values when you install the Shopmonkey connector in
 
 | **Value**  | **Description**                                            |
 | :--------- | :--------------------------------------------------------- |
-| URL        | The Base URL of your Shop Monkey integration to call from. |
-| APIVersion | The version of the Shop Monkey API being used.             |
+| URL        | The Base URL of your Shopmonkey integration to call from. |
+| API Version | The version of the Shopmonkey API being used.             |
+
 
 > **Note**: You can use different details for different accounts.
 
