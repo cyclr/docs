@@ -27,22 +27,41 @@ With the External Authentication setting enabled, the following becomes availabl
 
 ## Using External Authentication
 
-If you wish to authenticate one or more of your Connectors externally, Cyclr is equipped to handle this.
+With Cyclr's External Authentication feature, you can set connector authentication credentials on individual steps.
 
-The External Authentication feature allows the authentication credentials of a connector to be set and passed into an individual step, rather than relying on the connector to be authenticated beforehand. This means that different credentials can be used each time the cycle is run.
-
-Within the Step Setup of a Connector, there is a setting under Advanced Settings called "Use External Authentication". Enabling this feature will refresh the modal and display any Parameters related to Authentication. The Parameters that appear can then be setup like any other field mapping.
-
-These values are normally returned by the third-party provider when authenticating the Connector using Cyclr. However, when using this feature, the values will need to be obtained manually and entered into the newly provided parameters.
-
-If you wish to return to using Cyclr for authentication handling, you will need to remove the previous values provided; disabling "Use External Authentication" will not be enough.
+You can use different credentials each time the cycle is run, and do not need to authenticate the connector beforehand.
 
 </section>
 <section class="card">
 
-## Notes
+## Enable External Authentication
 
-1. Turning on "Use External Authentication" within a step will remove the restriction of requiring the connector to be authenticated before the Cycle can be run. However, some other functions within Cyclr, like testing methods outside of the builder, will require the connector to be authenticated.
-2. Even if you turn off "Use External Authentication" within a step and leave the mapping of one or more of the authentication parameters, this will still get used when the cycle runs. Any authentication mappings will need to be manually removed/unmapped to use all the authentication values from the installed connector.
+1. Go to the Step Setup
+2. Go to Advanced Settings
+3. Check the "Use External Authentication" setting
+4. The modal refreshes to display any Parameters related to Authentication
+5. Setup the Parameters like any other field mapping
+
+Normally the third-party provider returns the values when Cyclr's connector authentication is successful. 
+
+With External Authentication, you obtain the values manually and enter them into the newly provided parameters.
+
+**Note**
+
+External Authentication removes the requirement to authenticate the step's connector before the Cycle runs. Some other functions within Cyclr, such as testing methods outside of the builder, do require the connector to be authenticated.
+
+</section>
+<section class="card">
+
+## Disable External Authentication
+
+To return to using Cyclr for authentication handling, you must:
+
+1. Remove the previous values provided
+2. Uncheck "Use External Authentication" setting
+
+**Note** 
+
+If you disable "Use External Authentication" but leave any authentication parameter mappings, the cycle continues to use these. Remove all authentication mappings to use all of the installed connector's authentication values.
 
 </section>
