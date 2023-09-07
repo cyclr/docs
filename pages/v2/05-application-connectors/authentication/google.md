@@ -11,6 +11,9 @@ tags: [connector]
 
 Google makes use of OAuth 2.0 for remote API access. You must register Cyclr with Google as your own Project to receive OAuth Client ID and Client Secret values to enable Cyclr to authenticate with Google.
 
+### Create a Google Cloud Developer Account
+To access Google's APIs you will need to create a google cloud developer account with an existing google email address. For information on on creating a Google Cloud Developer Account, see [Google's Getting Started Guide](https://cloud.google.com/apis/docs/getting-started). 
+
 For your reference, here is a link to [Google’s own documentation](https://developers.google.com/identity/protocols/OAuth2WebServer).
 
 
@@ -21,8 +24,6 @@ For your reference, here is a link to [Google’s own documentation](https://dev
 To set up access for the Google connector, you need to provide your Cyclr [Service domain](cyclr-api-authentication#service-domain). To view your service domain in your Cyclr console, go to **Settings** > **General Settings** and see the **Service Domain** field.
 
 > **Important**: In order for Google to verify your project, you need to add your own [custom service domain](custom-domains). If you change your service domain, you need to re-authenticate any existing Google connectors. 
-
-
 
 </section>
 <section class="card">
