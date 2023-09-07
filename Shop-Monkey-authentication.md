@@ -30,7 +30,8 @@ To get the Public and Private Keys for your Shopmonkey account:
 6. Make note of the **Public Key** and **Private Key**.
 
 
-If you have any trouble obtaining a Public and Private key, follow this guide or contact your Shop Monkey account manager.
+Shopmonkey's guide on getting your Public and Private Keys is [here](https://www.shopmonkey.io/help/how-do-i-use-the-shopmonkey-api). If you have an issue getting your Public or Private Keys, contact your Shopmonkey account manager.
+
 
 </section>
 
