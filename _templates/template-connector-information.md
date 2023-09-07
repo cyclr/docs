@@ -10,4 +10,6 @@ linkedpage: true
 
 ## Additional information
 
-</section.
+### h3 heading
+
+</section>
