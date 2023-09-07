@@ -60,7 +60,9 @@ To set up for a local site:
 $ git clone https://github.com/cyclr/docs.git
 ```
 4. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-5. Open the command line at the root of your Github repository and run `bundle install` to install all dependencies.
+    *  For Windows users download the latest `Ruby+Devkit` x64 installer from [RubyInstaller for Windows](https://rubyinstaller.org/downloads/)
+    *  Use the following [step by step tutorial](https://www.geeksforgeeks.org/how-to-install-rubygems-in-windows/) to guide you through the installation process for Windows
+6. Open the command line at the root of your Github repository and run `bundle install` to install all dependencies.
     *  If `bundle install` is unsuccessful, you can delete the `gemfile.lock` file and retry.
 
 To build the local site:
