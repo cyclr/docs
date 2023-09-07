@@ -20,12 +20,15 @@ To authenticate your connector, you need the Public Key and a Private Key for yo
 
 ### Get a Public Key and Private Key
 
-The keys can be obtained through this method:
+To get the Public and Private Keys for your Shopmonkey account:
 
-- Login to Shopmonkey.
-- Go to Settings / API & Webhooks and enable the API
-- Select your user profile name in the upper-right and then select "Update Personal Info"
-- Collect both the Public and Private Keys
+1. Log in to Shopmonkey.
+2. Select **Settings > API & Webhooks**.
+3. Set the **Enable API** toggle to `True`.
+4. In the upper-right corner, select your user profile name.
+5. Select **Update Personal Info**.
+6. Make note of the **Public Key** and **Private Key**.
+
 
 If you have any trouble obtaining a Public and Private key, follow this guide or contact your Shop Monkey account manager.
 
