@@ -39,7 +39,8 @@ To set up the Shopmonkey connector in Cyclr, go to your Cyclr console:
 
 1. Go to **Connectors** > **Application Connector Library**.
 
-2. Use the search box to find the Shop Monkey connector.
+2. Use the search box to find the Shopmonkey connector.
+
 
 3. Select the **Setup Required** icon.
 
