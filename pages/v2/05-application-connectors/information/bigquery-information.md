@@ -8,9 +8,9 @@ linkedpage: true
 {::options parse_block_html="true" /}
 <section class="card">
 
-## Create a Table Custom Object
+## Create a Table Custom Object Category
 
-To access each table within a project and dataset, you can create a Custom Object. If you create multiple custom objects, you can have multiple tables under a single connector installation.
+You can create a Custom Object Category to access each table within a project and dataset as it's own method category. Create multiple Custom Object Categories to access multiple tables under a single connector installation.
 
 > **Warning**: You need to install the Google BigQuery connector with a [**Project ID** and **Dataset ID**](bigquery-connector) for table custom objects to function. 
 
@@ -19,7 +19,7 @@ To create a table Custom Object, from the **Edit Connector** page of the Google 
 1. Under the **Methods & Fields** heading, select the **Tables** methods category.
 2. Select the pink **Copy this Category to create a Custom Category Object** icon.
 3. Select the **Select object** dropdown.
-4. Select the table you want to create a Custom Object for.
+4. Select the table you want to create a Custom Object Category for.
 5. Select **Copy**.
 
 The methods within the new method category you created now target the selected table.
@@ -39,9 +39,9 @@ When you use the **List Partial Table Data** method, you need to track the last 
 
 Install the Google BigQuery connector using the [Google BigQuery Authentication Guide](bigquery-connector).
 
-#### Create a Tables Custom Object
+#### Create a Tables Custom Object Category
 
-[Create a Tables Custom Object](#create-a-table-custom-object) that targets the required table.
+[Create a Tables Custom Object](#create-a-table-custom-object-category) that targets the required table.
 
 #### Install the Generic Webhook Connector
 
@@ -56,7 +56,7 @@ Install the Google BigQuery connector using the [Google BigQuery Authentication 
 
 > **Note**: You only need to do this step for the **List Partial Table Data** method.
 
-To allow the next request to send the last index of the table data returned in the current request, add request fields to the Generic Webhook connector:
+To allow the next request to use the last index of the table data returned in the current request, you must add request fields to the Generic Webhook connector that track the index:
 
 Navigate to the **Edit Connector** page for the Generic Webhook Connector:
  * From the console, select **Templates > Template Connectors**. Under the **Installed Utility Connectors** heading, select the **Edit Connector** icon next to the the **Generic Webhook Connector**. This will have the name entered in [Install the Generic Webhook Connector](#install-the-generic-webhook-connector).
@@ -67,16 +67,20 @@ Navigate to the **Edit Connector** page for the Generic Webhook Connector:
 1. Under the **Methods and Fields** heading, select **HTTP Methods**.
 2. Select **POST**.
 3. Under the **Request Fields** heading, select the **Add Field** icon.
-4. Set the **Field Location** field. Set the **Data Type** to `Integer`.
-5. Select **Create**.
+4. Set the **Field Location** to `lastIndex`.
+5. Set the **Display Name** to `Last Index`.
+6. Set the **Data Type** to `Integer`.
+7. Select **Create**.
 
 ##### Add a request field to the Webhook method
 
 1. Under the **Methods and Fields** heading, select **Webhooks**.
 2. Select **Webhook**.
 3. Under the **Request Fields** heading, select the **Add Field** icon.
-4. Set the **Field Location** field. Set the **Data Type** to `Integer`.
-5. Select **Create**.
+4. Set the **Field Location** to `lastIndex`.
+5. Set the **Display Name** to `Last Index`.
+6. Set the **Data Type** to `Integer`.
+7. Select **Create**.
 
 ### Create a Cycle
 
@@ -129,11 +133,15 @@ The POST method must target the Webhook method to allow the Cycle to send a requ
 1. Select the **Step setup** of the **List Partial Table Data** method.
 2. Select **Ignore** next to the **Start Index** field.
 3. Select **Webhook**.
-4. Select **Nothing Selected** and select the field added in the [add a request field to the Webhook method](#add-a-request-field-to-the-webhook-method) step and close the window.
-5. Select the **Step setup** icon of the **POST** method.
-6. Select **Ignore** next to the field added in the [add a request field to the POST method](#add-a-request-field-to-the-post-method) step.
-7. Select the **List Partial Table Data** method.
-8. Select **Nothing Selected** and select **Last Row Index** and close the window.
+4. Select **Nothing Selected**.
+5. Select **Last Index**. This is the field added in the [add a request field to the Webhook method](#add-a-request-field-to-the-webhook-method) step.
+6. Close the window.
+7. Select the **Step setup** icon of the **POST** method.
+8. Select **Ignore** next to the **Last Index** field. This is the field added in the [add a request field to the POST method](#add-a-request-field-to-the-post-method) step.
+9. Select the **List Partial Table Data** method.
+10. Select **Nothing Selected**.
+11. Select **Last Row Index**.
+12. Close the window.
 
 #### Configure the Rows Per Execution setting
 
@@ -162,7 +170,7 @@ For example, a delay duration of 12 hours makes the Cycle check for new table da
 
 You can give other users access to a dataset. For more information, see Google BigQuery's documentation on [IAM access control](https://cloud.google.com/bigquery/docs/access-control).
 
-You can add access for another user from the [Google BigQuery console](https://console.cloud.google.com/bigquery):
+Add access for another user from the [Google BigQuery console](https://console.cloud.google.com/bigquery):
 
 1. From the **Explorer** pane, navigate and select the dataset.
 2. From the dataset navigation menu bar, select **Sharing** > **Permissions**.
