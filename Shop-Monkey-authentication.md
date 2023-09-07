@@ -48,8 +48,9 @@ To set up the Shopmonkey connector in Cyclr, go to your Cyclr console:
 
    | **Value**   | **Description**                            |
    | :---------- | :----------------------------------------- |
-   | Public Key  | The Public Key obtained from Shop Monkey.  |
-   | Private Key | The Private Key obtained from Shop Monkey. |
+   | Public Key  | The Public Key obtained from Shopmonkey.  |
+   | Private Key | The Private Key obtained from Shopmonkey. |
+
    
 5. Select **Save Changes**.
 
