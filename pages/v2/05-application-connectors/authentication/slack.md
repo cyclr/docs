@@ -11,7 +11,7 @@ linkedpage: true
 
 Slack uses OAuth 2.0 for authentication so you need to [register your Cyclr Partner with Slack](https://api.slack.com/apps) to obtain your **Client ID** and **Client Secret** values.
 
-From [https://api.slack.com/apps](https://api.slack.com/apps), select the **Create an App** button then enter the:
+From [https://api.slack.com/apps](https://api.slack.com/apps), select the **Create an App** button, select **From scratch** then enter the:
 *  **App Name** - a name for your App.  This will be shown on-screen when users install the Slack Connector, and also appear as the username when you post to Slack.
 *  **Development Slack Workspace** - which Slack Workspace your App belongs to.  This just gives it a "home" and doesn't prevent it from being installed in other people's workspaces.
 
