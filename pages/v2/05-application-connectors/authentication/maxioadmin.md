@@ -1,7 +1,7 @@
 ---
-title: Chargify
+title: Maxio
 sidebar: cyclr_sidebar
-permalink: chargify-admin-connector
+permalink: maxio-admin-connector
 tags: [connector]
 ---
 {::options parse_block_html="true" /}
@@ -16,7 +16,7 @@ When installing the connector you will be asked for:
 
  - **Client ID** - Client ID as provided
  - **Secret** - Secret as provided
- - **Domain** - If your base URL is "https://chargify-admin-dev.test.com" this would be "chargify-admin-dev.test.com"
+ - **Domain** - If your base URL is "https://maxio-admin-dev.test.com" this would be "maxio-admin-dev.test.com"
 
 When installing the connector enter the API key obtained in above steps.
 
