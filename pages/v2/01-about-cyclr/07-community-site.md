@@ -62,17 +62,10 @@ If you or anyone at your organisation has raised an issue with the Cyclr Support
 You can also see your organisation's historical closed tickets here - this allows you to access tickets related to your organization even if the requestor isn't available.
 
 The portal displays both who requested each ticket and who is assigned to resolve the issue. You can also see the status, creation date and when the ticket was last updated.
-
-If you haven't accessed your tickets in this way before, you need to register and sign in.
     
-To activate your access to Cyclr’s Zendesk portal:
+To enable access to your historical tickets:
 1. Go to [`http://support.cyclr.com/`](https://support.cyclr.com).
-2. Select **Sign In** at the top right of the screen
-3. At the bottom of the sign-in window, next to the text **Have you emailed us?**, select **Get a password**.
-
-    ![A screenshot of the Cyclr Zendesk sign-in page that highlights the Get a password link.](./images/zendesk-portal.png)
-
-4. In the next window, enter the email you used for the support request into the **Email** field and select **Submit**.
-5. Go to the email you receive from Zendesk and follow the instructions to proceed.
+2. Click **Help Center** at the top right of the screen and click **Log In**
+3. Enter your email, and if you have not accessed the portal before you may need to set a new password using the "Forgot Password" option.
 
 </section>
