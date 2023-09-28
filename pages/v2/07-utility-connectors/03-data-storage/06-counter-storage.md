@@ -21,7 +21,7 @@ menus:
   
 ## Purpose
 
-To keep multiple counters, scoped globally or to a Cycle, you can use the **Counter Storage** Connector.
+ The **Counter Storage** Connector allows for multiple counters, either stored globally or within a Cyclr, to be tracked.
 
 Counters can be created and updated in one part of the Cycle and retrieved in another.
 
