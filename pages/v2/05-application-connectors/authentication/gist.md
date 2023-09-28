@@ -9,7 +9,7 @@ tags: [connector]
 
 ## Gist setup
 
-To authenticate your connector, you need to get the API Key gtom your Gist account. To find your API Key, go to the [Gist Website Settings](https://app.getgist.com/projects/hipgyaas/settings/api-key) page.
+To authenticate your connector, you need to get the API Key from your Gist account. To find your API Key, go to the [Gist Website Settings](https://app.getgist.com/projects/hipgyaas/settings/api-key) page.
 
 </section>
 <section class="card">
