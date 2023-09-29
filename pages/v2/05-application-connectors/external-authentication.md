@@ -16,11 +16,9 @@ menus:
 
 ## Overview
 
-The external authentication feature needs to be turned on for each individual Partner. 
+If you have a need to set connector authentication credentials on individual steps (perhaps for testing an unauthenticated Connector) you can use the **External Authentication** feature.
 
-To do this you will need to navigate to Admin > Partners > Edit Partner and turn on Enable External Authentication of Connectors setting.
-
-With the External Authentication setting enabled, the following becomes available.
+Please contact Support if you would like this feature to be turned on for your account.
 
 </section>
 <section class="card">
