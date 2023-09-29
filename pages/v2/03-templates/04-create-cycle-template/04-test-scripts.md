@@ -1,0 +1,37 @@
+---
+title: Test scripts
+sidebar: cyclr_sidebar
+permalink: script-tester
+tags: [templates]
+menus:
+    create-cycle-templates:
+        title: Test scripts
+        identifier: script-tester
+        toggleonly: menutoggleonly
+        weight: 4
+---
+{::options parse_block_html="true" /}
+<section class="card">
+If you need to test some javascript outside of your cycle, you can do so with the **Script Testing** Tool.
+
+In your console, go to **Connectors** > **Script Testing**.
+
+
+You should start with an example object (XML/JSON etc) to run your tests on.
+
+This might be a request from a method you wish to call, or the response from said call.
+
+### Using the Script Testing Tool
+
+1. Click `Global` and paste in the object, ensuring you assign the correct datatype, and give it a useful name.<br>
+
+<img src="./images/global-object-setup.png" alt="Global Object Setup." width="400px">
+
+2. Use the left pane to enter your javascript function(s), and in the text box above, call the method (no brackets required).<br>
+3. Click the green **Run** button, and if your javascript is valid, you will see its output in the right-hand pane.<br>
+4. You can now continue to adjust your script until you're happy with the output, pressing **Run** whenever you wish to update the output.<br>
+    ![Example Script Test](./images/example-script-test.png)
+
+For more on scripting, see [Connector Scripting](https://docs.cyclr.com/connector-scripting)
+
+</section>
