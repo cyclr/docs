@@ -18,7 +18,7 @@ There are currently two ServiceNow connectors available:
 <section class="card">
 ## Setup
 
-> Note: Before authenticating either of the ServiceNow connectors you must first obtain a **Personal Developer Instance** within ServiceNow. Details on how to do so can be found [here](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/technology_partner_program/app_store_learnv2_buildmyfirstapp_orlando_personal_developer_instances).
+> Note: Before authenticating either of the ServiceNow connectors you must first obtain a **Personal Developer Instance** within ServiceNow. Details on how to do so can be found [here](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_buildmyfirstapp_vancouver_build_my_first_application/app_store_learnv2_buildmyfirstapp_vancouver_servicenow_basics/app_store_learnv2_buildmyfirstapp_vancouver_personal_developer_instances).
 
 ### Authentication Credentials
 
